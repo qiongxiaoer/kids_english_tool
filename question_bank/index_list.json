@@ -1,0 +1,14 @@
+[
+  {
+    "name": "小学示例题库",
+    "filename": "primary.json"
+  },
+  {
+    "name": "初中示例题库",
+    "filename": "junior.json"
+  },
+  {
+    "name": "高考示例题库",
+    "filename": "senior.json"
+  }
+]

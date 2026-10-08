@@ -1,0 +1,70 @@
+{
+  "words": [
+    {"word":"apple","phonetic":"/ˈæpl/","meaning":"苹果"},
+    {"word":"book","phonetic":"/bʊk/","meaning":"书"},
+    {"word":"cat","phonetic":"/kæt/","meaning":"猫"},
+    {"word":"dog","phonetic":"/dɔːɡ/","meaning":"狗"},
+    {"word":"egg","phonetic":"/eɡ/","meaning":"鸡蛋"},
+    {"word":"fish","phonetic":"/fɪʃ/","meaning":"鱼"},
+    {"word":"happy","phonetic":"/ˈhæpi/","meaning":"快乐的"},
+    {"word":"jump","phonetic":"/dʒʌmp/","meaning":"跳"},
+    {"word":"like","phonetic":"/laɪk/","meaning":"喜欢"},
+    {"word":"school","phonetic":"/skuːl/","meaning":"学校"},
+    {"word":"water","phonetic":"/ˈwɔːtər/","meaning":"水"},
+    {"word":"friend","phonetic":"/frend/","meaning":"朋友"}
+  ],
+  "sentences": [
+    {"en":"I like apples.","zh":"我喜欢苹果。"},
+    {"en":"This is my book.","zh":"这是我的书。"},
+    {"en":"The cat is cute.","zh":"这只猫很可爱。"},
+    {"en":"I have a dog.","zh":"我有一只狗。"},
+    {"en":"She is happy.","zh":"她很开心。"},
+    {"en":"We go to school.","zh":"我们去上学。"},
+    {"en":"Drink some water.","zh":"喝一些水。"},
+    {"en":"He is my friend.","zh":"他是我的朋友。"}
+  ],
+  "grammar": [
+    {
+      "category":"冠词",
+      "question":"I have ___ apple on the table.",
+      "options":["a","an","the","some"],
+      "answer":1,
+      "explain":"apple 以元音音素 /æ/ 开头，不定冠词用 an。"
+    },
+    {
+      "category":"冠词",
+      "question":"She is ___ teacher.",
+      "options":["a","an","the","/"],
+      "answer":0,
+      "explain":"teacher 以辅音音素开头，表示“一名老师”用 a。"
+    },
+    {
+      "category":"介词",
+      "question":"The book is ___ the desk.",
+      "options":["in","on","at","to"],
+      "answer":1,
+      "explain":"表示“在物体表面上”用介词 on。"
+    },
+    {
+      "category":"时态",
+      "question":"I ___ a student.",
+      "options":["am","is","are","be"],
+      "answer":0,
+      "explain":"主语是 I，be 动词用 am。"
+    },
+    {
+      "category":"现在进行",
+      "question":"They ___ playing football now.",
+      "options":["am","is","are","be"],
+      "answer":2,
+      "explain":"现在进行时：be + doing。主语 they 用 are。"
+    },
+    {
+      "category":"一般过去",
+      "question":"I ___ to school yesterday.",
+      "options":["go","goes","went","going"],
+      "answer":2,
+      "explain":"yesterday 表示过去，go 的过去式是 went。"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "words": [
+    {"word":"beautiful","phonetic":"/ˈbjuːtɪfl/","meaning":"美丽的"},
+    {"word":"because","phonetic":"/bɪˈkɔːz/","meaning":"因为"},
+    {"word":"careful","phonetic":"/ˈkerfl/","meaning":"小心的"},
+    {"word":"decide","phonetic":"/dɪˈsaɪd/","meaning":"决定"},
+    {"word":"enough","phonetic":"/ɪˈnʌf/","meaning":"足够的"},
+    {"word":"famous","phonetic":"/ˈfeɪməs/","meaning":"著名的"},
+    {"word":"however","phonetic":"/haʊˈevər/","meaning":"然而"},
+    {"word":"important","phonetic":"/ɪmˈpɔːrtnt/","meaning":"重要的"},
+    {"word":"knowledge","phonetic":"/ˈnɑːlɪdʒ/","meaning":"知识"},
+    {"word":"practice","phonetic":"/ˈpræktɪs/","meaning":"练习"}
+  ],
+  "sentences": [
+    {"en":"She is a beautiful girl.","zh":"她是一个美丽的女孩。"},
+    {"en":"I stayed at home because it rained.","zh":"因为下雨，我待在家里。"},
+    {"en":"Please be careful.","zh":"请小心。"},
+    {"en":"We need to decide now.","zh":"我们现在需要做决定。"},
+    {"en":"This is important knowledge.","zh":"这是重要的知识。"},
+    {"en":"Practice makes perfect.","zh":"熟能生巧。"}
+  ],
+  "grammar": [
+    {
+      "category":"冠词",
+      "question":"___ sun rises in the east.",
+      "options":["A","An","The","/"],
+      "answer":2,
+      "explain":"世界上独一无二的事物（太阳、月亮等）前用 the。"
+    },
+    {
+      "category":"介词",
+      "question":"She has lived here ___ 2019.",
+      "options":["for","since","in","at"],
+      "answer":1,
+      "explain":"since 后接时间点；for 后接时间段。"
+    },
+    {
+      "category":"现在进行",
+      "question":"Listen! The baby ___ crying.",
+      "options":["cry","cries","is crying","cried"],
+      "answer":2,
+      "explain":"Listen! 提示动作正在发生，用现在进行时 is crying。"
+    },
+    {
+      "category":"一般过去",
+      "question":"He ___ his homework last night.",
+      "options":["do","does","did","doing"],
+      "answer":2,
+      "explain":"last night 是过去时间，谓语用过去式 did。"
+    },
+    {
+      "category":"时态",
+      "question":"If it ___ tomorrow, we will stay at home.",
+      "options":["rain","rains","rained","will rain"],
+      "answer":1,
+      "explain":"主将从现：if 从句用一般现在时，主语 it 用 rains。"
+    }
+  ]
+}
