@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>英语默写练习</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-blob blob-a" aria-hidden="true"></div>
+  <div class="bg-blob blob-b" aria-hidden="true"></div>
+
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">Aa</div>
+        <div>
+          <h1>英语默写练习</h1>
+          <p class="tagline">看中文，敲英文 · 本地纯前端</p>
+        </div>
+      </div>
+      <button type="button" class="ghost-btn" id="resetBtn" title="清空本地进度与错题">重置进度</button>
+    </header>
+
+    <nav class="tabs" role="tablist" aria-label="练习模块">
+      <button type="button" class="tab is-active" data-tab="word" role="tab" aria-selected="true">单词默写</button>
+      <button type="button" class="tab" data-tab="sentence" role="tab" aria-selected="false">句子默写</button>
+      <button type="button" class="tab" data-tab="grammar" role="tab" aria-selected="false">语法练习</button>
+      <button type="button" class="tab" data-tab="review" role="tab" aria-selected="false">错题复习</button>
+    </nav>
+
+    <section class="toolbar" id="mainToolbar">
+      <label class="field">
+        <span>词库</span>
+        <select id="dictSelect">
+          <option value="primary">小学</option>
+          <option value="junior">初中</option>
+          <option value="senior">高考</option>
+        </select>
+      </label>
+      <div class="toolbar-actions">
+        <button type="button" class="ghost-btn" id="soundBtn" title="播放发音">🔊 发音</button>
+        <button type="button" class="ghost-btn" id="skipBtn" title="跳过当前题">跳过</button>
+      </div>
+    </section>
+
+    <section class="toolbar review-toolbar hidden" id="reviewToolbar">
+      <div class="chip-group" role="tablist" aria-label="错题类型">
+        <button type="button" class="chip is-active" data-filter="all">全部</button>
+        <button type="button" class="chip" data-filter="word">单词</button>
+        <button type="button" class="chip" data-filter="sentence">句子</button>
+        <button type="button" class="chip" data-filter="grammar">语法</button>
+      </div>
+    </section>
+
+    <main class="stage" id="stage">
+      <p class="hint" id="hint">看中文释义，直接用键盘输入英文单词</p>
+      <p class="prompt" id="prompt"></p>
+      <p class="phonetic hidden" id="phonetic"></p>
+      <div class="letters" id="letters" aria-live="polite"></div>
+      <p class="feedback" id="feedback"></p>
+
+      <div class="grammar hidden" id="grammarBox">
+        <p class="grammar-meta" id="grammarMeta"></p>
+        <p class="grammar-q" id="grammarQuestion"></p>
+        <div class="options" id="grammarOptions"></div>
+        <div class="explain hidden" id="grammarExplain"></div>
+        <button type="button" class="primary-btn hidden" id="grammarNext">下一题</button>
+      </div>
+
+      <div class="review-list hidden" id="reviewList"></div>
+      <p class="empty hidden" id="emptyState"></p>
+    </main>
+
+    <section class="stats" aria-label="练习统计">
+      <div class="stat">
+        <span class="stat-label">WPM</span>
+        <strong id="statWpm">0</strong>
+      </div>
+      <div class="stat">
+        <span class="stat-label">正确率</span>
+        <strong id="statAcc">100%</strong>
+      </div>
+      <div class="stat">
+        <span class="stat-label">已完成</span>
+        <strong id="statDone">0</strong>
+      </div>
+      <div class="stat">
+        <span class="stat-label">进度</span>
+        <strong id="statProgress">0/0</strong>
+      </div>
+    </section>
+
+    <p class="shortcuts">提示：电脑直接敲键盘 · 输错会标红并重来 · Ctrl 播放发音 · 手机请点下方输入框</p>
+  </div>
+
+  <input
+    id="hiddenInput"
+    class="hidden-input"
+    autocomplete="off"
+    autocapitalize="off"
+    autocorrect="off"
+    spellcheck="false"
+    enterkeyhint="done"
+    aria-label="英文输入"
+  />
+
+  <script src="script.js"></script>
+</body>
+</html>
