@@ -135,17 +135,31 @@
     return item.en || "";
   }
   function speak(text) {
-    if (!text || !window.speechSynthesis) return;
+    if (!text) return;
+    if (!window.speechSynthesis) {
+      console.warn("当前浏览器不支持语音合成");
+      alert("当前浏览器不支持发音，请用Chrome或Edge浏览器");
+      return;
+    }
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "en-US";
     u.rate = 0.92;
     const voices = window.speechSynthesis.getVoices();
+    console.log("可用声音数量:", voices.length);
     const us = voices.find((v) => /en-US/i.test(v.lang) && /Google|Microsoft|Samantha|Jenny/i.test(v.name))
       || voices.find((v) => /en-US/i.test(v.lang))
       || voices.find((v) => /^en/i.test(v.lang));
-    if (us) u.voice = us;
-    window.speechSynthesis.speak(u);
+    if (us) {
+      u.voice = us;
+      console.log("使用声音:", us.name);
+    } else {
+      console.warn("没找到英文声音，使用默认");
+    }
+    u.onend = () => console.log("播放完成");
+    u.onerror = (e) => console.error("播放出错:", e);
+    // Chrome bug: cancel() 后立刻 speak() 会被吞掉，加个小延迟
+    setTimeout(() => window.speechSynthesis.speak(u), 100);
   }
   function markMistake(item) {
     if (!item) return;
@@ -582,7 +596,7 @@
       if (state.tab === "grammar" && state.grammarPicked !== null) els.grammarNext.click();
       return;
     }
-    if (e.ctrlKey && !e.altKey && e.key.length === 1) {
+    if ((e.ctrlKey && !e.altKey && e.key.length === 1) || e.key === "Control") {
       e.preventDefault();
       playCurrent();
       return;
@@ -598,7 +612,7 @@
   });
   document.addEventListener("keydown", (e) => {
     if (e.target === els.hiddenInput) return;
-    if (e.ctrlKey && !e.altKey && e.key.length === 1) {
+    if ((e.ctrlKey && !e.altKey && e.key.length === 1) || e.key === "Control") {
       e.preventDefault();
       playCurrent();
       return;

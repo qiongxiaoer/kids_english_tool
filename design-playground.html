@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>设计调参面板 - 英语默写练习</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Nunito", "Noto Sans SC", system-ui, sans-serif;
+    background: #f0ede5;
+    color: #3a3358;
+    padding: 24px;
+  }
+  h1 { font-size: 1.3rem; margin-bottom: 4px; }
+  .sub { color: #888; font-size: 0.85rem; margin-bottom: 20px; }
+  .layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  @media (max-width: 800px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+  .controls {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+  .control-group {
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #eee;
+  }
+  .control-group:last-child { border-bottom: none; }
+  .control-group h3 {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .control-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 0.88rem;
+    gap: 8px;
+  }
+  .control-row label { flex: 1; color: #555; }
+  .control-row input[type="color"] {
+    width: 40px;
+    height: 28px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .control-row input[type="range"] {
+    flex: 1;
+    max-width: 140px;
+  }
+  .control-row .val {
+    font-size: 0.78rem;
+    color: #999;
+    min-width: 40px;
+    text-align: right;
+    font-family: monospace;
+  }
+  .preview {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    overflow: hidden;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .preview-header {
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .preview-logo {
+    width: 40px; height: 40px;
+    border-radius: 12px;
+    display: grid; place-items: center;
+    color: #fff; font-weight: 800;
+  }
+  .preview-tabs {
+    display: flex; gap: 4px;
+    padding: 8px 24px;
+    background: #fafafa;
+  }
+  .preview-tab {
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    color: #999;
+    font-weight: 700;
+  }
+  .preview-tab.active {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .preview-stage {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 24px;
+  }
+  .preview-hint { font-size: 0.85rem; color: #999; margin-bottom: 12px; }
+  .prompt-cn {
+    font-size: var(--prompt-size, 3rem);
+    font-weight: 800;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .preview-phonetic {
+    color: var(--accent-2);
+    margin-bottom: 32px;
+    font-size: 1.1rem;
+  }
+  .preview-letters {
+    display: flex;
+    gap: 10px;
+  }
+  .preview-letter {
+    min-width: 36px;
+    height: 54px;
+    padding: 0 6px;
+    border-bottom: 3px solid var(--line);
+    color: var(--muted);
+    font-size: var(--letter-size, 2.2rem);
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+  }
+  .preview-letter.ok {
+    color: var(--ok);
+    border-bottom-color: var(--ok);
+  }
+  .preview-letter.current {
+    border-bottom-color: var(--accent);
+    color: var(--accent);
+  }
+  .btn-bar {
+    padding: 16px 24px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  .btn {
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .btn.primary {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .output {
+    margin-top: 16px;
+    padding: 16px;
+    background: #2d2d2d;
+    color: #a8e6a3;
+    border-radius: 12px;
+    font-family: monospace;
+    font-size: 0.8rem;
+    white-space: pre;
+    overflow-x: auto;
+    display: none;
+  }
+  .show-output { display: block !important; }
+  .action-bar {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+  }
+  .action-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  .action-btn.secondary {
+    background: #ddd;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+<div class="layout">
+  <div class="controls">
+    <h1>设计调参面板</h1>
+    <p class="sub">拖动滑块和颜色，右边实时预览。调好后点"复制 CSS 变量"发给我。</p>
+
+    <div class="control-group">
+      <h3>主色调</h3>
+      <div class="control-row">
+        <label>主色（按钮/选中）</label>
+        <input type="color" id="accent" value="#6b8e5a">
+        <span class="val" id="accent-val">#6b8e5a</span>
+      </div>
+      <div class="control-row">
+        <label>浅色背景块</label>
+        <input type="color" id="accentSoft" value="#eef2e8">
+        <span class="val" id="accentSoft-val">#eef2e8</span>
+      </div>
+      <div class="control-row">
+        <label>页面背景</label>
+        <input type="color" id="bg" value="#f7f6f1">
+        <span class="val" id="bg-val">#f7f6f1</span>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <h3>文字颜色</h3>
+      <div class="control-row">
+        <label>主文字（中文释义）</label>
+        <input type="color" id="ink" value="#4a3f35">
+        <span class="val" id="ink-val">#4a3f35</span>
+      </div>
+      <div class="control-row">
+        <label>次要文字（提示）</label>
+        <input type="color" id="muted" value="#9a8d7d">
+        <span class="val" id="muted-val">#9a8d7d</span>
+      </div>
+      <div class="control-row">
+        <label>分隔线/边框</label>
+        <input type="color" id="line" value="#e8e2d5">
+        <span class="val" id="line-val">#e8e2d5</span>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <h3>状态色</h3>
+      <div class="control-row">
+        <label>正确（绿色）</label>
+        <input type="color" id="ok" value="#5a9e4f">
+        <span class="val" id="ok-val">#5a9e4f</span>
+      </div>
+      <div class="control-row">
+        <label>错误（红色）</label>
+        <input type="color" id="bad" value="#c9604a">
+        <span class="val" id="bad-val">#c9604a</span>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <h3>字号大小</h3>
+      <div class="control-row">
+        <label>中文释义大小</label>
+        <input type="range" id="promptSize" min="1.5" max="4" step="0.1" value="3">
+        <span class="val" id="promptSize-val">3rem</span>
+      </div>
+      <div class="control-row">
+        <label>字母大小</label>
+        <input type="range" id="letterSize" min="1.2" max="3" step="0.1" value="2.2">
+        <span class="val" id="letterSize-val">2.2rem</span>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <h3>圆角大小</h3>
+      <div class="control-row">
+        <label>卡片圆角</label>
+        <input type="range" id="radius" min="8" max="32" step="1" value="20">
+        <span class="val" id="radius-val">20px</span>
+      </div>
+    </div>
+
+    <div class="action-bar">
+      <button class="action-btn" onclick="copyCSS()">复制 CSS 变量</button>
+      <button class="action-btn secondary" onclick="resetAll()">重置</button>
+    </div>
+    <div class="output" id="output"></div>
+  </div>
+
+  <div class="preview" id="preview">
+    <div class="preview-header">
+      <div class="preview-logo" id="previewLogo">Aa</div>
+      <div>
+        <div style="font-weight:800;font-size:1.05rem;">英语默写练习</div>
+        <div style="font-size:0.78rem;color:#999;">看中文，敲英文 · 本地纯前端</div>
+      </div>
+    </div>
+    <div class="preview-tabs">
+      <div class="preview-tab active">单词默写</div>
+      <div class="preview-tab">句子默写</div>
+      <div class="preview-tab">语法练习</div>
+      <div class="preview-tab">错题复习</div>
+    </div>
+    <div class="preview-stage" id="previewStage">
+      <div class="preview-hint">看中文释义，用键盘输入对应英文单词</div>
+      <div class="prompt-cn">狗</div>
+      <div class="preview-phonetic">/dɔːg/</div>
+      <div class="preview-letters">
+        <div class="preview-letter ok">d</div>
+        <div class="preview-letter ok">o</div>
+        <div class="preview-letter current"></div>
+      </div>
+    </div>
+    <div class="btn-bar">
+      <button class="btn primary">下一题</button>
+      <button class="btn">跳过</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const root = document.documentElement;
+const defaults = {
+  accent: '#6b8e5a', accentSoft: '#eef2e8', bg: '#f7f6f1',
+  ink: '#4a3f35', muted: '#9a8d7d', line: '#e8e2d5',
+  ok: '#5a9e4f', bad: '#c9604a',
+  promptSize: 3, letterSize: 2.2, radius: 20
+};
+
+function update() {
+  const accent = document.getElementById('accent').value;
+  const accentSoft = document.getElementById('accentSoft').value;
+  const bg = document.getElementById('bg').value;
+  const ink = document.getElementById('ink').value;
+  const muted = document.getElementById('muted').value;
+  const line = document.getElementById('line').value;
+  const ok = document.getElementById('ok').value;
+  const bad = document.getElementById('bad').value;
+  const promptSize = document.getElementById('promptSize').value;
+  const letterSize = document.getElementById('letterSize').value;
+  const radius = document.getElementById('radius').value;
+
+  document.documentElement.style.setProperty('--accent', accent);
+  document.documentElement.style.setProperty('--accent-soft', accentSoft);
+  document.documentElement.style.setProperty('--accent-2', accent);
+  document.documentElement.style.setProperty('--ink', ink);
+  document.documentElement.style.setProperty('--muted', muted);
+  document.documentElement.style.setProperty('--line', line);
+  document.documentElement.style.setProperty('--ok', ok);
+  document.documentElement.style.setProperty('--bad', bad);
+  document.documentElement.style.setProperty('--prompt-size', promptSize + 'rem');
+  document.documentElement.style.setProperty('--letter-size', letterSize + 'rem');
+
+  document.getElementById('preview').style.borderRadius = radius + 'px';
+  document.getElementById('previewStage').style.background = bg;
+  document.getElementById('previewLogo').style.background = `linear-gradient(160deg, ${accent}, ${accent}99)`;
+
+  // update labels
+  ['accent','accentSoft','bg','ink','muted','line','ok','bad'].forEach(id => {
+    document.getElementById(id + '-val').textContent = document.getElementById(id).value;
+  });
+  document.getElementById('promptSize-val').textContent = promptSize + 'rem';
+  document.getElementById('letterSize-val').textContent = letterSize + 'rem';
+  document.getElementById('radius-val').textContent = radius + 'px';
+}
+
+function copyCSS() {
+  const css = `:root {
+  --accent: ${document.getElementById('accent').value};
+  --accent-soft: ${document.getElementById('accentSoft').value};
+  --bg: ${document.getElementById('bg').value};
+  --ink: ${document.getElementById('ink').value};
+  --muted: ${document.getElementById('muted').value};
+  --line: ${document.getElementById('line').value};
+  --ok: ${document.getElementById('ok').value};
+  --bad: ${document.getElementById('bad').value};
+}`;
+  navigator.clipboard.writeText(css).then(() => {
+    const out = document.getElementById('output');
+    out.textContent = css;
+    out.classList.add('show-output');
+    out.textContent = '✓ 已复制！把下面这段发给我即可：\n\n' + css;
+  });
+}
+
+function resetAll() {
+  Object.entries(defaults).forEach(([k, v]) => {
+    document.getElementById(k).value = v;
+  });
+  update();
+}
+
+document.querySelectorAll('input').forEach(el => {
+  el.addEventListener('input', update);
+});
+update();
+</script>
+</body>
+</html>
