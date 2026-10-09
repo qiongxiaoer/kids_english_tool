@@ -5,6 +5,10 @@
   // 题库索引列表
   let bankIndexList = [];
   const KIND_NAME = { word: "单词", sentence: "句子", grammar: "语法" };
+  // 中文输入法常见标点 → 英文标点映射，句子默写时中文标点不判错
+  const PUNCT_MAP = { "，": ",", "。": ".", "！": "!", "？": "?", "；": ";", "：": ":", "‘": "'", "’": "'", "“": '"', "”": '"' };
+  // 句子默写允许的英文标点
+  const EN_PUNCT = /[.,!?;:'"]/;
   const els = {
     tabs: [...document.querySelectorAll(".tab")],
     bankSelect: document.getElementById("bankSelect"),
@@ -23,6 +27,7 @@
     grammarBox: document.getElementById("grammarBox"),
     grammarMeta: document.getElementById("grammarMeta"),
     grammarQuestion: document.getElementById("grammarQuestion"),
+    grammarQuestionZh: document.getElementById("grammarQuestionZh"),
     grammarOptions: document.getElementById("grammarOptions"),
     grammarExplain: document.getElementById("grammarExplain"),
     grammarNext: document.getElementById("grammarNext"),
@@ -312,6 +317,9 @@
     els.grammarBox.classList.remove("hidden");
     els.grammarMeta.textContent = item.category;
     els.grammarQuestion.textContent = item.question;
+    // 语法题中文翻译（BUG-011）：避免题目看不懂只能猜选项
+    els.grammarQuestionZh.textContent = item.question_zh || "";
+    els.grammarQuestionZh.classList.toggle("hidden", !item.question_zh);
     els.grammarOptions.innerHTML = "";
     item.options.forEach((opt, i) => {
       const btn = document.createElement("button");
@@ -416,6 +424,10 @@
     if (!item || item.kind === "grammar" || (state.tab === "review" && !state.practiceQueue)) return;
     const target = expectedText(item);
     if (!target) return;
+    // 中文标点转英文标点（句子默写时中文输入法打出的标点不判错）
+    if (PUNCT_MAP[ch]) ch = PUNCT_MAP[ch];
+    // 只接受 字母、空格、句子标点；其余字符（汉字、数字、符号、输入法组合等）一律忽略，不判错
+    if (!/^[a-zA-Z]$/.test(ch) && ch !== " " && !EN_PUNCT.test(ch)) return;
     touchTimer();
     state.stats.totalChars += 1;
     const next = target[state.typed.length];
@@ -431,21 +443,30 @@
         setTimeout(() => finishItem(item, true), 420);
       }
     } else {
-      state.typed += ch;
+      // 记录错题
       markMistake(item);
-      save();
-      renderLetters(target, state.typed, true);
-      els.feedback.textContent = "输入错误，请重新输入";
+      // 临时把错误字母标红展示
+      const errTyped = state.typed + ch;
+      renderLetters(target, errTyped, true);
+      els.feedback.textContent = "输错了一个字母，从当前单词重新输入";
       els.feedback.style.color = "var(--bad)";
       state.locking = true;
+      // 定位错误字母所在单词：回退到它前面最近一个空格之后（即该单词开头）
+      // 单词默写（无空格）则回退到开头；句子则只回退到出错的那个单词，不用整句重来
+      const errPos = state.typed.length;
+      let spaceIdx = -1;
+      for (let i = errPos - 1; i >= 0; i--) {
+        if (target[i] === " ") { spaceIdx = i; break; }
+      }
+      const keepLen = spaceIdx + 1;
       setTimeout(() => {
-        state.typed = "";
+        state.typed = target.slice(0, keepLen);
         state.locking = false;
         els.feedback.textContent = "";
-        renderLetters(target, "", false);
+        renderLetters(target, state.typed, false);
         els.hiddenInput.value = "";
         focusInput();
-      }, 380);
+      }, 500);
     }
     updateStats();
   }
@@ -566,12 +587,10 @@
       playCurrent();
       return;
     }
-    if (e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey) {
-      e.preventDefault();
-      handleChar(e.key);
-    }
+    // 普通字符不在 keydown 处理：让 input 事件统一接收，避免同一字母被处理两次（BUG-010）
   });
-  els.hiddenInput.addEventListener("input", () => {
+  els.hiddenInput.addEventListener("input", (e) => {
+    if (e.isComposing) return; // 中文输入法组合输入中，不处理
     const value = els.hiddenInput.value;
     els.hiddenInput.value = "";
     if (!value) return;

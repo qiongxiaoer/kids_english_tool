@@ -1,56 +1,133 @@
 {
   "words": [
-    {"word":"abandon","phonetic":"/əˈbændən/","meaning":"放弃"},
-    {"word":"academic","phonetic":"/ˌækəˈdemɪk/","meaning":"学术的"},
-    {"word":"ambitious","phonetic":"/æmˈbɪʃəs/","meaning":"有雄心的"},
-    {"word":"circumstance","phonetic":"/ˈsɜːrkəmstæns/","meaning":"情况；环境"},
-    {"word":"consequently","phonetic":"/ˈkɑːnsɪkwentli/","meaning":"因此"},
-    {"word":"demonstrate","phonetic":"/ˈdemənstreɪt/","meaning":"证明；展示"},
-    {"word":"environment","phonetic":"/ɪnˈvaɪrənmənt/","meaning":"环境"},
-    {"word":"fundamental","phonetic":"/ˌfʌndəˈmentl/","meaning":"基本的"}
+    {
+      "word": "abandon",
+      "phonetic": "/əˈbændən/",
+      "meaning": "放弃"
+    },
+    {
+      "word": "academic",
+      "phonetic": "/ˌækəˈdemɪk/",
+      "meaning": "学术的"
+    },
+    {
+      "word": "ambitious",
+      "phonetic": "/æmˈbɪʃəs/",
+      "meaning": "有雄心的"
+    },
+    {
+      "word": "circumstance",
+      "phonetic": "/ˈsɜːrkəmstæns/",
+      "meaning": "情况；环境"
+    },
+    {
+      "word": "consequently",
+      "phonetic": "/ˈkɑːnsɪkwentli/",
+      "meaning": "因此"
+    },
+    {
+      "word": "demonstrate",
+      "phonetic": "/ˈdemənstreɪt/",
+      "meaning": "证明；展示"
+    },
+    {
+      "word": "environment",
+      "phonetic": "/ɪnˈvaɪrənmənt/",
+      "meaning": "环境"
+    },
+    {
+      "word": "fundamental",
+      "phonetic": "/ˌfʌndəˈmentl/",
+      "meaning": "基本的"
+    }
   ],
   "sentences": [
-    {"en":"Never abandon your dreams.","zh":"永远不要放弃你的梦想。"},
-    {"en":"The academic report is well written.","zh":"这份学术报告写得很好。"},
-    {"en":"He is ambitious and hard‑working.","zh":"他既有抱负又勤奋。"},
-    {"en":"Under no circumstance should you give up.","zh":"在任何情况下你都不应该放弃。"},
-    {"en":"The environment is fundamental to our life.","zh":"环境对我们的生活至关重要。"}
+    {
+      "en": "Never abandon your dreams.",
+      "zh": "永远不要放弃你的梦想。"
+    },
+    {
+      "en": "The academic report is well written.",
+      "zh": "这份学术报告写得很好。"
+    },
+    {
+      "en": "He is ambitious and hard‑working.",
+      "zh": "他既有抱负又勤奋。"
+    },
+    {
+      "en": "Under no circumstance should you give up.",
+      "zh": "在任何情况下你都不应该放弃。"
+    },
+    {
+      "en": "The environment is fundamental to our life.",
+      "zh": "环境对我们的生活至关重要。"
+    }
   ],
   "grammar": [
     {
-      "category":"冠词",
-      "question":"He is ___ honest man.",
-      "options":["a","an","the","/"],
-      "answer":1,
-      "explain":"honest 以元音音素 /ɒ/ 开头，虽然首字母是 h，仍用 an。"
+      "category": "冠词",
+      "question": "He is ___ honest man.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "/"
+      ],
+      "answer": 1,
+      "explain": "honest 以元音音素 /ɒ/ 开头，虽然首字母是 h，仍用 an。",
+      "question_zh": "他是一个诚实的人。"
     },
     {
-      "category":"介词",
-      "question":"The success came ___ hard work.",
-      "options":["from","through","by","with"],
-      "answer":1,
-      "explain":"through 可表示“通过某种过程或努力而达成”。"
+      "category": "介词",
+      "question": "The success came ___ hard work.",
+      "options": [
+        "from",
+        "through",
+        "by",
+        "with"
+      ],
+      "answer": 1,
+      "explain": "through 可表示“通过某种过程或努力而达成”。",
+      "question_zh": "成功来自于努力工作。"
     },
     {
-      "category":"时态",
-      "question":"By the time we arrived, the film ___ already.",
-      "options":["started","has started","had started","was starting"],
-      "answer":2,
-      "explain":"“到达”是过去，电影开始发生在那之前，用过去完成时 had started。"
+      "category": "时态",
+      "question": "By the time we arrived, the film ___ already.",
+      "options": [
+        "started",
+        "has started",
+        "had started",
+        "was starting"
+      ],
+      "answer": 2,
+      "explain": "“到达”是过去，电影开始发生在那之前，用过去完成时 had started。",
+      "question_zh": "当我们到达时，电影已经开始了。"
     },
     {
-      "category":"现在进行",
-      "question":"I ___ a letter now, so I can't go out.",
-      "options":["write","wrote","am writing","have written"],
-      "answer":2,
-      "explain":"now 表示此刻正在写信，用现在进行时 am writing。"
+      "category": "现在进行",
+      "question": "I ___ a letter now, so I can't go out.",
+      "options": [
+        "write",
+        "wrote",
+        "am writing",
+        "have written"
+      ],
+      "answer": 2,
+      "explain": "now 表示此刻正在写信，用现在进行时 am writing。",
+      "question_zh": "我现在正在写信，所以不能出去。"
     },
     {
-      "category":"一般过去",
-      "question":"They ___ in London for five years before they moved.",
-      "options":["live","lived","have lived","are living"],
-      "answer":1,
-      "explain":"moved 之前的一段过去经历，用一般过去时 lived。"
+      "category": "一般过去",
+      "question": "They ___ in London for five years before they moved.",
+      "options": [
+        "live",
+        "lived",
+        "have lived",
+        "are living"
+      ],
+      "answer": 1,
+      "explain": "moved 之前的一段过去经历，用一般过去时 lived。",
+      "question_zh": "他们搬走之前已经在伦敦住了五年。"
     }
   ]
 }
