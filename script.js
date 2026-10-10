@@ -7,14 +7,13 @@
   const KIND_NAME = { word: "单词", sentence: "句子", grammar: "语法" };
   // 中文输入法常见标点 → 英文标点映射，句子默写时中文标点不判错
   const PUNCT_MAP = { "，": ",", "。": ".", "！": "!", "？": "?", "；": ";", "：": ":", "‘": "'", "’": "'", "“": '"', "”": '"' };
-  // 句子默写允许的英文标点
-  const EN_PUNCT = /[.,!?;:'"]/;
   const els = {
     tabs: [...document.querySelectorAll(".tab")],
     bankSelect: document.getElementById("bankSelect"),
     loadBankBtn: document.getElementById("loadBankBtn"),
     resetBtn: document.getElementById("resetBtn"),
     soundBtn: document.getElementById("soundBtn"),
+    hintBtn: document.getElementById("hintBtn"),
     skipBtn: document.getElementById("skipBtn"),
     mainToolbar: document.getElementById("mainToolbar"),
     reviewToolbar: document.getElementById("reviewToolbar"),
@@ -251,7 +250,7 @@
         span.textContent = ch === " " ? " " : typed[i];
         span.classList.add(bad && i === typed.length - 1 ? "bad" : "ok");
       } else {
-        const punct = /[.,!?;:'"]/.test(ch);
+        const punct = /[.,!?;:'"-]/.test(ch);
         span.textContent = ch === " " ? " " : punct ? ch : "";
         if (i === typed.length) span.classList.add("current");
       }
@@ -281,6 +280,7 @@
     els.reviewToolbar.classList.toggle("hidden", state.tab !== "review");
     els.soundBtn.classList.toggle("hidden", state.tab === "grammar" || inReviewList);
     els.skipBtn.classList.toggle("hidden", inReviewList);
+    els.hintBtn.classList.toggle("hidden", state.tab === "grammar" || inReviewList);
     els.grammarBox.classList.add("hidden");
     els.reviewList.classList.add("hidden");
     els.emptyState.classList.add("hidden");
@@ -440,14 +440,23 @@
     if (!target) return;
     // 中文标点转英文标点（句子默写时中文输入法打出的标点不判错）
     if (PUNCT_MAP[ch]) ch = PUNCT_MAP[ch];
-    // 只接受 字母、空格、句子标点；其余字符（汉字、数字、符号、输入法组合等）一律忽略，不判错
-    if (!/^[a-zA-Z]$/.test(ch) && ch !== " " && !EN_PUNCT.test(ch)) return;
+    // 只接受 字母；符号（- . 空格 标点等）由自动填充处理，孩子只需敲字母（BUG-012）
+    if (!/^[a-zA-Z]$/.test(ch)) return;
     touchTimer();
     state.stats.totalChars += 1;
+    // 自动填充：跳过并直接显示目标中当前遇到的非字母符号（空格/标点/连字符等），免输入
+    while (state.typed.length < target.length && !/[a-zA-Z]/.test(target[state.typed.length])) {
+      state.typed += target[state.typed.length];
+    }
+    renderLetters(target, state.typed, false);
     const next = target[state.typed.length];
     if (ch === next) {
       state.typed += ch;
       state.stats.correctChars += 1;
+      // 再次自动填充该字母之后的非字母符号（句末标点/空格等），免输入即完成
+      while (state.typed.length < target.length && !/[a-zA-Z]/.test(target[state.typed.length])) {
+        state.typed += target[state.typed.length];
+      }
       save();
       renderLetters(target, state.typed, false);
       if (state.typed === target) {
@@ -508,9 +517,18 @@
     state.grammarPicked = null;
     render();
   }
-  // 加载题库索引清单
+  // 加载题库索引清单（优先用内置数据，兼容 file:// 直接打开；fetch 作为备用）
   async function loadBankIndex() {
     try {
+      if (window.__EMBEDDED_BANK_INDEX) {
+        bankIndexList = window.__EMBEDDED_BANK_INDEX;
+        renderBankSelect();
+        if (state.bankFilename) {
+          const found = bankIndexList.find(b => b.filename === state.bankFilename);
+          if (found) els.bankSelect.value = found.filename;
+        }
+        return;
+      }
       const res = await fetch("./question_bank/index_list.json");
       bankIndexList = await res.json();
       renderBankSelect();
@@ -532,11 +550,17 @@
       els.bankSelect.appendChild(opt);
     })
   }
-  // 点击加载题库按钮，懒加载对应的json题库
+  // 点击加载题库按钮，懒加载对应的json题库（优先内置数据，fetch 备用）
   async function doLoadBank(filename){
     try{
-      const resp = await fetch(`./question_bank/${filename}`);
-      currentBankData = await resp.json();
+      let data;
+      if (window.__EMBEDDED_BANKS && window.__EMBEDDED_BANKS[filename]) {
+        data = window.__EMBEDDED_BANKS[filename];
+      } else {
+        const resp = await fetch(`./question_bank/${filename}`);
+        data = await resp.json();
+      }
+      currentBankData = data;
       state.bankFilename = filename;
       state.typed = "";
       state.grammarPicked = null;
@@ -572,6 +596,26 @@
   });
   els.soundBtn.addEventListener("click", playCurrent);
   els.skipBtn.addEventListener("click", skipCurrent);
+  els.hintBtn.addEventListener("click", () => {
+    const item = currentTarget();
+    if (!item || item.kind === "grammar" || (state.tab === "review" && !state.practiceQueue)) return;
+    const target = expectedText(item);
+    if (!target || state.locking) return;
+    // 用过提示的单词/句子自动加入错题本
+    markMistake(item);
+    // 立即显示完整答案
+    state.locking = true;
+    renderLetters(target, target, false);
+    els.feedback.textContent = "已显示答案，请记住后输入";
+    els.feedback.style.color = "var(--accent)";
+    // 3 秒后自动恢复遮挡状态，供输入
+    setTimeout(() => {
+      state.locking = false;
+      els.feedback.textContent = "";
+      renderLetters(target, state.typed, false);
+      focusInput();
+    }, 3000);
+  });
   els.grammarNext.addEventListener("click", () => {
     const item = currentTarget();
     if (!item) return;
@@ -585,8 +629,19 @@
     currentBankData=null;
     render();
   });
-  els.hiddenInput.addEventListener("keydown", (e) => {
-    if (e.isComposing) return;
+  // 全局键盘输入：不依赖 hiddenInput 聚焦，只要窗口激活即可输入（修复"必须按住鼠标才能输入"）
+  window.addEventListener("keydown", (e) => {
+    if (e.isComposing) return; // 中文输入法组合输入中，交给 input 事件处理
+    const item = currentTarget();
+    const isTypingTarget = item && item.kind !== "grammar"
+      && !(state.tab === "review" && !state.practiceQueue);
+    // 语音快捷键：Ctrl+单字符 或 单独的 Ctrl
+    if ((e.ctrlKey && !e.altKey && e.key.length === 1) || e.key === "Control") {
+      e.preventDefault();
+      playCurrent();
+      return;
+    }
+    if (!isTypingTarget) return;
     if (e.key === "Backspace") {
       e.preventDefault();
       return;
@@ -596,13 +651,13 @@
       if (state.tab === "grammar" && state.grammarPicked !== null) els.grammarNext.click();
       return;
     }
-    if ((e.ctrlKey && !e.altKey && e.key.length === 1) || e.key === "Control") {
+    // 普通字符：阻止默认输入（防止与 input 事件重复），直接交给 handleChar
+    if (e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey) {
       e.preventDefault();
-      playCurrent();
-      return;
+      handleChar(e.key);
     }
-    // 普通字符不在 keydown 处理：让 input 事件统一接收，避免同一字母被处理两次（BUG-010）
   });
+  // 兜底：input 事件仍接收（如移动端软键盘、中文输入法组合后的实际字符）
   els.hiddenInput.addEventListener("input", (e) => {
     if (e.isComposing) return; // 中文输入法组合输入中，不处理
     const value = els.hiddenInput.value;
@@ -610,17 +665,7 @@
     if (!value) return;
     for (const ch of value) handleChar(ch);
   });
-  document.addEventListener("keydown", (e) => {
-    if (e.target === els.hiddenInput) return;
-    if ((e.ctrlKey && !e.altKey && e.key.length === 1) || e.key === "Control") {
-      e.preventDefault();
-      playCurrent();
-      return;
-    }
-    if (e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey) {
-      handleChar(e.key);
-    }
-  });
+  // 点击页面空白处自动聚焦输入框（移动端软键盘需要）
   document.addEventListener("click", (e) => {
     if (e.target.closest("button, select, a, .option, .chip, .tab")) return;
     focusInput();

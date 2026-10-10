@@ -76,9 +76,9 @@ body {
 
 .header {
   position: relative;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 16px;
   margin: 0 -24px 22px;
   padding: 16px 24px;
@@ -230,6 +230,28 @@ select {
 .chip:hover {
   border-color: #D8C898;
   color: var(--accent);
+}
+
+/* 重置进度：柔和警示风 */
+.reset-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #FFF3E6;
+  border-color: #F0D3A8;
+  color: #C67A3C;
+}
+
+.reset-icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+}
+
+.reset-btn:hover {
+  border-color: #E5B87F;
+  color: #B06A2E;
+  background: #FFEEDC;
 }
 
 .primary-btn {
@@ -515,28 +537,28 @@ body:not(.is-typing) .hidden-input {
 }
 
 body.is-desktop .hidden-input {
-  position: absolute;
+  position: fixed;
   opacity: 0;
   pointer-events: none;
   width: 1px;
   height: 1px;
-  bottom: auto;
-  left: -9999px;
+  top: 0;
+  left: 0;
 }
 
 @media (max-width: 720px) {
   .header {
-    grid-template-columns: 1fr auto;
+    flex-wrap: wrap;
     gap: 10px;
   }
 
   .header .tabs {
     position: static;
     transform: none;
-    grid-column: 1 / -1;
+    flex-basis: 100%;
+    order: 3;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
-    order: 3;
   }
 
   .header .tabs .tab {
@@ -556,10 +578,6 @@ body.is-desktop .hidden-input {
 
   .stats {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .header {
-    align-items: center;
   }
 
   body {

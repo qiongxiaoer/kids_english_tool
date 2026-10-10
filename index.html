@@ -27,7 +27,10 @@
         <button type="button" class="tab" data-tab="grammar" role="tab" aria-selected="false">语法练习</button>
         <button type="button" class="tab" data-tab="review" role="tab" aria-selected="false">错题复习</button>
       </nav>
-      <button type="button" class="ghost-btn" id="resetBtn" title="清空本地进度与错题">重置进度</button>
+      <button type="button" class="ghost-btn reset-btn" id="resetBtn" title="清空本地进度与错题">
+        <svg class="reset-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12a8 8 0 1 1 2.34 5.66" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 21v-4h4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        重置进度
+      </button>
     </header>
     <section class="toolbar" id="mainToolbar">
       <label class="field">
@@ -39,6 +42,7 @@
       <button type="button" class="ghost-btn" id="loadBankBtn">加载题库</button>
       <div class="toolbar-actions">
         <button type="button" class="ghost-btn icon-btn" id="soundBtn" title="播放发音"><img src="sound-icon.png" alt="发音" class="btn-icon">发音</button>
+        <button type="button" class="ghost-btn" id="hintBtn" title="显示答案3秒，自动加入错题本">提示</button>
         <button type="button" class="ghost-btn" id="skipBtn" title="跳过当前题">跳过</button>
       </div>
     </section>
@@ -97,6 +101,7 @@
     enterkeyhint="done"
     aria-label="英文输入"
   />
+  <script src="question_bank/embedded_banks.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
