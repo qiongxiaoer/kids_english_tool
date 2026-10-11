@@ -82,15 +82,21 @@
     }
   }
   function save() {
-    const toSave = {
-      tab: state.tab,
-      bankFilename: state.bankFilename,
-      reviewFilter: state.reviewFilter,
-      stats: state.stats,
-      progress: state.progress,
-      mistakes: state.mistakes
-    };
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
+    // 隐私模式 / 禁用 Cookie / file:// 配额受限时 localStorage.setItem 可能抛异常，
+    // 用 try/catch 兜底，保证练习流程不被存储失败打断（仅本次进度无法持久化）
+    try {
+      const toSave = {
+        tab: state.tab,
+        bankFilename: state.bankFilename,
+        reviewFilter: state.reviewFilter,
+        stats: state.stats,
+        progress: state.progress,
+        mistakes: state.mistakes
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
+    } catch (e) {
+      console.warn("进度无法保存到本地（浏览器禁用了本地存储）：", e);
+    }
   }
   function isDesktop() {
     return window.matchMedia("(pointer: fine)").matches && !("ontouchstart" in window);
@@ -624,7 +630,7 @@
   });
   els.resetBtn.addEventListener("click", () => {
     if (!confirm("确定清空学习进度、统计和错题本吗？")) return;
-    localStorage.removeItem(STORAGE_KEY);
+    try { localStorage.removeItem(STORAGE_KEY); } catch (e) { /* 本地存储不可用时忽略 */ }
     state = defaultState();
     currentBankData=null;
     render();
@@ -670,9 +676,15 @@
     if (e.target.closest("button, select, a, .option, .chip, .tab")) return;
     focusInput();
   });
-  window.speechSynthesis?.getVoices();
-  if (window.speechSynthesis) {
-    window.speechSynthesis.addEventListener("voiceschanged", () => {});
+  // 预热语音列表（Safari 的 speechSynthesis 不是 EventTarget，没有 addEventListener，
+  // 只能用 onvoiceschanged 属性赋值，且需 try/catch 兜底，否则抛错会中断整个脚本初始化）
+  try {
+    if (window.speechSynthesis && typeof window.speechSynthesis.getVoices === "function") {
+      window.speechSynthesis.getVoices();
+      window.speechSynthesis.onvoiceschanged = () => {};
+    }
+  } catch (e) {
+    console.warn("语音引擎初始化失败：", e);
   }
 
 // 初始化：先读取题库索引
