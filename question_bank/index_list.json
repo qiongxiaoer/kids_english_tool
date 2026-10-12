@@ -1,14 +1,64 @@
 [
   {
-    "name": "小学示例题库",
-    "filename": "primary.json"
+    "category": "小学",
+    "categoryId": "primary",
+    "banks": [
+      { "name": "三年级上册", "filename": "primary_3a.json", "available": true },
+      { "name": "三年级下册", "filename": "primary_3b.json", "available": true },
+      { "name": "四年级上册", "filename": "primary_4a.json", "available": true },
+      { "name": "四年级下册", "filename": "primary_4b.json", "available": true },
+      { "name": "五年级上册", "filename": "primary_5a.json", "available": true },
+      { "name": "五年级下册", "filename": "primary_5b.json", "available": true },
+      { "name": "六年级上册", "filename": "primary_6a.json", "available": true },
+      { "name": "六年级下册", "filename": "primary_6b.json", "available": true },
+      { "name": "一年级上册", "filename": "primary_1a.json", "available": false },
+      { "name": "一年级下册", "filename": "primary_1b.json", "available": false },
+      { "name": "二年级上册", "filename": "primary_2a.json", "available": false },
+      { "name": "二年级下册", "filename": "primary_2b.json", "available": false },
+      { "name": "小学拔高词汇", "filename": "primary_advanced.json", "available": false },
+      { "name": "自然拼读核心词", "filename": "phonics.json", "available": false }
+    ]
   },
   {
-    "name": "初中示例题库",
-    "filename": "junior.json"
+    "category": "初中",
+    "categoryId": "junior",
+    "banks": [
+      { "name": "七年级上册", "filename": "junior_7a.json", "available": false },
+      { "name": "七年级下册", "filename": "junior_7b.json", "available": false },
+      { "name": "八年级上册", "filename": "junior_8a.json", "available": false },
+      { "name": "八年级下册", "filename": "junior_8b.json", "available": false },
+      { "name": "九年级上册", "filename": "junior_9a.json", "available": false },
+      { "name": "九年级下册", "filename": "junior_9b.json", "available": false },
+      { "name": "初中示例题库", "filename": "junior.json", "available": true },
+      { "name": "中考核心 1600", "filename": "zhongkao_1600.json", "available": false },
+      { "name": "中考高频 500", "filename": "zhongkao_500.json", "available": false }
+    ]
   },
   {
-    "name": "高考示例题库",
-    "filename": "senior.json"
+    "category": "高中",
+    "categoryId": "senior",
+    "banks": [
+      { "name": "高一上册", "filename": "senior_10a.json", "available": false },
+      { "name": "高一下册", "filename": "senior_10b.json", "available": false },
+      { "name": "高二上册", "filename": "senior_11a.json", "available": false },
+      { "name": "高二下册", "filename": "senior_11b.json", "available": false },
+      { "name": "高三上册", "filename": "senior_12a.json", "available": false },
+      { "name": "高三下册", "filename": "senior_12b.json", "available": false },
+      { "name": "高考示例题库", "filename": "senior.json", "available": true },
+      { "name": "高考核心 3500", "filename": "gaokao_3500.json", "available": false },
+      { "name": "高考高频 800", "filename": "gaokao_800.json", "available": false }
+    ]
+  },
+  {
+    "category": "拓展",
+    "categoryId": "extra",
+    "banks": [
+      { "name": "新概念英语 1 册", "filename": "nce_1.json", "available": false },
+      { "name": "新概念英语 2 册", "filename": "nce_2.json", "available": false },
+      { "name": "新概念英语 3 册", "filename": "nce_3.json", "available": false },
+      { "name": "剑桥少儿英语", "filename": "cambridge_kids.json", "available": false },
+      { "name": "KET 词汇", "filename": "ket.json", "available": false },
+      { "name": "PET 词汇", "filename": "pet.json", "available": false }
+    ]
   }
 ]

@@ -9,7 +9,14 @@
   const PUNCT_MAP = { "，": ",", "。": ".", "！": "!", "？": "?", "；": ";", "：": ":", "‘": "'", "’": "'", "“": '"', "”": '"' };
   const els = {
     tabs: [...document.querySelectorAll(".tab")],
+    categorySelect: document.getElementById("categorySelect"),
+    categorySelectTrigger: document.getElementById("categorySelectTrigger"),
+    categorySelectMenu: document.getElementById("categorySelectMenu"),
+    categorySelectValue: document.querySelector("#categorySelect .select-value"),
     bankSelect: document.getElementById("bankSelect"),
+    bankSelectTrigger: document.getElementById("bankSelectTrigger"),
+    bankSelectMenu: document.getElementById("bankSelectMenu"),
+    bankSelectValue: document.querySelector("#bankSelect .select-value"),
     loadBankBtn: document.getElementById("loadBankBtn"),
     resetBtn: document.getElementById("resetBtn"),
     soundBtn: document.getElementById("soundBtn"),
@@ -17,6 +24,8 @@
     skipBtn: document.getElementById("skipBtn"),
     mainToolbar: document.getElementById("mainToolbar"),
     reviewToolbar: document.getElementById("reviewToolbar"),
+    dueReviewBtn: document.getElementById("dueReviewBtn"),
+    dueCount: document.getElementById("dueCount"),
     chips: [...document.querySelectorAll(".chip")],
     hint: document.getElementById("hint"),
     prompt: document.getElementById("prompt"),
@@ -43,6 +52,7 @@
     bankFilename: "",
     reviewFilter: "all",
     practiceQueue: null,
+    reviewSession: false,
     typed: "",
     locking: false,
     grammarPicked: null,
@@ -55,6 +65,19 @@
     progress: {},
     mistakes: { word: [], sentence: [], grammar: [] }
   });
+  // 艾宾浩斯记忆曲线：答对后下一次复习的间隔（天），走完即毕业移出错题本
+  const REVIEW_INTERVALS = [1, 2, 4, 7, 15];
+  const DAY_MS = 86400000;
+  const mistakeKey = (x) => x.word || x.en || x.question;
+  // 旧版本错题无调度字段：补充默认值，全部视为"已到期"，纳入今日复习
+  function normalizeMistakes(arr) {
+    return (arr || []).map((x) => ({
+      ...x,
+      addedAt: x.addedAt || Date.now(),
+      stage: x.stage || 0,
+      dueAt: x.dueAt || 0
+    }));
+  }
   let state = load();
   function load() {
     try {
@@ -68,14 +91,15 @@
         stats: { ...base.stats, ...(saved.stats || {}) },
         progress: saved.progress ?? {},
         mistakes: {
-          word: (saved.mistakes && saved.mistakes.word) || [],
-          sentence: (saved.mistakes && saved.mistakes.sentence) || [],
-          grammar: (saved.mistakes && saved.mistakes.grammar) || []
+          word: normalizeMistakes(saved.mistakes && saved.mistakes.word),
+          sentence: normalizeMistakes(saved.mistakes && saved.mistakes.sentence),
+          grammar: normalizeMistakes(saved.mistakes && saved.mistakes.grammar)
         },
         typed: "",
         locking: false,
         grammarPicked: null,
-        practiceQueue: saved.practiceQueue || null
+        practiceQueue: saved.practiceQueue || null,
+        reviewSession: false
       };
     } catch {
       return defaultState();
@@ -171,13 +195,50 @@
     const kind = item.kind;
     const list = state.mistakes[kind];
     const key = kind === "word" ? item.word : kind === "sentence" ? item.en : item.question;
-    const exists = list.some((x) => (x.word || x.en || x.question) === key);
-    if (!exists) {
-      const copy = JSON.parse(JSON.stringify(item));
-      copy.kind = kind;
-      list.push(copy);
+    const exists = list.find((x) => (x.word || x.en || x.question) === key);
+    if (exists) {
+      // 再次答错：记忆曲线重置，当天重新到期
+      exists.stage = 0;
+      exists.dueAt = Date.now();
       save();
+      return;
     }
+    const copy = JSON.parse(JSON.stringify(item));
+    copy.kind = kind;
+    copy.addedAt = Date.now();
+    copy.stage = 0;          // 复习阶段：0 起，每答对一次升一级
+    copy.dueAt = Date.now(); // 新错题当天即可复习
+    list.push(copy);
+    save();
+  }
+  function findMistakeRecord(kind, key) {
+    return state.mistakes[kind].find((x) => mistakeKey(x) === key);
+  }
+  // 复习答对：升入下一个间隔；走完全部间隔则毕业移出错题本
+  function advanceMistake(item) {
+    const rec = findMistakeRecord(item.kind, mistakeKey(item));
+    if (!rec) return;
+    rec.stage = (rec.stage || 0) + 1;
+    if (rec.stage > REVIEW_INTERVALS.length) {
+      removeMistake(item);
+      return;
+    }
+    rec.dueAt = Date.now() + REVIEW_INTERVALS[rec.stage - 1] * DAY_MS;
+    save();
+  }
+  // 复习答错：重置回 1 天间隔，明天再复习
+  function scheduleMistakeTomorrow(item) {
+    const rec = findMistakeRecord(item.kind, mistakeKey(item));
+    if (!rec) return;
+    rec.stage = 0;
+    rec.dueAt = Date.now() + DAY_MS;
+    save();
+  }
+  // 今日到期的错题（按到期时间升序）
+  function dueMistakes() {
+    return allMistakes()
+      .filter((x) => (x.dueAt || 0) <= Date.now())
+      .sort((a, b) => (a.dueAt || 0) - (b.dueAt || 0));
   }
   function removeMistake(item) {
     const kind = item.kind;
@@ -214,7 +275,7 @@
     let total = 0;
     let idx = 0;
     if (state.tab === "review") {
-      total = allMistakes().length;
+      total = state.practiceQueue ? state.practiceQueue.length : allMistakes().length;
       els.statProgress.textContent = `${total} 题`;
     } else if (currentBankData) {
       const prog = getProgressForBank();
@@ -291,14 +352,19 @@
     els.reviewList.classList.add("hidden");
     els.emptyState.classList.add("hidden");
     els.phonetic.classList.add("hidden");
+    els.dueReviewBtn.classList.add("hidden");
     els.feedback.textContent = "";
     setTypingVisible(false);
     if (state.tab === "review" && !state.practiceQueue) {
+      const dueCount = dueMistakes().length;
+      els.dueCount.textContent = String(dueCount);
+      els.dueReviewBtn.classList.toggle("hidden", dueCount === 0);
       renderReview();
       updateStats();
       return;
     }
-    if (!currentBankData) {
+    // 复习队列中的题目自带完整内容，不依赖已加载的题库
+    if (!currentBankData && !state.practiceQueue) {
       els.emptyState.textContent = "请先从上方下拉选择题库，点击【加载题库】";
       els.emptyState.classList.remove("hidden");
       updateStats();
@@ -387,6 +453,11 @@
         body = `<p><strong>${item.question}</strong></p><p class="muted">答案：${item.options[item.answer]} · ${item.explain}</p>`;
       }
       card.innerHTML = `<span class="kind">${KIND_NAME[item.kind]}</span>${body}`;
+      const days = Math.ceil(((item.dueAt || 0) - Date.now()) / DAY_MS);
+      const dueP = document.createElement("p");
+      dueP.className = "muted due-line" + (days <= 0 ? " is-due" : "");
+      dueP.textContent = days <= 0 ? "下次复习：今天到期" : `下次复习：${days} 天后`;
+      card.appendChild(dueP);
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "practice-btn";
@@ -416,8 +487,20 @@
   }
   function finishItem(item, correct) {
     if (state.practiceQueue) {
-      if (correct) removeMistake(item);
-      state.practiceQueue = null;
+      if (correct) {
+        advanceMistake(item);
+      } else {
+        scheduleMistakeTomorrow(item);
+        // 复习会话中答错：队尾补一份，稍后重练，直到队列清空
+        if (state.reviewSession && state.practiceQueue.length > 1) {
+          state.practiceQueue.push(JSON.parse(JSON.stringify(item)));
+        }
+      }
+      state.practiceQueue.shift();
+      if (!state.practiceQueue.length) {
+        state.practiceQueue = null;
+        state.reviewSession = false;
+      }
       state.tab = "review";
     } else {
       bumpProgress(item.kind);
@@ -514,7 +597,11 @@
     const item = currentTarget();
     if (!item) return;
     if (state.practiceQueue) {
-      state.practiceQueue = null;
+      state.practiceQueue.shift();
+      if (!state.practiceQueue.length) {
+        state.practiceQueue = null;
+        state.reviewSession = false;
+      }
       state.tab = "review";
     } else if (item.kind) {
       bumpProgress(item.kind);
@@ -524,40 +611,101 @@
     render();
   }
   // 加载题库索引清单（优先用内置数据，兼容 file:// 直接打开；fetch 作为备用）
+  // 索引为分级结构：[{category, categoryId, banks:[{name, filename, available}]}]
   async function loadBankIndex() {
     try {
       if (window.__EMBEDDED_BANK_INDEX) {
         bankIndexList = window.__EMBEDDED_BANK_INDEX;
-        renderBankSelect();
-        if (state.bankFilename) {
-          const found = bankIndexList.find(b => b.filename === state.bankFilename);
-          if (found) els.bankSelect.value = found.filename;
-        }
-        return;
+      } else {
+        const res = await fetch("./question_bank/index_list.json");
+        bankIndexList = await res.json();
       }
-      const res = await fetch("./question_bank/index_list.json");
-      bankIndexList = await res.json();
-      renderBankSelect();
-      // 如果本地保存了上次的题库文件名，自动选中下拉
-      if(state.bankFilename){
-        const found = bankIndexList.find(b=>b.filename === state.bankFilename);
-        if(found) els.bankSelect.value = found.filename;
+      renderCategorySelect();
+      // 自动定位上次题库所属大类（找不到则默认第一个大类）
+      if (state.bankFilename) {
+        const catId = findCategoryForBank(state.bankFilename);
+        if (catId) selectedCategory = catId;
       }
+      if (!selectedCategory && bankIndexList.length) {
+        selectedCategory = bankIndexList[0].categoryId;
+      }
+      setCategorySelect(selectedCategory);
     }catch(e){
       console.warn("加载题库索引失败，请确认question_bank/index_list.json存在",e);
     }
   }
+  // 大类与题库的查找工具
+  function findCategoryForBank(filename){
+    for (const cat of bankIndexList) {
+      if (cat.banks.some(b => b.filename === filename)) return cat.categoryId;
+    }
+    return "";
+  }
+  function banksOfCategory(categoryId){
+    const cat = bankIndexList.find(c => c.categoryId === categoryId);
+    return cat ? cat.banks : [];
+  }
+  function findBank(filename){
+    for (const cat of bankIndexList) {
+      const b = cat.banks.find(x => x.filename === filename);
+      if (b) return b;
+    }
+    return null;
+  }
+  // 大类下拉
+  let selectedCategory = "";
+  function setCategorySelect(categoryId){
+    selectedCategory = categoryId;
+    const cat = bankIndexList.find(c => c.categoryId === categoryId);
+    els.categorySelectValue.innerText = cat ? cat.category : "请选择大类";
+    els.categorySelectMenu.querySelectorAll("li").forEach(li=>{
+      li.classList.toggle("is-selected", li.dataset.categoryId === categoryId);
+    });
+    // 大类切换后，重新填充题库下拉，并默认选第一个可用题库
+    renderBankSelect();
+  }
+  function renderCategorySelect(){
+    els.categorySelectMenu.innerHTML = "";
+    bankIndexList.forEach(cat=>{
+      const li = document.createElement("li");
+      li.setAttribute("role","option");
+      li.innerText = cat.category;
+      li.dataset.categoryId = cat.categoryId;
+      els.categorySelectMenu.appendChild(li);
+    });
+  }
+  // 题库下拉：当前选中项（与 state.bankFilename 保持一致，默认取第一个可用项）
+  let selectedBankFile = state.bankFilename || "";
+  function setBankSelect(filename){
+    selectedBankFile = filename;
+    const found = findBank(filename);
+    els.bankSelectValue.innerText = found ? found.name : "请选择题库";
+    els.bankSelectMenu.querySelectorAll("li").forEach(li=>{
+      li.classList.toggle("is-selected", li.dataset.filename === filename);
+    });
+  }
   function renderBankSelect(){
-    els.bankSelect.innerHTML = "";
-    bankIndexList.forEach(item=>{
-      const opt = document.createElement("option");
-      opt.innerText = item.name;
-      opt.value = item.filename;
-      els.bankSelect.appendChild(opt);
+    els.bankSelectMenu.innerHTML = "";
+    const list = banksOfCategory(selectedCategory);
+    list.forEach(item=>{
+      const li = document.createElement("li");
+      li.setAttribute("role","option");
+      li.innerText = item.available ? item.name : `${item.name}（即将上线）`;
+      li.dataset.filename = item.filename;
+      if (!item.available) li.classList.add("is-disabled");
+      els.bankSelectMenu.appendChild(li);
     })
+    // 当前选中题库不在该大类下或不可用时，默认选第一个可用题库
+    const stillValid = list.some(b => b.filename === selectedBankFile && b.available);
+    if (!stillValid) {
+      const firstAvailable = list.find(b => b.available);
+      selectedBankFile = firstAvailable ? firstAvailable.filename : "";
+    }
+    setBankSelect(selectedBankFile);
   }
   // 点击加载题库按钮，懒加载对应的json题库（优先内置数据，fetch 备用）
-  async function doLoadBank(filename){
+  // silent=true 时用于启动自动恢复：失败只 console.warn，不弹 alert 打扰用户
+  async function doLoadBank(filename, silent){
     try{
       let data;
       if (window.__EMBEDDED_BANKS && window.__EMBEDDED_BANKS[filename]) {
@@ -574,14 +722,66 @@
       save();
       render();
     }catch(err){
-      alert("题库加载失败，请确认json文件存在："+filename);
-      console.error(err);
+      if (silent) {
+        console.warn("自动恢复上次题库失败：", filename, err);
+      } else {
+        alert("题库加载失败，请确认json文件存在："+filename);
+        console.error(err);
+      }
     }
   }
   els.loadBankBtn.addEventListener("click",async ()=>{
-    const selFile = els.bankSelect.value;
-    await doLoadBank(selFile);
+    if(!selectedBankFile) return;
+    await doLoadBank(selectedBankFile);
   })
+  // 今日待复习：把到期错题排成连续复习队列
+  els.dueReviewBtn.addEventListener("click",()=>{
+    const queue = dueMistakes();
+    if (!queue.length) return;
+    state.reviewSession = true;
+    state.practiceQueue = queue;
+    state.typed = "";
+    state.grammarPicked = null;
+    render();
+  })
+  // 自定义下拉交互：点击开合、选择选项、点击外部关闭（大类与题库两个下拉互斥，避免同时打开）
+  function closeBankMenu(){
+    els.bankSelect.classList.remove("is-open");
+    els.bankSelectTrigger.setAttribute("aria-expanded","false");
+  }
+  function closeCategoryMenu(){
+    els.categorySelect.classList.remove("is-open");
+    els.categorySelectTrigger.setAttribute("aria-expanded","false");
+  }
+  els.bankSelectTrigger.addEventListener("click",(e)=>{
+    e.stopPropagation();
+    closeCategoryMenu();
+    const open = els.bankSelect.classList.toggle("is-open");
+    els.bankSelectTrigger.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  els.bankSelectMenu.addEventListener("click",(e)=>{
+    const li = e.target.closest("li[data-filename]");
+    if(!li) return;
+    if (li.classList.contains("is-disabled")) return; // 即将上线题库不可选
+    setBankSelect(li.dataset.filename);
+    closeBankMenu();
+  });
+  els.categorySelectTrigger.addEventListener("click",(e)=>{
+    e.stopPropagation();
+    closeBankMenu();
+    const open = els.categorySelect.classList.toggle("is-open");
+    els.categorySelectTrigger.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  els.categorySelectMenu.addEventListener("click",(e)=>{
+    const li = e.target.closest("li[data-category-id]");
+    if(!li) return;
+    setCategorySelect(li.dataset.categoryId);
+    closeCategoryMenu();
+  });
+  document.addEventListener("click",(e)=>{
+    if(!els.bankSelect.contains(e.target)) closeBankMenu();
+    if(!els.categorySelect.contains(e.target)) closeCategoryMenu();
+  });
   els.tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       state.tab = tab.dataset.tab;
@@ -687,9 +887,13 @@
     console.warn("语音引擎初始化失败：", e);
   }
 
-// 初始化：先读取题库索引
+// 初始化：先读取题库索引；若上次学过，自动恢复该题库与进度，开箱即学
 (async function(){
     await loadBankIndex();
+    const bank = state.bankFilename && findBank(state.bankFilename);
+    if (bank && bank.available) {
+      await doLoadBank(state.bankFilename, true);
+    }
     render();
 })();
 

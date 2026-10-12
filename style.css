@@ -77,18 +77,25 @@ body {
 
 .header {
   position: relative;
-  display: flex;
+  /* 三列按 1fr:2fr:1fr 分配：两侧永远等宽（tabs 始终居中），中列最多占一半宽度，
+     空间不足时各列按比例收缩，物理上不会互相压盖 */
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 2fr) 1fr;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
   margin: 0 -24px 22px;
   padding: 16px 24px;
 }
 
 .brand {
+  justify-self: start;
   display: flex;
   align-items: center;
   gap: 14px;
+}
+
+.brand h1 {
+  white-space: nowrap;
 }
 
 .brand-logo {
@@ -135,12 +142,8 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 14px;
   box-shadow: var(--shadow);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1280px;
-  max-width: 100%;
-  z-index: 2;
+  width: 100%;
+  justify-self: center;
 }
 
 .tab,
@@ -148,7 +151,7 @@ h1 {
 .primary-btn,
 .chip,
 .option,
-select {
+.select-trigger {
   font: inherit;
   cursor: pointer;
 }
@@ -188,13 +191,97 @@ select {
   font-size: 0.9rem;
 }
 
-select {
+/* 自定义题库下拉：原生 select 的弹出列表各系统渲染不一（直角+蓝色高亮），改为统一风格组件 */
+.select {
+  position: relative;
+  min-width: 150px;
+}
+
+/* 大类选择（小学/初中/高中/拓展文字短，用更窄宽度） */
+.select-sm {
+  min-width: 96px;
+}
+
+.select-trigger {
+  width: 100%;
+  display: block;
+  text-align: left;
   border: 1px solid var(--line);
-  background: #fff;
+  /* 自定义箭头：距右边框 12px，与左侧文字内边距对称 */
+  background: #fff url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23A08B6E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 12px center;
   color: var(--ink);
   border-radius: 12px;
+  padding: 8px 34px 8px 12px;
+}
+
+.select.is-open .select-trigger {
+  border-color: #D8C898;
+}
+
+.select-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 100%;
+  z-index: 30;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  max-height: 264px;
+  overflow-y: auto;
+}
+
+.select.is-open .select-menu {
+  display: block;
+}
+
+.select-menu li {
   padding: 8px 12px;
-  min-width: 120px;
+  border-radius: 9px;
+  color: var(--ink);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.select-menu li:hover {
+  color: var(--accent);
+}
+
+.select-menu li.is-selected {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* "即将上线"题库：不可选，灰显 */
+.select-menu li.is-disabled {
+  color: #b3b3b3;
+  cursor: not-allowed;
+  font-style: italic;
+}
+
+.select-menu li.is-disabled:hover {
+  color: #b3b3b3;
+}
+
+/* 错题复习：今日待复习入口（沿用 primary-btn 配色，去掉工具栏内多余上边距） */
+.due-btn {
+  margin-top: 0;
+  padding: 7px 16px;
+}
+
+/* 错题卡片上的复习状态行 */
+.due-line {
+  margin: 8px 0 0;
+}
+
+.due-line.is-due {
+  color: var(--accent);
+  font-weight: 700;
 }
 
 .toolbar-actions {
@@ -235,6 +322,8 @@ select {
 
 /* 重置进度：柔和警示风 */
 .reset-btn {
+  justify-self: end;
+  white-space: nowrap;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -548,19 +637,34 @@ body.is-desktop .hidden-input {
   left: 0;
 }
 
-@media (max-width: 720px) {
+/* 中等宽度：收紧 tabs 内边距与字号，避免 tab 文字换行挤压 header */
+@media (max-width: 1080px) {
   .header {
+    gap: 10px;
+  }
+
+  .tab {
+    padding: 8px 10px;
+    font-size: 0.92rem;
+  }
+
+  .tagline {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  /* 移动端恢复流式换行：logo+重置一行，tabs 独占一行 */
+  .header {
+    display: flex;
     flex-wrap: wrap;
     gap: 10px;
   }
 
   .header .tabs {
-    position: static;
-    transform: none;
-    flex-basis: 100%;
     order: 3;
+    flex-basis: 100%;
     grid-template-columns: repeat(4, 1fr);
-    width: 100%;
   }
 
   .header .tabs .tab {

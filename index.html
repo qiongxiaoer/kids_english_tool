@@ -33,12 +33,21 @@
       </button>
     </header>
     <section class="toolbar" id="mainToolbar">
-      <label class="field">
+      <div class="field">
         <span>题库</span>
-        <select id="bankSelect">
-          <!--由JS读取index_list.json动态渲染选项-->
-        </select>
-      </label>
+        <div class="select select-sm" id="categorySelect">
+          <button type="button" class="select-trigger" id="categorySelectTrigger" aria-haspopup="listbox" aria-expanded="false">
+            <span class="select-value">加载中…</span>
+          </button>
+          <ul class="select-menu" id="categorySelectMenu" role="listbox"></ul>
+        </div>
+        <div class="select" id="bankSelect">
+          <button type="button" class="select-trigger" id="bankSelectTrigger" aria-haspopup="listbox" aria-expanded="false">
+            <span class="select-value">加载中…</span>
+          </button>
+          <ul class="select-menu" id="bankSelectMenu" role="listbox"></ul>
+        </div>
+      </div>
       <button type="button" class="ghost-btn" id="loadBankBtn">加载题库</button>
       <div class="toolbar-actions">
         <button type="button" class="ghost-btn icon-btn" id="soundBtn" title="播放发音"><img src="sound-icon.png" alt="发音" class="btn-icon">发音</button>
@@ -53,6 +62,7 @@
         <button type="button" class="chip" data-filter="sentence">句子</button>
         <button type="button" class="chip" data-filter="grammar">语法</button>
       </div>
+      <button type="button" class="primary-btn due-btn hidden" id="dueReviewBtn">今日待复习 <span id="dueCount">0</span></button>
     </section>
     <main class="stage" id="stage">
       <p class="hint" id="hint">看中文释义，直接用键盘输入英文单词</p>
