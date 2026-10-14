@@ -1,0 +1,26 @@
+{
+  "name": "么么英语",
+  "short_name": "么么英语",
+  "description": "敲着敲着，就会了 —— 小学英语单词、句子、语法默写练习",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FAF6EC",
+  "theme_color": "#FAF6EC",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
