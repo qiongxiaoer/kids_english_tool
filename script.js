@@ -364,8 +364,13 @@
       return;
     }
     // 复习队列中的题目自带完整内容，不依赖已加载的题库
+    // 第一次打开（没有上次题库记录）时的引导：用三步说明代替单句提示
     if (!currentBankData && !state.practiceQueue) {
-      els.emptyState.textContent = "请先从上方下拉选择题库，点击【加载题库】";
+      els.emptyState.innerHTML =
+        "第一次使用？三步就能开始：<br>" +
+        "① 确认上方的题库（默认已选「小学 · 三年级上册」）<br>" +
+        "② 点击【加载题库】<br>" +
+        "③ 看中文意思，用键盘敲出对应英文";
       els.emptyState.classList.remove("hidden");
       updateStats();
       return;
