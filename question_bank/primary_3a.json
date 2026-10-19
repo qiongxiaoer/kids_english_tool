@@ -1,1 +1,537 @@
-{"words":[{"grade":3,"word":"pen","phonetic":"/pen/","meaning":"钢笔"},{"grade":3,"word":"pencil","phonetic":"/ˈpensl/","meaning":"铅笔"},{"grade":3,"word":"pencil-box","phonetic":"/ˈpensl bɒks/","meaning":"铅笔盒"},{"grade":3,"word":"ruler","phonetic":"/ˈruːlə(r)/","meaning":"尺子"},{"grade":3,"word":"eraser","phonetic":"/ɪˈreɪzə(r)/","meaning":"橡皮"},{"grade":3,"word":"crayon","phonetic":"/ˈkreɪən/","meaning":"蜡笔"},{"grade":3,"word":"bag","phonetic":"/bæɡ/","meaning":"书包"},{"grade":3,"word":"book","phonetic":"/bʊk/","meaning":"书"},{"grade":3,"word":"sharpener","phonetic":"/ˈʃɑːpnə(r)/","meaning":"卷笔刀"},{"grade":3,"word":"school","phonetic":"/skuːl/","meaning":"学校"},{"grade":3,"word":"head","phonetic":"/hed/","meaning":"头"},{"grade":3,"word":"face","phonetic":"/feɪs/","meaning":"脸"},{"grade":3,"word":"nose","phonetic":"/nəʊz/","meaning":"鼻子"},{"grade":3,"word":"mouth","phonetic":"/maʊθ/","meaning":"嘴"},{"grade":3,"word":"eye","phonetic":"/aɪ/","meaning":"眼睛"},{"grade":3,"word":"ear","phonetic":"/ɪə(r)/","meaning":"耳朵"},{"grade":3,"word":"arm","phonetic":"/ɑːm/","meaning":"手臂"},{"grade":3,"word":"hand","phonetic":"/hænd/","meaning":"手"},{"grade":3,"word":"finger","phonetic":"/ˈfɪŋɡə(r)/","meaning":"手指"},{"grade":3,"word":"leg","phonetic":"/leɡ/","meaning":"腿"},{"grade":3,"word":"foot","phonetic":"/fʊt/","meaning":"脚"},{"grade":3,"word":"body","phonetic":"/ˈbɒdi/","meaning":"身体"},{"grade":3,"word":"red","phonetic":"/red/","meaning":"红色"},{"grade":3,"word":"yellow","phonetic":"/ˈjeləʊ/","meaning":"黄色"},{"grade":3,"word":"green","phonetic":"/ɡriːn/","meaning":"绿色"},{"grade":3,"word":"blue","phonetic":"/bluː/","meaning":"蓝色"},{"grade":3,"word":"purple","phonetic":"/ˈpɜːpl/","meaning":"紫色"},{"grade":3,"word":"white","phonetic":"/waɪt/","meaning":"白色"},{"grade":3,"word":"black","phonetic":"/blæk/","meaning":"黑色"},{"grade":3,"word":"orange","phonetic":"/ˈɒrɪndʒ/","meaning":"橙色；橙子"},{"grade":3,"word":"pink","phonetic":"/pɪŋk/","meaning":"粉色"},{"grade":3,"word":"brown","phonetic":"/braʊn/","meaning":"棕色"},{"grade":3,"word":"cat","phonetic":"/kæt/","meaning":"猫"},{"grade":3,"word":"dog","phonetic":"/dɒɡ/","meaning":"狗"},{"grade":3,"word":"monkey","phonetic":"/ˈmʌŋki/","meaning":"猴子"},{"grade":3,"word":"panda","phonetic":"/ˈpændə/","meaning":"熊猫"},{"grade":3,"word":"rabbit","phonetic":"/ˈræbɪt/","meaning":"兔子"},{"grade":3,"word":"duck","phonetic":"/dʌk/","meaning":"鸭子"},{"grade":3,"word":"pig","phonetic":"/pɪɡ/","meaning":"猪"},{"grade":3,"word":"bird","phonetic":"/bɜːd/","meaning":"鸟"},{"grade":3,"word":"bear","phonetic":"/beə(r)/","meaning":"熊"},{"grade":3,"word":"elephant","phonetic":"/ˈelɪfənt/","meaning":"大象"},{"grade":3,"word":"mouse","phonetic":"/maʊs/","meaning":"老鼠"},{"grade":3,"word":"squirrel","phonetic":"/ˈskwɪrəl/","meaning":"松鼠"},{"grade":3,"word":"cake","phonetic":"/keɪk/","meaning":"蛋糕"},{"grade":3,"word":"bread","phonetic":"/bred/","meaning":"面包"},{"grade":3,"word":"hot dog","phonetic":"/hɒt dɒɡ/","meaning":"热狗"},{"grade":3,"word":"hamburger","phonetic":"/ˈhæmbɜːɡə(r)/","meaning":"汉堡包"},{"grade":3,"word":"chicken","phonetic":"/ˈtʃɪkɪn/","meaning":"鸡肉；鸡"},{"grade":3,"word":"French fries","phonetic":"/frentʃ fraɪz/","meaning":"炸薯条"},{"grade":3,"word":"coke","phonetic":"/kəʊk/","meaning":"可乐"},{"grade":3,"word":"juice","phonetic":"/dʒuːs/","meaning":"果汁"},{"grade":3,"word":"water","phonetic":"/ˈwɔːtə(r)/","meaning":"水"},{"grade":3,"word":"milk","phonetic":"/mɪlk/","meaning":"牛奶"},{"grade":3,"word":"tea","phonetic":"/tiː/","meaning":"茶"},{"grade":3,"word":"coffee","phonetic":"/ˈkɒfi/","meaning":"咖啡"},{"grade":3,"word":"one","phonetic":"/wʌn/","meaning":"一"},{"grade":3,"word":"two","phonetic":"/tuː/","meaning":"二"},{"grade":3,"word":"three","phonetic":"/θriː/","meaning":"三"},{"grade":3,"word":"four","phonetic":"/fɔː(r)/","meaning":"四"},{"grade":3,"word":"five","phonetic":"/faɪv/","meaning":"五"},{"grade":3,"word":"six","phonetic":"/sɪks/","meaning":"六"},{"grade":3,"word":"seven","phonetic":"/ˈsevn/","meaning":"七"},{"grade":3,"word":"eight","phonetic":"/eɪt/","meaning":"八"},{"grade":3,"word":"nine","phonetic":"/naɪn/","meaning":"九"},{"grade":3,"word":"ten","phonetic":"/ten/","meaning":"十"},{"grade":3,"word":"boy","phonetic":"/bɔɪ/","meaning":"男孩"},{"grade":3,"word":"girl","phonetic":"/ɡɜːl/","meaning":"女孩"},{"grade":3,"word":"teacher","phonetic":"/ˈtiːtʃə(r)/","meaning":"老师"},{"grade":3,"word":"student","phonetic":"/ˈstjuːdnt/","meaning":"学生"}],"sentences":[{"en":"Good morning, boys and girls.","zh":"早上好，孩子们。"},{"en":"This is my mother and that is my father.","zh":"这是我妈妈，那是我爸爸。"},{"en":"My family has four people.","zh":"我家有四口人。"},{"en":"Look at the big elephant.","zh":"看那头大象。"},{"en":"Go straight and you will see the library.","zh":"直走你就会看到图书馆。"},{"en":"I feel tired and want to rest.","zh":"我感觉很累，想休息一下。"},{"en":"The teacher is kind to her students.","zh":"这位老师对学生很和蔼。"}],"grammar":[{"category":"be动词","question":"I ___ a student.","options":["am","is","are","be"],"answer":0,"explain":"主语是 I，be 动词用 am。","question_zh":"我是一名学生。"},{"category":"代词","question":"This is ___ book.","options":["I","me","my","mine"],"answer":2,"explain":"名词前用形容词性物主代词 my。","question_zh":"这是我的书。"},{"category":"现在进行","question":"They ___ playing football now.","options":["am","is","are","be"],"answer":2,"explain":"主语 they 复数，现在进行时用 are。","question_zh":"他们现在正在踢足球。"},{"category":"特殊疑问","question":"___ do you go to school? By bus.","options":["What","Where","Who","How"],"answer":3,"explain":"问交通方式用 How。","question_zh":"你怎么去上学？坐公交车。"},{"category":"祈使句","question":"___ open the door, please.","options":["Please","Not","No","Don't"],"answer":3,"explain":"祈使句否定用 Don't。","question_zh":"请不要开门。"}]}
+{
+  "words": [
+    {
+      "grade": 3,
+      "word": "ruler",
+      "phonetic": "/ˈruːlə(r)/",
+      "meaning": "尺子"
+    },
+    {
+      "grade": 3,
+      "word": "pencil",
+      "phonetic": "/ˈpens(ə)l/",
+      "meaning": "铅笔"
+    },
+    {
+      "grade": 3,
+      "word": "eraser",
+      "phonetic": "/ɪˈreɪzə(r)/",
+      "meaning": "橡皮"
+    },
+    {
+      "grade": 3,
+      "word": "crayon",
+      "phonetic": "/ˈkreɪən; ˈkreɪɒn/",
+      "meaning": "蜡笔"
+    },
+    {
+      "grade": 3,
+      "word": "bag",
+      "phonetic": "/bæɡ/",
+      "meaning": "包"
+    },
+    {
+      "grade": 3,
+      "word": "pen",
+      "phonetic": "/pen/",
+      "meaning": "钢笔"
+    },
+    {
+      "grade": 3,
+      "word": "pencil box",
+      "phonetic": "",
+      "meaning": "铅笔盒"
+    },
+    {
+      "grade": 3,
+      "word": "book",
+      "phonetic": "/bʊk/",
+      "meaning": "书"
+    },
+    {
+      "grade": 3,
+      "word": "no",
+      "phonetic": "/nəʊ/",
+      "meaning": "不"
+    },
+    {
+      "grade": 3,
+      "word": "your",
+      "phonetic": "/jɔː(r); jə(r)/",
+      "meaning": "你（们）的"
+    },
+    {
+      "grade": 3,
+      "word": "red",
+      "phonetic": "/red/",
+      "meaning": "红色"
+    },
+    {
+      "grade": 3,
+      "word": "green",
+      "phonetic": "/ɡriːn/",
+      "meaning": "绿色"
+    },
+    {
+      "grade": 3,
+      "word": "yellow",
+      "phonetic": "/ˈjeləʊ/",
+      "meaning": "黄色"
+    },
+    {
+      "grade": 3,
+      "word": "blue",
+      "phonetic": "/bluː/",
+      "meaning": "蓝色"
+    },
+    {
+      "grade": 3,
+      "word": "black",
+      "phonetic": "/blæk/",
+      "meaning": "黑色"
+    },
+    {
+      "grade": 3,
+      "word": "brown",
+      "phonetic": "/braʊn/",
+      "meaning": "棕色"
+    },
+    {
+      "grade": 3,
+      "word": "white",
+      "phonetic": "/waɪt/",
+      "meaning": "白色"
+    },
+    {
+      "grade": 3,
+      "word": "orange",
+      "phonetic": "/ˈɒrɪndʒ/",
+      "meaning": "橙色"
+    },
+    {
+      "grade": 3,
+      "word": "OK",
+      "phonetic": "/əʊˈkeɪ/",
+      "meaning": "好"
+    },
+    {
+      "grade": 3,
+      "word": "mum",
+      "phonetic": "/mʌm/",
+      "meaning": "妈妈"
+    },
+    {
+      "grade": 3,
+      "word": "face",
+      "phonetic": "/feɪs/",
+      "meaning": "脸"
+    },
+    {
+      "grade": 3,
+      "word": "ear",
+      "phonetic": "/ɪə(r)/",
+      "meaning": "耳朵"
+    },
+    {
+      "grade": 3,
+      "word": "eye",
+      "phonetic": "/aɪ/",
+      "meaning": "眼睛"
+    },
+    {
+      "grade": 3,
+      "word": "nose",
+      "phonetic": "/nəʊz/",
+      "meaning": "鼻子"
+    },
+    {
+      "grade": 3,
+      "word": "mouth",
+      "phonetic": "/maʊθ/",
+      "meaning": "嘴"
+    },
+    {
+      "grade": 3,
+      "word": "arm",
+      "phonetic": "/ɑːm/",
+      "meaning": "胳膊"
+    },
+    {
+      "grade": 3,
+      "word": "hand",
+      "phonetic": "/hænd/",
+      "meaning": "手"
+    },
+    {
+      "grade": 3,
+      "word": "head",
+      "phonetic": "/hed/",
+      "meaning": "头"
+    },
+    {
+      "grade": 3,
+      "word": "body",
+      "phonetic": "/ˈbɒdi/",
+      "meaning": "身体"
+    },
+    {
+      "grade": 3,
+      "word": "leg",
+      "phonetic": "/leɡ/",
+      "meaning": "腿"
+    },
+    {
+      "grade": 3,
+      "word": "foot",
+      "phonetic": "/fʊt/",
+      "meaning": "脚"
+    },
+    {
+      "grade": 3,
+      "word": "school",
+      "phonetic": "/skuːl/",
+      "meaning": "学校"
+    },
+    {
+      "grade": 3,
+      "word": "duck",
+      "phonetic": "/dʌk/",
+      "meaning": "鸭子"
+    },
+    {
+      "grade": 3,
+      "word": "pig",
+      "phonetic": "/pɪɡ/",
+      "meaning": "猪"
+    },
+    {
+      "grade": 3,
+      "word": "cat",
+      "phonetic": "/kæt/",
+      "meaning": "猫"
+    },
+    {
+      "grade": 3,
+      "word": "bear",
+      "phonetic": "/beə(r)/",
+      "meaning": "熊"
+    },
+    {
+      "grade": 3,
+      "word": "dog",
+      "phonetic": "/dɒɡ/",
+      "meaning": "狗"
+    },
+    {
+      "grade": 3,
+      "word": "elephant",
+      "phonetic": "/ˈelɪfənt; ˈeləfənt/",
+      "meaning": "大象"
+    },
+    {
+      "grade": 3,
+      "word": "monkey",
+      "phonetic": "/ˈmʌŋki/",
+      "meaning": "猴子"
+    },
+    {
+      "grade": 3,
+      "word": "bird",
+      "phonetic": "/bɜːd/",
+      "meaning": "鸟"
+    },
+    {
+      "grade": 3,
+      "word": "tiger",
+      "phonetic": "/ˈtaɪɡə(r)/",
+      "meaning": "老虎"
+    },
+    {
+      "grade": 3,
+      "word": "panda",
+      "phonetic": "/ˈpændə/",
+      "meaning": "大熊猫"
+    },
+    {
+      "grade": 3,
+      "word": "zoo",
+      "phonetic": "/zuː/",
+      "meaning": "动物园"
+    },
+    {
+      "grade": 3,
+      "word": "funny",
+      "phonetic": "/ˈfʌni/",
+      "meaning": "滑稽的"
+    },
+    {
+      "grade": 3,
+      "word": "bread",
+      "phonetic": "/bred/",
+      "meaning": "面包"
+    },
+    {
+      "grade": 3,
+      "word": "juice",
+      "phonetic": "/dʒuːs/",
+      "meaning": "果汁"
+    },
+    {
+      "grade": 3,
+      "word": "egg",
+      "phonetic": "/eɡ/",
+      "meaning": "蛋"
+    },
+    {
+      "grade": 3,
+      "word": "milk",
+      "phonetic": "/mɪlk/",
+      "meaning": "牛奶"
+    },
+    {
+      "grade": 3,
+      "word": "water",
+      "phonetic": "/ˈwɔːtə(r)/",
+      "meaning": "水"
+    },
+    {
+      "grade": 3,
+      "word": "cake",
+      "phonetic": "/keɪk/",
+      "meaning": "蛋糕"
+    },
+    {
+      "grade": 3,
+      "word": "fish",
+      "phonetic": "/fɪʃ/",
+      "meaning": "鱼"
+    },
+    {
+      "grade": 3,
+      "word": "rice",
+      "phonetic": "/raɪs/",
+      "meaning": "米饭"
+    },
+    {
+      "grade": 3,
+      "word": "one",
+      "phonetic": "/wʌn/",
+      "meaning": "一"
+    },
+    {
+      "grade": 3,
+      "word": "two",
+      "phonetic": "/tuː/",
+      "meaning": "二"
+    },
+    {
+      "grade": 3,
+      "word": "three",
+      "phonetic": "/θriː/",
+      "meaning": "三"
+    },
+    {
+      "grade": 3,
+      "word": "four",
+      "phonetic": "/fɔː(r)/",
+      "meaning": "四"
+    },
+    {
+      "grade": 3,
+      "word": "five",
+      "phonetic": "/faɪv/",
+      "meaning": "五"
+    },
+    {
+      "grade": 3,
+      "word": "six",
+      "phonetic": "/sɪks/",
+      "meaning": "六"
+    },
+    {
+      "grade": 3,
+      "word": "seven",
+      "phonetic": "/ˈsev(ə)n/",
+      "meaning": "七"
+    },
+    {
+      "grade": 3,
+      "word": "eight",
+      "phonetic": "/eɪt/",
+      "meaning": "八"
+    },
+    {
+      "grade": 3,
+      "word": "nine",
+      "phonetic": "/naɪn/",
+      "meaning": "九"
+    },
+    {
+      "grade": 3,
+      "word": "ten",
+      "phonetic": "/ten/",
+      "meaning": "十"
+    },
+    {
+      "grade": 3,
+      "word": "brother",
+      "phonetic": "/ˈbrʌðə(r)/",
+      "meaning": "兄"
+    },
+    {
+      "grade": 3,
+      "word": "plate",
+      "phonetic": "/pleɪt/",
+      "meaning": "盘子"
+    }
+  ],
+  "sentences": [
+    {
+      "en": "I put the ruler in my schoolbag.",
+      "zh": "我把尺子放进了书包里。"
+    },
+    {
+      "en": "I put the pencil in my schoolbag.",
+      "zh": "我把铅笔放进书包里。"
+    },
+    {
+      "en": "I put the eraser in my schoolbag.",
+      "zh": "我把橡皮放进了书包里。"
+    },
+    {
+      "en": "There is a crayon in the picture.",
+      "zh": "图中有一支蜡笔。"
+    },
+    {
+      "en": "There is a bag in the picture.",
+      "zh": "图片里有一个袋子。"
+    },
+    {
+      "en": "I put the pen in my schoolbag.",
+      "zh": "我把笔放进书包里。"
+    },
+    {
+      "en": "My pencil box is in my schoolbag.",
+      "zh": "我的铅笔盒在我的书包里。"
+    },
+    {
+      "en": "I put the book in my schoolbag.",
+      "zh": "我把书放进书包里了。"
+    },
+    {
+      "en": "No, I do not need help.",
+      "zh": "不，我不需要帮助。"
+    },
+    {
+      "en": "Your answer is clear.",
+      "zh": "你的答案很明确。"
+    },
+    {
+      "en": "The apple is red.",
+      "zh": "苹果是红色的。"
+    },
+    {
+      "en": "The grass is green.",
+      "zh": "草是绿的。"
+    },
+    {
+      "en": "The banana is yellow.",
+      "zh": "香蕉是黄色的。"
+    },
+    {
+      "en": "The sky is blue.",
+      "zh": "天空是蓝色的。"
+    },
+    {
+      "en": "My shoes are black.",
+      "zh": "我的鞋子是黑色的。"
+    },
+    {
+      "en": "The desk is brown.",
+      "zh": "桌子是棕色的。"
+    },
+    {
+      "en": "The wall is white.",
+      "zh": "墙壁是白色的。"
+    },
+    {
+      "en": "The orange bag is on the chair.",
+      "zh": "橙色的袋子在椅子上。"
+    },
+    {
+      "en": "OK, let's start now.",
+      "zh": "好的，我们现在开始吧。"
+    },
+    {
+      "en": "My mum is kind to me.",
+      "zh": "我妈妈对我很好。"
+    }
+  ],
+  "grammar": [
+    {
+      "category": "be动词",
+      "question": "I ___ a student.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": 0,
+      "explain": "主语是 I，be 动词用 am。",
+      "question_zh": "我是一名学生。"
+    },
+    {
+      "category": "代词",
+      "question": "This is ___ book.",
+      "options": [
+        "I",
+        "me",
+        "my",
+        "mine"
+      ],
+      "answer": 2,
+      "explain": "名词前用形容词性物主代词 my。",
+      "question_zh": "这是我的书。"
+    },
+    {
+      "category": "现在进行",
+      "question": "They ___ playing football now.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": 2,
+      "explain": "主语 they 复数，现在进行时用 are。",
+      "question_zh": "他们现在正在踢足球。"
+    },
+    {
+      "category": "特殊疑问",
+      "question": "___ do you go to school? By bus.",
+      "options": [
+        "What",
+        "Where",
+        "Who",
+        "How"
+      ],
+      "answer": 3,
+      "explain": "问交通方式用 How。",
+      "question_zh": "你怎么去上学？坐公交车。"
+    },
+    {
+      "category": "祈使句",
+      "question": "___ open the door, please.",
+      "options": [
+        "Please",
+        "Not",
+        "No",
+        "Don't"
+      ],
+      "answer": 3,
+      "explain": "祈使句否定用 Don't。",
+      "question_zh": "请不要开门。"
+    }
+  ]
+}

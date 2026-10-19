@@ -1,1 +1,572 @@
-{"words":[{"grade":3,"word":"friend","phonetic":"/frend/","meaning":"朋友"},{"grade":3,"word":"family","phonetic":"/ˈfæməli/","meaning":"家庭"},{"grade":3,"word":"father","phonetic":"/ˈfɑːðə(r)/","meaning":"爸爸"},{"grade":3,"word":"mother","phonetic":"/ˈmʌðə(r)/","meaning":"妈妈"},{"grade":3,"word":"brother","phonetic":"/ˈbrʌðə(r)/","meaning":"兄弟"},{"grade":3,"word":"sister","phonetic":"/ˈsɪstə(r)/","meaning":"姐妹"},{"grade":3,"word":"grandfather","phonetic":"/ˈɡrænfɑːðə(r)/","meaning":"爷爷；外公"},{"grade":3,"word":"grandmother","phonetic":"/ˈɡrænmʌðə(r)/","meaning":"奶奶；外婆"},{"grade":3,"word":"this","phonetic":"/ðɪs/","meaning":"这"},{"grade":3,"word":"that","phonetic":"/ðæt/","meaning":"那"},{"grade":3,"word":"is","phonetic":"/ɪz/","meaning":"是（单数）"},{"grade":3,"word":"are","phonetic":"/ɑː(r)/","meaning":"是（复数）"},{"grade":3,"word":"am","phonetic":"/æm/","meaning":"是（I用）"},{"grade":3,"word":"hello","phonetic":"/həˈləʊ/","meaning":"你好"},{"grade":3,"word":"hi","phonetic":"/haɪ/","meaning":"嗨"},{"grade":3,"word":"good","phonetic":"/ɡʊd/","meaning":"好的"},{"grade":3,"word":"morning","phonetic":"/ˈmɔːnɪŋ/","meaning":"早晨"},{"grade":3,"word":"afternoon","phonetic":"/ˌɑːftəˈnuːn/","meaning":"下午"},{"grade":3,"word":"evening","phonetic":"/ˈiːvnɪŋ/","meaning":"晚上"},{"grade":3,"word":"how","phonetic":"/haʊ/","meaning":"怎样"},{"grade":3,"word":"fine","phonetic":"/faɪn/","meaning":"好的；健康的"},{"grade":3,"word":"thank","phonetic":"/θæŋk/","meaning":"谢谢"},{"grade":3,"word":"you","phonetic":"/juː/","meaning":"你"},{"grade":3,"word":"I","phonetic":"/aɪ/","meaning":"我"},{"grade":3,"word":"my","phonetic":"/maɪ/","meaning":"我的"},{"grade":3,"word":"your","phonetic":"/jɔː(r)/","meaning":"你的"},{"grade":3,"word":"yes","phonetic":"/jes/","meaning":"是的"},{"grade":3,"word":"no","phonetic":"/nəʊ/","meaning":"不"},{"grade":3,"word":"not","phonetic":"/nɒt/","meaning":"不；没有"},{"grade":3,"word":"what","phonetic":"/wɒt/","meaning":"什么"},{"grade":3,"word":"who","phonetic":"/huː/","meaning":"谁"},{"grade":3,"word":"where","phonetic":"/weə(r)/","meaning":"哪里"},{"grade":3,"word":"apple","phonetic":"/ˈæpl/","meaning":"苹果"},{"grade":3,"word":"pear","phonetic":"/peə(r)/","meaning":"梨"},{"grade":3,"word":"banana","phonetic":"/bəˈnɑːnə/","meaning":"香蕉"},{"grade":3,"word":"grapes","phonetic":"/ɡreɪps/","meaning":"葡萄"},{"grade":3,"word":"strawberry","phonetic":"/ˈstrɔːbəri/","meaning":"草莓"},{"grade":3,"word":"watermelon","phonetic":"/ˈwɔːtəmelən/","meaning":"西瓜"},{"grade":3,"word":"big","phonetic":"/bɪɡ/","meaning":"大的"},{"grade":3,"word":"small","phonetic":"/smɔːl/","meaning":"小的"},{"grade":3,"word":"long","phonetic":"/lɒŋ/","meaning":"长的"},{"grade":3,"word":"short","phonetic":"/ʃɔːt/","meaning":"短的"},{"grade":3,"word":"tall","phonetic":"/tɔːl/","meaning":"高的"},{"grade":3,"word":"giraffe","phonetic":"/dʒəˈrɑːf/","meaning":"长颈鹿"},{"grade":3,"word":"deer","phonetic":"/dɪə(r)/","meaning":"鹿"},{"grade":3,"word":"ant","phonetic":"/ænt/","meaning":"蚂蚁"},{"grade":3,"word":"new","phonetic":"/njuː/","meaning":"新的"},{"grade":3,"word":"old","phonetic":"/əʊld/","meaning":"旧的；老的"},{"grade":3,"word":"come","phonetic":"/kʌm/","meaning":"来"},{"grade":3,"word":"go","phonetic":"/ɡəʊ/","meaning":"去"},{"grade":3,"word":"have","phonetic":"/hæv/","meaning":"有"},{"grade":3,"word":"has","phonetic":"/hæz/","meaning":"有（三单）"},{"grade":3,"word":"like","phonetic":"/laɪk/","meaning":"喜欢"},{"grade":3,"word":"eat","phonetic":"/iːt/","meaning":"吃"},{"grade":3,"word":"drink","phonetic":"/drɪŋk/","meaning":"喝"},{"grade":3,"word":"run","phonetic":"/rʌn/","meaning":"跑"},{"grade":3,"word":"jump","phonetic":"/dʒʌmp/","meaning":"跳"},{"grade":3,"word":"walk","phonetic":"/wɔːk/","meaning":"走路"},{"grade":3,"word":"swim","phonetic":"/swɪm/","meaning":"游泳"},{"grade":3,"word":"happy","phonetic":"/ˈhæpi/","meaning":"高兴的"},{"grade":3,"word":"sad","phonetic":"/sæd/","meaning":"难过的"},{"grade":3,"word":"hot","phonetic":"/hɒt/","meaning":"热的"},{"grade":3,"word":"cold","phonetic":"/kəʊld/","meaning":"冷的"},{"grade":3,"word":"snow","phonetic":"/snəʊ/","meaning":"雪"},{"grade":3,"word":"rain","phonetic":"/reɪn/","meaning":"雨"},{"grade":3,"word":"wind","phonetic":"/wɪnd/","meaning":"风"},{"grade":3,"word":"cloud","phonetic":"/klaʊd/","meaning":"云"},{"grade":3,"word":"sun","phonetic":"/sʌn/","meaning":"太阳"},{"grade":3,"word":"moon","phonetic":"/muːn/","meaning":"月亮"},{"grade":3,"word":"star","phonetic":"/stɑː(r)/","meaning":"星星"}],"sentences":[{"en":"How are you? I'm fine, thank you.","zh":"你好吗？我很好，谢谢。"},{"en":"How many books do you have?","zh":"你有多少本书？"},{"en":"The farmer has many cows and sheep.","zh":"这位农民有很多奶牛和绵羊。"},{"en":"I want to buy a new dress.","zh":"我想买一条新连衣裙。"},{"en":"I often play football after school.","zh":"放学后我经常踢足球。"},{"en":"Don't worry, I can help you.","zh":"别担心，我能帮助你。"},{"en":"We must cross the road carefully.","zh":"我们必须小心地过马路。"}],"grammar":[{"category":"be动词","question":"She ___ my teacher.","options":["am","is","are","be"],"answer":1,"explain":"主语 she 是第三人称单数，用 is。","question_zh":"她是我的老师。"},{"category":"代词","question":"Look at ___! She is dancing.","options":["she","her","hers","she's"],"answer":1,"explain":"介词后用人称代词宾格 her。","question_zh":"看她！她在跳舞。"},{"category":"情态动词","question":"I ___ swim in the river.","options":["can","is","am","do"],"answer":0,"explain":"情态动词 can 后接动词原形，表示能力。","question_zh":"我会在河里游泳。"},{"category":"时间介词","question":"We have lunch ___ twelve.","options":["in","at","on","for"],"answer":1,"explain":"具体时刻前用 at。","question_zh":"我们十二点吃午饭。"}]}
+{
+  "words": [
+    {
+      "grade": 3,
+      "word": "UK",
+      "phonetic": "/ˌjuː ˈkeɪ/",
+      "meaning": "英国"
+    },
+    {
+      "grade": 3,
+      "word": "Canada",
+      "phonetic": "/ˈkænədə/",
+      "meaning": "加拿大"
+    },
+    {
+      "grade": 3,
+      "word": "USA",
+      "phonetic": "/ˌjuː es ˈeɪ/",
+      "meaning": "美国"
+    },
+    {
+      "grade": 3,
+      "word": "China",
+      "phonetic": "/ˈtʃaɪnə/",
+      "meaning": "中国"
+    },
+    {
+      "grade": 3,
+      "word": "she",
+      "phonetic": "/ʃiː; ʃi/",
+      "meaning": "她"
+    },
+    {
+      "grade": 3,
+      "word": "student",
+      "phonetic": "/ˈstjuːd(ə)nt/",
+      "meaning": "学生, 学者"
+    },
+    {
+      "grade": 3,
+      "word": "pupil",
+      "phonetic": "/ˈpjuːp(ə)l/",
+      "meaning": "小学生"
+    },
+    {
+      "grade": 3,
+      "word": "he",
+      "phonetic": "/hiː; hi/",
+      "meaning": "他"
+    },
+    {
+      "grade": 3,
+      "word": "teacher",
+      "phonetic": "/ˈtiːtʃə(r)/",
+      "meaning": "教师, 老师, 导师"
+    },
+    {
+      "grade": 3,
+      "word": "boy",
+      "phonetic": "/bɔɪ/",
+      "meaning": "男孩, 儿子, 孩子气的人, 男仆"
+    },
+    {
+      "grade": 3,
+      "word": "and",
+      "phonetic": "/ænd; ənd/",
+      "meaning": "和"
+    },
+    {
+      "grade": 3,
+      "word": "girl",
+      "phonetic": "/ɡɜːl/",
+      "meaning": "女孩, 少女, 女仆, (商店等的)女工作人员"
+    },
+    {
+      "grade": 3,
+      "word": "new",
+      "phonetic": "/njuː/",
+      "meaning": "新的，新近的"
+    },
+    {
+      "grade": 3,
+      "word": "friend",
+      "phonetic": "/frend/",
+      "meaning": "朋友，友人"
+    },
+    {
+      "grade": 3,
+      "word": "today",
+      "phonetic": "/təˈdeɪ/",
+      "meaning": "今天"
+    },
+    {
+      "grade": 3,
+      "word": "father",
+      "phonetic": "/ˈfɑːðə(r)/",
+      "meaning": "父亲"
+    },
+    {
+      "grade": 3,
+      "word": "dad",
+      "phonetic": "/dæd/",
+      "meaning": "（口语）爸爸"
+    },
+    {
+      "grade": 3,
+      "word": "man",
+      "phonetic": "/mæn/",
+      "meaning": "男人"
+    },
+    {
+      "grade": 3,
+      "word": "woman",
+      "phonetic": "/ˈwʊmən/",
+      "meaning": "女人"
+    },
+    {
+      "grade": 3,
+      "word": "mother",
+      "phonetic": "/ˈmʌðə(r)/",
+      "meaning": "母亲"
+    },
+    {
+      "grade": 3,
+      "word": "sister",
+      "phonetic": "/ˈsɪstə(r)/",
+      "meaning": "姐"
+    },
+    {
+      "grade": 3,
+      "word": "brother",
+      "phonetic": "/ˈbrʌðə(r)/",
+      "meaning": "兄"
+    },
+    {
+      "grade": 3,
+      "word": "grandmother",
+      "phonetic": "/ˈɡrænmʌðə(r)/",
+      "meaning": "（外）祖母"
+    },
+    {
+      "grade": 3,
+      "word": "grandma",
+      "phonetic": "/ˈɡrænmɑː/",
+      "meaning": "（口语）（外）祖母"
+    },
+    {
+      "grade": 3,
+      "word": "grandfather",
+      "phonetic": "/ˈɡrænfɑːðə(r)/",
+      "meaning": "（外）祖父"
+    },
+    {
+      "grade": 3,
+      "word": "grandpa",
+      "phonetic": "/ˈɡrænpɑː/",
+      "meaning": "（口语）（外）祖父"
+    },
+    {
+      "grade": 3,
+      "word": "family",
+      "phonetic": "/ˈfæməli/",
+      "meaning": "家"
+    },
+    {
+      "grade": 3,
+      "word": "thin",
+      "phonetic": "/θɪn/",
+      "meaning": "瘦的"
+    },
+    {
+      "grade": 3,
+      "word": "fat",
+      "phonetic": "/fæt/",
+      "meaning": "胖的"
+    },
+    {
+      "grade": 3,
+      "word": "tall",
+      "phonetic": "/tɔːl/",
+      "meaning": "高的"
+    },
+    {
+      "grade": 3,
+      "word": "short",
+      "phonetic": "/ʃɔːt/",
+      "meaning": "矮的"
+    },
+    {
+      "grade": 3,
+      "word": "long",
+      "phonetic": "/lɒŋ/",
+      "meaning": "长的"
+    },
+    {
+      "grade": 3,
+      "word": "small",
+      "phonetic": "/smɔːl/",
+      "meaning": "小的"
+    },
+    {
+      "grade": 3,
+      "word": "big",
+      "phonetic": "/bɪɡ/",
+      "meaning": "大的"
+    },
+    {
+      "grade": 3,
+      "word": "giraffe",
+      "phonetic": "/dʒəˈrɑːf/",
+      "meaning": "长颈鹿"
+    },
+    {
+      "grade": 3,
+      "word": "so",
+      "phonetic": "/səʊ/",
+      "meaning": "这么"
+    },
+    {
+      "grade": 3,
+      "word": "children",
+      "phonetic": "/ˈtʃɪldrən/",
+      "meaning": "儿童"
+    },
+    {
+      "grade": 3,
+      "word": "child",
+      "phonetic": "/tʃaɪld/",
+      "meaning": "儿童"
+    },
+    {
+      "grade": 3,
+      "word": "tail",
+      "phonetic": "/teɪl/",
+      "meaning": "尾巴"
+    },
+    {
+      "grade": 3,
+      "word": "on",
+      "phonetic": "/ɒn/",
+      "meaning": "在⋯⋯上"
+    },
+    {
+      "grade": 3,
+      "word": "in",
+      "phonetic": "/ɪn/",
+      "meaning": "在⋯⋯里"
+    },
+    {
+      "grade": 3,
+      "word": "under",
+      "phonetic": "/ˈʌndə(r)/",
+      "meaning": "在⋯⋯下面"
+    },
+    {
+      "grade": 3,
+      "word": "chair",
+      "phonetic": "/tʃeə(r)/",
+      "meaning": "椅子"
+    },
+    {
+      "grade": 3,
+      "word": "desk",
+      "phonetic": "/desk/",
+      "meaning": "书桌"
+    },
+    {
+      "grade": 3,
+      "word": "cap",
+      "phonetic": "/kæp/",
+      "meaning": "帽子"
+    },
+    {
+      "grade": 3,
+      "word": "ball",
+      "phonetic": "/bɔːl/",
+      "meaning": "球"
+    },
+    {
+      "grade": 3,
+      "word": "car",
+      "phonetic": "/kɑː(r)/",
+      "meaning": "小汽车"
+    },
+    {
+      "grade": 3,
+      "word": "boat",
+      "phonetic": "/bəʊt/",
+      "meaning": "小船"
+    },
+    {
+      "grade": 3,
+      "word": "map",
+      "phonetic": "/mæp/",
+      "meaning": "地图"
+    },
+    {
+      "grade": 3,
+      "word": "toy",
+      "phonetic": "/tɔɪ/",
+      "meaning": "玩具"
+    },
+    {
+      "grade": 3,
+      "word": "box",
+      "phonetic": "/bɒks/",
+      "meaning": "盒"
+    },
+    {
+      "grade": 3,
+      "word": "pear",
+      "phonetic": "/peə(r)/",
+      "meaning": "梨"
+    },
+    {
+      "grade": 3,
+      "word": "apple",
+      "phonetic": "/ˈæp(ə)l/",
+      "meaning": "苹果"
+    },
+    {
+      "grade": 3,
+      "word": "orange",
+      "phonetic": "/ˈɒrɪndʒ/",
+      "meaning": "橙子"
+    },
+    {
+      "grade": 3,
+      "word": "banana",
+      "phonetic": "/bəˈnɑːnə/",
+      "meaning": "香蕉"
+    },
+    {
+      "grade": 3,
+      "word": "watermelon",
+      "phonetic": "/ˈwɔːtəmelən/",
+      "meaning": "西瓜"
+    },
+    {
+      "grade": 3,
+      "word": "strawberry",
+      "phonetic": "/ˈstrɔːbəri/",
+      "meaning": "草莓"
+    },
+    {
+      "grade": 3,
+      "word": "grape",
+      "phonetic": "/ɡreɪp/",
+      "meaning": "葡萄"
+    },
+    {
+      "grade": 3,
+      "word": "buy",
+      "phonetic": "/baɪ/",
+      "meaning": "买"
+    },
+    {
+      "grade": 3,
+      "word": "fruit",
+      "phonetic": "/fruːt/",
+      "meaning": "水果"
+    },
+    {
+      "grade": 3,
+      "word": "eleven",
+      "phonetic": "/ɪˈlev(ə)n/",
+      "meaning": "十一"
+    },
+    {
+      "grade": 3,
+      "word": "twelve",
+      "phonetic": "/twelv/",
+      "meaning": "十二"
+    },
+    {
+      "grade": 3,
+      "word": "thirteen",
+      "phonetic": "/ˌθɜːˈtiːn/",
+      "meaning": "十三"
+    },
+    {
+      "grade": 3,
+      "word": "fourteen",
+      "phonetic": "/ˌfɔːˈtiːn/",
+      "meaning": "十四"
+    },
+    {
+      "grade": 3,
+      "word": "fifteen",
+      "phonetic": "/ˌfɪfˈtiːn/",
+      "meaning": "十五"
+    },
+    {
+      "grade": 3,
+      "word": "sixteen",
+      "phonetic": "/ˌsɪksˈtiːn/",
+      "meaning": "十六"
+    },
+    {
+      "grade": 3,
+      "word": "seventeen",
+      "phonetic": "/ˌsev(ə)nˈtiːn/",
+      "meaning": "十七"
+    },
+    {
+      "grade": 3,
+      "word": "eighteen",
+      "phonetic": "/ˌeɪˈtiːn/",
+      "meaning": "十八"
+    },
+    {
+      "grade": 3,
+      "word": "nineteen",
+      "phonetic": "/ˌnaɪnˈtiːn/",
+      "meaning": "十九"
+    },
+    {
+      "grade": 3,
+      "word": "twenty",
+      "phonetic": "/ˈtwenti/",
+      "meaning": "二十"
+    },
+    {
+      "grade": 3,
+      "word": "kite",
+      "phonetic": "/kaɪt/",
+      "meaning": "风筝"
+    },
+    {
+      "grade": 3,
+      "word": "beautiful",
+      "phonetic": "/ˈbjuːtɪf(ə)l/",
+      "meaning": "美丽的"
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The UK is in Europe.",
+      "zh": "英国位于欧洲。"
+    },
+    {
+      "en": "Canada is a large country.",
+      "zh": "加拿大是一个大国。"
+    },
+    {
+      "en": "The USA is a large country.",
+      "zh": "美国是一个大国。"
+    },
+    {
+      "en": "China has a long history.",
+      "zh": "中国有着悠久的历史。"
+    },
+    {
+      "en": "She reads English every morning.",
+      "zh": "她每天早上读英语。"
+    },
+    {
+      "en": "The student listens carefully in class.",
+      "zh": "学生在课堂上认真听讲。"
+    },
+    {
+      "en": "The pupil reads the word aloud.",
+      "zh": "学生大声读出这个词。"
+    },
+    {
+      "en": "He plays basketball after school.",
+      "zh": "他放学后打篮球。"
+    },
+    {
+      "en": "The teacher writes a sentence on the board.",
+      "zh": "老师在黑板上写了一句话。"
+    },
+    {
+      "en": "The boy is playing with a ball.",
+      "zh": "这个男孩正在玩球。"
+    },
+    {
+      "en": "Tom and Mary are classmates.",
+      "zh": "汤姆和玛丽是同学。"
+    },
+    {
+      "en": "The girl is reading a story.",
+      "zh": "这个女孩正在读故事。"
+    },
+    {
+      "en": "I have a new notebook.",
+      "zh": "我有一个新笔记本。"
+    },
+    {
+      "en": "My friend helps me with English.",
+      "zh": "我的朋友帮我学英语。"
+    },
+    {
+      "en": "Today is a sunny day.",
+      "zh": "今天是一个阳光明媚的日子。"
+    },
+    {
+      "en": "My father is kind to me.",
+      "zh": "我的父亲对我很好。"
+    },
+    {
+      "en": "My dad is kind to me.",
+      "zh": "我爸爸对我很好。"
+    },
+    {
+      "en": "The man is waiting for the bus.",
+      "zh": "该男子正在等公共汽车。"
+    },
+    {
+      "en": "The woman is talking to her daughter.",
+      "zh": "那个女人正在和她的女儿说话。"
+    },
+    {
+      "en": "My mother is kind to me.",
+      "zh": "我妈妈对我很好。"
+    }
+  ],
+  "grammar": [
+    {
+      "category": "be动词",
+      "question": "She ___ my teacher.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": 1,
+      "explain": "主语 she 是第三人称单数，用 is。",
+      "question_zh": "她是我的老师。"
+    },
+    {
+      "category": "代词",
+      "question": "Look at ___! She is dancing.",
+      "options": [
+        "she",
+        "her",
+        "hers",
+        "she's"
+      ],
+      "answer": 1,
+      "explain": "介词后用人称代词宾格 her。",
+      "question_zh": "看她！她在跳舞。"
+    },
+    {
+      "category": "情态动词",
+      "question": "I ___ swim in the river.",
+      "options": [
+        "can",
+        "is",
+        "am",
+        "do"
+      ],
+      "answer": 0,
+      "explain": "情态动词 can 后接动词原形，表示能力。",
+      "question_zh": "我会在河里游泳。"
+    },
+    {
+      "category": "时间介词",
+      "question": "We have lunch ___ twelve.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "for"
+      ],
+      "answer": 1,
+      "explain": "具体时刻前用 at。",
+      "question_zh": "我们十二点吃午饭。"
+    }
+  ]
+}

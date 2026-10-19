@@ -1,1 +1,764 @@
-{"words":[{"grade":4,"word":"onion","phonetic":"/ˈʌnjən/","meaning":"洋葱"},{"grade":4,"word":"rice","phonetic":"/raɪs/","meaning":"米饭"},{"grade":4,"word":"noodles","phonetic":"/ˈnuːdlz/","meaning":"面条"},{"grade":4,"word":"egg","phonetic":"/eɡ/","meaning":"鸡蛋"},{"grade":4,"word":"meat","phonetic":"/miːt/","meaning":"肉"},{"grade":4,"word":"soup","phonetic":"/suːp/","meaning":"汤"},{"grade":4,"word":"dinner","phonetic":"/ˈdɪnə(r)/","meaning":"晚餐"},{"grade":4,"word":"lunch","phonetic":"/lʌntʃ/","meaning":"午餐"},{"grade":4,"word":"breakfast","phonetic":"/ˈbrekfəst/","meaning":"早餐"},{"grade":4,"word":"time","phonetic":"/taɪm/","meaning":"时间"},{"grade":4,"word":"o'clock","phonetic":"/əˈklɒk/","meaning":"点钟"},{"grade":4,"word":"half","phonetic":"/hɑːf/","meaning":"一半"},{"grade":4,"word":"past","phonetic":"/pɑːst/","meaning":"过（时间）"},{"grade":4,"word":"get up","phonetic":"/ɡet ʌp/","meaning":"起床"},{"grade":4,"word":"go to school","phonetic":"/ɡəʊ tə skuːl/","meaning":"去上学"},{"grade":4,"word":"go home","phonetic":"/ɡəʊ həʊm/","meaning":"回家"},{"grade":4,"word":"go to bed","phonetic":"/ɡəʊ tə bed/","meaning":"上床睡觉"},{"grade":4,"word":"Sunday","phonetic":"/ˈsʌndeɪ/","meaning":"星期天"},{"grade":4,"word":"Monday","phonetic":"/ˈmʌndeɪ/","meaning":"星期一"},{"grade":4,"word":"Tuesday","phonetic":"/ˈtjuːzdeɪ/","meaning":"星期二"},{"grade":4,"word":"Wednesday","phonetic":"/ˈwenzdeɪ/","meaning":"星期三"},{"grade":4,"word":"Thursday","phonetic":"/ˈθɜːzdeɪ/","meaning":"星期四"},{"grade":4,"word":"Friday","phonetic":"/ˈfraɪdeɪ/","meaning":"星期五"},{"grade":4,"word":"Saturday","phonetic":"/ˈsætədeɪ/","meaning":"星期六"},{"grade":4,"word":"week","phonetic":"/wiːk/","meaning":"星期；周"},{"grade":4,"word":"day","phonetic":"/deɪ/","meaning":"天；日"},{"grade":4,"word":"today","phonetic":"/təˈdeɪ/","meaning":"今天"},{"grade":4,"word":"yesterday","phonetic":"/ˈjestədeɪ/","meaning":"昨天"},{"grade":4,"word":"tomorrow","phonetic":"/təˈmɒrəʊ/","meaning":"明天"},{"grade":4,"word":"weather","phonetic":"/ˈweðə(r)/","meaning":"天气"},{"grade":4,"word":"sunny","phonetic":"/ˈsʌni/","meaning":"晴朗的"},{"grade":4,"word":"cloudy","phonetic":"/ˈklaʊdi/","meaning":"多云的"},{"grade":4,"word":"rainy","phonetic":"/ˈreɪni/","meaning":"下雨的"},{"grade":4,"word":"snowy","phonetic":"/ˈsnəʊi/","meaning":"下雪的"},{"grade":4,"word":"windy","phonetic":"/ˈwɪndi/","meaning":"有风的"},{"grade":4,"word":"warm","phonetic":"/wɔːm/","meaning":"温暖的"},{"grade":4,"word":"cool","phonetic":"/kuːl/","meaning":"凉爽的；酷的"},{"grade":4,"word":"spring","phonetic":"/sprɪŋ/","meaning":"春天"},{"grade":4,"word":"summer","phonetic":"/ˈsʌmə(r)/","meaning":"夏天"},{"grade":4,"word":"autumn","phonetic":"/ˈɔːtəm/","meaning":"秋天"},{"grade":4,"word":"winter","phonetic":"/ˈwɪntə(r)/","meaning":"冬天"},{"grade":4,"word":"season","phonetic":"/ˈsiːzn/","meaning":"季节"},{"grade":4,"word":"wear","phonetic":"/weə(r)/","meaning":"穿"},{"grade":4,"word":"coat","phonetic":"/kəʊt/","meaning":"外套"},{"grade":4,"word":"sweater","phonetic":"/ˈswetə(r)/","meaning":"毛衣"},{"grade":4,"word":"shirt","phonetic":"/ʃɜːt/","meaning":"衬衫"},{"grade":4,"word":"T-shirt","phonetic":"/ˈtiː ʃɜːt/","meaning":"T恤衫"},{"grade":4,"word":"dress","phonetic":"/dres/","meaning":"连衣裙"},{"grade":4,"word":"skirt","phonetic":"/skɜːt/","meaning":"短裙"},{"grade":4,"word":"pants","phonetic":"/pænts/","meaning":"裤子"},{"grade":4,"word":"shoes","phonetic":"/ʃuːz/","meaning":"鞋子"},{"grade":4,"word":"socks","phonetic":"/sɒks/","meaning":"袜子"},{"grade":4,"word":"hat","phonetic":"/hæt/","meaning":"帽子"},{"grade":4,"word":"glasses","phonetic":"/ˈɡlɑːsɪz/","meaning":"眼镜"},{"grade":4,"word":"scarf","phonetic":"/skɑːf/","meaning":"围巾"},{"grade":4,"word":"gloves","phonetic":"/ɡlʌvz/","meaning":"手套"},{"grade":4,"word":"jacket","phonetic":"/ˈdʒækɪt/","meaning":"夹克衫"},{"grade":4,"word":"size","phonetic":"/saɪz/","meaning":"尺码"},{"grade":4,"word":"cheap","phonetic":"/tʃiːp/","meaning":"便宜的"},{"grade":4,"word":"expensive","phonetic":"/ɪkˈspensɪv/","meaning":"昂贵的"},{"grade":4,"word":"pretty","phonetic":"/ˈprɪti/","meaning":"漂亮的"},{"grade":4,"word":"nice","phonetic":"/naɪs/","meaning":"好的；漂亮的"},{"grade":4,"word":"shop","phonetic":"/ʃɒp/","meaning":"商店"},{"grade":4,"word":"buy","phonetic":"/baɪ/","meaning":"买"},{"grade":4,"word":"sell","phonetic":"/sel/","meaning":"卖"},{"grade":4,"word":"money","phonetic":"/ˈmʌni/","meaning":"钱"},{"grade":4,"word":"yuan","phonetic":"/juːˈɑːn/","meaning":"元（人民币）"}],"sentences":[{"en":"I have a pencil and a ruler.","zh":"我有一支铅笔和一把尺子。"},{"en":"Let's go to school together.","zh":"让我们一起上学吧。"},{"en":"It's time for lunch.","zh":"该吃午饭了。"},{"en":"My sister is a nurse.","zh":"我姐姐是一名护士。"},{"en":"It's a beautiful day for a picnic.","zh":"今天是个野餐的好日子。"},{"en":"Eating fruit is good for our health.","zh":"吃水果对我们的健康有好处。"},{"en":"The little girl is singing a song.","zh":"小女孩正在唱一首歌。"}],"grammar":[{"category":"冠词","question":"I have ___ apple on the table.","options":["a","an","the","/"],"answer":1,"explain":"apple 以元音音素 /æ/ 开头，用 an。","question_zh":"桌子上有一个苹果。"},{"category":"复数","question":"There are many ___ in the tree.","options":["monkey","monkeys","monkies","a monkey"],"answer":1,"explain":"many 后接名词复数 monkeys，辅音+y 变 y 为 i 加 es 只适用于以 y 结尾且 y 前是辅音的词。","question_zh":"树上有许多猴子。"},{"category":"疑问句","question":"___ you like music?","options":["Do","Does","Is","Are"],"answer":0,"explain":"一般现在时一般疑问句，主语 you 用助动词 Do。","question_zh":"你喜欢音乐吗？"},{"category":"时间介词","question":"We play outside ___ the afternoon.","options":["in","at","on","to"],"answer":0,"explain":"一天中的上午、下午、晚上用 in。","question_zh":"我们下午在外面玩。"}]}
+{
+  "words": [
+    {
+      "grade": 4,
+      "word": "first floor",
+      "phonetic": "/fɜːst flɔː(r)/",
+      "meaning": "一楼（美）"
+    },
+    {
+      "grade": 4,
+      "word": "second floor",
+      "phonetic": "/ˈsekənd flɔː(r)/",
+      "meaning": "二楼"
+    },
+    {
+      "grade": 4,
+      "word": "teacher's office",
+      "phonetic": "/ˈtiːtʃəz ˈɒfɪs/",
+      "meaning": "教师办公室"
+    },
+    {
+      "grade": 4,
+      "word": "library",
+      "phonetic": "/ˈlaɪbrəri/",
+      "meaning": "图书馆"
+    },
+    {
+      "grade": 4,
+      "word": "playground",
+      "phonetic": "/ˈpleɪɡraʊnd/",
+      "meaning": "操场"
+    },
+    {
+      "grade": 4,
+      "word": "computer room",
+      "phonetic": "/kəmˈpjuːtə(r) ruːm/",
+      "meaning": "计算机房"
+    },
+    {
+      "grade": 4,
+      "word": "art room",
+      "phonetic": "/ɑːt ruːm/",
+      "meaning": "美术教室"
+    },
+    {
+      "grade": 4,
+      "word": "music room",
+      "phonetic": "/ˈmjuːzɪk ruːm/",
+      "meaning": "音乐教室"
+    },
+    {
+      "grade": 4,
+      "word": "next to",
+      "phonetic": "/nekst tuː; tə/",
+      "meaning": "紧邻"
+    },
+    {
+      "grade": 4,
+      "word": "homework",
+      "phonetic": "/ˈhəʊmwɜːk/",
+      "meaning": "作业"
+    },
+    {
+      "grade": 4,
+      "word": "class",
+      "phonetic": "/klɑːs/",
+      "meaning": "班级"
+    },
+    {
+      "grade": 4,
+      "word": "forty",
+      "phonetic": "/ˈfɔːti/",
+      "meaning": "四十"
+    },
+    {
+      "grade": 4,
+      "word": "way",
+      "phonetic": "/weɪ/",
+      "meaning": "方向"
+    },
+    {
+      "grade": 4,
+      "word": "breakfast",
+      "phonetic": "/ˈbrekfəst/",
+      "meaning": "早餐"
+    },
+    {
+      "grade": 4,
+      "word": "English class",
+      "phonetic": "/ˈɪŋɡlɪʃ klɑːs/",
+      "meaning": "英语课"
+    },
+    {
+      "grade": 4,
+      "word": "lunch",
+      "phonetic": "/lʌntʃ/",
+      "meaning": "午饭"
+    },
+    {
+      "grade": 4,
+      "word": "music class",
+      "phonetic": "/ˈmjuːzɪk klɑːs/",
+      "meaning": "音乐课"
+    },
+    {
+      "grade": 4,
+      "word": "PE class",
+      "phonetic": "/peɪ klɑːs/",
+      "meaning": "体育课"
+    },
+    {
+      "grade": 4,
+      "word": "dinner",
+      "phonetic": "/ˈdɪnə(r)/",
+      "meaning": "正餐"
+    },
+    {
+      "grade": 4,
+      "word": "get up",
+      "phonetic": "/ɡet ʌp/",
+      "meaning": "起床"
+    },
+    {
+      "grade": 4,
+      "word": "go to school",
+      "phonetic": "/ɡəʊ tuː; tə skuːl/",
+      "meaning": "上学"
+    },
+    {
+      "grade": 4,
+      "word": "go home",
+      "phonetic": "/ɡəʊ həʊm/",
+      "meaning": "回家"
+    },
+    {
+      "grade": 4,
+      "word": "go to bed",
+      "phonetic": "/ɡəʊ tuː; tə bed/",
+      "meaning": "去睡觉"
+    },
+    {
+      "grade": 4,
+      "word": "over",
+      "phonetic": "/ˈəʊvə(r)/",
+      "meaning": "结束"
+    },
+    {
+      "grade": 4,
+      "word": "now",
+      "phonetic": "/naʊ/",
+      "meaning": "现在"
+    },
+    {
+      "grade": 4,
+      "word": "o'clock",
+      "phonetic": "/əˈklɒk/",
+      "meaning": "点钟"
+    },
+    {
+      "grade": 4,
+      "word": "kid",
+      "phonetic": "/kɪd/",
+      "meaning": "小孩"
+    },
+    {
+      "grade": 4,
+      "word": "thirty",
+      "phonetic": "/ˈθɜːti/",
+      "meaning": "三十"
+    },
+    {
+      "grade": 4,
+      "word": "hurry up",
+      "phonetic": "/ˈhʌrɪ ʌp/",
+      "meaning": "快点"
+    },
+    {
+      "grade": 4,
+      "word": "come on",
+      "phonetic": "/ˈkʌm ɒn/",
+      "meaning": "加油"
+    },
+    {
+      "grade": 4,
+      "word": "just a minute",
+      "phonetic": "/dʒʌst ə; eɪ ˈmɪnɪt/",
+      "meaning": "稍等一会儿"
+    },
+    {
+      "grade": 4,
+      "word": "cold",
+      "phonetic": "/kəʊld/",
+      "meaning": "冷的"
+    },
+    {
+      "grade": 4,
+      "word": "cool",
+      "phonetic": "/kuːl/",
+      "meaning": "凉的"
+    },
+    {
+      "grade": 4,
+      "word": "warm",
+      "phonetic": "/wɔːm/",
+      "meaning": "温暖的"
+    },
+    {
+      "grade": 4,
+      "word": "hot",
+      "phonetic": "/hɒt/",
+      "meaning": "热的"
+    },
+    {
+      "grade": 4,
+      "word": "sunny",
+      "phonetic": "/ˈsʌni/",
+      "meaning": "阳光充足的"
+    },
+    {
+      "grade": 4,
+      "word": "windy",
+      "phonetic": "/ˈwɪndi/",
+      "meaning": "多风的"
+    },
+    {
+      "grade": 4,
+      "word": "cloudy",
+      "phonetic": "/ˈklaʊdi/",
+      "meaning": "多云的"
+    },
+    {
+      "grade": 4,
+      "word": "snowy",
+      "phonetic": "/ˈsnəʊi/",
+      "meaning": "下雪的"
+    },
+    {
+      "grade": 4,
+      "word": "rainy",
+      "phonetic": "/ˈreɪni/",
+      "meaning": "阴雨的"
+    },
+    {
+      "grade": 4,
+      "word": "outside",
+      "phonetic": "/ˌaʊtˈsaɪd/",
+      "meaning": "在户外"
+    },
+    {
+      "grade": 4,
+      "word": "be careful",
+      "phonetic": "/biː; bi ˈkeəf(ə)l/",
+      "meaning": "小心"
+    },
+    {
+      "grade": 4,
+      "word": "weather",
+      "phonetic": "/ˈweðə(r)/",
+      "meaning": "天气"
+    },
+    {
+      "grade": 4,
+      "word": "New York",
+      "phonetic": "/njuː jɔːk/",
+      "meaning": "纽约"
+    },
+    {
+      "grade": 4,
+      "word": "how about...",
+      "phonetic": "/haʊ əˈbaʊt/",
+      "meaning": "怎么样？"
+    },
+    {
+      "grade": 4,
+      "word": "degree",
+      "phonetic": "/dɪˈɡriː/",
+      "meaning": "度"
+    },
+    {
+      "grade": 4,
+      "word": "world",
+      "phonetic": "/wɜːld/",
+      "meaning": "世界"
+    },
+    {
+      "grade": 4,
+      "word": "London",
+      "phonetic": "/ˈlʌndən/",
+      "meaning": "伦敦"
+    },
+    {
+      "grade": 4,
+      "word": "Moscow",
+      "phonetic": "/ˈmɒskəʊ/",
+      "meaning": "莫斯科"
+    },
+    {
+      "grade": 4,
+      "word": "Singapore",
+      "phonetic": "/ˌsɪŋəˈpɔː(r)/",
+      "meaning": "新加坡城"
+    },
+    {
+      "grade": 4,
+      "word": "Sydney",
+      "phonetic": "/ˈsɪdni/",
+      "meaning": "悉尼"
+    },
+    {
+      "grade": 4,
+      "word": "fly",
+      "phonetic": "/flaɪ/",
+      "meaning": "放（风筝）"
+    },
+    {
+      "grade": 4,
+      "word": "love",
+      "phonetic": "/lʌv/",
+      "meaning": "爱你的"
+    },
+    {
+      "grade": 4,
+      "word": "tomato",
+      "phonetic": "/təˈmɑːtəʊ/",
+      "meaning": "西红柿"
+    },
+    {
+      "grade": 4,
+      "word": "potato",
+      "phonetic": "/pəˈteɪtəʊ/",
+      "meaning": "马铃薯"
+    },
+    {
+      "grade": 4,
+      "word": "green beans",
+      "phonetic": "/ˌɡriːn ˈbiːnz/",
+      "meaning": "豆角"
+    },
+    {
+      "grade": 4,
+      "word": "carrot",
+      "phonetic": "/ˈkærət/",
+      "meaning": "胡萝卜"
+    },
+    {
+      "grade": 4,
+      "word": "horse",
+      "phonetic": "/hɔːs/",
+      "meaning": "马"
+    },
+    {
+      "grade": 4,
+      "word": "cow",
+      "phonetic": "/kaʊ/",
+      "meaning": "牛"
+    },
+    {
+      "grade": 4,
+      "word": "sheep",
+      "phonetic": "/ʃiːp/",
+      "meaning": "绵羊"
+    },
+    {
+      "grade": 4,
+      "word": "hen",
+      "phonetic": "/hen/",
+      "meaning": "母鸡"
+    },
+    {
+      "grade": 4,
+      "word": "these",
+      "phonetic": "/ðiːz/",
+      "meaning": "这些"
+    },
+    {
+      "grade": 4,
+      "word": "yum",
+      "phonetic": "/jʌm/",
+      "meaning": "味道好"
+    },
+    {
+      "grade": 4,
+      "word": "animal",
+      "phonetic": "/ˈænɪm(ə)l/",
+      "meaning": "动物"
+    },
+    {
+      "grade": 4,
+      "word": "those",
+      "phonetic": "/ðəʊz/",
+      "meaning": "那些"
+    },
+    {
+      "grade": 4,
+      "word": "garden",
+      "phonetic": "/ˈɡɑːd(ə)n/",
+      "meaning": "花园"
+    },
+    {
+      "grade": 4,
+      "word": "farm",
+      "phonetic": "/fɑːm/",
+      "meaning": "农场"
+    },
+    {
+      "grade": 4,
+      "word": "goat",
+      "phonetic": "/ɡəʊt/",
+      "meaning": "山羊"
+    },
+    {
+      "grade": 4,
+      "word": "eat",
+      "phonetic": "/iːt/",
+      "meaning": "吃"
+    },
+    {
+      "grade": 4,
+      "word": "clothes",
+      "phonetic": "/kləʊðz/",
+      "meaning": "服装"
+    },
+    {
+      "grade": 4,
+      "word": "pants",
+      "phonetic": "/pænts/",
+      "meaning": "裤子"
+    },
+    {
+      "grade": 4,
+      "word": "hat",
+      "phonetic": "/hæt/",
+      "meaning": "帽子"
+    },
+    {
+      "grade": 4,
+      "word": "dress",
+      "phonetic": "/dres/",
+      "meaning": "连衣裙"
+    },
+    {
+      "grade": 4,
+      "word": "skirt",
+      "phonetic": "/skɜːt/",
+      "meaning": "女裙"
+    },
+    {
+      "grade": 4,
+      "word": "coat",
+      "phonetic": "/kəʊt/",
+      "meaning": "大衣"
+    },
+    {
+      "grade": 4,
+      "word": "sweater",
+      "phonetic": "/ˈswetə(r)/",
+      "meaning": "毛衣"
+    },
+    {
+      "grade": 4,
+      "word": "sock",
+      "phonetic": "/sɒk/",
+      "meaning": "短袜"
+    },
+    {
+      "grade": 4,
+      "word": "shorts",
+      "phonetic": "/ʃɔːts/",
+      "meaning": "短裤"
+    },
+    {
+      "grade": 4,
+      "word": "jacket",
+      "phonetic": "/ˈdʒækɪt/",
+      "meaning": "夹克衫"
+    },
+    {
+      "grade": 4,
+      "word": "shirt",
+      "phonetic": "/ʃɜːt/",
+      "meaning": "衬衫"
+    },
+    {
+      "grade": 4,
+      "word": "yours",
+      "phonetic": "/jɔːz/",
+      "meaning": "你的"
+    },
+    {
+      "grade": 4,
+      "word": "whose",
+      "phonetic": "/huːz/",
+      "meaning": "谁的"
+    },
+    {
+      "grade": 4,
+      "word": "mine",
+      "phonetic": "/maɪn/",
+      "meaning": "我的"
+    },
+    {
+      "grade": 4,
+      "word": "pack",
+      "phonetic": "/pæk/",
+      "meaning": "收拾"
+    },
+    {
+      "grade": 4,
+      "word": "wait",
+      "phonetic": "/weɪt/",
+      "meaning": "等待"
+    },
+    {
+      "grade": 4,
+      "word": "glove",
+      "phonetic": "/ɡlʌv/",
+      "meaning": "手套"
+    },
+    {
+      "grade": 4,
+      "word": "scarf",
+      "phonetic": "/skɑːf/",
+      "meaning": "围巾"
+    },
+    {
+      "grade": 4,
+      "word": "umbrella",
+      "phonetic": "/ʌmˈbrelə/",
+      "meaning": "伞"
+    },
+    {
+      "grade": 4,
+      "word": "sunglasses",
+      "phonetic": "/ˈsʌnɡlɑːsɪz/",
+      "meaning": "太阳镜"
+    },
+    {
+      "grade": 4,
+      "word": "pretty",
+      "phonetic": "/ˈprɪti/",
+      "meaning": "美丽的"
+    },
+    {
+      "grade": 4,
+      "word": "expensive",
+      "phonetic": "/ɪkˈspensɪv/",
+      "meaning": "贵的"
+    },
+    {
+      "grade": 4,
+      "word": "cheap",
+      "phonetic": "/tʃiːp/",
+      "meaning": "便宜的"
+    },
+    {
+      "grade": 4,
+      "word": "nice",
+      "phonetic": "/naɪs/",
+      "meaning": "好的"
+    },
+    {
+      "grade": 4,
+      "word": "try on",
+      "phonetic": "/traɪ ɒn/",
+      "meaning": "试穿"
+    },
+    {
+      "grade": 4,
+      "word": "size",
+      "phonetic": "/saɪz/",
+      "meaning": "尺码"
+    },
+    {
+      "grade": 4,
+      "word": "of course",
+      "phonetic": "/ɒv; əv kɔːs/",
+      "meaning": "当然"
+    },
+    {
+      "grade": 4,
+      "word": "too",
+      "phonetic": "/tuː/",
+      "meaning": "太"
+    },
+    {
+      "grade": 4,
+      "word": "just",
+      "phonetic": "/dʒʌst/",
+      "meaning": "正好"
+    },
+    {
+      "grade": 4,
+      "word": "how much",
+      "phonetic": "/haʊ mʌtʃ/",
+      "meaning": "多少钱"
+    },
+    {
+      "grade": 4,
+      "word": "eighty",
+      "phonetic": "/ˈeɪti/",
+      "meaning": "八十"
+    },
+    {
+      "grade": 4,
+      "word": "dollar",
+      "phonetic": "/ˈdɒlə(r)/",
+      "meaning": "元"
+    },
+    {
+      "grade": 4,
+      "word": "sale",
+      "phonetic": "/seɪl/",
+      "meaning": "特价销售"
+    },
+    {
+      "grade": 4,
+      "word": "more",
+      "phonetic": "/mɔː(r)/",
+      "meaning": "更多的"
+    },
+    {
+      "grade": 4,
+      "word": "us",
+      "phonetic": "/ʌs; əs/",
+      "meaning": "我们"
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Our classroom is on the first floor.",
+      "zh": "我们的教室在一楼。"
+    },
+    {
+      "en": "The music room is on the second floor.",
+      "zh": "音乐室位于二楼。"
+    },
+    {
+      "en": "The teacher's office is next to our classroom.",
+      "zh": "老师的办公室在我们教室旁边。"
+    },
+    {
+      "en": "We read books in the library.",
+      "zh": "我们在图书馆看书。"
+    },
+    {
+      "en": "There is a playground in the picture.",
+      "zh": "图中有一个游乐场。"
+    },
+    {
+      "en": "We learn typing in the computer room.",
+      "zh": "我们在机房里学习打字。"
+    },
+    {
+      "en": "The art room is bright and clean.",
+      "zh": "美术室明亮、干净。"
+    },
+    {
+      "en": "We sing songs in the music room.",
+      "zh": "我们在音乐室唱歌。"
+    },
+    {
+      "en": "My desk is next to the window.",
+      "zh": "我的桌子在窗户旁边。"
+    },
+    {
+      "en": "Homework is useful at school.",
+      "zh": "家庭作业在学校很有用。"
+    },
+    {
+      "en": "There is a class in the picture.",
+      "zh": "图中有一个班级。"
+    },
+    {
+      "en": "My father is forty years old.",
+      "zh": "我父亲四十岁了。"
+    },
+    {
+      "en": "There is a way in the picture.",
+      "zh": "图中有一个方法。"
+    },
+    {
+      "en": "There is a breakfast in the picture.",
+      "zh": "图片里有早餐。"
+    },
+    {
+      "en": "We read a story in English class.",
+      "zh": "我们在英语课上读了一个故事。"
+    },
+    {
+      "en": "I ate a lunch for lunch.",
+      "zh": "午饭我吃了一顿午饭。"
+    },
+    {
+      "en": "We learn a new song in music class.",
+      "zh": "我们在音乐课上学一首新歌。"
+    },
+    {
+      "en": "We run and jump in PE class.",
+      "zh": "我们在体育课上跑、跳。"
+    },
+    {
+      "en": "There is a dinner in the picture.",
+      "zh": "图中有晚餐。"
+    },
+    {
+      "en": "I get up at seven o'clock.",
+      "zh": "我七点钟起床。"
+    }
+  ],
+  "grammar": [
+    {
+      "category": "冠词",
+      "question": "I have ___ apple on the table.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "/"
+      ],
+      "answer": 1,
+      "explain": "apple 以元音音素 /æ/ 开头，用 an。",
+      "question_zh": "桌子上有一个苹果。"
+    },
+    {
+      "category": "复数",
+      "question": "There are many ___ in the tree.",
+      "options": [
+        "monkey",
+        "monkeys",
+        "monkies",
+        "a monkey"
+      ],
+      "answer": 1,
+      "explain": "many 后接名词复数 monkeys，辅音+y 变 y 为 i 加 es 只适用于以 y 结尾且 y 前是辅音的词。",
+      "question_zh": "树上有许多猴子。"
+    },
+    {
+      "category": "疑问句",
+      "question": "___ you like music?",
+      "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explain": "一般现在时一般疑问句，主语 you 用助动词 Do。",
+      "question_zh": "你喜欢音乐吗？"
+    },
+    {
+      "category": "时间介词",
+      "question": "We play outside ___ the afternoon.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "一天中的上午、下午、晚上用 in。",
+      "question_zh": "我们下午在外面玩。"
+    }
+  ]
+}

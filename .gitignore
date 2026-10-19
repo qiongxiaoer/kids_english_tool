@@ -1,2 +1,14 @@
 # macOS 系统文件
 .DS_Store
+
+# 本地使用的引导图（不推送到仓库）
+家长引导图.html
+
+# 转换工具脚本（本地使用，不推送到仓库）
+convert-words.js
+convert-words.py
+generate-embedded.py
+
+# 二维码图片（本地使用）
+qrcode.png
+qrcode-big.png

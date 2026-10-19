@@ -1,1 +1,1076 @@
-{"words":[{"grade":5,"word":"ship","phonetic":"/ʃɪp/","meaning":"轮船"},{"grade":5,"word":"boat","phonetic":"/bəʊt/","meaning":"小船"},{"grade":5,"word":"car","phonetic":"/kɑː(r)/","meaning":"小汽车"},{"grade":5,"word":"bus","phonetic":"/bʌs/","meaning":"公共汽车"},{"grade":5,"word":"bike","phonetic":"/baɪk/","meaning":"自行车"},{"grade":5,"word":"taxi","phonetic":"/ˈtæksi/","meaning":"出租车"},{"grade":5,"word":"subway","phonetic":"/ˈsʌbweɪ/","meaning":"地铁"},{"grade":5,"word":"on foot","phonetic":"/ɒn fʊt/","meaning":"步行"},{"grade":5,"word":"by","phonetic":"/baɪ/","meaning":"乘（车）"},{"grade":5,"word":"traffic","phonetic":"/ˈtræfɪk/","meaning":"交通"},{"grade":5,"word":"red light","phonetic":"/red laɪt/","meaning":"红灯"},{"grade":5,"word":"yellow light","phonetic":"/ˈjeləʊ laɪt/","meaning":"黄灯"},{"grade":5,"word":"green light","phonetic":"/ɡriːn laɪt/","meaning":"绿灯"},{"grade":5,"word":"slow","phonetic":"/sləʊ/","meaning":"慢的"},{"grade":5,"word":"fast","phonetic":"/fɑːst/","meaning":"快的"},{"grade":5,"word":"usually","phonetic":"/ˈjuːʒuəli/","meaning":"通常"},{"grade":5,"word":"sometimes","phonetic":"/ˈsʌmtaɪmz/","meaning":"有时"},{"grade":5,"word":"always","phonetic":"/ˈɔːlweɪz/","meaning":"总是"},{"grade":5,"word":"never","phonetic":"/ˈnevə(r)/","meaning":"从不"},{"grade":5,"word":"often","phonetic":"/ˈɒfn/","meaning":"经常"},{"grade":5,"word":"every day","phonetic":"/ˈevri deɪ/","meaning":"每天"},{"grade":5,"word":"do morning exercises","phonetic":"/duː ˈmɔːnɪŋ ˈeksəsaɪzɪz/","meaning":"做早操"},{"grade":5,"word":"have breakfast","phonetic":"/hæv ˈbrekfəst/","meaning":"吃早饭"},{"grade":5,"word":"have dinner","phonetic":"/hæv ˈdɪnə(r)/","meaning":"吃晚饭"},{"grade":5,"word":"clean my room","phonetic":"/kliːn maɪ ruːm/","meaning":"打扫房间"},{"grade":5,"word":"go for a walk","phonetic":"/ɡəʊ fɔːr ə wɔːk/","meaning":"散步"},{"grade":5,"word":"take a trip","phonetic":"/teɪk ə trɪp/","meaning":"去旅行"},{"grade":5,"word":"pick","phonetic":"/pɪk/","meaning":"摘"},{"grade":5,"word":"make a snowman","phonetic":"/meɪk ə ˈsnəʊmæn/","meaning":"堆雪人"},{"grade":5,"word":"go swimming","phonetic":"/ɡəʊ ˈswɪmɪŋ/","meaning":"去游泳"},{"grade":5,"word":"go hiking","phonetic":"/ɡəʊ ˈhaɪkɪŋ/","meaning":"去远足"},{"grade":5,"word":"beach","phonetic":"/biːtʃ/","meaning":"海滩"},{"grade":5,"word":"sea","phonetic":"/siː/","meaning":"大海"},{"grade":5,"word":"mountain","phonetic":"/ˈmaʊntən/","meaning":"山"},{"grade":5,"word":"river","phonetic":"/ˈrɪvə(r)/","meaning":"河流"},{"grade":5,"word":"lake","phonetic":"/leɪk/","meaning":"湖"},{"grade":5,"word":"forest","phonetic":"/ˈfɒrɪst/","meaning":"森林"},{"grade":5,"word":"bridge","phonetic":"/brɪdʒ/","meaning":"桥"},{"grade":5,"word":"building","phonetic":"/ˈbɪldɪŋ/","meaning":"建筑物"},{"grade":5,"word":"house","phonetic":"/haʊs/","meaning":"房子"},{"grade":5,"word":"playground","phonetic":"/ˈpleɪɡraʊnd/","meaning":"操场"},{"grade":5,"word":"gym","phonetic":"/dʒɪm/","meaning":"体育馆"},{"grade":5,"word":"office","phonetic":"/ˈɒfɪs/","meaning":"办公室"},{"grade":5,"word":"first","phonetic":"/fɜːst/","meaning":"第一"},{"grade":5,"word":"second","phonetic":"/ˈsekənd/","meaning":"第二"},{"grade":5,"word":"third","phonetic":"/θɜːd/","meaning":"第三"},{"grade":5,"word":"fourth","phonetic":"/fɔːθ/","meaning":"第四"},{"grade":5,"word":"fifth","phonetic":"/fɪfθ/","meaning":"第五"},{"grade":5,"word":"sixth","phonetic":"/sɪksθ/","meaning":"第六"},{"grade":5,"word":"hall","phonetic":"/hɔːl/","meaning":"大厅"}],"sentences":[{"en":"Look at my face and my nose.","zh":"看我的脸和鼻子。"},{"en":"My schoolbag is heavy.","zh":"我的书包很重。"},{"en":"Today is Monday.","zh":"今天是星期一。"},{"en":"I get up at six and go to bed at nine.","zh":"我六点起床，九点睡觉。"},{"en":"I want to be a scientist in the future.","zh":"将来我想成为一名科学家。"},{"en":"I am learning to swim this summer.","zh":"这个夏天我正在学游泳。"},{"en":"Let's clean our classroom together.","zh":"让我们一起打扫教室吧。"}],"grammar":[{"category":"介词","question":"The book is ___ the desk.","options":["in","on","at","to"],"answer":1,"explain":"在物体表面上用 on。","question_zh":"书在书桌上面。"},{"category":"一般现在","question":"She ___ apples.","options":["like","likes","liking","liked"],"answer":1,"explain":"主语 she 第三人称单数，动词加 s 为 likes。","question_zh":"她喜欢苹果。"},{"category":"特殊疑问","question":"___ is your name?","options":["What","Where","Who","How"],"answer":0,"explain":"问名字用 What。","question_zh":"你叫什么名字？"},{"category":"there be","question":"There ___ many flowers in the garden.","options":["is","are","am","be"],"answer":1,"explain":"many flowers 复数，用 are。","question_zh":"花园里有很多花。"}]}
+{
+  "words": [
+    {
+      "grade": 5,
+      "word": "eat breakfast",
+      "phonetic": "/iːt ˈbrekfəst/",
+      "meaning": "吃早饭"
+    },
+    {
+      "grade": 5,
+      "word": "have...class",
+      "phonetic": "/hæv; həv klɑːs/",
+      "meaning": "上⋯⋯课"
+    },
+    {
+      "grade": 5,
+      "word": "play sports",
+      "phonetic": "/pleɪ spɔːts/",
+      "meaning": "进行体育运动"
+    },
+    {
+      "grade": 5,
+      "word": "exercise",
+      "phonetic": "/ˈeksəsaɪz/",
+      "meaning": "活动"
+    },
+    {
+      "grade": 5,
+      "word": "do morning exercise",
+      "phonetic": "/duː; də ˈmɔːnɪŋ ˈeksəsaɪz/",
+      "meaning": "做早操"
+    },
+    {
+      "grade": 5,
+      "word": "eat dinner",
+      "phonetic": "/iːt ˈdɪnə(r)/",
+      "meaning": "吃晚饭"
+    },
+    {
+      "grade": 5,
+      "word": "clean my room",
+      "phonetic": "/kliːn maɪ ruːm/",
+      "meaning": "打扫我的房间"
+    },
+    {
+      "grade": 5,
+      "word": "go for a walk",
+      "phonetic": "/ɡəʊ fɔː(r); fə(r) ə; eɪ wɔːk/",
+      "meaning": "散步"
+    },
+    {
+      "grade": 5,
+      "word": "go shopping",
+      "phonetic": "/ɡəʊ ˈʃɒpɪŋ/",
+      "meaning": "购物"
+    },
+    {
+      "grade": 5,
+      "word": "take",
+      "phonetic": "/teɪk/",
+      "meaning": "上（课）"
+    },
+    {
+      "grade": 5,
+      "word": "dancing",
+      "phonetic": "/ˈdɑːnsɪŋ/",
+      "meaning": "跳舞"
+    },
+    {
+      "grade": 5,
+      "word": "take a dancing class",
+      "phonetic": "/teɪk ə; eɪ ˈdɑːnsɪŋ klɑːs/",
+      "meaning": "上舞蹈课"
+    },
+    {
+      "grade": 5,
+      "word": "when",
+      "phonetic": "/wen/",
+      "meaning": "什么时候"
+    },
+    {
+      "grade": 5,
+      "word": "after",
+      "phonetic": "/ˈɑːftə(r)/",
+      "meaning": "在⋯⋯之后"
+    },
+    {
+      "grade": 5,
+      "word": "start",
+      "phonetic": "/stɑːt/",
+      "meaning": "开始"
+    },
+    {
+      "grade": 5,
+      "word": "usually",
+      "phonetic": "/ˈjuːʒuəli; ˈjuːʒəli/",
+      "meaning": "通常地"
+    },
+    {
+      "grade": 5,
+      "word": "Spain",
+      "phonetic": "/speɪn/",
+      "meaning": "西班牙"
+    },
+    {
+      "grade": 5,
+      "word": "late",
+      "phonetic": "/leɪt/",
+      "meaning": "晚"
+    },
+    {
+      "grade": 5,
+      "word": "a.m.",
+      "phonetic": "/ˌeɪ ˈem/",
+      "meaning": "上午"
+    },
+    {
+      "grade": 5,
+      "word": "p.m.",
+      "phonetic": "/ˌpiː ˈem/",
+      "meaning": "下午"
+    },
+    {
+      "grade": 5,
+      "word": "why",
+      "phonetic": "/waɪ/",
+      "meaning": "为什么"
+    },
+    {
+      "grade": 5,
+      "word": "shop",
+      "phonetic": "/ʃɒp/",
+      "meaning": "购物"
+    },
+    {
+      "grade": 5,
+      "word": "work",
+      "phonetic": "/wɜːk/",
+      "meaning": "工作"
+    },
+    {
+      "grade": 5,
+      "word": "last",
+      "phonetic": "/lɑːst/",
+      "meaning": "上一个的"
+    },
+    {
+      "grade": 5,
+      "word": "sound",
+      "phonetic": "/saʊnd/",
+      "meaning": "听起来好像"
+    },
+    {
+      "grade": 5,
+      "word": "also",
+      "phonetic": "/ˈɔːlsəʊ/",
+      "meaning": "还"
+    },
+    {
+      "grade": 5,
+      "word": "busy",
+      "phonetic": "/ˈbɪzi/",
+      "meaning": "忙的"
+    },
+    {
+      "grade": 5,
+      "word": "need",
+      "phonetic": "/niːd/",
+      "meaning": "需要"
+    },
+    {
+      "grade": 5,
+      "word": "play",
+      "phonetic": "/pleɪ/",
+      "meaning": "戏剧"
+    },
+    {
+      "grade": 5,
+      "word": "letter",
+      "phonetic": "/ˈletə(r)/",
+      "meaning": "信"
+    },
+    {
+      "grade": 5,
+      "word": "live",
+      "phonetic": "/lɪv; laɪv/",
+      "meaning": "居住"
+    },
+    {
+      "grade": 5,
+      "word": "island",
+      "phonetic": "/ˈaɪlənd/",
+      "meaning": "岛"
+    },
+    {
+      "grade": 5,
+      "word": "always",
+      "phonetic": "/ˈɔːlweɪz/",
+      "meaning": "总是"
+    },
+    {
+      "grade": 5,
+      "word": "cave",
+      "phonetic": "/keɪv/",
+      "meaning": "山洞"
+    },
+    {
+      "grade": 5,
+      "word": "go swimming",
+      "phonetic": "/ɡəʊ ˈswɪmɪŋ/",
+      "meaning": "去游泳"
+    },
+    {
+      "grade": 5,
+      "word": "win",
+      "phonetic": "/wɪn/",
+      "meaning": "获胜"
+    },
+    {
+      "grade": 5,
+      "word": "spring",
+      "phonetic": "/sprɪŋ/",
+      "meaning": "春天"
+    },
+    {
+      "grade": 5,
+      "word": "summer",
+      "phonetic": "/ˈsʌmə(r)/",
+      "meaning": "夏天"
+    },
+    {
+      "grade": 5,
+      "word": "autumn",
+      "phonetic": "/ˈɔːtəm/",
+      "meaning": "秋天"
+    },
+    {
+      "grade": 5,
+      "word": "winter",
+      "phonetic": "/ˈwɪntə(r)/",
+      "meaning": "冬天"
+    },
+    {
+      "grade": 5,
+      "word": "season",
+      "phonetic": "/ˈsiːz(ə)n/",
+      "meaning": "季节"
+    },
+    {
+      "grade": 5,
+      "word": "picnic",
+      "phonetic": "/ˈpɪknɪk/",
+      "meaning": "野餐"
+    },
+    {
+      "grade": 5,
+      "word": "go on a picnic",
+      "phonetic": "/ɡəʊ ɒn ə; eɪ ˈpɪknɪk/",
+      "meaning": "去野餐"
+    },
+    {
+      "grade": 5,
+      "word": "pick",
+      "phonetic": "/pɪk/",
+      "meaning": "摘"
+    },
+    {
+      "grade": 5,
+      "word": "pick apples",
+      "phonetic": "/pɪk ˈæplz/",
+      "meaning": "摘苹果"
+    },
+    {
+      "grade": 5,
+      "word": "snowman",
+      "phonetic": "/ˈsnəʊmæn/",
+      "meaning": "雪人"
+    },
+    {
+      "grade": 5,
+      "word": "make a snowman",
+      "phonetic": "/meɪk ə; eɪ ˈsnəʊmæn/",
+      "meaning": "堆雪人"
+    },
+    {
+      "grade": 5,
+      "word": "go swimming.",
+      "phonetic": "/ɡəʊ ˈswɪmɪŋ/",
+      "meaning": "去游泳"
+    },
+    {
+      "grade": 5,
+      "word": "which",
+      "phonetic": "/wɪtʃ/",
+      "meaning": "哪一个"
+    },
+    {
+      "grade": 5,
+      "word": "best",
+      "phonetic": "/best/",
+      "meaning": "最"
+    },
+    {
+      "grade": 5,
+      "word": "snow",
+      "phonetic": "/snəʊ/",
+      "meaning": "雪"
+    },
+    {
+      "grade": 5,
+      "word": "good job",
+      "phonetic": "/ɡʊd dʒɒb/",
+      "meaning": "做得好"
+    },
+    {
+      "grade": 5,
+      "word": "because",
+      "phonetic": "/bɪˈkəz; bɪˈkɒz/",
+      "meaning": "因为"
+    },
+    {
+      "grade": 5,
+      "word": "vacation",
+      "phonetic": "/veɪˈkeɪʃ(ə)n/",
+      "meaning": "假期"
+    },
+    {
+      "grade": 5,
+      "word": "all",
+      "phonetic": "/ɔːl/",
+      "meaning": "完全"
+    },
+    {
+      "grade": 5,
+      "word": "pink",
+      "phonetic": "/pɪŋk/",
+      "meaning": "粉色"
+    },
+    {
+      "grade": 5,
+      "word": "lovely",
+      "phonetic": "/ˈlʌvli/",
+      "meaning": "可爱的"
+    },
+    {
+      "grade": 5,
+      "word": "leaf",
+      "phonetic": "/liːf/",
+      "meaning": "叶子"
+    },
+    {
+      "grade": 5,
+      "word": "fall",
+      "phonetic": "/fɔːl/",
+      "meaning": "落下"
+    },
+    {
+      "grade": 5,
+      "word": "paint",
+      "phonetic": "/peɪnt/",
+      "meaning": "绘画"
+    },
+    {
+      "grade": 5,
+      "word": "January",
+      "phonetic": "/ˈdʒænjuəri/",
+      "meaning": "一月"
+    },
+    {
+      "grade": 5,
+      "word": "February",
+      "phonetic": "/ˈfebruəri/",
+      "meaning": "二月"
+    },
+    {
+      "grade": 5,
+      "word": "March",
+      "phonetic": "/mɑːtʃ/",
+      "meaning": "三月"
+    },
+    {
+      "grade": 5,
+      "word": "April",
+      "phonetic": "/ˈeɪprəl/",
+      "meaning": "四月"
+    },
+    {
+      "grade": 5,
+      "word": "May",
+      "phonetic": "/meɪ/",
+      "meaning": "五月"
+    },
+    {
+      "grade": 5,
+      "word": "June",
+      "phonetic": "/dʒuːn/",
+      "meaning": "六月"
+    },
+    {
+      "grade": 5,
+      "word": "July",
+      "phonetic": "/dʒʊˈlaɪ/",
+      "meaning": "七月"
+    },
+    {
+      "grade": 5,
+      "word": "August",
+      "phonetic": "/ˈɔːɡəst/",
+      "meaning": "八月"
+    },
+    {
+      "grade": 5,
+      "word": "September",
+      "phonetic": "/sepˈtembə(r)/",
+      "meaning": "九月"
+    },
+    {
+      "grade": 5,
+      "word": "October",
+      "phonetic": "/ɒkˈtəʊbə(r)/",
+      "meaning": "十月"
+    },
+    {
+      "grade": 5,
+      "word": "November",
+      "phonetic": "/nəʊˈvembə(r)/",
+      "meaning": "十一月"
+    },
+    {
+      "grade": 5,
+      "word": "December",
+      "phonetic": "/dɪˈsembə(r)/",
+      "meaning": "十二月"
+    },
+    {
+      "grade": 5,
+      "word": "few",
+      "phonetic": "/fjuː/",
+      "meaning": "不多"
+    },
+    {
+      "grade": 5,
+      "word": "a few",
+      "phonetic": "/ə fjuː/",
+      "meaning": "一些"
+    },
+    {
+      "grade": 5,
+      "word": "thing",
+      "phonetic": "/θɪŋ/",
+      "meaning": "事情"
+    },
+    {
+      "grade": 5,
+      "word": "meet",
+      "phonetic": "/miːt/",
+      "meaning": "集会"
+    },
+    {
+      "grade": 5,
+      "word": "sports meet",
+      "phonetic": "/spɔːts miːt/",
+      "meaning": "运动会"
+    },
+    {
+      "grade": 5,
+      "word": "Easter",
+      "phonetic": "/ˈiːstə(r)/",
+      "meaning": "复活节"
+    },
+    {
+      "grade": 5,
+      "word": "trip",
+      "phonetic": "/trɪp/",
+      "meaning": "旅行"
+    },
+    {
+      "grade": 5,
+      "word": "year",
+      "phonetic": "/jɪə(r)/",
+      "meaning": "年"
+    },
+    {
+      "grade": 5,
+      "word": "plant",
+      "phonetic": "/plɑːnt/",
+      "meaning": "种植"
+    },
+    {
+      "grade": 5,
+      "word": "contest",
+      "phonetic": "/ˈkɒntest/",
+      "meaning": "比赛"
+    },
+    {
+      "grade": 5,
+      "word": "the Great Wall",
+      "phonetic": "/ðə; ði ɡreɪt wɔːl/",
+      "meaning": "长城"
+    },
+    {
+      "grade": 5,
+      "word": "national",
+      "phonetic": "/ˈnæʃ(ə)nəl/",
+      "meaning": "国家的"
+    },
+    {
+      "grade": 5,
+      "word": "National Day",
+      "phonetic": "/ˈnæʃ(ə)nəl deɪ/",
+      "meaning": "国庆日"
+    },
+    {
+      "grade": 5,
+      "word": "American",
+      "phonetic": "/əˈmerɪkən/",
+      "meaning": "美国的"
+    },
+    {
+      "grade": 5,
+      "word": "Thanksgiving",
+      "phonetic": "/ˌθæŋksˈɡɪvɪŋ/",
+      "meaning": "感恩节"
+    },
+    {
+      "grade": 5,
+      "word": "Christmas",
+      "phonetic": "/ˈkrɪsməs/",
+      "meaning": "圣诞节"
+    },
+    {
+      "grade": 5,
+      "word": "holiday",
+      "phonetic": "/ˈhɒlədeɪ/",
+      "meaning": "节日"
+    },
+    {
+      "grade": 5,
+      "word": "game",
+      "phonetic": "/ɡeɪm/",
+      "meaning": "游戏"
+    },
+    {
+      "grade": 5,
+      "word": "roll",
+      "phonetic": "/rəʊl/",
+      "meaning": "滚动"
+    },
+    {
+      "grade": 5,
+      "word": "look for",
+      "phonetic": "/ˈlʊk fɔː(r)/",
+      "meaning": "寻找"
+    },
+    {
+      "grade": 5,
+      "word": "chocolate",
+      "phonetic": "/ˈtʃɒklət/",
+      "meaning": "巧克力"
+    },
+    {
+      "grade": 5,
+      "word": "bunny",
+      "phonetic": "/ˈbʌni/",
+      "meaning": "兔子"
+    },
+    {
+      "grade": 5,
+      "word": "RSVP",
+      "phonetic": "/ˌɑːr es viː ˈpiː/",
+      "meaning": "请赐复"
+    },
+    {
+      "grade": 5,
+      "word": "by",
+      "phonetic": "/baɪ/",
+      "meaning": "在⋯⋯之前"
+    },
+    {
+      "grade": 5,
+      "word": "first",
+      "phonetic": "/fɜːst/",
+      "meaning": "第一"
+    },
+    {
+      "grade": 5,
+      "word": "second",
+      "phonetic": "/ˈsekənd/",
+      "meaning": "第二"
+    },
+    {
+      "grade": 5,
+      "word": "third",
+      "phonetic": "/θɜːd/",
+      "meaning": "第三"
+    },
+    {
+      "grade": 5,
+      "word": "fourth",
+      "phonetic": "/fɔːθ/",
+      "meaning": "第四"
+    },
+    {
+      "grade": 5,
+      "word": "fifth",
+      "phonetic": "/fɪfθ/",
+      "meaning": "第五"
+    },
+    {
+      "grade": 5,
+      "word": "twelfth",
+      "phonetic": "/twelfθ/",
+      "meaning": "第十二"
+    },
+    {
+      "grade": 5,
+      "word": "twentieth",
+      "phonetic": "/ˈtwentiəθ/",
+      "meaning": "第二十"
+    },
+    {
+      "grade": 5,
+      "word": "twenty-first",
+      "phonetic": "/ˌtwenti ˈfɜːst/",
+      "meaning": "第二十一"
+    },
+    {
+      "grade": 5,
+      "word": "twenty-third",
+      "phonetic": "/ˈtwenti θɜːd/",
+      "meaning": "第二十三"
+    },
+    {
+      "grade": 5,
+      "word": "thirtieth",
+      "phonetic": "/ˈθɜːtiəθ/",
+      "meaning": "第三十"
+    },
+    {
+      "grade": 5,
+      "word": "special",
+      "phonetic": "/ˈspeʃ(ə)l/",
+      "meaning": "特殊的"
+    },
+    {
+      "grade": 5,
+      "word": "fool",
+      "phonetic": "/fuːl/",
+      "meaning": "蠢人"
+    },
+    {
+      "grade": 5,
+      "word": "kitten",
+      "phonetic": "/ˈkɪt(ə)n/",
+      "meaning": "小猫"
+    },
+    {
+      "grade": 5,
+      "word": "diary",
+      "phonetic": "/ˈdaɪəri/",
+      "meaning": "日记"
+    },
+    {
+      "grade": 5,
+      "word": "still",
+      "phonetic": "/stɪl/",
+      "meaning": "仍然"
+    },
+    {
+      "grade": 5,
+      "word": "noise",
+      "phonetic": "/nɔɪz/",
+      "meaning": "噪音"
+    },
+    {
+      "grade": 5,
+      "word": "fur",
+      "phonetic": "/fɜː(r)/",
+      "meaning": "动物皮毛"
+    },
+    {
+      "grade": 5,
+      "word": "open",
+      "phonetic": "/ˈəʊpən/",
+      "meaning": "开着的"
+    },
+    {
+      "grade": 5,
+      "word": "walk",
+      "phonetic": "/wɔːk/",
+      "meaning": "行走"
+    },
+    {
+      "grade": 5,
+      "word": "mine",
+      "phonetic": "/maɪn/",
+      "meaning": "我的"
+    },
+    {
+      "grade": 5,
+      "word": "yours",
+      "phonetic": "/jɔːz/",
+      "meaning": "你的"
+    },
+    {
+      "grade": 5,
+      "word": "his",
+      "phonetic": "/hɪz; ɪz/",
+      "meaning": "他的"
+    },
+    {
+      "grade": 5,
+      "word": "hers",
+      "phonetic": "/hɜːz/",
+      "meaning": "她的"
+    },
+    {
+      "grade": 5,
+      "word": "theirs",
+      "phonetic": "/ðeəz/",
+      "meaning": "他们的"
+    },
+    {
+      "grade": 5,
+      "word": "ours",
+      "phonetic": "/ˈaʊəz/",
+      "meaning": "我们的"
+    },
+    {
+      "grade": 5,
+      "word": "climbing",
+      "phonetic": "/ˈklaɪmɪŋ/",
+      "meaning": "攀登"
+    },
+    {
+      "grade": 5,
+      "word": "eating",
+      "phonetic": "/ˈiːtɪŋ/",
+      "meaning": "吃"
+    },
+    {
+      "grade": 5,
+      "word": "playing",
+      "phonetic": "/ˈpleɪɪŋ/",
+      "meaning": "玩"
+    },
+    {
+      "grade": 5,
+      "word": "jumping",
+      "phonetic": "/ˈdʒʌmpɪŋ/",
+      "meaning": "跳"
+    },
+    {
+      "grade": 5,
+      "word": "drinking",
+      "phonetic": "/ˈdrɪŋkɪŋ/",
+      "meaning": "喝"
+    },
+    {
+      "grade": 5,
+      "word": "sleeping",
+      "phonetic": "/ˈsliːpɪŋ/",
+      "meaning": "睡觉"
+    },
+    {
+      "grade": 5,
+      "word": "each",
+      "phonetic": "/iːtʃ/",
+      "meaning": "每个"
+    },
+    {
+      "grade": 5,
+      "word": "other",
+      "phonetic": "/ˈʌðə(r)/",
+      "meaning": "其他"
+    },
+    {
+      "grade": 5,
+      "word": "each other",
+      "phonetic": "/ˌiːtʃ ˈʌðə(r)/",
+      "meaning": "相互"
+    },
+    {
+      "grade": 5,
+      "word": "excited",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "meaning": "兴奋地"
+    },
+    {
+      "grade": 5,
+      "word": "like",
+      "phonetic": "/laɪk/",
+      "meaning": "像⋯⋯那样"
+    },
+    {
+      "grade": 5,
+      "word": "doing morning exercises",
+      "phonetic": "/ˈduːɪŋ ˈmɔːnɪŋ ˈeksəsaɪzɪz/",
+      "meaning": "做早操"
+    },
+    {
+      "grade": 5,
+      "word": "having...class",
+      "phonetic": "/ˈhævɪŋ klɑːs/",
+      "meaning": "上⋯⋯课"
+    },
+    {
+      "grade": 5,
+      "word": "eating lunch",
+      "phonetic": "/ˈiːtɪŋ lʌntʃ/",
+      "meaning": "吃午饭"
+    },
+    {
+      "grade": 5,
+      "word": "reading a book",
+      "phonetic": "/ˈriːdɪŋ ə; eɪ bʊk/",
+      "meaning": "看书"
+    },
+    {
+      "grade": 5,
+      "word": "listening to music",
+      "phonetic": "/ˈlɪsənɪŋ tuː; tə ˈmjuːzɪk/",
+      "meaning": "听音乐"
+    },
+    {
+      "grade": 5,
+      "word": "keep",
+      "phonetic": "/kiːp/",
+      "meaning": "保持"
+    },
+    {
+      "grade": 5,
+      "word": "keep to the right",
+      "phonetic": "/kiːp tuː; tə ðə; ði raɪt/",
+      "meaning": "靠右"
+    },
+    {
+      "grade": 5,
+      "word": "keep your desk clean",
+      "phonetic": "/kiːp jɔː(r); jə(r) desk kliːn/",
+      "meaning": "保持课桌干净"
+    },
+    {
+      "grade": 5,
+      "word": "talk quietly",
+      "phonetic": "/tɔːk ˈkwaɪətli/",
+      "meaning": "小声讲话"
+    },
+    {
+      "grade": 5,
+      "word": "turn",
+      "phonetic": "/tɜːn/",
+      "meaning": "顺序"
+    },
+    {
+      "grade": 5,
+      "word": "take turns",
+      "phonetic": "/teɪk tɜːnz/",
+      "meaning": "按顺序来"
+    },
+    {
+      "grade": 5,
+      "word": "bamboo",
+      "phonetic": "/ˌbæmˈbuː/",
+      "meaning": "竹子"
+    },
+    {
+      "grade": 5,
+      "word": "its",
+      "phonetic": "/ɪts/",
+      "meaning": "它的"
+    },
+    {
+      "grade": 5,
+      "word": "show",
+      "phonetic": "/ʃəʊ/",
+      "meaning": "指导，引导"
+    },
+    {
+      "grade": 5,
+      "word": "anything",
+      "phonetic": "/ˈeniθɪŋ/",
+      "meaning": "任何事物"
+    },
+    {
+      "grade": 5,
+      "word": "else",
+      "phonetic": "/els/",
+      "meaning": "另外"
+    },
+    {
+      "grade": 5,
+      "word": "exhibition",
+      "phonetic": "/ˌeksɪˈbɪʃ(ə)n/",
+      "meaning": "展览"
+    },
+    {
+      "grade": 5,
+      "word": "say",
+      "phonetic": "/seɪ/",
+      "meaning": "说"
+    },
+    {
+      "grade": 5,
+      "word": "have a look",
+      "phonetic": "/hæv; həv ə; eɪ lʊk/",
+      "meaning": "看一看"
+    },
+    {
+      "grade": 5,
+      "word": "sushi",
+      "phonetic": "/ˈsuːʃi/",
+      "meaning": "寿司"
+    },
+    {
+      "grade": 5,
+      "word": "teach",
+      "phonetic": "/tiːtʃ/",
+      "meaning": "教"
+    },
+    {
+      "grade": 5,
+      "word": "sure",
+      "phonetic": "/ʃʊə(r); ʃɔː(r)/",
+      "meaning": "当然"
+    },
+    {
+      "grade": 5,
+      "word": "Canadian",
+      "phonetic": "/kəˈneɪdiən/",
+      "meaning": "加拿大的"
+    },
+    {
+      "grade": 5,
+      "word": "Spanish",
+      "phonetic": "/ˈspænɪʃ/",
+      "meaning": "西班牙的"
+    }
+  ],
+  "sentences": [
+    {
+      "en": "I eat breakfast at seven every morning.",
+      "zh": "我每天早上七点吃早餐。"
+    },
+    {
+      "en": "We have class at eight o'clock.",
+      "zh": "我们八点钟上课。"
+    },
+    {
+      "en": "Many students play sports after school.",
+      "zh": "许多学生放学后参加体育运动。"
+    },
+    {
+      "en": "There is an exercise in the picture.",
+      "zh": "图中有一个练习。"
+    },
+    {
+      "en": "I do morning exercise before breakfast.",
+      "zh": "我在早餐前做晨练。"
+    },
+    {
+      "en": "We eat dinner together at home.",
+      "zh": "我们在家一起吃晚饭。"
+    },
+    {
+      "en": "I clean my room every Saturday.",
+      "zh": "我每个星期六都会打扫房间。"
+    },
+    {
+      "en": "We go for a walk after dinner.",
+      "zh": "晚饭后我们去散步。"
+    },
+    {
+      "en": "My mother and I go shopping on Sunday.",
+      "zh": "星期天我和妈妈去购物。"
+    },
+    {
+      "en": "Take your umbrella with you.",
+      "zh": "随身携带雨伞。"
+    },
+    {
+      "en": "The word dancing appears in the reading passage.",
+      "zh": "阅读段落中出现了“跳舞”这个词。"
+    },
+    {
+      "en": "She wants to take a dancing class this term.",
+      "zh": "她这个学期想上舞蹈课。"
+    },
+    {
+      "en": "When do you get up?",
+      "zh": "你什么时候起床？"
+    },
+    {
+      "en": "There is an after in the picture.",
+      "zh": "图中有一个后。"
+    },
+    {
+      "en": "The class starts at eight.",
+      "zh": "课程八点开始。"
+    },
+    {
+      "en": "She answered usually during the discussion.",
+      "zh": "她通常在讨论期间回答。"
+    },
+    {
+      "en": "Spain is in southern Europe.",
+      "zh": "西班牙位于欧洲南部。"
+    },
+    {
+      "en": "There is a late in the picture.",
+      "zh": "图中有一个迟到的地方。"
+    },
+    {
+      "en": "I get up at 7 a.m.",
+      "zh": "我早上7点起床"
+    },
+    {
+      "en": "The meeting starts at 3 p.m.",
+      "zh": "会议于下午 3 点开始。"
+    }
+  ],
+  "grammar": [
+    {
+      "category": "介词",
+      "question": "The book is ___ the desk.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "answer": 1,
+      "explain": "在物体表面上用 on。",
+      "question_zh": "书在书桌上面。"
+    },
+    {
+      "category": "一般现在",
+      "question": "She ___ apples.",
+      "options": [
+        "like",
+        "likes",
+        "liking",
+        "liked"
+      ],
+      "answer": 1,
+      "explain": "主语 she 第三人称单数，动词加 s 为 likes。",
+      "question_zh": "她喜欢苹果。"
+    },
+    {
+      "category": "特殊疑问",
+      "question": "___ is your name?",
+      "options": [
+        "What",
+        "Where",
+        "Who",
+        "How"
+      ],
+      "answer": 0,
+      "explain": "问名字用 What。",
+      "question_zh": "你叫什么名字？"
+    },
+    {
+      "category": "there be",
+      "question": "There ___ many flowers in the garden.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer": 1,
+      "explain": "many flowers 复数，用 are。",
+      "question_zh": "花园里有很多花。"
+    }
+  ]
+}

@@ -1,1 +1,644 @@
-{"words":[{"grade":4,"word":"classroom","phonetic":"/ˈklɑːsruːm/","meaning":"教室"},{"grade":4,"word":"window","phonetic":"/ˈwɪndəʊ/","meaning":"窗户"},{"grade":4,"word":"door","phonetic":"/dɔː(r)/","meaning":"门"},{"grade":4,"word":"picture","phonetic":"/ˈpɪktʃə(r)/","meaning":"图画"},{"grade":4,"word":"board","phonetic":"/bɔːd/","meaning":"黑板"},{"grade":4,"word":"computer","phonetic":"/kəmˈpjuːtə(r)/","meaning":"电脑"},{"grade":4,"word":"floor","phonetic":"/flɔː(r)/","meaning":"地板"},{"grade":4,"word":"wall","phonetic":"/wɔːl/","meaning":"墙"},{"grade":4,"word":"fan","phonetic":"/fæn/","meaning":"风扇"},{"grade":4,"word":"teacher's desk","phonetic":"/ˈtiːtʃəz desk/","meaning":"讲台"},{"grade":4,"word":"clean","phonetic":"/kliːn/","meaning":"打扫；干净的"},{"grade":4,"word":"help","phonetic":"/help/","meaning":"帮助"},{"grade":4,"word":"really","phonetic":"/ˈriːəli/","meaning":"真正地"},{"grade":4,"word":"near","phonetic":"/nɪə(r)/","meaning":"在……附近"},{"grade":4,"word":"schoolbag","phonetic":"/ˈskuːlbæɡ/","meaning":"书包"},{"grade":4,"word":"maths","phonetic":"/mæθs/","meaning":"数学"},{"grade":4,"word":"English","phonetic":"/ˈɪŋɡlɪʃ/","meaning":"英语"},{"grade":4,"word":"Chinese","phonetic":"/ˌtʃaɪˈniːz/","meaning":"语文；中文"},{"grade":4,"word":"music","phonetic":"/ˈmjuːzɪk/","meaning":"音乐"},{"grade":4,"word":"PE","phonetic":"/ˌpiː ˈiː/","meaning":"体育"},{"grade":4,"word":"art","phonetic":"/ɑːt/","meaning":"美术"},{"grade":4,"word":"science","phonetic":"/ˈsaɪəns/","meaning":"科学"},{"grade":4,"word":"storybook","phonetic":"/ˈstɔːribʊk/","meaning":"故事书"},{"grade":4,"word":"notebook","phonetic":"/ˈnəʊtbʊk/","meaning":"笔记本"},{"grade":4,"word":"candy","phonetic":"/ˈkændi/","meaning":"糖果"},{"grade":4,"word":"toy","phonetic":"/tɔɪ/","meaning":"玩具"},{"grade":4,"word":"key","phonetic":"/kiː/","meaning":"钥匙"},{"grade":4,"word":"tidy","phonetic":"/ˈtaɪdi/","meaning":"整洁的"},{"grade":4,"word":"put","phonetic":"/pʊt/","meaning":"放"},{"grade":4,"word":"in","phonetic":"/ɪn/","meaning":"在……里面"},{"grade":4,"word":"on","phonetic":"/ɒn/","meaning":"在……上面"},{"grade":4,"word":"under","phonetic":"/ˈʌndə(r)/","meaning":"在……下面"},{"grade":4,"word":"class","phonetic":"/klɑːs/","meaning":"班级；课"},{"grade":4,"word":"grade","phonetic":"/ɡreɪd/","meaning":"年级"},{"grade":4,"word":"desk","phonetic":"/desk/","meaning":"书桌"},{"grade":4,"word":"chair","phonetic":"/tʃeə(r)/","meaning":"椅子"},{"grade":4,"word":"home","phonetic":"/həʊm/","meaning":"家"},{"grade":4,"word":"bedroom","phonetic":"/ˈbedruːm/","meaning":"卧室"},{"grade":4,"word":"living room","phonetic":"/ˈlɪvɪŋ ruːm/","meaning":"客厅"},{"grade":4,"word":"kitchen","phonetic":"/ˈkɪtʃɪn/","meaning":"厨房"},{"grade":4,"word":"bathroom","phonetic":"/ˈbɑːθruːm/","meaning":"浴室"},{"grade":4,"word":"bed","phonetic":"/bed/","meaning":"床"},{"grade":4,"word":"sofa","phonetic":"/ˈsəʊfə/","meaning":"沙发"},{"grade":4,"word":"fridge","phonetic":"/frɪdʒ/","meaning":"冰箱"},{"grade":4,"word":"table","phonetic":"/ˈteɪbl/","meaning":"桌子"},{"grade":4,"word":"clock","phonetic":"/klɒk/","meaning":"钟"},{"grade":4,"word":"phone","phonetic":"/fəʊn/","meaning":"电话"},{"grade":4,"word":"light","phonetic":"/laɪt/","meaning":"灯；光"},{"grade":4,"word":"flower","phonetic":"/ˈflaʊə(r)/","meaning":"花"},{"grade":4,"word":"tree","phonetic":"/triː/","meaning":"树"},{"grade":4,"word":"grass","phonetic":"/ɡrɑːs/","meaning":"草"},{"grade":4,"word":"animal","phonetic":"/ˈænɪml/","meaning":"动物"},{"grade":4,"word":"tiger","phonetic":"/ˈtaɪɡə(r)/","meaning":"老虎"},{"grade":4,"word":"lion","phonetic":"/ˈlaɪən/","meaning":"狮子"},{"grade":4,"word":"fox","phonetic":"/fɒks/","meaning":"狐狸"},{"grade":4,"word":"wolf","phonetic":"/wʊlf/","meaning":"狼"},{"grade":4,"word":"horse","phonetic":"/hɔːs/","meaning":"马"},{"grade":4,"word":"cow","phonetic":"/kaʊ/","meaning":"奶牛"},{"grade":4,"word":"sheep","phonetic":"/ʃiːp/","meaning":"绵羊"},{"grade":4,"word":"goat","phonetic":"/ɡəʊt/","meaning":"山羊"},{"grade":4,"word":"hen","phonetic":"/hen/","meaning":"母鸡"},{"grade":4,"word":"fish","phonetic":"/fɪʃ/","meaning":"鱼"},{"grade":4,"word":"farm","phonetic":"/fɑːm/","meaning":"农场"},{"grade":4,"word":"vegetable","phonetic":"/ˈvedʒtəbl/","meaning":"蔬菜"},{"grade":4,"word":"tomato","phonetic":"/təˈmɑːtəʊ/","meaning":"西红柿"},{"grade":4,"word":"potato","phonetic":"/pəˈteɪtəʊ/","meaning":"土豆"},{"grade":4,"word":"carrot","phonetic":"/ˈkærət/","meaning":"胡萝卜"}],"sentences":[{"en":"What's your name? My name is Tom.","zh":"你叫什么名字？我叫汤姆。"},{"en":"I see ten monkeys in the tree.","zh":"我看见树上有十只猴子。"},{"en":"What time is it? It's seven o'clock.","zh":"几点了？七点了。"},{"en":"The shoes are too small for me.","zh":"这双鞋对我来说太小了。"},{"en":"She likes reading books in the library.","zh":"她喜欢在图书馆看书。"},{"en":"We are going to visit the museum tomorrow.","zh":"我们明天要去参观博物馆。"},{"en":"There are many trees in the forest.","zh":"森林里有很多树。"}],"grammar":[{"category":"be动词","question":"They ___ my friends.","options":["am","is","are","be"],"answer":2,"explain":"主语 they 是复数，用 are。","question_zh":"他们是我的朋友。"},{"category":"复数","question":"I have two ___.","options":["apple","apples","appless","an apple"],"answer":1,"explain":"two 后面用名词复数 apples。","question_zh":"我有两个苹果。"},{"category":"情态动词","question":"You ___ cross the road now. It's red.","options":["can","can't","mustn't","don't"],"answer":1,"explain":"红灯时不能过马路，用 can't 表示禁止。","question_zh":"你现在不能过马路。是红灯。"},{"category":"时间介词","question":"I go to school ___ Monday.","options":["in","at","on","to"],"answer":2,"explain":"具体星期几前用 on。","question_zh":"我星期一去上学。"}]}
+{
+  "words": [
+    {
+      "grade": 4,
+      "word": "classroom",
+      "phonetic": "/ˈklɑːsruːm/",
+      "meaning": "教室"
+    },
+    {
+      "grade": 4,
+      "word": "window",
+      "phonetic": "/ˈwɪndəʊ/",
+      "meaning": "窗户"
+    },
+    {
+      "grade": 4,
+      "word": "blackboard",
+      "phonetic": "/ˈblækbɔːd/",
+      "meaning": "黑板"
+    },
+    {
+      "grade": 4,
+      "word": "light",
+      "phonetic": "/laɪt/",
+      "meaning": "电灯"
+    },
+    {
+      "grade": 4,
+      "word": "picture",
+      "phonetic": "/ˈpɪktʃə(r)/",
+      "meaning": "图画"
+    },
+    {
+      "grade": 4,
+      "word": "door",
+      "phonetic": "/dɔː(r)/",
+      "meaning": "门"
+    },
+    {
+      "grade": 4,
+      "word": "teacher's desk",
+      "phonetic": "/ˈtiːtʃəz desk/",
+      "meaning": "讲台"
+    },
+    {
+      "grade": 4,
+      "word": "computer",
+      "phonetic": "/kəmˈpjuːtə(r)/",
+      "meaning": "计算机"
+    },
+    {
+      "grade": 4,
+      "word": "fan",
+      "phonetic": "/fæn/",
+      "meaning": "风扇"
+    },
+    {
+      "grade": 4,
+      "word": "wall",
+      "phonetic": "/wɔːl/",
+      "meaning": "墙壁"
+    },
+    {
+      "grade": 4,
+      "word": "floor",
+      "phonetic": "/flɔː(r)/",
+      "meaning": "地板"
+    },
+    {
+      "grade": 4,
+      "word": "really",
+      "phonetic": "/ˈriːəli/",
+      "meaning": "真的"
+    },
+    {
+      "grade": 4,
+      "word": "near",
+      "phonetic": "/nɪə(r)/",
+      "meaning": "距离近"
+    },
+    {
+      "grade": 4,
+      "word": "TV",
+      "phonetic": "/ˌtiː ˈviː/",
+      "meaning": "电视"
+    },
+    {
+      "grade": 4,
+      "word": "clean",
+      "phonetic": "/kliːn/",
+      "meaning": "打扫"
+    },
+    {
+      "grade": 4,
+      "word": "help",
+      "phonetic": "/help/",
+      "meaning": "帮助"
+    },
+    {
+      "grade": 4,
+      "word": "schoolbag",
+      "phonetic": "/ˈskuːlbæɡ/",
+      "meaning": "书包"
+    },
+    {
+      "grade": 4,
+      "word": "maths book",
+      "phonetic": "/mæθs bʊk/",
+      "meaning": "数学书"
+    },
+    {
+      "grade": 4,
+      "word": "English book",
+      "phonetic": "/ˈɪŋɡlɪʃ bʊk/",
+      "meaning": "英语书"
+    },
+    {
+      "grade": 4,
+      "word": "Chinese book",
+      "phonetic": "/ˌtʃaɪˈniːz bʊk/",
+      "meaning": "语文书"
+    },
+    {
+      "grade": 4,
+      "word": "storybook",
+      "phonetic": "/ˈstɔːribʊk/",
+      "meaning": "故事书"
+    },
+    {
+      "grade": 4,
+      "word": "candy",
+      "phonetic": "/ˈkændi/",
+      "meaning": "糖果"
+    },
+    {
+      "grade": 4,
+      "word": "notebook",
+      "phonetic": "/ˈnəʊtbʊk/",
+      "meaning": "笔记本"
+    },
+    {
+      "grade": 4,
+      "word": "toy",
+      "phonetic": "/tɔɪ/",
+      "meaning": "玩具"
+    },
+    {
+      "grade": 4,
+      "word": "key",
+      "phonetic": "/kiː/",
+      "meaning": "钥匙"
+    },
+    {
+      "grade": 4,
+      "word": "wow",
+      "phonetic": "/waʊ/",
+      "meaning": "呀"
+    },
+    {
+      "grade": 4,
+      "word": "lost",
+      "phonetic": "/lɒst/",
+      "meaning": "丢失"
+    },
+    {
+      "grade": 4,
+      "word": "so much",
+      "phonetic": "/səʊ mʌtʃ/",
+      "meaning": "非常地"
+    },
+    {
+      "grade": 4,
+      "word": "cute",
+      "phonetic": "/kjuːt/",
+      "meaning": "可爱的"
+    },
+    {
+      "grade": 4,
+      "word": "strong",
+      "phonetic": "/strɒŋ/",
+      "meaning": "强壮的"
+    },
+    {
+      "grade": 4,
+      "word": "friendly",
+      "phonetic": "/ˈfrendli/",
+      "meaning": "友好的"
+    },
+    {
+      "grade": 4,
+      "word": "quiet",
+      "phonetic": "/ˈkwaɪət/",
+      "meaning": "安静的"
+    },
+    {
+      "grade": 4,
+      "word": "hair",
+      "phonetic": "/heə(r)/",
+      "meaning": "头发"
+    },
+    {
+      "grade": 4,
+      "word": "shoe",
+      "phonetic": "/ʃuː/",
+      "meaning": "鞋"
+    },
+    {
+      "grade": 4,
+      "word": "glasses",
+      "phonetic": "/ˈɡlɑːsɪz/",
+      "meaning": "眼镜"
+    },
+    {
+      "grade": 4,
+      "word": "his",
+      "phonetic": "/hɪz; ɪz/",
+      "meaning": "他的"
+    },
+    {
+      "grade": 4,
+      "word": "or",
+      "phonetic": "/ɔː(r)/",
+      "meaning": "或者"
+    },
+    {
+      "grade": 4,
+      "word": "right",
+      "phonetic": "/raɪt/",
+      "meaning": "对的"
+    },
+    {
+      "grade": 4,
+      "word": "hat",
+      "phonetic": "/hæt/",
+      "meaning": "帽子"
+    },
+    {
+      "grade": 4,
+      "word": "her",
+      "phonetic": "/hɜː(r); hə(r)/",
+      "meaning": "她的"
+    },
+    {
+      "grade": 4,
+      "word": "bedroom",
+      "phonetic": "/ˈbedruːm/",
+      "meaning": "卧室"
+    },
+    {
+      "grade": 4,
+      "word": "living room",
+      "phonetic": "/ˈlɪvɪŋ ruːm/",
+      "meaning": "客厅"
+    },
+    {
+      "grade": 4,
+      "word": "study",
+      "phonetic": "/ˈstʌdi/",
+      "meaning": "书房"
+    },
+    {
+      "grade": 4,
+      "word": "kitchen",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "meaning": "厨房"
+    },
+    {
+      "grade": 4,
+      "word": "bathroom",
+      "phonetic": "/ˈbɑːθruːm; ˈbɑːθrʊm/",
+      "meaning": "浴室"
+    },
+    {
+      "grade": 4,
+      "word": "bed",
+      "phonetic": "/bed/",
+      "meaning": "床"
+    },
+    {
+      "grade": 4,
+      "word": "phone",
+      "phonetic": "/fəʊn/",
+      "meaning": "电话"
+    },
+    {
+      "grade": 4,
+      "word": "table",
+      "phonetic": "/ˈteɪb(ə)l/",
+      "meaning": "桌子"
+    },
+    {
+      "grade": 4,
+      "word": "sofa",
+      "phonetic": "/ˈsəʊfə/",
+      "meaning": "长沙发"
+    },
+    {
+      "grade": 4,
+      "word": "fridge",
+      "phonetic": "/frɪdʒ/",
+      "meaning": "冰箱"
+    },
+    {
+      "grade": 4,
+      "word": "find",
+      "phonetic": "/faɪnd/",
+      "meaning": "找到"
+    },
+    {
+      "grade": 4,
+      "word": "them",
+      "phonetic": "/ðem; ðəm/",
+      "meaning": "他们"
+    },
+    {
+      "grade": 4,
+      "word": "beef",
+      "phonetic": "/biːf/",
+      "meaning": "牛肉"
+    },
+    {
+      "grade": 4,
+      "word": "chicken",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "meaning": "鸡肉"
+    },
+    {
+      "grade": 4,
+      "word": "noodles",
+      "phonetic": "/ˈnuːd(ə)lz/",
+      "meaning": "面条"
+    },
+    {
+      "grade": 4,
+      "word": "soup",
+      "phonetic": "/suːp/",
+      "meaning": "汤"
+    },
+    {
+      "grade": 4,
+      "word": "vegetable",
+      "phonetic": "/ˈvedʒtəb(ə)l/",
+      "meaning": "蔬菜"
+    },
+    {
+      "grade": 4,
+      "word": "chopsticks",
+      "phonetic": "/ˈtʃɒpstɪks/",
+      "meaning": "筷子"
+    },
+    {
+      "grade": 4,
+      "word": "bowl",
+      "phonetic": "/bəʊl/",
+      "meaning": "碗"
+    },
+    {
+      "grade": 4,
+      "word": "fork",
+      "phonetic": "/fɔːk/",
+      "meaning": "餐叉"
+    },
+    {
+      "grade": 4,
+      "word": "knife",
+      "phonetic": "/naɪf/",
+      "meaning": "刀"
+    },
+    {
+      "grade": 4,
+      "word": "spoon",
+      "phonetic": "/spuːn/",
+      "meaning": "匙,勺子"
+    },
+    {
+      "grade": 4,
+      "word": "dinner",
+      "phonetic": "/ˈdɪnə(r)/",
+      "meaning": "正餐"
+    },
+    {
+      "grade": 4,
+      "word": "ready",
+      "phonetic": "/ˈredi/",
+      "meaning": "准备好"
+    },
+    {
+      "grade": 4,
+      "word": "help yourself",
+      "phonetic": "/help jɔːˈself/",
+      "meaning": "为（自己）取用"
+    },
+    {
+      "grade": 4,
+      "word": "pass",
+      "phonetic": "/pɑːs/",
+      "meaning": "给"
+    },
+    {
+      "grade": 4,
+      "word": "try",
+      "phonetic": "/traɪ/",
+      "meaning": "试"
+    },
+    {
+      "grade": 4,
+      "word": "parents",
+      "phonetic": "/ˈpeərənts/",
+      "meaning": "父母"
+    },
+    {
+      "grade": 4,
+      "word": "cousin",
+      "phonetic": "/ˈkʌzn/",
+      "meaning": "同辈表亲"
+    },
+    {
+      "grade": 4,
+      "word": "uncle",
+      "phonetic": "/ˈʌŋk(ə)l/",
+      "meaning": "叔叔"
+    },
+    {
+      "grade": 4,
+      "word": "aunt",
+      "phonetic": "/ɑːnt/",
+      "meaning": "阿姨"
+    },
+    {
+      "grade": 4,
+      "word": "baby brother",
+      "phonetic": "/ˈbeɪbi ˈbrʌðə(r)/",
+      "meaning": "小弟弟"
+    },
+    {
+      "grade": 4,
+      "word": "doctor",
+      "phonetic": "/ˈdɒktə(r)/",
+      "meaning": "医生"
+    },
+    {
+      "grade": 4,
+      "word": "cook",
+      "phonetic": "/kʊk/",
+      "meaning": "厨师"
+    },
+    {
+      "grade": 4,
+      "word": "driver",
+      "phonetic": "/ˈdraɪvə(r)/",
+      "meaning": "司机"
+    },
+    {
+      "grade": 4,
+      "word": "farmer",
+      "phonetic": "/ˈfɑːmə(r)/",
+      "meaning": "农民"
+    },
+    {
+      "grade": 4,
+      "word": "nurse",
+      "phonetic": "/nɜːs/",
+      "meaning": "护士"
+    },
+    {
+      "grade": 4,
+      "word": "people",
+      "phonetic": "/ˈpiːp(ə)l/",
+      "meaning": "人们"
+    },
+    {
+      "grade": 4,
+      "word": "but",
+      "phonetic": "/bʌt; bət/",
+      "meaning": "但是"
+    },
+    {
+      "grade": 4,
+      "word": "little",
+      "phonetic": "/ˈlɪt(ə)l/",
+      "meaning": "小的"
+    },
+    {
+      "grade": 4,
+      "word": "puppy",
+      "phonetic": "/ˈpʌpi/",
+      "meaning": "小狗"
+    },
+    {
+      "grade": 4,
+      "word": "football player",
+      "phonetic": "/ˈfʊtbɔːl ˈpleɪə(r)/",
+      "meaning": "足球运动员"
+    },
+    {
+      "grade": 4,
+      "word": "job",
+      "phonetic": "/dʒɒb/",
+      "meaning": "工作"
+    },
+    {
+      "grade": 4,
+      "word": "basketball",
+      "phonetic": "/ˈbɑːskɪtbɔːl/",
+      "meaning": "篮球"
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Our classroom is on the second floor.",
+      "zh": "我们的教室在二楼。"
+    },
+    {
+      "en": "There is a window in the picture.",
+      "zh": "图片中有一个窗户。"
+    },
+    {
+      "en": "There is a blackboard in the picture.",
+      "zh": "图片中有一块黑板。"
+    },
+    {
+      "en": "There is a light in the picture.",
+      "zh": "图中有一盏灯。"
+    },
+    {
+      "en": "The word \"picture\" shows an action in this sentence.",
+      "zh": "“图片”一词表示这句话中的一个动作。"
+    },
+    {
+      "en": "There is a door in the picture.",
+      "zh": "图中有一扇门。"
+    },
+    {
+      "en": "I can use teacher's desk in a simple sentence.",
+      "zh": "我可以用简单的一句话来使用老师的桌子。"
+    },
+    {
+      "en": "There is a computer in the picture.",
+      "zh": "图中有一台电脑。"
+    },
+    {
+      "en": "There is a fan in the picture.",
+      "zh": "图中有一把扇子。"
+    },
+    {
+      "en": "There is a wall in the picture.",
+      "zh": "图中有一堵墙。"
+    },
+    {
+      "en": "She answered floor during the discussion.",
+      "zh": "她在讨论期间发言。"
+    },
+    {
+      "en": "The example is really.",
+      "zh": "例子确实如此。"
+    },
+    {
+      "en": "There is a near in the picture.",
+      "zh": "图中有一个近处。"
+    },
+    {
+      "en": "I watch TV after dinner.",
+      "zh": "晚饭后我看电视。"
+    },
+    {
+      "en": "We clean the classroom every Friday.",
+      "zh": "我们每周五打扫教室。"
+    },
+    {
+      "en": "Please help me carry the books.",
+      "zh": "请帮我搬书。"
+    },
+    {
+      "en": "I put the schoolbag in my schoolbag.",
+      "zh": "我把书包放进了书包里。"
+    },
+    {
+      "en": "I can use maths book in a simple sentence.",
+      "zh": "我可以用简单的句子来使用数学书。"
+    },
+    {
+      "en": "I can use English book in a simple sentence.",
+      "zh": "我可以用英语书来写一个简单的句子。"
+    },
+    {
+      "en": "I can use Chinese book in a simple sentence.",
+      "zh": "我可以用中文书上的简单句子来表达。"
+    }
+  ],
+  "grammar": [
+    {
+      "category": "be动词",
+      "question": "They ___ my friends.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": 2,
+      "explain": "主语 they 是复数，用 are。",
+      "question_zh": "他们是我的朋友。"
+    },
+    {
+      "category": "复数",
+      "question": "I have two ___.",
+      "options": [
+        "apple",
+        "apples",
+        "appless",
+        "an apple"
+      ],
+      "answer": 1,
+      "explain": "two 后面用名词复数 apples。",
+      "question_zh": "我有两个苹果。"
+    },
+    {
+      "category": "情态动词",
+      "question": "You ___ cross the road now. It's red.",
+      "options": [
+        "can",
+        "can't",
+        "mustn't",
+        "don't"
+      ],
+      "answer": 1,
+      "explain": "红灯时不能过马路，用 can't 表示禁止。",
+      "question_zh": "你现在不能过马路。是红灯。"
+    },
+    {
+      "category": "时间介词",
+      "question": "I go to school ___ Monday.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "to"
+      ],
+      "answer": 2,
+      "explain": "具体星期几前用 on。",
+      "question_zh": "我星期一去上学。"
+    }
+  ]
+}

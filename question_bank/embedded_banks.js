@@ -1,79 +1,13490 @@
 /* 内置题库数据（离线可用，避免 file:// 下 fetch 被拦截）。
-   修改 question_bank/ 下 json 后，请同步更新本文件。 */
+   修改 question_bank/ 下 json 后，请同步更新本文件。
+   本文件由 generate-embedded.py 自动生成，请勿手动编辑。 */
 window.__EMBEDDED_BANK_INDEX = [
   {
     "category": "小学",
     "categoryId": "primary",
     "banks": [
-      { "name": "三年级上册", "filename": "primary_3a.json", "available": true },
-      { "name": "三年级下册", "filename": "primary_3b.json", "available": true },
-      { "name": "四年级上册", "filename": "primary_4a.json", "available": true },
-      { "name": "四年级下册", "filename": "primary_4b.json", "available": true },
-      { "name": "五年级上册", "filename": "primary_5a.json", "available": true },
-      { "name": "五年级下册", "filename": "primary_5b.json", "available": true },
-      { "name": "六年级上册", "filename": "primary_6a.json", "available": true },
-      { "name": "六年级下册", "filename": "primary_6b.json", "available": true },
-      { "name": "一年级上册", "filename": "primary_1a.json", "available": false },
-      { "name": "一年级下册", "filename": "primary_1b.json", "available": false },
-      { "name": "二年级上册", "filename": "primary_2a.json", "available": false },
-      { "name": "二年级下册", "filename": "primary_2b.json", "available": false },
-      { "name": "小学拔高词汇", "filename": "primary_advanced.json", "available": false },
-      { "name": "自然拼读核心词", "filename": "phonics.json", "available": false }
+      {
+        "name": "三年级上册",
+        "filename": "primary_3a.json",
+        "available": true
+      },
+      {
+        "name": "三年级下册",
+        "filename": "primary_3b.json",
+        "available": true
+      },
+      {
+        "name": "四年级上册",
+        "filename": "primary_4a.json",
+        "available": true
+      },
+      {
+        "name": "四年级下册",
+        "filename": "primary_4b.json",
+        "available": true
+      },
+      {
+        "name": "五年级上册",
+        "filename": "primary_5a.json",
+        "available": true
+      },
+      {
+        "name": "五年级下册",
+        "filename": "primary_5b.json",
+        "available": true
+      },
+      {
+        "name": "六年级上册",
+        "filename": "primary_6a.json",
+        "available": true
+      },
+      {
+        "name": "六年级下册",
+        "filename": "primary_6b.json",
+        "available": true
+      },
+      {
+        "name": "一年级上册",
+        "filename": "primary_1a.json",
+        "available": false
+      },
+      {
+        "name": "一年级下册",
+        "filename": "primary_1b.json",
+        "available": false
+      },
+      {
+        "name": "二年级上册",
+        "filename": "primary_2a.json",
+        "available": false
+      },
+      {
+        "name": "二年级下册",
+        "filename": "primary_2b.json",
+        "available": false
+      },
+      {
+        "name": "小学拔高词汇",
+        "filename": "primary_advanced.json",
+        "available": false
+      },
+      {
+        "name": "自然拼读核心词",
+        "filename": "phonics.json",
+        "available": false
+      }
     ]
   },
   {
     "category": "初中",
     "categoryId": "junior",
     "banks": [
-      { "name": "七年级上册", "filename": "junior_7a.json", "available": false },
-      { "name": "七年级下册", "filename": "junior_7b.json", "available": false },
-      { "name": "八年级上册", "filename": "junior_8a.json", "available": false },
-      { "name": "八年级下册", "filename": "junior_8b.json", "available": false },
-      { "name": "九年级上册", "filename": "junior_9a.json", "available": false },
-      { "name": "九年级下册", "filename": "junior_9b.json", "available": false },
-      { "name": "初中示例题库", "filename": "junior.json", "available": true },
-      { "name": "中考核心 1600", "filename": "zhongkao_1600.json", "available": false },
-      { "name": "中考高频 500", "filename": "zhongkao_500.json", "available": false }
+      {
+        "name": "七年级上册",
+        "filename": "junior_7a.json",
+        "available": false
+      },
+      {
+        "name": "七年级下册",
+        "filename": "junior_7b.json",
+        "available": false
+      },
+      {
+        "name": "八年级上册",
+        "filename": "junior_8a.json",
+        "available": false
+      },
+      {
+        "name": "八年级下册",
+        "filename": "junior_8b.json",
+        "available": false
+      },
+      {
+        "name": "九年级上册",
+        "filename": "junior_9a.json",
+        "available": false
+      },
+      {
+        "name": "九年级下册",
+        "filename": "junior_9b.json",
+        "available": false
+      },
+      {
+        "name": "初中示例题库",
+        "filename": "junior.json",
+        "available": true
+      },
+      {
+        "name": "中考核心 1600",
+        "filename": "zhongkao_1600.json",
+        "available": false
+      },
+      {
+        "name": "中考高频 500",
+        "filename": "zhongkao_500.json",
+        "available": false
+      }
     ]
   },
   {
     "category": "高中",
     "categoryId": "senior",
     "banks": [
-      { "name": "高一上册", "filename": "senior_10a.json", "available": false },
-      { "name": "高一下册", "filename": "senior_10b.json", "available": false },
-      { "name": "高二上册", "filename": "senior_11a.json", "available": false },
-      { "name": "高二下册", "filename": "senior_11b.json", "available": false },
-      { "name": "高三上册", "filename": "senior_12a.json", "available": false },
-      { "name": "高三下册", "filename": "senior_12b.json", "available": false },
-      { "name": "高考示例题库", "filename": "senior.json", "available": true },
-      { "name": "高考核心 3500", "filename": "gaokao_3500.json", "available": false },
-      { "name": "高考高频 800", "filename": "gaokao_800.json", "available": false }
+      {
+        "name": "高一上册",
+        "filename": "senior_10a.json",
+        "available": false
+      },
+      {
+        "name": "高一下册",
+        "filename": "senior_10b.json",
+        "available": false
+      },
+      {
+        "name": "高二上册",
+        "filename": "senior_11a.json",
+        "available": false
+      },
+      {
+        "name": "高二下册",
+        "filename": "senior_11b.json",
+        "available": false
+      },
+      {
+        "name": "高三上册",
+        "filename": "senior_12a.json",
+        "available": false
+      },
+      {
+        "name": "高三下册",
+        "filename": "senior_12b.json",
+        "available": false
+      },
+      {
+        "name": "高考示例题库",
+        "filename": "senior.json",
+        "available": true
+      },
+      {
+        "name": "高考核心 3500",
+        "filename": "gaokao_3500.json",
+        "available": false
+      },
+      {
+        "name": "高考高频 800",
+        "filename": "gaokao_800.json",
+        "available": false
+      }
     ]
   },
   {
     "category": "拓展",
     "categoryId": "extra",
     "banks": [
-      { "name": "新概念英语 1 册", "filename": "nce_1.json", "available": false },
-      { "name": "新概念英语 2 册", "filename": "nce_2.json", "available": false },
-      { "name": "新概念英语 3 册", "filename": "nce_3.json", "available": false },
-      { "name": "剑桥少儿英语", "filename": "cambridge_kids.json", "available": false },
-      { "name": "KET 词汇", "filename": "ket.json", "available": false },
-      { "name": "PET 词汇", "filename": "pet.json", "available": false }
+      {
+        "name": "新概念英语 1 册",
+        "filename": "nce_1.json",
+        "available": false
+      },
+      {
+        "name": "新概念英语 2 册",
+        "filename": "nce_2.json",
+        "available": false
+      },
+      {
+        "name": "新概念英语 3 册",
+        "filename": "nce_3.json",
+        "available": false
+      },
+      {
+        "name": "剑桥少儿英语",
+        "filename": "cambridge_kids.json",
+        "available": false
+      },
+      {
+        "name": "KET 词汇",
+        "filename": "ket.json",
+        "available": false
+      },
+      {
+        "name": "PET 词汇",
+        "filename": "pet.json",
+        "available": false
+      }
     ]
   }
 ];
 
 window.__EMBEDDED_BANKS = {
-  "primary_3a.json": {"words":[{"grade":3,"word":"pen","phonetic":"/pen/","meaning":"钢笔"},{"grade":3,"word":"pencil","phonetic":"/ˈpensl/","meaning":"铅笔"},{"grade":3,"word":"pencil-box","phonetic":"/ˈpensl bɒks/","meaning":"铅笔盒"},{"grade":3,"word":"ruler","phonetic":"/ˈruːlə(r)/","meaning":"尺子"},{"grade":3,"word":"eraser","phonetic":"/ɪˈreɪzə(r)/","meaning":"橡皮"},{"grade":3,"word":"crayon","phonetic":"/ˈkreɪən/","meaning":"蜡笔"},{"grade":3,"word":"bag","phonetic":"/bæɡ/","meaning":"书包"},{"grade":3,"word":"book","phonetic":"/bʊk/","meaning":"书"},{"grade":3,"word":"sharpener","phonetic":"/ˈʃɑːpnə(r)/","meaning":"卷笔刀"},{"grade":3,"word":"school","phonetic":"/skuːl/","meaning":"学校"},{"grade":3,"word":"head","phonetic":"/hed/","meaning":"头"},{"grade":3,"word":"face","phonetic":"/feɪs/","meaning":"脸"},{"grade":3,"word":"nose","phonetic":"/nəʊz/","meaning":"鼻子"},{"grade":3,"word":"mouth","phonetic":"/maʊθ/","meaning":"嘴"},{"grade":3,"word":"eye","phonetic":"/aɪ/","meaning":"眼睛"},{"grade":3,"word":"ear","phonetic":"/ɪə(r)/","meaning":"耳朵"},{"grade":3,"word":"arm","phonetic":"/ɑːm/","meaning":"手臂"},{"grade":3,"word":"hand","phonetic":"/hænd/","meaning":"手"},{"grade":3,"word":"finger","phonetic":"/ˈfɪŋɡə(r)/","meaning":"手指"},{"grade":3,"word":"leg","phonetic":"/leɡ/","meaning":"腿"},{"grade":3,"word":"foot","phonetic":"/fʊt/","meaning":"脚"},{"grade":3,"word":"body","phonetic":"/ˈbɒdi/","meaning":"身体"},{"grade":3,"word":"red","phonetic":"/red/","meaning":"红色"},{"grade":3,"word":"yellow","phonetic":"/ˈjeləʊ/","meaning":"黄色"},{"grade":3,"word":"green","phonetic":"/ɡriːn/","meaning":"绿色"},{"grade":3,"word":"blue","phonetic":"/bluː/","meaning":"蓝色"},{"grade":3,"word":"purple","phonetic":"/ˈpɜːpl/","meaning":"紫色"},{"grade":3,"word":"white","phonetic":"/waɪt/","meaning":"白色"},{"grade":3,"word":"black","phonetic":"/blæk/","meaning":"黑色"},{"grade":3,"word":"orange","phonetic":"/ˈɒrɪndʒ/","meaning":"橙色；橙子"},{"grade":3,"word":"pink","phonetic":"/pɪŋk/","meaning":"粉色"},{"grade":3,"word":"brown","phonetic":"/braʊn/","meaning":"棕色"},{"grade":3,"word":"cat","phonetic":"/kæt/","meaning":"猫"},{"grade":3,"word":"dog","phonetic":"/dɒɡ/","meaning":"狗"},{"grade":3,"word":"monkey","phonetic":"/ˈmʌŋki/","meaning":"猴子"},{"grade":3,"word":"panda","phonetic":"/ˈpændə/","meaning":"熊猫"},{"grade":3,"word":"rabbit","phonetic":"/ˈræbɪt/","meaning":"兔子"},{"grade":3,"word":"duck","phonetic":"/dʌk/","meaning":"鸭子"},{"grade":3,"word":"pig","phonetic":"/pɪɡ/","meaning":"猪"},{"grade":3,"word":"bird","phonetic":"/bɜːd/","meaning":"鸟"},{"grade":3,"word":"bear","phonetic":"/beə(r)/","meaning":"熊"},{"grade":3,"word":"elephant","phonetic":"/ˈelɪfənt/","meaning":"大象"},{"grade":3,"word":"mouse","phonetic":"/maʊs/","meaning":"老鼠"},{"grade":3,"word":"squirrel","phonetic":"/ˈskwɪrəl/","meaning":"松鼠"},{"grade":3,"word":"cake","phonetic":"/keɪk/","meaning":"蛋糕"},{"grade":3,"word":"bread","phonetic":"/bred/","meaning":"面包"},{"grade":3,"word":"hot dog","phonetic":"/hɒt dɒɡ/","meaning":"热狗"},{"grade":3,"word":"hamburger","phonetic":"/ˈhæmbɜːɡə(r)/","meaning":"汉堡包"},{"grade":3,"word":"chicken","phonetic":"/ˈtʃɪkɪn/","meaning":"鸡肉；鸡"},{"grade":3,"word":"French fries","phonetic":"/frentʃ fraɪz/","meaning":"炸薯条"},{"grade":3,"word":"coke","phonetic":"/kəʊk/","meaning":"可乐"},{"grade":3,"word":"juice","phonetic":"/dʒuːs/","meaning":"果汁"},{"grade":3,"word":"water","phonetic":"/ˈwɔːtə(r)/","meaning":"水"},{"grade":3,"word":"milk","phonetic":"/mɪlk/","meaning":"牛奶"},{"grade":3,"word":"tea","phonetic":"/tiː/","meaning":"茶"},{"grade":3,"word":"coffee","phonetic":"/ˈkɒfi/","meaning":"咖啡"},{"grade":3,"word":"one","phonetic":"/wʌn/","meaning":"一"},{"grade":3,"word":"two","phonetic":"/tuː/","meaning":"二"},{"grade":3,"word":"three","phonetic":"/θriː/","meaning":"三"},{"grade":3,"word":"four","phonetic":"/fɔː(r)/","meaning":"四"},{"grade":3,"word":"five","phonetic":"/faɪv/","meaning":"五"},{"grade":3,"word":"six","phonetic":"/sɪks/","meaning":"六"},{"grade":3,"word":"seven","phonetic":"/ˈsevn/","meaning":"七"},{"grade":3,"word":"eight","phonetic":"/eɪt/","meaning":"八"},{"grade":3,"word":"nine","phonetic":"/naɪn/","meaning":"九"},{"grade":3,"word":"ten","phonetic":"/ten/","meaning":"十"},{"grade":3,"word":"boy","phonetic":"/bɔɪ/","meaning":"男孩"},{"grade":3,"word":"girl","phonetic":"/ɡɜːl/","meaning":"女孩"},{"grade":3,"word":"teacher","phonetic":"/ˈtiːtʃə(r)/","meaning":"老师"},{"grade":3,"word":"student","phonetic":"/ˈstjuːdnt/","meaning":"学生"}],"sentences":[{"en":"Good morning, boys and girls.","zh":"早上好，孩子们。"},{"en":"This is my mother and that is my father.","zh":"这是我妈妈，那是我爸爸。"},{"en":"My family has four people.","zh":"我家有四口人。"},{"en":"Look at the big elephant.","zh":"看那头大象。"},{"en":"Go straight and you will see the library.","zh":"直走你就会看到图书馆。"},{"en":"I feel tired and want to rest.","zh":"我感觉很累，想休息一下。"},{"en":"The teacher is kind to her students.","zh":"这位老师对学生很和蔼。"}],"grammar":[{"category":"be动词","question":"I ___ a student.","options":["am","is","are","be"],"answer":0,"explain":"主语是 I，be 动词用 am。","question_zh":"我是一名学生。"},{"category":"代词","question":"This is ___ book.","options":["I","me","my","mine"],"answer":2,"explain":"名词前用形容词性物主代词 my。","question_zh":"这是我的书。"},{"category":"现在进行","question":"They ___ playing football now.","options":["am","is","are","be"],"answer":2,"explain":"主语 they 复数，现在进行时用 are。","question_zh":"他们现在正在踢足球。"},{"category":"特殊疑问","question":"___ do you go to school? By bus.","options":["What","Where","Who","How"],"answer":3,"explain":"问交通方式用 How。","question_zh":"你怎么去上学？坐公交车。"},{"category":"祈使句","question":"___ open the door, please.","options":["Please","Not","No","Don't"],"answer":3,"explain":"祈使句否定用 Don't。","question_zh":"请不要开门。"}]},
-  "primary_3b.json": {"words":[{"grade":3,"word":"friend","phonetic":"/frend/","meaning":"朋友"},{"grade":3,"word":"family","phonetic":"/ˈfæməli/","meaning":"家庭"},{"grade":3,"word":"father","phonetic":"/ˈfɑːðə(r)/","meaning":"爸爸"},{"grade":3,"word":"mother","phonetic":"/ˈmʌðə(r)/","meaning":"妈妈"},{"grade":3,"word":"brother","phonetic":"/ˈbrʌðə(r)/","meaning":"兄弟"},{"grade":3,"word":"sister","phonetic":"/ˈsɪstə(r)/","meaning":"姐妹"},{"grade":3,"word":"grandfather","phonetic":"/ˈɡrænfɑːðə(r)/","meaning":"爷爷；外公"},{"grade":3,"word":"grandmother","phonetic":"/ˈɡrænmʌðə(r)/","meaning":"奶奶；外婆"},{"grade":3,"word":"this","phonetic":"/ðɪs/","meaning":"这"},{"grade":3,"word":"that","phonetic":"/ðæt/","meaning":"那"},{"grade":3,"word":"is","phonetic":"/ɪz/","meaning":"是（单数）"},{"grade":3,"word":"are","phonetic":"/ɑː(r)/","meaning":"是（复数）"},{"grade":3,"word":"am","phonetic":"/æm/","meaning":"是（I用）"},{"grade":3,"word":"hello","phonetic":"/həˈləʊ/","meaning":"你好"},{"grade":3,"word":"hi","phonetic":"/haɪ/","meaning":"嗨"},{"grade":3,"word":"good","phonetic":"/ɡʊd/","meaning":"好的"},{"grade":3,"word":"morning","phonetic":"/ˈmɔːnɪŋ/","meaning":"早晨"},{"grade":3,"word":"afternoon","phonetic":"/ˌɑːftəˈnuːn/","meaning":"下午"},{"grade":3,"word":"evening","phonetic":"/ˈiːvnɪŋ/","meaning":"晚上"},{"grade":3,"word":"how","phonetic":"/haʊ/","meaning":"怎样"},{"grade":3,"word":"fine","phonetic":"/faɪn/","meaning":"好的；健康的"},{"grade":3,"word":"thank","phonetic":"/θæŋk/","meaning":"谢谢"},{"grade":3,"word":"you","phonetic":"/juː/","meaning":"你"},{"grade":3,"word":"I","phonetic":"/aɪ/","meaning":"我"},{"grade":3,"word":"my","phonetic":"/maɪ/","meaning":"我的"},{"grade":3,"word":"your","phonetic":"/jɔː(r)/","meaning":"你的"},{"grade":3,"word":"yes","phonetic":"/jes/","meaning":"是的"},{"grade":3,"word":"no","phonetic":"/nəʊ/","meaning":"不"},{"grade":3,"word":"not","phonetic":"/nɒt/","meaning":"不；没有"},{"grade":3,"word":"what","phonetic":"/wɒt/","meaning":"什么"},{"grade":3,"word":"who","phonetic":"/huː/","meaning":"谁"},{"grade":3,"word":"where","phonetic":"/weə(r)/","meaning":"哪里"},{"grade":3,"word":"apple","phonetic":"/ˈæpl/","meaning":"苹果"},{"grade":3,"word":"pear","phonetic":"/peə(r)/","meaning":"梨"},{"grade":3,"word":"banana","phonetic":"/bəˈnɑːnə/","meaning":"香蕉"},{"grade":3,"word":"grapes","phonetic":"/ɡreɪps/","meaning":"葡萄"},{"grade":3,"word":"strawberry","phonetic":"/ˈstrɔːbəri/","meaning":"草莓"},{"grade":3,"word":"watermelon","phonetic":"/ˈwɔːtəmelən/","meaning":"西瓜"},{"grade":3,"word":"big","phonetic":"/bɪɡ/","meaning":"大的"},{"grade":3,"word":"small","phonetic":"/smɔːl/","meaning":"小的"},{"grade":3,"word":"long","phonetic":"/lɒŋ/","meaning":"长的"},{"grade":3,"word":"short","phonetic":"/ʃɔːt/","meaning":"短的"},{"grade":3,"word":"tall","phonetic":"/tɔːl/","meaning":"高的"},{"grade":3,"word":"giraffe","phonetic":"/dʒəˈrɑːf/","meaning":"长颈鹿"},{"grade":3,"word":"deer","phonetic":"/dɪə(r)/","meaning":"鹿"},{"grade":3,"word":"ant","phonetic":"/ænt/","meaning":"蚂蚁"},{"grade":3,"word":"new","phonetic":"/njuː/","meaning":"新的"},{"grade":3,"word":"old","phonetic":"/əʊld/","meaning":"旧的；老的"},{"grade":3,"word":"come","phonetic":"/kʌm/","meaning":"来"},{"grade":3,"word":"go","phonetic":"/ɡəʊ/","meaning":"去"},{"grade":3,"word":"have","phonetic":"/hæv/","meaning":"有"},{"grade":3,"word":"has","phonetic":"/hæz/","meaning":"有（三单）"},{"grade":3,"word":"like","phonetic":"/laɪk/","meaning":"喜欢"},{"grade":3,"word":"eat","phonetic":"/iːt/","meaning":"吃"},{"grade":3,"word":"drink","phonetic":"/drɪŋk/","meaning":"喝"},{"grade":3,"word":"run","phonetic":"/rʌn/","meaning":"跑"},{"grade":3,"word":"jump","phonetic":"/dʒʌmp/","meaning":"跳"},{"grade":3,"word":"walk","phonetic":"/wɔːk/","meaning":"走路"},{"grade":3,"word":"swim","phonetic":"/swɪm/","meaning":"游泳"},{"grade":3,"word":"happy","phonetic":"/ˈhæpi/","meaning":"高兴的"},{"grade":3,"word":"sad","phonetic":"/sæd/","meaning":"难过的"},{"grade":3,"word":"hot","phonetic":"/hɒt/","meaning":"热的"},{"grade":3,"word":"cold","phonetic":"/kəʊld/","meaning":"冷的"},{"grade":3,"word":"snow","phonetic":"/snəʊ/","meaning":"雪"},{"grade":3,"word":"rain","phonetic":"/reɪn/","meaning":"雨"},{"grade":3,"word":"wind","phonetic":"/wɪnd/","meaning":"风"},{"grade":3,"word":"cloud","phonetic":"/klaʊd/","meaning":"云"},{"grade":3,"word":"sun","phonetic":"/sʌn/","meaning":"太阳"},{"grade":3,"word":"moon","phonetic":"/muːn/","meaning":"月亮"},{"grade":3,"word":"star","phonetic":"/stɑː(r)/","meaning":"星星"}],"sentences":[{"en":"How are you? I'm fine, thank you.","zh":"你好吗？我很好，谢谢。"},{"en":"How many books do you have?","zh":"你有多少本书？"},{"en":"The farmer has many cows and sheep.","zh":"这位农民有很多奶牛和绵羊。"},{"en":"I want to buy a new dress.","zh":"我想买一条新连衣裙。"},{"en":"I often play football after school.","zh":"放学后我经常踢足球。"},{"en":"Don't worry, I can help you.","zh":"别担心，我能帮助你。"},{"en":"We must cross the road carefully.","zh":"我们必须小心地过马路。"}],"grammar":[{"category":"be动词","question":"She ___ my teacher.","options":["am","is","are","be"],"answer":1,"explain":"主语 she 是第三人称单数，用 is。","question_zh":"她是我的老师。"},{"category":"代词","question":"Look at ___! She is dancing.","options":["she","her","hers","she's"],"answer":1,"explain":"介词后用人称代词宾格 her。","question_zh":"看她！她在跳舞。"},{"category":"情态动词","question":"I ___ swim in the river.","options":["can","is","am","do"],"answer":0,"explain":"情态动词 can 后接动词原形，表示能力。","question_zh":"我会在河里游泳。"},{"category":"时间介词","question":"We have lunch ___ twelve.","options":["in","at","on","for"],"answer":1,"explain":"具体时刻前用 at。","question_zh":"我们十二点吃午饭。"}]},
-  "primary_4a.json": {"words":[{"grade":4,"word":"classroom","phonetic":"/ˈklɑːsruːm/","meaning":"教室"},{"grade":4,"word":"window","phonetic":"/ˈwɪndəʊ/","meaning":"窗户"},{"grade":4,"word":"door","phonetic":"/dɔː(r)/","meaning":"门"},{"grade":4,"word":"picture","phonetic":"/ˈpɪktʃə(r)/","meaning":"图画"},{"grade":4,"word":"board","phonetic":"/bɔːd/","meaning":"黑板"},{"grade":4,"word":"computer","phonetic":"/kəmˈpjuːtə(r)/","meaning":"电脑"},{"grade":4,"word":"floor","phonetic":"/flɔː(r)/","meaning":"地板"},{"grade":4,"word":"wall","phonetic":"/wɔːl/","meaning":"墙"},{"grade":4,"word":"fan","phonetic":"/fæn/","meaning":"风扇"},{"grade":4,"word":"teacher's desk","phonetic":"/ˈtiːtʃəz desk/","meaning":"讲台"},{"grade":4,"word":"clean","phonetic":"/kliːn/","meaning":"打扫；干净的"},{"grade":4,"word":"help","phonetic":"/help/","meaning":"帮助"},{"grade":4,"word":"really","phonetic":"/ˈriːəli/","meaning":"真正地"},{"grade":4,"word":"near","phonetic":"/nɪə(r)/","meaning":"在……附近"},{"grade":4,"word":"schoolbag","phonetic":"/ˈskuːlbæɡ/","meaning":"书包"},{"grade":4,"word":"maths","phonetic":"/mæθs/","meaning":"数学"},{"grade":4,"word":"English","phonetic":"/ˈɪŋɡlɪʃ/","meaning":"英语"},{"grade":4,"word":"Chinese","phonetic":"/ˌtʃaɪˈniːz/","meaning":"语文；中文"},{"grade":4,"word":"music","phonetic":"/ˈmjuːzɪk/","meaning":"音乐"},{"grade":4,"word":"PE","phonetic":"/ˌpiː ˈiː/","meaning":"体育"},{"grade":4,"word":"art","phonetic":"/ɑːt/","meaning":"美术"},{"grade":4,"word":"science","phonetic":"/ˈsaɪəns/","meaning":"科学"},{"grade":4,"word":"storybook","phonetic":"/ˈstɔːribʊk/","meaning":"故事书"},{"grade":4,"word":"notebook","phonetic":"/ˈnəʊtbʊk/","meaning":"笔记本"},{"grade":4,"word":"candy","phonetic":"/ˈkændi/","meaning":"糖果"},{"grade":4,"word":"toy","phonetic":"/tɔɪ/","meaning":"玩具"},{"grade":4,"word":"key","phonetic":"/kiː/","meaning":"钥匙"},{"grade":4,"word":"tidy","phonetic":"/ˈtaɪdi/","meaning":"整洁的"},{"grade":4,"word":"put","phonetic":"/pʊt/","meaning":"放"},{"grade":4,"word":"in","phonetic":"/ɪn/","meaning":"在……里面"},{"grade":4,"word":"on","phonetic":"/ɒn/","meaning":"在……上面"},{"grade":4,"word":"under","phonetic":"/ˈʌndə(r)/","meaning":"在……下面"},{"grade":4,"word":"class","phonetic":"/klɑːs/","meaning":"班级；课"},{"grade":4,"word":"grade","phonetic":"/ɡreɪd/","meaning":"年级"},{"grade":4,"word":"desk","phonetic":"/desk/","meaning":"书桌"},{"grade":4,"word":"chair","phonetic":"/tʃeə(r)/","meaning":"椅子"},{"grade":4,"word":"home","phonetic":"/həʊm/","meaning":"家"},{"grade":4,"word":"bedroom","phonetic":"/ˈbedruːm/","meaning":"卧室"},{"grade":4,"word":"living room","phonetic":"/ˈlɪvɪŋ ruːm/","meaning":"客厅"},{"grade":4,"word":"kitchen","phonetic":"/ˈkɪtʃɪn/","meaning":"厨房"},{"grade":4,"word":"bathroom","phonetic":"/ˈbɑːθruːm/","meaning":"浴室"},{"grade":4,"word":"bed","phonetic":"/bed/","meaning":"床"},{"grade":4,"word":"sofa","phonetic":"/ˈsəʊfə/","meaning":"沙发"},{"grade":4,"word":"fridge","phonetic":"/frɪdʒ/","meaning":"冰箱"},{"grade":4,"word":"table","phonetic":"/ˈteɪbl/","meaning":"桌子"},{"grade":4,"word":"clock","phonetic":"/klɒk/","meaning":"钟"},{"grade":4,"word":"phone","phonetic":"/fəʊn/","meaning":"电话"},{"grade":4,"word":"light","phonetic":"/laɪt/","meaning":"灯；光"},{"grade":4,"word":"flower","phonetic":"/ˈflaʊə(r)/","meaning":"花"},{"grade":4,"word":"tree","phonetic":"/triː/","meaning":"树"},{"grade":4,"word":"grass","phonetic":"/ɡrɑːs/","meaning":"草"},{"grade":4,"word":"animal","phonetic":"/ˈænɪml/","meaning":"动物"},{"grade":4,"word":"tiger","phonetic":"/ˈtaɪɡə(r)/","meaning":"老虎"},{"grade":4,"word":"lion","phonetic":"/ˈlaɪən/","meaning":"狮子"},{"grade":4,"word":"fox","phonetic":"/fɒks/","meaning":"狐狸"},{"grade":4,"word":"wolf","phonetic":"/wʊlf/","meaning":"狼"},{"grade":4,"word":"horse","phonetic":"/hɔːs/","meaning":"马"},{"grade":4,"word":"cow","phonetic":"/kaʊ/","meaning":"奶牛"},{"grade":4,"word":"sheep","phonetic":"/ʃiːp/","meaning":"绵羊"},{"grade":4,"word":"goat","phonetic":"/ɡəʊt/","meaning":"山羊"},{"grade":4,"word":"hen","phonetic":"/hen/","meaning":"母鸡"},{"grade":4,"word":"fish","phonetic":"/fɪʃ/","meaning":"鱼"},{"grade":4,"word":"farm","phonetic":"/fɑːm/","meaning":"农场"},{"grade":4,"word":"vegetable","phonetic":"/ˈvedʒtəbl/","meaning":"蔬菜"},{"grade":4,"word":"tomato","phonetic":"/təˈmɑːtəʊ/","meaning":"西红柿"},{"grade":4,"word":"potato","phonetic":"/pəˈteɪtəʊ/","meaning":"土豆"},{"grade":4,"word":"carrot","phonetic":"/ˈkærət/","meaning":"胡萝卜"}],"sentences":[{"en":"What's your name? My name is Tom.","zh":"你叫什么名字？我叫汤姆。"},{"en":"I see ten monkeys in the tree.","zh":"我看见树上有十只猴子。"},{"en":"What time is it? It's seven o'clock.","zh":"几点了？七点了。"},{"en":"The shoes are too small for me.","zh":"这双鞋对我来说太小了。"},{"en":"She likes reading books in the library.","zh":"她喜欢在图书馆看书。"},{"en":"We are going to visit the museum tomorrow.","zh":"我们明天要去参观博物馆。"},{"en":"There are many trees in the forest.","zh":"森林里有很多树。"}],"grammar":[{"category":"be动词","question":"They ___ my friends.","options":["am","is","are","be"],"answer":2,"explain":"主语 they 是复数，用 are。","question_zh":"他们是我的朋友。"},{"category":"复数","question":"I have two ___.","options":["apple","apples","appless","an apple"],"answer":1,"explain":"two 后面用名词复数 apples。","question_zh":"我有两个苹果。"},{"category":"情态动词","question":"You ___ cross the road now. It's red.","options":["can","can't","mustn't","don't"],"answer":1,"explain":"红灯时不能过马路，用 can't 表示禁止。","question_zh":"你现在不能过马路。是红灯。"},{"category":"时间介词","question":"I go to school ___ Monday.","options":["in","at","on","to"],"answer":2,"explain":"具体星期几前用 on。","question_zh":"我星期一去上学。"}]},
-  "primary_4b.json": {"words":[{"grade":4,"word":"onion","phonetic":"/ˈʌnjən/","meaning":"洋葱"},{"grade":4,"word":"rice","phonetic":"/raɪs/","meaning":"米饭"},{"grade":4,"word":"noodles","phonetic":"/ˈnuːdlz/","meaning":"面条"},{"grade":4,"word":"egg","phonetic":"/eɡ/","meaning":"鸡蛋"},{"grade":4,"word":"meat","phonetic":"/miːt/","meaning":"肉"},{"grade":4,"word":"soup","phonetic":"/suːp/","meaning":"汤"},{"grade":4,"word":"dinner","phonetic":"/ˈdɪnə(r)/","meaning":"晚餐"},{"grade":4,"word":"lunch","phonetic":"/lʌntʃ/","meaning":"午餐"},{"grade":4,"word":"breakfast","phonetic":"/ˈbrekfəst/","meaning":"早餐"},{"grade":4,"word":"time","phonetic":"/taɪm/","meaning":"时间"},{"grade":4,"word":"o'clock","phonetic":"/əˈklɒk/","meaning":"点钟"},{"grade":4,"word":"half","phonetic":"/hɑːf/","meaning":"一半"},{"grade":4,"word":"past","phonetic":"/pɑːst/","meaning":"过（时间）"},{"grade":4,"word":"get up","phonetic":"/ɡet ʌp/","meaning":"起床"},{"grade":4,"word":"go to school","phonetic":"/ɡəʊ tə skuːl/","meaning":"去上学"},{"grade":4,"word":"go home","phonetic":"/ɡəʊ həʊm/","meaning":"回家"},{"grade":4,"word":"go to bed","phonetic":"/ɡəʊ tə bed/","meaning":"上床睡觉"},{"grade":4,"word":"Sunday","phonetic":"/ˈsʌndeɪ/","meaning":"星期天"},{"grade":4,"word":"Monday","phonetic":"/ˈmʌndeɪ/","meaning":"星期一"},{"grade":4,"word":"Tuesday","phonetic":"/ˈtjuːzdeɪ/","meaning":"星期二"},{"grade":4,"word":"Wednesday","phonetic":"/ˈwenzdeɪ/","meaning":"星期三"},{"grade":4,"word":"Thursday","phonetic":"/ˈθɜːzdeɪ/","meaning":"星期四"},{"grade":4,"word":"Friday","phonetic":"/ˈfraɪdeɪ/","meaning":"星期五"},{"grade":4,"word":"Saturday","phonetic":"/ˈsætədeɪ/","meaning":"星期六"},{"grade":4,"word":"week","phonetic":"/wiːk/","meaning":"星期；周"},{"grade":4,"word":"day","phonetic":"/deɪ/","meaning":"天；日"},{"grade":4,"word":"today","phonetic":"/təˈdeɪ/","meaning":"今天"},{"grade":4,"word":"yesterday","phonetic":"/ˈjestədeɪ/","meaning":"昨天"},{"grade":4,"word":"tomorrow","phonetic":"/təˈmɒrəʊ/","meaning":"明天"},{"grade":4,"word":"weather","phonetic":"/ˈweðə(r)/","meaning":"天气"},{"grade":4,"word":"sunny","phonetic":"/ˈsʌni/","meaning":"晴朗的"},{"grade":4,"word":"cloudy","phonetic":"/ˈklaʊdi/","meaning":"多云的"},{"grade":4,"word":"rainy","phonetic":"/ˈreɪni/","meaning":"下雨的"},{"grade":4,"word":"snowy","phonetic":"/ˈsnəʊi/","meaning":"下雪的"},{"grade":4,"word":"windy","phonetic":"/ˈwɪndi/","meaning":"有风的"},{"grade":4,"word":"warm","phonetic":"/wɔːm/","meaning":"温暖的"},{"grade":4,"word":"cool","phonetic":"/kuːl/","meaning":"凉爽的；酷的"},{"grade":4,"word":"spring","phonetic":"/sprɪŋ/","meaning":"春天"},{"grade":4,"word":"summer","phonetic":"/ˈsʌmə(r)/","meaning":"夏天"},{"grade":4,"word":"autumn","phonetic":"/ˈɔːtəm/","meaning":"秋天"},{"grade":4,"word":"winter","phonetic":"/ˈwɪntə(r)/","meaning":"冬天"},{"grade":4,"word":"season","phonetic":"/ˈsiːzn/","meaning":"季节"},{"grade":4,"word":"wear","phonetic":"/weə(r)/","meaning":"穿"},{"grade":4,"word":"coat","phonetic":"/kəʊt/","meaning":"外套"},{"grade":4,"word":"sweater","phonetic":"/ˈswetə(r)/","meaning":"毛衣"},{"grade":4,"word":"shirt","phonetic":"/ʃɜːt/","meaning":"衬衫"},{"grade":4,"word":"T-shirt","phonetic":"/ˈtiː ʃɜːt/","meaning":"T恤衫"},{"grade":4,"word":"dress","phonetic":"/dres/","meaning":"连衣裙"},{"grade":4,"word":"skirt","phonetic":"/skɜːt/","meaning":"短裙"},{"grade":4,"word":"pants","phonetic":"/pænts/","meaning":"裤子"},{"grade":4,"word":"shoes","phonetic":"/ʃuːz/","meaning":"鞋子"},{"grade":4,"word":"socks","phonetic":"/sɒks/","meaning":"袜子"},{"grade":4,"word":"hat","phonetic":"/hæt/","meaning":"帽子"},{"grade":4,"word":"glasses","phonetic":"/ˈɡlɑːsɪz/","meaning":"眼镜"},{"grade":4,"word":"scarf","phonetic":"/skɑːf/","meaning":"围巾"},{"grade":4,"word":"gloves","phonetic":"/ɡlʌvz/","meaning":"手套"},{"grade":4,"word":"jacket","phonetic":"/ˈdʒækɪt/","meaning":"夹克衫"},{"grade":4,"word":"size","phonetic":"/saɪz/","meaning":"尺码"},{"grade":4,"word":"cheap","phonetic":"/tʃiːp/","meaning":"便宜的"},{"grade":4,"word":"expensive","phonetic":"/ɪkˈspensɪv/","meaning":"昂贵的"},{"grade":4,"word":"pretty","phonetic":"/ˈprɪti/","meaning":"漂亮的"},{"grade":4,"word":"nice","phonetic":"/naɪs/","meaning":"好的；漂亮的"},{"grade":4,"word":"shop","phonetic":"/ʃɒp/","meaning":"商店"},{"grade":4,"word":"buy","phonetic":"/baɪ/","meaning":"买"},{"grade":4,"word":"sell","phonetic":"/sel/","meaning":"卖"},{"grade":4,"word":"money","phonetic":"/ˈmʌni/","meaning":"钱"},{"grade":4,"word":"yuan","phonetic":"/juːˈɑːn/","meaning":"元（人民币）"}],"sentences":[{"en":"I have a pencil and a ruler.","zh":"我有一支铅笔和一把尺子。"},{"en":"Let's go to school together.","zh":"让我们一起上学吧。"},{"en":"It's time for lunch.","zh":"该吃午饭了。"},{"en":"My sister is a nurse.","zh":"我姐姐是一名护士。"},{"en":"It's a beautiful day for a picnic.","zh":"今天是个野餐的好日子。"},{"en":"Eating fruit is good for our health.","zh":"吃水果对我们的健康有好处。"},{"en":"The little girl is singing a song.","zh":"小女孩正在唱一首歌。"}],"grammar":[{"category":"冠词","question":"I have ___ apple on the table.","options":["a","an","the","/"],"answer":1,"explain":"apple 以元音音素 /æ/ 开头，用 an。","question_zh":"桌子上有一个苹果。"},{"category":"复数","question":"There are many ___ in the tree.","options":["monkey","monkeys","monkies","a monkey"],"answer":1,"explain":"many 后接名词复数 monkeys，辅音+y 变 y 为 i 加 es 只适用于以 y 结尾且 y 前是辅音的词。","question_zh":"树上有许多猴子。"},{"category":"疑问句","question":"___ you like music?","options":["Do","Does","Is","Are"],"answer":0,"explain":"一般现在时一般疑问句，主语 you 用助动词 Do。","question_zh":"你喜欢音乐吗？"},{"category":"时间介词","question":"We play outside ___ the afternoon.","options":["in","at","on","to"],"answer":0,"explain":"一天中的上午、下午、晚上用 in。","question_zh":"我们下午在外面玩。"}]},
-  "primary_5a.json": {"words":[{"grade":5,"word":"young","phonetic":"/jʌŋ/","meaning":"年轻的"},{"grade":5,"word":"funny","phonetic":"/ˈfʌni/","meaning":"滑稽的"},{"grade":5,"word":"kind","phonetic":"/kaɪnd/","meaning":"和蔼的"},{"grade":5,"word":"strict","phonetic":"/strɪkt/","meaning":"严格的"},{"grade":5,"word":"polite","phonetic":"/pəˈlaɪt/","meaning":"有礼貌的"},{"grade":5,"word":"hard-working","phonetic":"/ˌhɑːd ˈwɜːkɪŋ/","meaning":"勤劳的"},{"grade":5,"word":"helpful","phonetic":"/ˈhelpfl/","meaning":"乐于助人的"},{"grade":5,"word":"clever","phonetic":"/ˈklevə(r)/","meaning":"聪明的"},{"grade":5,"word":"shy","phonetic":"/ʃaɪ/","meaning":"害羞的"},{"grade":5,"word":"quiet","phonetic":"/ˈkwaɪət/","meaning":"安静的"},{"grade":5,"word":"active","phonetic":"/ˈæktɪv/","meaning":"活跃的"},{"grade":5,"word":"strong","phonetic":"/strɒŋ/","meaning":"强壮的"},{"grade":5,"word":"thin","phonetic":"/θɪn/","meaning":"瘦的"},{"grade":5,"word":"heavy","phonetic":"/ˈhevi/","meaning":"重的"},{"grade":5,"word":"fat","phonetic":"/fæt/","meaning":"胖的"},{"grade":5,"word":"read","phonetic":"/riːd/","meaning":"读"},{"grade":5,"word":"listen","phonetic":"/ˈlɪsn/","meaning":"听"},{"grade":5,"word":"speak","phonetic":"/spiːk/","meaning":"说"},{"grade":5,"word":"write","phonetic":"/raɪt/","meaning":"写"},{"grade":5,"word":"draw","phonetic":"/drɔː/","meaning":"画"},{"grade":5,"word":"sing","phonetic":"/sɪŋ/","meaning":"唱歌"},{"grade":5,"word":"dance","phonetic":"/dɑːns/","meaning":"跳舞"},{"grade":5,"word":"paint","phonetic":"/peɪnt/","meaning":"绘画"},{"grade":5,"word":"play","phonetic":"/pleɪ/","meaning":"玩；打（球）"},{"grade":5,"word":"watch","phonetic":"/wɒtʃ/","meaning":"观看"},{"grade":5,"word":"cook","phonetic":"/kʊk/","meaning":"烹饪"},{"grade":5,"word":"wash","phonetic":"/wɒʃ/","meaning":"洗"},{"grade":5,"word":"sweep","phonetic":"/swiːp/","meaning":"扫"},{"grade":5,"word":"plant","phonetic":"/plɑːnt/","meaning":"种植；植物"},{"grade":5,"word":"park","phonetic":"/pɑːk/","meaning":"公园"},{"grade":5,"word":"garden","phonetic":"/ˈɡɑːdn/","meaning":"花园"},{"grade":5,"word":"restaurant","phonetic":"/ˈrestrɒnt/","meaning":"餐馆"},{"grade":5,"word":"hospital","phonetic":"/ˈhɒspɪtl/","meaning":"医院"},{"grade":5,"word":"supermarket","phonetic":"/ˈsuːpəmɑːkɪt/","meaning":"超市"},{"grade":5,"word":"library","phonetic":"/ˈlaɪbrəri/","meaning":"图书馆"},{"grade":5,"word":"museum","phonetic":"/mjuˈziːəm/","meaning":"博物馆"},{"grade":5,"word":"cinema","phonetic":"/ˈsɪnəmə/","meaning":"电影院"},{"grade":5,"word":"station","phonetic":"/ˈsteɪʃn/","meaning":"车站"},{"grade":5,"word":"street","phonetic":"/striːt/","meaning":"街道"},{"grade":5,"word":"city","phonetic":"/ˈsɪti/","meaning":"城市"},{"grade":5,"word":"town","phonetic":"/taʊn/","meaning":"城镇"},{"grade":5,"word":"village","phonetic":"/ˈvɪlɪdʒ/","meaning":"乡村"},{"grade":5,"word":"country","phonetic":"/ˈkʌntri/","meaning":"国家；乡村"},{"grade":5,"word":"map","phonetic":"/mæp/","meaning":"地图"},{"grade":5,"word":"right","phonetic":"/raɪt/","meaning":"右边；正确的"},{"grade":5,"word":"left","phonetic":"/left/","meaning":"左边"},{"grade":5,"word":"turn","phonetic":"/tɜːn/","meaning":"转弯"},{"grade":5,"word":"go straight","phonetic":"/ɡəʊ streɪt/","meaning":"直走"},{"grade":5,"word":"excuse","phonetic":"/ɪkˈskjuːz/","meaning":"原谅"},{"grade":5,"word":"train","phonetic":"/treɪn/","meaning":"火车"},{"grade":5,"word":"plane","phonetic":"/pleɪn/","meaning":"飞机"}],"sentences":[{"en":"This is my new friend, Lily.","zh":"这是我的新朋友，莉莉。"},{"en":"We have English, maths and music today.","zh":"我们今天有英语、数学和音乐课。"},{"en":"We have dinner at six in the evening.","zh":"我们晚上六点吃晚饭。"},{"en":"He is a doctor in the hospital.","zh":"他是医院里的一名医生。"},{"en":"In winter we can make a snowman.","zh":"冬天我们可以堆雪人。"},{"en":"The cat is sleeping on the sofa.","zh":"猫正在沙发上睡觉。"},{"en":"My grandpa likes to take a walk in the park.","zh":"我爷爷喜欢在公园里散步。"}],"grammar":[{"category":"冠词","question":"She is ___ teacher.","options":["a","an","the","/"],"answer":0,"explain":"teacher 以辅音音素开头，表示“一名”用 a。","question_zh":"她是一位老师。"},{"category":"一般现在","question":"I ___ to school every day.","options":["go","goes","going","went"],"answer":0,"explain":"主语 I，一般现在时用动词原形 go。","question_zh":"我每天去上学。"},{"category":"疑问句","question":"___ she have a cat?","options":["Do","Does","Is","Are"],"answer":1,"explain":"主语 she 三单，一般疑问句用助动词 Does。","question_zh":"她有一只猫吗？"},{"category":"there be","question":"There ___ a book on the desk.","options":["is","are","am","be"],"answer":0,"explain":"there be 句型，a book 单数用 is。","question_zh":"书桌上有一本书。"}]},
-  "primary_5b.json": {"words":[{"grade":5,"word":"ship","phonetic":"/ʃɪp/","meaning":"轮船"},{"grade":5,"word":"boat","phonetic":"/bəʊt/","meaning":"小船"},{"grade":5,"word":"car","phonetic":"/kɑː(r)/","meaning":"小汽车"},{"grade":5,"word":"bus","phonetic":"/bʌs/","meaning":"公共汽车"},{"grade":5,"word":"bike","phonetic":"/baɪk/","meaning":"自行车"},{"grade":5,"word":"taxi","phonetic":"/ˈtæksi/","meaning":"出租车"},{"grade":5,"word":"subway","phonetic":"/ˈsʌbweɪ/","meaning":"地铁"},{"grade":5,"word":"on foot","phonetic":"/ɒn fʊt/","meaning":"步行"},{"grade":5,"word":"by","phonetic":"/baɪ/","meaning":"乘（车）"},{"grade":5,"word":"traffic","phonetic":"/ˈtræfɪk/","meaning":"交通"},{"grade":5,"word":"red light","phonetic":"/red laɪt/","meaning":"红灯"},{"grade":5,"word":"yellow light","phonetic":"/ˈjeləʊ laɪt/","meaning":"黄灯"},{"grade":5,"word":"green light","phonetic":"/ɡriːn laɪt/","meaning":"绿灯"},{"grade":5,"word":"slow","phonetic":"/sləʊ/","meaning":"慢的"},{"grade":5,"word":"fast","phonetic":"/fɑːst/","meaning":"快的"},{"grade":5,"word":"usually","phonetic":"/ˈjuːʒuəli/","meaning":"通常"},{"grade":5,"word":"sometimes","phonetic":"/ˈsʌmtaɪmz/","meaning":"有时"},{"grade":5,"word":"always","phonetic":"/ˈɔːlweɪz/","meaning":"总是"},{"grade":5,"word":"never","phonetic":"/ˈnevə(r)/","meaning":"从不"},{"grade":5,"word":"often","phonetic":"/ˈɒfn/","meaning":"经常"},{"grade":5,"word":"every day","phonetic":"/ˈevri deɪ/","meaning":"每天"},{"grade":5,"word":"do morning exercises","phonetic":"/duː ˈmɔːnɪŋ ˈeksəsaɪzɪz/","meaning":"做早操"},{"grade":5,"word":"have breakfast","phonetic":"/hæv ˈbrekfəst/","meaning":"吃早饭"},{"grade":5,"word":"have dinner","phonetic":"/hæv ˈdɪnə(r)/","meaning":"吃晚饭"},{"grade":5,"word":"clean my room","phonetic":"/kliːn maɪ ruːm/","meaning":"打扫房间"},{"grade":5,"word":"go for a walk","phonetic":"/ɡəʊ fɔːr ə wɔːk/","meaning":"散步"},{"grade":5,"word":"take a trip","phonetic":"/teɪk ə trɪp/","meaning":"去旅行"},{"grade":5,"word":"pick","phonetic":"/pɪk/","meaning":"摘"},{"grade":5,"word":"make a snowman","phonetic":"/meɪk ə ˈsnəʊmæn/","meaning":"堆雪人"},{"grade":5,"word":"go swimming","phonetic":"/ɡəʊ ˈswɪmɪŋ/","meaning":"去游泳"},{"grade":5,"word":"go hiking","phonetic":"/ɡəʊ ˈhaɪkɪŋ/","meaning":"去远足"},{"grade":5,"word":"beach","phonetic":"/biːtʃ/","meaning":"海滩"},{"grade":5,"word":"sea","phonetic":"/siː/","meaning":"大海"},{"grade":5,"word":"mountain","phonetic":"/ˈmaʊntən/","meaning":"山"},{"grade":5,"word":"river","phonetic":"/ˈrɪvə(r)/","meaning":"河流"},{"grade":5,"word":"lake","phonetic":"/leɪk/","meaning":"湖"},{"grade":5,"word":"forest","phonetic":"/ˈfɒrɪst/","meaning":"森林"},{"grade":5,"word":"bridge","phonetic":"/brɪdʒ/","meaning":"桥"},{"grade":5,"word":"building","phonetic":"/ˈbɪldɪŋ/","meaning":"建筑物"},{"grade":5,"word":"house","phonetic":"/haʊs/","meaning":"房子"},{"grade":5,"word":"playground","phonetic":"/ˈpleɪɡraʊnd/","meaning":"操场"},{"grade":5,"word":"gym","phonetic":"/dʒɪm/","meaning":"体育馆"},{"grade":5,"word":"office","phonetic":"/ˈɒfɪs/","meaning":"办公室"},{"grade":5,"word":"first","phonetic":"/fɜːst/","meaning":"第一"},{"grade":5,"word":"second","phonetic":"/ˈsekənd/","meaning":"第二"},{"grade":5,"word":"third","phonetic":"/θɜːd/","meaning":"第三"},{"grade":5,"word":"fourth","phonetic":"/fɔːθ/","meaning":"第四"},{"grade":5,"word":"fifth","phonetic":"/fɪfθ/","meaning":"第五"},{"grade":5,"word":"sixth","phonetic":"/sɪksθ/","meaning":"第六"},{"grade":5,"word":"hall","phonetic":"/hɔːl/","meaning":"大厅"}],"sentences":[{"en":"Look at my face and my nose.","zh":"看我的脸和鼻子。"},{"en":"My schoolbag is heavy.","zh":"我的书包很重。"},{"en":"Today is Monday.","zh":"今天是星期一。"},{"en":"I get up at six and go to bed at nine.","zh":"我六点起床，九点睡觉。"},{"en":"I want to be a scientist in the future.","zh":"将来我想成为一名科学家。"},{"en":"I am learning to swim this summer.","zh":"这个夏天我正在学游泳。"},{"en":"Let's clean our classroom together.","zh":"让我们一起打扫教室吧。"}],"grammar":[{"category":"介词","question":"The book is ___ the desk.","options":["in","on","at","to"],"answer":1,"explain":"在物体表面上用 on。","question_zh":"书在书桌上面。"},{"category":"一般现在","question":"She ___ apples.","options":["like","likes","liking","liked"],"answer":1,"explain":"主语 she 第三人称单数，动词加 s 为 likes。","question_zh":"她喜欢苹果。"},{"category":"特殊疑问","question":"___ is your name?","options":["What","Where","Who","How"],"answer":0,"explain":"问名字用 What。","question_zh":"你叫什么名字？"},{"category":"there be","question":"There ___ many flowers in the garden.","options":["is","are","am","be"],"answer":1,"explain":"many flowers 复数，用 are。","question_zh":"花园里有很多花。"}]},
-  "primary_6a.json": {"words":[{"grade":6,"word":"straight","phonetic":"/streɪt/","meaning":"直的"},{"grade":6,"word":"cross","phonetic":"/krɒs/","meaning":"穿过"},{"grade":6,"word":"exercise","phonetic":"/ˈeksəsaɪz/","meaning":"锻炼；练习"},{"grade":6,"word":"healthy","phonetic":"/ˈhelθi/","meaning":"健康的"},{"grade":6,"word":"food","phonetic":"/fuːd/","meaning":"食物"},{"grade":6,"word":"delicious","phonetic":"/dɪˈlɪʃəs/","meaning":"美味的"},{"grade":6,"word":"hungry","phonetic":"/ˈhʌŋɡri/","meaning":"饥饿的"},{"grade":6,"word":"thirsty","phonetic":"/ˈθɜːsti/","meaning":"口渴的"},{"grade":6,"word":"full","phonetic":"/fʊl/","meaning":"饱的；满的"},{"grade":6,"word":"sweet","phonetic":"/swiːt/","meaning":"甜的"},{"grade":6,"word":"sour","phonetic":"/ˈsaʊə(r)/","meaning":"酸的"},{"grade":6,"word":"salty","phonetic":"/ˈsɔːlti/","meaning":"咸的"},{"grade":6,"word":"sick","phonetic":"/sɪk/","meaning":"生病的"},{"grade":6,"word":"doctor","phonetic":"/ˈdɒktə(r)/","meaning":"医生"},{"grade":6,"word":"nurse","phonetic":"/nɜːs/","meaning":"护士"},{"grade":6,"word":"driver","phonetic":"/ˈdraɪvə(r)/","meaning":"司机"},{"grade":6,"word":"farmer","phonetic":"/ˈfɑːmə(r)/","meaning":"农民"},{"grade":6,"word":"worker","phonetic":"/ˈwɜːkə(r)/","meaning":"工人"},{"grade":6,"word":"police officer","phonetic":"/pəˈliːs ˈɒfɪsə(r)/","meaning":"警察"},{"grade":6,"word":"postman","phonetic":"/ˈpəʊstmən/","meaning":"邮递员"},{"grade":6,"word":"singer","phonetic":"/ˈsɪŋə(r)/","meaning":"歌手"},{"grade":6,"word":"writer","phonetic":"/ˈraɪtə(r)/","meaning":"作家"},{"grade":6,"word":"artist","phonetic":"/ˈɑːtɪst/","meaning":"画家；艺术家"},{"grade":6,"word":"scientist","phonetic":"/ˈsaɪəntɪst/","meaning":"科学家"},{"grade":6,"word":"player","phonetic":"/ˈpleɪə(r)/","meaning":"运动员；选手"},{"grade":6,"word":"job","phonetic":"/dʒɒb/","meaning":"工作；职业"},{"grade":6,"word":"work","phonetic":"/wɜːk/","meaning":"工作"},{"grade":6,"word":"hobby","phonetic":"/ˈhɒbi/","meaning":"爱好"},{"grade":6,"word":"dream","phonetic":"/driːm/","meaning":"梦想"},{"grade":6,"word":"future","phonetic":"/ˈfjuːtʃə(r)/","meaning":"未来"},{"grade":6,"word":"weekend","phonetic":"/ˌwiːkˈend/","meaning":"周末"},{"grade":6,"word":"holiday","phonetic":"/ˈhɒlədeɪ/","meaning":"假日"},{"grade":6,"word":"birthday","phonetic":"/ˈbɜːθdeɪ/","meaning":"生日"},{"grade":6,"word":"present","phonetic":"/ˈpreznt/","meaning":"礼物"},{"grade":6,"word":"card","phonetic":"/kɑːd/","meaning":"卡片"},{"grade":6,"word":"candle","phonetic":"/ˈkændl/","meaning":"蜡烛"},{"grade":6,"word":"balloon","phonetic":"/bəˈluːn/","meaning":"气球"},{"grade":6,"word":"party","phonetic":"/ˈpɑːti/","meaning":"聚会"},{"grade":6,"word":"invite","phonetic":"/ɪnˈvaɪt/","meaning":"邀请"},{"grade":6,"word":"wish","phonetic":"/wɪʃ/","meaning":"愿望"},{"grade":6,"word":"hope","phonetic":"/həʊp/","meaning":"希望"},{"grade":6,"word":"angry","phonetic":"/ˈæŋɡri/","meaning":"生气的"},{"grade":6,"word":"excited","phonetic":"/ɪkˈsaɪtɪd/","meaning":"兴奋的"},{"grade":6,"word":"worried","phonetic":"/ˈwʌrid/","meaning":"担心的"},{"grade":6,"word":"tired","phonetic":"/ˈtaɪəd/","meaning":"累的"},{"grade":6,"word":"bored","phonetic":"/bɔːd/","meaning":"无聊的"},{"grade":6,"word":"afraid","phonetic":"/əˈfreɪd/","meaning":"害怕的"},{"grade":6,"word":"feel","phonetic":"/fiːl/","meaning":"感觉"},{"grade":6,"word":"cry","phonetic":"/kraɪ/","meaning":"哭"},{"grade":6,"word":"laugh","phonetic":"/lɑːf/","meaning":"笑"},{"grade":6,"word":"smile","phonetic":"/smaɪl/","meaning":"微笑"},{"grade":6,"word":"worry","phonetic":"/ˈwʌri/","meaning":"担心"},{"grade":6,"word":"travel","phonetic":"/ˈtrævl/","meaning":"旅行"},{"grade":6,"word":"visit","phonetic":"/ˈvɪzɪt/","meaning":"参观；拜访"},{"grade":6,"word":"meet","phonetic":"/miːt/","meaning":"遇见"},{"grade":6,"word":"together","phonetic":"/təˈɡeðə(r)/","meaning":"一起"},{"grade":6,"word":"same","phonetic":"/seɪm/","meaning":"相同的"},{"grade":6,"word":"different","phonetic":"/ˈdɪfrənt/","meaning":"不同的"},{"grade":6,"word":"interesting","phonetic":"/ˈɪntrəstɪŋ/","meaning":"有趣的"},{"grade":6,"word":"boring","phonetic":"/ˈbɔːrɪŋ/","meaning":"无聊的"},{"grade":6,"word":"easy","phonetic":"/ˈiːzi/","meaning":"容易的"},{"grade":6,"word":"difficult","phonetic":"/ˈdɪfɪkəlt/","meaning":"困难的"},{"grade":6,"word":"learn","phonetic":"/lɜːn/","meaning":"学习"},{"grade":6,"word":"teach","phonetic":"/tiːtʃ/","meaning":"教"},{"grade":6,"word":"study","phonetic":"/ˈstʌdi/","meaning":"学习；书房"},{"grade":6,"word":"remember","phonetic":"/rɪˈmembə(r)/","meaning":"记住"},{"grade":6,"word":"forget","phonetic":"/fəˈɡet/","meaning":"忘记"},{"grade":6,"word":"know","phonetic":"/nəʊ/","meaning":"知道"},{"grade":6,"word":"think","phonetic":"/θɪŋk/","meaning":"想；认为"},{"grade":6,"word":"ask","phonetic":"/ɑːsk/","meaning":"问"},{"grade":6,"word":"answer","phonetic":"/ˈɑːnsə(r)/","meaning":"回答"}],"sentences":[{"en":"I like apples and bananas.","zh":"我喜欢苹果和香蕉。"},{"en":"Where is my toy car? It's under the desk.","zh":"我的玩具车在哪里？在书桌下面。"},{"en":"It's sunny and hot today.","zh":"今天晴朗又炎热。"},{"en":"We usually go to school by bus.","zh":"我们通常坐公交车去上学。"},{"en":"Happy birthday to you!","zh":"祝你生日快乐！"},{"en":"Do you like music? Yes, I do.","zh":"你喜欢音乐吗？是的，我喜欢。"},{"en":"I can draw a picture of my family.","zh":"我能画一幅我的家人的画。"}],"grammar":[{"category":"介词","question":"The cat is ___ the box.","options":["in","on","at","of"],"answer":0,"explain":"在盒子里面用 in。","question_zh":"猫在盒子里面。"},{"category":"一般现在","question":"He ___ TV after dinner.","options":["watch","watches","watching","watched"],"answer":1,"explain":"主语 he 三单，以 ch 结尾动词加 es 为 watches。","question_zh":"他晚饭后看电视。"},{"category":"特殊疑问","question":"___ is my ruler? It's on the desk.","options":["What","Where","Who","How"],"answer":1,"explain":"问地点用 Where。","question_zh":"我的尺子在哪里？在书桌上。"},{"category":"形容词","question":"The elephant is ___.","options":["big","a big","bigs","the big"],"answer":0,"explain":"be 动词后直接加形容词，无复数形式。","question_zh":"大象是大的。"}]},
-  "primary_6b.json": {"words":[{"grade":6,"word":"tell","phonetic":"/tel/","meaning":"告诉"},{"grade":6,"word":"talk","phonetic":"/tɔːk/","meaning":"谈话"},{"grade":6,"word":"say","phonetic":"/seɪ/","meaning":"说"},{"grade":6,"word":"see","phonetic":"/siː/","meaning":"看见"},{"grade":6,"word":"look","phonetic":"/lʊk/","meaning":"看"},{"grade":6,"word":"hear","phonetic":"/hɪə(r)/","meaning":"听见"},{"grade":6,"word":"find","phonetic":"/faɪnd/","meaning":"找到"},{"grade":6,"word":"lose","phonetic":"/luːz/","meaning":"丢失"},{"grade":6,"word":"give","phonetic":"/ɡɪv/","meaning":"给"},{"grade":6,"word":"take","phonetic":"/teɪk/","meaning":"拿；带"},{"grade":6,"word":"bring","phonetic":"/brɪŋ/","meaning":"带来"},{"grade":6,"word":"make","phonetic":"/meɪk/","meaning":"制作"},{"grade":6,"word":"open","phonetic":"/ˈəʊpən/","meaning":"打开"},{"grade":6,"word":"close","phonetic":"/kləʊz/","meaning":"关闭"},{"grade":6,"word":"start","phonetic":"/stɑːt/","meaning":"开始"},{"grade":6,"word":"finish","phonetic":"/ˈfɪnɪʃ/","meaning":"完成"},{"grade":6,"word":"stop","phonetic":"/stɒp/","meaning":"停止"},{"grade":6,"word":"wait","phonetic":"/weɪt/","meaning":"等待"},{"grade":6,"word":"leave","phonetic":"/liːv/","meaning":"离开"},{"grade":6,"word":"arrive","phonetic":"/əˈraɪv/","meaning":"到达"},{"grade":6,"word":"fly","phonetic":"/flaɪ/","meaning":"飞"},{"grade":6,"word":"ride","phonetic":"/raɪd/","meaning":"骑"},{"grade":6,"word":"drive","phonetic":"/draɪv/","meaning":"驾驶"},{"grade":6,"word":"climb","phonetic":"/klaɪm/","meaning":"爬"},{"grade":6,"word":"sit","phonetic":"/sɪt/","meaning":"坐"},{"grade":6,"word":"stand","phonetic":"/stænd/","meaning":"站"},{"grade":6,"word":"sleep","phonetic":"/sliːp/","meaning":"睡觉"},{"grade":6,"word":"wake","phonetic":"/weɪk/","meaning":"醒来"},{"grade":6,"word":"rest","phonetic":"/rest/","meaning":"休息"},{"grade":6,"word":"break","phonetic":"/breɪk/","meaning":"休息；打破"},{"grade":6,"word":"busy","phonetic":"/ˈbɪzi/","meaning":"忙碌的"},{"grade":6,"word":"free","phonetic":"/friː/","meaning":"空闲的；自由的"},{"grade":6,"word":"late","phonetic":"/leɪt/","meaning":"迟的"},{"grade":6,"word":"early","phonetic":"/ˈɜːli/","meaning":"早的"},{"grade":6,"word":"quick","phonetic":"/kwɪk/","meaning":"快的"},{"grade":6,"word":"well","phonetic":"/wel/","meaning":"好地；健康的"},{"grade":6,"word":"bad","phonetic":"/bæd/","meaning":"坏的"},{"grade":6,"word":"favourite","phonetic":"/ˈfeɪvərɪt/","meaning":"最喜欢的"},{"grade":6,"word":"best","phonetic":"/best/","meaning":"最好的"},{"grade":6,"word":"great","phonetic":"/ɡreɪt/","meaning":"很棒的"},{"grade":6,"word":"wonderful","phonetic":"/ˈwʌndəfl/","meaning":"精彩的"},{"grade":6,"word":"amazing","phonetic":"/əˈmeɪzɪŋ/","meaning":"令人惊奇的"},{"grade":6,"word":"messy","phonetic":"/ˈmesi/","meaning":"凌乱的"},{"grade":6,"word":"bright","phonetic":"/braɪt/","meaning":"明亮的"},{"grade":6,"word":"dark","phonetic":"/dɑːk/","meaning":"黑暗的"},{"grade":6,"word":"soft","phonetic":"/sɒft/","meaning":"柔软的"},{"grade":6,"word":"hard","phonetic":"/hɑːd/","meaning":"坚硬的；努力的"},{"grade":6,"word":"smooth","phonetic":"/smuːð/","meaning":"光滑的"},{"grade":6,"word":"rough","phonetic":"/rʌf/","meaning":"粗糙的"},{"grade":6,"word":"wet","phonetic":"/wet/","meaning":"湿的"},{"grade":6,"word":"dry","phonetic":"/draɪ/","meaning":"干的"},{"grade":6,"word":"dirty","phonetic":"/ˈdɜːti/","meaning":"脏的"},{"grade":6,"word":"empty","phonetic":"/ˈempti/","meaning":"空的"},{"grade":6,"word":"high","phonetic":"/haɪ/","meaning":"高的"},{"grade":6,"word":"low","phonetic":"/ləʊ/","meaning":"低的"},{"grade":6,"word":"wide","phonetic":"/waɪd/","meaning":"宽的"},{"grade":6,"word":"narrow","phonetic":"/ˈnærəʊ/","meaning":"窄的"},{"grade":6,"word":"deep","phonetic":"/diːp/","meaning":"深的"},{"grade":6,"word":"weak","phonetic":"/wiːk/","meaning":"虚弱的"},{"grade":6,"word":"rich","phonetic":"/rɪtʃ/","meaning":"富有的"},{"grade":6,"word":"poor","phonetic":"/pɔː(r)/","meaning":"贫穷的"},{"grade":6,"word":"friendly","phonetic":"/ˈfrendli/","meaning":"友好的"},{"grade":6,"word":"honest","phonetic":"/ˈɒnɪst/","meaning":"诚实的"},{"grade":6,"word":"brave","phonetic":"/breɪv/","meaning":"勇敢的"},{"grade":6,"word":"careful","phonetic":"/ˈkeəfl/","meaning":"小心的"},{"grade":6,"word":"lazy","phonetic":"/ˈleɪzi/","meaning":"懒惰的"},{"grade":6,"word":"beautiful","phonetic":"/ˈbjuːtɪfl/","meaning":"美丽的"},{"grade":6,"word":"handsome","phonetic":"/ˈhænsəm/","meaning":"英俊的"},{"grade":6,"word":"cute","phonetic":"/kjuːt/","meaning":"可爱的"},{"grade":6,"word":"lovely","phonetic":"/ˈlʌvli/","meaning":"可爱的；美好的"},{"grade":6,"word":"ugly","phonetic":"/ˈʌɡli/","meaning":"丑陋的"}],"sentences":[{"en":"The cat is fat and happy.","zh":"这只猫又胖又开心。"},{"en":"I can see a green tree and red flowers.","zh":"我能看到一棵绿树和红色的花。"},{"en":"I like spring because it is warm.","zh":"我喜欢春天，因为天气温暖。"},{"en":"Turn right at the traffic lights.","zh":"在红绿灯处右转。"},{"en":"This present is for my best friend.","zh":"这份礼物是给我最好的朋友的。"},{"en":"My favourite subject is English.","zh":"我最喜欢的科目是英语。"}],"grammar":[{"category":"介词","question":"My dog is ___ the tree.","options":["under","in","on","to"],"answer":0,"explain":"在树下用 under。","question_zh":"我的狗在树下。"},{"category":"现在进行","question":"Look! The cat ___ sleeping.","options":["is","are","am","be"],"answer":0,"explain":"现在进行时 be + doing，主语 the cat 单数用 is。","question_zh":"看！猫正在睡觉。"},{"category":"特殊疑问","question":"___ is that man? He is my teacher.","options":["What","Where","Who","How"],"answer":2,"explain":"问人是谁用 Who。","question_zh":"那个男人是谁？他是我的老师。"},{"category":"代词","question":"___ is my brother.","options":["This","These","Those","They"],"answer":0,"explain":"单数近指用 This。","question_zh":"这是我的哥哥。"}]},
-  "junior.json": {"words":[{"word":"ability","phonetic":"/əˈbɪləti/","meaning":"能力"},{"word":"able","phonetic":"/ˈeɪbl/","meaning":"能够的"},{"word":"about","phonetic":"/əˈbaʊt/","meaning":"关于；大约"},{"word":"above","phonetic":"/əˈbʌv/","meaning":"在……上方"},{"word":"accept","phonetic":"/əkˈsept/","meaning":"接受"},{"word":"achieve","phonetic":"/əˈtʃiːv/","meaning":"实现；达到"},{"word":"across","phonetic":"/əˈkrɒs/","meaning":"穿过；横过"},{"word":"act","phonetic":"/ækt/","meaning":"行动；表演"},{"word":"active","phonetic":"/ˈæktɪv/","meaning":"活跃的"},{"word":"activity","phonetic":"/ækˈtɪvəti/","meaning":"活动"},{"word":"actor","phonetic":"/ˈæktə(r)/","meaning":"演员"},{"word":"add","phonetic":"/æd/","meaning":"增加；加"},{"word":"address","phonetic":"/əˈdres/","meaning":"地址"},{"word":"adult","phonetic":"/ˈædʌlt/","meaning":"成年人"},{"word":"advice","phonetic":"/ədˈvaɪs/","meaning":"建议"},{"word":"afford","phonetic":"/əˈfɔːd/","meaning":"负担得起"},{"word":"afraid","phonetic":"/əˈfreɪd/","meaning":"害怕的"},{"word":"after","phonetic":"/ˈɑːftə(r)/","meaning":"在……之后"},{"word":"again","phonetic":"/əˈɡen/","meaning":"再一次"},{"word":"against","phonetic":"/əˈɡenst/","meaning":"反对；靠着"},{"word":"age","phonetic":"/eɪdʒ/","meaning":"年龄"},{"word":"ago","phonetic":"/əˈɡəʊ/","meaning":"……以前"},{"word":"agree","phonetic":"/əˈɡriː/","meaning":"同意"},{"word":"air","phonetic":"/eə(r)/","meaning":"空气"},{"word":"airport","phonetic":"/ˈeəpɔːt/","meaning":"机场"},{"word":"alive","phonetic":"/əˈlaɪv/","meaning":"活着的"},{"word":"allow","phonetic":"/əˈlaʊ/","meaning":"允许"},{"word":"almost","phonetic":"/ˈɔːlməʊst/","meaning":"几乎"},{"word":"alone","phonetic":"/əˈləʊn/","meaning":"独自"},{"word":"along","phonetic":"/əˈlɒŋ/","meaning":"沿着"},{"word":"already","phonetic":"/ɔːlˈredi/","meaning":"已经"},{"word":"also","phonetic":"/ˈɔːlsəʊ/","meaning":"也"},{"word":"although","phonetic":"/ɔːlˈðəʊ/","meaning":"虽然"},{"word":"always","phonetic":"/ˈɔːlweɪz/","meaning":"总是"},{"word":"amazing","phonetic":"/əˈmeɪzɪŋ/","meaning":"令人惊奇的"},{"word":"among","phonetic":"/əˈmʌŋ/","meaning":"在……之中"},{"word":"ancient","phonetic":"/ˈeɪnʃənt/","meaning":"古代的"},{"word":"angry","phonetic":"/ˈæŋɡri/","meaning":"生气的"},{"word":"animal","phonetic":"/ˈænɪml/","meaning":"动物"},{"word":"another","phonetic":"/əˈnʌðə(r)/","meaning":"另一个"},{"word":"answer","phonetic":"/ˈɑːnsə(r)/","meaning":"回答；答案"},{"word":"anxious","phonetic":"/ˈæŋkʃəs/","meaning":"焦虑的"},{"word":"anywhere","phonetic":"/ˈeniweə(r)/","meaning":"任何地方"},{"word":"appear","phonetic":"/əˈpɪə(r)/","meaning":"出现"},{"word":"apple","phonetic":"/ˈæpl/","meaning":"苹果"},{"word":"area","phonetic":"/ˈeəriə/","meaning":"地区；面积"},{"word":"argue","phonetic":"/ˈɑːɡjuː/","meaning":"争论"},{"word":"around","phonetic":"/əˈraʊnd/","meaning":"围绕；在周围"},{"word":"arrive","phonetic":"/əˈraɪv/","meaning":"到达"},{"word":"article","phonetic":"/ˈɑːtɪkl/","meaning":"文章"},{"word":"artist","phonetic":"/ˈɑːtɪst/","meaning":"艺术家"},{"word":"ask","phonetic":"/ɑːsk/","meaning":"问；请求"},{"word":"attention","phonetic":"/əˈtenʃn/","meaning":"注意"},{"word":"avoid","phonetic":"/əˈvɔɪd/","meaning":"避免"},{"word":"awake","phonetic":"/əˈweɪk/","meaning":"醒着的"},{"word":"awful","phonetic":"/ˈɔːfl/","meaning":"糟糕的"},{"word":"baby","phonetic":"/ˈbeɪbi/","meaning":"婴儿"},{"word":"back","phonetic":"/bæk/","meaning":"回来；背部"},{"word":"background","phonetic":"/ˈbækɡraʊnd/","meaning":"背景"},{"word":"badly","phonetic":"/ˈbædli/","meaning":"严重地；差"},{"word":"bake","phonetic":"/beɪk/","meaning":"烘焙"},{"word":"ball","phonetic":"/bɔːl/","meaning":"球"},{"word":"banana","phonetic":"/bəˈnɑːnə/","meaning":"香蕉"},{"word":"band","phonetic":"/bænd/","meaning":"乐队"},{"word":"bank","phonetic":"/bæŋk/","meaning":"银行；河岸"},{"word":"base","phonetic":"/beɪs/","meaning":"基础；基地"},{"word":"basic","phonetic":"/ˈbeɪsɪk/","meaning":"基本的"},{"word":"basket","phonetic":"/ˈbɑːskɪt/","meaning":"篮子"},{"word":"beach","phonetic":"/biːtʃ/","meaning":"海滩"},{"word":"beat","phonetic":"/biːt/","meaning":"打败；节拍"},{"word":"beautiful","phonetic":"/ˈbjuːtɪfl/","meaning":"美丽的"},{"word":"because","phonetic":"/bɪˈkɒz/","meaning":"因为"},{"word":"become","phonetic":"/bɪˈkʌm/","meaning":"变成"},{"word":"before","phonetic":"/bɪˈfɔː(r)/","meaning":"在……之前"},{"word":"begin","phonetic":"/bɪˈɡɪn/","meaning":"开始"},{"word":"behave","phonetic":"/bɪˈheɪv/","meaning":"表现"},{"word":"believe","phonetic":"/bɪˈliːv/","meaning":"相信"},{"word":"belong","phonetic":"/bɪˈlɒŋ/","meaning":"属于"},{"word":"below","phonetic":"/bɪˈləʊ/","meaning":"在……下方"},{"word":"beside","phonetic":"/bɪˈsaɪd/","meaning":"在……旁边"},{"word":"besides","phonetic":"/bɪˈsaɪdz/","meaning":"此外；除……之外"},{"word":"between","phonetic":"/bɪˈtwiːn/","meaning":"在……之间"},{"word":"beyond","phonetic":"/bɪˈjɒnd/","meaning":"超出"},{"word":"bicycle","phonetic":"/ˈbaɪsɪkl/","meaning":"自行车"},{"word":"billion","phonetic":"/ˈbɪljən/","meaning":"十亿"},{"word":"birth","phonetic":"/bɜːθ/","meaning":"出生"},{"word":"bit","phonetic":"/bɪt/","meaning":"一点"},{"word":"blame","phonetic":"/bleɪm/","meaning":"责备"},{"word":"blind","phonetic":"/blaɪnd/","meaning":"失明的"},{"word":"blood","phonetic":"/blʌd/","meaning":"血液"},{"word":"board","phonetic":"/bɔːd/","meaning":"木板；董事会"},{"word":"boat","phonetic":"/bəʊt/","meaning":"小船"},{"word":"body","phonetic":"/ˈbɒdi/","meaning":"身体"},{"word":"book","phonetic":"/bʊk/","meaning":"书；预订"},{"word":"boring","phonetic":"/ˈbɔːrɪŋ/","meaning":"无聊的"},{"word":"borrow","phonetic":"/ˈbɒrəʊ/","meaning":"借入"},{"word":"both","phonetic":"/bəʊθ/","meaning":"两者都"},{"word":"bottle","phonetic":"/ˈbɒtl/","meaning":"瓶子"},{"word":"bottom","phonetic":"/ˈbɒtəm/","meaning":"底部"},{"word":"brave","phonetic":"/breɪv/","meaning":"勇敢的"},{"word":"bread","phonetic":"/bred/","meaning":"面包"},{"word":"break","phonetic":"/breɪk/","meaning":"打破；休息"},{"word":"breakfast","phonetic":"/ˈbrekfəst/","meaning":"早餐"},{"word":"bridge","phonetic":"/brɪdʒ/","meaning":"桥"},{"word":"bright","phonetic":"/braɪt/","meaning":"明亮的"},{"word":"bring","phonetic":"/brɪŋ/","meaning":"带来"},{"word":"brother","phonetic":"/ˈbrʌðə(r)/","meaning":"兄弟"},{"word":"build","phonetic":"/bɪld/","meaning":"建造"},{"word":"building","phonetic":"/ˈbɪldɪŋ/","meaning":"建筑物"},{"word":"burn","phonetic":"/bɜːn/","meaning":"燃烧"},{"word":"business","phonetic":"/ˈbɪznəs/","meaning":"生意；商业"},{"word":"busy","phonetic":"/ˈbɪzi/","meaning":"忙碌的"},{"word":"butterfly","phonetic":"/ˈbʌtəflaɪ/","meaning":"蝴蝶"},{"word":"buy","phonetic":"/baɪ/","meaning":"买"},{"word":"call","phonetic":"/kɔːl/","meaning":"打电话；称呼"},{"word":"calm","phonetic":"/kɑːm/","meaning":"平静的"},{"word":"camera","phonetic":"/ˈkæmərə/","meaning":"照相机"},{"word":"camp","phonetic":"/kæmp/","meaning":"露营"},{"word":"canal","phonetic":"/kəˈnæl/","meaning":"运河"},{"word":"cancel","phonetic":"/ˈkænsl/","meaning":"取消"},{"word":"cancer","phonetic":"/ˈkænsə(r)/","meaning":"癌症"},{"word":"capable","phonetic":"/ˈkeɪpəbl/","meaning":"有能力的"},{"word":"capital","phonetic":"/ˈkæpɪtl/","meaning":"首都；大写"},{"word":"captain","phonetic":"/ˈkæptɪn/","meaning":"船长；队长"},{"word":"care","phonetic":"/keə(r)/","meaning":"照顾；关心"},{"word":"careful","phonetic":"/ˈkeəfl/","meaning":"仔细的"},{"word":"careless","phonetic":"/ˈkeələs/","meaning":"粗心的"},{"word":"carry","phonetic":"/ˈkæri/","meaning":"携带"},{"word":"case","phonetic":"/keɪs/","meaning":"情况；案件"},{"word":"catch","phonetic":"/kætʃ/","meaning":"抓住；赶上"},{"word":"cause","phonetic":"/kɔːz/","meaning":"原因；引起"},{"word":"celebrate","phonetic":"/ˈselɪbreɪt/","meaning":"庆祝"},{"word":"central","phonetic":"/ˈsentrəl/","meaning":"中心的"},{"word":"century","phonetic":"/ˈsentʃəri/","meaning":"世纪"},{"word":"certain","phonetic":"/ˈsɜːtn/","meaning":"确定的"},{"word":"chance","phonetic":"/tʃɑːns/","meaning":"机会"},{"word":"change","phonetic":"/tʃeɪndʒ/","meaning":"改变"},{"word":"cheap","phonetic":"/tʃiːp/","meaning":"便宜的"},{"word":"check","phonetic":"/tʃek/","meaning":"检查"},{"word":"cheer","phonetic":"/tʃɪə(r)/","meaning":"欢呼"},{"word":"chemistry","phonetic":"/ˈkemɪstri/","meaning":"化学"},{"word":"choose","phonetic":"/tʃuːz/","meaning":"选择"},{"word":"chore","phonetic":"/tʃɔː(r)/","meaning":"家务活"},{"word":"chocolate","phonetic":"/ˈtʃɒklət/","meaning":"巧克力"},{"word":"choice","phonetic":"/tʃɔɪs/","meaning":"选择"},{"word":"circle","phonetic":"/ˈsɜːkl/","meaning":"圆圈；环绕"},{"word":"city","phonetic":"/ˈsɪti/","meaning":"城市"},{"word":"class","phonetic":"/klɑːs/","meaning":"班级；课堂"},{"word":"clear","phonetic":"/klɪə(r)/","meaning":"清楚的"},{"word":"climb","phonetic":"/klaɪm/","meaning":"攀登"},{"word":"clock","phonetic":"/klɒk/","meaning":"钟表"},{"word":"close","phonetic":"/kləʊz/","meaning":"关闭；近的"},{"word":"clothes","phonetic":"/kləʊðz/","meaning":"衣服"},{"word":"cloud","phonetic":"/klaʊd/","meaning":"云"},{"word":"coach","phonetic":"/kəʊtʃ/","meaning":"教练"},{"word":"coast","phonetic":"/kəʊst/","meaning":"海岸"},{"word":"cold","phonetic":"/kəʊld/","meaning":"寒冷的"},{"word":"collect","phonetic":"/kəˈlekt/","meaning":"收集"},{"word":"college","phonetic":"/ˈkɒlɪdʒ/","meaning":"学院"},{"word":"colour","phonetic":"/ˈkʌlə(r)/","meaning":"颜色"},{"word":"come","phonetic":"/kʌm/","meaning":"来"},{"word":"comfortable","phonetic":"/ˈkʌmftəbl/","meaning":"舒适的"},{"word":"common","phonetic":"/ˈkɒmən/","meaning":"常见的；普通的"},{"word":"communicate","phonetic":"/kəˈmjuːnɪkeɪt/","meaning":"交流"},{"word":"community","phonetic":"/kəˈmjuːnəti/","meaning":"社区"},{"word":"compare","phonetic":"/kəmˈpeə(r)/","meaning":"比较"},{"word":"complete","phonetic":"/kəmˈpliːt/","meaning":"完成；完整的"},{"word":"computer","phonetic":"/kəmˈpjuːtə(r)/","meaning":"电脑"},{"word":"concentrate","phonetic":"/ˈkɒnsntreɪt/","meaning":"集中注意力"},{"word":"condition","phonetic":"/kənˈdɪʃn/","meaning":"条件；状况"},{"word":"confident","phonetic":"/ˈkɒnfɪdənt/","meaning":"自信的"},{"word":"congratulate","phonetic":"/kənˈɡrætʃuleɪt/","meaning":"祝贺"},{"word":"consider","phonetic":"/kənˈsɪdə(r)/","meaning":"考虑"},{"word":"continue","phonetic":"/kənˈtɪnjuː/","meaning":"继续"},{"word":"control","phonetic":"/kənˈtrəʊl/","meaning":"控制"},{"word":"convenient","phonetic":"/kənˈviːniənt/","meaning":"方便的"},{"word":"cook","phonetic":"/kʊk/","meaning":"烹饪"},{"word":"cool","phonetic":"/kuːl/","meaning":"凉爽的；酷"},{"word":"copy","phonetic":"/ˈkɒpi/","meaning":"复制；副本"},{"word":"corner","phonetic":"/ˈkɔːnə(r)/","meaning":"角落"},{"word":"correct","phonetic":"/kəˈrekt/","meaning":"正确的；纠正"},{"word":"cost","phonetic":"/kɒst/","meaning":"花费；成本"},{"word":"country","phonetic":"/ˈkʌntri/","meaning":"国家；乡村"},{"word":"courage","phonetic":"/ˈkʌrɪdʒ/","meaning":"勇气"},{"word":"course","phonetic":"/kɔːs/","meaning":"课程；过程"},{"word":"cousin","phonetic":"/ˈkʌzn/","meaning":"堂（表）兄弟姐妹"},{"word":"cover","phonetic":"/ˈkʌvə(r)/","meaning":"覆盖；封面"},{"word":"cow","phonetic":"/kaʊ/","meaning":"奶牛"},{"word":"create","phonetic":"/kriˈeɪt/","meaning":"创造"},{"word":"cross","phonetic":"/krɒs/","meaning":"穿过；十字"},{"word":"crowd","phonetic":"/kraʊd/","meaning":"人群"},{"word":"cry","phonetic":"/kraɪ/","meaning":"哭；喊"},{"word":"culture","phonetic":"/ˈkʌltʃə(r)/","meaning":"文化"},{"word":"cup","phonetic":"/kʌp/","meaning":"杯子"},{"word":"customer","phonetic":"/ˈkʌstəmə(r)/","meaning":"顾客"},{"word":"cut","phonetic":"/kʌt/","meaning":"切；剪"},{"word":"daily","phonetic":"/ˈdeɪli/","meaning":"日常的；每日"},{"word":"damage","phonetic":"/ˈdæmɪdʒ/","meaning":"损坏"},{"word":"dance","phonetic":"/dɑːns/","meaning":"跳舞"},{"word":"danger","phonetic":"/ˈdeɪndʒə(r)/","meaning":"危险"},{"word":"dare","phonetic":"/deə(r)/","meaning":"敢于"},{"word":"date","phonetic":"/deɪt/","meaning":"日期"},{"word":"daughter","phonetic":"/ˈdɔːtə(r)/","meaning":"女儿"},{"word":"dead","phonetic":"/ded/","meaning":"死的"},{"word":"deal","phonetic":"/diːl/","meaning":"处理；交易"},{"word":"dear","phonetic":"/dɪə(r)/","meaning":"亲爱的；贵的"},{"word":"decide","phonetic":"/dɪˈsaɪd/","meaning":"决定"},{"word":"deep","phonetic":"/diːp/","meaning":"深的"},{"word":"degree","phonetic":"/dɪˈɡriː/","meaning":"程度；学位"},{"word":"deliver","phonetic":"/dɪˈlɪvə(r)/","meaning":"递送"},{"word":"depend","phonetic":"/dɪˈpend/","meaning":"依靠"},{"word":"describe","phonetic":"/dɪˈskraɪb/","meaning":"描述"},{"word":"design","phonetic":"/dɪˈzaɪn/","meaning":"设计"},{"word":"develop","phonetic":"/dɪˈveləp/","meaning":"发展"},{"word":"die","phonetic":"/daɪ/","meaning":"死亡"},{"word":"difference","phonetic":"/ˈdɪfrəns/","meaning":"不同"},{"word":"difficult","phonetic":"/ˈdɪfɪkəlt/","meaning":"困难的"},{"word":"digital","phonetic":"/ˈdɪdʒɪtl/","meaning":"数字的"},{"word":"direct","phonetic":"/dəˈrekt/","meaning":"直接的；指挥"},{"word":"direction","phonetic":"/dəˈrekʃn/","meaning":"方向"},{"word":"dirty","phonetic":"/ˈdɜːti/","meaning":"脏的"},{"word":"discover","phonetic":"/dɪˈskʌvə(r)/","meaning":"发现"},{"word":"discuss","phonetic":"/dɪˈskʌs/","meaning":"讨论"},{"word":"disease","phonetic":"/dɪˈziːz/","meaning":"疾病"},{"word":"distance","phonetic":"/ˈdɪstəns/","meaning":"距离"},{"word":"divide","phonetic":"/dɪˈvaɪd/","meaning":"分开；除"},{"word":"doctor","phonetic":"/ˈdɒktə(r)/","meaning":"医生"},{"word":"double","phonetic":"/ˈdʌbl/","meaning":"双倍的"},{"word":"doubt","phonetic":"/daʊt/","meaning":"怀疑"},{"word":"download","phonetic":"/ˌdaʊnˈləʊd/","meaning":"下载"},{"word":"dream","phonetic":"/driːm/","meaning":"梦想"},{"word":"dress","phonetic":"/dres/","meaning":"连衣裙；穿衣"},{"word":"drink","phonetic":"/drɪŋk/","meaning":"喝；饮料"},{"word":"drive","phonetic":"/draɪv/","meaning":"驾驶"},{"word":"drop","phonetic":"/drɒp/","meaning":"掉落；滴"},{"word":"during","phonetic":"/ˈdjʊərɪŋ/","meaning":"在……期间"},{"word":"each","phonetic":"/iːtʃ/","meaning":"每个"},{"word":"early","phonetic":"/ˈɜːli/","meaning":"早的"},{"word":"earth","phonetic":"/ɜːθ/","meaning":"地球；泥土"},{"word":"easy","phonetic":"/ˈiːzi/","meaning":"容易的"},{"word":"education","phonetic":"/ˌedʒuˈkeɪʃn/","meaning":"教育"},{"word":"effect","phonetic":"/ɪˈfekt/","meaning":"效果；影响"},{"word":"effort","phonetic":"/ˈefət/","meaning":"努力"},{"word":"electricity","phonetic":"/ɪˌlekˈtrɪsəti/","meaning":"电"},{"word":"else","phonetic":"/els/","meaning":"其他的"},{"word":"empty","phonetic":"/ˈempti/","meaning":"空的"},{"word":"encourage","phonetic":"/ɪnˈkʌrɪdʒ/","meaning":"鼓励"},{"word":"end","phonetic":"/end/","meaning":"结束；末尾"},{"word":"energy","phonetic":"/ˈenədʒi/","meaning":"能量"},{"word":"enough","phonetic":"/ɪˈnʌf/","meaning":"足够的"},{"word":"environment","phonetic":"/ɪnˈvaɪrənmənt/","meaning":"环境"},{"word":"especially","phonetic":"/ɪˈspeʃəli/","meaning":"尤其"},{"word":"even","phonetic":"/ˈiːvn/","meaning":"甚至"},{"word":"ever","phonetic":"/ˈevə(r)/","meaning":"曾经"},{"word":"every","phonetic":"/ˈevri/","meaning":"每个"},{"word":"example","phonetic":"/ɪɡˈzɑːmpl/","meaning":"例子"},{"word":"excellent","phonetic":"/ˈeksələnt/","meaning":"极好的"},{"word":"exchange","phonetic":"/ɪksˈtʃeɪndʒ/","meaning":"交换"},{"word":"excited","phonetic":"/ɪkˈsaɪtɪd/","meaning":"兴奋的"},{"word":"exercise","phonetic":"/ˈeksəsaɪz/","meaning":"锻炼；练习"},{"word":"expect","phonetic":"/ɪkˈspekt/","meaning":"期望"},{"word":"expensive","phonetic":"/ɪkˈspensɪv/","meaning":"昂贵的"},{"word":"experience","phonetic":"/ɪkˈspɪəriəns/","meaning":"经验；经历"},{"word":"experiment","phonetic":"/ɪkˈsperɪmənt/","meaning":"实验"},{"word":"explain","phonetic":"/ɪkˈspleɪn/","meaning":"解释"},{"word":"fail","phonetic":"/feɪl/","meaning":"失败"},{"word":"fair","phonetic":"/feə(r)/","meaning":"公平的"},{"word":"famous","phonetic":"/ˈfeɪməs/","meaning":"著名的"},{"word":"farmer","phonetic":"/ˈfɑːmə(r)/","meaning":"农民"},{"word":"fashion","phonetic":"/ˈfæʃn/","meaning":"时尚"},{"word":"fast","phonetic":"/fɑːst/","meaning":"快的"},{"word":"father","phonetic":"/ˈfɑːðə(r)/","meaning":"父亲"},{"word":"fault","phonetic":"/fɔːlt/","meaning":"过错"},{"word":"favourite","phonetic":"/ˈfeɪvərɪt/","meaning":"最喜欢的"},{"word":"fear","phonetic":"/fɪə(r)/","meaning":"害怕；恐惧"},{"word":"feed","phonetic":"/fiːd/","meaning":"喂养"},{"word":"feel","phonetic":"/fiːl/","meaning":"感觉"},{"word":"festival","phonetic":"/ˈfestɪvl/","meaning":"节日"},{"word":"fight","phonetic":"/faɪt/","meaning":"打架；斗争"},{"word":"final","phonetic":"/ˈfaɪnl/","meaning":"最后的"},{"word":"fire","phonetic":"/ˈfaɪə(r)/","meaning":"火"},{"word":"fit","phonetic":"/fɪt/","meaning":"合适的；健身"},{"word":"fix","phonetic":"/fɪks/","meaning":"修理"},{"word":"flag","phonetic":"/flæɡ/","meaning":"旗帜"},{"word":"flat","phonetic":"/flæt/","meaning":"公寓；平坦的"},{"word":"floor","phonetic":"/flɔː(r)/","meaning":"地板；楼层"},{"word":"fly","phonetic":"/flaɪ/","meaning":"飞"},{"word":"follow","phonetic":"/ˈfɒləʊ/","meaning":"跟随"},{"word":"food","phonetic":"/fuːd/","meaning":"食物"},{"word":"football","phonetic":"/ˈfʊtbɔːl/","meaning":"足球"},{"word":"foreign","phonetic":"/ˈfɒrən/","meaning":"外国的"},{"word":"forest","phonetic":"/ˈfɒrɪst/","meaning":"森林"},{"word":"forget","phonetic":"/fəˈɡet/","meaning":"忘记"},{"word":"forgive","phonetic":"/fəˈɡɪv/","meaning":"原谅"},{"word":"forward","phonetic":"/ˈfɔːwəd/","meaning":"向前"},{"word":"free","phonetic":"/friː/","meaning":"自由的；免费的"},{"word":"fresh","phonetic":"/freʃ/","meaning":"新鲜的"},{"word":"friend","phonetic":"/frend/","meaning":"朋友"},{"word":"fruit","phonetic":"/fruːt/","meaning":"水果"},{"word":"full","phonetic":"/fʊl/","meaning":"满的"},{"word":"fun","phonetic":"/fʌn/","meaning":"乐趣"},{"word":"future","phonetic":"/ˈfjuːtʃə(r)/","meaning":"未来"},{"word":"game","phonetic":"/ɡeɪm/","meaning":"游戏；比赛"},{"word":"garden","phonetic":"/ˈɡɑːdn/","meaning":"花园"},{"word":"general","phonetic":"/ˈdʒenrəl/","meaning":"普遍的"},{"word":"gentle","phonetic":"/ˈdʒentl/","meaning":"温柔的"},{"word":"gift","phonetic":"/ɡɪft/","meaning":"礼物"},{"word":"give","phonetic":"/ɡɪv/","meaning":"给"},{"word":"glad","phonetic":"/ɡlæd/","meaning":"高兴的"},{"word":"glass","phonetic":"/ɡlɑːs/","meaning":"玻璃；杯子"},{"word":"goal","phonetic":"/ɡəʊl/","meaning":"目标；球门"},{"word":"government","phonetic":"/ˈɡʌvənmənt/","meaning":"政府"},{"word":"grade","phonetic":"/ɡreɪd/","meaning":"年级；分数"},{"word":"grass","phonetic":"/ɡrɑːs/","meaning":"草"},{"word":"great","phonetic":"/ɡreɪt/","meaning":"伟大的"},{"word":"grow","phonetic":"/ɡrəʊ/","meaning":"生长"},{"word":"guess","phonetic":"/ɡes/","meaning":"猜测"},{"word":"guest","phonetic":"/ɡest/","meaning":"客人"},{"word":"guide","phonetic":"/ɡaɪd/","meaning":"导游；指导"},{"word":"habit","phonetic":"/ˈhæbɪt/","meaning":"习惯"},{"word":"hand","phonetic":"/hænd/","meaning":"手"},{"word":"happen","phonetic":"/ˈhæpən/","meaning":"发生"},{"word":"happy","phonetic":"/ˈhæpi/","meaning":"快乐的"},{"word":"hard","phonetic":"/hɑːd/","meaning":"努力地；坚硬的"},{"word":"harm","phonetic":"/hɑːm/","meaning":"伤害"},{"word":"harvest","phonetic":"/ˈhɑːvɪst/","meaning":"收获"},{"word":"health","phonetic":"/helθ/","meaning":"健康"},{"word":"hear","phonetic":"/hɪə(r)/","meaning":"听见"},{"word":"heart","phonetic":"/hɑːt/","meaning":"心脏；内心"},{"word":"heat","phonetic":"/hiːt/","meaning":"热"},{"word":"heavy","phonetic":"/ˈhevi/","meaning":"重的"},{"word":"height","phonetic":"/haɪt/","meaning":"高度"},{"word":"hero","phonetic":"/ˈhɪərəʊ/","meaning":"英雄"},{"word":"hide","phonetic":"/haɪd/","meaning":"隐藏"},{"word":"history","phonetic":"/ˈhɪstri/","meaning":"历史"},{"word":"hobby","phonetic":"/ˈhɒbi/","meaning":"爱好"},{"word":"hold","phonetic":"/həʊld/","meaning":"握住；举行"},{"word":"holiday","phonetic":"/ˈhɒlədeɪ/","meaning":"假日"},{"word":"homework","phonetic":"/ˈhəʊmwɜːk/","meaning":"家庭作业"},{"word":"honest","phonetic":"/ˈɒnɪst/","meaning":"诚实的"},{"word":"hope","phonetic":"/həʊp/","meaning":"希望"},{"word":"hospital","phonetic":"/ˈhɒspɪtl/","meaning":"医院"},{"word":"however","phonetic":"/haʊˈevə(r)/","meaning":"然而"},{"word":"huge","phonetic":"/hjuːdʒ/","meaning":"巨大的"},{"word":"hungry","phonetic":"/ˈhʌŋɡri/","meaning":"饥饿的"},{"word":"idea","phonetic":"/aɪˈdɪə/","meaning":"主意；想法"},{"word":"imagine","phonetic":"/ɪˈmædʒɪn/","meaning":"想象"},{"word":"important","phonetic":"/ɪmˈpɔːtnt/","meaning":"重要的"},{"word":"improve","phonetic":"/ɪmˈpruːv/","meaning":"改善；提高"},{"word":"include","phonetic":"/ɪnˈkluːd/","meaning":"包含"},{"word":"information","phonetic":"/ˌɪnfəˈmeɪʃn/","meaning":"信息"},{"word":"instead","phonetic":"/ɪnˈsted/","meaning":"代替"},{"word":"interest","phonetic":"/ˈɪntrəst/","meaning":"兴趣；使感兴趣"},{"word":"interesting","phonetic":"/ˈɪntrəstɪŋ/","meaning":"有趣的"},{"word":"introduce","phonetic":"/ˌɪntrəˈdjuːs/","meaning":"介绍"},{"word":"invent","phonetic":"/ɪnˈvent/","meaning":"发明"},{"word":"invite","phonetic":"/ɪnˈvaɪt/","meaning":"邀请"},{"word":"island","phonetic":"/ˈaɪlənd/","meaning":"岛屿"},{"word":"job","phonetic":"/dʒɒb/","meaning":"工作"},{"word":"join","phonetic":"/dʒɔɪn/","meaning":"加入"},{"word":"journey","phonetic":"/ˈdʒɜːni/","meaning":"旅行"},{"word":"joy","phonetic":"/dʒɔɪ/","meaning":"欢乐"},{"word":"judge","phonetic":"/dʒʌdʒ/","meaning":"判断；法官"},{"word":"jump","phonetic":"/dʒʌmp/","meaning":"跳"},{"word":"just","phonetic":"/dʒʌst/","meaning":"刚刚；只是"},{"word":"keep","phonetic":"/kiːp/","meaning":"保持"},{"word":"key","phonetic":"/kiː/","meaning":"钥匙；关键的"},{"word":"kill","phonetic":"/kɪl/","meaning":"杀死"},{"word":"kind","phonetic":"/kaɪnd/","meaning":"善良的；种类"},{"word":"knowledge","phonetic":"/ˈnɒlɪdʒ/","meaning":"知识"},{"word":"lady","phonetic":"/ˈleɪdi/","meaning":"女士"},{"word":"language","phonetic":"/ˈlæŋɡwɪdʒ/","meaning":"语言"},{"word":"large","phonetic":"/lɑːdʒ/","meaning":"大的"},{"word":"last","phonetic":"/lɑːst/","meaning":"最后的；持续"},{"word":"laugh","phonetic":"/lɑːf/","meaning":"笑"},{"word":"law","phonetic":"/lɔː/","meaning":"法律"},{"word":"lazy","phonetic":"/ˈleɪzi/","meaning":"懒惰的"},{"word":"lead","phonetic":"/liːd/","meaning":"领导；带领"},{"word":"learn","phonetic":"/lɜːn/","meaning":"学习"},{"word":"leave","phonetic":"/liːv/","meaning":"离开"},{"word":"lesson","phonetic":"/ˈlesn/","meaning":"课"},{"word":"let","phonetic":"/let/","meaning":"让"},{"word":"letter","phonetic":"/ˈletə(r)/","meaning":"信；字母"},{"word":"life","phonetic":"/laɪf/","meaning":"生活；生命"},{"word":"lift","phonetic":"/lɪft/","meaning":"举起；电梯"},{"word":"light","phonetic":"/laɪt/","meaning":"灯；轻的；光"},{"word":"line","phonetic":"/laɪn/","meaning":"线；排"},{"word":"list","phonetic":"/lɪst/","meaning":"列表；清单"},{"word":"listen","phonetic":"/ˈlɪsn/","meaning":"听"},{"word":"little","phonetic":"/ˈlɪtl/","meaning":"小的；一点"},{"word":"live","phonetic":"/lɪv/","meaning":"居住；生活"},{"word":"long","phonetic":"/lɒŋ/","meaning":"长的"},{"word":"look","phonetic":"/lʊk/","meaning":"看"},{"word":"lose","phonetic":"/luːz/","meaning":"失去；输"},{"word":"loud","phonetic":"/laʊd/","meaning":"大声的"},{"word":"love","phonetic":"/lʌv/","meaning":"爱"},{"word":"lucky","phonetic":"/ˈlʌki/","meaning":"幸运的"},{"word":"machine","phonetic":"/məˈʃiːn/","meaning":"机器"},{"word":"magazine","phonetic":"/ˌmæɡəˈziːn/","meaning":"杂志"},{"word":"main","phonetic":"/meɪn/","meaning":"主要的"},{"word":"make","phonetic":"/meɪk/","meaning":"制作；使"},{"word":"manage","phonetic":"/ˈmænɪdʒ/","meaning":"管理；设法"},{"word":"many","phonetic":"/ˈmeni/","meaning":"许多"},{"word":"map","phonetic":"/mæp/","meaning":"地图"},{"word":"mark","phonetic":"/mɑːk/","meaning":"标记；分数"},{"word":"market","phonetic":"/ˈmɑːkɪt/","meaning":"市场"},{"word":"marry","phonetic":"/ˈmæri/","meaning":"结婚"},{"word":"master","phonetic":"/ˈmɑːstə(r)/","meaning":"掌握；主人"},{"word":"matter","phonetic":"/ˈmætə(r)/","meaning":"事情；要紧"},{"word":"maybe","phonetic":"/ˈmeɪbi/","meaning":"也许"},{"word":"meal","phonetic":"/miːl/","meaning":"一餐"},{"word":"mean","phonetic":"/miːn/","meaning":"意思是；意味着"},{"word":"meet","phonetic":"/miːt/","meaning":"遇见"},{"word":"member","phonetic":"/ˈmembə(r)/","meaning":"成员"},{"word":"memory","phonetic":"/ˈmeməri/","meaning":"记忆"},{"word":"message","phonetic":"/ˈmesɪdʒ/","meaning":"信息；消息"},{"word":"middle","phonetic":"/ˈmɪdl/","meaning":"中间"},{"word":"mind","phonetic":"/maɪnd/","meaning":"头脑；介意"},{"word":"minute","phonetic":"/ˈmɪnɪt/","meaning":"分钟"},{"word":"miss","phonetic":"/mɪs/","meaning":"想念；错过"},{"word":"mistake","phonetic":"/mɪˈsteɪk/","meaning":"错误"},{"word":"modern","phonetic":"/ˈmɒdn/","meaning":"现代的"},{"word":"moment","phonetic":"/ˈməʊmənt/","meaning":"时刻"},{"word":"money","phonetic":"/ˈmʌni/","meaning":"钱"},{"word":"month","phonetic":"/mʌnθ/","meaning":"月"},{"word":"more","phonetic":"/mɔː(r)/","meaning":"更多的"},{"word":"morning","phonetic":"/ˈmɔːnɪŋ/","meaning":"早晨"},{"word":"most","phonetic":"/məʊst/","meaning":"最多的"},{"word":"mother","phonetic":"/ˈmʌðə(r)/","meaning":"母亲"},{"word":"mountain","phonetic":"/ˈmaʊntən/","meaning":"山"},{"word":"move","phonetic":"/muːv/","meaning":"移动"},{"word":"movie","phonetic":"/ˈmuːvi/","meaning":"电影"},{"word":"music","phonetic":"/ˈmjuːzɪk/","meaning":"音乐"},{"word":"name","phonetic":"/neɪm/","meaning":"名字"},{"word":"natural","phonetic":"/ˈnætʃrəl/","meaning":"自然的"},{"word":"nature","phonetic":"/ˈneɪtʃə(r)/","meaning":"自然"},{"word":"near","phonetic":"/nɪə(r)/","meaning":"在附近"},{"word":"need","phonetic":"/niːd/","meaning":"需要"},{"word":"neighbor","phonetic":"/ˈneɪbə(r)/","meaning":"邻居"},{"word":"never","phonetic":"/ˈnevə(r)/","meaning":"从不"},{"word":"new","phonetic":"/njuː/","meaning":"新的"},{"word":"news","phonetic":"/njuːz/","meaning":"新闻"},{"word":"nice","phonetic":"/naɪs/","meaning":"好的"},{"word":"night","phonetic":"/naɪt/","meaning":"夜晚"},{"word":"noise","phonetic":"/nɔɪz/","meaning":"噪音"},{"word":"nothing","phonetic":"/ˈnʌθɪŋ/","meaning":"没有什么"},{"word":"notice","phonetic":"/ˈnəʊtɪs/","meaning":"注意到；通知"},{"word":"number","phonetic":"/ˈnʌmbə(r)/","meaning":"数字"},{"word":"object","phonetic":"/ˈɒbdʒɪkt/","meaning":"物体；反对"},{"word":"offer","phonetic":"/ˈɒfə(r)/","meaning":"提供"},{"word":"office","phonetic":"/ˈɒfɪs/","meaning":"办公室"},{"word":"often","phonetic":"/ˈɒfn/","meaning":"经常"},{"word":"once","phonetic":"/wʌns/","meaning":"曾经；一次"},{"word":"only","phonetic":"/ˈəʊnli/","meaning":"只有"},{"word":"open","phonetic":"/ˈəʊpən/","meaning":"打开；开放的"},{"word":"operate","phonetic":"/ˈɒpəreɪt/","meaning":"操作；运转"},{"word":"opinion","phonetic":"/əˈpɪnjən/","meaning":"意见"},{"word":"opportunity","phonetic":"/ˌɒpəˈtjuːnəti/","meaning":"机会"},{"word":"order","phonetic":"/ˈɔːdə(r)/","meaning":"命令；订单；顺序"},{"word":"other","phonetic":"/ˈʌðə(r)/","meaning":"其他的"},{"word":"outdoor","phonetic":"/ˈaʊtdɔː(r)/","meaning":"户外的"},{"word":"outside","phonetic":"/ˌaʊtˈsaɪd/","meaning":"外面"},{"word":"over","phonetic":"/ˈəʊvə(r)/","meaning":"超过；在上方"},{"word":"own","phonetic":"/əʊn/","meaning":"自己的；拥有"},{"word":"pack","phonetic":"/pæk/","meaning":"打包"},{"word":"page","phonetic":"/peɪdʒ/","meaning":"页"},{"word":"pain","phonetic":"/peɪn/","meaning":"疼痛"},{"word":"paint","phonetic":"/peɪnt/","meaning":"绘画"},{"word":"pair","phonetic":"/peə(r)/","meaning":"一双"},{"word":"paper","phonetic":"/ˈpeɪpə(r)/","meaning":"纸；报纸"},{"word":"parent","phonetic":"/ˈpeərənt/","meaning":"父母"},{"word":"park","phonetic":"/pɑːk/","meaning":"公园；停车"},{"word":"part","phonetic":"/pɑːt/","meaning":"部分"},{"word":"party","phonetic":"/ˈpɑːti/","meaning":"聚会；政党"},{"word":"pass","phonetic":"/pɑːs/","meaning":"通过；传递"},{"word":"patient","phonetic":"/ˈpeɪʃnt/","meaning":"病人；耐心的"},{"word":"pay","phonetic":"/peɪ/","meaning":"支付"},{"word":"peace","phonetic":"/piːs/","meaning":"和平"},{"word":"people","phonetic":"/ˈpiːpl/","meaning":"人们"},{"word":"perhaps","phonetic":"/pəˈhæps/","meaning":"也许"},{"word":"person","phonetic":"/ˈpɜːsn/","meaning":"人"},{"word":"photo","phonetic":"/ˈfəʊtəʊ/","meaning":"照片"},{"word":"picture","phonetic":"/ˈpɪktʃə(r)/","meaning":"图画"},{"word":"place","phonetic":"/pleɪs/","meaning":"地方"},{"word":"plan","phonetic":"/plæn/","meaning":"计划"},{"word":"plant","phonetic":"/plɑːnt/","meaning":"植物；种植"},{"word":"play","phonetic":"/pleɪ/","meaning":"玩；播放"},{"word":"please","phonetic":"/pliːz/","meaning":"请；使高兴"},{"word":"point","phonetic":"/pɔɪnt/","meaning":"点；指"},{"word":"popular","phonetic":"/ˈpɒpjələ(r)/","meaning":"受欢迎的"},{"word":"possible","phonetic":"/ˈpɒsəbl/","meaning":"可能的"},{"word":"practice","phonetic":"/ˈpræktɪs/","meaning":"练习"},{"word":"prepare","phonetic":"/prɪˈpeə(r)/","meaning":"准备"},{"word":"present","phonetic":"/ˈpreznt/","meaning":"礼物；现在"},{"word":"price","phonetic":"/praɪs/","meaning":"价格"},{"word":"problem","phonetic":"/ˈprɒbləm/","meaning":"问题"},{"word":"produce","phonetic":"/prəˈdjuːs/","meaning":"生产"},{"word":"progress","phonetic":"/ˈprəʊɡres/","meaning":"进步"},{"word":"promise","phonetic":"/ˈprɒmɪs/","meaning":"承诺"},{"word":"protect","phonetic":"/prəˈtekt/","meaning":"保护"},{"word":"proud","phonetic":"/praʊd/","meaning":"自豪的"},{"word":"provide","phonetic":"/prəˈvaɪd/","meaning":"提供"},{"word":"pull","phonetic":"/pʊl/","meaning":"拉"},{"word":"push","phonetic":"/pʊʃ/","meaning":"推"},{"word":"quick","phonetic":"/kwɪk/","meaning":"快的"},{"word":"quiet","phonetic":"/ˈkwaɪət/","meaning":"安静的"},{"word":"quite","phonetic":"/kwaɪt/","meaning":"相当"}],"sentences":[{"en":"I'm able to finish the work by myself.","zh":"我能独立完成这项工作。"},{"en":"She has the ability to speak three languages.","zh":"她有能力说三种语言。"},{"en":"We are talking about our plans for the weekend.","zh":"我们正在谈论周末的计划。"},{"en":"The sun rises above the mountains.","zh":"太阳从群山上方升起。"},{"en":"He accepted my invitation with a smile.","zh":"他微笑着接受了我的邀请。"},{"en":"You can achieve your dream if you work hard.","zh":"如果你努力，就能实现梦想。"},{"en":"The bridge goes across the river.","zh":"这座桥横跨河流。"},{"en":"We had an interesting activity at school today.","zh":"今天我们在学校进行了一项有趣的活动。"},{"en":"Please add some milk to the coffee.","zh":"请往咖啡里加一些牛奶。"},{"en":"Could you tell me your address?","zh":"你能告诉我你的地址吗？"},{"en":"My teacher gave me some useful advice.","zh":"老师给了我一些有用的建议。"},{"en":"I can't afford such an expensive phone.","zh":"我买不起这么贵的手机。"},{"en":"He was afraid to speak in public.","zh":"他害怕在公共场合说话。"},{"en":"Let's meet again next week.","zh":"我们下周再见面吧。"},{"en":"They are against the plan to build a factory here.","zh":"他们反对在这里建工厂的计划。"},{"en":"We met each other two years ago.","zh":"我们两年前见过面。"},{"en":"I agree with your idea completely.","zh":"我完全同意你的想法。"},{"en":"The air in the countryside is very fresh.","zh":"乡下的空气非常清新。"},{"en":"We took a plane at the airport this morning.","zh":"今天早上我们在机场乘了飞机。"},{"en":"My parents don't allow me to stay up late.","zh":"我父母不允许我熬夜。"},{"en":"Almost all the students passed the exam.","zh":"几乎所有学生都通过了考试。"},{"en":"He prefers to study alone in his room.","zh":"他更喜欢独自在房间里学习。"},{"en":"We walked along the river after dinner.","zh":"晚饭后我们沿着河边散步。"},{"en":"I have already finished my homework.","zh":"我已经完成了作业。"},{"en":"Although it rained, we still went hiking.","zh":"虽然下雨了，我们还是去远足了。"},{"en":"She is always ready to help others.","zh":"她总是乐于帮助别人。"},{"en":"We visited an ancient temple last weekend.","zh":"上周末我们参观了一座古庙。"},{"en":"Don't be angry with me, please.","zh":"请不要生我的气。"},{"en":"Would you like another cup of tea?","zh":"你想再要一杯茶吗？"},{"en":"I'm anxious about the coming exam.","zh":"我对即将到来的考试感到焦虑。"},{"en":"You can find me anywhere in the city.","zh":"你在这个城市任何地方都能找到我。"},{"en":"Stars appear in the sky at night.","zh":"夜晚星星出现在天空。"},{"en":"They argued about who should clean the room.","zh":"他们争论谁该打扫房间。"},{"en":"We arrived at the station on time.","zh":"我们准时到达了车站。"},{"en":"Please pay attention to the teacher in class.","zh":"上课时请专心听老师讲。"},{"en":"You should avoid making the same mistake.","zh":"你应该避免犯同样的错误。"},{"en":"The baby is awake now.","zh":"婴儿现在醒了。"},{"en":"The weather was awful yesterday.","zh":"昨天天气很糟糕。"},{"en":"He did badly in the test this time.","zh":"他这次考试考得很差。"},{"en":"We beat them in the football match.","zh":"我们在足球比赛中打败了他们。"},{"en":"She has become a better person over the years.","zh":"这些年来她变成了更好的人。"},{"en":"I believe you can do it well.","zh":"我相信你能做好。"},{"en":"This book belongs to my sister.","zh":"这本书属于我姐姐。"},{"en":"The dog is sleeping beside the fire.","zh":"狗正在火炉旁睡觉。"},{"en":"The bank is between the school and the hospital.","zh":"银行在学校和医院之间。"},{"en":"Don't blame others for your own mistakes.","zh":"不要因为自己的错误而责怪别人。"},{"en":"He is blind in one eye.","zh":"他一只眼睛失明。"},{"en":"You can borrow the book from the library.","zh":"你可以从图书馆借这本书。"},{"en":"Both my parents are teachers.","zh":"我父母都是老师。"},{"en":"Please bring your homework to class tomorrow.","zh":"明天请把作业带到课堂上来。"},{"en":"The building was built last year.","zh":"这栋楼是去年建的。"},{"en":"My father runs a small business in town.","zh":"我父亲在镇上经营一家小生意。"},{"en":"He is busy with his work these days.","zh":"这些天他忙于工作。"},{"en":"Please call me when you get home.","zh":"到家后请给我打电话。"},{"en":"Keep calm and don't worry.","zh":"保持冷静，别担心。"},{"en":"We decided to cancel the trip because of the rain.","zh":"因为下雨，我们决定取消这次旅行。"},{"en":"Beijing is the capital of China.","zh":"北京是中国的首都。"},{"en":"You should be careful when you cross the road.","zh":"过马路时你应该小心。"},{"en":"Please carry this box to the classroom.","zh":"请把这个箱子搬到教室。"},{"en":"He caught the last train to Beijing.","zh":"他赶上了去北京的最后一班火车。"},{"en":"We celebrate the Spring Festival every year.","zh":"我们每年都庆祝春节。"},{"en":"We have lived here for a century.","zh":"我们在这里住了一个世纪。"},{"en":"This is a good chance to improve my English.","zh":"这是提高我英语的好机会。"},{"en":"Please check your answers before you hand in.","zh":"交卷前请检查你的答案。"},{"en":"She chose the blue dress in the end.","zh":"她最后选择了那条蓝色连衣裙。"},{"en":"The students are cleaning the classroom.","zh":"学生们正在打扫教室。"},{"en":"The weather is clear and sunny today.","zh":"今天天气晴朗。"},{"en":"She collected many beautiful stamps.","zh":"她收集了许多漂亮的邮票。"},{"en":"He goes to college in another city.","zh":"他在另一个城市上大学。"},{"en":"This sofa is very comfortable to sit on.","zh":"这张沙发坐起来非常舒适。"},{"en":"It's common for students to make mistakes.","zh":"学生犯错误是很常见的。"},{"en":"We should communicate with our parents often.","zh":"我们应该经常和父母交流。"},{"en":"Compare the two pictures and find the differences.","zh":"比较这两幅图，找出不同之处。"},{"en":"You must concentrate on your study.","zh":"你必须专心学习。"},{"en":"Be confident and you will succeed.","zh":"要自信，你就会成功。"},{"en":"We congratulated her on winning the prize.","zh":"我们祝贺她获奖。"},{"en":"Please consider my suggestion carefully.","zh":"请仔细考虑我的建议。"},{"en":"We continued to walk even though it was dark.","zh":"尽管天黑了，我们还是继续走。"},{"en":"It's convenient to take the subway in this city.","zh":"在这个城市坐地铁很方便。"},{"en":"Please copy these words into your notebook.","zh":"请把这些单词抄到笔记本上。"},{"en":"The price of the computer costs a lot.","zh":"这台电脑的价格很贵。"},{"en":"It takes courage to tell the truth.","zh":"说出真相需要勇气。"},{"en":"Of course I will help you.","zh":"我当然会帮你。"},{"en":"Please cover the food with a plate.","zh":"请用盘子把食物盖住。"},{"en":"The artist created many wonderful paintings.","zh":"这位艺术家创作了许多精彩画作。"},{"en":"We must cross the street at the zebra crossing.","zh":"我们必须走斑马线过马路。"},{"en":"The crowd cheered for the players.","zh":"人群为运动员欢呼。"},{"en":"Learning a foreign culture is interesting.","zh":"学习外国文化很有趣。"},{"en":"The customer wants to buy a new coat.","zh":"这位顾客想买一件新外套。"},{"en":"Reading is my daily habit.","zh":"阅读是我的日常习惯。"},{"en":"What happened to you this morning?","zh":"今天早上你发生了什么事？"},{"en":"Too much junk food can harm your health.","zh":"太多的垃圾食品会损害你的健康。"},{"en":"The farmers are busy with the harvest.","zh":"农民们正忙着收获。"},{"en":"Exercise is good for your health.","zh":"锻炼对你的健康有好处。"},{"en":"She hid behind the door to surprise me.","zh":"她藏在门后想给我惊喜。"},{"en":"We will hold a party for his birthday.","zh":"我们将为他的生日举办聚会。"},{"en":"You should be honest with your friends.","zh":"你应该对朋友诚实。"},{"en":"The hospital is far from here.","zh":"医院离这里很远。"},{"en":"However, he didn't give up.","zh":"然而，他没有放弃。"},{"en":"The hungry boy ate the whole cake.","zh":"饥饿的男孩吃完了整个蛋糕。"}],"grammar":[{"category":"be动词","question":"There ___ a book on the desk.","options":["is","are","am","be"],"answer":0,"explain":"there be 句型，单数主语用 is。","question_zh":"书桌上有一本书。"},{"category":"be动词","question":"Neither of them ___ right.","options":["is","are","am","were"],"answer":0,"explain":"neither of + 复数名词，谓语用单数。","question_zh":"他们俩都不对。"},{"category":"时态-一般现在","question":"He ___ to school every day.","options":["go","goes","going","went"],"answer":1,"explain":"主语 he 三单，一般现在时动词加 es。","question_zh":"他每天去上学。"},{"category":"时态-一般现在","question":"The earth ___ around the sun.","options":["move","moves","moving","moved"],"answer":1,"explain":"客观真理用一般现在时，主语 the earth 三单加 s。","question_zh":"地球绕着太阳转。"},{"category":"时态-一般过去","question":"I ___ my homework last night.","options":["do","does","did","doing"],"answer":2,"explain":"last night 是过去时间，用过去式 did。","question_zh":"我昨晚做了作业。"},{"category":"时态-一般过去","question":"She ___ to the library yesterday.","options":["go","goes","went","gone"],"answer":2,"explain":"yesterday 过去时间，用 went。","question_zh":"她昨天去了图书馆。"},{"category":"时态-现在进行","question":"Listen! The baby ___ crying.","options":["cry","cries","is crying","cried"],"answer":2,"explain":"Listen! 提示动作正在进行，用现在进行时。","question_zh":"听！婴儿正在哭。"},{"category":"时态-现在完成","question":"I ___ already finished my homework.","options":["have","has","had","am"],"answer":0,"explain":"主语 I 用 have + 过去分词。","question_zh":"我已经完成作业了。"},{"category":"时态-现在完成","question":"She has ___ here for five years.","options":["live","lived","lives","living"],"answer":1,"explain":"现在完成时用 have/has + 过去分词。","question_zh":"她在这里住了五年。"},{"category":"时态-将来","question":"We ___ visit the museum tomorrow.","options":["are going to","will","are going","going to"],"answer":1,"explain":"tomorrow 表将来，用 will + 动词原形。","question_zh":"我们明天将参观博物馆。"},{"category":"时态-将来","question":"It ___ rain this afternoon.","options":["is going to","is going","will going","going"],"answer":0,"explain":"be going to + 动词原形表将来。","question_zh":"今天下午将要下雨。"},{"category":"情态动词","question":"You ___ return the book on time.","options":["must","mustn't","need","dare"],"answer":0,"explain":"must 表示必须。","question_zh":"你必须按时还书。"},{"category":"情态动词","question":"He ___ speak English very well.","options":["can","may","must","should"],"answer":0,"explain":"can 表示能力。","question_zh":"他英语说得很好。"},{"category":"情态动词","question":"You ___ smoke here. It's not allowed.","options":["mustn't","needn't","can't","don't"],"answer":0,"explain":"mustn't 表示禁止。","question_zh":"你不能在这里抽烟。这是不允许的。"},{"category":"情态动词","question":"___ I use your pen? Yes, you may.","options":["Must","May","Need","Shall"],"answer":1,"explain":"may 表示请求许可。","question_zh":"我可以用你的钢笔吗？可以。"},{"category":"被动语态","question":"The book ___ by many students.","options":["is read","reads","is reading","read"],"answer":0,"explain":"一般现在时被动语态：be + 过去分词。","question_zh":"这本书被许多学生阅读。"},{"category":"被动语态","question":"The bridge ___ last year.","options":["was built","is built","built","has built"],"answer":0,"explain":"last year 过去时间被动：was + 过去分词。","question_zh":"这座桥是去年建的。"},{"category":"比较级","question":"This box is ___ than that one.","options":["heavy","heavier","heaviest","heavily"],"answer":1,"explain":"比较级用 -er，heavy 变 y 为 i 加 er。","question_zh":"这个箱子比那个重。"},{"category":"比较级","question":"Which is ___, the sun or the moon?","options":["big","bigger","biggest","more big"],"answer":1,"explain":"两者比较用比较级 bigger。","question_zh":"太阳和月亮哪个更大？"},{"category":"最高级","question":"This is the ___ book in the library.","options":["good","better","best","well"],"answer":2,"explain":"三者以上比较用最高级 the best。","question_zh":"这是图书馆里最好的书。"},{"category":"最高级","question":"He is the ___ student in our class.","options":["tall","taller","tallest","more tall"],"answer":2,"explain":"全班范围比较用最高级 tallest。","question_zh":"他是我们班最高的学生。"},{"category":"代词","question":"This book is ___. It's mine.","options":["my","me","mine","myself"],"answer":2,"explain":"名词性物主代词 mine 作表语。","question_zh":"这本书是我的。"},{"category":"代词","question":"Help ___ to some fish, please.","options":["you","yourself","yours","your"],"answer":1,"explain":"反身代词 yourself 表“随意取用”。","question_zh":"请随便吃点鱼吧。"},{"category":"代词","question":"The children enjoyed ___ at the party.","options":["they","them","themselves","their"],"answer":2,"explain":"enjoy oneself 固定搭配，用反身代词。","question_zh":"孩子们在聚会上玩得很开心。"},{"category":"冠词","question":"___ sun rises in the east.","options":["A","An","The","/"],"answer":2,"explain":"世界上独一无二的事物前用 the。","question_zh":"太阳从东方升起。"},{"category":"冠词","question":"He is ___ honest man.","options":["a","an","the","/"],"answer":1,"explain":"honest 以元音音素开头，用 an。","question_zh":"他是一个诚实的人。"},{"category":"介词","question":"She has lived here ___ 2019.","options":["for","since","in","at"],"answer":1,"explain":"since + 时间点；for + 时间段。","question_zh":"她从2019年起就住在这里。"},{"category":"介词","question":"He is good ___ playing basketball.","options":["in","at","on","for"],"answer":1,"explain":"be good at 擅长。","question_zh":"他擅长打篮球。"},{"category":"介词","question":"The teacher is talking ___ the students.","options":["to","at","for","about"],"answer":0,"explain":"talk to sb. 和某人交谈。","question_zh":"老师正在和学生交谈。"},{"category":"条件句","question":"If it ___ tomorrow, we will stay at home.","options":["rain","rains","rained","will rain"],"answer":1,"explain":"主将从现：if 从句用一般现在时。","question_zh":"如果明天下雨，我们就待在家。"},{"category":"条件句","question":"If I ___ time, I will come to see you.","options":["have","has","will have","had"],"answer":0,"explain":"主将从现：if 从句用一般现在时。","question_zh":"如果我有时间，我会来看你。"},{"category":"疑问句","question":"___ you like coffee or tea?","options":["Do","Does","Is","Are"],"answer":0,"explain":"主语 you 用助动词 Do。","question_zh":"你喜欢咖啡还是茶？"},{"category":"疑问句","question":"___ he play the piano? Yes, he does.","options":["Do","Does","Is","Did"],"answer":1,"explain":"主语 he 三单用 Does。","question_zh":"他会弹钢琴吗？是的。"},{"category":"疑问句-反义","question":"She can swim, ___ she?","options":["can","can't","does","is"],"answer":1,"explain":"反义疑问句：前肯后否，用 can't。","question_zh":"她会游泳，不是吗？"},{"category":"疑问句-反义","question":"It isn't cold today, ___ it?","options":["is","isn't","does","doesn't"],"answer":0,"explain":"前否后肯，用 is。","question_zh":"今天不冷，不是吗？"},{"category":"不定式","question":"I want ___ to the park.","options":["go","to go","going","went"],"answer":1,"explain":"want to do sth. 想做某事。","question_zh":"我想去公园。"},{"category":"动名词","question":"I enjoy ___ English songs.","options":["listen","to listen","listening","listened"],"answer":2,"explain":"enjoy doing sth. 喜欢做某事。","question_zh":"我喜欢听英语歌曲。"},{"category":"动名词","question":"He is good at ___ kites.","options":["make","to make","making","made"],"answer":2,"explain":"be good at + doing。","question_zh":"他擅长做风筝。"},{"category":"宾语从句","question":"I don't know ___ he will come.","options":["if","that","what","which"],"answer":0,"explain":"whether/if 引导宾语从句表“是否”。","question_zh":"我不知道他是否会来。"}]},
-  "senior.json": {"words":[{"word":"abandon","phonetic":"/əˈbændən/","meaning":"放弃；抛弃"},{"word":"ability","phonetic":"/əˈbɪləti/","meaning":"能力"},{"word":"abolish","phonetic":"/əˈbɒlɪʃ/","meaning":"废除"},{"word":"absorb","phonetic":"/əbˈzɔːb/","meaning":"吸收；使专心"},{"word":"abstract","phonetic":"/ˈæbstrækt/","meaning":"抽象的"},{"word":"abundant","phonetic":"/əˈbʌndənt/","meaning":"丰富的"},{"word":"academic","phonetic":"/ˌækəˈdemɪk/","meaning":"学术的"},{"word":"accelerate","phonetic":"/əkˈseləreɪt/","meaning":"加速"},{"word":"access","phonetic":"/ˈækses/","meaning":"进入；使用权"},{"word":"accompany","phonetic":"/əˈkʌmpəni/","meaning":"陪伴"},{"word":"accomplish","phonetic":"/əˈkʌmplɪʃ/","meaning":"完成；实现"},{"word":"accumulate","phonetic":"/əˈkjuːmjəleɪt/","meaning":"积累"},{"word":"accurate","phonetic":"/ˈækjərət/","meaning":"准确的"},{"word":"accuse","phonetic":"/əˈkjuːz/","meaning":"指责；控告"},{"word":"achieve","phonetic":"/əˈtʃiːv/","meaning":"实现；取得"},{"word":"acknowledge","phonetic":"/əkˈnɒlɪdʒ/","meaning":"承认"},{"word":"acquire","phonetic":"/əˈkwaɪə(r)/","meaning":"获得"},{"word":"adapt","phonetic":"/əˈdæpt/","meaning":"适应；改编"},{"word":"adequate","phonetic":"/ˈædɪkwət/","meaning":"充足的"},{"word":"adjust","phonetic":"/əˈdʒʌst/","meaning":"调整"},{"word":"admire","phonetic":"/ədˈmaɪə(r)/","meaning":"钦佩"},{"word":"adopt","phonetic":"/əˈdɒpt/","meaning":"收养；采纳"},{"word":"advance","phonetic":"/ədˈvɑːns/","meaning":"前进；进展"},{"word":"advantage","phonetic":"/ədˈvɑːntɪdʒ/","meaning":"优势"},{"word":"advertise","phonetic":"/ˈædvətaɪz/","meaning":"做广告"},{"word":"affect","phonetic":"/əˈfekt/","meaning":"影响"},{"word":"affection","phonetic":"/əˈfekʃn/","meaning":"感情；喜爱"},{"word":"aggressive","phonetic":"/əˈɡresɪv/","meaning":"好斗的；进取的"},{"word":"agriculture","phonetic":"/ˈæɡrɪkʌltʃə(r)/","meaning":"农业"},{"word":"alert","phonetic":"/əˈlɜːt/","meaning":"警觉的"},{"word":"allocate","phonetic":"/ˈæləkeɪt/","meaning":"分配"},{"word":"alter","phonetic":"/ˈɔːltə(r)/","meaning":"改变"},{"word":"alternative","phonetic":"/ɔːlˈtɜːnətɪv/","meaning":"可供选择的"},{"word":"altitude","phonetic":"/ˈæltɪtjuːd/","meaning":"海拔；高度"},{"word":"ambition","phonetic":"/æmˈbɪʃn/","meaning":"雄心；抱负"},{"word":"ambitious","phonetic":"/æmˈbɪʃəs/","meaning":"有雄心的"},{"word":"amuse","phonetic":"/əˈmjuːz/","meaning":"逗乐"},{"word":"analyse","phonetic":"/ˈænəlaɪz/","meaning":"分析"},{"word":"ancient","phonetic":"/ˈeɪnʃənt/","meaning":"古代的"},{"word":"announce","phonetic":"/əˈnaʊns/","meaning":"宣布"},{"word":"annual","phonetic":"/ˈænjuəl/","meaning":"每年的"},{"word":"anxiety","phonetic":"/æŋˈzaɪəti/","meaning":"焦虑"},{"word":"apologise","phonetic":"/əˈpɒlədʒaɪz/","meaning":"道歉"},{"word":"appeal","phonetic":"/əˈpiːl/","meaning":"呼吁；吸引力"},{"word":"applaud","phonetic":"/əˈplɔːd/","meaning":"鼓掌；称赞"},{"word":"appoint","phonetic":"/əˈpɔɪnt/","meaning":"任命"},{"word":"appreciate","phonetic":"/əˈpriːʃieɪt/","meaning":"欣赏；感激"},{"word":"approach","phonetic":"/əˈprəʊtʃ/","meaning":"接近；方法"},{"word":"appropriate","phonetic":"/əˈprəʊpriət/","meaning":"合适的"},{"word":"approve","phonetic":"/əˈpruːv/","meaning":"批准；赞成"},{"word":"approximately","phonetic":"/əˈprɒksɪmətli/","meaning":"大约"},{"word":"arbitrary","phonetic":"/ˈɑːbɪtrəri/","meaning":"任意的"},{"word":"argue","phonetic":"/ˈɑːɡjuː/","meaning":"争论"},{"word":"arise","phonetic":"/əˈraɪz/","meaning":"出现；升起"},{"word":"arrange","phonetic":"/əˈreɪndʒ/","meaning":"安排"},{"word":"artificial","phonetic":"/ˌɑːtɪˈfɪʃl/","meaning":"人工的"},{"word":"assess","phonetic":"/əˈses/","meaning":"评估"},{"word":"assign","phonetic":"/əˈsaɪn/","meaning":"分配；指派"},{"word":"assist","phonetic":"/əˈsɪst/","meaning":"帮助"},{"word":"associate","phonetic":"/əˈsəʊʃieɪt/","meaning":"联想；联系"},{"word":"assume","phonetic":"/əˈsjuːm/","meaning":"假定"},{"word":"atmosphere","phonetic":"/ˈætməsfɪə(r)/","meaning":"大气；气氛"},{"word":"attach","phonetic":"/əˈtætʃ/","meaning":"附上；重视"},{"word":"attitude","phonetic":"/ˈætɪtjuːd/","meaning":"态度"},{"word":"attract","phonetic":"/əˈtrækt/","meaning":"吸引"},{"word":"attribute","phonetic":"/əˈtrɪbjuːt/","meaning":"把……归因于"},{"word":"authority","phonetic":"/ɔːˈθɒrəti/","meaning":"权威；当局"},{"word":"automatic","phonetic":"/ˌɔːtəˈmætɪk/","meaning":"自动的"},{"word":"available","phonetic":"/əˈveɪləbl/","meaning":"可获得的"},{"word":"average","phonetic":"/ˈævərɪdʒ/","meaning":"平均的"},{"word":"avoid","phonetic":"/əˈvɔɪd/","meaning":"避免"},{"word":"aware","phonetic":"/əˈweə(r)/","meaning":"意识到的"},{"word":"balance","phonetic":"/ˈbæləns/","meaning":"平衡"},{"word":"barrier","phonetic":"/ˈbæriə(r)/","meaning":"障碍"},{"word":"beneficial","phonetic":"/ˌbenɪˈfɪʃl/","meaning":"有益的"},{"word":"benefit","phonetic":"/ˈbenɪfɪt/","meaning":"益处；有益于"},{"word":"bias","phonetic":"/ˈbaɪəs/","meaning":"偏见"},{"word":"boundary","phonetic":"/ˈbaʊndri/","meaning":"边界"},{"word":"brief","phonetic":"/briːf/","meaning":"简短的"},{"word":"brilliant","phonetic":"/ˈbrɪliənt/","meaning":"杰出的；灿烂的"},{"word":"broadcast","phonetic":"/ˈbrɔːdkɑːst/","meaning":"广播"},{"word":"calculate","phonetic":"/ˈkælkjuleɪt/","meaning":"计算"},{"word":"campaign","phonetic":"/kæmˈpeɪn/","meaning":"运动；战役"},{"word":"capable","phonetic":"/ˈkeɪpəbl/","meaning":"有能力的"},{"word":"capacity","phonetic":"/kəˈpæsəti/","meaning":"能力；容量"},{"word":"category","phonetic":"/ˈkætəɡəri/","meaning":"类别"},{"word":"caution","phonetic":"/ˈkɔːʃn/","meaning":"谨慎"},{"word":"challenge","phonetic":"/ˈtʃælɪndʒ/","meaning":"挑战"},{"word":"character","phonetic":"/ˈkærəktə(r)/","meaning":"性格；角色"},{"word":"circumstance","phonetic":"/ˈsɜːkəmstəns/","meaning":"情况；环境"},{"word":"civil","phonetic":"/ˈsɪvl/","meaning":"公民的；文明的"},{"word":"claim","phonetic":"/kleɪm/","meaning":"声称；要求"},{"word":"clarify","phonetic":"/ˈklærəfaɪ/","meaning":"澄清"},{"word":"collapse","phonetic":"/kəˈlæps/","meaning":"倒塌；崩溃"},{"word":"combine","phonetic":"/kəmˈbaɪn/","meaning":"结合"},{"word":"comfort","phonetic":"/ˈkʌmfət/","meaning":"安慰；舒适"},{"word":"commercial","phonetic":"/kəˈmɜːʃl/","meaning":"商业的"},{"word":"commit","phonetic":"/kəˈmɪt/","meaning":"犯（错）；承诺"},{"word":"committee","phonetic":"/kəˈmɪti/","meaning":"委员会"},{"word":"compete","phonetic":"/kəmˈpiːt/","meaning":"竞争"},{"word":"complain","phonetic":"/kəmˈpleɪn/","meaning":"抱怨"},{"word":"complex","phonetic":"/ˈkɒmpleks/","meaning":"复杂的"},{"word":"compose","phonetic":"/kəmˈpəʊz/","meaning":"组成；作曲"},{"word":"comprehensive","phonetic":"/ˌkɒmprɪˈhensɪv/","meaning":"全面的"},{"word":"compromise","phonetic":"/ˈkɒmprəmaɪz/","meaning":"妥协"},{"word":"concentrate","phonetic":"/ˈkɒnsntreɪt/","meaning":"专心；集中"},{"word":"concept","phonetic":"/ˈkɒnsept/","meaning":"概念"},{"word":"conclude","phonetic":"/kənˈkluːd/","meaning":"得出结论"},{"word":"concrete","phonetic":"/ˈkɒŋkriːt/","meaning":"具体的；混凝土"},{"word":"conduct","phonetic":"/kənˈdʌkt/","meaning":"实施；指挥"},{"word":"confirm","phonetic":"/kənˈfɜːm/","meaning":"证实"},{"word":"conflict","phonetic":"/ˈkɒnflɪkt/","meaning":"冲突"},{"word":"confuse","phonetic":"/kənˈfjuːz/","meaning":"使困惑"},{"word":"consequence","phonetic":"/ˈkɒnsɪkwəns/","meaning":"后果"},{"word":"consequently","phonetic":"/ˈkɒnsɪkwəntli/","meaning":"因此"},{"word":"conserve","phonetic":"/kənˈsɜːv/","meaning":"保护；节约"},{"word":"consist","phonetic":"/kənˈsɪst/","meaning":"由……组成"},{"word":"constant","phonetic":"/ˈkɒnstənt/","meaning":"持续的；恒定的"},{"word":"construct","phonetic":"/kənˈstrʌkt/","meaning":"建造"},{"word":"consult","phonetic":"/kənˈsʌlt/","meaning":"咨询"},{"word":"consume","phonetic":"/kənˈsjuːm/","meaning":"消耗；消费"},{"word":"contain","phonetic":"/kənˈteɪn/","meaning":"包含"},{"word":"contemporary","phonetic":"/kənˈtemprəri/","meaning":"当代的"},{"word":"contribute","phonetic":"/kənˈtrɪbjuːt/","meaning":"贡献；捐献"},{"word":"controversial","phonetic":"/ˌkɒntrəˈvɜːʃl/","meaning":"有争议的"},{"word":"convenient","phonetic":"/kənˈviːniənt/","meaning":"方便的"},{"word":"convince","phonetic":"/kənˈvɪns/","meaning":"使确信；说服"},{"word":"cooperate","phonetic":"/kəʊˈɒpəreɪt/","meaning":"合作"},{"word":"core","phonetic":"/kɔː(r)/","meaning":"核心"},{"word":"creative","phonetic":"/kriˈeɪtɪv/","meaning":"有创造力的"},{"word":"crucial","phonetic":"/ˈkruːʃl/","meaning":"至关重要的"},{"word":"culture","phonetic":"/ˈkʌltʃə(r)/","meaning":"文化"},{"word":"curious","phonetic":"/ˈkjʊəriəs/","meaning":"好奇的"},{"word":"debt","phonetic":"/det/","meaning":"债务"},{"word":"decade","phonetic":"/ˈdekeɪd/","meaning":"十年"},{"word":"decline","phonetic":"/dɪˈklaɪn/","meaning":"下降；婉拒"},{"word":"dedicate","phonetic":"/ˈdedɪkeɪt/","meaning":"奉献"},{"word":"defend","phonetic":"/dɪˈfend/","meaning":"防御；辩护"},{"word":"define","phonetic":"/dɪˈfaɪn/","meaning":"定义"},{"word":"demonstrate","phonetic":"/ˈdemənstreɪt/","meaning":"证明；展示"},{"word":"deny","phonetic":"/dɪˈnaɪ/","meaning":"否认"},{"word":"depress","phonetic":"/dɪˈpres/","meaning":"使沮丧"},{"word":"describe","phonetic":"/dɪˈskraɪb/","meaning":"描述"},{"word":"deserve","phonetic":"/dɪˈzɜːv/","meaning":"值得"},{"word":"determine","phonetic":"/dɪˈtɜːmɪn/","meaning":"决定；决心"},{"word":"develop","phonetic":"/dɪˈveləp/","meaning":"发展"},{"word":"devote","phonetic":"/dɪˈvəʊt/","meaning":"献身；致力于"},{"word":"differ","phonetic":"/ˈdɪfə(r)/","meaning":"不同"},{"word":"digital","phonetic":"/ˈdɪdʒɪtl/","meaning":"数字的"},{"word":"dignity","phonetic":"/ˈdɪɡnəti/","meaning":"尊严"},{"word":"dilemma","phonetic":"/dɪˈlemə/","meaning":"困境"},{"word":"dimension","phonetic":"/daɪˈmenʃn/","meaning":"维度"},{"word":"discriminate","phonetic":"/dɪˈskrɪmɪneɪt/","meaning":"歧视"},{"word":"distinguish","phonetic":"/dɪˈstɪŋɡwɪʃ/","meaning":"区分"},{"word":"distribute","phonetic":"/dɪˈstrɪbjuːt/","meaning":"分发；分布"},{"word":"diverse","phonetic":"/daɪˈvɜːs/","meaning":"多样的"},{"word":"domestic","phonetic":"/dəˈmestɪk/","meaning":"国内的；家庭的"},{"word":"dominate","phonetic":"/ˈdɒmɪneɪt/","meaning":"支配；占主导"},{"word":"donate","phonetic":"/dəʊˈneɪt/","meaning":"捐赠"},{"word":"dramatic","phonetic":"/drəˈmætɪk/","meaning":"戏剧性的；急剧的"},{"word":"eager","phonetic":"/ˈiːɡə(r)/","meaning":"渴望的"},{"word":"ecology","phonetic":"/iˈkɒlədʒi/","meaning":"生态"},{"word":"economy","phonetic":"/ɪˈkɒnəmi/","meaning":"经济"},{"word":"efficient","phonetic":"/ɪˈfɪʃnt/","meaning":"高效的"},{"word":"eliminate","phonetic":"/ɪˈlɪmɪneɪt/","meaning":"消除"},{"word":"emerge","phonetic":"/iˈmɜːdʒ/","meaning":"出现"},{"word":"emotion","phonetic":"/ɪˈməʊʃn/","meaning":"情感"},{"word":"emphasis","phonetic":"/ˈemfəsɪs/","meaning":"强调"},{"word":"employ","phonetic":"/ɪmˈplɔɪ/","meaning":"雇用；使用"},{"word":"enable","phonetic":"/ɪˈneɪbl/","meaning":"使能够"},{"word":"encounter","phonetic":"/ɪnˈkaʊntə(r)/","meaning":"遭遇"},{"word":"encourage","phonetic":"/ɪnˈkʌrɪdʒ/","meaning":"鼓励"},{"word":"endanger","phonetic":"/ɪnˈdeɪndʒə(r)/","meaning":"危及"},{"word":"endeavour","phonetic":"/ɪnˈdevə(r)/","meaning":"努力"},{"word":"enormous","phonetic":"/ɪˈnɔːməs/","meaning":"巨大的"},{"word":"enthusiasm","phonetic":"/ɪnˈθjuːziæzəm/","meaning":"热情"},{"word":"entire","phonetic":"/ɪnˈtaɪə(r)/","meaning":"整个的"},{"word":"environment","phonetic":"/ɪnˈvaɪrənmənt/","meaning":"环境"},{"word":"equivalent","phonetic":"/ɪˈkwɪvələnt/","meaning":"相等的"},{"word":"establish","phonetic":"/ɪˈstæblɪʃ/","meaning":"建立"},{"word":"estimate","phonetic":"/ˈestɪmeɪt/","meaning":"估计"},{"word":"evaluate","phonetic":"/ɪˈvæljueɪt/","meaning":"评估"},{"word":"evident","phonetic":"/ˈevɪdənt/","meaning":"明显的"},{"word":"evolve","phonetic":"/iˈvɒlv/","meaning":"进化；演变"},{"word":"examine","phonetic":"/ɪɡˈzæmɪn/","meaning":"检查；审视"},{"word":"exceptional","phonetic":"/ɪkˈsepʃənl/","meaning":"非凡的"},{"word":"exclude","phonetic":"/ɪkˈskluːd/","meaning":"排除"},{"word":"exhaust","phonetic":"/ɪɡˈzɔːst/","meaning":"使筋疲力尽"},{"word":"exhibit","phonetic":"/ɪɡˈzɪbɪt/","meaning":"展览"},{"word":"expand","phonetic":"/ɪkˈspænd/","meaning":"扩大"},{"word":"expense","phonetic":"/ɪkˈspens/","meaning":"费用；花费"},{"word":"explore","phonetic":"/ɪkˈsplɔː(r)/","meaning":"探索"},{"word":"expose","phonetic":"/ɪkˈspəʊz/","meaning":"暴露；揭露"},{"word":"extend","phonetic":"/ɪkˈstend/","meaning":"延伸；扩展"},{"word":"extinct","phonetic":"/ɪkˈstɪŋkt/","meaning":"灭绝的"},{"word":"extraordinary","phonetic":"/ɪkˈstrɔːdnri/","meaning":"非凡的"},{"word":"facility","phonetic":"/fəˈsɪləti/","meaning":"设施"},{"word":"factor","phonetic":"/ˈfæktə(r)/","meaning":"因素"},{"word":"familiar","phonetic":"/fəˈmɪliə(r)/","meaning":"熟悉的"},{"word":"fantastic","phonetic":"/fænˈtæstɪk/","meaning":"极好的"},{"word":"feature","phonetic":"/ˈfiːtʃə(r)/","meaning":"特征；特色"},{"word":"finance","phonetic":"/ˈfaɪnæns/","meaning":"金融；财务"},{"word":"flexible","phonetic":"/ˈfleksəbl/","meaning":"灵活的"},{"word":"focus","phonetic":"/ˈfəʊkəs/","meaning":"集中；焦点"},{"word":"forecast","phonetic":"/ˈfɔːkɑːst/","meaning":"预测"},{"word":"fortune","phonetic":"/ˈfɔːtʃuːn/","meaning":"财富；运气"},{"word":"frequent","phonetic":"/ˈfriːkwənt/","meaning":"频繁的"},{"word":"function","phonetic":"/ˈfʌŋkʃn/","meaning":"功能"},{"word":"fundamental","phonetic":"/ˌfʌndəˈmentl/","meaning":"基本的"},{"word":"generate","phonetic":"/ˈdʒenəreɪt/","meaning":"产生"},{"word":"genius","phonetic":"/ˈdʒiːniəs/","meaning":"天才"},{"word":"genuine","phonetic":"/ˈdʒenjuɪn/","meaning":"真诚的；真正的"},{"word":"global","phonetic":"/ˈɡləʊbl/","meaning":"全球的"},{"word":"gradually","phonetic":"/ˈɡrædʒuəli/","meaning":"逐渐地"},{"word":"guarantee","phonetic":"/ˌɡærənˈtiː/","meaning":"保证"},{"word":"guideline","phonetic":"/ˈɡaɪdlaɪn/","meaning":"指导方针"},{"word":"handle","phonetic":"/ˈhændl/","meaning":"处理"},{"word":"harmony","phonetic":"/ˈhɑːməni/","meaning":"和谐"},{"word":"hazard","phonetic":"/ˈhæzəd/","meaning":"危险"},{"word":"heritage","phonetic":"/ˈherɪtɪdʒ/","meaning":"遗产"},{"word":"hesitate","phonetic":"/ˈhezɪteɪt/","meaning":"犹豫"},{"word":"highlight","phonetic":"/ˈhaɪlaɪt/","meaning":"突出；强调"},{"word":"horizon","phonetic":"/həˈraɪzn/","meaning":"地平线；眼界"},{"word":"identify","phonetic":"/aɪˈdentɪfaɪ/","meaning":"识别；确认"},{"word":"illustrate","phonetic":"/ˈɪləstreɪt/","meaning":"说明；举例"},{"word":"immense","phonetic":"/ɪˈmens/","meaning":"巨大的"},{"word":"impact","phonetic":"/ˈɪmpækt/","meaning":"影响"},{"word":"implement","phonetic":"/ˈɪmplɪment/","meaning":"实施"},{"word":"imply","phonetic":"/ɪmˈplaɪ/","meaning":"暗示"},{"word":"impose","phonetic":"/ɪmˈpəʊz/","meaning":"强加"},{"word":"impress","phonetic":"/ɪmˈpres/","meaning":"给……留下印象"},{"word":"improve","phonetic":"/ɪmˈpruːv/","meaning":"改善"},{"word":"incentive","phonetic":"/ɪnˈsentɪv/","meaning":"激励"},{"word":"incident","phonetic":"/ˈɪnsɪdənt/","meaning":"事件"},{"word":"include","phonetic":"/ɪnˈkluːd/","meaning":"包括"},{"word":"income","phonetic":"/ˈɪnkʌm/","meaning":"收入"},{"word":"increase","phonetic":"/ɪnˈkriːs/","meaning":"增加"},{"word":"independent","phonetic":"/ˌɪndɪˈpendənt/","meaning":"独立的"},{"word":"indicate","phonetic":"/ˈɪndɪkeɪt/","meaning":"表明；指示"},{"word":"individual","phonetic":"/ˌɪndɪˈvɪdʒuəl/","meaning":"个人的"},{"word":"industry","phonetic":"/ˈɪndəstri/","meaning":"工业；行业"},{"word":"influence","phonetic":"/ˈɪnfluəns/","meaning":"影响"},{"word":"inform","phonetic":"/ɪnˈfɔːm/","meaning":"告知"},{"word":"inhabit","phonetic":"/ɪnˈhæbɪt/","meaning":"居住于"},{"word":"inherit","phonetic":"/ɪnˈherɪt/","meaning":"继承"},{"word":"initiative","phonetic":"/ɪˈnɪʃətɪv/","meaning":"主动性"},{"word":"innovate","phonetic":"/ˈɪnəveɪt/","meaning":"创新"},{"word":"inspire","phonetic":"/ɪnˈspaɪə(r)/","meaning":"鼓舞；启发"},{"word":"instinct","phonetic":"/ˈɪnstɪŋkt/","meaning":"本能"},{"word":"institution","phonetic":"/ˌɪnstɪˈtjuːʃn/","meaning":"机构；制度"},{"word":"integrate","phonetic":"/ˈɪntɪɡreɪt/","meaning":"整合"},{"word":"intellectual","phonetic":"/ˌɪntəˈlektʃuəl/","meaning":"智力的"},{"word":"intend","phonetic":"/ɪnˈtend/","meaning":"打算"},{"word":"interact","phonetic":"/ˌɪntərˈækt/","meaning":"互动"},{"word":"interpret","phonetic":"/ɪnˈtɜːprɪt/","meaning":"解释；口译"},{"word":"interrupt","phonetic":"/ˌɪntəˈrʌpt/","meaning":"打断"},{"word":"invest","phonetic":"/ɪnˈvest/","meaning":"投资"},{"word":"investigate","phonetic":"/ɪnˈvestɪɡeɪt/","meaning":"调查"},{"word":"involve","phonetic":"/ɪnˈvɒlv/","meaning":"涉及；参与"},{"word":"isolate","phonetic":"/ˈaɪsəleɪt/","meaning":"孤立"},{"word":"justify","phonetic":"/ˈdʒʌstɪfaɪ/","meaning":"证明……正当"},{"word":"landscape","phonetic":"/ˈlændskeɪp/","meaning":"风景；景观"},{"word":"launch","phonetic":"/lɔːntʃ/","meaning":"发射；发起"},{"word":"legacy","phonetic":"/ˈleɡəsi/","meaning":"遗产；遗留"},{"word":"legal","phonetic":"/ˈliːɡl/","meaning":"合法的"},{"word":"leisure","phonetic":"/ˈleʒə(r)/","meaning":"闲暇"},{"word":"liberate","phonetic":"/ˈlɪbəreɪt/","meaning":"解放"},{"word":"limit","phonetic":"/ˈlɪmɪt/","meaning":"限制"},{"word":"locate","phonetic":"/ləʊˈkeɪt/","meaning":"位于；定位"},{"word":"logic","phonetic":"/ˈlɒdʒɪk/","meaning":"逻辑"},{"word":"maintain","phonetic":"/meɪnˈteɪn/","meaning":"维持；保养"},{"word":"majority","phonetic":"/məˈdʒɒrəti/","meaning":"大多数"},{"word":"manifest","phonetic":"/ˈmænɪfest/","meaning":"表明；显现"},{"word":"manipulate","phonetic":"/məˈnɪpjuleɪt/","meaning":"操纵"},{"word":"manufacture","phonetic":"/ˌmænjuˈfæktʃə(r)/","meaning":"制造"},{"word":"margin","phonetic":"/ˈmɑːdʒɪn/","meaning":"边缘；利润"},{"word":"mature","phonetic":"/məˈtʃʊə(r)/","meaning":"成熟的"},{"word":"mechanism","phonetic":"/ˈmekənɪzəm/","meaning":"机制"},{"word":"medium","phonetic":"/ˈmiːdiəm/","meaning":"媒介"},{"word":"memorial","phonetic":"/məˈmɔːriəl/","meaning":"纪念碑；纪念的"},{"word":"mental","phonetic":"/ˈmentl/","meaning":"精神的"},{"word":"merit","phonetic":"/ˈmerɪt/","meaning":"优点"},{"word":"minority","phonetic":"/maɪˈnɒrəti/","meaning":"少数"},{"word":"modify","phonetic":"/ˈmɒdɪfaɪ/","meaning":"修改"},{"word":"monitor","phonetic":"/ˈmɒnɪtə(r)/","meaning":"监控"},{"word":"motivate","phonetic":"/ˈməʊtɪveɪt/","meaning":"激励"},{"word":"multiply","phonetic":"/ˈmʌltɪplaɪ/","meaning":"乘；增加"},{"word":"navigate","phonetic":"/ˈnævɪɡeɪt/","meaning":"导航；航行"},{"word":"negative","phonetic":"/ˈneɡətɪv/","meaning":"消极的"},{"word":"negotiate","phonetic":"/nɪˈɡəʊʃieɪt/","meaning":"谈判"},{"word":"network","phonetic":"/ˈnetwɜːk/","meaning":"网络"},{"word":"neutral","phonetic":"/ˈnjuːtrəl/","meaning":"中立的"},{"word":"noble","phonetic":"/ˈnəʊbl/","meaning":"高尚的"},{"word":"notion","phonetic":"/ˈnəʊʃn/","meaning":"观念"},{"word":"numerous","phonetic":"/ˈnjuːmərəs/","meaning":"众多的"},{"word":"object","phonetic":"/ˈɒbdʒɪkt/","meaning":"物体；反对"},{"word":"observe","phonetic":"/əbˈzɜːv/","meaning":"观察；遵守"},{"word":"obstacle","phonetic":"/ˈɒbstəkl/","meaning":"障碍"},{"word":"obtain","phonetic":"/əbˈteɪn/","meaning":"获得"},{"word":"obvious","phonetic":"/ˈɒbviəs/","meaning":"明显的"},{"word":"occupy","phonetic":"/ˈɒkjupaɪ/","meaning":"占据"},{"word":"occur","phonetic":"/əˈkɜː(r)/","meaning":"发生"},{"word":"operate","phonetic":"/ˈɒpəreɪt/","meaning":"操作；运转"},{"word":"oppose","phonetic":"/əˈpəʊz/","meaning":"反对"},{"word":"optimistic","phonetic":"/ˌɒptɪˈmɪstɪk/","meaning":"乐观的"},{"word":"optional","phonetic":"/ˈɒpʃənl/","meaning":"可选的"},{"word":"organize","phonetic":"/ˈɔːɡənaɪz/","meaning":"组织"},{"word":"origin","phonetic":"/ˈɒrɪdʒɪn/","meaning":"起源"},{"word":"outcome","phonetic":"/ˈaʊtkʌm/","meaning":"结果"},{"word":"overcome","phonetic":"/ˌəʊvəˈkʌm/","meaning":"克服"},{"word":"overlook","phonetic":"/ˌəʊvəˈlʊk/","meaning":"忽视"},{"word":"participate","phonetic":"/pɑːˈtɪsɪpeɪt/","meaning":"参加"},{"word":"particular","phonetic":"/pəˈtɪkjələ(r)/","meaning":"特别的"},{"word":"passive","phonetic":"/ˈpæsɪv/","meaning":"被动的"},{"word":"perceive","phonetic":"/pəˈsiːv/","meaning":"感知；理解"},{"word":"perform","phonetic":"/pəˈfɔːm/","meaning":"表演；执行"},{"word":"permanent","phonetic":"/ˈpɜːmənənt/","meaning":"永久的"},{"word":"persuade","phonetic":"/pəˈsweɪd/","meaning":"说服"},{"word":"phenomenon","phonetic":"/fəˈnɒmɪnən/","meaning":"现象"},{"word":"philosophy","phonetic":"/fəˈlɒsəfi/","meaning":"哲学"},{"word":"physical","phonetic":"/ˈfɪzɪkl/","meaning":"身体的；物理的"},{"word":"pioneer","phonetic":"/ˌpaɪəˈnɪə(r)/","meaning":"先驱"},{"word":"policy","phonetic":"/ˈpɒləsi/","meaning":"政策"},{"word":"pollute","phonetic":"/pəˈluːt/","meaning":"污染"},{"word":"portrait","phonetic":"/ˈpɔːtreɪt/","meaning":"肖像"},{"word":"positive","phonetic":"/ˈpɒzətɪv/","meaning":"积极的"},{"word":"potential","phonetic":"/pəˈtenʃl/","meaning":"潜在的；潜力"},{"word":"practical","phonetic":"/ˈpræktɪkl/","meaning":"实际的"},{"word":"precious","phonetic":"/ˈpreʃəs/","meaning":"宝贵的"},{"word":"precise","phonetic":"/prɪˈsaɪs/","meaning":"精确的"},{"word":"predict","phonetic":"/prɪˈdɪkt/","meaning":"预测"},{"word":"prefer","phonetic":"/prɪˈfɜː(r)/","meaning":"更喜欢"},{"word":"preserve","phonetic":"/prɪˈzɜːv/","meaning":"保护；保存"},{"word":"pressure","phonetic":"/ˈpreʃə(r)/","meaning":"压力"},{"word":"previous","phonetic":"/ˈpriːviəs/","meaning":"以前的"},{"word":"primary","phonetic":"/ˈpraɪməri/","meaning":"主要的；初级的"},{"word":"principal","phonetic":"/ˈprɪnsəpl/","meaning":"主要的；校长"},{"word":"priority","phonetic":"/praɪˈɒrəti/","meaning":"优先事项"},{"word":"procedure","phonetic":"/prəˈsiːdʒə(r)/","meaning":"程序"},{"word":"process","phonetic":"/ˈprəʊses/","meaning":"过程"},{"word":"produce","phonetic":"/prəˈdjuːs/","meaning":"生产"},{"word":"profession","phonetic":"/prəˈfeʃn/","meaning":"职业"},{"word":"profound","phonetic":"/prəˈfaʊnd/","meaning":"深刻的"},{"word":"progress","phonetic":"/ˈprəʊɡres/","meaning":"进步"},{"word":"promote","phonetic":"/prəˈməʊt/","meaning":"促进；晋升"},{"word":"proportion","phonetic":"/prəˈpɔːʃn/","meaning":"比例"},{"word":"prospect","phonetic":"/ˈprɒspekt/","meaning":"前景"},{"word":"protect","phonetic":"/prəˈtekt/","meaning":"保护"},{"word":"prove","phonetic":"/pruːv/","meaning":"证明"},{"word":"provide","phonetic":"/prəˈvaɪd/","meaning":"提供"},{"word":"pursue","phonetic":"/pəˈsjuː/","meaning":"追求"},{"word":"quality","phonetic":"/ˈkwɒləti/","meaning":"质量"},{"word":"quantity","phonetic":"/ˈkwɒntəti/","meaning":"数量"},{"word":"radiation","phonetic":"/ˌreɪdiˈeɪʃn/","meaning":"辐射"},{"word":"random","phonetic":"/ˈrændəm/","meaning":"随机的"},{"word":"range","phonetic":"/reɪndʒ/","meaning":"范围"},{"word":"rapid","phonetic":"/ˈræpɪd/","meaning":"迅速的"},{"word":"rational","phonetic":"/ˈræʃnəl/","meaning":"理性的"},{"word":"reaction","phonetic":"/riˈækʃn/","meaning":"反应"},{"word":"reality","phonetic":"/riˈæləti/","meaning":"现实"},{"word":"realize","phonetic":"/ˈriːəlaɪz/","meaning":"意识到；实现"},{"word":"reasonable","phonetic":"/ˈriːznəbl/","meaning":"合理的"},{"word":"recall","phonetic":"/rɪˈkɔːl/","meaning":"回忆"},{"word":"recognize","phonetic":"/ˈrekəɡnaɪz/","meaning":"认出；承认"},{"word":"recommend","phonetic":"/ˌrekəˈmend/","meaning":"推荐"},{"word":"recover","phonetic":"/rɪˈkʌvə(r)/","meaning":"恢复"},{"word":"reduce","phonetic":"/rɪˈdjuːs/","meaning":"减少"},{"word":"refer","phonetic":"/rɪˈfɜː(r)/","meaning":"提及；参考"},{"word":"reflect","phonetic":"/rɪˈflekt/","meaning":"反映；反思"},{"word":"reform","phonetic":"/rɪˈfɔːm/","meaning":"改革"},{"word":"regard","phonetic":"/rɪˈɡɑːd/","meaning":"看待"},{"word":"region","phonetic":"/ˈriːdʒən/","meaning":"地区"},{"word":"register","phonetic":"/ˈredʒɪstə(r)/","meaning":"登记"},{"word":"regulate","phonetic":"/ˈreɡjuleɪt/","meaning":"管制；调节"},{"word":"reject","phonetic":"/rɪˈdʒekt/","meaning":"拒绝"},{"word":"relate","phonetic":"/rɪˈleɪt/","meaning":"联系；叙述"},{"word":"relevant","phonetic":"/ˈreləvənt/","meaning":"相关的"},{"word":"reliable","phonetic":"/rɪˈlaɪəbl/","meaning":"可靠的"},{"word":"relief","phonetic":"/rɪˈliːf/","meaning":"宽慰"},{"word":"remarkable","phonetic":"/rɪˈmɑːkəbl/","meaning":"非凡的"},{"word":"remedy","phonetic":"/ˈremədi/","meaning":"补救方法"},{"word":"represent","phonetic":"/ˌreprɪˈzent/","meaning":"代表"},{"word":"reputation","phonetic":"/ˌrepjuˈteɪʃn/","meaning":"名声"},{"word":"require","phonetic":"/rɪˈkwaɪə(r)/","meaning":"需要；要求"},{"word":"research","phonetic":"/rɪˈsɜːtʃ/","meaning":"研究"},{"word":"reserve","phonetic":"/rɪˈzɜːv/","meaning":"保留；预订"},{"word":"resist","phonetic":"/rɪˈzɪst/","meaning":"抵抗"},{"word":"resolve","phonetic":"/rɪˈzɒlv/","meaning":"解决；决心"},{"word":"resource","phonetic":"/rɪˈsɔːs/","meaning":"资源"},{"word":"respond","phonetic":"/rɪˈspɒnd/","meaning":"回应"},{"word":"restore","phonetic":"/rɪˈstɔː(r)/","meaning":"恢复；修复"},{"word":"restrict","phonetic":"/rɪˈstrɪkt/","meaning":"限制"},{"word":"reveal","phonetic":"/rɪˈviːl/","meaning":"揭示"},{"word":"revenue","phonetic":"/ˈrevənjuː/","meaning":"收入"},{"word":"revolution","phonetic":"/ˌrevəˈluːʃn/","meaning":"革命；变革"},{"word":"reward","phonetic":"/rɪˈwɔːd/","meaning":"回报；奖赏"},{"word":"routine","phonetic":"/ruːˈtiːn/","meaning":"常规"},{"word":"sacrifice","phonetic":"/ˈsækrɪfaɪs/","meaning":"牺牲"},{"word":"schedule","phonetic":"/ˈʃedjuːl/","meaning":"时间表"},{"word":"scholar","phonetic":"/ˈskɒlə(r)/","meaning":"学者"},{"word":"scientific","phonetic":"/ˌsaɪənˈtɪfɪk/","meaning":"科学的"},{"word":"security","phonetic":"/sɪˈkjʊərəti/","meaning":"安全"},{"word":"sensitive","phonetic":"/ˈsensətɪv/","meaning":"敏感的"},{"word":"significant","phonetic":"/sɪɡˈnɪfɪkənt/","meaning":"重要的"},{"word":"similar","phonetic":"/ˈsɪmələ(r)/","meaning":"相似的"},{"word":"sincere","phonetic":"/sɪnˈsɪə(r)/","meaning":"真诚的"},{"word":"skeleton","phonetic":"/ˈskelɪtn/","meaning":"骨架"},{"word":"solution","phonetic":"/səˈluːʃn/","meaning":"解决方案"},{"word":"sophisticated","phonetic":"/səˈfɪstɪkeɪtɪd/","meaning":"复杂的；精密的"},{"word":"source","phonetic":"/sɔːs/","meaning":"来源"},{"word":"species","phonetic":"/ˈspiːʃiːz/","meaning":"物种"},{"word":"specific","phonetic":"/spəˈsɪfɪk/","meaning":"具体的"},{"word":"spiritual","phonetic":"/ˈspɪrɪtʃuəl/","meaning":"精神的"},{"word":"stability","phonetic":"/stəˈbɪləti/","meaning":"稳定"},{"word":"standard","phonetic":"/ˈstændəd/","meaning":"标准"},{"word":"strategy","phonetic":"/ˈstrætədʒi/","meaning":"策略"},{"word":"strengthen","phonetic":"/ˈstreŋθn/","meaning":"加强"},{"word":"structure","phonetic":"/ˈstrʌktʃə(r)/","meaning":"结构"},{"word":"submit","phonetic":"/səbˈmɪt/","meaning":"提交"},{"word":"substance","phonetic":"/ˈsʌbstəns/","meaning":"物质"},{"word":"substitute","phonetic":"/ˈsʌbstɪtjuːt/","meaning":"代替"},{"word":"sufficient","phonetic":"/səˈfɪʃnt/","meaning":"足够的"},{"word":"summarize","phonetic":"/ˈsʌməraɪz/","meaning":"总结"},{"word":"superb","phonetic":"/suːˈpɜːb/","meaning":"极好的"},{"word":"superior","phonetic":"/suːˈpɪəriə(r)/","meaning":"更好的；上级"},{"word":"supplement","phonetic":"/ˈsʌplɪmənt/","meaning":"补充"},{"word":"support","phonetic":"/səˈpɔːt/","meaning":"支持"},{"word":"survive","phonetic":"/səˈvaɪv/","meaning":"幸存"},{"word":"suspect","phonetic":"/səˈspekt/","meaning":"怀疑"},{"word":"sustain","phonetic":"/səˈsteɪn/","meaning":"维持"},{"word":"symbol","phonetic":"/ˈsɪmbl/","meaning":"象征"},{"word":"systematic","phonetic":"/ˌsɪstəˈmætɪk/","meaning":"系统的"},{"word":"talent","phonetic":"/ˈtælənt/","meaning":"才能"},{"word":"technique","phonetic":"/tekˈniːk/","meaning":"技巧"},{"word":"temporary","phonetic":"/ˈtemprəri/","meaning":"暂时的"},{"word":"tendency","phonetic":"/ˈtendənsi/","meaning":"倾向"},{"word":"tension","phonetic":"/ˈtenʃn/","meaning":"紧张"},{"word":"threaten","phonetic":"/ˈθretn/","meaning":"威胁"},{"word":"tolerate","phonetic":"/ˈtɒləreɪt/","meaning":"容忍"},{"word":"transform","phonetic":"/trænsˈfɔːm/","meaning":"转变"},{"word":"transparent","phonetic":"/trænsˈpærənt/","meaning":"透明的"},{"word":"transport","phonetic":"/ˈtrænspɔːt/","meaning":"运输"},{"word":"tremendous","phonetic":"/trəˈmendəs/","meaning":"巨大的"},{"word":"ultimate","phonetic":"/ˈʌltɪmət/","meaning":"最终的"},{"word":"undertake","phonetic":"/ˌʌndəˈteɪk/","meaning":"承担；从事"},{"word":"unique","phonetic":"/juˈniːk/","meaning":"独特的"},{"word":"universal","phonetic":"/ˌjuːnɪˈvɜːsl/","meaning":"普遍的"},{"word":"urgent","phonetic":"/ˈɜːdʒənt/","meaning":"紧急的"},{"word":"utilize","phonetic":"/ˈjuːtəlaɪz/","meaning":"利用"},{"word":"vacant","phonetic":"/ˈveɪkənt/","meaning":"空着的"},{"word":"valid","phonetic":"/ˈvælɪd/","meaning":"有效的"},{"word":"valuable","phonetic":"/ˈvæljuəbl/","meaning":"有价值的"},{"word":"vary","phonetic":"/ˈveəri/","meaning":"变化"},{"word":"vast","phonetic":"/vɑːst/","meaning":"广阔的"},{"word":"version","phonetic":"/ˈvɜːʃn/","meaning":"版本"},{"word":"vital","phonetic":"/ˈvaɪtl/","meaning":"至关重要的"},{"word":"voluntary","phonetic":"/ˈvɒləntri/","meaning":"自愿的"},{"word":"vulnerable","phonetic":"/ˈvʌlnərəbl/","meaning":"脆弱的"},{"word":"welfare","phonetic":"/ˈwelfeə(r)/","meaning":"福利"},{"word":"widespread","phonetic":"/ˈwaɪdspred/","meaning":"广泛的"},{"word":"wisdom","phonetic":"/ˈwɪzdəm/","meaning":"智慧"},{"word":"worthy","phonetic":"/ˈwɜːði/","meaning":"值得的"},{"word":"yield","phonetic":"/jiːld/","meaning":"产生；屈服"},{"word":"abolition","phonetic":"/ˌæbəˈlɪʃn/","meaning":"废除"},{"word":"accustom","phonetic":"/əˈkʌstəm/","meaning":"使习惯于"},{"word":"adverse","phonetic":"/ˈædvɜːs/","meaning":"不利的"},{"word":"aggregate","phonetic":"/ˈæɡrɪɡət/","meaning":"总计；聚合"},{"word":"analogy","phonetic":"/əˈnælədʒi/","meaning":"类比"},{"word":"anonymous","phonetic":"/əˈnɒnɪməs/","meaning":"匿名的"},{"word":"apparatus","phonetic":"/ˌæpəˈreɪtəs/","meaning":"仪器；装置"},{"word":"appendix","phonetic":"/əˈpendɪks/","meaning":"附录"},{"word":"apprehend","phonetic":"/ˌæprɪˈhend/","meaning":"理解；逮捕"},{"word":"archaeology","phonetic":"/ˌɑːkiˈɒlədʒi/","meaning":"考古学"},{"word":"assemble","phonetic":"/əˈsembl/","meaning":"组装；聚集"},{"word":"assert","phonetic":"/əˈsɜːt/","meaning":"断言"},{"word":"award","phonetic":"/əˈwɔːd/","meaning":"奖；授予"},{"word":"bacteria","phonetic":"/bækˈtɪəriə/","meaning":"细菌"},{"word":"biochemistry","phonetic":"/ˌbaɪəʊˈkemɪstri/","meaning":"生物化学"},{"word":"boom","phonetic":"/buːm/","meaning":"繁荣；激增"},{"word":"breed","phonetic":"/briːd/","meaning":"繁殖；品种"},{"word":"budget","phonetic":"/ˈbʌdʒɪt/","meaning":"预算"},{"word":"candidate","phonetic":"/ˈkændɪdət/","meaning":"候选人"},{"word":"ceremony","phonetic":"/ˈserəməni/","meaning":"典礼"},{"word":"certificate","phonetic":"/səˈtɪfɪkət/","meaning":"证书"},{"word":"circulation","phonetic":"/ˌsɜːkjəˈleɪʃn/","meaning":"循环；流通"},{"word":"coherent","phonetic":"/kəʊˈhɪərənt/","meaning":"连贯的"},{"word":"colleague","phonetic":"/ˈkɒliːɡ/","meaning":"同事"},{"word":"compensate","phonetic":"/ˈkɒmpenseɪt/","meaning":"补偿"},{"word":"competent","phonetic":"/ˈkɒmpɪtənt/","meaning":"胜任的"},{"word":"complication","phonetic":"/ˌkɒmplɪˈkeɪʃn/","meaning":"复杂情况；并发症"},{"word":"condemn","phonetic":"/kənˈdem/","meaning":"谴责"},{"word":"confer","phonetic":"/kənˈfɜː(r)/","meaning":"商议；授予"},{"word":"congress","phonetic":"/ˈkɒŋɡres/","meaning":"国会；代表大会"},{"word":"contradict","phonetic":"/ˌkɒntrəˈdɪkt/","meaning":"反驳；矛盾"},{"word":"coordinate","phonetic":"/kəʊˈɔːdɪneɪt/","meaning":"协调"},{"word":"corrupt","phonetic":"/kəˈrʌpt/","meaning":"腐败的"},{"word":"criterion","phonetic":"/kraɪˈtɪəriən/","meaning":"标准；准则"},{"word":"cultivate","phonetic":"/ˈkʌltɪveɪt/","meaning":"培养；耕作"},{"word":"declare","phonetic":"/dɪˈkleə(r)/","meaning":"宣布"},{"word":"deduction","phonetic":"/dɪˈdʌkʃn/","meaning":"扣除；演绎"},{"word":"deficiency","phonetic":"/dɪˈfɪʃnsi/","meaning":"缺乏"},{"word":"delegate","phonetic":"/ˈdelɪɡət/","meaning":"代表；委派"},{"word":"deliberate","phonetic":"/dɪˈlɪbərət/","meaning":"故意的"},{"word":"depict","phonetic":"/dɪˈpɪkt/","meaning":"描绘"},{"word":"derive","phonetic":"/dɪˈraɪv/","meaning":"源于"},{"word":"destiny","phonetic":"/ˈdestəni/","meaning":"命运"},{"word":"deteriorate","phonetic":"/dɪˈtɪəriəreɪt/","meaning":"恶化"},{"word":"dialect","phonetic":"/ˈdaɪəlekt/","meaning":"方言"},{"word":"diminish","phonetic":"/dɪˈmɪnɪʃ/","meaning":"减少；降低"},{"word":"diplomatic","phonetic":"/ˌdɪpləˈmætɪk/","meaning":"外交的"},{"word":"discipline","phonetic":"/ˈdɪsəplɪn/","meaning":"纪律；学科"},{"word":"disguise","phonetic":"/dɪsˈɡaɪz/","meaning":"伪装"},{"word":"disrupt","phonetic":"/dɪsˈrʌpt/","meaning":"扰乱"},{"word":"dissolve","phonetic":"/dɪˈzɒlv/","meaning":"溶解；解散"},{"word":"distinct","phonetic":"/dɪˈstɪŋkt/","meaning":"不同的；清楚的"},{"word":"divine","phonetic":"/dɪˈvaɪn/","meaning":"神圣的"},{"word":"doctrine","phonetic":"/ˈdɒktrɪn/","meaning":"教义；学说"},{"word":"drought","phonetic":"/draʊt/","meaning":"干旱"},{"word":"dubious","phonetic":"/ˈdjuːbiəs/","meaning":"怀疑的"},{"word":"dwell","phonetic":"/dwel/","meaning":"居住"},{"word":"eloquent","phonetic":"/ˈeləkwənt/","meaning":"雄辩的"},{"word":"embed","phonetic":"/ɪmˈbed/","meaning":"嵌入"},{"word":"empirical","phonetic":"/ɪmˈpɪrɪkl/","meaning":"经验主义的"},{"word":"entity","phonetic":"/ˈentəti/","meaning":"实体"},{"word":"equilibrium","phonetic":"/ˌiːkwɪˈlɪbriəm/","meaning":"平衡"},{"word":"explicit","phonetic":"/ɪkˈsplɪsɪt/","meaning":"明确的"},{"word":"facilitate","phonetic":"/fəˈsɪlɪteɪt/","meaning":"促进；使便利"},{"word":"feasible","phonetic":"/ˈfiːzəbl/","meaning":"可行的"},{"word":"fluctuate","phonetic":"/ˈflʌktʃueɪt/","meaning":"波动"},{"word":"formidable","phonetic":"/ˈfɔːmɪdəbl/","meaning":"可怕的；艰巨的"},{"word":"fragment","phonetic":"/ˈfræɡmənt/","meaning":"碎片"},{"word":"friction","phonetic":"/ˈfrɪkʃn/","meaning":"摩擦"},{"word":"futile","phonetic":"/ˈfjuːtaɪl/","meaning":"徒劳的"},{"word":"genetic","phonetic":"/dʒəˈnetɪk/","meaning":"基因的"},{"word":"hypothesis","phonetic":"/haɪˈpɒθəsɪs/","meaning":"假设"},{"word":"implicit","phonetic":"/ɪmˈplɪsɪt/","meaning":"含蓄的"},{"word":"indispensable","phonetic":"/ˌɪndɪˈspensəbl/","meaning":"不可或缺的"},{"word":"inevitable","phonetic":"/ɪnˈevɪtəbl/","meaning":"不可避免的"},{"word":"ingenuity","phonetic":"/ˌɪndʒəˈnjuːəti/","meaning":"独创性"},{"word":"intricate","phonetic":"/ˈɪntrɪkət/","meaning":"错综复杂的"},{"word":"intuition","phonetic":"/ˌɪntjuˈɪʃn/","meaning":"直觉"},{"word":"legitimate","phonetic":"/lɪˈdʒɪtɪmət/","meaning":"合法的；合理的"},{"word":"literacy","phonetic":"/ˈlɪtərəsi/","meaning":"读写能力"},{"word":"magnitude","phonetic":"/ˈmæɡnɪtjuːd/","meaning":"巨大；量级"},{"word":"mandatory","phonetic":"/ˈmændətəri/","meaning":"强制的"},{"word":"metaphor","phonetic":"/ˈmetəfə(r)/","meaning":"隐喻"},{"word":"minimize","phonetic":"/ˈmɪnɪmaɪz/","meaning":"使最小化"},{"word":"obsolete","phonetic":"/ˈɒbsəliːt/","meaning":"过时的"},{"word":"paradigm","phonetic":"/ˈpærədaɪm/","meaning":"范式"},{"word":"paradox","phonetic":"/ˈpærədɒks/","meaning":"悖论"},{"word":"penalty","phonetic":"/ˈpenəlti/","meaning":"惩罚"},{"word":"plausible","phonetic":"/ˈplɔːzəbl/","meaning":"貌似合理的"},{"word":"preliminary","phonetic":"/prɪˈlɪmɪnəri/","meaning":"初步的"},{"word":"prestige","phonetic":"/preˈstiːʒ/","meaning":"声望"},{"word":"proclaim","phonetic":"/prəˈkleɪm/","meaning":"宣告"},{"word":"proficient","phonetic":"/prəˈfɪʃnt/","meaning":"精通的"},{"word":"reconcile","phonetic":"/ˈrekənsaɪl/","meaning":"调和"},{"word":"redundant","phonetic":"/rɪˈdʌndənt/","meaning":"多余的；冗余的"},{"word":"refute","phonetic":"/rɪˈfjuːt/","meaning":"驳斥"},{"word":"render","phonetic":"/ˈrendə(r)/","meaning":"使成为；提供"},{"word":"repeal","phonetic":"/rɪˈpiːl/","meaning":"废除"},{"word":"retrieve","phonetic":"/rɪˈtriːv/","meaning":"取回；检索"},{"word":"rigorous","phonetic":"/ˈrɪɡərəs/","meaning":"严格的"},{"word":"scrutiny","phonetic":"/ˈskruːtəni/","meaning":"仔细审查"},{"word":"simultaneous","phonetic":"/ˌsɪmlˈteɪniəs/","meaning":"同时的"},{"word":"skeptical","phonetic":"/ˈskeptɪkl/","meaning":"怀疑的"},{"word":"strenuous","phonetic":"/ˈstrenjuəs/","meaning":"费力的"},{"word":"suppress","phonetic":"/səˈpres/","meaning":"抑制；镇压"},{"word":"tentative","phonetic":"/ˈtentətɪv/","meaning":"试探性的"},{"word":"terminate","phonetic":"/ˈtɜːmɪneɪt/","meaning":"终止"},{"word":"transition","phonetic":"/trænˈzɪʃn/","meaning":"过渡"},{"word":"unanimous","phonetic":"/juˈnænɪməs/","meaning":"一致同意的"},{"word":"undergo","phonetic":"/ˌʌndəˈɡəʊ/","meaning":"经历"},{"word":"versatile","phonetic":"/ˈvɜːsətaɪl/","meaning":"多才多艺的"},{"word":"vivid","phonetic":"/ˈvɪvɪd/","meaning":"生动的"}],"sentences":[{"en":"Never abandon your dreams, no matter how hard it is.","zh":"无论多么艰难，永远不要放弃你的梦想。"},{"en":"The academic report was praised by all the professors.","zh":"这份学术报告得到了所有教授的称赞。"},{"en":"Under no circumstance should you give up hope.","zh":"在任何情况下你都不应该放弃希望。"},{"en":"She is an ambitious young woman with a bright future.","zh":"她是一个有着光明未来的有抱负的年轻女性。"},{"en":"The country has abundant natural resources.","zh":"这个国家有丰富的自然资源。"},{"en":"We must take action to reduce the pollution in the river.","zh":"我们必须采取行动减少河流污染。"},{"en":"Technology has accelerated the pace of modern life.","zh":"技术加速了现代生活的节奏。"},{"en":"Students can access the library online.","zh":"学生可以在线访问图书馆。"},{"en":"He accomplished the difficult task successfully.","zh":"他成功完成了这项艰巨的任务。"},{"en":"Accumulating knowledge requires long-term effort.","zh":"积累知识需要长期努力。"},{"en":"The report is accurate and based on real data.","zh":"这份报告是准确的，基于真实数据。"},{"en":"We should adapt to the changing environment.","zh":"我们应该适应不断变化的环境。"},{"en":"I really admire her courage and kindness.","zh":"我非常钦佩她的勇气和善良。"},{"en":"Reading widely can broaden your vision.","zh":"广泛阅读可以开阔你的眼界。"},{"en":"The success came through years of hard work.","zh":"成功来自于多年的努力。"},{"en":"He has a strong sense of responsibility.","zh":"他有强烈的责任感。"},{"en":"The environment is fundamental to our life.","zh":"环境对我们的生命至关重要。"},{"en":"We should protect endangered species.","zh":"我们应该保护濒危物种。"},{"en":"She devoted herself entirely to education.","zh":"她全身心投入教育。"},{"en":"The invention changed our way of life forever.","zh":"这项发明永远改变了我们的生活方式。"},{"en":"Many ancient traditions are still preserved today.","zh":"许多古代传统至今仍被保留。"},{"en":"Economic growth has brought great benefits to the city.","zh":"经济增长给这座城市带来了巨大利益。"},{"en":"We must find an effective solution to the problem.","zh":"我们必须找到解决这个问题的有效方法。"},{"en":"The scientist discovered a new species of plant.","zh":"科学家发现了一种新的植物物种。"},{"en":"Global warming is a serious challenge for all of us.","zh":"全球变暖对我们所有人都是一个严峻的挑战。"},{"en":"He has a great influence on the young generation.","zh":"他对年轻一代有很大的影响。"},{"en":"The research proved that exercise improves memory.","zh":"研究证明锻炼能改善记忆力。"},{"en":"We should take responsibility for our own actions.","zh":"我们应该为自己的行为负责。"},{"en":"The government announced a new policy on education.","zh":"政府宣布了一项新的教育政策。"},{"en":"Her performance was extraordinary and moved everyone.","zh":"她的表演非常出色，感动了所有人。"},{"en":"He concentrated on his studies and made great progress.","zh":"他专心学习，取得了很大进步。"},{"en":"The experiment confirmed our hypothesis.","zh":"实验证实了我们的假设。"},{"en":"Cooperation between countries is essential for peace.","zh":"国家间的合作对和平至关重要。"},{"en":"We should respect cultural diversity.","zh":"我们应该尊重文化多样性。"},{"en":"The library provides a convenient place for study.","zh":"图书馆为学习提供了便利的场所。"},{"en":"He was determined to overcome all the difficulties.","zh":"他决心克服一切困难。"},{"en":"Education plays a vital role in a nation's development.","zh":"教育在一个国家的发展中起着至关重要的作用。"},{"en":"The rapid development of technology has changed our lives.","zh":"技术的快速发展改变了我们的生活。"},{"en":"She expressed her gratitude to all the supporters.","zh":"她向所有支持者表达了感激之情。"},{"en":"We should balance work and rest for better health.","zh":"为了更好的健康，我们应该平衡工作和休息。"},{"en":"The company made a huge profit last year.","zh":"这家公司去年获得了巨大利润。"},{"en":"He has a positive attitude towards life.","zh":"他对生活持积极态度。"},{"en":"The museum houses many valuable works of art.","zh":"这家博物馆收藏了许多有价值的艺术品。"},{"en":"Scientists are exploring new ways to save energy.","zh":"科学家们正在探索节约能源的新方法。"},{"en":"The bridge is a symbol of friendship between the two cities.","zh":"这座桥是两个城市友谊的象征。"},{"en":"We must preserve our cultural heritage for future generations.","zh":"我们必须为子孙后代保护我们的文化遗产。"},{"en":"Her dedication to teaching inspired many students.","zh":"她对教学的奉献激励了许多学生。"},{"en":"The city has a population of several million.","zh":"这座城市有数百万人口。"},{"en":"He made a remarkable contribution to medical science.","zh":"他对医学科学做出了卓越的贡献。"},{"en":"The atmosphere in the classroom was full of enthusiasm.","zh":"教室里的气氛充满了热情。"},{"en":"We should take every opportunity to improve ourselves.","zh":"我们应该抓住每一个提高自己的机会。"},{"en":"The novel reflects the social reality of that time.","zh":"这部小说反映了那个时代的社会现实。"},{"en":"He responded to the question in a calm voice.","zh":"他用平静的声音回答了这个问题。"},{"en":"Perseverance is the key to achieving success.","zh":"毅力是取得成功的关键。"},{"en":"The teacher encouraged us to think independently.","zh":"老师鼓励我们独立思考。"},{"en":"Modern science has brought us many wonders.","zh":"现代科学给我们带来了许多奇迹。"},{"en":"She has a strong desire to become a scientist.","zh":"她有成为科学家的强烈愿望。"},{"en":"The landscape of the countryside is truly beautiful.","zh":"乡村的风景真的很美。"},{"en":"We should be aware of the importance of protecting nature.","zh":"我们应该意识到保护自然的重要性。"},{"en":"His knowledge of history is extensive.","zh":"他的历史知识很渊博。"},{"en":"The company is famous for its high quality products.","zh":"这家公司以其高质量的产品而闻名。"},{"en":"Reading is an effective way to broaden your horizons.","zh":"阅读是开阔视野的有效方式。"},{"en":"She took part in the competition and won first prize.","zh":"她参加了比赛并获得了一等奖。"},{"en":"We should develop a good habit of learning English.","zh":"我们应该养成学习英语的好习惯。"},{"en":"The teacher explained the grammar point clearly.","zh":"老师清楚地讲解了语法点。"},{"en":"His courage in the face of danger impressed everyone.","zh":"他在危险面前的勇气给每个人留下了深刻印象。"},{"en":"The team worked together to solve the problem.","zh":"团队一起努力解决了这个问题。"},{"en":"Nature provides us with everything we need.","zh":"大自然为我们提供所需的一切。"},{"en":"We should try our best to help those in need.","zh":"我们应该尽力帮助那些需要帮助的人。"},{"en":"The weather forecast says it will be sunny tomorrow.","zh":"天气预报说明天将是晴天。"},{"en":"She showed great patience in teaching the children.","zh":"她在教孩子们时表现出极大的耐心。"},{"en":"He is respected by everyone for his honesty.","zh":"他因诚实而受到每个人的尊敬。"},{"en":"The book contains a lot of useful information.","zh":"这本书包含许多有用的信息。"}],"grammar":[{"category":"冠词","question":"He is ___ honest man.","options":["a","an","the","/"],"answer":1,"explain":"honest 以元音音素开头，用 an。","question_zh":"他是一个诚实的人。"},{"category":"介词","question":"The success came ___ hard work.","options":["from","through","by","with"],"answer":1,"explain":"through 表示通过某种过程达成。","question_zh":"成功来自于努力工作。"},{"category":"时态-过去完成","question":"By the time we arrived, the film ___ already.","options":["started","has started","had started","was starting"],"answer":2,"explain":"到达是过去，电影发生在那之前，用过去完成时。","question_zh":"当我们到达时，电影已经开始了。"},{"category":"时态-现在进行","question":"I ___ a letter now, so I can't go out.","options":["write","wrote","am writing","have written"],"answer":2,"explain":"now 表此刻正在进行，用现在进行时。","question_zh":"我现在正在写信，所以不能出去。"},{"category":"时态-一般过去","question":"They ___ in London for five years before they moved.","options":["live","lived","have lived","are living"],"answer":1,"explain":"moved 之前的一段过去经历用一般过去时。","question_zh":"他们搬走之前在伦敦住了五年。"},{"category":"时态-现在完成","question":"He ___ in this company since 2010.","options":["works","worked","has worked","is working"],"answer":2,"explain":"since + 过去时间点，主句用现在完成时。","question_zh":"他自2010年以来就在这家公司工作。"},{"category":"时态-将来","question":"The train ___ at eight tomorrow morning.","options":["leaves","left","is leaving","will have left"],"answer":0,"explain":"时刻表用一般现在时表将来。","question_zh":"火车明早八点出发。"},{"category":"时态-过去进行","question":"When the phone rang, I ___ TV.","options":["watched","was watching","have watched","watch"],"answer":1,"explain":"过去某时刻正在发生的动作用过去进行时。","question_zh":"电话响时，我正在看电视。"},{"category":"被动语态","question":"The problem ___ at the meeting yesterday.","options":["discussed","was discussed","has discussed","is discussing"],"answer":1,"explain":"过去时被动语态：was + 过去分词。","question_zh":"这个问题昨天在会议上被讨论。"},{"category":"被动语态","question":"English ___ in many countries.","options":["speaks","is spoken","has spoken","is speaking"],"answer":1,"explain":"一般现在时被动：be + 过去分词。","question_zh":"许多国家都讲英语。"},{"category":"虚拟语气","question":"If I ___ you, I would take the job.","options":["am","was","were","be"],"answer":2,"explain":"与现在事实相反的虚拟语气，if 从句用 were。","question_zh":"如果我是你，我会接受这份工作。"},{"category":"虚拟语气","question":"I wish I ___ fly like a bird.","options":["can","could","will","would"],"answer":1,"explain":"wish 后的虚拟语气表示愿望，用 could。","question_zh":"我希望我能像鸟一样飞。"},{"category":"定语从句","question":"The man ___ helped me is my neighbor.","options":["which","who","whom","whose"],"answer":1,"explain":"先行词是人，从句中作主语用 who。","question_zh":"帮助我的那个人是我的邻居。"},{"category":"定语从句","question":"This is the book ___ I bought yesterday.","options":["who","which","where","when"],"answer":1,"explain":"先行词是物，从句中作宾语用 which。","question_zh":"这是我昨天买的那本书。"},{"category":"定语从句","question":"I still remember the day ___ we met.","options":["which","that","when","where"],"answer":2,"explain":"先行词是时间，用关系副词 when。","question_zh":"我仍然记得我们相遇的那一天。"},{"category":"名词性从句","question":"___ he will come is still unknown.","options":["That","Whether","If","What"],"answer":1,"explain":"主语从句表示“是否”用 Whether。","question_zh":"他是否会来仍不得而知。"},{"category":"名词性从句","question":"That is ___ I want to tell you.","options":["what","which","that","when"],"answer":0,"explain":"表语从句，缺宾语用 what。","question_zh":"那就是我想告诉你的。"},{"category":"状语从句","question":"___ it was raining, we still went out.","options":["Because","Although","Since","As"],"answer":1,"explain":"although 表示转折“虽然”。","question_zh":"虽然下着雨，我们还是出去了。"},{"category":"状语从句","question":"I'll wait here ___ you come back.","options":["until","because","although","so"],"answer":0,"explain":"until 表示“直到……”。","question_zh":"我会在这里等到你回来。"},{"category":"非谓语-不定式","question":"He decided ___ abroad for further study.","options":["go","to go","going","gone"],"answer":1,"explain":"decide to do sth. 决定做某事。","question_zh":"他决定出国深造。"},{"category":"非谓语-动名词","question":"___ is more important than learning.","options":["Think","Thinking","To thinking","Thought"],"answer":1,"explain":"动名词作主语表一般行为。","question_zh":"思考比学习更重要。"},{"category":"非谓语-现在分词","question":"___ from the hill, the city looks beautiful.","options":["See","Seeing","Seen","To see"],"answer":2,"explain":"逻辑主语 the city 与 see 是被动关系，用过去分词 Seen。","question_zh":"从山上望去，这座城市很美。"},{"category":"情态动词","question":"You ___ have told me earlier.","options":["should","need","dare","must"],"answer":0,"explain":"should have done 表示本应做而未做。","question_zh":"你本该早点告诉我。"},{"category":"情态动词","question":"He ___ be at home because the light is on.","options":["must","can't","needn't","shouldn't"],"answer":0,"explain":"灯亮着，推测一定在家用 must。","question_zh":"他一定在家，因为灯亮着。"},{"category":"情态动词","question":"You ___ finish the work today. Tomorrow is fine.","options":["mustn't","needn't","can't","shouldn't"],"answer":1,"explain":"needn't 表示不必。","question_zh":"你不必今天完成工作，明天也行。"},{"category":"倒装","question":"Never ___ I seen such a beautiful place.","options":["have","had","will","do"],"answer":0,"explain":"否定词 never 置于句首，主句部分倒装。","question_zh":"我从未见过如此美丽的地方。"},{"category":"主谓一致","question":"The number of students ___ increasing.","options":["is","are","were","have"],"answer":0,"explain":"the number of 作主语，谓语用单数。","question_zh":"学生人数在增加。"},{"category":"主谓一致","question":"Each of the boys ___ a book.","options":["have","has","are having","were"],"answer":1,"explain":"each of + 复数，谓语用单数。","question_zh":"每个男孩都有一本书。"},{"category":"强调句","question":"It was in the park ___ I met him.","options":["that","where","which","when"],"answer":0,"explain":"强调句型 It is/was + 被强调部分 + that。","question_zh":"正是在公园里我遇到了他。"},{"category":"比较结构","question":"The more you practice, ___ you will be.","options":["the better","better","the best","the good"],"answer":0,"explain":"the + 比较级，the + 比较级，表示“越……越……”。","question_zh":"你练习得越多，就会越好。"},{"category":"独立主格","question":"The weather ___ fine, we went hiking.","options":["was","being","been","to be"],"answer":1,"explain":"独立主格结构，逻辑主语与 being 搭配。","question_zh":"天气很好，我们去远足了。"},{"category":"让步状语","question":"___ he is young, he knows a lot.","options":["Though","Because","Since","So"],"answer":0,"explain":"though 引导让步状语从句表“虽然”。","question_zh":"虽然他很年轻，但他知道很多。"}]}
+  "primary_3a.json": {
+    "words": [
+      {
+        "grade": 3,
+        "word": "ruler",
+        "phonetic": "/ˈruːlə(r)/",
+        "meaning": "尺子"
+      },
+      {
+        "grade": 3,
+        "word": "pencil",
+        "phonetic": "/ˈpens(ə)l/",
+        "meaning": "铅笔"
+      },
+      {
+        "grade": 3,
+        "word": "eraser",
+        "phonetic": "/ɪˈreɪzə(r)/",
+        "meaning": "橡皮"
+      },
+      {
+        "grade": 3,
+        "word": "crayon",
+        "phonetic": "/ˈkreɪən; ˈkreɪɒn/",
+        "meaning": "蜡笔"
+      },
+      {
+        "grade": 3,
+        "word": "bag",
+        "phonetic": "/bæɡ/",
+        "meaning": "包"
+      },
+      {
+        "grade": 3,
+        "word": "pen",
+        "phonetic": "/pen/",
+        "meaning": "钢笔"
+      },
+      {
+        "grade": 3,
+        "word": "pencil box",
+        "phonetic": "",
+        "meaning": "铅笔盒"
+      },
+      {
+        "grade": 3,
+        "word": "book",
+        "phonetic": "/bʊk/",
+        "meaning": "书"
+      },
+      {
+        "grade": 3,
+        "word": "no",
+        "phonetic": "/nəʊ/",
+        "meaning": "不"
+      },
+      {
+        "grade": 3,
+        "word": "your",
+        "phonetic": "/jɔː(r); jə(r)/",
+        "meaning": "你（们）的"
+      },
+      {
+        "grade": 3,
+        "word": "red",
+        "phonetic": "/red/",
+        "meaning": "红色"
+      },
+      {
+        "grade": 3,
+        "word": "green",
+        "phonetic": "/ɡriːn/",
+        "meaning": "绿色"
+      },
+      {
+        "grade": 3,
+        "word": "yellow",
+        "phonetic": "/ˈjeləʊ/",
+        "meaning": "黄色"
+      },
+      {
+        "grade": 3,
+        "word": "blue",
+        "phonetic": "/bluː/",
+        "meaning": "蓝色"
+      },
+      {
+        "grade": 3,
+        "word": "black",
+        "phonetic": "/blæk/",
+        "meaning": "黑色"
+      },
+      {
+        "grade": 3,
+        "word": "brown",
+        "phonetic": "/braʊn/",
+        "meaning": "棕色"
+      },
+      {
+        "grade": 3,
+        "word": "white",
+        "phonetic": "/waɪt/",
+        "meaning": "白色"
+      },
+      {
+        "grade": 3,
+        "word": "orange",
+        "phonetic": "/ˈɒrɪndʒ/",
+        "meaning": "橙色"
+      },
+      {
+        "grade": 3,
+        "word": "OK",
+        "phonetic": "/əʊˈkeɪ/",
+        "meaning": "好"
+      },
+      {
+        "grade": 3,
+        "word": "mum",
+        "phonetic": "/mʌm/",
+        "meaning": "妈妈"
+      },
+      {
+        "grade": 3,
+        "word": "face",
+        "phonetic": "/feɪs/",
+        "meaning": "脸"
+      },
+      {
+        "grade": 3,
+        "word": "ear",
+        "phonetic": "/ɪə(r)/",
+        "meaning": "耳朵"
+      },
+      {
+        "grade": 3,
+        "word": "eye",
+        "phonetic": "/aɪ/",
+        "meaning": "眼睛"
+      },
+      {
+        "grade": 3,
+        "word": "nose",
+        "phonetic": "/nəʊz/",
+        "meaning": "鼻子"
+      },
+      {
+        "grade": 3,
+        "word": "mouth",
+        "phonetic": "/maʊθ/",
+        "meaning": "嘴"
+      },
+      {
+        "grade": 3,
+        "word": "arm",
+        "phonetic": "/ɑːm/",
+        "meaning": "胳膊"
+      },
+      {
+        "grade": 3,
+        "word": "hand",
+        "phonetic": "/hænd/",
+        "meaning": "手"
+      },
+      {
+        "grade": 3,
+        "word": "head",
+        "phonetic": "/hed/",
+        "meaning": "头"
+      },
+      {
+        "grade": 3,
+        "word": "body",
+        "phonetic": "/ˈbɒdi/",
+        "meaning": "身体"
+      },
+      {
+        "grade": 3,
+        "word": "leg",
+        "phonetic": "/leɡ/",
+        "meaning": "腿"
+      },
+      {
+        "grade": 3,
+        "word": "foot",
+        "phonetic": "/fʊt/",
+        "meaning": "脚"
+      },
+      {
+        "grade": 3,
+        "word": "school",
+        "phonetic": "/skuːl/",
+        "meaning": "学校"
+      },
+      {
+        "grade": 3,
+        "word": "duck",
+        "phonetic": "/dʌk/",
+        "meaning": "鸭子"
+      },
+      {
+        "grade": 3,
+        "word": "pig",
+        "phonetic": "/pɪɡ/",
+        "meaning": "猪"
+      },
+      {
+        "grade": 3,
+        "word": "cat",
+        "phonetic": "/kæt/",
+        "meaning": "猫"
+      },
+      {
+        "grade": 3,
+        "word": "bear",
+        "phonetic": "/beə(r)/",
+        "meaning": "熊"
+      },
+      {
+        "grade": 3,
+        "word": "dog",
+        "phonetic": "/dɒɡ/",
+        "meaning": "狗"
+      },
+      {
+        "grade": 3,
+        "word": "elephant",
+        "phonetic": "/ˈelɪfənt; ˈeləfənt/",
+        "meaning": "大象"
+      },
+      {
+        "grade": 3,
+        "word": "monkey",
+        "phonetic": "/ˈmʌŋki/",
+        "meaning": "猴子"
+      },
+      {
+        "grade": 3,
+        "word": "bird",
+        "phonetic": "/bɜːd/",
+        "meaning": "鸟"
+      },
+      {
+        "grade": 3,
+        "word": "tiger",
+        "phonetic": "/ˈtaɪɡə(r)/",
+        "meaning": "老虎"
+      },
+      {
+        "grade": 3,
+        "word": "panda",
+        "phonetic": "/ˈpændə/",
+        "meaning": "大熊猫"
+      },
+      {
+        "grade": 3,
+        "word": "zoo",
+        "phonetic": "/zuː/",
+        "meaning": "动物园"
+      },
+      {
+        "grade": 3,
+        "word": "funny",
+        "phonetic": "/ˈfʌni/",
+        "meaning": "滑稽的"
+      },
+      {
+        "grade": 3,
+        "word": "bread",
+        "phonetic": "/bred/",
+        "meaning": "面包"
+      },
+      {
+        "grade": 3,
+        "word": "juice",
+        "phonetic": "/dʒuːs/",
+        "meaning": "果汁"
+      },
+      {
+        "grade": 3,
+        "word": "egg",
+        "phonetic": "/eɡ/",
+        "meaning": "蛋"
+      },
+      {
+        "grade": 3,
+        "word": "milk",
+        "phonetic": "/mɪlk/",
+        "meaning": "牛奶"
+      },
+      {
+        "grade": 3,
+        "word": "water",
+        "phonetic": "/ˈwɔːtə(r)/",
+        "meaning": "水"
+      },
+      {
+        "grade": 3,
+        "word": "cake",
+        "phonetic": "/keɪk/",
+        "meaning": "蛋糕"
+      },
+      {
+        "grade": 3,
+        "word": "fish",
+        "phonetic": "/fɪʃ/",
+        "meaning": "鱼"
+      },
+      {
+        "grade": 3,
+        "word": "rice",
+        "phonetic": "/raɪs/",
+        "meaning": "米饭"
+      },
+      {
+        "grade": 3,
+        "word": "one",
+        "phonetic": "/wʌn/",
+        "meaning": "一"
+      },
+      {
+        "grade": 3,
+        "word": "two",
+        "phonetic": "/tuː/",
+        "meaning": "二"
+      },
+      {
+        "grade": 3,
+        "word": "three",
+        "phonetic": "/θriː/",
+        "meaning": "三"
+      },
+      {
+        "grade": 3,
+        "word": "four",
+        "phonetic": "/fɔː(r)/",
+        "meaning": "四"
+      },
+      {
+        "grade": 3,
+        "word": "five",
+        "phonetic": "/faɪv/",
+        "meaning": "五"
+      },
+      {
+        "grade": 3,
+        "word": "six",
+        "phonetic": "/sɪks/",
+        "meaning": "六"
+      },
+      {
+        "grade": 3,
+        "word": "seven",
+        "phonetic": "/ˈsev(ə)n/",
+        "meaning": "七"
+      },
+      {
+        "grade": 3,
+        "word": "eight",
+        "phonetic": "/eɪt/",
+        "meaning": "八"
+      },
+      {
+        "grade": 3,
+        "word": "nine",
+        "phonetic": "/naɪn/",
+        "meaning": "九"
+      },
+      {
+        "grade": 3,
+        "word": "ten",
+        "phonetic": "/ten/",
+        "meaning": "十"
+      },
+      {
+        "grade": 3,
+        "word": "brother",
+        "phonetic": "/ˈbrʌðə(r)/",
+        "meaning": "兄"
+      },
+      {
+        "grade": 3,
+        "word": "plate",
+        "phonetic": "/pleɪt/",
+        "meaning": "盘子"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "I put the ruler in my schoolbag.",
+        "zh": "我把尺子放进了书包里。"
+      },
+      {
+        "en": "I put the pencil in my schoolbag.",
+        "zh": "我把铅笔放进书包里。"
+      },
+      {
+        "en": "I put the eraser in my schoolbag.",
+        "zh": "我把橡皮放进了书包里。"
+      },
+      {
+        "en": "There is a crayon in the picture.",
+        "zh": "图中有一支蜡笔。"
+      },
+      {
+        "en": "There is a bag in the picture.",
+        "zh": "图片里有一个袋子。"
+      },
+      {
+        "en": "I put the pen in my schoolbag.",
+        "zh": "我把笔放进书包里。"
+      },
+      {
+        "en": "My pencil box is in my schoolbag.",
+        "zh": "我的铅笔盒在我的书包里。"
+      },
+      {
+        "en": "I put the book in my schoolbag.",
+        "zh": "我把书放进书包里了。"
+      },
+      {
+        "en": "No, I do not need help.",
+        "zh": "不，我不需要帮助。"
+      },
+      {
+        "en": "Your answer is clear.",
+        "zh": "你的答案很明确。"
+      },
+      {
+        "en": "The apple is red.",
+        "zh": "苹果是红色的。"
+      },
+      {
+        "en": "The grass is green.",
+        "zh": "草是绿的。"
+      },
+      {
+        "en": "The banana is yellow.",
+        "zh": "香蕉是黄色的。"
+      },
+      {
+        "en": "The sky is blue.",
+        "zh": "天空是蓝色的。"
+      },
+      {
+        "en": "My shoes are black.",
+        "zh": "我的鞋子是黑色的。"
+      },
+      {
+        "en": "The desk is brown.",
+        "zh": "桌子是棕色的。"
+      },
+      {
+        "en": "The wall is white.",
+        "zh": "墙壁是白色的。"
+      },
+      {
+        "en": "The orange bag is on the chair.",
+        "zh": "橙色的袋子在椅子上。"
+      },
+      {
+        "en": "OK, let's start now.",
+        "zh": "好的，我们现在开始吧。"
+      },
+      {
+        "en": "My mum is kind to me.",
+        "zh": "我妈妈对我很好。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "be动词",
+        "question": "I ___ a student.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": 0,
+        "explain": "主语是 I，be 动词用 am。",
+        "question_zh": "我是一名学生。"
+      },
+      {
+        "category": "代词",
+        "question": "This is ___ book.",
+        "options": [
+          "I",
+          "me",
+          "my",
+          "mine"
+        ],
+        "answer": 2,
+        "explain": "名词前用形容词性物主代词 my。",
+        "question_zh": "这是我的书。"
+      },
+      {
+        "category": "现在进行",
+        "question": "They ___ playing football now.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": 2,
+        "explain": "主语 they 复数，现在进行时用 are。",
+        "question_zh": "他们现在正在踢足球。"
+      },
+      {
+        "category": "特殊疑问",
+        "question": "___ do you go to school? By bus.",
+        "options": [
+          "What",
+          "Where",
+          "Who",
+          "How"
+        ],
+        "answer": 3,
+        "explain": "问交通方式用 How。",
+        "question_zh": "你怎么去上学？坐公交车。"
+      },
+      {
+        "category": "祈使句",
+        "question": "___ open the door, please.",
+        "options": [
+          "Please",
+          "Not",
+          "No",
+          "Don't"
+        ],
+        "answer": 3,
+        "explain": "祈使句否定用 Don't。",
+        "question_zh": "请不要开门。"
+      }
+    ]
+  },
+  "primary_3b.json": {
+    "words": [
+      {
+        "grade": 3,
+        "word": "UK",
+        "phonetic": "/ˌjuː ˈkeɪ/",
+        "meaning": "英国"
+      },
+      {
+        "grade": 3,
+        "word": "Canada",
+        "phonetic": "/ˈkænədə/",
+        "meaning": "加拿大"
+      },
+      {
+        "grade": 3,
+        "word": "USA",
+        "phonetic": "/ˌjuː es ˈeɪ/",
+        "meaning": "美国"
+      },
+      {
+        "grade": 3,
+        "word": "China",
+        "phonetic": "/ˈtʃaɪnə/",
+        "meaning": "中国"
+      },
+      {
+        "grade": 3,
+        "word": "she",
+        "phonetic": "/ʃiː; ʃi/",
+        "meaning": "她"
+      },
+      {
+        "grade": 3,
+        "word": "student",
+        "phonetic": "/ˈstjuːd(ə)nt/",
+        "meaning": "学生, 学者"
+      },
+      {
+        "grade": 3,
+        "word": "pupil",
+        "phonetic": "/ˈpjuːp(ə)l/",
+        "meaning": "小学生"
+      },
+      {
+        "grade": 3,
+        "word": "he",
+        "phonetic": "/hiː; hi/",
+        "meaning": "他"
+      },
+      {
+        "grade": 3,
+        "word": "teacher",
+        "phonetic": "/ˈtiːtʃə(r)/",
+        "meaning": "教师, 老师, 导师"
+      },
+      {
+        "grade": 3,
+        "word": "boy",
+        "phonetic": "/bɔɪ/",
+        "meaning": "男孩, 儿子, 孩子气的人, 男仆"
+      },
+      {
+        "grade": 3,
+        "word": "and",
+        "phonetic": "/ænd; ənd/",
+        "meaning": "和"
+      },
+      {
+        "grade": 3,
+        "word": "girl",
+        "phonetic": "/ɡɜːl/",
+        "meaning": "女孩, 少女, 女仆, (商店等的)女工作人员"
+      },
+      {
+        "grade": 3,
+        "word": "new",
+        "phonetic": "/njuː/",
+        "meaning": "新的，新近的"
+      },
+      {
+        "grade": 3,
+        "word": "friend",
+        "phonetic": "/frend/",
+        "meaning": "朋友，友人"
+      },
+      {
+        "grade": 3,
+        "word": "today",
+        "phonetic": "/təˈdeɪ/",
+        "meaning": "今天"
+      },
+      {
+        "grade": 3,
+        "word": "father",
+        "phonetic": "/ˈfɑːðə(r)/",
+        "meaning": "父亲"
+      },
+      {
+        "grade": 3,
+        "word": "dad",
+        "phonetic": "/dæd/",
+        "meaning": "（口语）爸爸"
+      },
+      {
+        "grade": 3,
+        "word": "man",
+        "phonetic": "/mæn/",
+        "meaning": "男人"
+      },
+      {
+        "grade": 3,
+        "word": "woman",
+        "phonetic": "/ˈwʊmən/",
+        "meaning": "女人"
+      },
+      {
+        "grade": 3,
+        "word": "mother",
+        "phonetic": "/ˈmʌðə(r)/",
+        "meaning": "母亲"
+      },
+      {
+        "grade": 3,
+        "word": "sister",
+        "phonetic": "/ˈsɪstə(r)/",
+        "meaning": "姐"
+      },
+      {
+        "grade": 3,
+        "word": "brother",
+        "phonetic": "/ˈbrʌðə(r)/",
+        "meaning": "兄"
+      },
+      {
+        "grade": 3,
+        "word": "grandmother",
+        "phonetic": "/ˈɡrænmʌðə(r)/",
+        "meaning": "（外）祖母"
+      },
+      {
+        "grade": 3,
+        "word": "grandma",
+        "phonetic": "/ˈɡrænmɑː/",
+        "meaning": "（口语）（外）祖母"
+      },
+      {
+        "grade": 3,
+        "word": "grandfather",
+        "phonetic": "/ˈɡrænfɑːðə(r)/",
+        "meaning": "（外）祖父"
+      },
+      {
+        "grade": 3,
+        "word": "grandpa",
+        "phonetic": "/ˈɡrænpɑː/",
+        "meaning": "（口语）（外）祖父"
+      },
+      {
+        "grade": 3,
+        "word": "family",
+        "phonetic": "/ˈfæməli/",
+        "meaning": "家"
+      },
+      {
+        "grade": 3,
+        "word": "thin",
+        "phonetic": "/θɪn/",
+        "meaning": "瘦的"
+      },
+      {
+        "grade": 3,
+        "word": "fat",
+        "phonetic": "/fæt/",
+        "meaning": "胖的"
+      },
+      {
+        "grade": 3,
+        "word": "tall",
+        "phonetic": "/tɔːl/",
+        "meaning": "高的"
+      },
+      {
+        "grade": 3,
+        "word": "short",
+        "phonetic": "/ʃɔːt/",
+        "meaning": "矮的"
+      },
+      {
+        "grade": 3,
+        "word": "long",
+        "phonetic": "/lɒŋ/",
+        "meaning": "长的"
+      },
+      {
+        "grade": 3,
+        "word": "small",
+        "phonetic": "/smɔːl/",
+        "meaning": "小的"
+      },
+      {
+        "grade": 3,
+        "word": "big",
+        "phonetic": "/bɪɡ/",
+        "meaning": "大的"
+      },
+      {
+        "grade": 3,
+        "word": "giraffe",
+        "phonetic": "/dʒəˈrɑːf/",
+        "meaning": "长颈鹿"
+      },
+      {
+        "grade": 3,
+        "word": "so",
+        "phonetic": "/səʊ/",
+        "meaning": "这么"
+      },
+      {
+        "grade": 3,
+        "word": "children",
+        "phonetic": "/ˈtʃɪldrən/",
+        "meaning": "儿童"
+      },
+      {
+        "grade": 3,
+        "word": "child",
+        "phonetic": "/tʃaɪld/",
+        "meaning": "儿童"
+      },
+      {
+        "grade": 3,
+        "word": "tail",
+        "phonetic": "/teɪl/",
+        "meaning": "尾巴"
+      },
+      {
+        "grade": 3,
+        "word": "on",
+        "phonetic": "/ɒn/",
+        "meaning": "在⋯⋯上"
+      },
+      {
+        "grade": 3,
+        "word": "in",
+        "phonetic": "/ɪn/",
+        "meaning": "在⋯⋯里"
+      },
+      {
+        "grade": 3,
+        "word": "under",
+        "phonetic": "/ˈʌndə(r)/",
+        "meaning": "在⋯⋯下面"
+      },
+      {
+        "grade": 3,
+        "word": "chair",
+        "phonetic": "/tʃeə(r)/",
+        "meaning": "椅子"
+      },
+      {
+        "grade": 3,
+        "word": "desk",
+        "phonetic": "/desk/",
+        "meaning": "书桌"
+      },
+      {
+        "grade": 3,
+        "word": "cap",
+        "phonetic": "/kæp/",
+        "meaning": "帽子"
+      },
+      {
+        "grade": 3,
+        "word": "ball",
+        "phonetic": "/bɔːl/",
+        "meaning": "球"
+      },
+      {
+        "grade": 3,
+        "word": "car",
+        "phonetic": "/kɑː(r)/",
+        "meaning": "小汽车"
+      },
+      {
+        "grade": 3,
+        "word": "boat",
+        "phonetic": "/bəʊt/",
+        "meaning": "小船"
+      },
+      {
+        "grade": 3,
+        "word": "map",
+        "phonetic": "/mæp/",
+        "meaning": "地图"
+      },
+      {
+        "grade": 3,
+        "word": "toy",
+        "phonetic": "/tɔɪ/",
+        "meaning": "玩具"
+      },
+      {
+        "grade": 3,
+        "word": "box",
+        "phonetic": "/bɒks/",
+        "meaning": "盒"
+      },
+      {
+        "grade": 3,
+        "word": "pear",
+        "phonetic": "/peə(r)/",
+        "meaning": "梨"
+      },
+      {
+        "grade": 3,
+        "word": "apple",
+        "phonetic": "/ˈæp(ə)l/",
+        "meaning": "苹果"
+      },
+      {
+        "grade": 3,
+        "word": "orange",
+        "phonetic": "/ˈɒrɪndʒ/",
+        "meaning": "橙子"
+      },
+      {
+        "grade": 3,
+        "word": "banana",
+        "phonetic": "/bəˈnɑːnə/",
+        "meaning": "香蕉"
+      },
+      {
+        "grade": 3,
+        "word": "watermelon",
+        "phonetic": "/ˈwɔːtəmelən/",
+        "meaning": "西瓜"
+      },
+      {
+        "grade": 3,
+        "word": "strawberry",
+        "phonetic": "/ˈstrɔːbəri/",
+        "meaning": "草莓"
+      },
+      {
+        "grade": 3,
+        "word": "grape",
+        "phonetic": "/ɡreɪp/",
+        "meaning": "葡萄"
+      },
+      {
+        "grade": 3,
+        "word": "buy",
+        "phonetic": "/baɪ/",
+        "meaning": "买"
+      },
+      {
+        "grade": 3,
+        "word": "fruit",
+        "phonetic": "/fruːt/",
+        "meaning": "水果"
+      },
+      {
+        "grade": 3,
+        "word": "eleven",
+        "phonetic": "/ɪˈlev(ə)n/",
+        "meaning": "十一"
+      },
+      {
+        "grade": 3,
+        "word": "twelve",
+        "phonetic": "/twelv/",
+        "meaning": "十二"
+      },
+      {
+        "grade": 3,
+        "word": "thirteen",
+        "phonetic": "/ˌθɜːˈtiːn/",
+        "meaning": "十三"
+      },
+      {
+        "grade": 3,
+        "word": "fourteen",
+        "phonetic": "/ˌfɔːˈtiːn/",
+        "meaning": "十四"
+      },
+      {
+        "grade": 3,
+        "word": "fifteen",
+        "phonetic": "/ˌfɪfˈtiːn/",
+        "meaning": "十五"
+      },
+      {
+        "grade": 3,
+        "word": "sixteen",
+        "phonetic": "/ˌsɪksˈtiːn/",
+        "meaning": "十六"
+      },
+      {
+        "grade": 3,
+        "word": "seventeen",
+        "phonetic": "/ˌsev(ə)nˈtiːn/",
+        "meaning": "十七"
+      },
+      {
+        "grade": 3,
+        "word": "eighteen",
+        "phonetic": "/ˌeɪˈtiːn/",
+        "meaning": "十八"
+      },
+      {
+        "grade": 3,
+        "word": "nineteen",
+        "phonetic": "/ˌnaɪnˈtiːn/",
+        "meaning": "十九"
+      },
+      {
+        "grade": 3,
+        "word": "twenty",
+        "phonetic": "/ˈtwenti/",
+        "meaning": "二十"
+      },
+      {
+        "grade": 3,
+        "word": "kite",
+        "phonetic": "/kaɪt/",
+        "meaning": "风筝"
+      },
+      {
+        "grade": 3,
+        "word": "beautiful",
+        "phonetic": "/ˈbjuːtɪf(ə)l/",
+        "meaning": "美丽的"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "The UK is in Europe.",
+        "zh": "英国位于欧洲。"
+      },
+      {
+        "en": "Canada is a large country.",
+        "zh": "加拿大是一个大国。"
+      },
+      {
+        "en": "The USA is a large country.",
+        "zh": "美国是一个大国。"
+      },
+      {
+        "en": "China has a long history.",
+        "zh": "中国有着悠久的历史。"
+      },
+      {
+        "en": "She reads English every morning.",
+        "zh": "她每天早上读英语。"
+      },
+      {
+        "en": "The student listens carefully in class.",
+        "zh": "学生在课堂上认真听讲。"
+      },
+      {
+        "en": "The pupil reads the word aloud.",
+        "zh": "学生大声读出这个词。"
+      },
+      {
+        "en": "He plays basketball after school.",
+        "zh": "他放学后打篮球。"
+      },
+      {
+        "en": "The teacher writes a sentence on the board.",
+        "zh": "老师在黑板上写了一句话。"
+      },
+      {
+        "en": "The boy is playing with a ball.",
+        "zh": "这个男孩正在玩球。"
+      },
+      {
+        "en": "Tom and Mary are classmates.",
+        "zh": "汤姆和玛丽是同学。"
+      },
+      {
+        "en": "The girl is reading a story.",
+        "zh": "这个女孩正在读故事。"
+      },
+      {
+        "en": "I have a new notebook.",
+        "zh": "我有一个新笔记本。"
+      },
+      {
+        "en": "My friend helps me with English.",
+        "zh": "我的朋友帮我学英语。"
+      },
+      {
+        "en": "Today is a sunny day.",
+        "zh": "今天是一个阳光明媚的日子。"
+      },
+      {
+        "en": "My father is kind to me.",
+        "zh": "我的父亲对我很好。"
+      },
+      {
+        "en": "My dad is kind to me.",
+        "zh": "我爸爸对我很好。"
+      },
+      {
+        "en": "The man is waiting for the bus.",
+        "zh": "该男子正在等公共汽车。"
+      },
+      {
+        "en": "The woman is talking to her daughter.",
+        "zh": "那个女人正在和她的女儿说话。"
+      },
+      {
+        "en": "My mother is kind to me.",
+        "zh": "我妈妈对我很好。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "be动词",
+        "question": "She ___ my teacher.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": 1,
+        "explain": "主语 she 是第三人称单数，用 is。",
+        "question_zh": "她是我的老师。"
+      },
+      {
+        "category": "代词",
+        "question": "Look at ___! She is dancing.",
+        "options": [
+          "she",
+          "her",
+          "hers",
+          "she's"
+        ],
+        "answer": 1,
+        "explain": "介词后用人称代词宾格 her。",
+        "question_zh": "看她！她在跳舞。"
+      },
+      {
+        "category": "情态动词",
+        "question": "I ___ swim in the river.",
+        "options": [
+          "can",
+          "is",
+          "am",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "情态动词 can 后接动词原形，表示能力。",
+        "question_zh": "我会在河里游泳。"
+      },
+      {
+        "category": "时间介词",
+        "question": "We have lunch ___ twelve.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "for"
+        ],
+        "answer": 1,
+        "explain": "具体时刻前用 at。",
+        "question_zh": "我们十二点吃午饭。"
+      }
+    ]
+  },
+  "primary_4a.json": {
+    "words": [
+      {
+        "grade": 4,
+        "word": "classroom",
+        "phonetic": "/ˈklɑːsruːm/",
+        "meaning": "教室"
+      },
+      {
+        "grade": 4,
+        "word": "window",
+        "phonetic": "/ˈwɪndəʊ/",
+        "meaning": "窗户"
+      },
+      {
+        "grade": 4,
+        "word": "blackboard",
+        "phonetic": "/ˈblækbɔːd/",
+        "meaning": "黑板"
+      },
+      {
+        "grade": 4,
+        "word": "light",
+        "phonetic": "/laɪt/",
+        "meaning": "电灯"
+      },
+      {
+        "grade": 4,
+        "word": "picture",
+        "phonetic": "/ˈpɪktʃə(r)/",
+        "meaning": "图画"
+      },
+      {
+        "grade": 4,
+        "word": "door",
+        "phonetic": "/dɔː(r)/",
+        "meaning": "门"
+      },
+      {
+        "grade": 4,
+        "word": "teacher's desk",
+        "phonetic": "/ˈtiːtʃəz desk/",
+        "meaning": "讲台"
+      },
+      {
+        "grade": 4,
+        "word": "computer",
+        "phonetic": "/kəmˈpjuːtə(r)/",
+        "meaning": "计算机"
+      },
+      {
+        "grade": 4,
+        "word": "fan",
+        "phonetic": "/fæn/",
+        "meaning": "风扇"
+      },
+      {
+        "grade": 4,
+        "word": "wall",
+        "phonetic": "/wɔːl/",
+        "meaning": "墙壁"
+      },
+      {
+        "grade": 4,
+        "word": "floor",
+        "phonetic": "/flɔː(r)/",
+        "meaning": "地板"
+      },
+      {
+        "grade": 4,
+        "word": "really",
+        "phonetic": "/ˈriːəli/",
+        "meaning": "真的"
+      },
+      {
+        "grade": 4,
+        "word": "near",
+        "phonetic": "/nɪə(r)/",
+        "meaning": "距离近"
+      },
+      {
+        "grade": 4,
+        "word": "TV",
+        "phonetic": "/ˌtiː ˈviː/",
+        "meaning": "电视"
+      },
+      {
+        "grade": 4,
+        "word": "clean",
+        "phonetic": "/kliːn/",
+        "meaning": "打扫"
+      },
+      {
+        "grade": 4,
+        "word": "help",
+        "phonetic": "/help/",
+        "meaning": "帮助"
+      },
+      {
+        "grade": 4,
+        "word": "schoolbag",
+        "phonetic": "/ˈskuːlbæɡ/",
+        "meaning": "书包"
+      },
+      {
+        "grade": 4,
+        "word": "maths book",
+        "phonetic": "/mæθs bʊk/",
+        "meaning": "数学书"
+      },
+      {
+        "grade": 4,
+        "word": "English book",
+        "phonetic": "/ˈɪŋɡlɪʃ bʊk/",
+        "meaning": "英语书"
+      },
+      {
+        "grade": 4,
+        "word": "Chinese book",
+        "phonetic": "/ˌtʃaɪˈniːz bʊk/",
+        "meaning": "语文书"
+      },
+      {
+        "grade": 4,
+        "word": "storybook",
+        "phonetic": "/ˈstɔːribʊk/",
+        "meaning": "故事书"
+      },
+      {
+        "grade": 4,
+        "word": "candy",
+        "phonetic": "/ˈkændi/",
+        "meaning": "糖果"
+      },
+      {
+        "grade": 4,
+        "word": "notebook",
+        "phonetic": "/ˈnəʊtbʊk/",
+        "meaning": "笔记本"
+      },
+      {
+        "grade": 4,
+        "word": "toy",
+        "phonetic": "/tɔɪ/",
+        "meaning": "玩具"
+      },
+      {
+        "grade": 4,
+        "word": "key",
+        "phonetic": "/kiː/",
+        "meaning": "钥匙"
+      },
+      {
+        "grade": 4,
+        "word": "wow",
+        "phonetic": "/waʊ/",
+        "meaning": "呀"
+      },
+      {
+        "grade": 4,
+        "word": "lost",
+        "phonetic": "/lɒst/",
+        "meaning": "丢失"
+      },
+      {
+        "grade": 4,
+        "word": "so much",
+        "phonetic": "/səʊ mʌtʃ/",
+        "meaning": "非常地"
+      },
+      {
+        "grade": 4,
+        "word": "cute",
+        "phonetic": "/kjuːt/",
+        "meaning": "可爱的"
+      },
+      {
+        "grade": 4,
+        "word": "strong",
+        "phonetic": "/strɒŋ/",
+        "meaning": "强壮的"
+      },
+      {
+        "grade": 4,
+        "word": "friendly",
+        "phonetic": "/ˈfrendli/",
+        "meaning": "友好的"
+      },
+      {
+        "grade": 4,
+        "word": "quiet",
+        "phonetic": "/ˈkwaɪət/",
+        "meaning": "安静的"
+      },
+      {
+        "grade": 4,
+        "word": "hair",
+        "phonetic": "/heə(r)/",
+        "meaning": "头发"
+      },
+      {
+        "grade": 4,
+        "word": "shoe",
+        "phonetic": "/ʃuː/",
+        "meaning": "鞋"
+      },
+      {
+        "grade": 4,
+        "word": "glasses",
+        "phonetic": "/ˈɡlɑːsɪz/",
+        "meaning": "眼镜"
+      },
+      {
+        "grade": 4,
+        "word": "his",
+        "phonetic": "/hɪz; ɪz/",
+        "meaning": "他的"
+      },
+      {
+        "grade": 4,
+        "word": "or",
+        "phonetic": "/ɔː(r)/",
+        "meaning": "或者"
+      },
+      {
+        "grade": 4,
+        "word": "right",
+        "phonetic": "/raɪt/",
+        "meaning": "对的"
+      },
+      {
+        "grade": 4,
+        "word": "hat",
+        "phonetic": "/hæt/",
+        "meaning": "帽子"
+      },
+      {
+        "grade": 4,
+        "word": "her",
+        "phonetic": "/hɜː(r); hə(r)/",
+        "meaning": "她的"
+      },
+      {
+        "grade": 4,
+        "word": "bedroom",
+        "phonetic": "/ˈbedruːm/",
+        "meaning": "卧室"
+      },
+      {
+        "grade": 4,
+        "word": "living room",
+        "phonetic": "/ˈlɪvɪŋ ruːm/",
+        "meaning": "客厅"
+      },
+      {
+        "grade": 4,
+        "word": "study",
+        "phonetic": "/ˈstʌdi/",
+        "meaning": "书房"
+      },
+      {
+        "grade": 4,
+        "word": "kitchen",
+        "phonetic": "/ˈkɪtʃɪn/",
+        "meaning": "厨房"
+      },
+      {
+        "grade": 4,
+        "word": "bathroom",
+        "phonetic": "/ˈbɑːθruːm; ˈbɑːθrʊm/",
+        "meaning": "浴室"
+      },
+      {
+        "grade": 4,
+        "word": "bed",
+        "phonetic": "/bed/",
+        "meaning": "床"
+      },
+      {
+        "grade": 4,
+        "word": "phone",
+        "phonetic": "/fəʊn/",
+        "meaning": "电话"
+      },
+      {
+        "grade": 4,
+        "word": "table",
+        "phonetic": "/ˈteɪb(ə)l/",
+        "meaning": "桌子"
+      },
+      {
+        "grade": 4,
+        "word": "sofa",
+        "phonetic": "/ˈsəʊfə/",
+        "meaning": "长沙发"
+      },
+      {
+        "grade": 4,
+        "word": "fridge",
+        "phonetic": "/frɪdʒ/",
+        "meaning": "冰箱"
+      },
+      {
+        "grade": 4,
+        "word": "find",
+        "phonetic": "/faɪnd/",
+        "meaning": "找到"
+      },
+      {
+        "grade": 4,
+        "word": "them",
+        "phonetic": "/ðem; ðəm/",
+        "meaning": "他们"
+      },
+      {
+        "grade": 4,
+        "word": "beef",
+        "phonetic": "/biːf/",
+        "meaning": "牛肉"
+      },
+      {
+        "grade": 4,
+        "word": "chicken",
+        "phonetic": "/ˈtʃɪkɪn/",
+        "meaning": "鸡肉"
+      },
+      {
+        "grade": 4,
+        "word": "noodles",
+        "phonetic": "/ˈnuːd(ə)lz/",
+        "meaning": "面条"
+      },
+      {
+        "grade": 4,
+        "word": "soup",
+        "phonetic": "/suːp/",
+        "meaning": "汤"
+      },
+      {
+        "grade": 4,
+        "word": "vegetable",
+        "phonetic": "/ˈvedʒtəb(ə)l/",
+        "meaning": "蔬菜"
+      },
+      {
+        "grade": 4,
+        "word": "chopsticks",
+        "phonetic": "/ˈtʃɒpstɪks/",
+        "meaning": "筷子"
+      },
+      {
+        "grade": 4,
+        "word": "bowl",
+        "phonetic": "/bəʊl/",
+        "meaning": "碗"
+      },
+      {
+        "grade": 4,
+        "word": "fork",
+        "phonetic": "/fɔːk/",
+        "meaning": "餐叉"
+      },
+      {
+        "grade": 4,
+        "word": "knife",
+        "phonetic": "/naɪf/",
+        "meaning": "刀"
+      },
+      {
+        "grade": 4,
+        "word": "spoon",
+        "phonetic": "/spuːn/",
+        "meaning": "匙,勺子"
+      },
+      {
+        "grade": 4,
+        "word": "dinner",
+        "phonetic": "/ˈdɪnə(r)/",
+        "meaning": "正餐"
+      },
+      {
+        "grade": 4,
+        "word": "ready",
+        "phonetic": "/ˈredi/",
+        "meaning": "准备好"
+      },
+      {
+        "grade": 4,
+        "word": "help yourself",
+        "phonetic": "/help jɔːˈself/",
+        "meaning": "为（自己）取用"
+      },
+      {
+        "grade": 4,
+        "word": "pass",
+        "phonetic": "/pɑːs/",
+        "meaning": "给"
+      },
+      {
+        "grade": 4,
+        "word": "try",
+        "phonetic": "/traɪ/",
+        "meaning": "试"
+      },
+      {
+        "grade": 4,
+        "word": "parents",
+        "phonetic": "/ˈpeərənts/",
+        "meaning": "父母"
+      },
+      {
+        "grade": 4,
+        "word": "cousin",
+        "phonetic": "/ˈkʌzn/",
+        "meaning": "同辈表亲"
+      },
+      {
+        "grade": 4,
+        "word": "uncle",
+        "phonetic": "/ˈʌŋk(ə)l/",
+        "meaning": "叔叔"
+      },
+      {
+        "grade": 4,
+        "word": "aunt",
+        "phonetic": "/ɑːnt/",
+        "meaning": "阿姨"
+      },
+      {
+        "grade": 4,
+        "word": "baby brother",
+        "phonetic": "/ˈbeɪbi ˈbrʌðə(r)/",
+        "meaning": "小弟弟"
+      },
+      {
+        "grade": 4,
+        "word": "doctor",
+        "phonetic": "/ˈdɒktə(r)/",
+        "meaning": "医生"
+      },
+      {
+        "grade": 4,
+        "word": "cook",
+        "phonetic": "/kʊk/",
+        "meaning": "厨师"
+      },
+      {
+        "grade": 4,
+        "word": "driver",
+        "phonetic": "/ˈdraɪvə(r)/",
+        "meaning": "司机"
+      },
+      {
+        "grade": 4,
+        "word": "farmer",
+        "phonetic": "/ˈfɑːmə(r)/",
+        "meaning": "农民"
+      },
+      {
+        "grade": 4,
+        "word": "nurse",
+        "phonetic": "/nɜːs/",
+        "meaning": "护士"
+      },
+      {
+        "grade": 4,
+        "word": "people",
+        "phonetic": "/ˈpiːp(ə)l/",
+        "meaning": "人们"
+      },
+      {
+        "grade": 4,
+        "word": "but",
+        "phonetic": "/bʌt; bət/",
+        "meaning": "但是"
+      },
+      {
+        "grade": 4,
+        "word": "little",
+        "phonetic": "/ˈlɪt(ə)l/",
+        "meaning": "小的"
+      },
+      {
+        "grade": 4,
+        "word": "puppy",
+        "phonetic": "/ˈpʌpi/",
+        "meaning": "小狗"
+      },
+      {
+        "grade": 4,
+        "word": "football player",
+        "phonetic": "/ˈfʊtbɔːl ˈpleɪə(r)/",
+        "meaning": "足球运动员"
+      },
+      {
+        "grade": 4,
+        "word": "job",
+        "phonetic": "/dʒɒb/",
+        "meaning": "工作"
+      },
+      {
+        "grade": 4,
+        "word": "basketball",
+        "phonetic": "/ˈbɑːskɪtbɔːl/",
+        "meaning": "篮球"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "Our classroom is on the second floor.",
+        "zh": "我们的教室在二楼。"
+      },
+      {
+        "en": "There is a window in the picture.",
+        "zh": "图片中有一个窗户。"
+      },
+      {
+        "en": "There is a blackboard in the picture.",
+        "zh": "图片中有一块黑板。"
+      },
+      {
+        "en": "There is a light in the picture.",
+        "zh": "图中有一盏灯。"
+      },
+      {
+        "en": "The word \"picture\" shows an action in this sentence.",
+        "zh": "“图片”一词表示这句话中的一个动作。"
+      },
+      {
+        "en": "There is a door in the picture.",
+        "zh": "图中有一扇门。"
+      },
+      {
+        "en": "I can use teacher's desk in a simple sentence.",
+        "zh": "我可以用简单的一句话来使用老师的桌子。"
+      },
+      {
+        "en": "There is a computer in the picture.",
+        "zh": "图中有一台电脑。"
+      },
+      {
+        "en": "There is a fan in the picture.",
+        "zh": "图中有一把扇子。"
+      },
+      {
+        "en": "There is a wall in the picture.",
+        "zh": "图中有一堵墙。"
+      },
+      {
+        "en": "She answered floor during the discussion.",
+        "zh": "她在讨论期间发言。"
+      },
+      {
+        "en": "The example is really.",
+        "zh": "例子确实如此。"
+      },
+      {
+        "en": "There is a near in the picture.",
+        "zh": "图中有一个近处。"
+      },
+      {
+        "en": "I watch TV after dinner.",
+        "zh": "晚饭后我看电视。"
+      },
+      {
+        "en": "We clean the classroom every Friday.",
+        "zh": "我们每周五打扫教室。"
+      },
+      {
+        "en": "Please help me carry the books.",
+        "zh": "请帮我搬书。"
+      },
+      {
+        "en": "I put the schoolbag in my schoolbag.",
+        "zh": "我把书包放进了书包里。"
+      },
+      {
+        "en": "I can use maths book in a simple sentence.",
+        "zh": "我可以用简单的句子来使用数学书。"
+      },
+      {
+        "en": "I can use English book in a simple sentence.",
+        "zh": "我可以用英语书来写一个简单的句子。"
+      },
+      {
+        "en": "I can use Chinese book in a simple sentence.",
+        "zh": "我可以用中文书上的简单句子来表达。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "be动词",
+        "question": "They ___ my friends.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": 2,
+        "explain": "主语 they 是复数，用 are。",
+        "question_zh": "他们是我的朋友。"
+      },
+      {
+        "category": "复数",
+        "question": "I have two ___.",
+        "options": [
+          "apple",
+          "apples",
+          "appless",
+          "an apple"
+        ],
+        "answer": 1,
+        "explain": "two 后面用名词复数 apples。",
+        "question_zh": "我有两个苹果。"
+      },
+      {
+        "category": "情态动词",
+        "question": "You ___ cross the road now. It's red.",
+        "options": [
+          "can",
+          "can't",
+          "mustn't",
+          "don't"
+        ],
+        "answer": 1,
+        "explain": "红灯时不能过马路，用 can't 表示禁止。",
+        "question_zh": "你现在不能过马路。是红灯。"
+      },
+      {
+        "category": "时间介词",
+        "question": "I go to school ___ Monday.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "to"
+        ],
+        "answer": 2,
+        "explain": "具体星期几前用 on。",
+        "question_zh": "我星期一去上学。"
+      }
+    ]
+  },
+  "primary_4b.json": {
+    "words": [
+      {
+        "grade": 4,
+        "word": "first floor",
+        "phonetic": "/fɜːst flɔː(r)/",
+        "meaning": "一楼（美）"
+      },
+      {
+        "grade": 4,
+        "word": "second floor",
+        "phonetic": "/ˈsekənd flɔː(r)/",
+        "meaning": "二楼"
+      },
+      {
+        "grade": 4,
+        "word": "teacher's office",
+        "phonetic": "/ˈtiːtʃəz ˈɒfɪs/",
+        "meaning": "教师办公室"
+      },
+      {
+        "grade": 4,
+        "word": "library",
+        "phonetic": "/ˈlaɪbrəri/",
+        "meaning": "图书馆"
+      },
+      {
+        "grade": 4,
+        "word": "playground",
+        "phonetic": "/ˈpleɪɡraʊnd/",
+        "meaning": "操场"
+      },
+      {
+        "grade": 4,
+        "word": "computer room",
+        "phonetic": "/kəmˈpjuːtə(r) ruːm/",
+        "meaning": "计算机房"
+      },
+      {
+        "grade": 4,
+        "word": "art room",
+        "phonetic": "/ɑːt ruːm/",
+        "meaning": "美术教室"
+      },
+      {
+        "grade": 4,
+        "word": "music room",
+        "phonetic": "/ˈmjuːzɪk ruːm/",
+        "meaning": "音乐教室"
+      },
+      {
+        "grade": 4,
+        "word": "next to",
+        "phonetic": "/nekst tuː; tə/",
+        "meaning": "紧邻"
+      },
+      {
+        "grade": 4,
+        "word": "homework",
+        "phonetic": "/ˈhəʊmwɜːk/",
+        "meaning": "作业"
+      },
+      {
+        "grade": 4,
+        "word": "class",
+        "phonetic": "/klɑːs/",
+        "meaning": "班级"
+      },
+      {
+        "grade": 4,
+        "word": "forty",
+        "phonetic": "/ˈfɔːti/",
+        "meaning": "四十"
+      },
+      {
+        "grade": 4,
+        "word": "way",
+        "phonetic": "/weɪ/",
+        "meaning": "方向"
+      },
+      {
+        "grade": 4,
+        "word": "breakfast",
+        "phonetic": "/ˈbrekfəst/",
+        "meaning": "早餐"
+      },
+      {
+        "grade": 4,
+        "word": "English class",
+        "phonetic": "/ˈɪŋɡlɪʃ klɑːs/",
+        "meaning": "英语课"
+      },
+      {
+        "grade": 4,
+        "word": "lunch",
+        "phonetic": "/lʌntʃ/",
+        "meaning": "午饭"
+      },
+      {
+        "grade": 4,
+        "word": "music class",
+        "phonetic": "/ˈmjuːzɪk klɑːs/",
+        "meaning": "音乐课"
+      },
+      {
+        "grade": 4,
+        "word": "PE class",
+        "phonetic": "/peɪ klɑːs/",
+        "meaning": "体育课"
+      },
+      {
+        "grade": 4,
+        "word": "dinner",
+        "phonetic": "/ˈdɪnə(r)/",
+        "meaning": "正餐"
+      },
+      {
+        "grade": 4,
+        "word": "get up",
+        "phonetic": "/ɡet ʌp/",
+        "meaning": "起床"
+      },
+      {
+        "grade": 4,
+        "word": "go to school",
+        "phonetic": "/ɡəʊ tuː; tə skuːl/",
+        "meaning": "上学"
+      },
+      {
+        "grade": 4,
+        "word": "go home",
+        "phonetic": "/ɡəʊ həʊm/",
+        "meaning": "回家"
+      },
+      {
+        "grade": 4,
+        "word": "go to bed",
+        "phonetic": "/ɡəʊ tuː; tə bed/",
+        "meaning": "去睡觉"
+      },
+      {
+        "grade": 4,
+        "word": "over",
+        "phonetic": "/ˈəʊvə(r)/",
+        "meaning": "结束"
+      },
+      {
+        "grade": 4,
+        "word": "now",
+        "phonetic": "/naʊ/",
+        "meaning": "现在"
+      },
+      {
+        "grade": 4,
+        "word": "o'clock",
+        "phonetic": "/əˈklɒk/",
+        "meaning": "点钟"
+      },
+      {
+        "grade": 4,
+        "word": "kid",
+        "phonetic": "/kɪd/",
+        "meaning": "小孩"
+      },
+      {
+        "grade": 4,
+        "word": "thirty",
+        "phonetic": "/ˈθɜːti/",
+        "meaning": "三十"
+      },
+      {
+        "grade": 4,
+        "word": "hurry up",
+        "phonetic": "/ˈhʌrɪ ʌp/",
+        "meaning": "快点"
+      },
+      {
+        "grade": 4,
+        "word": "come on",
+        "phonetic": "/ˈkʌm ɒn/",
+        "meaning": "加油"
+      },
+      {
+        "grade": 4,
+        "word": "just a minute",
+        "phonetic": "/dʒʌst ə; eɪ ˈmɪnɪt/",
+        "meaning": "稍等一会儿"
+      },
+      {
+        "grade": 4,
+        "word": "cold",
+        "phonetic": "/kəʊld/",
+        "meaning": "冷的"
+      },
+      {
+        "grade": 4,
+        "word": "cool",
+        "phonetic": "/kuːl/",
+        "meaning": "凉的"
+      },
+      {
+        "grade": 4,
+        "word": "warm",
+        "phonetic": "/wɔːm/",
+        "meaning": "温暖的"
+      },
+      {
+        "grade": 4,
+        "word": "hot",
+        "phonetic": "/hɒt/",
+        "meaning": "热的"
+      },
+      {
+        "grade": 4,
+        "word": "sunny",
+        "phonetic": "/ˈsʌni/",
+        "meaning": "阳光充足的"
+      },
+      {
+        "grade": 4,
+        "word": "windy",
+        "phonetic": "/ˈwɪndi/",
+        "meaning": "多风的"
+      },
+      {
+        "grade": 4,
+        "word": "cloudy",
+        "phonetic": "/ˈklaʊdi/",
+        "meaning": "多云的"
+      },
+      {
+        "grade": 4,
+        "word": "snowy",
+        "phonetic": "/ˈsnəʊi/",
+        "meaning": "下雪的"
+      },
+      {
+        "grade": 4,
+        "word": "rainy",
+        "phonetic": "/ˈreɪni/",
+        "meaning": "阴雨的"
+      },
+      {
+        "grade": 4,
+        "word": "outside",
+        "phonetic": "/ˌaʊtˈsaɪd/",
+        "meaning": "在户外"
+      },
+      {
+        "grade": 4,
+        "word": "be careful",
+        "phonetic": "/biː; bi ˈkeəf(ə)l/",
+        "meaning": "小心"
+      },
+      {
+        "grade": 4,
+        "word": "weather",
+        "phonetic": "/ˈweðə(r)/",
+        "meaning": "天气"
+      },
+      {
+        "grade": 4,
+        "word": "New York",
+        "phonetic": "/njuː jɔːk/",
+        "meaning": "纽约"
+      },
+      {
+        "grade": 4,
+        "word": "how about...",
+        "phonetic": "/haʊ əˈbaʊt/",
+        "meaning": "怎么样？"
+      },
+      {
+        "grade": 4,
+        "word": "degree",
+        "phonetic": "/dɪˈɡriː/",
+        "meaning": "度"
+      },
+      {
+        "grade": 4,
+        "word": "world",
+        "phonetic": "/wɜːld/",
+        "meaning": "世界"
+      },
+      {
+        "grade": 4,
+        "word": "London",
+        "phonetic": "/ˈlʌndən/",
+        "meaning": "伦敦"
+      },
+      {
+        "grade": 4,
+        "word": "Moscow",
+        "phonetic": "/ˈmɒskəʊ/",
+        "meaning": "莫斯科"
+      },
+      {
+        "grade": 4,
+        "word": "Singapore",
+        "phonetic": "/ˌsɪŋəˈpɔː(r)/",
+        "meaning": "新加坡城"
+      },
+      {
+        "grade": 4,
+        "word": "Sydney",
+        "phonetic": "/ˈsɪdni/",
+        "meaning": "悉尼"
+      },
+      {
+        "grade": 4,
+        "word": "fly",
+        "phonetic": "/flaɪ/",
+        "meaning": "放（风筝）"
+      },
+      {
+        "grade": 4,
+        "word": "love",
+        "phonetic": "/lʌv/",
+        "meaning": "爱你的"
+      },
+      {
+        "grade": 4,
+        "word": "tomato",
+        "phonetic": "/təˈmɑːtəʊ/",
+        "meaning": "西红柿"
+      },
+      {
+        "grade": 4,
+        "word": "potato",
+        "phonetic": "/pəˈteɪtəʊ/",
+        "meaning": "马铃薯"
+      },
+      {
+        "grade": 4,
+        "word": "green beans",
+        "phonetic": "/ˌɡriːn ˈbiːnz/",
+        "meaning": "豆角"
+      },
+      {
+        "grade": 4,
+        "word": "carrot",
+        "phonetic": "/ˈkærət/",
+        "meaning": "胡萝卜"
+      },
+      {
+        "grade": 4,
+        "word": "horse",
+        "phonetic": "/hɔːs/",
+        "meaning": "马"
+      },
+      {
+        "grade": 4,
+        "word": "cow",
+        "phonetic": "/kaʊ/",
+        "meaning": "牛"
+      },
+      {
+        "grade": 4,
+        "word": "sheep",
+        "phonetic": "/ʃiːp/",
+        "meaning": "绵羊"
+      },
+      {
+        "grade": 4,
+        "word": "hen",
+        "phonetic": "/hen/",
+        "meaning": "母鸡"
+      },
+      {
+        "grade": 4,
+        "word": "these",
+        "phonetic": "/ðiːz/",
+        "meaning": "这些"
+      },
+      {
+        "grade": 4,
+        "word": "yum",
+        "phonetic": "/jʌm/",
+        "meaning": "味道好"
+      },
+      {
+        "grade": 4,
+        "word": "animal",
+        "phonetic": "/ˈænɪm(ə)l/",
+        "meaning": "动物"
+      },
+      {
+        "grade": 4,
+        "word": "those",
+        "phonetic": "/ðəʊz/",
+        "meaning": "那些"
+      },
+      {
+        "grade": 4,
+        "word": "garden",
+        "phonetic": "/ˈɡɑːd(ə)n/",
+        "meaning": "花园"
+      },
+      {
+        "grade": 4,
+        "word": "farm",
+        "phonetic": "/fɑːm/",
+        "meaning": "农场"
+      },
+      {
+        "grade": 4,
+        "word": "goat",
+        "phonetic": "/ɡəʊt/",
+        "meaning": "山羊"
+      },
+      {
+        "grade": 4,
+        "word": "eat",
+        "phonetic": "/iːt/",
+        "meaning": "吃"
+      },
+      {
+        "grade": 4,
+        "word": "clothes",
+        "phonetic": "/kləʊðz/",
+        "meaning": "服装"
+      },
+      {
+        "grade": 4,
+        "word": "pants",
+        "phonetic": "/pænts/",
+        "meaning": "裤子"
+      },
+      {
+        "grade": 4,
+        "word": "hat",
+        "phonetic": "/hæt/",
+        "meaning": "帽子"
+      },
+      {
+        "grade": 4,
+        "word": "dress",
+        "phonetic": "/dres/",
+        "meaning": "连衣裙"
+      },
+      {
+        "grade": 4,
+        "word": "skirt",
+        "phonetic": "/skɜːt/",
+        "meaning": "女裙"
+      },
+      {
+        "grade": 4,
+        "word": "coat",
+        "phonetic": "/kəʊt/",
+        "meaning": "大衣"
+      },
+      {
+        "grade": 4,
+        "word": "sweater",
+        "phonetic": "/ˈswetə(r)/",
+        "meaning": "毛衣"
+      },
+      {
+        "grade": 4,
+        "word": "sock",
+        "phonetic": "/sɒk/",
+        "meaning": "短袜"
+      },
+      {
+        "grade": 4,
+        "word": "shorts",
+        "phonetic": "/ʃɔːts/",
+        "meaning": "短裤"
+      },
+      {
+        "grade": 4,
+        "word": "jacket",
+        "phonetic": "/ˈdʒækɪt/",
+        "meaning": "夹克衫"
+      },
+      {
+        "grade": 4,
+        "word": "shirt",
+        "phonetic": "/ʃɜːt/",
+        "meaning": "衬衫"
+      },
+      {
+        "grade": 4,
+        "word": "yours",
+        "phonetic": "/jɔːz/",
+        "meaning": "你的"
+      },
+      {
+        "grade": 4,
+        "word": "whose",
+        "phonetic": "/huːz/",
+        "meaning": "谁的"
+      },
+      {
+        "grade": 4,
+        "word": "mine",
+        "phonetic": "/maɪn/",
+        "meaning": "我的"
+      },
+      {
+        "grade": 4,
+        "word": "pack",
+        "phonetic": "/pæk/",
+        "meaning": "收拾"
+      },
+      {
+        "grade": 4,
+        "word": "wait",
+        "phonetic": "/weɪt/",
+        "meaning": "等待"
+      },
+      {
+        "grade": 4,
+        "word": "glove",
+        "phonetic": "/ɡlʌv/",
+        "meaning": "手套"
+      },
+      {
+        "grade": 4,
+        "word": "scarf",
+        "phonetic": "/skɑːf/",
+        "meaning": "围巾"
+      },
+      {
+        "grade": 4,
+        "word": "umbrella",
+        "phonetic": "/ʌmˈbrelə/",
+        "meaning": "伞"
+      },
+      {
+        "grade": 4,
+        "word": "sunglasses",
+        "phonetic": "/ˈsʌnɡlɑːsɪz/",
+        "meaning": "太阳镜"
+      },
+      {
+        "grade": 4,
+        "word": "pretty",
+        "phonetic": "/ˈprɪti/",
+        "meaning": "美丽的"
+      },
+      {
+        "grade": 4,
+        "word": "expensive",
+        "phonetic": "/ɪkˈspensɪv/",
+        "meaning": "贵的"
+      },
+      {
+        "grade": 4,
+        "word": "cheap",
+        "phonetic": "/tʃiːp/",
+        "meaning": "便宜的"
+      },
+      {
+        "grade": 4,
+        "word": "nice",
+        "phonetic": "/naɪs/",
+        "meaning": "好的"
+      },
+      {
+        "grade": 4,
+        "word": "try on",
+        "phonetic": "/traɪ ɒn/",
+        "meaning": "试穿"
+      },
+      {
+        "grade": 4,
+        "word": "size",
+        "phonetic": "/saɪz/",
+        "meaning": "尺码"
+      },
+      {
+        "grade": 4,
+        "word": "of course",
+        "phonetic": "/ɒv; əv kɔːs/",
+        "meaning": "当然"
+      },
+      {
+        "grade": 4,
+        "word": "too",
+        "phonetic": "/tuː/",
+        "meaning": "太"
+      },
+      {
+        "grade": 4,
+        "word": "just",
+        "phonetic": "/dʒʌst/",
+        "meaning": "正好"
+      },
+      {
+        "grade": 4,
+        "word": "how much",
+        "phonetic": "/haʊ mʌtʃ/",
+        "meaning": "多少钱"
+      },
+      {
+        "grade": 4,
+        "word": "eighty",
+        "phonetic": "/ˈeɪti/",
+        "meaning": "八十"
+      },
+      {
+        "grade": 4,
+        "word": "dollar",
+        "phonetic": "/ˈdɒlə(r)/",
+        "meaning": "元"
+      },
+      {
+        "grade": 4,
+        "word": "sale",
+        "phonetic": "/seɪl/",
+        "meaning": "特价销售"
+      },
+      {
+        "grade": 4,
+        "word": "more",
+        "phonetic": "/mɔː(r)/",
+        "meaning": "更多的"
+      },
+      {
+        "grade": 4,
+        "word": "us",
+        "phonetic": "/ʌs; əs/",
+        "meaning": "我们"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "Our classroom is on the first floor.",
+        "zh": "我们的教室在一楼。"
+      },
+      {
+        "en": "The music room is on the second floor.",
+        "zh": "音乐室位于二楼。"
+      },
+      {
+        "en": "The teacher's office is next to our classroom.",
+        "zh": "老师的办公室在我们教室旁边。"
+      },
+      {
+        "en": "We read books in the library.",
+        "zh": "我们在图书馆看书。"
+      },
+      {
+        "en": "There is a playground in the picture.",
+        "zh": "图中有一个游乐场。"
+      },
+      {
+        "en": "We learn typing in the computer room.",
+        "zh": "我们在机房里学习打字。"
+      },
+      {
+        "en": "The art room is bright and clean.",
+        "zh": "美术室明亮、干净。"
+      },
+      {
+        "en": "We sing songs in the music room.",
+        "zh": "我们在音乐室唱歌。"
+      },
+      {
+        "en": "My desk is next to the window.",
+        "zh": "我的桌子在窗户旁边。"
+      },
+      {
+        "en": "Homework is useful at school.",
+        "zh": "家庭作业在学校很有用。"
+      },
+      {
+        "en": "There is a class in the picture.",
+        "zh": "图中有一个班级。"
+      },
+      {
+        "en": "My father is forty years old.",
+        "zh": "我父亲四十岁了。"
+      },
+      {
+        "en": "There is a way in the picture.",
+        "zh": "图中有一个方法。"
+      },
+      {
+        "en": "There is a breakfast in the picture.",
+        "zh": "图片里有早餐。"
+      },
+      {
+        "en": "We read a story in English class.",
+        "zh": "我们在英语课上读了一个故事。"
+      },
+      {
+        "en": "I ate a lunch for lunch.",
+        "zh": "午饭我吃了一顿午饭。"
+      },
+      {
+        "en": "We learn a new song in music class.",
+        "zh": "我们在音乐课上学一首新歌。"
+      },
+      {
+        "en": "We run and jump in PE class.",
+        "zh": "我们在体育课上跑、跳。"
+      },
+      {
+        "en": "There is a dinner in the picture.",
+        "zh": "图中有晚餐。"
+      },
+      {
+        "en": "I get up at seven o'clock.",
+        "zh": "我七点钟起床。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "冠词",
+        "question": "I have ___ apple on the table.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "/"
+        ],
+        "answer": 1,
+        "explain": "apple 以元音音素 /æ/ 开头，用 an。",
+        "question_zh": "桌子上有一个苹果。"
+      },
+      {
+        "category": "复数",
+        "question": "There are many ___ in the tree.",
+        "options": [
+          "monkey",
+          "monkeys",
+          "monkies",
+          "a monkey"
+        ],
+        "answer": 1,
+        "explain": "many 后接名词复数 monkeys，辅音+y 变 y 为 i 加 es 只适用于以 y 结尾且 y 前是辅音的词。",
+        "question_zh": "树上有许多猴子。"
+      },
+      {
+        "category": "疑问句",
+        "question": "___ you like music?",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "answer": 0,
+        "explain": "一般现在时一般疑问句，主语 you 用助动词 Do。",
+        "question_zh": "你喜欢音乐吗？"
+      },
+      {
+        "category": "时间介词",
+        "question": "We play outside ___ the afternoon.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "to"
+        ],
+        "answer": 0,
+        "explain": "一天中的上午、下午、晚上用 in。",
+        "question_zh": "我们下午在外面玩。"
+      }
+    ]
+  },
+  "primary_5a.json": {
+    "words": [
+      {
+        "grade": 5,
+        "word": "old",
+        "phonetic": "/əʊld/",
+        "meaning": "老的"
+      },
+      {
+        "grade": 5,
+        "word": "young",
+        "phonetic": "/jʌŋ/",
+        "meaning": "年轻的"
+      },
+      {
+        "grade": 5,
+        "word": "funny",
+        "phonetic": "/ˈfʌni/",
+        "meaning": "滑稽的"
+      },
+      {
+        "grade": 5,
+        "word": "kind",
+        "phonetic": "/kaɪnd/",
+        "meaning": "体贴的"
+      },
+      {
+        "grade": 5,
+        "word": "strict",
+        "phonetic": "/strɪkt/",
+        "meaning": "严厉的"
+      },
+      {
+        "grade": 5,
+        "word": "polite",
+        "phonetic": "/pəˈlaɪt/",
+        "meaning": "有礼貌的"
+      },
+      {
+        "grade": 5,
+        "word": "hard-working",
+        "phonetic": "/ˌhɑːd ˈwɜːkɪŋ/",
+        "meaning": "努力的"
+      },
+      {
+        "grade": 5,
+        "word": "helpful",
+        "phonetic": "/ˈhelpf(ə)l/",
+        "meaning": "有用的"
+      },
+      {
+        "grade": 5,
+        "word": "clever",
+        "phonetic": "/ˈklevə(r)/",
+        "meaning": "聪明的"
+      },
+      {
+        "grade": 5,
+        "word": "shy",
+        "phonetic": "/ʃaɪ/",
+        "meaning": "羞怯的"
+      },
+      {
+        "grade": 5,
+        "word": "know",
+        "phonetic": "/nəʊ/",
+        "meaning": "知道"
+      },
+      {
+        "grade": 5,
+        "word": "our",
+        "phonetic": "/ˈaʊə(r)/",
+        "meaning": "我们的"
+      },
+      {
+        "grade": 5,
+        "word": "Ms",
+        "phonetic": "/mɪz/",
+        "meaning": "女士"
+      },
+      {
+        "grade": 5,
+        "word": "will",
+        "phonetic": "/wɪl/",
+        "meaning": "将要"
+      },
+      {
+        "grade": 5,
+        "word": "sometimes",
+        "phonetic": "/ˈsʌmtaɪmz/",
+        "meaning": "有时"
+      },
+      {
+        "grade": 5,
+        "word": "robot",
+        "phonetic": "/ˈrəʊbɒt/",
+        "meaning": "机器人"
+      },
+      {
+        "grade": 5,
+        "word": "him",
+        "phonetic": "/hɪm/",
+        "meaning": "他"
+      },
+      {
+        "grade": 5,
+        "word": "speak",
+        "phonetic": "/spiːk/",
+        "meaning": "会说"
+      },
+      {
+        "grade": 5,
+        "word": "finish",
+        "phonetic": "/ˈfɪnɪʃ/",
+        "meaning": "完成"
+      },
+      {
+        "grade": 5,
+        "word": "Monday",
+        "phonetic": "/ˈmʌndeɪ; ˈmʌndi/",
+        "meaning": "星期一"
+      },
+      {
+        "grade": 5,
+        "word": "Tuesday",
+        "phonetic": "/ˈtjuːzdeɪ/",
+        "meaning": "星期二"
+      },
+      {
+        "grade": 5,
+        "word": "Wednesday",
+        "phonetic": "/ˈwenzdeɪ/",
+        "meaning": "星期三"
+      },
+      {
+        "grade": 5,
+        "word": "Thursday",
+        "phonetic": "/ˈθɜːzdeɪ/",
+        "meaning": "星期四"
+      },
+      {
+        "grade": 5,
+        "word": "Friday",
+        "phonetic": "/ˈfraɪdeɪ/",
+        "meaning": "星期五"
+      },
+      {
+        "grade": 5,
+        "word": "Saturday",
+        "phonetic": "/ˈsætədeɪ/",
+        "meaning": "星期六"
+      },
+      {
+        "grade": 5,
+        "word": "Sunday",
+        "phonetic": "/ˈsʌndeɪ/",
+        "meaning": "星期日"
+      },
+      {
+        "grade": 5,
+        "word": "weekend",
+        "phonetic": "/ˌwiːkˈend; ˈwiːkend/",
+        "meaning": "周末"
+      },
+      {
+        "grade": 5,
+        "word": "wash",
+        "phonetic": "/wɒʃ/",
+        "meaning": "洗"
+      },
+      {
+        "grade": 5,
+        "word": "wash my clothes",
+        "phonetic": "/wɒʃ maɪ kləʊðz/",
+        "meaning": "洗我的衣服"
+      },
+      {
+        "grade": 5,
+        "word": "watch",
+        "phonetic": "/wɒtʃ/",
+        "meaning": "看"
+      },
+      {
+        "grade": 5,
+        "word": "watch TV",
+        "phonetic": "/wɒtʃ ˌtiː ˈviː/",
+        "meaning": "看电视"
+      },
+      {
+        "grade": 5,
+        "word": "do",
+        "phonetic": "/duː; də/",
+        "meaning": "做"
+      },
+      {
+        "grade": 5,
+        "word": "do homework",
+        "phonetic": "/duː; də ˈhəʊmwɜːk/",
+        "meaning": "做作业"
+      },
+      {
+        "grade": 5,
+        "word": "read",
+        "phonetic": "/riːd/",
+        "meaning": "看"
+      },
+      {
+        "grade": 5,
+        "word": "read books",
+        "phonetic": "/riːd bʊks/",
+        "meaning": "看书"
+      },
+      {
+        "grade": 5,
+        "word": "play",
+        "phonetic": "/pleɪ/",
+        "meaning": "玩"
+      },
+      {
+        "grade": 5,
+        "word": "play football",
+        "phonetic": "/pleɪ ˈfʊtbɔːl/",
+        "meaning": "踢足球"
+      },
+      {
+        "grade": 5,
+        "word": "cooking",
+        "phonetic": "/ˈkʊkɪŋ/",
+        "meaning": "烹饪"
+      },
+      {
+        "grade": 5,
+        "word": "often",
+        "phonetic": "/ˈɒf(ə)n/",
+        "meaning": "时常"
+      },
+      {
+        "grade": 5,
+        "word": "park",
+        "phonetic": "/pɑːk/",
+        "meaning": "公园"
+      },
+      {
+        "grade": 5,
+        "word": "tired",
+        "phonetic": "/ˈtaɪəd/",
+        "meaning": "疲倦的"
+      },
+      {
+        "grade": 5,
+        "word": "sport",
+        "phonetic": "/spɔːt/",
+        "meaning": "体育运动"
+      },
+      {
+        "grade": 5,
+        "word": "play sports",
+        "phonetic": "/pleɪ spɔːts/",
+        "meaning": "做体育运动"
+      },
+      {
+        "grade": 5,
+        "word": "should",
+        "phonetic": "/ʃʊd; ʃəd/",
+        "meaning": "应该"
+      },
+      {
+        "grade": 5,
+        "word": "every",
+        "phonetic": "/ˈevri/",
+        "meaning": "每一个"
+      },
+      {
+        "grade": 5,
+        "word": "day",
+        "phonetic": "/deɪ/",
+        "meaning": "一天"
+      },
+      {
+        "grade": 5,
+        "word": "schedule",
+        "phonetic": "/ˈʃedjuːl/",
+        "meaning": "工作计划"
+      },
+      {
+        "grade": 5,
+        "word": "sandwich",
+        "phonetic": "/ˈsænwɪtʃ/",
+        "meaning": "三明治"
+      },
+      {
+        "grade": 5,
+        "word": "salad",
+        "phonetic": "/ˈsæləd/",
+        "meaning": "沙拉"
+      },
+      {
+        "grade": 5,
+        "word": "hamburger",
+        "phonetic": "/ˈhæmbɜːɡə(r)/",
+        "meaning": "汉堡包"
+      },
+      {
+        "grade": 5,
+        "word": "ice cream",
+        "phonetic": "/ˈaɪs kriːm/",
+        "meaning": "冰淇淋"
+      },
+      {
+        "grade": 5,
+        "word": "tea",
+        "phonetic": "/tiː/",
+        "meaning": "茶"
+      },
+      {
+        "grade": 5,
+        "word": "fresh",
+        "phonetic": "/freʃ/",
+        "meaning": "新鲜的"
+      },
+      {
+        "grade": 5,
+        "word": "healthy",
+        "phonetic": "/ˈhelθi/",
+        "meaning": "健康的"
+      },
+      {
+        "grade": 5,
+        "word": "delicious",
+        "phonetic": "/dɪˈlɪʃəs/",
+        "meaning": "美味的"
+      },
+      {
+        "grade": 5,
+        "word": "hot",
+        "phonetic": "/hɒt/",
+        "meaning": "辣的"
+      },
+      {
+        "grade": 5,
+        "word": "sweet",
+        "phonetic": "/swiːt/",
+        "meaning": "甜的"
+      },
+      {
+        "grade": 5,
+        "word": "drink",
+        "phonetic": "/drɪŋk/",
+        "meaning": "喝"
+      },
+      {
+        "grade": 5,
+        "word": "thirsty",
+        "phonetic": "/ˈθɜːsti/",
+        "meaning": "渴的"
+      },
+      {
+        "grade": 5,
+        "word": "favourite",
+        "phonetic": "/ˈfeɪvərɪt/",
+        "meaning": "特别喜欢的"
+      },
+      {
+        "grade": 5,
+        "word": "food",
+        "phonetic": "/fuːd/",
+        "meaning": "食物"
+      },
+      {
+        "grade": 5,
+        "word": "Dear",
+        "phonetic": "/dɪə(r)/",
+        "meaning": "亲爱的"
+      },
+      {
+        "grade": 5,
+        "word": "onion",
+        "phonetic": "/ˈʌnjən/",
+        "meaning": "洋葱"
+      },
+      {
+        "grade": 5,
+        "word": "sing",
+        "phonetic": "/sɪŋ/",
+        "meaning": "唱"
+      },
+      {
+        "grade": 5,
+        "word": "song",
+        "phonetic": "/sɒŋ/",
+        "meaning": "歌曲"
+      },
+      {
+        "grade": 5,
+        "word": "sing English songs",
+        "phonetic": "/sɪŋ ˈɪŋɡlɪʃ sɒŋz/",
+        "meaning": "唱英文歌曲"
+      },
+      {
+        "grade": 5,
+        "word": "play the pipa",
+        "phonetic": "/pleɪ ðə; ði pɪˈpɑː; ˈpaɪpə; ˈpɪpə/",
+        "meaning": "弹琵琶"
+      },
+      {
+        "grade": 5,
+        "word": "kung fu",
+        "phonetic": "/ˌkʌŋˈfuː/",
+        "meaning": "功夫"
+      },
+      {
+        "grade": 5,
+        "word": "do kung fu",
+        "phonetic": "/duː; də ˌkʌŋ ˈfuː/",
+        "meaning": "练武术"
+      },
+      {
+        "grade": 5,
+        "word": "dance",
+        "phonetic": "/dɑːns/",
+        "meaning": "跳舞"
+      },
+      {
+        "grade": 5,
+        "word": "draw",
+        "phonetic": "/drɔː/",
+        "meaning": "画"
+      },
+      {
+        "grade": 5,
+        "word": "cartoon",
+        "phonetic": "/kɑːˈtuːn/",
+        "meaning": "漫画"
+      },
+      {
+        "grade": 5,
+        "word": "draw cartoons",
+        "phonetic": "/drɔː kɑːˈtuːnz/",
+        "meaning": "画漫画"
+      },
+      {
+        "grade": 5,
+        "word": "cook",
+        "phonetic": "/kʊk/",
+        "meaning": "烹饪"
+      },
+      {
+        "grade": 5,
+        "word": "swim",
+        "phonetic": "/swɪm/",
+        "meaning": "游泳"
+      },
+      {
+        "grade": 5,
+        "word": "play basketball",
+        "phonetic": "/pleɪ ˈbɑːskɪtbɔːl/",
+        "meaning": "打篮球"
+      },
+      {
+        "grade": 5,
+        "word": "ping-pong",
+        "phonetic": "/ˈpɪŋ pɒŋ/",
+        "meaning": "乒乓球"
+      },
+      {
+        "grade": 5,
+        "word": "play ping-pong",
+        "phonetic": "/pleɪ pɪŋ pɒŋ/",
+        "meaning": "打乒乓球"
+      },
+      {
+        "grade": 5,
+        "word": "speak English",
+        "phonetic": "/spiːk ˈɪŋɡlɪʃ/",
+        "meaning": "说英语"
+      },
+      {
+        "grade": 5,
+        "word": "we'll",
+        "phonetic": "/wiːl/",
+        "meaning": "我们将……（=we will）"
+      },
+      {
+        "grade": 5,
+        "word": "party",
+        "phonetic": "/ˈpɑːti/",
+        "meaning": "聚会"
+      },
+      {
+        "grade": 5,
+        "word": "next",
+        "phonetic": "/nekst/",
+        "meaning": "下一个的"
+      },
+      {
+        "grade": 5,
+        "word": "wonderful",
+        "phonetic": "/ˈwʌndəf(ə)l/",
+        "meaning": "极好的"
+      },
+      {
+        "grade": 5,
+        "word": "learn",
+        "phonetic": "/lɜːn/",
+        "meaning": "学习"
+      },
+      {
+        "grade": 5,
+        "word": "any",
+        "phonetic": "/ˈeni/",
+        "meaning": "任何的"
+      },
+      {
+        "grade": 5,
+        "word": "problem",
+        "phonetic": "/ˈprɒbləm/",
+        "meaning": "没问题"
+      },
+      {
+        "grade": 5,
+        "word": "no problem",
+        "phonetic": "/nəʊ ˈprɒbləm/",
+        "meaning": "没问题"
+      },
+      {
+        "grade": 5,
+        "word": "want",
+        "phonetic": "/wɒnt/",
+        "meaning": "要"
+      },
+      {
+        "grade": 5,
+        "word": "send",
+        "phonetic": "/send/",
+        "meaning": "邮寄"
+      },
+      {
+        "grade": 5,
+        "word": "email",
+        "phonetic": "/ˈiːmeɪl/",
+        "meaning": "电子邮件"
+      },
+      {
+        "grade": 5,
+        "word": "at",
+        "phonetic": "/æt; ət/",
+        "meaning": "（接邮件地址）"
+      },
+      {
+        "grade": 5,
+        "word": "clock",
+        "phonetic": "/klɒk/",
+        "meaning": "时钟"
+      },
+      {
+        "grade": 5,
+        "word": "plant",
+        "phonetic": "/plɑːnt/",
+        "meaning": "植物"
+      },
+      {
+        "grade": 5,
+        "word": "bottle",
+        "phonetic": "/ˈbɒt(ə)l/",
+        "meaning": "瓶子"
+      },
+      {
+        "grade": 5,
+        "word": "water bottle",
+        "phonetic": "/ˈwɔːtə(r) ˈbɒt(ə)l/",
+        "meaning": "水瓶"
+      },
+      {
+        "grade": 5,
+        "word": "bike",
+        "phonetic": "/baɪk/",
+        "meaning": "自行车"
+      },
+      {
+        "grade": 5,
+        "word": "photo",
+        "phonetic": "/ˈfəʊtəʊ/",
+        "meaning": "照片"
+      },
+      {
+        "grade": 5,
+        "word": "front",
+        "phonetic": "/frʌnt/",
+        "meaning": "正面"
+      },
+      {
+        "grade": 5,
+        "word": "in front of",
+        "phonetic": "/ɪn frʌnt əv/",
+        "meaning": "在⋯⋯前面"
+      },
+      {
+        "grade": 5,
+        "word": "between",
+        "phonetic": "/bɪˈtwiːn/",
+        "meaning": "在⋯⋯中间"
+      },
+      {
+        "grade": 5,
+        "word": "above",
+        "phonetic": "/əˈbʌv/",
+        "meaning": "在⋯⋯上面"
+      },
+      {
+        "grade": 5,
+        "word": "beside",
+        "phonetic": "/bɪˈsaɪd/",
+        "meaning": "在旁边"
+      },
+      {
+        "grade": 5,
+        "word": "behind",
+        "phonetic": "/bɪˈhaɪnd/",
+        "meaning": "在⋯⋯后面"
+      },
+      {
+        "grade": 5,
+        "word": "there",
+        "phonetic": "/ðeə(r)/",
+        "meaning": "（存在或发生）"
+      },
+      {
+        "grade": 5,
+        "word": "grandparent",
+        "phonetic": "/ˈɡrænpeərənt/",
+        "meaning": "（外）祖父母"
+      },
+      {
+        "grade": 5,
+        "word": "their",
+        "phonetic": "/ðeə(r)/",
+        "meaning": "他们的"
+      },
+      {
+        "grade": 5,
+        "word": "house",
+        "phonetic": "/haʊs/",
+        "meaning": "房子"
+      },
+      {
+        "grade": 5,
+        "word": "lot",
+        "phonetic": "/lɒt/",
+        "meaning": "大量"
+      },
+      {
+        "grade": 5,
+        "word": "lots of",
+        "phonetic": "/lɒts ɒv; əv/",
+        "meaning": "大量"
+      },
+      {
+        "grade": 5,
+        "word": "flower",
+        "phonetic": "/ˈflaʊə(r)/",
+        "meaning": "花"
+      },
+      {
+        "grade": 5,
+        "word": "move",
+        "phonetic": "/muːv/",
+        "meaning": "搬家"
+      },
+      {
+        "grade": 5,
+        "word": "dirty",
+        "phonetic": "/ˈdɜːti/",
+        "meaning": "肮脏的"
+      },
+      {
+        "grade": 5,
+        "word": "everywhere",
+        "phonetic": "/ˈevriweə(r)/",
+        "meaning": "处处"
+      },
+      {
+        "grade": 5,
+        "word": "mouse",
+        "phonetic": "/maʊs/",
+        "meaning": "老鼠"
+      },
+      {
+        "grade": 5,
+        "word": "live",
+        "phonetic": "/lɪv; laɪv/",
+        "meaning": "住"
+      },
+      {
+        "grade": 5,
+        "word": "nature",
+        "phonetic": "/ˈneɪtʃə(r)/",
+        "meaning": "自然界"
+      },
+      {
+        "grade": 5,
+        "word": "forest",
+        "phonetic": "/ˈfɒrɪst/",
+        "meaning": "森林"
+      },
+      {
+        "grade": 5,
+        "word": "river",
+        "phonetic": "/ˈrɪvə(r)/",
+        "meaning": "河"
+      },
+      {
+        "grade": 5,
+        "word": "lake",
+        "phonetic": "/leɪk/",
+        "meaning": "湖"
+      },
+      {
+        "grade": 5,
+        "word": "mountain",
+        "phonetic": "/ˈmaʊntən/",
+        "meaning": "山"
+      },
+      {
+        "grade": 5,
+        "word": "hill",
+        "phonetic": "/hɪl/",
+        "meaning": "小山"
+      },
+      {
+        "grade": 5,
+        "word": "tree",
+        "phonetic": "/triː/",
+        "meaning": "树"
+      },
+      {
+        "grade": 5,
+        "word": "bridge",
+        "phonetic": "/brɪdʒ/",
+        "meaning": "桥"
+      },
+      {
+        "grade": 5,
+        "word": "building",
+        "phonetic": "/ˈbɪldɪŋ/",
+        "meaning": "建筑"
+      },
+      {
+        "grade": 5,
+        "word": "village",
+        "phonetic": "/ˈvɪlɪdʒ/",
+        "meaning": "村庄"
+      },
+      {
+        "grade": 5,
+        "word": "house.",
+        "phonetic": "/haʊs/",
+        "meaning": "房屋"
+      },
+      {
+        "grade": 5,
+        "word": "boating",
+        "phonetic": "/ˈbəʊtɪŋ/",
+        "meaning": "划船"
+      },
+      {
+        "grade": 5,
+        "word": "go boating",
+        "phonetic": "/ɡəʊ ˈbəʊtɪŋ/",
+        "meaning": "去划船"
+      },
+      {
+        "grade": 5,
+        "word": "aren't",
+        "phonetic": "/ɑːnt/",
+        "meaning": "不是（= are not）"
+      },
+      {
+        "grade": 5,
+        "word": "rabbit",
+        "phonetic": "/ˈræbɪt/",
+        "meaning": "兔"
+      },
+      {
+        "grade": 5,
+        "word": "high",
+        "phonetic": "/haɪ/",
+        "meaning": "高的"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "The old house is near the river.",
+        "zh": "老房子靠近河。"
+      },
+      {
+        "en": "The young child is smiling.",
+        "zh": "年幼的孩子正在微笑。"
+      },
+      {
+        "en": "The story is funny.",
+        "zh": "这个故事很有趣。"
+      },
+      {
+        "en": "The example is kind.",
+        "zh": "这个例子很亲切。"
+      },
+      {
+        "en": "The example is strict.",
+        "zh": "例子很严格。"
+      },
+      {
+        "en": "The student is polite.",
+        "zh": "这名学生很有礼貌。"
+      },
+      {
+        "en": "The example is hard-working.",
+        "zh": "例子是勤劳的。"
+      },
+      {
+        "en": "The advice is helpful.",
+        "zh": "这个建议很有帮助。"
+      },
+      {
+        "en": "The student is clever.",
+        "zh": "这位学生很聪明。"
+      },
+      {
+        "en": "The example is shy.",
+        "zh": "例子是害羞的。"
+      },
+      {
+        "en": "I know the answer.",
+        "zh": "我知道答案。"
+      },
+      {
+        "en": "Our classroom is clean.",
+        "zh": "我们的教室很干净。"
+      },
+      {
+        "en": "Ms. Brown works in the office.",
+        "zh": "布朗女士在办公室工作。"
+      },
+      {
+        "en": "I will call you tonight.",
+        "zh": "今晚我会给你打电话。"
+      },
+      {
+        "en": "Sometimes are important in this lesson.",
+        "zh": "有时在本课中很重要。"
+      },
+      {
+        "en": "The robot cleaned the floor.",
+        "zh": "机器人清扫了地板。"
+      },
+      {
+        "en": "I met him at the gate.",
+        "zh": "我在门口遇见了他。"
+      },
+      {
+        "en": "Please speak more slowly.",
+        "zh": "请说得慢一点。"
+      },
+      {
+        "en": "Please finish your homework first.",
+        "zh": "请先完成你的作业。"
+      },
+      {
+        "en": "Monday is the first school day of the week.",
+        "zh": "星期一是一周的第一个上学日。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "冠词",
+        "question": "She is ___ teacher.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "/"
+        ],
+        "answer": 0,
+        "explain": "teacher 以辅音音素开头，表示“一名”用 a。",
+        "question_zh": "她是一位老师。"
+      },
+      {
+        "category": "一般现在",
+        "question": "I ___ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "went"
+        ],
+        "answer": 0,
+        "explain": "主语 I，一般现在时用动词原形 go。",
+        "question_zh": "我每天去上学。"
+      },
+      {
+        "category": "疑问句",
+        "question": "___ she have a cat?",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "answer": 1,
+        "explain": "主语 she 三单，一般疑问句用助动词 Does。",
+        "question_zh": "她有一只猫吗？"
+      },
+      {
+        "category": "there be",
+        "question": "There ___ a book on the desk.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "answer": 0,
+        "explain": "there be 句型，a book 单数用 is。",
+        "question_zh": "书桌上有一本书。"
+      }
+    ]
+  },
+  "primary_5b.json": {
+    "words": [
+      {
+        "grade": 5,
+        "word": "eat breakfast",
+        "phonetic": "/iːt ˈbrekfəst/",
+        "meaning": "吃早饭"
+      },
+      {
+        "grade": 5,
+        "word": "have...class",
+        "phonetic": "/hæv; həv klɑːs/",
+        "meaning": "上⋯⋯课"
+      },
+      {
+        "grade": 5,
+        "word": "play sports",
+        "phonetic": "/pleɪ spɔːts/",
+        "meaning": "进行体育运动"
+      },
+      {
+        "grade": 5,
+        "word": "exercise",
+        "phonetic": "/ˈeksəsaɪz/",
+        "meaning": "活动"
+      },
+      {
+        "grade": 5,
+        "word": "do morning exercise",
+        "phonetic": "/duː; də ˈmɔːnɪŋ ˈeksəsaɪz/",
+        "meaning": "做早操"
+      },
+      {
+        "grade": 5,
+        "word": "eat dinner",
+        "phonetic": "/iːt ˈdɪnə(r)/",
+        "meaning": "吃晚饭"
+      },
+      {
+        "grade": 5,
+        "word": "clean my room",
+        "phonetic": "/kliːn maɪ ruːm/",
+        "meaning": "打扫我的房间"
+      },
+      {
+        "grade": 5,
+        "word": "go for a walk",
+        "phonetic": "/ɡəʊ fɔː(r); fə(r) ə; eɪ wɔːk/",
+        "meaning": "散步"
+      },
+      {
+        "grade": 5,
+        "word": "go shopping",
+        "phonetic": "/ɡəʊ ˈʃɒpɪŋ/",
+        "meaning": "购物"
+      },
+      {
+        "grade": 5,
+        "word": "take",
+        "phonetic": "/teɪk/",
+        "meaning": "上（课）"
+      },
+      {
+        "grade": 5,
+        "word": "dancing",
+        "phonetic": "/ˈdɑːnsɪŋ/",
+        "meaning": "跳舞"
+      },
+      {
+        "grade": 5,
+        "word": "take a dancing class",
+        "phonetic": "/teɪk ə; eɪ ˈdɑːnsɪŋ klɑːs/",
+        "meaning": "上舞蹈课"
+      },
+      {
+        "grade": 5,
+        "word": "when",
+        "phonetic": "/wen/",
+        "meaning": "什么时候"
+      },
+      {
+        "grade": 5,
+        "word": "after",
+        "phonetic": "/ˈɑːftə(r)/",
+        "meaning": "在⋯⋯之后"
+      },
+      {
+        "grade": 5,
+        "word": "start",
+        "phonetic": "/stɑːt/",
+        "meaning": "开始"
+      },
+      {
+        "grade": 5,
+        "word": "usually",
+        "phonetic": "/ˈjuːʒuəli; ˈjuːʒəli/",
+        "meaning": "通常地"
+      },
+      {
+        "grade": 5,
+        "word": "Spain",
+        "phonetic": "/speɪn/",
+        "meaning": "西班牙"
+      },
+      {
+        "grade": 5,
+        "word": "late",
+        "phonetic": "/leɪt/",
+        "meaning": "晚"
+      },
+      {
+        "grade": 5,
+        "word": "a.m.",
+        "phonetic": "/ˌeɪ ˈem/",
+        "meaning": "上午"
+      },
+      {
+        "grade": 5,
+        "word": "p.m.",
+        "phonetic": "/ˌpiː ˈem/",
+        "meaning": "下午"
+      },
+      {
+        "grade": 5,
+        "word": "why",
+        "phonetic": "/waɪ/",
+        "meaning": "为什么"
+      },
+      {
+        "grade": 5,
+        "word": "shop",
+        "phonetic": "/ʃɒp/",
+        "meaning": "购物"
+      },
+      {
+        "grade": 5,
+        "word": "work",
+        "phonetic": "/wɜːk/",
+        "meaning": "工作"
+      },
+      {
+        "grade": 5,
+        "word": "last",
+        "phonetic": "/lɑːst/",
+        "meaning": "上一个的"
+      },
+      {
+        "grade": 5,
+        "word": "sound",
+        "phonetic": "/saʊnd/",
+        "meaning": "听起来好像"
+      },
+      {
+        "grade": 5,
+        "word": "also",
+        "phonetic": "/ˈɔːlsəʊ/",
+        "meaning": "还"
+      },
+      {
+        "grade": 5,
+        "word": "busy",
+        "phonetic": "/ˈbɪzi/",
+        "meaning": "忙的"
+      },
+      {
+        "grade": 5,
+        "word": "need",
+        "phonetic": "/niːd/",
+        "meaning": "需要"
+      },
+      {
+        "grade": 5,
+        "word": "play",
+        "phonetic": "/pleɪ/",
+        "meaning": "戏剧"
+      },
+      {
+        "grade": 5,
+        "word": "letter",
+        "phonetic": "/ˈletə(r)/",
+        "meaning": "信"
+      },
+      {
+        "grade": 5,
+        "word": "live",
+        "phonetic": "/lɪv; laɪv/",
+        "meaning": "居住"
+      },
+      {
+        "grade": 5,
+        "word": "island",
+        "phonetic": "/ˈaɪlənd/",
+        "meaning": "岛"
+      },
+      {
+        "grade": 5,
+        "word": "always",
+        "phonetic": "/ˈɔːlweɪz/",
+        "meaning": "总是"
+      },
+      {
+        "grade": 5,
+        "word": "cave",
+        "phonetic": "/keɪv/",
+        "meaning": "山洞"
+      },
+      {
+        "grade": 5,
+        "word": "go swimming",
+        "phonetic": "/ɡəʊ ˈswɪmɪŋ/",
+        "meaning": "去游泳"
+      },
+      {
+        "grade": 5,
+        "word": "win",
+        "phonetic": "/wɪn/",
+        "meaning": "获胜"
+      },
+      {
+        "grade": 5,
+        "word": "spring",
+        "phonetic": "/sprɪŋ/",
+        "meaning": "春天"
+      },
+      {
+        "grade": 5,
+        "word": "summer",
+        "phonetic": "/ˈsʌmə(r)/",
+        "meaning": "夏天"
+      },
+      {
+        "grade": 5,
+        "word": "autumn",
+        "phonetic": "/ˈɔːtəm/",
+        "meaning": "秋天"
+      },
+      {
+        "grade": 5,
+        "word": "winter",
+        "phonetic": "/ˈwɪntə(r)/",
+        "meaning": "冬天"
+      },
+      {
+        "grade": 5,
+        "word": "season",
+        "phonetic": "/ˈsiːz(ə)n/",
+        "meaning": "季节"
+      },
+      {
+        "grade": 5,
+        "word": "picnic",
+        "phonetic": "/ˈpɪknɪk/",
+        "meaning": "野餐"
+      },
+      {
+        "grade": 5,
+        "word": "go on a picnic",
+        "phonetic": "/ɡəʊ ɒn ə; eɪ ˈpɪknɪk/",
+        "meaning": "去野餐"
+      },
+      {
+        "grade": 5,
+        "word": "pick",
+        "phonetic": "/pɪk/",
+        "meaning": "摘"
+      },
+      {
+        "grade": 5,
+        "word": "pick apples",
+        "phonetic": "/pɪk ˈæplz/",
+        "meaning": "摘苹果"
+      },
+      {
+        "grade": 5,
+        "word": "snowman",
+        "phonetic": "/ˈsnəʊmæn/",
+        "meaning": "雪人"
+      },
+      {
+        "grade": 5,
+        "word": "make a snowman",
+        "phonetic": "/meɪk ə; eɪ ˈsnəʊmæn/",
+        "meaning": "堆雪人"
+      },
+      {
+        "grade": 5,
+        "word": "go swimming.",
+        "phonetic": "/ɡəʊ ˈswɪmɪŋ/",
+        "meaning": "去游泳"
+      },
+      {
+        "grade": 5,
+        "word": "which",
+        "phonetic": "/wɪtʃ/",
+        "meaning": "哪一个"
+      },
+      {
+        "grade": 5,
+        "word": "best",
+        "phonetic": "/best/",
+        "meaning": "最"
+      },
+      {
+        "grade": 5,
+        "word": "snow",
+        "phonetic": "/snəʊ/",
+        "meaning": "雪"
+      },
+      {
+        "grade": 5,
+        "word": "good job",
+        "phonetic": "/ɡʊd dʒɒb/",
+        "meaning": "做得好"
+      },
+      {
+        "grade": 5,
+        "word": "because",
+        "phonetic": "/bɪˈkəz; bɪˈkɒz/",
+        "meaning": "因为"
+      },
+      {
+        "grade": 5,
+        "word": "vacation",
+        "phonetic": "/veɪˈkeɪʃ(ə)n/",
+        "meaning": "假期"
+      },
+      {
+        "grade": 5,
+        "word": "all",
+        "phonetic": "/ɔːl/",
+        "meaning": "完全"
+      },
+      {
+        "grade": 5,
+        "word": "pink",
+        "phonetic": "/pɪŋk/",
+        "meaning": "粉色"
+      },
+      {
+        "grade": 5,
+        "word": "lovely",
+        "phonetic": "/ˈlʌvli/",
+        "meaning": "可爱的"
+      },
+      {
+        "grade": 5,
+        "word": "leaf",
+        "phonetic": "/liːf/",
+        "meaning": "叶子"
+      },
+      {
+        "grade": 5,
+        "word": "fall",
+        "phonetic": "/fɔːl/",
+        "meaning": "落下"
+      },
+      {
+        "grade": 5,
+        "word": "paint",
+        "phonetic": "/peɪnt/",
+        "meaning": "绘画"
+      },
+      {
+        "grade": 5,
+        "word": "January",
+        "phonetic": "/ˈdʒænjuəri/",
+        "meaning": "一月"
+      },
+      {
+        "grade": 5,
+        "word": "February",
+        "phonetic": "/ˈfebruəri/",
+        "meaning": "二月"
+      },
+      {
+        "grade": 5,
+        "word": "March",
+        "phonetic": "/mɑːtʃ/",
+        "meaning": "三月"
+      },
+      {
+        "grade": 5,
+        "word": "April",
+        "phonetic": "/ˈeɪprəl/",
+        "meaning": "四月"
+      },
+      {
+        "grade": 5,
+        "word": "May",
+        "phonetic": "/meɪ/",
+        "meaning": "五月"
+      },
+      {
+        "grade": 5,
+        "word": "June",
+        "phonetic": "/dʒuːn/",
+        "meaning": "六月"
+      },
+      {
+        "grade": 5,
+        "word": "July",
+        "phonetic": "/dʒʊˈlaɪ/",
+        "meaning": "七月"
+      },
+      {
+        "grade": 5,
+        "word": "August",
+        "phonetic": "/ˈɔːɡəst/",
+        "meaning": "八月"
+      },
+      {
+        "grade": 5,
+        "word": "September",
+        "phonetic": "/sepˈtembə(r)/",
+        "meaning": "九月"
+      },
+      {
+        "grade": 5,
+        "word": "October",
+        "phonetic": "/ɒkˈtəʊbə(r)/",
+        "meaning": "十月"
+      },
+      {
+        "grade": 5,
+        "word": "November",
+        "phonetic": "/nəʊˈvembə(r)/",
+        "meaning": "十一月"
+      },
+      {
+        "grade": 5,
+        "word": "December",
+        "phonetic": "/dɪˈsembə(r)/",
+        "meaning": "十二月"
+      },
+      {
+        "grade": 5,
+        "word": "few",
+        "phonetic": "/fjuː/",
+        "meaning": "不多"
+      },
+      {
+        "grade": 5,
+        "word": "a few",
+        "phonetic": "/ə fjuː/",
+        "meaning": "一些"
+      },
+      {
+        "grade": 5,
+        "word": "thing",
+        "phonetic": "/θɪŋ/",
+        "meaning": "事情"
+      },
+      {
+        "grade": 5,
+        "word": "meet",
+        "phonetic": "/miːt/",
+        "meaning": "集会"
+      },
+      {
+        "grade": 5,
+        "word": "sports meet",
+        "phonetic": "/spɔːts miːt/",
+        "meaning": "运动会"
+      },
+      {
+        "grade": 5,
+        "word": "Easter",
+        "phonetic": "/ˈiːstə(r)/",
+        "meaning": "复活节"
+      },
+      {
+        "grade": 5,
+        "word": "trip",
+        "phonetic": "/trɪp/",
+        "meaning": "旅行"
+      },
+      {
+        "grade": 5,
+        "word": "year",
+        "phonetic": "/jɪə(r)/",
+        "meaning": "年"
+      },
+      {
+        "grade": 5,
+        "word": "plant",
+        "phonetic": "/plɑːnt/",
+        "meaning": "种植"
+      },
+      {
+        "grade": 5,
+        "word": "contest",
+        "phonetic": "/ˈkɒntest/",
+        "meaning": "比赛"
+      },
+      {
+        "grade": 5,
+        "word": "the Great Wall",
+        "phonetic": "/ðə; ði ɡreɪt wɔːl/",
+        "meaning": "长城"
+      },
+      {
+        "grade": 5,
+        "word": "national",
+        "phonetic": "/ˈnæʃ(ə)nəl/",
+        "meaning": "国家的"
+      },
+      {
+        "grade": 5,
+        "word": "National Day",
+        "phonetic": "/ˈnæʃ(ə)nəl deɪ/",
+        "meaning": "国庆日"
+      },
+      {
+        "grade": 5,
+        "word": "American",
+        "phonetic": "/əˈmerɪkən/",
+        "meaning": "美国的"
+      },
+      {
+        "grade": 5,
+        "word": "Thanksgiving",
+        "phonetic": "/ˌθæŋksˈɡɪvɪŋ/",
+        "meaning": "感恩节"
+      },
+      {
+        "grade": 5,
+        "word": "Christmas",
+        "phonetic": "/ˈkrɪsməs/",
+        "meaning": "圣诞节"
+      },
+      {
+        "grade": 5,
+        "word": "holiday",
+        "phonetic": "/ˈhɒlədeɪ/",
+        "meaning": "节日"
+      },
+      {
+        "grade": 5,
+        "word": "game",
+        "phonetic": "/ɡeɪm/",
+        "meaning": "游戏"
+      },
+      {
+        "grade": 5,
+        "word": "roll",
+        "phonetic": "/rəʊl/",
+        "meaning": "滚动"
+      },
+      {
+        "grade": 5,
+        "word": "look for",
+        "phonetic": "/ˈlʊk fɔː(r)/",
+        "meaning": "寻找"
+      },
+      {
+        "grade": 5,
+        "word": "chocolate",
+        "phonetic": "/ˈtʃɒklət/",
+        "meaning": "巧克力"
+      },
+      {
+        "grade": 5,
+        "word": "bunny",
+        "phonetic": "/ˈbʌni/",
+        "meaning": "兔子"
+      },
+      {
+        "grade": 5,
+        "word": "RSVP",
+        "phonetic": "/ˌɑːr es viː ˈpiː/",
+        "meaning": "请赐复"
+      },
+      {
+        "grade": 5,
+        "word": "by",
+        "phonetic": "/baɪ/",
+        "meaning": "在⋯⋯之前"
+      },
+      {
+        "grade": 5,
+        "word": "first",
+        "phonetic": "/fɜːst/",
+        "meaning": "第一"
+      },
+      {
+        "grade": 5,
+        "word": "second",
+        "phonetic": "/ˈsekənd/",
+        "meaning": "第二"
+      },
+      {
+        "grade": 5,
+        "word": "third",
+        "phonetic": "/θɜːd/",
+        "meaning": "第三"
+      },
+      {
+        "grade": 5,
+        "word": "fourth",
+        "phonetic": "/fɔːθ/",
+        "meaning": "第四"
+      },
+      {
+        "grade": 5,
+        "word": "fifth",
+        "phonetic": "/fɪfθ/",
+        "meaning": "第五"
+      },
+      {
+        "grade": 5,
+        "word": "twelfth",
+        "phonetic": "/twelfθ/",
+        "meaning": "第十二"
+      },
+      {
+        "grade": 5,
+        "word": "twentieth",
+        "phonetic": "/ˈtwentiəθ/",
+        "meaning": "第二十"
+      },
+      {
+        "grade": 5,
+        "word": "twenty-first",
+        "phonetic": "/ˌtwenti ˈfɜːst/",
+        "meaning": "第二十一"
+      },
+      {
+        "grade": 5,
+        "word": "twenty-third",
+        "phonetic": "/ˈtwenti θɜːd/",
+        "meaning": "第二十三"
+      },
+      {
+        "grade": 5,
+        "word": "thirtieth",
+        "phonetic": "/ˈθɜːtiəθ/",
+        "meaning": "第三十"
+      },
+      {
+        "grade": 5,
+        "word": "special",
+        "phonetic": "/ˈspeʃ(ə)l/",
+        "meaning": "特殊的"
+      },
+      {
+        "grade": 5,
+        "word": "fool",
+        "phonetic": "/fuːl/",
+        "meaning": "蠢人"
+      },
+      {
+        "grade": 5,
+        "word": "kitten",
+        "phonetic": "/ˈkɪt(ə)n/",
+        "meaning": "小猫"
+      },
+      {
+        "grade": 5,
+        "word": "diary",
+        "phonetic": "/ˈdaɪəri/",
+        "meaning": "日记"
+      },
+      {
+        "grade": 5,
+        "word": "still",
+        "phonetic": "/stɪl/",
+        "meaning": "仍然"
+      },
+      {
+        "grade": 5,
+        "word": "noise",
+        "phonetic": "/nɔɪz/",
+        "meaning": "噪音"
+      },
+      {
+        "grade": 5,
+        "word": "fur",
+        "phonetic": "/fɜː(r)/",
+        "meaning": "动物皮毛"
+      },
+      {
+        "grade": 5,
+        "word": "open",
+        "phonetic": "/ˈəʊpən/",
+        "meaning": "开着的"
+      },
+      {
+        "grade": 5,
+        "word": "walk",
+        "phonetic": "/wɔːk/",
+        "meaning": "行走"
+      },
+      {
+        "grade": 5,
+        "word": "mine",
+        "phonetic": "/maɪn/",
+        "meaning": "我的"
+      },
+      {
+        "grade": 5,
+        "word": "yours",
+        "phonetic": "/jɔːz/",
+        "meaning": "你的"
+      },
+      {
+        "grade": 5,
+        "word": "his",
+        "phonetic": "/hɪz; ɪz/",
+        "meaning": "他的"
+      },
+      {
+        "grade": 5,
+        "word": "hers",
+        "phonetic": "/hɜːz/",
+        "meaning": "她的"
+      },
+      {
+        "grade": 5,
+        "word": "theirs",
+        "phonetic": "/ðeəz/",
+        "meaning": "他们的"
+      },
+      {
+        "grade": 5,
+        "word": "ours",
+        "phonetic": "/ˈaʊəz/",
+        "meaning": "我们的"
+      },
+      {
+        "grade": 5,
+        "word": "climbing",
+        "phonetic": "/ˈklaɪmɪŋ/",
+        "meaning": "攀登"
+      },
+      {
+        "grade": 5,
+        "word": "eating",
+        "phonetic": "/ˈiːtɪŋ/",
+        "meaning": "吃"
+      },
+      {
+        "grade": 5,
+        "word": "playing",
+        "phonetic": "/ˈpleɪɪŋ/",
+        "meaning": "玩"
+      },
+      {
+        "grade": 5,
+        "word": "jumping",
+        "phonetic": "/ˈdʒʌmpɪŋ/",
+        "meaning": "跳"
+      },
+      {
+        "grade": 5,
+        "word": "drinking",
+        "phonetic": "/ˈdrɪŋkɪŋ/",
+        "meaning": "喝"
+      },
+      {
+        "grade": 5,
+        "word": "sleeping",
+        "phonetic": "/ˈsliːpɪŋ/",
+        "meaning": "睡觉"
+      },
+      {
+        "grade": 5,
+        "word": "each",
+        "phonetic": "/iːtʃ/",
+        "meaning": "每个"
+      },
+      {
+        "grade": 5,
+        "word": "other",
+        "phonetic": "/ˈʌðə(r)/",
+        "meaning": "其他"
+      },
+      {
+        "grade": 5,
+        "word": "each other",
+        "phonetic": "/ˌiːtʃ ˈʌðə(r)/",
+        "meaning": "相互"
+      },
+      {
+        "grade": 5,
+        "word": "excited",
+        "phonetic": "/ɪkˈsaɪtɪd/",
+        "meaning": "兴奋地"
+      },
+      {
+        "grade": 5,
+        "word": "like",
+        "phonetic": "/laɪk/",
+        "meaning": "像⋯⋯那样"
+      },
+      {
+        "grade": 5,
+        "word": "doing morning exercises",
+        "phonetic": "/ˈduːɪŋ ˈmɔːnɪŋ ˈeksəsaɪzɪz/",
+        "meaning": "做早操"
+      },
+      {
+        "grade": 5,
+        "word": "having...class",
+        "phonetic": "/ˈhævɪŋ klɑːs/",
+        "meaning": "上⋯⋯课"
+      },
+      {
+        "grade": 5,
+        "word": "eating lunch",
+        "phonetic": "/ˈiːtɪŋ lʌntʃ/",
+        "meaning": "吃午饭"
+      },
+      {
+        "grade": 5,
+        "word": "reading a book",
+        "phonetic": "/ˈriːdɪŋ ə; eɪ bʊk/",
+        "meaning": "看书"
+      },
+      {
+        "grade": 5,
+        "word": "listening to music",
+        "phonetic": "/ˈlɪsənɪŋ tuː; tə ˈmjuːzɪk/",
+        "meaning": "听音乐"
+      },
+      {
+        "grade": 5,
+        "word": "keep",
+        "phonetic": "/kiːp/",
+        "meaning": "保持"
+      },
+      {
+        "grade": 5,
+        "word": "keep to the right",
+        "phonetic": "/kiːp tuː; tə ðə; ði raɪt/",
+        "meaning": "靠右"
+      },
+      {
+        "grade": 5,
+        "word": "keep your desk clean",
+        "phonetic": "/kiːp jɔː(r); jə(r) desk kliːn/",
+        "meaning": "保持课桌干净"
+      },
+      {
+        "grade": 5,
+        "word": "talk quietly",
+        "phonetic": "/tɔːk ˈkwaɪətli/",
+        "meaning": "小声讲话"
+      },
+      {
+        "grade": 5,
+        "word": "turn",
+        "phonetic": "/tɜːn/",
+        "meaning": "顺序"
+      },
+      {
+        "grade": 5,
+        "word": "take turns",
+        "phonetic": "/teɪk tɜːnz/",
+        "meaning": "按顺序来"
+      },
+      {
+        "grade": 5,
+        "word": "bamboo",
+        "phonetic": "/ˌbæmˈbuː/",
+        "meaning": "竹子"
+      },
+      {
+        "grade": 5,
+        "word": "its",
+        "phonetic": "/ɪts/",
+        "meaning": "它的"
+      },
+      {
+        "grade": 5,
+        "word": "show",
+        "phonetic": "/ʃəʊ/",
+        "meaning": "指导，引导"
+      },
+      {
+        "grade": 5,
+        "word": "anything",
+        "phonetic": "/ˈeniθɪŋ/",
+        "meaning": "任何事物"
+      },
+      {
+        "grade": 5,
+        "word": "else",
+        "phonetic": "/els/",
+        "meaning": "另外"
+      },
+      {
+        "grade": 5,
+        "word": "exhibition",
+        "phonetic": "/ˌeksɪˈbɪʃ(ə)n/",
+        "meaning": "展览"
+      },
+      {
+        "grade": 5,
+        "word": "say",
+        "phonetic": "/seɪ/",
+        "meaning": "说"
+      },
+      {
+        "grade": 5,
+        "word": "have a look",
+        "phonetic": "/hæv; həv ə; eɪ lʊk/",
+        "meaning": "看一看"
+      },
+      {
+        "grade": 5,
+        "word": "sushi",
+        "phonetic": "/ˈsuːʃi/",
+        "meaning": "寿司"
+      },
+      {
+        "grade": 5,
+        "word": "teach",
+        "phonetic": "/tiːtʃ/",
+        "meaning": "教"
+      },
+      {
+        "grade": 5,
+        "word": "sure",
+        "phonetic": "/ʃʊə(r); ʃɔː(r)/",
+        "meaning": "当然"
+      },
+      {
+        "grade": 5,
+        "word": "Canadian",
+        "phonetic": "/kəˈneɪdiən/",
+        "meaning": "加拿大的"
+      },
+      {
+        "grade": 5,
+        "word": "Spanish",
+        "phonetic": "/ˈspænɪʃ/",
+        "meaning": "西班牙的"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "I eat breakfast at seven every morning.",
+        "zh": "我每天早上七点吃早餐。"
+      },
+      {
+        "en": "We have class at eight o'clock.",
+        "zh": "我们八点钟上课。"
+      },
+      {
+        "en": "Many students play sports after school.",
+        "zh": "许多学生放学后参加体育运动。"
+      },
+      {
+        "en": "There is an exercise in the picture.",
+        "zh": "图中有一个练习。"
+      },
+      {
+        "en": "I do morning exercise before breakfast.",
+        "zh": "我在早餐前做晨练。"
+      },
+      {
+        "en": "We eat dinner together at home.",
+        "zh": "我们在家一起吃晚饭。"
+      },
+      {
+        "en": "I clean my room every Saturday.",
+        "zh": "我每个星期六都会打扫房间。"
+      },
+      {
+        "en": "We go for a walk after dinner.",
+        "zh": "晚饭后我们去散步。"
+      },
+      {
+        "en": "My mother and I go shopping on Sunday.",
+        "zh": "星期天我和妈妈去购物。"
+      },
+      {
+        "en": "Take your umbrella with you.",
+        "zh": "随身携带雨伞。"
+      },
+      {
+        "en": "The word dancing appears in the reading passage.",
+        "zh": "阅读段落中出现了“跳舞”这个词。"
+      },
+      {
+        "en": "She wants to take a dancing class this term.",
+        "zh": "她这个学期想上舞蹈课。"
+      },
+      {
+        "en": "When do you get up?",
+        "zh": "你什么时候起床？"
+      },
+      {
+        "en": "There is an after in the picture.",
+        "zh": "图中有一个后。"
+      },
+      {
+        "en": "The class starts at eight.",
+        "zh": "课程八点开始。"
+      },
+      {
+        "en": "She answered usually during the discussion.",
+        "zh": "她通常在讨论期间回答。"
+      },
+      {
+        "en": "Spain is in southern Europe.",
+        "zh": "西班牙位于欧洲南部。"
+      },
+      {
+        "en": "There is a late in the picture.",
+        "zh": "图中有一个迟到的地方。"
+      },
+      {
+        "en": "I get up at 7 a.m.",
+        "zh": "我早上7点起床"
+      },
+      {
+        "en": "The meeting starts at 3 p.m.",
+        "zh": "会议于下午 3 点开始。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "介词",
+        "question": "The book is ___ the desk.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "answer": 1,
+        "explain": "在物体表面上用 on。",
+        "question_zh": "书在书桌上面。"
+      },
+      {
+        "category": "一般现在",
+        "question": "She ___ apples.",
+        "options": [
+          "like",
+          "likes",
+          "liking",
+          "liked"
+        ],
+        "answer": 1,
+        "explain": "主语 she 第三人称单数，动词加 s 为 likes。",
+        "question_zh": "她喜欢苹果。"
+      },
+      {
+        "category": "特殊疑问",
+        "question": "___ is your name?",
+        "options": [
+          "What",
+          "Where",
+          "Who",
+          "How"
+        ],
+        "answer": 0,
+        "explain": "问名字用 What。",
+        "question_zh": "你叫什么名字？"
+      },
+      {
+        "category": "there be",
+        "question": "There ___ many flowers in the garden.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "answer": 1,
+        "explain": "many flowers 复数，用 are。",
+        "question_zh": "花园里有很多花。"
+      }
+    ]
+  },
+  "primary_6a.json": {
+    "words": [
+      {
+        "grade": 6,
+        "word": "science",
+        "phonetic": "/ˈsaɪəns/",
+        "meaning": "科学"
+      },
+      {
+        "grade": 6,
+        "word": "museum",
+        "phonetic": "/mjuˈziːəm/",
+        "meaning": "博物馆"
+      },
+      {
+        "grade": 6,
+        "word": "post office",
+        "phonetic": "/ˈpəʊst ɒfɪs/",
+        "meaning": "邮局"
+      },
+      {
+        "grade": 6,
+        "word": "bookstore",
+        "phonetic": "/ˈbʊkstɔː(r)/",
+        "meaning": "书店"
+      },
+      {
+        "grade": 6,
+        "word": "cinema",
+        "phonetic": "/ˈsɪnəmə/",
+        "meaning": "电影院"
+      },
+      {
+        "grade": 6,
+        "word": "hospital",
+        "phonetic": "/ˈhɒspɪt(ə)l/",
+        "meaning": "医院"
+      },
+      {
+        "grade": 6,
+        "word": "crossing",
+        "phonetic": "/ˈkrɒsɪŋ/",
+        "meaning": "十字路口"
+      },
+      {
+        "grade": 6,
+        "word": "turn",
+        "phonetic": "/tɜːn/",
+        "meaning": "转弯"
+      },
+      {
+        "grade": 6,
+        "word": "left",
+        "phonetic": "/left/",
+        "meaning": "左"
+      },
+      {
+        "grade": 6,
+        "word": "on foot",
+        "phonetic": "/ɒn fʊt/",
+        "meaning": "步行"
+      },
+      {
+        "grade": 6,
+        "word": "by",
+        "phonetic": "/baɪ/",
+        "meaning": "乘"
+      },
+      {
+        "grade": 6,
+        "word": "bus",
+        "phonetic": "/bʌs/",
+        "meaning": "公共汽车"
+      },
+      {
+        "grade": 6,
+        "word": "plane",
+        "phonetic": "/pleɪn/",
+        "meaning": "飞机"
+      },
+      {
+        "grade": 6,
+        "word": "taxi",
+        "phonetic": "/ˈtæksi/",
+        "meaning": "出租汽车"
+      },
+      {
+        "grade": 6,
+        "word": "ship",
+        "phonetic": "/ʃɪp/",
+        "meaning": "船"
+      },
+      {
+        "grade": 6,
+        "word": "subway",
+        "phonetic": "/ˈsʌbweɪ/",
+        "meaning": "地铁"
+      },
+      {
+        "grade": 6,
+        "word": "train",
+        "phonetic": "/treɪn/",
+        "meaning": "火车"
+      },
+      {
+        "grade": 6,
+        "word": "slow",
+        "phonetic": "/sləʊ/",
+        "meaning": "慢的"
+      },
+      {
+        "grade": 6,
+        "word": "down",
+        "phonetic": "/daʊn/",
+        "meaning": "减少"
+      },
+      {
+        "grade": 6,
+        "word": "slow down",
+        "phonetic": "/sləʊ daʊn/",
+        "meaning": "慢下来"
+      },
+      {
+        "grade": 6,
+        "word": "stop",
+        "phonetic": "/stɒp/",
+        "meaning": "停下"
+      },
+      {
+        "grade": 6,
+        "word": "Mrs",
+        "phonetic": "/ˈmɪsɪz/",
+        "meaning": "夫人"
+      },
+      {
+        "grade": 6,
+        "word": "early",
+        "phonetic": "/ˈɜːli/",
+        "meaning": "早到的"
+      },
+      {
+        "grade": 6,
+        "word": "helmet",
+        "phonetic": "/ˈhelmɪt/",
+        "meaning": "头盔"
+      },
+      {
+        "grade": 6,
+        "word": "must",
+        "phonetic": "/mʌst; məst/",
+        "meaning": "必须"
+      },
+      {
+        "grade": 6,
+        "word": "wear",
+        "phonetic": "/weə(r)/",
+        "meaning": "戴"
+      },
+      {
+        "grade": 6,
+        "word": "attention",
+        "phonetic": "/əˈtenʃ(ə)n/",
+        "meaning": "注意"
+      },
+      {
+        "grade": 6,
+        "word": "pay attention to",
+        "phonetic": "/peɪ əˈtenʃ(ə)n tuː; tə/",
+        "meaning": "注意"
+      },
+      {
+        "grade": 6,
+        "word": "traffic",
+        "phonetic": "/ˈtræfɪk/",
+        "meaning": "交通"
+      },
+      {
+        "grade": 6,
+        "word": "traffic lights",
+        "phonetic": "/ˈtræfɪk laɪts/",
+        "meaning": "交通信号灯"
+      },
+      {
+        "grade": 6,
+        "word": "Munich",
+        "phonetic": "/ˈmjuːnɪk/",
+        "meaning": "慕尼黑"
+      },
+      {
+        "grade": 6,
+        "word": "Germany",
+        "phonetic": "/ˈdʒɜːməni/",
+        "meaning": "德国"
+      },
+      {
+        "grade": 6,
+        "word": "Alaska",
+        "phonetic": "/əˈlæskə/",
+        "meaning": "阿拉斯加州"
+      },
+      {
+        "grade": 6,
+        "word": "sled",
+        "phonetic": "/sled/",
+        "meaning": "雪橇"
+      },
+      {
+        "grade": 6,
+        "word": "fast",
+        "phonetic": "/fɑːst/",
+        "meaning": "快的"
+      },
+      {
+        "grade": 6,
+        "word": "ferry",
+        "phonetic": "/ˈferi/",
+        "meaning": "轮渡"
+      },
+      {
+        "grade": 6,
+        "word": "Papa Westray",
+        "phonetic": "",
+        "meaning": "帕帕韦斯特雷岛"
+      },
+      {
+        "grade": 6,
+        "word": "Scotland",
+        "phonetic": "/ˈskɒtlənd/",
+        "meaning": "苏格兰"
+      },
+      {
+        "grade": 6,
+        "word": "visit",
+        "phonetic": "/ˈvɪzɪt/",
+        "meaning": "拜访"
+      },
+      {
+        "grade": 6,
+        "word": "film",
+        "phonetic": "/fɪlm/",
+        "meaning": "电影"
+      },
+      {
+        "grade": 6,
+        "word": "see a film",
+        "phonetic": "/siː ə; eɪ fɪlm/",
+        "meaning": "看电影"
+      },
+      {
+        "grade": 6,
+        "word": "trip",
+        "phonetic": "/trɪp/",
+        "meaning": "旅行"
+      },
+      {
+        "grade": 6,
+        "word": "take a trip",
+        "phonetic": "/teɪk ə; eɪ trɪp/",
+        "meaning": "去旅行"
+      },
+      {
+        "grade": 6,
+        "word": "supermarket",
+        "phonetic": "/ˈsuːpəmɑːkɪt/",
+        "meaning": "超市"
+      },
+      {
+        "grade": 6,
+        "word": "evening",
+        "phonetic": "/ˈiːvnɪŋ/",
+        "meaning": "晚上"
+      },
+      {
+        "grade": 6,
+        "word": "tonight",
+        "phonetic": "/təˈnaɪt/",
+        "meaning": "今晚"
+      },
+      {
+        "grade": 6,
+        "word": "tomorrow",
+        "phonetic": "/təˈmɒrəʊ/",
+        "meaning": "明天"
+      },
+      {
+        "grade": 6,
+        "word": "next week",
+        "phonetic": "/nekst wiːk/",
+        "meaning": "下周"
+      },
+      {
+        "grade": 6,
+        "word": "dictionary",
+        "phonetic": "/ˈdɪkʃən(ə)ri/",
+        "meaning": "词典"
+      },
+      {
+        "grade": 6,
+        "word": "comic",
+        "phonetic": "/ˈkɒmɪk/",
+        "meaning": "滑稽的"
+      },
+      {
+        "grade": 6,
+        "word": "comic book",
+        "phonetic": "/ˈkɒmɪk bʊk/",
+        "meaning": "连环画"
+      },
+      {
+        "grade": 6,
+        "word": "word",
+        "phonetic": "/wɜːd/",
+        "meaning": "单词"
+      },
+      {
+        "grade": 6,
+        "word": "word book",
+        "phonetic": "/wɜːd bʊk/",
+        "meaning": "单词书"
+      },
+      {
+        "grade": 6,
+        "word": "post card",
+        "phonetic": "/pəʊst kɑːd/",
+        "meaning": "明信片"
+      },
+      {
+        "grade": 6,
+        "word": "lesson",
+        "phonetic": "/ˈles(ə)n/",
+        "meaning": "课"
+      },
+      {
+        "grade": 6,
+        "word": "space",
+        "phonetic": "/speɪs/",
+        "meaning": "太空"
+      },
+      {
+        "grade": 6,
+        "word": "travel",
+        "phonetic": "/ˈtræv(ə)l/",
+        "meaning": "旅行"
+      },
+      {
+        "grade": 6,
+        "word": "half",
+        "phonetic": "/hɑːf/",
+        "meaning": "一半"
+      },
+      {
+        "grade": 6,
+        "word": "price",
+        "phonetic": "/praɪs/",
+        "meaning": "价格"
+      },
+      {
+        "grade": 6,
+        "word": "Mid-Autumn Festival",
+        "phonetic": "/mɪd ˈɔːtəm ˈfestɪvl; ˈfestəvəl/",
+        "meaning": "中秋节"
+      },
+      {
+        "grade": 6,
+        "word": "together",
+        "phonetic": "/təˈɡeðə(r)/",
+        "meaning": "一起"
+      },
+      {
+        "grade": 6,
+        "word": "get together",
+        "phonetic": "/ˈɡet təɡeðə(r)/",
+        "meaning": "聚会"
+      },
+      {
+        "grade": 6,
+        "word": "mooncake",
+        "phonetic": "/ˈmuːnkeɪk/",
+        "meaning": "月饼"
+      },
+      {
+        "grade": 6,
+        "word": "poem",
+        "phonetic": "/ˈpəʊɪm/",
+        "meaning": "诗"
+      },
+      {
+        "grade": 6,
+        "word": "moon",
+        "phonetic": "/muːn/",
+        "meaning": "月亮"
+      },
+      {
+        "grade": 6,
+        "word": "studies",
+        "phonetic": "/ˈstʌdiz/",
+        "meaning": "学习"
+      },
+      {
+        "grade": 6,
+        "word": "puzzle",
+        "phonetic": "/ˈpʌz(ə)l/",
+        "meaning": "谜"
+      },
+      {
+        "grade": 6,
+        "word": "hiking",
+        "phonetic": "/ˈhaɪkɪŋ/",
+        "meaning": "远足"
+      },
+      {
+        "grade": 6,
+        "word": "pen pal",
+        "phonetic": "/ˈpen pæl/",
+        "meaning": "笔友"
+      },
+      {
+        "grade": 6,
+        "word": "hobby",
+        "phonetic": "/ˈhɒbi/",
+        "meaning": "业余爱好"
+      },
+      {
+        "grade": 6,
+        "word": "jasmine",
+        "phonetic": "/ˈdʒæzmɪn/",
+        "meaning": "茉莉"
+      },
+      {
+        "grade": 6,
+        "word": "idea",
+        "phonetic": "/aɪˈdɪə/",
+        "meaning": "主意"
+      },
+      {
+        "grade": 6,
+        "word": "Canberra",
+        "phonetic": "/ˈkænbərə/",
+        "meaning": "堪培拉"
+      },
+      {
+        "grade": 6,
+        "word": "amazing",
+        "phonetic": "/əˈmeɪzɪŋ/",
+        "meaning": "令人惊奇的"
+      },
+      {
+        "grade": 6,
+        "word": "shall",
+        "phonetic": "/ʃæl; ʃəl/",
+        "meaning": "表示征求意见"
+      },
+      {
+        "grade": 6,
+        "word": "goal",
+        "phonetic": "/ɡəʊl/",
+        "meaning": "射门"
+      },
+      {
+        "grade": 6,
+        "word": "join",
+        "phonetic": "/dʒɔɪn/",
+        "meaning": "加入"
+      },
+      {
+        "grade": 6,
+        "word": "club",
+        "phonetic": "/klʌb/",
+        "meaning": "俱乐部"
+      },
+      {
+        "grade": 6,
+        "word": "share",
+        "phonetic": "/ʃeə(r)/",
+        "meaning": "分享"
+      },
+      {
+        "grade": 6,
+        "word": "factory",
+        "phonetic": "/ˈfæktri; ˈfæktəri/",
+        "meaning": "工厂"
+      },
+      {
+        "grade": 6,
+        "word": "worker",
+        "phonetic": "/ˈwɜːkə(r)/",
+        "meaning": "工人"
+      },
+      {
+        "grade": 6,
+        "word": "postman",
+        "phonetic": "/ˈpəʊstmən/",
+        "meaning": "邮递员"
+      },
+      {
+        "grade": 6,
+        "word": "businessman",
+        "phonetic": "/ˈbɪznəsmæn/",
+        "meaning": "商人"
+      },
+      {
+        "grade": 6,
+        "word": "police officer",
+        "phonetic": "/pəˈliːs ɒfɪsə(r)/",
+        "meaning": "警察"
+      },
+      {
+        "grade": 6,
+        "word": "fisherman",
+        "phonetic": "/ˈfɪʃəmən/",
+        "meaning": "渔民"
+      },
+      {
+        "grade": 6,
+        "word": "scientist",
+        "phonetic": "/ˈsaɪəntɪst/",
+        "meaning": "科学家"
+      },
+      {
+        "grade": 6,
+        "word": "pilot",
+        "phonetic": "/ˈpaɪlət/",
+        "meaning": "飞行员"
+      },
+      {
+        "grade": 6,
+        "word": "coach",
+        "phonetic": "/kəʊtʃ/",
+        "meaning": "教练"
+      },
+      {
+        "grade": 6,
+        "word": "country",
+        "phonetic": "/ˈkʌntri/",
+        "meaning": "国家"
+      },
+      {
+        "grade": 6,
+        "word": "head teacher",
+        "phonetic": "/ˌhed ˈtiːtʃə(r)/",
+        "meaning": "校长"
+      },
+      {
+        "grade": 6,
+        "word": "sea",
+        "phonetic": "/siː/",
+        "meaning": "大海"
+      },
+      {
+        "grade": 6,
+        "word": "stay",
+        "phonetic": "/steɪ/",
+        "meaning": "保持"
+      },
+      {
+        "grade": 6,
+        "word": "university",
+        "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+        "meaning": "大学"
+      },
+      {
+        "grade": 6,
+        "word": "gym",
+        "phonetic": "/dʒɪm/",
+        "meaning": "体育馆"
+      },
+      {
+        "grade": 6,
+        "word": "if",
+        "phonetic": "/ɪf/",
+        "meaning": "如果"
+      },
+      {
+        "grade": 6,
+        "word": "reporter",
+        "phonetic": "/rɪˈpɔːtə(r)/",
+        "meaning": "记者"
+      },
+      {
+        "grade": 6,
+        "word": "use",
+        "phonetic": "/juːz/",
+        "meaning": "使用"
+      },
+      {
+        "grade": 6,
+        "word": "type",
+        "phonetic": "/taɪp/",
+        "meaning": "打字"
+      },
+      {
+        "grade": 6,
+        "word": "quickly",
+        "phonetic": "/ˈkwɪkli/",
+        "meaning": "迅速地"
+      },
+      {
+        "grade": 6,
+        "word": "secretary",
+        "phonetic": "/ˈsekrət(ə)ri/",
+        "meaning": "秘书"
+      },
+      {
+        "grade": 6,
+        "word": "angry",
+        "phonetic": "/ˈæŋɡri/",
+        "meaning": "生气的"
+      },
+      {
+        "grade": 6,
+        "word": "afraid",
+        "phonetic": "/əˈfreɪd/",
+        "meaning": "害怕"
+      },
+      {
+        "grade": 6,
+        "word": "sad",
+        "phonetic": "/sæd/",
+        "meaning": "难过的"
+      },
+      {
+        "grade": 6,
+        "word": "worried",
+        "phonetic": "/ˈwʌrid/",
+        "meaning": "担心的"
+      },
+      {
+        "grade": 6,
+        "word": "happy",
+        "phonetic": "/ˈhæpi/",
+        "meaning": "高兴的"
+      },
+      {
+        "grade": 6,
+        "word": "see a doctor",
+        "phonetic": "/siː ə; eɪ ˈdɒktə(r)/",
+        "meaning": "看病"
+      },
+      {
+        "grade": 6,
+        "word": "wear.",
+        "phonetic": "/weə(r)/",
+        "meaning": "穿"
+      },
+      {
+        "grade": 6,
+        "word": "more",
+        "phonetic": "/mɔː(r)/",
+        "meaning": "更多的"
+      },
+      {
+        "grade": 6,
+        "word": "deep",
+        "phonetic": "/diːp/",
+        "meaning": "深的"
+      },
+      {
+        "grade": 6,
+        "word": "breath",
+        "phonetic": "/breθ/",
+        "meaning": "呼吸"
+      },
+      {
+        "grade": 6,
+        "word": "take a deep breath",
+        "phonetic": "/teɪk ə; eɪ diːp breθ/",
+        "meaning": "深呼吸"
+      },
+      {
+        "grade": 6,
+        "word": "count",
+        "phonetic": "/kaʊnt/",
+        "meaning": "数数"
+      },
+      {
+        "grade": 6,
+        "word": "count to ten",
+        "phonetic": "/kaʊnt tuː; tə ten/",
+        "meaning": "数到十"
+      },
+      {
+        "grade": 6,
+        "word": "chase",
+        "phonetic": "/tʃeɪs/",
+        "meaning": "追赶"
+      },
+      {
+        "grade": 6,
+        "word": "mice",
+        "phonetic": "/maɪs/",
+        "meaning": "老鼠"
+      },
+      {
+        "grade": 6,
+        "word": "bad",
+        "phonetic": "/bæd/",
+        "meaning": "邪恶的"
+      },
+      {
+        "grade": 6,
+        "word": "hurt",
+        "phonetic": "/hɜːt/",
+        "meaning": "受伤"
+      },
+      {
+        "grade": 6,
+        "word": "ill",
+        "phonetic": "/ɪl/",
+        "meaning": "有病"
+      },
+      {
+        "grade": 6,
+        "word": "wrong",
+        "phonetic": "/rɒŋ/",
+        "meaning": "有毛病"
+      },
+      {
+        "grade": 6,
+        "word": "should",
+        "phonetic": "/ʃʊd; ʃəd/",
+        "meaning": "应该"
+      },
+      {
+        "grade": 6,
+        "word": "feel",
+        "phonetic": "/fiːl/",
+        "meaning": "觉得"
+      },
+      {
+        "grade": 6,
+        "word": "well",
+        "phonetic": "/wel/",
+        "meaning": "健康"
+      },
+      {
+        "grade": 6,
+        "word": "sit",
+        "phonetic": "/sɪt/",
+        "meaning": "坐"
+      },
+      {
+        "grade": 6,
+        "word": "grass",
+        "phonetic": "/ɡrɑːs/",
+        "meaning": "草坪"
+      },
+      {
+        "grade": 6,
+        "word": "ant",
+        "phonetic": "/ænt/",
+        "meaning": "蚂蚁"
+      },
+      {
+        "grade": 6,
+        "word": "worry",
+        "phonetic": "/ˈwʌri/",
+        "meaning": "担心"
+      },
+      {
+        "grade": 6,
+        "word": "stuck",
+        "phonetic": "/stʌk/",
+        "meaning": "陷住"
+      },
+      {
+        "grade": 6,
+        "word": "mud",
+        "phonetic": "/mʌd/",
+        "meaning": "泥"
+      },
+      {
+        "grade": 6,
+        "word": "pull",
+        "phonetic": "/pʊl/",
+        "meaning": "拉"
+      },
+      {
+        "grade": 6,
+        "word": "everyone",
+        "phonetic": "/ˈevriwʌn/",
+        "meaning": "每人"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "Science helps us understand the world.",
+        "zh": "科学帮助我们了解世界。"
+      },
+      {
+        "en": "The museum has many old pictures.",
+        "zh": "博物馆里有很多老照片。"
+      },
+      {
+        "en": "The post office is next to the bank.",
+        "zh": "邮局在银行旁边。"
+      },
+      {
+        "en": "I put the bookstore in my schoolbag.",
+        "zh": "我把书店放在书包里了。"
+      },
+      {
+        "en": "We watched a film at the cinema.",
+        "zh": "我们在电影院看了一部电影。"
+      },
+      {
+        "en": "The hospital is near the station.",
+        "zh": "医院就在车站附近。"
+      },
+      {
+        "en": "We visited the crossing yesterday.",
+        "zh": "我们昨天参观了十字路口。"
+      },
+      {
+        "en": "Turn left at the corner.",
+        "zh": "在拐角处左转。"
+      },
+      {
+        "en": "There is a left in the picture.",
+        "zh": "图片中有一个左边。"
+      },
+      {
+        "en": "I go to school on foot.",
+        "zh": "我步行去学校。"
+      },
+      {
+        "en": "I go to school by bike.",
+        "zh": "我骑自行车去学校。"
+      },
+      {
+        "en": "There is a bus in the picture.",
+        "zh": "图中有一辆公交车。"
+      },
+      {
+        "en": "The word \"plane\" shows an action in this sentence.",
+        "zh": "“plane”这个词表示这句话中的一个动作。"
+      },
+      {
+        "en": "There is a taxi in the picture.",
+        "zh": "图中有一辆出租车。"
+      },
+      {
+        "en": "There is a ship in the picture.",
+        "zh": "图中有一艘船。"
+      },
+      {
+        "en": "She answered subway during the discussion.",
+        "zh": "她在讨论中回答了地铁问题。"
+      },
+      {
+        "en": "There is a train in the picture.",
+        "zh": "图中有一列火车。"
+      },
+      {
+        "en": "The old bus is slow.",
+        "zh": "老巴士很慢。"
+      },
+      {
+        "en": "Please sit down.",
+        "zh": "请坐。"
+      },
+      {
+        "en": "Slow down when you cross the street.",
+        "zh": "过马路时请减速。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "介词",
+        "question": "The cat is ___ the box.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "of"
+        ],
+        "answer": 0,
+        "explain": "在盒子里面用 in。",
+        "question_zh": "猫在盒子里面。"
+      },
+      {
+        "category": "一般现在",
+        "question": "He ___ TV after dinner.",
+        "options": [
+          "watch",
+          "watches",
+          "watching",
+          "watched"
+        ],
+        "answer": 1,
+        "explain": "主语 he 三单，以 ch 结尾动词加 es 为 watches。",
+        "question_zh": "他晚饭后看电视。"
+      },
+      {
+        "category": "特殊疑问",
+        "question": "___ is my ruler? It's on the desk.",
+        "options": [
+          "What",
+          "Where",
+          "Who",
+          "How"
+        ],
+        "answer": 1,
+        "explain": "问地点用 Where。",
+        "question_zh": "我的尺子在哪里？在书桌上。"
+      },
+      {
+        "category": "形容词",
+        "question": "The elephant is ___.",
+        "options": [
+          "big",
+          "a big",
+          "bigs",
+          "the big"
+        ],
+        "answer": 0,
+        "explain": "be 动词后直接加形容词，无复数形式。",
+        "question_zh": "大象是大的。"
+      }
+    ]
+  },
+  "primary_6b.json": {
+    "words": [
+      {
+        "grade": 6,
+        "word": "younger",
+        "phonetic": "/ˈjʌŋɡə/",
+        "meaning": "更年轻的"
+      },
+      {
+        "grade": 6,
+        "word": "older",
+        "phonetic": "/ˈəʊldə/",
+        "meaning": "更年长的"
+      },
+      {
+        "grade": 6,
+        "word": "taller",
+        "phonetic": "/ˈtɔːlə(r)/",
+        "meaning": "更高的"
+      },
+      {
+        "grade": 6,
+        "word": "shorter",
+        "phonetic": "/ʃɔːtə/",
+        "meaning": "更矮的"
+      },
+      {
+        "grade": 6,
+        "word": "longer",
+        "phonetic": "/lɒŋɡə(r)/",
+        "meaning": "更长的"
+      },
+      {
+        "grade": 6,
+        "word": "thinner",
+        "phonetic": "/ˈθɪnə(r)/",
+        "meaning": "更瘦的"
+      },
+      {
+        "grade": 6,
+        "word": "heavier",
+        "phonetic": "/ˈhevɪə(r)/",
+        "meaning": "更重的"
+      },
+      {
+        "grade": 6,
+        "word": "bigger",
+        "phonetic": "/bɪgə(r)/",
+        "meaning": "更大的"
+      },
+      {
+        "grade": 6,
+        "word": "smaller",
+        "phonetic": "/smɔːlə(r)/",
+        "meaning": "更小的"
+      },
+      {
+        "grade": 6,
+        "word": "stronger",
+        "phonetic": "/strɒŋgə(r)/",
+        "meaning": "更强壮的"
+      },
+      {
+        "grade": 6,
+        "word": "dinosaur",
+        "phonetic": "/ˈdaɪnəsɔː(r)/",
+        "meaning": "恐龙"
+      },
+      {
+        "grade": 6,
+        "word": "hall",
+        "phonetic": "/hɔːl/",
+        "meaning": "大厅"
+      },
+      {
+        "grade": 6,
+        "word": "metre",
+        "phonetic": "/ˈmiːtə(r)/",
+        "meaning": "米"
+      },
+      {
+        "grade": 6,
+        "word": "meter",
+        "phonetic": "/ˈmiːtə(r)/",
+        "meaning": "米"
+      },
+      {
+        "grade": 6,
+        "word": "than",
+        "phonetic": "/ðæn; ðən/",
+        "meaning": "比"
+      },
+      {
+        "grade": 6,
+        "word": "both",
+        "phonetic": "/bəʊθ/",
+        "meaning": "两个都"
+      },
+      {
+        "grade": 6,
+        "word": "kilogram",
+        "phonetic": "/ˈkɪləɡræm/",
+        "meaning": "千克"
+      },
+      {
+        "grade": 6,
+        "word": "countryside",
+        "phonetic": "/ˈkʌntrisaɪd/",
+        "meaning": "乡村"
+      },
+      {
+        "grade": 6,
+        "word": "lower",
+        "phonetic": "/ˈləʊə(r)/",
+        "meaning": "更低地"
+      },
+      {
+        "grade": 6,
+        "word": "shadow",
+        "phonetic": "/ˈʃædəʊ/",
+        "meaning": "影子"
+      },
+      {
+        "grade": 6,
+        "word": "smarter",
+        "phonetic": "/ˈsmɑːtə/",
+        "meaning": "更聪明的"
+      },
+      {
+        "grade": 6,
+        "word": "become",
+        "phonetic": "/bɪˈkʌm/",
+        "meaning": "变成"
+      },
+      {
+        "grade": 6,
+        "word": "cleaned",
+        "phonetic": "/kliːnd/",
+        "meaning": "打扫"
+      },
+      {
+        "grade": 6,
+        "word": "stayed",
+        "phonetic": "/steɪd/",
+        "meaning": "待"
+      },
+      {
+        "grade": 6,
+        "word": "washed",
+        "phonetic": "/wɒʃt/",
+        "meaning": "洗"
+      },
+      {
+        "grade": 6,
+        "word": "watched",
+        "phonetic": "/wɒtʃt/",
+        "meaning": "看"
+      },
+      {
+        "grade": 6,
+        "word": "had",
+        "phonetic": "/hæd; həd/",
+        "meaning": "得病（例如 had a cold 得了感冒）"
+      },
+      {
+        "grade": 6,
+        "word": "had a cold",
+        "phonetic": "/hæd; həd ə; eɪ kəʊld/",
+        "meaning": "感冒"
+      },
+      {
+        "grade": 6,
+        "word": "slept",
+        "phonetic": "/slept/",
+        "meaning": "睡觉"
+      },
+      {
+        "grade": 6,
+        "word": "read",
+        "phonetic": "/riːd/",
+        "meaning": "读"
+      },
+      {
+        "grade": 6,
+        "word": "saw",
+        "phonetic": "/sɔː/",
+        "meaning": "看"
+      },
+      {
+        "grade": 6,
+        "word": "last",
+        "phonetic": "/lɑːst/",
+        "meaning": "最近"
+      },
+      {
+        "grade": 6,
+        "word": "yesterday",
+        "phonetic": "/ˈjestədeɪ/",
+        "meaning": "昨天"
+      },
+      {
+        "grade": 6,
+        "word": "before",
+        "phonetic": "/bɪˈfɔː(r)/",
+        "meaning": "在⋯⋯之前"
+      },
+      {
+        "grade": 6,
+        "word": "drank",
+        "phonetic": "/dræŋk/",
+        "meaning": "喝"
+      },
+      {
+        "grade": 6,
+        "word": "show",
+        "phonetic": "/ʃəʊ/",
+        "meaning": "演出"
+      },
+      {
+        "grade": 6,
+        "word": "magazine",
+        "phonetic": "/ˌmæɡəˈziːn/",
+        "meaning": "杂志"
+      },
+      {
+        "grade": 6,
+        "word": "better",
+        "phonetic": "/ˈbetə(r)/",
+        "meaning": "更好的"
+      },
+      {
+        "grade": 6,
+        "word": "faster",
+        "phonetic": "/fɑːstə(r)/",
+        "meaning": "更快的"
+      },
+      {
+        "grade": 6,
+        "word": "hotel",
+        "phonetic": "/həʊˈtel/",
+        "meaning": "旅馆"
+      },
+      {
+        "grade": 6,
+        "word": "fixed",
+        "phonetic": "/fɪkst/",
+        "meaning": "修理"
+      },
+      {
+        "grade": 6,
+        "word": "broken",
+        "phonetic": "/ˈbrəʊkən/",
+        "meaning": "破损的"
+      },
+      {
+        "grade": 6,
+        "word": "lamp",
+        "phonetic": "/læmp/",
+        "meaning": "台灯"
+      },
+      {
+        "grade": 6,
+        "word": "loud",
+        "phonetic": "/laʊd/",
+        "meaning": "大声的"
+      },
+      {
+        "grade": 6,
+        "word": "enjoy",
+        "phonetic": "/ɪnˈdʒɔɪ/",
+        "meaning": "享受⋯⋯的乐趣"
+      },
+      {
+        "grade": 6,
+        "word": "stay",
+        "phonetic": "/steɪ/",
+        "meaning": "暂住"
+      },
+      {
+        "grade": 6,
+        "word": "went",
+        "phonetic": "/went/",
+        "meaning": "去"
+      },
+      {
+        "grade": 6,
+        "word": "camp",
+        "phonetic": "/kæmp/",
+        "meaning": "野营"
+      },
+      {
+        "grade": 6,
+        "word": "went camping",
+        "phonetic": "/went ˈkæmpɪŋ/",
+        "meaning": "去野营"
+      },
+      {
+        "grade": 6,
+        "word": "fish",
+        "phonetic": "/fɪʃ/",
+        "meaning": "钓鱼"
+      },
+      {
+        "grade": 6,
+        "word": "went fishing",
+        "phonetic": "/ɡəʊ ˈfɪʃɪŋ/",
+        "meaning": "去钓鱼"
+      },
+      {
+        "grade": 6,
+        "word": "rode",
+        "phonetic": "/rəʊd/",
+        "meaning": "骑"
+      },
+      {
+        "grade": 6,
+        "word": "hurt",
+        "phonetic": "/hɜːt/",
+        "meaning": "受伤"
+      },
+      {
+        "grade": 6,
+        "word": "ate",
+        "phonetic": "/et; eɪt/",
+        "meaning": "吃"
+      },
+      {
+        "grade": 6,
+        "word": "took",
+        "phonetic": "/tʊk/",
+        "meaning": "拍照"
+      },
+      {
+        "grade": 6,
+        "word": "took pictures",
+        "phonetic": "/tʊk ˈpɪktʃəz/",
+        "meaning": "照相"
+      },
+      {
+        "grade": 6,
+        "word": "bought",
+        "phonetic": "/bɔːt/",
+        "meaning": "买"
+      },
+      {
+        "grade": 6,
+        "word": "gift",
+        "phonetic": "/ɡɪft/",
+        "meaning": "礼物"
+      },
+      {
+        "grade": 6,
+        "word": "fell",
+        "phonetic": "/fel/",
+        "meaning": "摔倒"
+      },
+      {
+        "grade": 6,
+        "word": "off",
+        "phonetic": "/ɒf/",
+        "meaning": "落下"
+      },
+      {
+        "grade": 6,
+        "word": "Labour Day",
+        "phonetic": "/ˈleɪbə(r) deɪ/",
+        "meaning": "劳动节"
+      },
+      {
+        "grade": 6,
+        "word": "mule",
+        "phonetic": "/mjuːl/",
+        "meaning": "骡子"
+      },
+      {
+        "grade": 6,
+        "word": "Turpan",
+        "phonetic": "",
+        "meaning": "吐鲁番"
+      },
+      {
+        "grade": 6,
+        "word": "could",
+        "phonetic": "/kʊd; kəd/",
+        "meaning": "能"
+      },
+      {
+        "grade": 6,
+        "word": "till",
+        "phonetic": "/tɪl/",
+        "meaning": "直到"
+      },
+      {
+        "grade": 6,
+        "word": "beach",
+        "phonetic": "/biːtʃ/",
+        "meaning": "沙滩"
+      },
+      {
+        "grade": 6,
+        "word": "basket",
+        "phonetic": "/ˈbɑːskɪt/",
+        "meaning": "篮子"
+      },
+      {
+        "grade": 6,
+        "word": "part",
+        "phonetic": "/pɑːt/",
+        "meaning": "角色"
+      },
+      {
+        "grade": 6,
+        "word": "licked",
+        "phonetic": "/lɪkt/",
+        "meaning": "舔"
+      },
+      {
+        "grade": 6,
+        "word": "laughed",
+        "phonetic": "/lɑːft/",
+        "meaning": "笑"
+      },
+      {
+        "grade": 6,
+        "word": "dining hall",
+        "phonetic": "/ˈdaɪnɪŋ hɔːl/",
+        "meaning": "饭厅"
+      },
+      {
+        "grade": 6,
+        "word": "grass",
+        "phonetic": "/ɡrɑːs/",
+        "meaning": "草坪"
+      },
+      {
+        "grade": 6,
+        "word": "gym",
+        "phonetic": "/dʒɪm/",
+        "meaning": "体育馆"
+      },
+      {
+        "grade": 6,
+        "word": "ago",
+        "phonetic": "/əˈɡəʊ/",
+        "meaning": "以前"
+      },
+      {
+        "grade": 6,
+        "word": "cycling",
+        "phonetic": "/ˈsaɪklɪŋ/",
+        "meaning": "骑自行车运动"
+      },
+      {
+        "grade": 6,
+        "word": "go cycling",
+        "phonetic": "/ɡəʊ ˈsaɪklɪŋ/",
+        "meaning": "去骑自行车"
+      },
+      {
+        "grade": 6,
+        "word": "ice-skate",
+        "phonetic": "/ˈaɪs skeɪt/",
+        "meaning": "滑冰"
+      },
+      {
+        "grade": 6,
+        "word": "badminton",
+        "phonetic": "/ˈbædmɪntən/",
+        "meaning": "羽毛球运动"
+      },
+      {
+        "grade": 6,
+        "word": "star",
+        "phonetic": "/stɑː(r)/",
+        "meaning": "星"
+      },
+      {
+        "grade": 6,
+        "word": "easy",
+        "phonetic": "/ˈiːzi/",
+        "meaning": "容易的"
+      },
+      {
+        "grade": 6,
+        "word": "look up",
+        "phonetic": "/lʊk ʌp/",
+        "meaning": "查阅"
+      },
+      {
+        "grade": 6,
+        "word": "Internet",
+        "phonetic": "/ˈɪntənet/",
+        "meaning": "互联网"
+      },
+      {
+        "grade": 6,
+        "word": "different",
+        "phonetic": "/ˈdɪfrənt/",
+        "meaning": "不同的"
+      },
+      {
+        "grade": 6,
+        "word": "active",
+        "phonetic": "/ˈæktɪv/",
+        "meaning": "活跃的"
+      },
+      {
+        "grade": 6,
+        "word": "race",
+        "phonetic": "/reɪs/",
+        "meaning": "赛跑"
+      },
+      {
+        "grade": 6,
+        "word": "nothing",
+        "phonetic": "/ˈnʌθɪŋ/",
+        "meaning": "没有什么"
+      },
+      {
+        "grade": 6,
+        "word": "thought",
+        "phonetic": "/θɔːt/",
+        "meaning": "想"
+      },
+      {
+        "grade": 6,
+        "word": "felt",
+        "phonetic": "/felt/",
+        "meaning": "感觉"
+      },
+      {
+        "grade": 6,
+        "word": "cheetah",
+        "phonetic": "/ˈtʃiːtə/",
+        "meaning": "猎豹"
+      },
+      {
+        "grade": 6,
+        "word": "trip",
+        "phonetic": "/trɪp/",
+        "meaning": "绊倒"
+      },
+      {
+        "grade": 6,
+        "word": "woke",
+        "phonetic": "/wəʊk/",
+        "meaning": "醒"
+      },
+      {
+        "grade": 6,
+        "word": "dream",
+        "phonetic": "/driːm/",
+        "meaning": "梦"
+      },
+      {
+        "grade": 6,
+        "word": "straight",
+        "phonetic": "/streɪt/",
+        "meaning": "笔直的"
+      },
+      {
+        "grade": 6,
+        "word": "right",
+        "phonetic": "/raɪt/",
+        "meaning": "右"
+      },
+      {
+        "grade": 6,
+        "word": "ask",
+        "phonetic": "/ɑːsk/",
+        "meaning": "问"
+      },
+      {
+        "grade": 6,
+        "word": "sir",
+        "phonetic": "/sɜː(r)/",
+        "meaning": "先生"
+      },
+      {
+        "grade": 6,
+        "word": "interesting",
+        "phonetic": "/ˈɪntrəstɪŋ/",
+        "meaning": "有趣的"
+      },
+      {
+        "grade": 6,
+        "word": "Italian",
+        "phonetic": "/ɪˈtæliən/",
+        "meaning": "意大利的"
+      },
+      {
+        "grade": 6,
+        "word": "restaurant",
+        "phonetic": "/ˈrestrɒnt/",
+        "meaning": "餐馆"
+      },
+      {
+        "grade": 6,
+        "word": "pizza",
+        "phonetic": "/ˈpiːtsə/",
+        "meaning": "比萨饼"
+      },
+      {
+        "grade": 6,
+        "word": "street",
+        "phonetic": "/striːt/",
+        "meaning": "大街"
+      },
+      {
+        "grade": 6,
+        "word": "get",
+        "phonetic": "/ɡet/",
+        "meaning": "到达"
+      },
+      {
+        "grade": 6,
+        "word": "GPS",
+        "phonetic": "/ˌdʒiː piː ˈes/",
+        "meaning": "全球（卫星）"
+      },
+      {
+        "grade": 6,
+        "word": "gave",
+        "phonetic": "/ɡeɪv/",
+        "meaning": "提供"
+      },
+      {
+        "grade": 6,
+        "word": "feature",
+        "phonetic": "/ˈfiːtʃə(r)/",
+        "meaning": "特点"
+      },
+      {
+        "grade": 6,
+        "word": "follow",
+        "phonetic": "/ˈfɒləʊ/",
+        "meaning": "跟着"
+      },
+      {
+        "grade": 6,
+        "word": "far",
+        "phonetic": "/fɑː(r)/",
+        "meaning": "较远的"
+      },
+      {
+        "grade": 6,
+        "word": "tell",
+        "phonetic": "/tel/",
+        "meaning": "告诉"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "My brother is younger than me.",
+        "zh": "我弟弟比我小。"
+      },
+      {
+        "en": "My sister is older than me.",
+        "zh": "我姐姐比​​我大。"
+      },
+      {
+        "en": "My brother is taller than me.",
+        "zh": "我哥哥比我高。"
+      },
+      {
+        "en": "This pencil is shorter than that one.",
+        "zh": "这支铅笔比那支短。"
+      },
+      {
+        "en": "This river is longer than that one.",
+        "zh": "这条河比那条河长。"
+      },
+      {
+        "en": "My ruler is thinner than yours.",
+        "zh": "我的尺子比你的细。"
+      },
+      {
+        "en": "This bag is heavier than that one.",
+        "zh": "这个包比那个重。"
+      },
+      {
+        "en": "This box is bigger than that one.",
+        "zh": "这个盒子比那个大。"
+      },
+      {
+        "en": "This room is smaller than ours.",
+        "zh": "这个房间比我们的小。"
+      },
+      {
+        "en": "The new bridge is stronger.",
+        "zh": "新桥更加坚固。"
+      },
+      {
+        "en": "I saw a dinosaur at the zoo.",
+        "zh": "我在动物园看到了一只恐龙。"
+      },
+      {
+        "en": "There is a hall in the picture.",
+        "zh": "图中有一个大厅。"
+      },
+      {
+        "en": "The tree is five metres tall.",
+        "zh": "这棵树有五米高。"
+      },
+      {
+        "en": "The tree is five meters tall.",
+        "zh": "这棵树有五米高。"
+      },
+      {
+        "en": "Both answers are correct.",
+        "zh": "两个答案都是正确的。"
+      },
+      {
+        "en": "There is a kilogram in the picture.",
+        "zh": "图中有一公斤。"
+      },
+      {
+        "en": "There is a countryside in the picture.",
+        "zh": "画里有一个乡村。"
+      },
+      {
+        "en": "She answered lower during the discussion.",
+        "zh": "在讨论中她的回答较低。"
+      },
+      {
+        "en": "There is a shadow in the picture.",
+        "zh": "图片中有一个阴影。"
+      },
+      {
+        "en": "The student is smarter.",
+        "zh": "学生比较聪明。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "介词",
+        "question": "My dog is ___ the tree.",
+        "options": [
+          "under",
+          "in",
+          "on",
+          "to"
+        ],
+        "answer": 0,
+        "explain": "在树下用 under。",
+        "question_zh": "我的狗在树下。"
+      },
+      {
+        "category": "现在进行",
+        "question": "Look! The cat ___ sleeping.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "answer": 0,
+        "explain": "现在进行时 be + doing，主语 the cat 单数用 is。",
+        "question_zh": "看！猫正在睡觉。"
+      },
+      {
+        "category": "特殊疑问",
+        "question": "___ is that man? He is my teacher.",
+        "options": [
+          "What",
+          "Where",
+          "Who",
+          "How"
+        ],
+        "answer": 2,
+        "explain": "问人是谁用 Who。",
+        "question_zh": "那个男人是谁？他是我的老师。"
+      },
+      {
+        "category": "代词",
+        "question": "___ is my brother.",
+        "options": [
+          "This",
+          "These",
+          "Those",
+          "They"
+        ],
+        "answer": 0,
+        "explain": "单数近指用 This。",
+        "question_zh": "这是我的哥哥。"
+      }
+    ]
+  },
+  "junior.json": {
+    "words": [
+      {
+        "word": "ability",
+        "phonetic": "/əˈbɪləti/",
+        "meaning": "能力"
+      },
+      {
+        "word": "able",
+        "phonetic": "/ˈeɪbl/",
+        "meaning": "能够的"
+      },
+      {
+        "word": "about",
+        "phonetic": "/əˈbaʊt/",
+        "meaning": "关于；大约"
+      },
+      {
+        "word": "above",
+        "phonetic": "/əˈbʌv/",
+        "meaning": "在……上方"
+      },
+      {
+        "word": "accept",
+        "phonetic": "/əkˈsept/",
+        "meaning": "接受"
+      },
+      {
+        "word": "achieve",
+        "phonetic": "/əˈtʃiːv/",
+        "meaning": "实现；达到"
+      },
+      {
+        "word": "across",
+        "phonetic": "/əˈkrɒs/",
+        "meaning": "穿过；横过"
+      },
+      {
+        "word": "act",
+        "phonetic": "/ækt/",
+        "meaning": "行动；表演"
+      },
+      {
+        "word": "active",
+        "phonetic": "/ˈæktɪv/",
+        "meaning": "活跃的"
+      },
+      {
+        "word": "activity",
+        "phonetic": "/ækˈtɪvəti/",
+        "meaning": "活动"
+      },
+      {
+        "word": "actor",
+        "phonetic": "/ˈæktə(r)/",
+        "meaning": "演员"
+      },
+      {
+        "word": "add",
+        "phonetic": "/æd/",
+        "meaning": "增加；加"
+      },
+      {
+        "word": "address",
+        "phonetic": "/əˈdres/",
+        "meaning": "地址"
+      },
+      {
+        "word": "adult",
+        "phonetic": "/ˈædʌlt/",
+        "meaning": "成年人"
+      },
+      {
+        "word": "advice",
+        "phonetic": "/ədˈvaɪs/",
+        "meaning": "建议"
+      },
+      {
+        "word": "afford",
+        "phonetic": "/əˈfɔːd/",
+        "meaning": "负担得起"
+      },
+      {
+        "word": "afraid",
+        "phonetic": "/əˈfreɪd/",
+        "meaning": "害怕的"
+      },
+      {
+        "word": "after",
+        "phonetic": "/ˈɑːftə(r)/",
+        "meaning": "在……之后"
+      },
+      {
+        "word": "again",
+        "phonetic": "/əˈɡen/",
+        "meaning": "再一次"
+      },
+      {
+        "word": "against",
+        "phonetic": "/əˈɡenst/",
+        "meaning": "反对；靠着"
+      },
+      {
+        "word": "age",
+        "phonetic": "/eɪdʒ/",
+        "meaning": "年龄"
+      },
+      {
+        "word": "ago",
+        "phonetic": "/əˈɡəʊ/",
+        "meaning": "……以前"
+      },
+      {
+        "word": "agree",
+        "phonetic": "/əˈɡriː/",
+        "meaning": "同意"
+      },
+      {
+        "word": "air",
+        "phonetic": "/eə(r)/",
+        "meaning": "空气"
+      },
+      {
+        "word": "airport",
+        "phonetic": "/ˈeəpɔːt/",
+        "meaning": "机场"
+      },
+      {
+        "word": "alive",
+        "phonetic": "/əˈlaɪv/",
+        "meaning": "活着的"
+      },
+      {
+        "word": "allow",
+        "phonetic": "/əˈlaʊ/",
+        "meaning": "允许"
+      },
+      {
+        "word": "almost",
+        "phonetic": "/ˈɔːlməʊst/",
+        "meaning": "几乎"
+      },
+      {
+        "word": "alone",
+        "phonetic": "/əˈləʊn/",
+        "meaning": "独自"
+      },
+      {
+        "word": "along",
+        "phonetic": "/əˈlɒŋ/",
+        "meaning": "沿着"
+      },
+      {
+        "word": "already",
+        "phonetic": "/ɔːlˈredi/",
+        "meaning": "已经"
+      },
+      {
+        "word": "also",
+        "phonetic": "/ˈɔːlsəʊ/",
+        "meaning": "也"
+      },
+      {
+        "word": "although",
+        "phonetic": "/ɔːlˈðəʊ/",
+        "meaning": "虽然"
+      },
+      {
+        "word": "always",
+        "phonetic": "/ˈɔːlweɪz/",
+        "meaning": "总是"
+      },
+      {
+        "word": "amazing",
+        "phonetic": "/əˈmeɪzɪŋ/",
+        "meaning": "令人惊奇的"
+      },
+      {
+        "word": "among",
+        "phonetic": "/əˈmʌŋ/",
+        "meaning": "在……之中"
+      },
+      {
+        "word": "ancient",
+        "phonetic": "/ˈeɪnʃənt/",
+        "meaning": "古代的"
+      },
+      {
+        "word": "angry",
+        "phonetic": "/ˈæŋɡri/",
+        "meaning": "生气的"
+      },
+      {
+        "word": "animal",
+        "phonetic": "/ˈænɪml/",
+        "meaning": "动物"
+      },
+      {
+        "word": "another",
+        "phonetic": "/əˈnʌðə(r)/",
+        "meaning": "另一个"
+      },
+      {
+        "word": "answer",
+        "phonetic": "/ˈɑːnsə(r)/",
+        "meaning": "回答；答案"
+      },
+      {
+        "word": "anxious",
+        "phonetic": "/ˈæŋkʃəs/",
+        "meaning": "焦虑的"
+      },
+      {
+        "word": "anywhere",
+        "phonetic": "/ˈeniweə(r)/",
+        "meaning": "任何地方"
+      },
+      {
+        "word": "appear",
+        "phonetic": "/əˈpɪə(r)/",
+        "meaning": "出现"
+      },
+      {
+        "word": "apple",
+        "phonetic": "/ˈæpl/",
+        "meaning": "苹果"
+      },
+      {
+        "word": "area",
+        "phonetic": "/ˈeəriə/",
+        "meaning": "地区；面积"
+      },
+      {
+        "word": "argue",
+        "phonetic": "/ˈɑːɡjuː/",
+        "meaning": "争论"
+      },
+      {
+        "word": "around",
+        "phonetic": "/əˈraʊnd/",
+        "meaning": "围绕；在周围"
+      },
+      {
+        "word": "arrive",
+        "phonetic": "/əˈraɪv/",
+        "meaning": "到达"
+      },
+      {
+        "word": "article",
+        "phonetic": "/ˈɑːtɪkl/",
+        "meaning": "文章"
+      },
+      {
+        "word": "artist",
+        "phonetic": "/ˈɑːtɪst/",
+        "meaning": "艺术家"
+      },
+      {
+        "word": "ask",
+        "phonetic": "/ɑːsk/",
+        "meaning": "问；请求"
+      },
+      {
+        "word": "attention",
+        "phonetic": "/əˈtenʃn/",
+        "meaning": "注意"
+      },
+      {
+        "word": "avoid",
+        "phonetic": "/əˈvɔɪd/",
+        "meaning": "避免"
+      },
+      {
+        "word": "awake",
+        "phonetic": "/əˈweɪk/",
+        "meaning": "醒着的"
+      },
+      {
+        "word": "awful",
+        "phonetic": "/ˈɔːfl/",
+        "meaning": "糟糕的"
+      },
+      {
+        "word": "baby",
+        "phonetic": "/ˈbeɪbi/",
+        "meaning": "婴儿"
+      },
+      {
+        "word": "back",
+        "phonetic": "/bæk/",
+        "meaning": "回来；背部"
+      },
+      {
+        "word": "background",
+        "phonetic": "/ˈbækɡraʊnd/",
+        "meaning": "背景"
+      },
+      {
+        "word": "badly",
+        "phonetic": "/ˈbædli/",
+        "meaning": "严重地；差"
+      },
+      {
+        "word": "bake",
+        "phonetic": "/beɪk/",
+        "meaning": "烘焙"
+      },
+      {
+        "word": "ball",
+        "phonetic": "/bɔːl/",
+        "meaning": "球"
+      },
+      {
+        "word": "banana",
+        "phonetic": "/bəˈnɑːnə/",
+        "meaning": "香蕉"
+      },
+      {
+        "word": "band",
+        "phonetic": "/bænd/",
+        "meaning": "乐队"
+      },
+      {
+        "word": "bank",
+        "phonetic": "/bæŋk/",
+        "meaning": "银行；河岸"
+      },
+      {
+        "word": "base",
+        "phonetic": "/beɪs/",
+        "meaning": "基础；基地"
+      },
+      {
+        "word": "basic",
+        "phonetic": "/ˈbeɪsɪk/",
+        "meaning": "基本的"
+      },
+      {
+        "word": "basket",
+        "phonetic": "/ˈbɑːskɪt/",
+        "meaning": "篮子"
+      },
+      {
+        "word": "beach",
+        "phonetic": "/biːtʃ/",
+        "meaning": "海滩"
+      },
+      {
+        "word": "beat",
+        "phonetic": "/biːt/",
+        "meaning": "打败；节拍"
+      },
+      {
+        "word": "beautiful",
+        "phonetic": "/ˈbjuːtɪfl/",
+        "meaning": "美丽的"
+      },
+      {
+        "word": "because",
+        "phonetic": "/bɪˈkɒz/",
+        "meaning": "因为"
+      },
+      {
+        "word": "become",
+        "phonetic": "/bɪˈkʌm/",
+        "meaning": "变成"
+      },
+      {
+        "word": "before",
+        "phonetic": "/bɪˈfɔː(r)/",
+        "meaning": "在……之前"
+      },
+      {
+        "word": "begin",
+        "phonetic": "/bɪˈɡɪn/",
+        "meaning": "开始"
+      },
+      {
+        "word": "behave",
+        "phonetic": "/bɪˈheɪv/",
+        "meaning": "表现"
+      },
+      {
+        "word": "believe",
+        "phonetic": "/bɪˈliːv/",
+        "meaning": "相信"
+      },
+      {
+        "word": "belong",
+        "phonetic": "/bɪˈlɒŋ/",
+        "meaning": "属于"
+      },
+      {
+        "word": "below",
+        "phonetic": "/bɪˈləʊ/",
+        "meaning": "在……下方"
+      },
+      {
+        "word": "beside",
+        "phonetic": "/bɪˈsaɪd/",
+        "meaning": "在……旁边"
+      },
+      {
+        "word": "besides",
+        "phonetic": "/bɪˈsaɪdz/",
+        "meaning": "此外；除……之外"
+      },
+      {
+        "word": "between",
+        "phonetic": "/bɪˈtwiːn/",
+        "meaning": "在……之间"
+      },
+      {
+        "word": "beyond",
+        "phonetic": "/bɪˈjɒnd/",
+        "meaning": "超出"
+      },
+      {
+        "word": "bicycle",
+        "phonetic": "/ˈbaɪsɪkl/",
+        "meaning": "自行车"
+      },
+      {
+        "word": "billion",
+        "phonetic": "/ˈbɪljən/",
+        "meaning": "十亿"
+      },
+      {
+        "word": "birth",
+        "phonetic": "/bɜːθ/",
+        "meaning": "出生"
+      },
+      {
+        "word": "bit",
+        "phonetic": "/bɪt/",
+        "meaning": "一点"
+      },
+      {
+        "word": "blame",
+        "phonetic": "/bleɪm/",
+        "meaning": "责备"
+      },
+      {
+        "word": "blind",
+        "phonetic": "/blaɪnd/",
+        "meaning": "失明的"
+      },
+      {
+        "word": "blood",
+        "phonetic": "/blʌd/",
+        "meaning": "血液"
+      },
+      {
+        "word": "board",
+        "phonetic": "/bɔːd/",
+        "meaning": "木板；董事会"
+      },
+      {
+        "word": "boat",
+        "phonetic": "/bəʊt/",
+        "meaning": "小船"
+      },
+      {
+        "word": "body",
+        "phonetic": "/ˈbɒdi/",
+        "meaning": "身体"
+      },
+      {
+        "word": "book",
+        "phonetic": "/bʊk/",
+        "meaning": "书；预订"
+      },
+      {
+        "word": "boring",
+        "phonetic": "/ˈbɔːrɪŋ/",
+        "meaning": "无聊的"
+      },
+      {
+        "word": "borrow",
+        "phonetic": "/ˈbɒrəʊ/",
+        "meaning": "借入"
+      },
+      {
+        "word": "both",
+        "phonetic": "/bəʊθ/",
+        "meaning": "两者都"
+      },
+      {
+        "word": "bottle",
+        "phonetic": "/ˈbɒtl/",
+        "meaning": "瓶子"
+      },
+      {
+        "word": "bottom",
+        "phonetic": "/ˈbɒtəm/",
+        "meaning": "底部"
+      },
+      {
+        "word": "brave",
+        "phonetic": "/breɪv/",
+        "meaning": "勇敢的"
+      },
+      {
+        "word": "bread",
+        "phonetic": "/bred/",
+        "meaning": "面包"
+      },
+      {
+        "word": "break",
+        "phonetic": "/breɪk/",
+        "meaning": "打破；休息"
+      },
+      {
+        "word": "breakfast",
+        "phonetic": "/ˈbrekfəst/",
+        "meaning": "早餐"
+      },
+      {
+        "word": "bridge",
+        "phonetic": "/brɪdʒ/",
+        "meaning": "桥"
+      },
+      {
+        "word": "bright",
+        "phonetic": "/braɪt/",
+        "meaning": "明亮的"
+      },
+      {
+        "word": "bring",
+        "phonetic": "/brɪŋ/",
+        "meaning": "带来"
+      },
+      {
+        "word": "brother",
+        "phonetic": "/ˈbrʌðə(r)/",
+        "meaning": "兄弟"
+      },
+      {
+        "word": "build",
+        "phonetic": "/bɪld/",
+        "meaning": "建造"
+      },
+      {
+        "word": "building",
+        "phonetic": "/ˈbɪldɪŋ/",
+        "meaning": "建筑物"
+      },
+      {
+        "word": "burn",
+        "phonetic": "/bɜːn/",
+        "meaning": "燃烧"
+      },
+      {
+        "word": "business",
+        "phonetic": "/ˈbɪznəs/",
+        "meaning": "生意；商业"
+      },
+      {
+        "word": "busy",
+        "phonetic": "/ˈbɪzi/",
+        "meaning": "忙碌的"
+      },
+      {
+        "word": "butterfly",
+        "phonetic": "/ˈbʌtəflaɪ/",
+        "meaning": "蝴蝶"
+      },
+      {
+        "word": "buy",
+        "phonetic": "/baɪ/",
+        "meaning": "买"
+      },
+      {
+        "word": "call",
+        "phonetic": "/kɔːl/",
+        "meaning": "打电话；称呼"
+      },
+      {
+        "word": "calm",
+        "phonetic": "/kɑːm/",
+        "meaning": "平静的"
+      },
+      {
+        "word": "camera",
+        "phonetic": "/ˈkæmərə/",
+        "meaning": "照相机"
+      },
+      {
+        "word": "camp",
+        "phonetic": "/kæmp/",
+        "meaning": "露营"
+      },
+      {
+        "word": "canal",
+        "phonetic": "/kəˈnæl/",
+        "meaning": "运河"
+      },
+      {
+        "word": "cancel",
+        "phonetic": "/ˈkænsl/",
+        "meaning": "取消"
+      },
+      {
+        "word": "cancer",
+        "phonetic": "/ˈkænsə(r)/",
+        "meaning": "癌症"
+      },
+      {
+        "word": "capable",
+        "phonetic": "/ˈkeɪpəbl/",
+        "meaning": "有能力的"
+      },
+      {
+        "word": "capital",
+        "phonetic": "/ˈkæpɪtl/",
+        "meaning": "首都；大写"
+      },
+      {
+        "word": "captain",
+        "phonetic": "/ˈkæptɪn/",
+        "meaning": "船长；队长"
+      },
+      {
+        "word": "care",
+        "phonetic": "/keə(r)/",
+        "meaning": "照顾；关心"
+      },
+      {
+        "word": "careful",
+        "phonetic": "/ˈkeəfl/",
+        "meaning": "仔细的"
+      },
+      {
+        "word": "careless",
+        "phonetic": "/ˈkeələs/",
+        "meaning": "粗心的"
+      },
+      {
+        "word": "carry",
+        "phonetic": "/ˈkæri/",
+        "meaning": "携带"
+      },
+      {
+        "word": "case",
+        "phonetic": "/keɪs/",
+        "meaning": "情况；案件"
+      },
+      {
+        "word": "catch",
+        "phonetic": "/kætʃ/",
+        "meaning": "抓住；赶上"
+      },
+      {
+        "word": "cause",
+        "phonetic": "/kɔːz/",
+        "meaning": "原因；引起"
+      },
+      {
+        "word": "celebrate",
+        "phonetic": "/ˈselɪbreɪt/",
+        "meaning": "庆祝"
+      },
+      {
+        "word": "central",
+        "phonetic": "/ˈsentrəl/",
+        "meaning": "中心的"
+      },
+      {
+        "word": "century",
+        "phonetic": "/ˈsentʃəri/",
+        "meaning": "世纪"
+      },
+      {
+        "word": "certain",
+        "phonetic": "/ˈsɜːtn/",
+        "meaning": "确定的"
+      },
+      {
+        "word": "chance",
+        "phonetic": "/tʃɑːns/",
+        "meaning": "机会"
+      },
+      {
+        "word": "change",
+        "phonetic": "/tʃeɪndʒ/",
+        "meaning": "改变"
+      },
+      {
+        "word": "cheap",
+        "phonetic": "/tʃiːp/",
+        "meaning": "便宜的"
+      },
+      {
+        "word": "check",
+        "phonetic": "/tʃek/",
+        "meaning": "检查"
+      },
+      {
+        "word": "cheer",
+        "phonetic": "/tʃɪə(r)/",
+        "meaning": "欢呼"
+      },
+      {
+        "word": "chemistry",
+        "phonetic": "/ˈkemɪstri/",
+        "meaning": "化学"
+      },
+      {
+        "word": "choose",
+        "phonetic": "/tʃuːz/",
+        "meaning": "选择"
+      },
+      {
+        "word": "chore",
+        "phonetic": "/tʃɔː(r)/",
+        "meaning": "家务活"
+      },
+      {
+        "word": "chocolate",
+        "phonetic": "/ˈtʃɒklət/",
+        "meaning": "巧克力"
+      },
+      {
+        "word": "choice",
+        "phonetic": "/tʃɔɪs/",
+        "meaning": "选择"
+      },
+      {
+        "word": "circle",
+        "phonetic": "/ˈsɜːkl/",
+        "meaning": "圆圈；环绕"
+      },
+      {
+        "word": "city",
+        "phonetic": "/ˈsɪti/",
+        "meaning": "城市"
+      },
+      {
+        "word": "class",
+        "phonetic": "/klɑːs/",
+        "meaning": "班级；课堂"
+      },
+      {
+        "word": "clear",
+        "phonetic": "/klɪə(r)/",
+        "meaning": "清楚的"
+      },
+      {
+        "word": "climb",
+        "phonetic": "/klaɪm/",
+        "meaning": "攀登"
+      },
+      {
+        "word": "clock",
+        "phonetic": "/klɒk/",
+        "meaning": "钟表"
+      },
+      {
+        "word": "close",
+        "phonetic": "/kləʊz/",
+        "meaning": "关闭；近的"
+      },
+      {
+        "word": "clothes",
+        "phonetic": "/kləʊðz/",
+        "meaning": "衣服"
+      },
+      {
+        "word": "cloud",
+        "phonetic": "/klaʊd/",
+        "meaning": "云"
+      },
+      {
+        "word": "coach",
+        "phonetic": "/kəʊtʃ/",
+        "meaning": "教练"
+      },
+      {
+        "word": "coast",
+        "phonetic": "/kəʊst/",
+        "meaning": "海岸"
+      },
+      {
+        "word": "cold",
+        "phonetic": "/kəʊld/",
+        "meaning": "寒冷的"
+      },
+      {
+        "word": "collect",
+        "phonetic": "/kəˈlekt/",
+        "meaning": "收集"
+      },
+      {
+        "word": "college",
+        "phonetic": "/ˈkɒlɪdʒ/",
+        "meaning": "学院"
+      },
+      {
+        "word": "colour",
+        "phonetic": "/ˈkʌlə(r)/",
+        "meaning": "颜色"
+      },
+      {
+        "word": "come",
+        "phonetic": "/kʌm/",
+        "meaning": "来"
+      },
+      {
+        "word": "comfortable",
+        "phonetic": "/ˈkʌmftəbl/",
+        "meaning": "舒适的"
+      },
+      {
+        "word": "common",
+        "phonetic": "/ˈkɒmən/",
+        "meaning": "常见的；普通的"
+      },
+      {
+        "word": "communicate",
+        "phonetic": "/kəˈmjuːnɪkeɪt/",
+        "meaning": "交流"
+      },
+      {
+        "word": "community",
+        "phonetic": "/kəˈmjuːnəti/",
+        "meaning": "社区"
+      },
+      {
+        "word": "compare",
+        "phonetic": "/kəmˈpeə(r)/",
+        "meaning": "比较"
+      },
+      {
+        "word": "complete",
+        "phonetic": "/kəmˈpliːt/",
+        "meaning": "完成；完整的"
+      },
+      {
+        "word": "computer",
+        "phonetic": "/kəmˈpjuːtə(r)/",
+        "meaning": "电脑"
+      },
+      {
+        "word": "concentrate",
+        "phonetic": "/ˈkɒnsntreɪt/",
+        "meaning": "集中注意力"
+      },
+      {
+        "word": "condition",
+        "phonetic": "/kənˈdɪʃn/",
+        "meaning": "条件；状况"
+      },
+      {
+        "word": "confident",
+        "phonetic": "/ˈkɒnfɪdənt/",
+        "meaning": "自信的"
+      },
+      {
+        "word": "congratulate",
+        "phonetic": "/kənˈɡrætʃuleɪt/",
+        "meaning": "祝贺"
+      },
+      {
+        "word": "consider",
+        "phonetic": "/kənˈsɪdə(r)/",
+        "meaning": "考虑"
+      },
+      {
+        "word": "continue",
+        "phonetic": "/kənˈtɪnjuː/",
+        "meaning": "继续"
+      },
+      {
+        "word": "control",
+        "phonetic": "/kənˈtrəʊl/",
+        "meaning": "控制"
+      },
+      {
+        "word": "convenient",
+        "phonetic": "/kənˈviːniənt/",
+        "meaning": "方便的"
+      },
+      {
+        "word": "cook",
+        "phonetic": "/kʊk/",
+        "meaning": "烹饪"
+      },
+      {
+        "word": "cool",
+        "phonetic": "/kuːl/",
+        "meaning": "凉爽的；酷"
+      },
+      {
+        "word": "copy",
+        "phonetic": "/ˈkɒpi/",
+        "meaning": "复制；副本"
+      },
+      {
+        "word": "corner",
+        "phonetic": "/ˈkɔːnə(r)/",
+        "meaning": "角落"
+      },
+      {
+        "word": "correct",
+        "phonetic": "/kəˈrekt/",
+        "meaning": "正确的；纠正"
+      },
+      {
+        "word": "cost",
+        "phonetic": "/kɒst/",
+        "meaning": "花费；成本"
+      },
+      {
+        "word": "country",
+        "phonetic": "/ˈkʌntri/",
+        "meaning": "国家；乡村"
+      },
+      {
+        "word": "courage",
+        "phonetic": "/ˈkʌrɪdʒ/",
+        "meaning": "勇气"
+      },
+      {
+        "word": "course",
+        "phonetic": "/kɔːs/",
+        "meaning": "课程；过程"
+      },
+      {
+        "word": "cousin",
+        "phonetic": "/ˈkʌzn/",
+        "meaning": "堂（表）兄弟姐妹"
+      },
+      {
+        "word": "cover",
+        "phonetic": "/ˈkʌvə(r)/",
+        "meaning": "覆盖；封面"
+      },
+      {
+        "word": "cow",
+        "phonetic": "/kaʊ/",
+        "meaning": "奶牛"
+      },
+      {
+        "word": "create",
+        "phonetic": "/kriˈeɪt/",
+        "meaning": "创造"
+      },
+      {
+        "word": "cross",
+        "phonetic": "/krɒs/",
+        "meaning": "穿过；十字"
+      },
+      {
+        "word": "crowd",
+        "phonetic": "/kraʊd/",
+        "meaning": "人群"
+      },
+      {
+        "word": "cry",
+        "phonetic": "/kraɪ/",
+        "meaning": "哭；喊"
+      },
+      {
+        "word": "culture",
+        "phonetic": "/ˈkʌltʃə(r)/",
+        "meaning": "文化"
+      },
+      {
+        "word": "cup",
+        "phonetic": "/kʌp/",
+        "meaning": "杯子"
+      },
+      {
+        "word": "customer",
+        "phonetic": "/ˈkʌstəmə(r)/",
+        "meaning": "顾客"
+      },
+      {
+        "word": "cut",
+        "phonetic": "/kʌt/",
+        "meaning": "切；剪"
+      },
+      {
+        "word": "daily",
+        "phonetic": "/ˈdeɪli/",
+        "meaning": "日常的；每日"
+      },
+      {
+        "word": "damage",
+        "phonetic": "/ˈdæmɪdʒ/",
+        "meaning": "损坏"
+      },
+      {
+        "word": "dance",
+        "phonetic": "/dɑːns/",
+        "meaning": "跳舞"
+      },
+      {
+        "word": "danger",
+        "phonetic": "/ˈdeɪndʒə(r)/",
+        "meaning": "危险"
+      },
+      {
+        "word": "dare",
+        "phonetic": "/deə(r)/",
+        "meaning": "敢于"
+      },
+      {
+        "word": "date",
+        "phonetic": "/deɪt/",
+        "meaning": "日期"
+      },
+      {
+        "word": "daughter",
+        "phonetic": "/ˈdɔːtə(r)/",
+        "meaning": "女儿"
+      },
+      {
+        "word": "dead",
+        "phonetic": "/ded/",
+        "meaning": "死的"
+      },
+      {
+        "word": "deal",
+        "phonetic": "/diːl/",
+        "meaning": "处理；交易"
+      },
+      {
+        "word": "dear",
+        "phonetic": "/dɪə(r)/",
+        "meaning": "亲爱的；贵的"
+      },
+      {
+        "word": "decide",
+        "phonetic": "/dɪˈsaɪd/",
+        "meaning": "决定"
+      },
+      {
+        "word": "deep",
+        "phonetic": "/diːp/",
+        "meaning": "深的"
+      },
+      {
+        "word": "degree",
+        "phonetic": "/dɪˈɡriː/",
+        "meaning": "程度；学位"
+      },
+      {
+        "word": "deliver",
+        "phonetic": "/dɪˈlɪvə(r)/",
+        "meaning": "递送"
+      },
+      {
+        "word": "depend",
+        "phonetic": "/dɪˈpend/",
+        "meaning": "依靠"
+      },
+      {
+        "word": "describe",
+        "phonetic": "/dɪˈskraɪb/",
+        "meaning": "描述"
+      },
+      {
+        "word": "design",
+        "phonetic": "/dɪˈzaɪn/",
+        "meaning": "设计"
+      },
+      {
+        "word": "develop",
+        "phonetic": "/dɪˈveləp/",
+        "meaning": "发展"
+      },
+      {
+        "word": "die",
+        "phonetic": "/daɪ/",
+        "meaning": "死亡"
+      },
+      {
+        "word": "difference",
+        "phonetic": "/ˈdɪfrəns/",
+        "meaning": "不同"
+      },
+      {
+        "word": "difficult",
+        "phonetic": "/ˈdɪfɪkəlt/",
+        "meaning": "困难的"
+      },
+      {
+        "word": "digital",
+        "phonetic": "/ˈdɪdʒɪtl/",
+        "meaning": "数字的"
+      },
+      {
+        "word": "direct",
+        "phonetic": "/dəˈrekt/",
+        "meaning": "直接的；指挥"
+      },
+      {
+        "word": "direction",
+        "phonetic": "/dəˈrekʃn/",
+        "meaning": "方向"
+      },
+      {
+        "word": "dirty",
+        "phonetic": "/ˈdɜːti/",
+        "meaning": "脏的"
+      },
+      {
+        "word": "discover",
+        "phonetic": "/dɪˈskʌvə(r)/",
+        "meaning": "发现"
+      },
+      {
+        "word": "discuss",
+        "phonetic": "/dɪˈskʌs/",
+        "meaning": "讨论"
+      },
+      {
+        "word": "disease",
+        "phonetic": "/dɪˈziːz/",
+        "meaning": "疾病"
+      },
+      {
+        "word": "distance",
+        "phonetic": "/ˈdɪstəns/",
+        "meaning": "距离"
+      },
+      {
+        "word": "divide",
+        "phonetic": "/dɪˈvaɪd/",
+        "meaning": "分开；除"
+      },
+      {
+        "word": "doctor",
+        "phonetic": "/ˈdɒktə(r)/",
+        "meaning": "医生"
+      },
+      {
+        "word": "double",
+        "phonetic": "/ˈdʌbl/",
+        "meaning": "双倍的"
+      },
+      {
+        "word": "doubt",
+        "phonetic": "/daʊt/",
+        "meaning": "怀疑"
+      },
+      {
+        "word": "download",
+        "phonetic": "/ˌdaʊnˈləʊd/",
+        "meaning": "下载"
+      },
+      {
+        "word": "dream",
+        "phonetic": "/driːm/",
+        "meaning": "梦想"
+      },
+      {
+        "word": "dress",
+        "phonetic": "/dres/",
+        "meaning": "连衣裙；穿衣"
+      },
+      {
+        "word": "drink",
+        "phonetic": "/drɪŋk/",
+        "meaning": "喝；饮料"
+      },
+      {
+        "word": "drive",
+        "phonetic": "/draɪv/",
+        "meaning": "驾驶"
+      },
+      {
+        "word": "drop",
+        "phonetic": "/drɒp/",
+        "meaning": "掉落；滴"
+      },
+      {
+        "word": "during",
+        "phonetic": "/ˈdjʊərɪŋ/",
+        "meaning": "在……期间"
+      },
+      {
+        "word": "each",
+        "phonetic": "/iːtʃ/",
+        "meaning": "每个"
+      },
+      {
+        "word": "early",
+        "phonetic": "/ˈɜːli/",
+        "meaning": "早的"
+      },
+      {
+        "word": "earth",
+        "phonetic": "/ɜːθ/",
+        "meaning": "地球；泥土"
+      },
+      {
+        "word": "easy",
+        "phonetic": "/ˈiːzi/",
+        "meaning": "容易的"
+      },
+      {
+        "word": "education",
+        "phonetic": "/ˌedʒuˈkeɪʃn/",
+        "meaning": "教育"
+      },
+      {
+        "word": "effect",
+        "phonetic": "/ɪˈfekt/",
+        "meaning": "效果；影响"
+      },
+      {
+        "word": "effort",
+        "phonetic": "/ˈefət/",
+        "meaning": "努力"
+      },
+      {
+        "word": "electricity",
+        "phonetic": "/ɪˌlekˈtrɪsəti/",
+        "meaning": "电"
+      },
+      {
+        "word": "else",
+        "phonetic": "/els/",
+        "meaning": "其他的"
+      },
+      {
+        "word": "empty",
+        "phonetic": "/ˈempti/",
+        "meaning": "空的"
+      },
+      {
+        "word": "encourage",
+        "phonetic": "/ɪnˈkʌrɪdʒ/",
+        "meaning": "鼓励"
+      },
+      {
+        "word": "end",
+        "phonetic": "/end/",
+        "meaning": "结束；末尾"
+      },
+      {
+        "word": "energy",
+        "phonetic": "/ˈenədʒi/",
+        "meaning": "能量"
+      },
+      {
+        "word": "enough",
+        "phonetic": "/ɪˈnʌf/",
+        "meaning": "足够的"
+      },
+      {
+        "word": "environment",
+        "phonetic": "/ɪnˈvaɪrənmənt/",
+        "meaning": "环境"
+      },
+      {
+        "word": "especially",
+        "phonetic": "/ɪˈspeʃəli/",
+        "meaning": "尤其"
+      },
+      {
+        "word": "even",
+        "phonetic": "/ˈiːvn/",
+        "meaning": "甚至"
+      },
+      {
+        "word": "ever",
+        "phonetic": "/ˈevə(r)/",
+        "meaning": "曾经"
+      },
+      {
+        "word": "every",
+        "phonetic": "/ˈevri/",
+        "meaning": "每个"
+      },
+      {
+        "word": "example",
+        "phonetic": "/ɪɡˈzɑːmpl/",
+        "meaning": "例子"
+      },
+      {
+        "word": "excellent",
+        "phonetic": "/ˈeksələnt/",
+        "meaning": "极好的"
+      },
+      {
+        "word": "exchange",
+        "phonetic": "/ɪksˈtʃeɪndʒ/",
+        "meaning": "交换"
+      },
+      {
+        "word": "excited",
+        "phonetic": "/ɪkˈsaɪtɪd/",
+        "meaning": "兴奋的"
+      },
+      {
+        "word": "exercise",
+        "phonetic": "/ˈeksəsaɪz/",
+        "meaning": "锻炼；练习"
+      },
+      {
+        "word": "expect",
+        "phonetic": "/ɪkˈspekt/",
+        "meaning": "期望"
+      },
+      {
+        "word": "expensive",
+        "phonetic": "/ɪkˈspensɪv/",
+        "meaning": "昂贵的"
+      },
+      {
+        "word": "experience",
+        "phonetic": "/ɪkˈspɪəriəns/",
+        "meaning": "经验；经历"
+      },
+      {
+        "word": "experiment",
+        "phonetic": "/ɪkˈsperɪmənt/",
+        "meaning": "实验"
+      },
+      {
+        "word": "explain",
+        "phonetic": "/ɪkˈspleɪn/",
+        "meaning": "解释"
+      },
+      {
+        "word": "fail",
+        "phonetic": "/feɪl/",
+        "meaning": "失败"
+      },
+      {
+        "word": "fair",
+        "phonetic": "/feə(r)/",
+        "meaning": "公平的"
+      },
+      {
+        "word": "famous",
+        "phonetic": "/ˈfeɪməs/",
+        "meaning": "著名的"
+      },
+      {
+        "word": "farmer",
+        "phonetic": "/ˈfɑːmə(r)/",
+        "meaning": "农民"
+      },
+      {
+        "word": "fashion",
+        "phonetic": "/ˈfæʃn/",
+        "meaning": "时尚"
+      },
+      {
+        "word": "fast",
+        "phonetic": "/fɑːst/",
+        "meaning": "快的"
+      },
+      {
+        "word": "father",
+        "phonetic": "/ˈfɑːðə(r)/",
+        "meaning": "父亲"
+      },
+      {
+        "word": "fault",
+        "phonetic": "/fɔːlt/",
+        "meaning": "过错"
+      },
+      {
+        "word": "favourite",
+        "phonetic": "/ˈfeɪvərɪt/",
+        "meaning": "最喜欢的"
+      },
+      {
+        "word": "fear",
+        "phonetic": "/fɪə(r)/",
+        "meaning": "害怕；恐惧"
+      },
+      {
+        "word": "feed",
+        "phonetic": "/fiːd/",
+        "meaning": "喂养"
+      },
+      {
+        "word": "feel",
+        "phonetic": "/fiːl/",
+        "meaning": "感觉"
+      },
+      {
+        "word": "festival",
+        "phonetic": "/ˈfestɪvl/",
+        "meaning": "节日"
+      },
+      {
+        "word": "fight",
+        "phonetic": "/faɪt/",
+        "meaning": "打架；斗争"
+      },
+      {
+        "word": "final",
+        "phonetic": "/ˈfaɪnl/",
+        "meaning": "最后的"
+      },
+      {
+        "word": "fire",
+        "phonetic": "/ˈfaɪə(r)/",
+        "meaning": "火"
+      },
+      {
+        "word": "fit",
+        "phonetic": "/fɪt/",
+        "meaning": "合适的；健身"
+      },
+      {
+        "word": "fix",
+        "phonetic": "/fɪks/",
+        "meaning": "修理"
+      },
+      {
+        "word": "flag",
+        "phonetic": "/flæɡ/",
+        "meaning": "旗帜"
+      },
+      {
+        "word": "flat",
+        "phonetic": "/flæt/",
+        "meaning": "公寓；平坦的"
+      },
+      {
+        "word": "floor",
+        "phonetic": "/flɔː(r)/",
+        "meaning": "地板；楼层"
+      },
+      {
+        "word": "fly",
+        "phonetic": "/flaɪ/",
+        "meaning": "飞"
+      },
+      {
+        "word": "follow",
+        "phonetic": "/ˈfɒləʊ/",
+        "meaning": "跟随"
+      },
+      {
+        "word": "food",
+        "phonetic": "/fuːd/",
+        "meaning": "食物"
+      },
+      {
+        "word": "football",
+        "phonetic": "/ˈfʊtbɔːl/",
+        "meaning": "足球"
+      },
+      {
+        "word": "foreign",
+        "phonetic": "/ˈfɒrən/",
+        "meaning": "外国的"
+      },
+      {
+        "word": "forest",
+        "phonetic": "/ˈfɒrɪst/",
+        "meaning": "森林"
+      },
+      {
+        "word": "forget",
+        "phonetic": "/fəˈɡet/",
+        "meaning": "忘记"
+      },
+      {
+        "word": "forgive",
+        "phonetic": "/fəˈɡɪv/",
+        "meaning": "原谅"
+      },
+      {
+        "word": "forward",
+        "phonetic": "/ˈfɔːwəd/",
+        "meaning": "向前"
+      },
+      {
+        "word": "free",
+        "phonetic": "/friː/",
+        "meaning": "自由的；免费的"
+      },
+      {
+        "word": "fresh",
+        "phonetic": "/freʃ/",
+        "meaning": "新鲜的"
+      },
+      {
+        "word": "friend",
+        "phonetic": "/frend/",
+        "meaning": "朋友"
+      },
+      {
+        "word": "fruit",
+        "phonetic": "/fruːt/",
+        "meaning": "水果"
+      },
+      {
+        "word": "full",
+        "phonetic": "/fʊl/",
+        "meaning": "满的"
+      },
+      {
+        "word": "fun",
+        "phonetic": "/fʌn/",
+        "meaning": "乐趣"
+      },
+      {
+        "word": "future",
+        "phonetic": "/ˈfjuːtʃə(r)/",
+        "meaning": "未来"
+      },
+      {
+        "word": "game",
+        "phonetic": "/ɡeɪm/",
+        "meaning": "游戏；比赛"
+      },
+      {
+        "word": "garden",
+        "phonetic": "/ˈɡɑːdn/",
+        "meaning": "花园"
+      },
+      {
+        "word": "general",
+        "phonetic": "/ˈdʒenrəl/",
+        "meaning": "普遍的"
+      },
+      {
+        "word": "gentle",
+        "phonetic": "/ˈdʒentl/",
+        "meaning": "温柔的"
+      },
+      {
+        "word": "gift",
+        "phonetic": "/ɡɪft/",
+        "meaning": "礼物"
+      },
+      {
+        "word": "give",
+        "phonetic": "/ɡɪv/",
+        "meaning": "给"
+      },
+      {
+        "word": "glad",
+        "phonetic": "/ɡlæd/",
+        "meaning": "高兴的"
+      },
+      {
+        "word": "glass",
+        "phonetic": "/ɡlɑːs/",
+        "meaning": "玻璃；杯子"
+      },
+      {
+        "word": "goal",
+        "phonetic": "/ɡəʊl/",
+        "meaning": "目标；球门"
+      },
+      {
+        "word": "government",
+        "phonetic": "/ˈɡʌvənmənt/",
+        "meaning": "政府"
+      },
+      {
+        "word": "grade",
+        "phonetic": "/ɡreɪd/",
+        "meaning": "年级；分数"
+      },
+      {
+        "word": "grass",
+        "phonetic": "/ɡrɑːs/",
+        "meaning": "草"
+      },
+      {
+        "word": "great",
+        "phonetic": "/ɡreɪt/",
+        "meaning": "伟大的"
+      },
+      {
+        "word": "grow",
+        "phonetic": "/ɡrəʊ/",
+        "meaning": "生长"
+      },
+      {
+        "word": "guess",
+        "phonetic": "/ɡes/",
+        "meaning": "猜测"
+      },
+      {
+        "word": "guest",
+        "phonetic": "/ɡest/",
+        "meaning": "客人"
+      },
+      {
+        "word": "guide",
+        "phonetic": "/ɡaɪd/",
+        "meaning": "导游；指导"
+      },
+      {
+        "word": "habit",
+        "phonetic": "/ˈhæbɪt/",
+        "meaning": "习惯"
+      },
+      {
+        "word": "hand",
+        "phonetic": "/hænd/",
+        "meaning": "手"
+      },
+      {
+        "word": "happen",
+        "phonetic": "/ˈhæpən/",
+        "meaning": "发生"
+      },
+      {
+        "word": "happy",
+        "phonetic": "/ˈhæpi/",
+        "meaning": "快乐的"
+      },
+      {
+        "word": "hard",
+        "phonetic": "/hɑːd/",
+        "meaning": "努力地；坚硬的"
+      },
+      {
+        "word": "harm",
+        "phonetic": "/hɑːm/",
+        "meaning": "伤害"
+      },
+      {
+        "word": "harvest",
+        "phonetic": "/ˈhɑːvɪst/",
+        "meaning": "收获"
+      },
+      {
+        "word": "health",
+        "phonetic": "/helθ/",
+        "meaning": "健康"
+      },
+      {
+        "word": "hear",
+        "phonetic": "/hɪə(r)/",
+        "meaning": "听见"
+      },
+      {
+        "word": "heart",
+        "phonetic": "/hɑːt/",
+        "meaning": "心脏；内心"
+      },
+      {
+        "word": "heat",
+        "phonetic": "/hiːt/",
+        "meaning": "热"
+      },
+      {
+        "word": "heavy",
+        "phonetic": "/ˈhevi/",
+        "meaning": "重的"
+      },
+      {
+        "word": "height",
+        "phonetic": "/haɪt/",
+        "meaning": "高度"
+      },
+      {
+        "word": "hero",
+        "phonetic": "/ˈhɪərəʊ/",
+        "meaning": "英雄"
+      },
+      {
+        "word": "hide",
+        "phonetic": "/haɪd/",
+        "meaning": "隐藏"
+      },
+      {
+        "word": "history",
+        "phonetic": "/ˈhɪstri/",
+        "meaning": "历史"
+      },
+      {
+        "word": "hobby",
+        "phonetic": "/ˈhɒbi/",
+        "meaning": "爱好"
+      },
+      {
+        "word": "hold",
+        "phonetic": "/həʊld/",
+        "meaning": "握住；举行"
+      },
+      {
+        "word": "holiday",
+        "phonetic": "/ˈhɒlədeɪ/",
+        "meaning": "假日"
+      },
+      {
+        "word": "homework",
+        "phonetic": "/ˈhəʊmwɜːk/",
+        "meaning": "家庭作业"
+      },
+      {
+        "word": "honest",
+        "phonetic": "/ˈɒnɪst/",
+        "meaning": "诚实的"
+      },
+      {
+        "word": "hope",
+        "phonetic": "/həʊp/",
+        "meaning": "希望"
+      },
+      {
+        "word": "hospital",
+        "phonetic": "/ˈhɒspɪtl/",
+        "meaning": "医院"
+      },
+      {
+        "word": "however",
+        "phonetic": "/haʊˈevə(r)/",
+        "meaning": "然而"
+      },
+      {
+        "word": "huge",
+        "phonetic": "/hjuːdʒ/",
+        "meaning": "巨大的"
+      },
+      {
+        "word": "hungry",
+        "phonetic": "/ˈhʌŋɡri/",
+        "meaning": "饥饿的"
+      },
+      {
+        "word": "idea",
+        "phonetic": "/aɪˈdɪə/",
+        "meaning": "主意；想法"
+      },
+      {
+        "word": "imagine",
+        "phonetic": "/ɪˈmædʒɪn/",
+        "meaning": "想象"
+      },
+      {
+        "word": "important",
+        "phonetic": "/ɪmˈpɔːtnt/",
+        "meaning": "重要的"
+      },
+      {
+        "word": "improve",
+        "phonetic": "/ɪmˈpruːv/",
+        "meaning": "改善；提高"
+      },
+      {
+        "word": "include",
+        "phonetic": "/ɪnˈkluːd/",
+        "meaning": "包含"
+      },
+      {
+        "word": "information",
+        "phonetic": "/ˌɪnfəˈmeɪʃn/",
+        "meaning": "信息"
+      },
+      {
+        "word": "instead",
+        "phonetic": "/ɪnˈsted/",
+        "meaning": "代替"
+      },
+      {
+        "word": "interest",
+        "phonetic": "/ˈɪntrəst/",
+        "meaning": "兴趣；使感兴趣"
+      },
+      {
+        "word": "interesting",
+        "phonetic": "/ˈɪntrəstɪŋ/",
+        "meaning": "有趣的"
+      },
+      {
+        "word": "introduce",
+        "phonetic": "/ˌɪntrəˈdjuːs/",
+        "meaning": "介绍"
+      },
+      {
+        "word": "invent",
+        "phonetic": "/ɪnˈvent/",
+        "meaning": "发明"
+      },
+      {
+        "word": "invite",
+        "phonetic": "/ɪnˈvaɪt/",
+        "meaning": "邀请"
+      },
+      {
+        "word": "island",
+        "phonetic": "/ˈaɪlənd/",
+        "meaning": "岛屿"
+      },
+      {
+        "word": "job",
+        "phonetic": "/dʒɒb/",
+        "meaning": "工作"
+      },
+      {
+        "word": "join",
+        "phonetic": "/dʒɔɪn/",
+        "meaning": "加入"
+      },
+      {
+        "word": "journey",
+        "phonetic": "/ˈdʒɜːni/",
+        "meaning": "旅行"
+      },
+      {
+        "word": "joy",
+        "phonetic": "/dʒɔɪ/",
+        "meaning": "欢乐"
+      },
+      {
+        "word": "judge",
+        "phonetic": "/dʒʌdʒ/",
+        "meaning": "判断；法官"
+      },
+      {
+        "word": "jump",
+        "phonetic": "/dʒʌmp/",
+        "meaning": "跳"
+      },
+      {
+        "word": "just",
+        "phonetic": "/dʒʌst/",
+        "meaning": "刚刚；只是"
+      },
+      {
+        "word": "keep",
+        "phonetic": "/kiːp/",
+        "meaning": "保持"
+      },
+      {
+        "word": "key",
+        "phonetic": "/kiː/",
+        "meaning": "钥匙；关键的"
+      },
+      {
+        "word": "kill",
+        "phonetic": "/kɪl/",
+        "meaning": "杀死"
+      },
+      {
+        "word": "kind",
+        "phonetic": "/kaɪnd/",
+        "meaning": "善良的；种类"
+      },
+      {
+        "word": "knowledge",
+        "phonetic": "/ˈnɒlɪdʒ/",
+        "meaning": "知识"
+      },
+      {
+        "word": "lady",
+        "phonetic": "/ˈleɪdi/",
+        "meaning": "女士"
+      },
+      {
+        "word": "language",
+        "phonetic": "/ˈlæŋɡwɪdʒ/",
+        "meaning": "语言"
+      },
+      {
+        "word": "large",
+        "phonetic": "/lɑːdʒ/",
+        "meaning": "大的"
+      },
+      {
+        "word": "last",
+        "phonetic": "/lɑːst/",
+        "meaning": "最后的；持续"
+      },
+      {
+        "word": "laugh",
+        "phonetic": "/lɑːf/",
+        "meaning": "笑"
+      },
+      {
+        "word": "law",
+        "phonetic": "/lɔː/",
+        "meaning": "法律"
+      },
+      {
+        "word": "lazy",
+        "phonetic": "/ˈleɪzi/",
+        "meaning": "懒惰的"
+      },
+      {
+        "word": "lead",
+        "phonetic": "/liːd/",
+        "meaning": "领导；带领"
+      },
+      {
+        "word": "learn",
+        "phonetic": "/lɜːn/",
+        "meaning": "学习"
+      },
+      {
+        "word": "leave",
+        "phonetic": "/liːv/",
+        "meaning": "离开"
+      },
+      {
+        "word": "lesson",
+        "phonetic": "/ˈlesn/",
+        "meaning": "课"
+      },
+      {
+        "word": "let",
+        "phonetic": "/let/",
+        "meaning": "让"
+      },
+      {
+        "word": "letter",
+        "phonetic": "/ˈletə(r)/",
+        "meaning": "信；字母"
+      },
+      {
+        "word": "life",
+        "phonetic": "/laɪf/",
+        "meaning": "生活；生命"
+      },
+      {
+        "word": "lift",
+        "phonetic": "/lɪft/",
+        "meaning": "举起；电梯"
+      },
+      {
+        "word": "light",
+        "phonetic": "/laɪt/",
+        "meaning": "灯；轻的；光"
+      },
+      {
+        "word": "line",
+        "phonetic": "/laɪn/",
+        "meaning": "线；排"
+      },
+      {
+        "word": "list",
+        "phonetic": "/lɪst/",
+        "meaning": "列表；清单"
+      },
+      {
+        "word": "listen",
+        "phonetic": "/ˈlɪsn/",
+        "meaning": "听"
+      },
+      {
+        "word": "little",
+        "phonetic": "/ˈlɪtl/",
+        "meaning": "小的；一点"
+      },
+      {
+        "word": "live",
+        "phonetic": "/lɪv/",
+        "meaning": "居住；生活"
+      },
+      {
+        "word": "long",
+        "phonetic": "/lɒŋ/",
+        "meaning": "长的"
+      },
+      {
+        "word": "look",
+        "phonetic": "/lʊk/",
+        "meaning": "看"
+      },
+      {
+        "word": "lose",
+        "phonetic": "/luːz/",
+        "meaning": "失去；输"
+      },
+      {
+        "word": "loud",
+        "phonetic": "/laʊd/",
+        "meaning": "大声的"
+      },
+      {
+        "word": "love",
+        "phonetic": "/lʌv/",
+        "meaning": "爱"
+      },
+      {
+        "word": "lucky",
+        "phonetic": "/ˈlʌki/",
+        "meaning": "幸运的"
+      },
+      {
+        "word": "machine",
+        "phonetic": "/məˈʃiːn/",
+        "meaning": "机器"
+      },
+      {
+        "word": "magazine",
+        "phonetic": "/ˌmæɡəˈziːn/",
+        "meaning": "杂志"
+      },
+      {
+        "word": "main",
+        "phonetic": "/meɪn/",
+        "meaning": "主要的"
+      },
+      {
+        "word": "make",
+        "phonetic": "/meɪk/",
+        "meaning": "制作；使"
+      },
+      {
+        "word": "manage",
+        "phonetic": "/ˈmænɪdʒ/",
+        "meaning": "管理；设法"
+      },
+      {
+        "word": "many",
+        "phonetic": "/ˈmeni/",
+        "meaning": "许多"
+      },
+      {
+        "word": "map",
+        "phonetic": "/mæp/",
+        "meaning": "地图"
+      },
+      {
+        "word": "mark",
+        "phonetic": "/mɑːk/",
+        "meaning": "标记；分数"
+      },
+      {
+        "word": "market",
+        "phonetic": "/ˈmɑːkɪt/",
+        "meaning": "市场"
+      },
+      {
+        "word": "marry",
+        "phonetic": "/ˈmæri/",
+        "meaning": "结婚"
+      },
+      {
+        "word": "master",
+        "phonetic": "/ˈmɑːstə(r)/",
+        "meaning": "掌握；主人"
+      },
+      {
+        "word": "matter",
+        "phonetic": "/ˈmætə(r)/",
+        "meaning": "事情；要紧"
+      },
+      {
+        "word": "maybe",
+        "phonetic": "/ˈmeɪbi/",
+        "meaning": "也许"
+      },
+      {
+        "word": "meal",
+        "phonetic": "/miːl/",
+        "meaning": "一餐"
+      },
+      {
+        "word": "mean",
+        "phonetic": "/miːn/",
+        "meaning": "意思是；意味着"
+      },
+      {
+        "word": "meet",
+        "phonetic": "/miːt/",
+        "meaning": "遇见"
+      },
+      {
+        "word": "member",
+        "phonetic": "/ˈmembə(r)/",
+        "meaning": "成员"
+      },
+      {
+        "word": "memory",
+        "phonetic": "/ˈmeməri/",
+        "meaning": "记忆"
+      },
+      {
+        "word": "message",
+        "phonetic": "/ˈmesɪdʒ/",
+        "meaning": "信息；消息"
+      },
+      {
+        "word": "middle",
+        "phonetic": "/ˈmɪdl/",
+        "meaning": "中间"
+      },
+      {
+        "word": "mind",
+        "phonetic": "/maɪnd/",
+        "meaning": "头脑；介意"
+      },
+      {
+        "word": "minute",
+        "phonetic": "/ˈmɪnɪt/",
+        "meaning": "分钟"
+      },
+      {
+        "word": "miss",
+        "phonetic": "/mɪs/",
+        "meaning": "想念；错过"
+      },
+      {
+        "word": "mistake",
+        "phonetic": "/mɪˈsteɪk/",
+        "meaning": "错误"
+      },
+      {
+        "word": "modern",
+        "phonetic": "/ˈmɒdn/",
+        "meaning": "现代的"
+      },
+      {
+        "word": "moment",
+        "phonetic": "/ˈməʊmənt/",
+        "meaning": "时刻"
+      },
+      {
+        "word": "money",
+        "phonetic": "/ˈmʌni/",
+        "meaning": "钱"
+      },
+      {
+        "word": "month",
+        "phonetic": "/mʌnθ/",
+        "meaning": "月"
+      },
+      {
+        "word": "more",
+        "phonetic": "/mɔː(r)/",
+        "meaning": "更多的"
+      },
+      {
+        "word": "morning",
+        "phonetic": "/ˈmɔːnɪŋ/",
+        "meaning": "早晨"
+      },
+      {
+        "word": "most",
+        "phonetic": "/məʊst/",
+        "meaning": "最多的"
+      },
+      {
+        "word": "mother",
+        "phonetic": "/ˈmʌðə(r)/",
+        "meaning": "母亲"
+      },
+      {
+        "word": "mountain",
+        "phonetic": "/ˈmaʊntən/",
+        "meaning": "山"
+      },
+      {
+        "word": "move",
+        "phonetic": "/muːv/",
+        "meaning": "移动"
+      },
+      {
+        "word": "movie",
+        "phonetic": "/ˈmuːvi/",
+        "meaning": "电影"
+      },
+      {
+        "word": "music",
+        "phonetic": "/ˈmjuːzɪk/",
+        "meaning": "音乐"
+      },
+      {
+        "word": "name",
+        "phonetic": "/neɪm/",
+        "meaning": "名字"
+      },
+      {
+        "word": "natural",
+        "phonetic": "/ˈnætʃrəl/",
+        "meaning": "自然的"
+      },
+      {
+        "word": "nature",
+        "phonetic": "/ˈneɪtʃə(r)/",
+        "meaning": "自然"
+      },
+      {
+        "word": "near",
+        "phonetic": "/nɪə(r)/",
+        "meaning": "在附近"
+      },
+      {
+        "word": "need",
+        "phonetic": "/niːd/",
+        "meaning": "需要"
+      },
+      {
+        "word": "neighbor",
+        "phonetic": "/ˈneɪbə(r)/",
+        "meaning": "邻居"
+      },
+      {
+        "word": "never",
+        "phonetic": "/ˈnevə(r)/",
+        "meaning": "从不"
+      },
+      {
+        "word": "new",
+        "phonetic": "/njuː/",
+        "meaning": "新的"
+      },
+      {
+        "word": "news",
+        "phonetic": "/njuːz/",
+        "meaning": "新闻"
+      },
+      {
+        "word": "nice",
+        "phonetic": "/naɪs/",
+        "meaning": "好的"
+      },
+      {
+        "word": "night",
+        "phonetic": "/naɪt/",
+        "meaning": "夜晚"
+      },
+      {
+        "word": "noise",
+        "phonetic": "/nɔɪz/",
+        "meaning": "噪音"
+      },
+      {
+        "word": "nothing",
+        "phonetic": "/ˈnʌθɪŋ/",
+        "meaning": "没有什么"
+      },
+      {
+        "word": "notice",
+        "phonetic": "/ˈnəʊtɪs/",
+        "meaning": "注意到；通知"
+      },
+      {
+        "word": "number",
+        "phonetic": "/ˈnʌmbə(r)/",
+        "meaning": "数字"
+      },
+      {
+        "word": "object",
+        "phonetic": "/ˈɒbdʒɪkt/",
+        "meaning": "物体；反对"
+      },
+      {
+        "word": "offer",
+        "phonetic": "/ˈɒfə(r)/",
+        "meaning": "提供"
+      },
+      {
+        "word": "office",
+        "phonetic": "/ˈɒfɪs/",
+        "meaning": "办公室"
+      },
+      {
+        "word": "often",
+        "phonetic": "/ˈɒfn/",
+        "meaning": "经常"
+      },
+      {
+        "word": "once",
+        "phonetic": "/wʌns/",
+        "meaning": "曾经；一次"
+      },
+      {
+        "word": "only",
+        "phonetic": "/ˈəʊnli/",
+        "meaning": "只有"
+      },
+      {
+        "word": "open",
+        "phonetic": "/ˈəʊpən/",
+        "meaning": "打开；开放的"
+      },
+      {
+        "word": "operate",
+        "phonetic": "/ˈɒpəreɪt/",
+        "meaning": "操作；运转"
+      },
+      {
+        "word": "opinion",
+        "phonetic": "/əˈpɪnjən/",
+        "meaning": "意见"
+      },
+      {
+        "word": "opportunity",
+        "phonetic": "/ˌɒpəˈtjuːnəti/",
+        "meaning": "机会"
+      },
+      {
+        "word": "order",
+        "phonetic": "/ˈɔːdə(r)/",
+        "meaning": "命令；订单；顺序"
+      },
+      {
+        "word": "other",
+        "phonetic": "/ˈʌðə(r)/",
+        "meaning": "其他的"
+      },
+      {
+        "word": "outdoor",
+        "phonetic": "/ˈaʊtdɔː(r)/",
+        "meaning": "户外的"
+      },
+      {
+        "word": "outside",
+        "phonetic": "/ˌaʊtˈsaɪd/",
+        "meaning": "外面"
+      },
+      {
+        "word": "over",
+        "phonetic": "/ˈəʊvə(r)/",
+        "meaning": "超过；在上方"
+      },
+      {
+        "word": "own",
+        "phonetic": "/əʊn/",
+        "meaning": "自己的；拥有"
+      },
+      {
+        "word": "pack",
+        "phonetic": "/pæk/",
+        "meaning": "打包"
+      },
+      {
+        "word": "page",
+        "phonetic": "/peɪdʒ/",
+        "meaning": "页"
+      },
+      {
+        "word": "pain",
+        "phonetic": "/peɪn/",
+        "meaning": "疼痛"
+      },
+      {
+        "word": "paint",
+        "phonetic": "/peɪnt/",
+        "meaning": "绘画"
+      },
+      {
+        "word": "pair",
+        "phonetic": "/peə(r)/",
+        "meaning": "一双"
+      },
+      {
+        "word": "paper",
+        "phonetic": "/ˈpeɪpə(r)/",
+        "meaning": "纸；报纸"
+      },
+      {
+        "word": "parent",
+        "phonetic": "/ˈpeərənt/",
+        "meaning": "父母"
+      },
+      {
+        "word": "park",
+        "phonetic": "/pɑːk/",
+        "meaning": "公园；停车"
+      },
+      {
+        "word": "part",
+        "phonetic": "/pɑːt/",
+        "meaning": "部分"
+      },
+      {
+        "word": "party",
+        "phonetic": "/ˈpɑːti/",
+        "meaning": "聚会；政党"
+      },
+      {
+        "word": "pass",
+        "phonetic": "/pɑːs/",
+        "meaning": "通过；传递"
+      },
+      {
+        "word": "patient",
+        "phonetic": "/ˈpeɪʃnt/",
+        "meaning": "病人；耐心的"
+      },
+      {
+        "word": "pay",
+        "phonetic": "/peɪ/",
+        "meaning": "支付"
+      },
+      {
+        "word": "peace",
+        "phonetic": "/piːs/",
+        "meaning": "和平"
+      },
+      {
+        "word": "people",
+        "phonetic": "/ˈpiːpl/",
+        "meaning": "人们"
+      },
+      {
+        "word": "perhaps",
+        "phonetic": "/pəˈhæps/",
+        "meaning": "也许"
+      },
+      {
+        "word": "person",
+        "phonetic": "/ˈpɜːsn/",
+        "meaning": "人"
+      },
+      {
+        "word": "photo",
+        "phonetic": "/ˈfəʊtəʊ/",
+        "meaning": "照片"
+      },
+      {
+        "word": "picture",
+        "phonetic": "/ˈpɪktʃə(r)/",
+        "meaning": "图画"
+      },
+      {
+        "word": "place",
+        "phonetic": "/pleɪs/",
+        "meaning": "地方"
+      },
+      {
+        "word": "plan",
+        "phonetic": "/plæn/",
+        "meaning": "计划"
+      },
+      {
+        "word": "plant",
+        "phonetic": "/plɑːnt/",
+        "meaning": "植物；种植"
+      },
+      {
+        "word": "play",
+        "phonetic": "/pleɪ/",
+        "meaning": "玩；播放"
+      },
+      {
+        "word": "please",
+        "phonetic": "/pliːz/",
+        "meaning": "请；使高兴"
+      },
+      {
+        "word": "point",
+        "phonetic": "/pɔɪnt/",
+        "meaning": "点；指"
+      },
+      {
+        "word": "popular",
+        "phonetic": "/ˈpɒpjələ(r)/",
+        "meaning": "受欢迎的"
+      },
+      {
+        "word": "possible",
+        "phonetic": "/ˈpɒsəbl/",
+        "meaning": "可能的"
+      },
+      {
+        "word": "practice",
+        "phonetic": "/ˈpræktɪs/",
+        "meaning": "练习"
+      },
+      {
+        "word": "prepare",
+        "phonetic": "/prɪˈpeə(r)/",
+        "meaning": "准备"
+      },
+      {
+        "word": "present",
+        "phonetic": "/ˈpreznt/",
+        "meaning": "礼物；现在"
+      },
+      {
+        "word": "price",
+        "phonetic": "/praɪs/",
+        "meaning": "价格"
+      },
+      {
+        "word": "problem",
+        "phonetic": "/ˈprɒbləm/",
+        "meaning": "问题"
+      },
+      {
+        "word": "produce",
+        "phonetic": "/prəˈdjuːs/",
+        "meaning": "生产"
+      },
+      {
+        "word": "progress",
+        "phonetic": "/ˈprəʊɡres/",
+        "meaning": "进步"
+      },
+      {
+        "word": "promise",
+        "phonetic": "/ˈprɒmɪs/",
+        "meaning": "承诺"
+      },
+      {
+        "word": "protect",
+        "phonetic": "/prəˈtekt/",
+        "meaning": "保护"
+      },
+      {
+        "word": "proud",
+        "phonetic": "/praʊd/",
+        "meaning": "自豪的"
+      },
+      {
+        "word": "provide",
+        "phonetic": "/prəˈvaɪd/",
+        "meaning": "提供"
+      },
+      {
+        "word": "pull",
+        "phonetic": "/pʊl/",
+        "meaning": "拉"
+      },
+      {
+        "word": "push",
+        "phonetic": "/pʊʃ/",
+        "meaning": "推"
+      },
+      {
+        "word": "quick",
+        "phonetic": "/kwɪk/",
+        "meaning": "快的"
+      },
+      {
+        "word": "quiet",
+        "phonetic": "/ˈkwaɪət/",
+        "meaning": "安静的"
+      },
+      {
+        "word": "quite",
+        "phonetic": "/kwaɪt/",
+        "meaning": "相当"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "I'm able to finish the work by myself.",
+        "zh": "我能独立完成这项工作。"
+      },
+      {
+        "en": "She has the ability to speak three languages.",
+        "zh": "她有能力说三种语言。"
+      },
+      {
+        "en": "We are talking about our plans for the weekend.",
+        "zh": "我们正在谈论周末的计划。"
+      },
+      {
+        "en": "The sun rises above the mountains.",
+        "zh": "太阳从群山上方升起。"
+      },
+      {
+        "en": "He accepted my invitation with a smile.",
+        "zh": "他微笑着接受了我的邀请。"
+      },
+      {
+        "en": "You can achieve your dream if you work hard.",
+        "zh": "如果你努力，就能实现梦想。"
+      },
+      {
+        "en": "The bridge goes across the river.",
+        "zh": "这座桥横跨河流。"
+      },
+      {
+        "en": "We had an interesting activity at school today.",
+        "zh": "今天我们在学校进行了一项有趣的活动。"
+      },
+      {
+        "en": "Please add some milk to the coffee.",
+        "zh": "请往咖啡里加一些牛奶。"
+      },
+      {
+        "en": "Could you tell me your address?",
+        "zh": "你能告诉我你的地址吗？"
+      },
+      {
+        "en": "My teacher gave me some useful advice.",
+        "zh": "老师给了我一些有用的建议。"
+      },
+      {
+        "en": "I can't afford such an expensive phone.",
+        "zh": "我买不起这么贵的手机。"
+      },
+      {
+        "en": "He was afraid to speak in public.",
+        "zh": "他害怕在公共场合说话。"
+      },
+      {
+        "en": "Let's meet again next week.",
+        "zh": "我们下周再见面吧。"
+      },
+      {
+        "en": "They are against the plan to build a factory here.",
+        "zh": "他们反对在这里建工厂的计划。"
+      },
+      {
+        "en": "We met each other two years ago.",
+        "zh": "我们两年前见过面。"
+      },
+      {
+        "en": "I agree with your idea completely.",
+        "zh": "我完全同意你的想法。"
+      },
+      {
+        "en": "The air in the countryside is very fresh.",
+        "zh": "乡下的空气非常清新。"
+      },
+      {
+        "en": "We took a plane at the airport this morning.",
+        "zh": "今天早上我们在机场乘了飞机。"
+      },
+      {
+        "en": "My parents don't allow me to stay up late.",
+        "zh": "我父母不允许我熬夜。"
+      },
+      {
+        "en": "Almost all the students passed the exam.",
+        "zh": "几乎所有学生都通过了考试。"
+      },
+      {
+        "en": "He prefers to study alone in his room.",
+        "zh": "他更喜欢独自在房间里学习。"
+      },
+      {
+        "en": "We walked along the river after dinner.",
+        "zh": "晚饭后我们沿着河边散步。"
+      },
+      {
+        "en": "I have already finished my homework.",
+        "zh": "我已经完成了作业。"
+      },
+      {
+        "en": "Although it rained, we still went hiking.",
+        "zh": "虽然下雨了，我们还是去远足了。"
+      },
+      {
+        "en": "She is always ready to help others.",
+        "zh": "她总是乐于帮助别人。"
+      },
+      {
+        "en": "We visited an ancient temple last weekend.",
+        "zh": "上周末我们参观了一座古庙。"
+      },
+      {
+        "en": "Don't be angry with me, please.",
+        "zh": "请不要生我的气。"
+      },
+      {
+        "en": "Would you like another cup of tea?",
+        "zh": "你想再要一杯茶吗？"
+      },
+      {
+        "en": "I'm anxious about the coming exam.",
+        "zh": "我对即将到来的考试感到焦虑。"
+      },
+      {
+        "en": "You can find me anywhere in the city.",
+        "zh": "你在这个城市任何地方都能找到我。"
+      },
+      {
+        "en": "Stars appear in the sky at night.",
+        "zh": "夜晚星星出现在天空。"
+      },
+      {
+        "en": "They argued about who should clean the room.",
+        "zh": "他们争论谁该打扫房间。"
+      },
+      {
+        "en": "We arrived at the station on time.",
+        "zh": "我们准时到达了车站。"
+      },
+      {
+        "en": "Please pay attention to the teacher in class.",
+        "zh": "上课时请专心听老师讲。"
+      },
+      {
+        "en": "You should avoid making the same mistake.",
+        "zh": "你应该避免犯同样的错误。"
+      },
+      {
+        "en": "The baby is awake now.",
+        "zh": "婴儿现在醒了。"
+      },
+      {
+        "en": "The weather was awful yesterday.",
+        "zh": "昨天天气很糟糕。"
+      },
+      {
+        "en": "He did badly in the test this time.",
+        "zh": "他这次考试考得很差。"
+      },
+      {
+        "en": "We beat them in the football match.",
+        "zh": "我们在足球比赛中打败了他们。"
+      },
+      {
+        "en": "She has become a better person over the years.",
+        "zh": "这些年来她变成了更好的人。"
+      },
+      {
+        "en": "I believe you can do it well.",
+        "zh": "我相信你能做好。"
+      },
+      {
+        "en": "This book belongs to my sister.",
+        "zh": "这本书属于我姐姐。"
+      },
+      {
+        "en": "The dog is sleeping beside the fire.",
+        "zh": "狗正在火炉旁睡觉。"
+      },
+      {
+        "en": "The bank is between the school and the hospital.",
+        "zh": "银行在学校和医院之间。"
+      },
+      {
+        "en": "Don't blame others for your own mistakes.",
+        "zh": "不要因为自己的错误而责怪别人。"
+      },
+      {
+        "en": "He is blind in one eye.",
+        "zh": "他一只眼睛失明。"
+      },
+      {
+        "en": "You can borrow the book from the library.",
+        "zh": "你可以从图书馆借这本书。"
+      },
+      {
+        "en": "Both my parents are teachers.",
+        "zh": "我父母都是老师。"
+      },
+      {
+        "en": "Please bring your homework to class tomorrow.",
+        "zh": "明天请把作业带到课堂上来。"
+      },
+      {
+        "en": "The building was built last year.",
+        "zh": "这栋楼是去年建的。"
+      },
+      {
+        "en": "My father runs a small business in town.",
+        "zh": "我父亲在镇上经营一家小生意。"
+      },
+      {
+        "en": "He is busy with his work these days.",
+        "zh": "这些天他忙于工作。"
+      },
+      {
+        "en": "Please call me when you get home.",
+        "zh": "到家后请给我打电话。"
+      },
+      {
+        "en": "Keep calm and don't worry.",
+        "zh": "保持冷静，别担心。"
+      },
+      {
+        "en": "We decided to cancel the trip because of the rain.",
+        "zh": "因为下雨，我们决定取消这次旅行。"
+      },
+      {
+        "en": "Beijing is the capital of China.",
+        "zh": "北京是中国的首都。"
+      },
+      {
+        "en": "You should be careful when you cross the road.",
+        "zh": "过马路时你应该小心。"
+      },
+      {
+        "en": "Please carry this box to the classroom.",
+        "zh": "请把这个箱子搬到教室。"
+      },
+      {
+        "en": "He caught the last train to Beijing.",
+        "zh": "他赶上了去北京的最后一班火车。"
+      },
+      {
+        "en": "We celebrate the Spring Festival every year.",
+        "zh": "我们每年都庆祝春节。"
+      },
+      {
+        "en": "We have lived here for a century.",
+        "zh": "我们在这里住了一个世纪。"
+      },
+      {
+        "en": "This is a good chance to improve my English.",
+        "zh": "这是提高我英语的好机会。"
+      },
+      {
+        "en": "Please check your answers before you hand in.",
+        "zh": "交卷前请检查你的答案。"
+      },
+      {
+        "en": "She chose the blue dress in the end.",
+        "zh": "她最后选择了那条蓝色连衣裙。"
+      },
+      {
+        "en": "The students are cleaning the classroom.",
+        "zh": "学生们正在打扫教室。"
+      },
+      {
+        "en": "The weather is clear and sunny today.",
+        "zh": "今天天气晴朗。"
+      },
+      {
+        "en": "She collected many beautiful stamps.",
+        "zh": "她收集了许多漂亮的邮票。"
+      },
+      {
+        "en": "He goes to college in another city.",
+        "zh": "他在另一个城市上大学。"
+      },
+      {
+        "en": "This sofa is very comfortable to sit on.",
+        "zh": "这张沙发坐起来非常舒适。"
+      },
+      {
+        "en": "It's common for students to make mistakes.",
+        "zh": "学生犯错误是很常见的。"
+      },
+      {
+        "en": "We should communicate with our parents often.",
+        "zh": "我们应该经常和父母交流。"
+      },
+      {
+        "en": "Compare the two pictures and find the differences.",
+        "zh": "比较这两幅图，找出不同之处。"
+      },
+      {
+        "en": "You must concentrate on your study.",
+        "zh": "你必须专心学习。"
+      },
+      {
+        "en": "Be confident and you will succeed.",
+        "zh": "要自信，你就会成功。"
+      },
+      {
+        "en": "We congratulated her on winning the prize.",
+        "zh": "我们祝贺她获奖。"
+      },
+      {
+        "en": "Please consider my suggestion carefully.",
+        "zh": "请仔细考虑我的建议。"
+      },
+      {
+        "en": "We continued to walk even though it was dark.",
+        "zh": "尽管天黑了，我们还是继续走。"
+      },
+      {
+        "en": "It's convenient to take the subway in this city.",
+        "zh": "在这个城市坐地铁很方便。"
+      },
+      {
+        "en": "Please copy these words into your notebook.",
+        "zh": "请把这些单词抄到笔记本上。"
+      },
+      {
+        "en": "The price of the computer costs a lot.",
+        "zh": "这台电脑的价格很贵。"
+      },
+      {
+        "en": "It takes courage to tell the truth.",
+        "zh": "说出真相需要勇气。"
+      },
+      {
+        "en": "Of course I will help you.",
+        "zh": "我当然会帮你。"
+      },
+      {
+        "en": "Please cover the food with a plate.",
+        "zh": "请用盘子把食物盖住。"
+      },
+      {
+        "en": "The artist created many wonderful paintings.",
+        "zh": "这位艺术家创作了许多精彩画作。"
+      },
+      {
+        "en": "We must cross the street at the zebra crossing.",
+        "zh": "我们必须走斑马线过马路。"
+      },
+      {
+        "en": "The crowd cheered for the players.",
+        "zh": "人群为运动员欢呼。"
+      },
+      {
+        "en": "Learning a foreign culture is interesting.",
+        "zh": "学习外国文化很有趣。"
+      },
+      {
+        "en": "The customer wants to buy a new coat.",
+        "zh": "这位顾客想买一件新外套。"
+      },
+      {
+        "en": "Reading is my daily habit.",
+        "zh": "阅读是我的日常习惯。"
+      },
+      {
+        "en": "What happened to you this morning?",
+        "zh": "今天早上你发生了什么事？"
+      },
+      {
+        "en": "Too much junk food can harm your health.",
+        "zh": "太多的垃圾食品会损害你的健康。"
+      },
+      {
+        "en": "The farmers are busy with the harvest.",
+        "zh": "农民们正忙着收获。"
+      },
+      {
+        "en": "Exercise is good for your health.",
+        "zh": "锻炼对你的健康有好处。"
+      },
+      {
+        "en": "She hid behind the door to surprise me.",
+        "zh": "她藏在门后想给我惊喜。"
+      },
+      {
+        "en": "We will hold a party for his birthday.",
+        "zh": "我们将为他的生日举办聚会。"
+      },
+      {
+        "en": "You should be honest with your friends.",
+        "zh": "你应该对朋友诚实。"
+      },
+      {
+        "en": "The hospital is far from here.",
+        "zh": "医院离这里很远。"
+      },
+      {
+        "en": "However, he didn't give up.",
+        "zh": "然而，他没有放弃。"
+      },
+      {
+        "en": "The hungry boy ate the whole cake.",
+        "zh": "饥饿的男孩吃完了整个蛋糕。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "be动词",
+        "question": "There ___ a book on the desk.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "answer": 0,
+        "explain": "there be 句型，单数主语用 is。",
+        "question_zh": "书桌上有一本书。"
+      },
+      {
+        "category": "be动词",
+        "question": "Neither of them ___ right.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "were"
+        ],
+        "answer": 0,
+        "explain": "neither of + 复数名词，谓语用单数。",
+        "question_zh": "他们俩都不对。"
+      },
+      {
+        "category": "时态-一般现在",
+        "question": "He ___ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "went"
+        ],
+        "answer": 1,
+        "explain": "主语 he 三单，一般现在时动词加 es。",
+        "question_zh": "他每天去上学。"
+      },
+      {
+        "category": "时态-一般现在",
+        "question": "The earth ___ around the sun.",
+        "options": [
+          "move",
+          "moves",
+          "moving",
+          "moved"
+        ],
+        "answer": 1,
+        "explain": "客观真理用一般现在时，主语 the earth 三单加 s。",
+        "question_zh": "地球绕着太阳转。"
+      },
+      {
+        "category": "时态-一般过去",
+        "question": "I ___ my homework last night.",
+        "options": [
+          "do",
+          "does",
+          "did",
+          "doing"
+        ],
+        "answer": 2,
+        "explain": "last night 是过去时间，用过去式 did。",
+        "question_zh": "我昨晚做了作业。"
+      },
+      {
+        "category": "时态-一般过去",
+        "question": "She ___ to the library yesterday.",
+        "options": [
+          "go",
+          "goes",
+          "went",
+          "gone"
+        ],
+        "answer": 2,
+        "explain": "yesterday 过去时间，用 went。",
+        "question_zh": "她昨天去了图书馆。"
+      },
+      {
+        "category": "时态-现在进行",
+        "question": "Listen! The baby ___ crying.",
+        "options": [
+          "cry",
+          "cries",
+          "is crying",
+          "cried"
+        ],
+        "answer": 2,
+        "explain": "Listen! 提示动作正在进行，用现在进行时。",
+        "question_zh": "听！婴儿正在哭。"
+      },
+      {
+        "category": "时态-现在完成",
+        "question": "I ___ already finished my homework.",
+        "options": [
+          "have",
+          "has",
+          "had",
+          "am"
+        ],
+        "answer": 0,
+        "explain": "主语 I 用 have + 过去分词。",
+        "question_zh": "我已经完成作业了。"
+      },
+      {
+        "category": "时态-现在完成",
+        "question": "She has ___ here for five years.",
+        "options": [
+          "live",
+          "lived",
+          "lives",
+          "living"
+        ],
+        "answer": 1,
+        "explain": "现在完成时用 have/has + 过去分词。",
+        "question_zh": "她在这里住了五年。"
+      },
+      {
+        "category": "时态-将来",
+        "question": "We ___ visit the museum tomorrow.",
+        "options": [
+          "are going to",
+          "will",
+          "are going",
+          "going to"
+        ],
+        "answer": 1,
+        "explain": "tomorrow 表将来，用 will + 动词原形。",
+        "question_zh": "我们明天将参观博物馆。"
+      },
+      {
+        "category": "时态-将来",
+        "question": "It ___ rain this afternoon.",
+        "options": [
+          "is going to",
+          "is going",
+          "will going",
+          "going"
+        ],
+        "answer": 0,
+        "explain": "be going to + 动词原形表将来。",
+        "question_zh": "今天下午将要下雨。"
+      },
+      {
+        "category": "情态动词",
+        "question": "You ___ return the book on time.",
+        "options": [
+          "must",
+          "mustn't",
+          "need",
+          "dare"
+        ],
+        "answer": 0,
+        "explain": "must 表示必须。",
+        "question_zh": "你必须按时还书。"
+      },
+      {
+        "category": "情态动词",
+        "question": "He ___ speak English very well.",
+        "options": [
+          "can",
+          "may",
+          "must",
+          "should"
+        ],
+        "answer": 0,
+        "explain": "can 表示能力。",
+        "question_zh": "他英语说得很好。"
+      },
+      {
+        "category": "情态动词",
+        "question": "You ___ smoke here. It's not allowed.",
+        "options": [
+          "mustn't",
+          "needn't",
+          "can't",
+          "don't"
+        ],
+        "answer": 0,
+        "explain": "mustn't 表示禁止。",
+        "question_zh": "你不能在这里抽烟。这是不允许的。"
+      },
+      {
+        "category": "情态动词",
+        "question": "___ I use your pen? Yes, you may.",
+        "options": [
+          "Must",
+          "May",
+          "Need",
+          "Shall"
+        ],
+        "answer": 1,
+        "explain": "may 表示请求许可。",
+        "question_zh": "我可以用你的钢笔吗？可以。"
+      },
+      {
+        "category": "被动语态",
+        "question": "The book ___ by many students.",
+        "options": [
+          "is read",
+          "reads",
+          "is reading",
+          "read"
+        ],
+        "answer": 0,
+        "explain": "一般现在时被动语态：be + 过去分词。",
+        "question_zh": "这本书被许多学生阅读。"
+      },
+      {
+        "category": "被动语态",
+        "question": "The bridge ___ last year.",
+        "options": [
+          "was built",
+          "is built",
+          "built",
+          "has built"
+        ],
+        "answer": 0,
+        "explain": "last year 过去时间被动：was + 过去分词。",
+        "question_zh": "这座桥是去年建的。"
+      },
+      {
+        "category": "比较级",
+        "question": "This box is ___ than that one.",
+        "options": [
+          "heavy",
+          "heavier",
+          "heaviest",
+          "heavily"
+        ],
+        "answer": 1,
+        "explain": "比较级用 -er，heavy 变 y 为 i 加 er。",
+        "question_zh": "这个箱子比那个重。"
+      },
+      {
+        "category": "比较级",
+        "question": "Which is ___, the sun or the moon?",
+        "options": [
+          "big",
+          "bigger",
+          "biggest",
+          "more big"
+        ],
+        "answer": 1,
+        "explain": "两者比较用比较级 bigger。",
+        "question_zh": "太阳和月亮哪个更大？"
+      },
+      {
+        "category": "最高级",
+        "question": "This is the ___ book in the library.",
+        "options": [
+          "good",
+          "better",
+          "best",
+          "well"
+        ],
+        "answer": 2,
+        "explain": "三者以上比较用最高级 the best。",
+        "question_zh": "这是图书馆里最好的书。"
+      },
+      {
+        "category": "最高级",
+        "question": "He is the ___ student in our class.",
+        "options": [
+          "tall",
+          "taller",
+          "tallest",
+          "more tall"
+        ],
+        "answer": 2,
+        "explain": "全班范围比较用最高级 tallest。",
+        "question_zh": "他是我们班最高的学生。"
+      },
+      {
+        "category": "代词",
+        "question": "This book is ___. It's mine.",
+        "options": [
+          "my",
+          "me",
+          "mine",
+          "myself"
+        ],
+        "answer": 2,
+        "explain": "名词性物主代词 mine 作表语。",
+        "question_zh": "这本书是我的。"
+      },
+      {
+        "category": "代词",
+        "question": "Help ___ to some fish, please.",
+        "options": [
+          "you",
+          "yourself",
+          "yours",
+          "your"
+        ],
+        "answer": 1,
+        "explain": "反身代词 yourself 表“随意取用”。",
+        "question_zh": "请随便吃点鱼吧。"
+      },
+      {
+        "category": "代词",
+        "question": "The children enjoyed ___ at the party.",
+        "options": [
+          "they",
+          "them",
+          "themselves",
+          "their"
+        ],
+        "answer": 2,
+        "explain": "enjoy oneself 固定搭配，用反身代词。",
+        "question_zh": "孩子们在聚会上玩得很开心。"
+      },
+      {
+        "category": "冠词",
+        "question": "___ sun rises in the east.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "/"
+        ],
+        "answer": 2,
+        "explain": "世界上独一无二的事物前用 the。",
+        "question_zh": "太阳从东方升起。"
+      },
+      {
+        "category": "冠词",
+        "question": "He is ___ honest man.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "/"
+        ],
+        "answer": 1,
+        "explain": "honest 以元音音素开头，用 an。",
+        "question_zh": "他是一个诚实的人。"
+      },
+      {
+        "category": "介词",
+        "question": "She has lived here ___ 2019.",
+        "options": [
+          "for",
+          "since",
+          "in",
+          "at"
+        ],
+        "answer": 1,
+        "explain": "since + 时间点；for + 时间段。",
+        "question_zh": "她从2019年起就住在这里。"
+      },
+      {
+        "category": "介词",
+        "question": "He is good ___ playing basketball.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "for"
+        ],
+        "answer": 1,
+        "explain": "be good at 擅长。",
+        "question_zh": "他擅长打篮球。"
+      },
+      {
+        "category": "介词",
+        "question": "The teacher is talking ___ the students.",
+        "options": [
+          "to",
+          "at",
+          "for",
+          "about"
+        ],
+        "answer": 0,
+        "explain": "talk to sb. 和某人交谈。",
+        "question_zh": "老师正在和学生交谈。"
+      },
+      {
+        "category": "条件句",
+        "question": "If it ___ tomorrow, we will stay at home.",
+        "options": [
+          "rain",
+          "rains",
+          "rained",
+          "will rain"
+        ],
+        "answer": 1,
+        "explain": "主将从现：if 从句用一般现在时。",
+        "question_zh": "如果明天下雨，我们就待在家。"
+      },
+      {
+        "category": "条件句",
+        "question": "If I ___ time, I will come to see you.",
+        "options": [
+          "have",
+          "has",
+          "will have",
+          "had"
+        ],
+        "answer": 0,
+        "explain": "主将从现：if 从句用一般现在时。",
+        "question_zh": "如果我有时间，我会来看你。"
+      },
+      {
+        "category": "疑问句",
+        "question": "___ you like coffee or tea?",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "answer": 0,
+        "explain": "主语 you 用助动词 Do。",
+        "question_zh": "你喜欢咖啡还是茶？"
+      },
+      {
+        "category": "疑问句",
+        "question": "___ he play the piano? Yes, he does.",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Did"
+        ],
+        "answer": 1,
+        "explain": "主语 he 三单用 Does。",
+        "question_zh": "他会弹钢琴吗？是的。"
+      },
+      {
+        "category": "疑问句-反义",
+        "question": "She can swim, ___ she?",
+        "options": [
+          "can",
+          "can't",
+          "does",
+          "is"
+        ],
+        "answer": 1,
+        "explain": "反义疑问句：前肯后否，用 can't。",
+        "question_zh": "她会游泳，不是吗？"
+      },
+      {
+        "category": "疑问句-反义",
+        "question": "It isn't cold today, ___ it?",
+        "options": [
+          "is",
+          "isn't",
+          "does",
+          "doesn't"
+        ],
+        "answer": 0,
+        "explain": "前否后肯，用 is。",
+        "question_zh": "今天不冷，不是吗？"
+      },
+      {
+        "category": "不定式",
+        "question": "I want ___ to the park.",
+        "options": [
+          "go",
+          "to go",
+          "going",
+          "went"
+        ],
+        "answer": 1,
+        "explain": "want to do sth. 想做某事。",
+        "question_zh": "我想去公园。"
+      },
+      {
+        "category": "动名词",
+        "question": "I enjoy ___ English songs.",
+        "options": [
+          "listen",
+          "to listen",
+          "listening",
+          "listened"
+        ],
+        "answer": 2,
+        "explain": "enjoy doing sth. 喜欢做某事。",
+        "question_zh": "我喜欢听英语歌曲。"
+      },
+      {
+        "category": "动名词",
+        "question": "He is good at ___ kites.",
+        "options": [
+          "make",
+          "to make",
+          "making",
+          "made"
+        ],
+        "answer": 2,
+        "explain": "be good at + doing。",
+        "question_zh": "他擅长做风筝。"
+      },
+      {
+        "category": "宾语从句",
+        "question": "I don't know ___ he will come.",
+        "options": [
+          "if",
+          "that",
+          "what",
+          "which"
+        ],
+        "answer": 0,
+        "explain": "whether/if 引导宾语从句表“是否”。",
+        "question_zh": "我不知道他是否会来。"
+      }
+    ]
+  },
+  "senior.json": {
+    "words": [
+      {
+        "word": "abandon",
+        "phonetic": "/əˈbændən/",
+        "meaning": "放弃；抛弃"
+      },
+      {
+        "word": "ability",
+        "phonetic": "/əˈbɪləti/",
+        "meaning": "能力"
+      },
+      {
+        "word": "abolish",
+        "phonetic": "/əˈbɒlɪʃ/",
+        "meaning": "废除"
+      },
+      {
+        "word": "absorb",
+        "phonetic": "/əbˈzɔːb/",
+        "meaning": "吸收；使专心"
+      },
+      {
+        "word": "abstract",
+        "phonetic": "/ˈæbstrækt/",
+        "meaning": "抽象的"
+      },
+      {
+        "word": "abundant",
+        "phonetic": "/əˈbʌndənt/",
+        "meaning": "丰富的"
+      },
+      {
+        "word": "academic",
+        "phonetic": "/ˌækəˈdemɪk/",
+        "meaning": "学术的"
+      },
+      {
+        "word": "accelerate",
+        "phonetic": "/əkˈseləreɪt/",
+        "meaning": "加速"
+      },
+      {
+        "word": "access",
+        "phonetic": "/ˈækses/",
+        "meaning": "进入；使用权"
+      },
+      {
+        "word": "accompany",
+        "phonetic": "/əˈkʌmpəni/",
+        "meaning": "陪伴"
+      },
+      {
+        "word": "accomplish",
+        "phonetic": "/əˈkʌmplɪʃ/",
+        "meaning": "完成；实现"
+      },
+      {
+        "word": "accumulate",
+        "phonetic": "/əˈkjuːmjəleɪt/",
+        "meaning": "积累"
+      },
+      {
+        "word": "accurate",
+        "phonetic": "/ˈækjərət/",
+        "meaning": "准确的"
+      },
+      {
+        "word": "accuse",
+        "phonetic": "/əˈkjuːz/",
+        "meaning": "指责；控告"
+      },
+      {
+        "word": "achieve",
+        "phonetic": "/əˈtʃiːv/",
+        "meaning": "实现；取得"
+      },
+      {
+        "word": "acknowledge",
+        "phonetic": "/əkˈnɒlɪdʒ/",
+        "meaning": "承认"
+      },
+      {
+        "word": "acquire",
+        "phonetic": "/əˈkwaɪə(r)/",
+        "meaning": "获得"
+      },
+      {
+        "word": "adapt",
+        "phonetic": "/əˈdæpt/",
+        "meaning": "适应；改编"
+      },
+      {
+        "word": "adequate",
+        "phonetic": "/ˈædɪkwət/",
+        "meaning": "充足的"
+      },
+      {
+        "word": "adjust",
+        "phonetic": "/əˈdʒʌst/",
+        "meaning": "调整"
+      },
+      {
+        "word": "admire",
+        "phonetic": "/ədˈmaɪə(r)/",
+        "meaning": "钦佩"
+      },
+      {
+        "word": "adopt",
+        "phonetic": "/əˈdɒpt/",
+        "meaning": "收养；采纳"
+      },
+      {
+        "word": "advance",
+        "phonetic": "/ədˈvɑːns/",
+        "meaning": "前进；进展"
+      },
+      {
+        "word": "advantage",
+        "phonetic": "/ədˈvɑːntɪdʒ/",
+        "meaning": "优势"
+      },
+      {
+        "word": "advertise",
+        "phonetic": "/ˈædvətaɪz/",
+        "meaning": "做广告"
+      },
+      {
+        "word": "affect",
+        "phonetic": "/əˈfekt/",
+        "meaning": "影响"
+      },
+      {
+        "word": "affection",
+        "phonetic": "/əˈfekʃn/",
+        "meaning": "感情；喜爱"
+      },
+      {
+        "word": "aggressive",
+        "phonetic": "/əˈɡresɪv/",
+        "meaning": "好斗的；进取的"
+      },
+      {
+        "word": "agriculture",
+        "phonetic": "/ˈæɡrɪkʌltʃə(r)/",
+        "meaning": "农业"
+      },
+      {
+        "word": "alert",
+        "phonetic": "/əˈlɜːt/",
+        "meaning": "警觉的"
+      },
+      {
+        "word": "allocate",
+        "phonetic": "/ˈæləkeɪt/",
+        "meaning": "分配"
+      },
+      {
+        "word": "alter",
+        "phonetic": "/ˈɔːltə(r)/",
+        "meaning": "改变"
+      },
+      {
+        "word": "alternative",
+        "phonetic": "/ɔːlˈtɜːnətɪv/",
+        "meaning": "可供选择的"
+      },
+      {
+        "word": "altitude",
+        "phonetic": "/ˈæltɪtjuːd/",
+        "meaning": "海拔；高度"
+      },
+      {
+        "word": "ambition",
+        "phonetic": "/æmˈbɪʃn/",
+        "meaning": "雄心；抱负"
+      },
+      {
+        "word": "ambitious",
+        "phonetic": "/æmˈbɪʃəs/",
+        "meaning": "有雄心的"
+      },
+      {
+        "word": "amuse",
+        "phonetic": "/əˈmjuːz/",
+        "meaning": "逗乐"
+      },
+      {
+        "word": "analyse",
+        "phonetic": "/ˈænəlaɪz/",
+        "meaning": "分析"
+      },
+      {
+        "word": "ancient",
+        "phonetic": "/ˈeɪnʃənt/",
+        "meaning": "古代的"
+      },
+      {
+        "word": "announce",
+        "phonetic": "/əˈnaʊns/",
+        "meaning": "宣布"
+      },
+      {
+        "word": "annual",
+        "phonetic": "/ˈænjuəl/",
+        "meaning": "每年的"
+      },
+      {
+        "word": "anxiety",
+        "phonetic": "/æŋˈzaɪəti/",
+        "meaning": "焦虑"
+      },
+      {
+        "word": "apologise",
+        "phonetic": "/əˈpɒlədʒaɪz/",
+        "meaning": "道歉"
+      },
+      {
+        "word": "appeal",
+        "phonetic": "/əˈpiːl/",
+        "meaning": "呼吁；吸引力"
+      },
+      {
+        "word": "applaud",
+        "phonetic": "/əˈplɔːd/",
+        "meaning": "鼓掌；称赞"
+      },
+      {
+        "word": "appoint",
+        "phonetic": "/əˈpɔɪnt/",
+        "meaning": "任命"
+      },
+      {
+        "word": "appreciate",
+        "phonetic": "/əˈpriːʃieɪt/",
+        "meaning": "欣赏；感激"
+      },
+      {
+        "word": "approach",
+        "phonetic": "/əˈprəʊtʃ/",
+        "meaning": "接近；方法"
+      },
+      {
+        "word": "appropriate",
+        "phonetic": "/əˈprəʊpriət/",
+        "meaning": "合适的"
+      },
+      {
+        "word": "approve",
+        "phonetic": "/əˈpruːv/",
+        "meaning": "批准；赞成"
+      },
+      {
+        "word": "approximately",
+        "phonetic": "/əˈprɒksɪmətli/",
+        "meaning": "大约"
+      },
+      {
+        "word": "arbitrary",
+        "phonetic": "/ˈɑːbɪtrəri/",
+        "meaning": "任意的"
+      },
+      {
+        "word": "argue",
+        "phonetic": "/ˈɑːɡjuː/",
+        "meaning": "争论"
+      },
+      {
+        "word": "arise",
+        "phonetic": "/əˈraɪz/",
+        "meaning": "出现；升起"
+      },
+      {
+        "word": "arrange",
+        "phonetic": "/əˈreɪndʒ/",
+        "meaning": "安排"
+      },
+      {
+        "word": "artificial",
+        "phonetic": "/ˌɑːtɪˈfɪʃl/",
+        "meaning": "人工的"
+      },
+      {
+        "word": "assess",
+        "phonetic": "/əˈses/",
+        "meaning": "评估"
+      },
+      {
+        "word": "assign",
+        "phonetic": "/əˈsaɪn/",
+        "meaning": "分配；指派"
+      },
+      {
+        "word": "assist",
+        "phonetic": "/əˈsɪst/",
+        "meaning": "帮助"
+      },
+      {
+        "word": "associate",
+        "phonetic": "/əˈsəʊʃieɪt/",
+        "meaning": "联想；联系"
+      },
+      {
+        "word": "assume",
+        "phonetic": "/əˈsjuːm/",
+        "meaning": "假定"
+      },
+      {
+        "word": "atmosphere",
+        "phonetic": "/ˈætməsfɪə(r)/",
+        "meaning": "大气；气氛"
+      },
+      {
+        "word": "attach",
+        "phonetic": "/əˈtætʃ/",
+        "meaning": "附上；重视"
+      },
+      {
+        "word": "attitude",
+        "phonetic": "/ˈætɪtjuːd/",
+        "meaning": "态度"
+      },
+      {
+        "word": "attract",
+        "phonetic": "/əˈtrækt/",
+        "meaning": "吸引"
+      },
+      {
+        "word": "attribute",
+        "phonetic": "/əˈtrɪbjuːt/",
+        "meaning": "把……归因于"
+      },
+      {
+        "word": "authority",
+        "phonetic": "/ɔːˈθɒrəti/",
+        "meaning": "权威；当局"
+      },
+      {
+        "word": "automatic",
+        "phonetic": "/ˌɔːtəˈmætɪk/",
+        "meaning": "自动的"
+      },
+      {
+        "word": "available",
+        "phonetic": "/əˈveɪləbl/",
+        "meaning": "可获得的"
+      },
+      {
+        "word": "average",
+        "phonetic": "/ˈævərɪdʒ/",
+        "meaning": "平均的"
+      },
+      {
+        "word": "avoid",
+        "phonetic": "/əˈvɔɪd/",
+        "meaning": "避免"
+      },
+      {
+        "word": "aware",
+        "phonetic": "/əˈweə(r)/",
+        "meaning": "意识到的"
+      },
+      {
+        "word": "balance",
+        "phonetic": "/ˈbæləns/",
+        "meaning": "平衡"
+      },
+      {
+        "word": "barrier",
+        "phonetic": "/ˈbæriə(r)/",
+        "meaning": "障碍"
+      },
+      {
+        "word": "beneficial",
+        "phonetic": "/ˌbenɪˈfɪʃl/",
+        "meaning": "有益的"
+      },
+      {
+        "word": "benefit",
+        "phonetic": "/ˈbenɪfɪt/",
+        "meaning": "益处；有益于"
+      },
+      {
+        "word": "bias",
+        "phonetic": "/ˈbaɪəs/",
+        "meaning": "偏见"
+      },
+      {
+        "word": "boundary",
+        "phonetic": "/ˈbaʊndri/",
+        "meaning": "边界"
+      },
+      {
+        "word": "brief",
+        "phonetic": "/briːf/",
+        "meaning": "简短的"
+      },
+      {
+        "word": "brilliant",
+        "phonetic": "/ˈbrɪliənt/",
+        "meaning": "杰出的；灿烂的"
+      },
+      {
+        "word": "broadcast",
+        "phonetic": "/ˈbrɔːdkɑːst/",
+        "meaning": "广播"
+      },
+      {
+        "word": "calculate",
+        "phonetic": "/ˈkælkjuleɪt/",
+        "meaning": "计算"
+      },
+      {
+        "word": "campaign",
+        "phonetic": "/kæmˈpeɪn/",
+        "meaning": "运动；战役"
+      },
+      {
+        "word": "capable",
+        "phonetic": "/ˈkeɪpəbl/",
+        "meaning": "有能力的"
+      },
+      {
+        "word": "capacity",
+        "phonetic": "/kəˈpæsəti/",
+        "meaning": "能力；容量"
+      },
+      {
+        "word": "category",
+        "phonetic": "/ˈkætəɡəri/",
+        "meaning": "类别"
+      },
+      {
+        "word": "caution",
+        "phonetic": "/ˈkɔːʃn/",
+        "meaning": "谨慎"
+      },
+      {
+        "word": "challenge",
+        "phonetic": "/ˈtʃælɪndʒ/",
+        "meaning": "挑战"
+      },
+      {
+        "word": "character",
+        "phonetic": "/ˈkærəktə(r)/",
+        "meaning": "性格；角色"
+      },
+      {
+        "word": "circumstance",
+        "phonetic": "/ˈsɜːkəmstəns/",
+        "meaning": "情况；环境"
+      },
+      {
+        "word": "civil",
+        "phonetic": "/ˈsɪvl/",
+        "meaning": "公民的；文明的"
+      },
+      {
+        "word": "claim",
+        "phonetic": "/kleɪm/",
+        "meaning": "声称；要求"
+      },
+      {
+        "word": "clarify",
+        "phonetic": "/ˈklærəfaɪ/",
+        "meaning": "澄清"
+      },
+      {
+        "word": "collapse",
+        "phonetic": "/kəˈlæps/",
+        "meaning": "倒塌；崩溃"
+      },
+      {
+        "word": "combine",
+        "phonetic": "/kəmˈbaɪn/",
+        "meaning": "结合"
+      },
+      {
+        "word": "comfort",
+        "phonetic": "/ˈkʌmfət/",
+        "meaning": "安慰；舒适"
+      },
+      {
+        "word": "commercial",
+        "phonetic": "/kəˈmɜːʃl/",
+        "meaning": "商业的"
+      },
+      {
+        "word": "commit",
+        "phonetic": "/kəˈmɪt/",
+        "meaning": "犯（错）；承诺"
+      },
+      {
+        "word": "committee",
+        "phonetic": "/kəˈmɪti/",
+        "meaning": "委员会"
+      },
+      {
+        "word": "compete",
+        "phonetic": "/kəmˈpiːt/",
+        "meaning": "竞争"
+      },
+      {
+        "word": "complain",
+        "phonetic": "/kəmˈpleɪn/",
+        "meaning": "抱怨"
+      },
+      {
+        "word": "complex",
+        "phonetic": "/ˈkɒmpleks/",
+        "meaning": "复杂的"
+      },
+      {
+        "word": "compose",
+        "phonetic": "/kəmˈpəʊz/",
+        "meaning": "组成；作曲"
+      },
+      {
+        "word": "comprehensive",
+        "phonetic": "/ˌkɒmprɪˈhensɪv/",
+        "meaning": "全面的"
+      },
+      {
+        "word": "compromise",
+        "phonetic": "/ˈkɒmprəmaɪz/",
+        "meaning": "妥协"
+      },
+      {
+        "word": "concentrate",
+        "phonetic": "/ˈkɒnsntreɪt/",
+        "meaning": "专心；集中"
+      },
+      {
+        "word": "concept",
+        "phonetic": "/ˈkɒnsept/",
+        "meaning": "概念"
+      },
+      {
+        "word": "conclude",
+        "phonetic": "/kənˈkluːd/",
+        "meaning": "得出结论"
+      },
+      {
+        "word": "concrete",
+        "phonetic": "/ˈkɒŋkriːt/",
+        "meaning": "具体的；混凝土"
+      },
+      {
+        "word": "conduct",
+        "phonetic": "/kənˈdʌkt/",
+        "meaning": "实施；指挥"
+      },
+      {
+        "word": "confirm",
+        "phonetic": "/kənˈfɜːm/",
+        "meaning": "证实"
+      },
+      {
+        "word": "conflict",
+        "phonetic": "/ˈkɒnflɪkt/",
+        "meaning": "冲突"
+      },
+      {
+        "word": "confuse",
+        "phonetic": "/kənˈfjuːz/",
+        "meaning": "使困惑"
+      },
+      {
+        "word": "consequence",
+        "phonetic": "/ˈkɒnsɪkwəns/",
+        "meaning": "后果"
+      },
+      {
+        "word": "consequently",
+        "phonetic": "/ˈkɒnsɪkwəntli/",
+        "meaning": "因此"
+      },
+      {
+        "word": "conserve",
+        "phonetic": "/kənˈsɜːv/",
+        "meaning": "保护；节约"
+      },
+      {
+        "word": "consist",
+        "phonetic": "/kənˈsɪst/",
+        "meaning": "由……组成"
+      },
+      {
+        "word": "constant",
+        "phonetic": "/ˈkɒnstənt/",
+        "meaning": "持续的；恒定的"
+      },
+      {
+        "word": "construct",
+        "phonetic": "/kənˈstrʌkt/",
+        "meaning": "建造"
+      },
+      {
+        "word": "consult",
+        "phonetic": "/kənˈsʌlt/",
+        "meaning": "咨询"
+      },
+      {
+        "word": "consume",
+        "phonetic": "/kənˈsjuːm/",
+        "meaning": "消耗；消费"
+      },
+      {
+        "word": "contain",
+        "phonetic": "/kənˈteɪn/",
+        "meaning": "包含"
+      },
+      {
+        "word": "contemporary",
+        "phonetic": "/kənˈtemprəri/",
+        "meaning": "当代的"
+      },
+      {
+        "word": "contribute",
+        "phonetic": "/kənˈtrɪbjuːt/",
+        "meaning": "贡献；捐献"
+      },
+      {
+        "word": "controversial",
+        "phonetic": "/ˌkɒntrəˈvɜːʃl/",
+        "meaning": "有争议的"
+      },
+      {
+        "word": "convenient",
+        "phonetic": "/kənˈviːniənt/",
+        "meaning": "方便的"
+      },
+      {
+        "word": "convince",
+        "phonetic": "/kənˈvɪns/",
+        "meaning": "使确信；说服"
+      },
+      {
+        "word": "cooperate",
+        "phonetic": "/kəʊˈɒpəreɪt/",
+        "meaning": "合作"
+      },
+      {
+        "word": "core",
+        "phonetic": "/kɔː(r)/",
+        "meaning": "核心"
+      },
+      {
+        "word": "creative",
+        "phonetic": "/kriˈeɪtɪv/",
+        "meaning": "有创造力的"
+      },
+      {
+        "word": "crucial",
+        "phonetic": "/ˈkruːʃl/",
+        "meaning": "至关重要的"
+      },
+      {
+        "word": "culture",
+        "phonetic": "/ˈkʌltʃə(r)/",
+        "meaning": "文化"
+      },
+      {
+        "word": "curious",
+        "phonetic": "/ˈkjʊəriəs/",
+        "meaning": "好奇的"
+      },
+      {
+        "word": "debt",
+        "phonetic": "/det/",
+        "meaning": "债务"
+      },
+      {
+        "word": "decade",
+        "phonetic": "/ˈdekeɪd/",
+        "meaning": "十年"
+      },
+      {
+        "word": "decline",
+        "phonetic": "/dɪˈklaɪn/",
+        "meaning": "下降；婉拒"
+      },
+      {
+        "word": "dedicate",
+        "phonetic": "/ˈdedɪkeɪt/",
+        "meaning": "奉献"
+      },
+      {
+        "word": "defend",
+        "phonetic": "/dɪˈfend/",
+        "meaning": "防御；辩护"
+      },
+      {
+        "word": "define",
+        "phonetic": "/dɪˈfaɪn/",
+        "meaning": "定义"
+      },
+      {
+        "word": "demonstrate",
+        "phonetic": "/ˈdemənstreɪt/",
+        "meaning": "证明；展示"
+      },
+      {
+        "word": "deny",
+        "phonetic": "/dɪˈnaɪ/",
+        "meaning": "否认"
+      },
+      {
+        "word": "depress",
+        "phonetic": "/dɪˈpres/",
+        "meaning": "使沮丧"
+      },
+      {
+        "word": "describe",
+        "phonetic": "/dɪˈskraɪb/",
+        "meaning": "描述"
+      },
+      {
+        "word": "deserve",
+        "phonetic": "/dɪˈzɜːv/",
+        "meaning": "值得"
+      },
+      {
+        "word": "determine",
+        "phonetic": "/dɪˈtɜːmɪn/",
+        "meaning": "决定；决心"
+      },
+      {
+        "word": "develop",
+        "phonetic": "/dɪˈveləp/",
+        "meaning": "发展"
+      },
+      {
+        "word": "devote",
+        "phonetic": "/dɪˈvəʊt/",
+        "meaning": "献身；致力于"
+      },
+      {
+        "word": "differ",
+        "phonetic": "/ˈdɪfə(r)/",
+        "meaning": "不同"
+      },
+      {
+        "word": "digital",
+        "phonetic": "/ˈdɪdʒɪtl/",
+        "meaning": "数字的"
+      },
+      {
+        "word": "dignity",
+        "phonetic": "/ˈdɪɡnəti/",
+        "meaning": "尊严"
+      },
+      {
+        "word": "dilemma",
+        "phonetic": "/dɪˈlemə/",
+        "meaning": "困境"
+      },
+      {
+        "word": "dimension",
+        "phonetic": "/daɪˈmenʃn/",
+        "meaning": "维度"
+      },
+      {
+        "word": "discriminate",
+        "phonetic": "/dɪˈskrɪmɪneɪt/",
+        "meaning": "歧视"
+      },
+      {
+        "word": "distinguish",
+        "phonetic": "/dɪˈstɪŋɡwɪʃ/",
+        "meaning": "区分"
+      },
+      {
+        "word": "distribute",
+        "phonetic": "/dɪˈstrɪbjuːt/",
+        "meaning": "分发；分布"
+      },
+      {
+        "word": "diverse",
+        "phonetic": "/daɪˈvɜːs/",
+        "meaning": "多样的"
+      },
+      {
+        "word": "domestic",
+        "phonetic": "/dəˈmestɪk/",
+        "meaning": "国内的；家庭的"
+      },
+      {
+        "word": "dominate",
+        "phonetic": "/ˈdɒmɪneɪt/",
+        "meaning": "支配；占主导"
+      },
+      {
+        "word": "donate",
+        "phonetic": "/dəʊˈneɪt/",
+        "meaning": "捐赠"
+      },
+      {
+        "word": "dramatic",
+        "phonetic": "/drəˈmætɪk/",
+        "meaning": "戏剧性的；急剧的"
+      },
+      {
+        "word": "eager",
+        "phonetic": "/ˈiːɡə(r)/",
+        "meaning": "渴望的"
+      },
+      {
+        "word": "ecology",
+        "phonetic": "/iˈkɒlədʒi/",
+        "meaning": "生态"
+      },
+      {
+        "word": "economy",
+        "phonetic": "/ɪˈkɒnəmi/",
+        "meaning": "经济"
+      },
+      {
+        "word": "efficient",
+        "phonetic": "/ɪˈfɪʃnt/",
+        "meaning": "高效的"
+      },
+      {
+        "word": "eliminate",
+        "phonetic": "/ɪˈlɪmɪneɪt/",
+        "meaning": "消除"
+      },
+      {
+        "word": "emerge",
+        "phonetic": "/iˈmɜːdʒ/",
+        "meaning": "出现"
+      },
+      {
+        "word": "emotion",
+        "phonetic": "/ɪˈməʊʃn/",
+        "meaning": "情感"
+      },
+      {
+        "word": "emphasis",
+        "phonetic": "/ˈemfəsɪs/",
+        "meaning": "强调"
+      },
+      {
+        "word": "employ",
+        "phonetic": "/ɪmˈplɔɪ/",
+        "meaning": "雇用；使用"
+      },
+      {
+        "word": "enable",
+        "phonetic": "/ɪˈneɪbl/",
+        "meaning": "使能够"
+      },
+      {
+        "word": "encounter",
+        "phonetic": "/ɪnˈkaʊntə(r)/",
+        "meaning": "遭遇"
+      },
+      {
+        "word": "encourage",
+        "phonetic": "/ɪnˈkʌrɪdʒ/",
+        "meaning": "鼓励"
+      },
+      {
+        "word": "endanger",
+        "phonetic": "/ɪnˈdeɪndʒə(r)/",
+        "meaning": "危及"
+      },
+      {
+        "word": "endeavour",
+        "phonetic": "/ɪnˈdevə(r)/",
+        "meaning": "努力"
+      },
+      {
+        "word": "enormous",
+        "phonetic": "/ɪˈnɔːməs/",
+        "meaning": "巨大的"
+      },
+      {
+        "word": "enthusiasm",
+        "phonetic": "/ɪnˈθjuːziæzəm/",
+        "meaning": "热情"
+      },
+      {
+        "word": "entire",
+        "phonetic": "/ɪnˈtaɪə(r)/",
+        "meaning": "整个的"
+      },
+      {
+        "word": "environment",
+        "phonetic": "/ɪnˈvaɪrənmənt/",
+        "meaning": "环境"
+      },
+      {
+        "word": "equivalent",
+        "phonetic": "/ɪˈkwɪvələnt/",
+        "meaning": "相等的"
+      },
+      {
+        "word": "establish",
+        "phonetic": "/ɪˈstæblɪʃ/",
+        "meaning": "建立"
+      },
+      {
+        "word": "estimate",
+        "phonetic": "/ˈestɪmeɪt/",
+        "meaning": "估计"
+      },
+      {
+        "word": "evaluate",
+        "phonetic": "/ɪˈvæljueɪt/",
+        "meaning": "评估"
+      },
+      {
+        "word": "evident",
+        "phonetic": "/ˈevɪdənt/",
+        "meaning": "明显的"
+      },
+      {
+        "word": "evolve",
+        "phonetic": "/iˈvɒlv/",
+        "meaning": "进化；演变"
+      },
+      {
+        "word": "examine",
+        "phonetic": "/ɪɡˈzæmɪn/",
+        "meaning": "检查；审视"
+      },
+      {
+        "word": "exceptional",
+        "phonetic": "/ɪkˈsepʃənl/",
+        "meaning": "非凡的"
+      },
+      {
+        "word": "exclude",
+        "phonetic": "/ɪkˈskluːd/",
+        "meaning": "排除"
+      },
+      {
+        "word": "exhaust",
+        "phonetic": "/ɪɡˈzɔːst/",
+        "meaning": "使筋疲力尽"
+      },
+      {
+        "word": "exhibit",
+        "phonetic": "/ɪɡˈzɪbɪt/",
+        "meaning": "展览"
+      },
+      {
+        "word": "expand",
+        "phonetic": "/ɪkˈspænd/",
+        "meaning": "扩大"
+      },
+      {
+        "word": "expense",
+        "phonetic": "/ɪkˈspens/",
+        "meaning": "费用；花费"
+      },
+      {
+        "word": "explore",
+        "phonetic": "/ɪkˈsplɔː(r)/",
+        "meaning": "探索"
+      },
+      {
+        "word": "expose",
+        "phonetic": "/ɪkˈspəʊz/",
+        "meaning": "暴露；揭露"
+      },
+      {
+        "word": "extend",
+        "phonetic": "/ɪkˈstend/",
+        "meaning": "延伸；扩展"
+      },
+      {
+        "word": "extinct",
+        "phonetic": "/ɪkˈstɪŋkt/",
+        "meaning": "灭绝的"
+      },
+      {
+        "word": "extraordinary",
+        "phonetic": "/ɪkˈstrɔːdnri/",
+        "meaning": "非凡的"
+      },
+      {
+        "word": "facility",
+        "phonetic": "/fəˈsɪləti/",
+        "meaning": "设施"
+      },
+      {
+        "word": "factor",
+        "phonetic": "/ˈfæktə(r)/",
+        "meaning": "因素"
+      },
+      {
+        "word": "familiar",
+        "phonetic": "/fəˈmɪliə(r)/",
+        "meaning": "熟悉的"
+      },
+      {
+        "word": "fantastic",
+        "phonetic": "/fænˈtæstɪk/",
+        "meaning": "极好的"
+      },
+      {
+        "word": "feature",
+        "phonetic": "/ˈfiːtʃə(r)/",
+        "meaning": "特征；特色"
+      },
+      {
+        "word": "finance",
+        "phonetic": "/ˈfaɪnæns/",
+        "meaning": "金融；财务"
+      },
+      {
+        "word": "flexible",
+        "phonetic": "/ˈfleksəbl/",
+        "meaning": "灵活的"
+      },
+      {
+        "word": "focus",
+        "phonetic": "/ˈfəʊkəs/",
+        "meaning": "集中；焦点"
+      },
+      {
+        "word": "forecast",
+        "phonetic": "/ˈfɔːkɑːst/",
+        "meaning": "预测"
+      },
+      {
+        "word": "fortune",
+        "phonetic": "/ˈfɔːtʃuːn/",
+        "meaning": "财富；运气"
+      },
+      {
+        "word": "frequent",
+        "phonetic": "/ˈfriːkwənt/",
+        "meaning": "频繁的"
+      },
+      {
+        "word": "function",
+        "phonetic": "/ˈfʌŋkʃn/",
+        "meaning": "功能"
+      },
+      {
+        "word": "fundamental",
+        "phonetic": "/ˌfʌndəˈmentl/",
+        "meaning": "基本的"
+      },
+      {
+        "word": "generate",
+        "phonetic": "/ˈdʒenəreɪt/",
+        "meaning": "产生"
+      },
+      {
+        "word": "genius",
+        "phonetic": "/ˈdʒiːniəs/",
+        "meaning": "天才"
+      },
+      {
+        "word": "genuine",
+        "phonetic": "/ˈdʒenjuɪn/",
+        "meaning": "真诚的；真正的"
+      },
+      {
+        "word": "global",
+        "phonetic": "/ˈɡləʊbl/",
+        "meaning": "全球的"
+      },
+      {
+        "word": "gradually",
+        "phonetic": "/ˈɡrædʒuəli/",
+        "meaning": "逐渐地"
+      },
+      {
+        "word": "guarantee",
+        "phonetic": "/ˌɡærənˈtiː/",
+        "meaning": "保证"
+      },
+      {
+        "word": "guideline",
+        "phonetic": "/ˈɡaɪdlaɪn/",
+        "meaning": "指导方针"
+      },
+      {
+        "word": "handle",
+        "phonetic": "/ˈhændl/",
+        "meaning": "处理"
+      },
+      {
+        "word": "harmony",
+        "phonetic": "/ˈhɑːməni/",
+        "meaning": "和谐"
+      },
+      {
+        "word": "hazard",
+        "phonetic": "/ˈhæzəd/",
+        "meaning": "危险"
+      },
+      {
+        "word": "heritage",
+        "phonetic": "/ˈherɪtɪdʒ/",
+        "meaning": "遗产"
+      },
+      {
+        "word": "hesitate",
+        "phonetic": "/ˈhezɪteɪt/",
+        "meaning": "犹豫"
+      },
+      {
+        "word": "highlight",
+        "phonetic": "/ˈhaɪlaɪt/",
+        "meaning": "突出；强调"
+      },
+      {
+        "word": "horizon",
+        "phonetic": "/həˈraɪzn/",
+        "meaning": "地平线；眼界"
+      },
+      {
+        "word": "identify",
+        "phonetic": "/aɪˈdentɪfaɪ/",
+        "meaning": "识别；确认"
+      },
+      {
+        "word": "illustrate",
+        "phonetic": "/ˈɪləstreɪt/",
+        "meaning": "说明；举例"
+      },
+      {
+        "word": "immense",
+        "phonetic": "/ɪˈmens/",
+        "meaning": "巨大的"
+      },
+      {
+        "word": "impact",
+        "phonetic": "/ˈɪmpækt/",
+        "meaning": "影响"
+      },
+      {
+        "word": "implement",
+        "phonetic": "/ˈɪmplɪment/",
+        "meaning": "实施"
+      },
+      {
+        "word": "imply",
+        "phonetic": "/ɪmˈplaɪ/",
+        "meaning": "暗示"
+      },
+      {
+        "word": "impose",
+        "phonetic": "/ɪmˈpəʊz/",
+        "meaning": "强加"
+      },
+      {
+        "word": "impress",
+        "phonetic": "/ɪmˈpres/",
+        "meaning": "给……留下印象"
+      },
+      {
+        "word": "improve",
+        "phonetic": "/ɪmˈpruːv/",
+        "meaning": "改善"
+      },
+      {
+        "word": "incentive",
+        "phonetic": "/ɪnˈsentɪv/",
+        "meaning": "激励"
+      },
+      {
+        "word": "incident",
+        "phonetic": "/ˈɪnsɪdənt/",
+        "meaning": "事件"
+      },
+      {
+        "word": "include",
+        "phonetic": "/ɪnˈkluːd/",
+        "meaning": "包括"
+      },
+      {
+        "word": "income",
+        "phonetic": "/ˈɪnkʌm/",
+        "meaning": "收入"
+      },
+      {
+        "word": "increase",
+        "phonetic": "/ɪnˈkriːs/",
+        "meaning": "增加"
+      },
+      {
+        "word": "independent",
+        "phonetic": "/ˌɪndɪˈpendənt/",
+        "meaning": "独立的"
+      },
+      {
+        "word": "indicate",
+        "phonetic": "/ˈɪndɪkeɪt/",
+        "meaning": "表明；指示"
+      },
+      {
+        "word": "individual",
+        "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+        "meaning": "个人的"
+      },
+      {
+        "word": "industry",
+        "phonetic": "/ˈɪndəstri/",
+        "meaning": "工业；行业"
+      },
+      {
+        "word": "influence",
+        "phonetic": "/ˈɪnfluəns/",
+        "meaning": "影响"
+      },
+      {
+        "word": "inform",
+        "phonetic": "/ɪnˈfɔːm/",
+        "meaning": "告知"
+      },
+      {
+        "word": "inhabit",
+        "phonetic": "/ɪnˈhæbɪt/",
+        "meaning": "居住于"
+      },
+      {
+        "word": "inherit",
+        "phonetic": "/ɪnˈherɪt/",
+        "meaning": "继承"
+      },
+      {
+        "word": "initiative",
+        "phonetic": "/ɪˈnɪʃətɪv/",
+        "meaning": "主动性"
+      },
+      {
+        "word": "innovate",
+        "phonetic": "/ˈɪnəveɪt/",
+        "meaning": "创新"
+      },
+      {
+        "word": "inspire",
+        "phonetic": "/ɪnˈspaɪə(r)/",
+        "meaning": "鼓舞；启发"
+      },
+      {
+        "word": "instinct",
+        "phonetic": "/ˈɪnstɪŋkt/",
+        "meaning": "本能"
+      },
+      {
+        "word": "institution",
+        "phonetic": "/ˌɪnstɪˈtjuːʃn/",
+        "meaning": "机构；制度"
+      },
+      {
+        "word": "integrate",
+        "phonetic": "/ˈɪntɪɡreɪt/",
+        "meaning": "整合"
+      },
+      {
+        "word": "intellectual",
+        "phonetic": "/ˌɪntəˈlektʃuəl/",
+        "meaning": "智力的"
+      },
+      {
+        "word": "intend",
+        "phonetic": "/ɪnˈtend/",
+        "meaning": "打算"
+      },
+      {
+        "word": "interact",
+        "phonetic": "/ˌɪntərˈækt/",
+        "meaning": "互动"
+      },
+      {
+        "word": "interpret",
+        "phonetic": "/ɪnˈtɜːprɪt/",
+        "meaning": "解释；口译"
+      },
+      {
+        "word": "interrupt",
+        "phonetic": "/ˌɪntəˈrʌpt/",
+        "meaning": "打断"
+      },
+      {
+        "word": "invest",
+        "phonetic": "/ɪnˈvest/",
+        "meaning": "投资"
+      },
+      {
+        "word": "investigate",
+        "phonetic": "/ɪnˈvestɪɡeɪt/",
+        "meaning": "调查"
+      },
+      {
+        "word": "involve",
+        "phonetic": "/ɪnˈvɒlv/",
+        "meaning": "涉及；参与"
+      },
+      {
+        "word": "isolate",
+        "phonetic": "/ˈaɪsəleɪt/",
+        "meaning": "孤立"
+      },
+      {
+        "word": "justify",
+        "phonetic": "/ˈdʒʌstɪfaɪ/",
+        "meaning": "证明……正当"
+      },
+      {
+        "word": "landscape",
+        "phonetic": "/ˈlændskeɪp/",
+        "meaning": "风景；景观"
+      },
+      {
+        "word": "launch",
+        "phonetic": "/lɔːntʃ/",
+        "meaning": "发射；发起"
+      },
+      {
+        "word": "legacy",
+        "phonetic": "/ˈleɡəsi/",
+        "meaning": "遗产；遗留"
+      },
+      {
+        "word": "legal",
+        "phonetic": "/ˈliːɡl/",
+        "meaning": "合法的"
+      },
+      {
+        "word": "leisure",
+        "phonetic": "/ˈleʒə(r)/",
+        "meaning": "闲暇"
+      },
+      {
+        "word": "liberate",
+        "phonetic": "/ˈlɪbəreɪt/",
+        "meaning": "解放"
+      },
+      {
+        "word": "limit",
+        "phonetic": "/ˈlɪmɪt/",
+        "meaning": "限制"
+      },
+      {
+        "word": "locate",
+        "phonetic": "/ləʊˈkeɪt/",
+        "meaning": "位于；定位"
+      },
+      {
+        "word": "logic",
+        "phonetic": "/ˈlɒdʒɪk/",
+        "meaning": "逻辑"
+      },
+      {
+        "word": "maintain",
+        "phonetic": "/meɪnˈteɪn/",
+        "meaning": "维持；保养"
+      },
+      {
+        "word": "majority",
+        "phonetic": "/məˈdʒɒrəti/",
+        "meaning": "大多数"
+      },
+      {
+        "word": "manifest",
+        "phonetic": "/ˈmænɪfest/",
+        "meaning": "表明；显现"
+      },
+      {
+        "word": "manipulate",
+        "phonetic": "/məˈnɪpjuleɪt/",
+        "meaning": "操纵"
+      },
+      {
+        "word": "manufacture",
+        "phonetic": "/ˌmænjuˈfæktʃə(r)/",
+        "meaning": "制造"
+      },
+      {
+        "word": "margin",
+        "phonetic": "/ˈmɑːdʒɪn/",
+        "meaning": "边缘；利润"
+      },
+      {
+        "word": "mature",
+        "phonetic": "/məˈtʃʊə(r)/",
+        "meaning": "成熟的"
+      },
+      {
+        "word": "mechanism",
+        "phonetic": "/ˈmekənɪzəm/",
+        "meaning": "机制"
+      },
+      {
+        "word": "medium",
+        "phonetic": "/ˈmiːdiəm/",
+        "meaning": "媒介"
+      },
+      {
+        "word": "memorial",
+        "phonetic": "/məˈmɔːriəl/",
+        "meaning": "纪念碑；纪念的"
+      },
+      {
+        "word": "mental",
+        "phonetic": "/ˈmentl/",
+        "meaning": "精神的"
+      },
+      {
+        "word": "merit",
+        "phonetic": "/ˈmerɪt/",
+        "meaning": "优点"
+      },
+      {
+        "word": "minority",
+        "phonetic": "/maɪˈnɒrəti/",
+        "meaning": "少数"
+      },
+      {
+        "word": "modify",
+        "phonetic": "/ˈmɒdɪfaɪ/",
+        "meaning": "修改"
+      },
+      {
+        "word": "monitor",
+        "phonetic": "/ˈmɒnɪtə(r)/",
+        "meaning": "监控"
+      },
+      {
+        "word": "motivate",
+        "phonetic": "/ˈməʊtɪveɪt/",
+        "meaning": "激励"
+      },
+      {
+        "word": "multiply",
+        "phonetic": "/ˈmʌltɪplaɪ/",
+        "meaning": "乘；增加"
+      },
+      {
+        "word": "navigate",
+        "phonetic": "/ˈnævɪɡeɪt/",
+        "meaning": "导航；航行"
+      },
+      {
+        "word": "negative",
+        "phonetic": "/ˈneɡətɪv/",
+        "meaning": "消极的"
+      },
+      {
+        "word": "negotiate",
+        "phonetic": "/nɪˈɡəʊʃieɪt/",
+        "meaning": "谈判"
+      },
+      {
+        "word": "network",
+        "phonetic": "/ˈnetwɜːk/",
+        "meaning": "网络"
+      },
+      {
+        "word": "neutral",
+        "phonetic": "/ˈnjuːtrəl/",
+        "meaning": "中立的"
+      },
+      {
+        "word": "noble",
+        "phonetic": "/ˈnəʊbl/",
+        "meaning": "高尚的"
+      },
+      {
+        "word": "notion",
+        "phonetic": "/ˈnəʊʃn/",
+        "meaning": "观念"
+      },
+      {
+        "word": "numerous",
+        "phonetic": "/ˈnjuːmərəs/",
+        "meaning": "众多的"
+      },
+      {
+        "word": "object",
+        "phonetic": "/ˈɒbdʒɪkt/",
+        "meaning": "物体；反对"
+      },
+      {
+        "word": "observe",
+        "phonetic": "/əbˈzɜːv/",
+        "meaning": "观察；遵守"
+      },
+      {
+        "word": "obstacle",
+        "phonetic": "/ˈɒbstəkl/",
+        "meaning": "障碍"
+      },
+      {
+        "word": "obtain",
+        "phonetic": "/əbˈteɪn/",
+        "meaning": "获得"
+      },
+      {
+        "word": "obvious",
+        "phonetic": "/ˈɒbviəs/",
+        "meaning": "明显的"
+      },
+      {
+        "word": "occupy",
+        "phonetic": "/ˈɒkjupaɪ/",
+        "meaning": "占据"
+      },
+      {
+        "word": "occur",
+        "phonetic": "/əˈkɜː(r)/",
+        "meaning": "发生"
+      },
+      {
+        "word": "operate",
+        "phonetic": "/ˈɒpəreɪt/",
+        "meaning": "操作；运转"
+      },
+      {
+        "word": "oppose",
+        "phonetic": "/əˈpəʊz/",
+        "meaning": "反对"
+      },
+      {
+        "word": "optimistic",
+        "phonetic": "/ˌɒptɪˈmɪstɪk/",
+        "meaning": "乐观的"
+      },
+      {
+        "word": "optional",
+        "phonetic": "/ˈɒpʃənl/",
+        "meaning": "可选的"
+      },
+      {
+        "word": "organize",
+        "phonetic": "/ˈɔːɡənaɪz/",
+        "meaning": "组织"
+      },
+      {
+        "word": "origin",
+        "phonetic": "/ˈɒrɪdʒɪn/",
+        "meaning": "起源"
+      },
+      {
+        "word": "outcome",
+        "phonetic": "/ˈaʊtkʌm/",
+        "meaning": "结果"
+      },
+      {
+        "word": "overcome",
+        "phonetic": "/ˌəʊvəˈkʌm/",
+        "meaning": "克服"
+      },
+      {
+        "word": "overlook",
+        "phonetic": "/ˌəʊvəˈlʊk/",
+        "meaning": "忽视"
+      },
+      {
+        "word": "participate",
+        "phonetic": "/pɑːˈtɪsɪpeɪt/",
+        "meaning": "参加"
+      },
+      {
+        "word": "particular",
+        "phonetic": "/pəˈtɪkjələ(r)/",
+        "meaning": "特别的"
+      },
+      {
+        "word": "passive",
+        "phonetic": "/ˈpæsɪv/",
+        "meaning": "被动的"
+      },
+      {
+        "word": "perceive",
+        "phonetic": "/pəˈsiːv/",
+        "meaning": "感知；理解"
+      },
+      {
+        "word": "perform",
+        "phonetic": "/pəˈfɔːm/",
+        "meaning": "表演；执行"
+      },
+      {
+        "word": "permanent",
+        "phonetic": "/ˈpɜːmənənt/",
+        "meaning": "永久的"
+      },
+      {
+        "word": "persuade",
+        "phonetic": "/pəˈsweɪd/",
+        "meaning": "说服"
+      },
+      {
+        "word": "phenomenon",
+        "phonetic": "/fəˈnɒmɪnən/",
+        "meaning": "现象"
+      },
+      {
+        "word": "philosophy",
+        "phonetic": "/fəˈlɒsəfi/",
+        "meaning": "哲学"
+      },
+      {
+        "word": "physical",
+        "phonetic": "/ˈfɪzɪkl/",
+        "meaning": "身体的；物理的"
+      },
+      {
+        "word": "pioneer",
+        "phonetic": "/ˌpaɪəˈnɪə(r)/",
+        "meaning": "先驱"
+      },
+      {
+        "word": "policy",
+        "phonetic": "/ˈpɒləsi/",
+        "meaning": "政策"
+      },
+      {
+        "word": "pollute",
+        "phonetic": "/pəˈluːt/",
+        "meaning": "污染"
+      },
+      {
+        "word": "portrait",
+        "phonetic": "/ˈpɔːtreɪt/",
+        "meaning": "肖像"
+      },
+      {
+        "word": "positive",
+        "phonetic": "/ˈpɒzətɪv/",
+        "meaning": "积极的"
+      },
+      {
+        "word": "potential",
+        "phonetic": "/pəˈtenʃl/",
+        "meaning": "潜在的；潜力"
+      },
+      {
+        "word": "practical",
+        "phonetic": "/ˈpræktɪkl/",
+        "meaning": "实际的"
+      },
+      {
+        "word": "precious",
+        "phonetic": "/ˈpreʃəs/",
+        "meaning": "宝贵的"
+      },
+      {
+        "word": "precise",
+        "phonetic": "/prɪˈsaɪs/",
+        "meaning": "精确的"
+      },
+      {
+        "word": "predict",
+        "phonetic": "/prɪˈdɪkt/",
+        "meaning": "预测"
+      },
+      {
+        "word": "prefer",
+        "phonetic": "/prɪˈfɜː(r)/",
+        "meaning": "更喜欢"
+      },
+      {
+        "word": "preserve",
+        "phonetic": "/prɪˈzɜːv/",
+        "meaning": "保护；保存"
+      },
+      {
+        "word": "pressure",
+        "phonetic": "/ˈpreʃə(r)/",
+        "meaning": "压力"
+      },
+      {
+        "word": "previous",
+        "phonetic": "/ˈpriːviəs/",
+        "meaning": "以前的"
+      },
+      {
+        "word": "primary",
+        "phonetic": "/ˈpraɪməri/",
+        "meaning": "主要的；初级的"
+      },
+      {
+        "word": "principal",
+        "phonetic": "/ˈprɪnsəpl/",
+        "meaning": "主要的；校长"
+      },
+      {
+        "word": "priority",
+        "phonetic": "/praɪˈɒrəti/",
+        "meaning": "优先事项"
+      },
+      {
+        "word": "procedure",
+        "phonetic": "/prəˈsiːdʒə(r)/",
+        "meaning": "程序"
+      },
+      {
+        "word": "process",
+        "phonetic": "/ˈprəʊses/",
+        "meaning": "过程"
+      },
+      {
+        "word": "produce",
+        "phonetic": "/prəˈdjuːs/",
+        "meaning": "生产"
+      },
+      {
+        "word": "profession",
+        "phonetic": "/prəˈfeʃn/",
+        "meaning": "职业"
+      },
+      {
+        "word": "profound",
+        "phonetic": "/prəˈfaʊnd/",
+        "meaning": "深刻的"
+      },
+      {
+        "word": "progress",
+        "phonetic": "/ˈprəʊɡres/",
+        "meaning": "进步"
+      },
+      {
+        "word": "promote",
+        "phonetic": "/prəˈməʊt/",
+        "meaning": "促进；晋升"
+      },
+      {
+        "word": "proportion",
+        "phonetic": "/prəˈpɔːʃn/",
+        "meaning": "比例"
+      },
+      {
+        "word": "prospect",
+        "phonetic": "/ˈprɒspekt/",
+        "meaning": "前景"
+      },
+      {
+        "word": "protect",
+        "phonetic": "/prəˈtekt/",
+        "meaning": "保护"
+      },
+      {
+        "word": "prove",
+        "phonetic": "/pruːv/",
+        "meaning": "证明"
+      },
+      {
+        "word": "provide",
+        "phonetic": "/prəˈvaɪd/",
+        "meaning": "提供"
+      },
+      {
+        "word": "pursue",
+        "phonetic": "/pəˈsjuː/",
+        "meaning": "追求"
+      },
+      {
+        "word": "quality",
+        "phonetic": "/ˈkwɒləti/",
+        "meaning": "质量"
+      },
+      {
+        "word": "quantity",
+        "phonetic": "/ˈkwɒntəti/",
+        "meaning": "数量"
+      },
+      {
+        "word": "radiation",
+        "phonetic": "/ˌreɪdiˈeɪʃn/",
+        "meaning": "辐射"
+      },
+      {
+        "word": "random",
+        "phonetic": "/ˈrændəm/",
+        "meaning": "随机的"
+      },
+      {
+        "word": "range",
+        "phonetic": "/reɪndʒ/",
+        "meaning": "范围"
+      },
+      {
+        "word": "rapid",
+        "phonetic": "/ˈræpɪd/",
+        "meaning": "迅速的"
+      },
+      {
+        "word": "rational",
+        "phonetic": "/ˈræʃnəl/",
+        "meaning": "理性的"
+      },
+      {
+        "word": "reaction",
+        "phonetic": "/riˈækʃn/",
+        "meaning": "反应"
+      },
+      {
+        "word": "reality",
+        "phonetic": "/riˈæləti/",
+        "meaning": "现实"
+      },
+      {
+        "word": "realize",
+        "phonetic": "/ˈriːəlaɪz/",
+        "meaning": "意识到；实现"
+      },
+      {
+        "word": "reasonable",
+        "phonetic": "/ˈriːznəbl/",
+        "meaning": "合理的"
+      },
+      {
+        "word": "recall",
+        "phonetic": "/rɪˈkɔːl/",
+        "meaning": "回忆"
+      },
+      {
+        "word": "recognize",
+        "phonetic": "/ˈrekəɡnaɪz/",
+        "meaning": "认出；承认"
+      },
+      {
+        "word": "recommend",
+        "phonetic": "/ˌrekəˈmend/",
+        "meaning": "推荐"
+      },
+      {
+        "word": "recover",
+        "phonetic": "/rɪˈkʌvə(r)/",
+        "meaning": "恢复"
+      },
+      {
+        "word": "reduce",
+        "phonetic": "/rɪˈdjuːs/",
+        "meaning": "减少"
+      },
+      {
+        "word": "refer",
+        "phonetic": "/rɪˈfɜː(r)/",
+        "meaning": "提及；参考"
+      },
+      {
+        "word": "reflect",
+        "phonetic": "/rɪˈflekt/",
+        "meaning": "反映；反思"
+      },
+      {
+        "word": "reform",
+        "phonetic": "/rɪˈfɔːm/",
+        "meaning": "改革"
+      },
+      {
+        "word": "regard",
+        "phonetic": "/rɪˈɡɑːd/",
+        "meaning": "看待"
+      },
+      {
+        "word": "region",
+        "phonetic": "/ˈriːdʒən/",
+        "meaning": "地区"
+      },
+      {
+        "word": "register",
+        "phonetic": "/ˈredʒɪstə(r)/",
+        "meaning": "登记"
+      },
+      {
+        "word": "regulate",
+        "phonetic": "/ˈreɡjuleɪt/",
+        "meaning": "管制；调节"
+      },
+      {
+        "word": "reject",
+        "phonetic": "/rɪˈdʒekt/",
+        "meaning": "拒绝"
+      },
+      {
+        "word": "relate",
+        "phonetic": "/rɪˈleɪt/",
+        "meaning": "联系；叙述"
+      },
+      {
+        "word": "relevant",
+        "phonetic": "/ˈreləvənt/",
+        "meaning": "相关的"
+      },
+      {
+        "word": "reliable",
+        "phonetic": "/rɪˈlaɪəbl/",
+        "meaning": "可靠的"
+      },
+      {
+        "word": "relief",
+        "phonetic": "/rɪˈliːf/",
+        "meaning": "宽慰"
+      },
+      {
+        "word": "remarkable",
+        "phonetic": "/rɪˈmɑːkəbl/",
+        "meaning": "非凡的"
+      },
+      {
+        "word": "remedy",
+        "phonetic": "/ˈremədi/",
+        "meaning": "补救方法"
+      },
+      {
+        "word": "represent",
+        "phonetic": "/ˌreprɪˈzent/",
+        "meaning": "代表"
+      },
+      {
+        "word": "reputation",
+        "phonetic": "/ˌrepjuˈteɪʃn/",
+        "meaning": "名声"
+      },
+      {
+        "word": "require",
+        "phonetic": "/rɪˈkwaɪə(r)/",
+        "meaning": "需要；要求"
+      },
+      {
+        "word": "research",
+        "phonetic": "/rɪˈsɜːtʃ/",
+        "meaning": "研究"
+      },
+      {
+        "word": "reserve",
+        "phonetic": "/rɪˈzɜːv/",
+        "meaning": "保留；预订"
+      },
+      {
+        "word": "resist",
+        "phonetic": "/rɪˈzɪst/",
+        "meaning": "抵抗"
+      },
+      {
+        "word": "resolve",
+        "phonetic": "/rɪˈzɒlv/",
+        "meaning": "解决；决心"
+      },
+      {
+        "word": "resource",
+        "phonetic": "/rɪˈsɔːs/",
+        "meaning": "资源"
+      },
+      {
+        "word": "respond",
+        "phonetic": "/rɪˈspɒnd/",
+        "meaning": "回应"
+      },
+      {
+        "word": "restore",
+        "phonetic": "/rɪˈstɔː(r)/",
+        "meaning": "恢复；修复"
+      },
+      {
+        "word": "restrict",
+        "phonetic": "/rɪˈstrɪkt/",
+        "meaning": "限制"
+      },
+      {
+        "word": "reveal",
+        "phonetic": "/rɪˈviːl/",
+        "meaning": "揭示"
+      },
+      {
+        "word": "revenue",
+        "phonetic": "/ˈrevənjuː/",
+        "meaning": "收入"
+      },
+      {
+        "word": "revolution",
+        "phonetic": "/ˌrevəˈluːʃn/",
+        "meaning": "革命；变革"
+      },
+      {
+        "word": "reward",
+        "phonetic": "/rɪˈwɔːd/",
+        "meaning": "回报；奖赏"
+      },
+      {
+        "word": "routine",
+        "phonetic": "/ruːˈtiːn/",
+        "meaning": "常规"
+      },
+      {
+        "word": "sacrifice",
+        "phonetic": "/ˈsækrɪfaɪs/",
+        "meaning": "牺牲"
+      },
+      {
+        "word": "schedule",
+        "phonetic": "/ˈʃedjuːl/",
+        "meaning": "时间表"
+      },
+      {
+        "word": "scholar",
+        "phonetic": "/ˈskɒlə(r)/",
+        "meaning": "学者"
+      },
+      {
+        "word": "scientific",
+        "phonetic": "/ˌsaɪənˈtɪfɪk/",
+        "meaning": "科学的"
+      },
+      {
+        "word": "security",
+        "phonetic": "/sɪˈkjʊərəti/",
+        "meaning": "安全"
+      },
+      {
+        "word": "sensitive",
+        "phonetic": "/ˈsensətɪv/",
+        "meaning": "敏感的"
+      },
+      {
+        "word": "significant",
+        "phonetic": "/sɪɡˈnɪfɪkənt/",
+        "meaning": "重要的"
+      },
+      {
+        "word": "similar",
+        "phonetic": "/ˈsɪmələ(r)/",
+        "meaning": "相似的"
+      },
+      {
+        "word": "sincere",
+        "phonetic": "/sɪnˈsɪə(r)/",
+        "meaning": "真诚的"
+      },
+      {
+        "word": "skeleton",
+        "phonetic": "/ˈskelɪtn/",
+        "meaning": "骨架"
+      },
+      {
+        "word": "solution",
+        "phonetic": "/səˈluːʃn/",
+        "meaning": "解决方案"
+      },
+      {
+        "word": "sophisticated",
+        "phonetic": "/səˈfɪstɪkeɪtɪd/",
+        "meaning": "复杂的；精密的"
+      },
+      {
+        "word": "source",
+        "phonetic": "/sɔːs/",
+        "meaning": "来源"
+      },
+      {
+        "word": "species",
+        "phonetic": "/ˈspiːʃiːz/",
+        "meaning": "物种"
+      },
+      {
+        "word": "specific",
+        "phonetic": "/spəˈsɪfɪk/",
+        "meaning": "具体的"
+      },
+      {
+        "word": "spiritual",
+        "phonetic": "/ˈspɪrɪtʃuəl/",
+        "meaning": "精神的"
+      },
+      {
+        "word": "stability",
+        "phonetic": "/stəˈbɪləti/",
+        "meaning": "稳定"
+      },
+      {
+        "word": "standard",
+        "phonetic": "/ˈstændəd/",
+        "meaning": "标准"
+      },
+      {
+        "word": "strategy",
+        "phonetic": "/ˈstrætədʒi/",
+        "meaning": "策略"
+      },
+      {
+        "word": "strengthen",
+        "phonetic": "/ˈstreŋθn/",
+        "meaning": "加强"
+      },
+      {
+        "word": "structure",
+        "phonetic": "/ˈstrʌktʃə(r)/",
+        "meaning": "结构"
+      },
+      {
+        "word": "submit",
+        "phonetic": "/səbˈmɪt/",
+        "meaning": "提交"
+      },
+      {
+        "word": "substance",
+        "phonetic": "/ˈsʌbstəns/",
+        "meaning": "物质"
+      },
+      {
+        "word": "substitute",
+        "phonetic": "/ˈsʌbstɪtjuːt/",
+        "meaning": "代替"
+      },
+      {
+        "word": "sufficient",
+        "phonetic": "/səˈfɪʃnt/",
+        "meaning": "足够的"
+      },
+      {
+        "word": "summarize",
+        "phonetic": "/ˈsʌməraɪz/",
+        "meaning": "总结"
+      },
+      {
+        "word": "superb",
+        "phonetic": "/suːˈpɜːb/",
+        "meaning": "极好的"
+      },
+      {
+        "word": "superior",
+        "phonetic": "/suːˈpɪəriə(r)/",
+        "meaning": "更好的；上级"
+      },
+      {
+        "word": "supplement",
+        "phonetic": "/ˈsʌplɪmənt/",
+        "meaning": "补充"
+      },
+      {
+        "word": "support",
+        "phonetic": "/səˈpɔːt/",
+        "meaning": "支持"
+      },
+      {
+        "word": "survive",
+        "phonetic": "/səˈvaɪv/",
+        "meaning": "幸存"
+      },
+      {
+        "word": "suspect",
+        "phonetic": "/səˈspekt/",
+        "meaning": "怀疑"
+      },
+      {
+        "word": "sustain",
+        "phonetic": "/səˈsteɪn/",
+        "meaning": "维持"
+      },
+      {
+        "word": "symbol",
+        "phonetic": "/ˈsɪmbl/",
+        "meaning": "象征"
+      },
+      {
+        "word": "systematic",
+        "phonetic": "/ˌsɪstəˈmætɪk/",
+        "meaning": "系统的"
+      },
+      {
+        "word": "talent",
+        "phonetic": "/ˈtælənt/",
+        "meaning": "才能"
+      },
+      {
+        "word": "technique",
+        "phonetic": "/tekˈniːk/",
+        "meaning": "技巧"
+      },
+      {
+        "word": "temporary",
+        "phonetic": "/ˈtemprəri/",
+        "meaning": "暂时的"
+      },
+      {
+        "word": "tendency",
+        "phonetic": "/ˈtendənsi/",
+        "meaning": "倾向"
+      },
+      {
+        "word": "tension",
+        "phonetic": "/ˈtenʃn/",
+        "meaning": "紧张"
+      },
+      {
+        "word": "threaten",
+        "phonetic": "/ˈθretn/",
+        "meaning": "威胁"
+      },
+      {
+        "word": "tolerate",
+        "phonetic": "/ˈtɒləreɪt/",
+        "meaning": "容忍"
+      },
+      {
+        "word": "transform",
+        "phonetic": "/trænsˈfɔːm/",
+        "meaning": "转变"
+      },
+      {
+        "word": "transparent",
+        "phonetic": "/trænsˈpærənt/",
+        "meaning": "透明的"
+      },
+      {
+        "word": "transport",
+        "phonetic": "/ˈtrænspɔːt/",
+        "meaning": "运输"
+      },
+      {
+        "word": "tremendous",
+        "phonetic": "/trəˈmendəs/",
+        "meaning": "巨大的"
+      },
+      {
+        "word": "ultimate",
+        "phonetic": "/ˈʌltɪmət/",
+        "meaning": "最终的"
+      },
+      {
+        "word": "undertake",
+        "phonetic": "/ˌʌndəˈteɪk/",
+        "meaning": "承担；从事"
+      },
+      {
+        "word": "unique",
+        "phonetic": "/juˈniːk/",
+        "meaning": "独特的"
+      },
+      {
+        "word": "universal",
+        "phonetic": "/ˌjuːnɪˈvɜːsl/",
+        "meaning": "普遍的"
+      },
+      {
+        "word": "urgent",
+        "phonetic": "/ˈɜːdʒənt/",
+        "meaning": "紧急的"
+      },
+      {
+        "word": "utilize",
+        "phonetic": "/ˈjuːtəlaɪz/",
+        "meaning": "利用"
+      },
+      {
+        "word": "vacant",
+        "phonetic": "/ˈveɪkənt/",
+        "meaning": "空着的"
+      },
+      {
+        "word": "valid",
+        "phonetic": "/ˈvælɪd/",
+        "meaning": "有效的"
+      },
+      {
+        "word": "valuable",
+        "phonetic": "/ˈvæljuəbl/",
+        "meaning": "有价值的"
+      },
+      {
+        "word": "vary",
+        "phonetic": "/ˈveəri/",
+        "meaning": "变化"
+      },
+      {
+        "word": "vast",
+        "phonetic": "/vɑːst/",
+        "meaning": "广阔的"
+      },
+      {
+        "word": "version",
+        "phonetic": "/ˈvɜːʃn/",
+        "meaning": "版本"
+      },
+      {
+        "word": "vital",
+        "phonetic": "/ˈvaɪtl/",
+        "meaning": "至关重要的"
+      },
+      {
+        "word": "voluntary",
+        "phonetic": "/ˈvɒləntri/",
+        "meaning": "自愿的"
+      },
+      {
+        "word": "vulnerable",
+        "phonetic": "/ˈvʌlnərəbl/",
+        "meaning": "脆弱的"
+      },
+      {
+        "word": "welfare",
+        "phonetic": "/ˈwelfeə(r)/",
+        "meaning": "福利"
+      },
+      {
+        "word": "widespread",
+        "phonetic": "/ˈwaɪdspred/",
+        "meaning": "广泛的"
+      },
+      {
+        "word": "wisdom",
+        "phonetic": "/ˈwɪzdəm/",
+        "meaning": "智慧"
+      },
+      {
+        "word": "worthy",
+        "phonetic": "/ˈwɜːði/",
+        "meaning": "值得的"
+      },
+      {
+        "word": "yield",
+        "phonetic": "/jiːld/",
+        "meaning": "产生；屈服"
+      },
+      {
+        "word": "abolition",
+        "phonetic": "/ˌæbəˈlɪʃn/",
+        "meaning": "废除"
+      },
+      {
+        "word": "accustom",
+        "phonetic": "/əˈkʌstəm/",
+        "meaning": "使习惯于"
+      },
+      {
+        "word": "adverse",
+        "phonetic": "/ˈædvɜːs/",
+        "meaning": "不利的"
+      },
+      {
+        "word": "aggregate",
+        "phonetic": "/ˈæɡrɪɡət/",
+        "meaning": "总计；聚合"
+      },
+      {
+        "word": "analogy",
+        "phonetic": "/əˈnælədʒi/",
+        "meaning": "类比"
+      },
+      {
+        "word": "anonymous",
+        "phonetic": "/əˈnɒnɪməs/",
+        "meaning": "匿名的"
+      },
+      {
+        "word": "apparatus",
+        "phonetic": "/ˌæpəˈreɪtəs/",
+        "meaning": "仪器；装置"
+      },
+      {
+        "word": "appendix",
+        "phonetic": "/əˈpendɪks/",
+        "meaning": "附录"
+      },
+      {
+        "word": "apprehend",
+        "phonetic": "/ˌæprɪˈhend/",
+        "meaning": "理解；逮捕"
+      },
+      {
+        "word": "archaeology",
+        "phonetic": "/ˌɑːkiˈɒlədʒi/",
+        "meaning": "考古学"
+      },
+      {
+        "word": "assemble",
+        "phonetic": "/əˈsembl/",
+        "meaning": "组装；聚集"
+      },
+      {
+        "word": "assert",
+        "phonetic": "/əˈsɜːt/",
+        "meaning": "断言"
+      },
+      {
+        "word": "award",
+        "phonetic": "/əˈwɔːd/",
+        "meaning": "奖；授予"
+      },
+      {
+        "word": "bacteria",
+        "phonetic": "/bækˈtɪəriə/",
+        "meaning": "细菌"
+      },
+      {
+        "word": "biochemistry",
+        "phonetic": "/ˌbaɪəʊˈkemɪstri/",
+        "meaning": "生物化学"
+      },
+      {
+        "word": "boom",
+        "phonetic": "/buːm/",
+        "meaning": "繁荣；激增"
+      },
+      {
+        "word": "breed",
+        "phonetic": "/briːd/",
+        "meaning": "繁殖；品种"
+      },
+      {
+        "word": "budget",
+        "phonetic": "/ˈbʌdʒɪt/",
+        "meaning": "预算"
+      },
+      {
+        "word": "candidate",
+        "phonetic": "/ˈkændɪdət/",
+        "meaning": "候选人"
+      },
+      {
+        "word": "ceremony",
+        "phonetic": "/ˈserəməni/",
+        "meaning": "典礼"
+      },
+      {
+        "word": "certificate",
+        "phonetic": "/səˈtɪfɪkət/",
+        "meaning": "证书"
+      },
+      {
+        "word": "circulation",
+        "phonetic": "/ˌsɜːkjəˈleɪʃn/",
+        "meaning": "循环；流通"
+      },
+      {
+        "word": "coherent",
+        "phonetic": "/kəʊˈhɪərənt/",
+        "meaning": "连贯的"
+      },
+      {
+        "word": "colleague",
+        "phonetic": "/ˈkɒliːɡ/",
+        "meaning": "同事"
+      },
+      {
+        "word": "compensate",
+        "phonetic": "/ˈkɒmpenseɪt/",
+        "meaning": "补偿"
+      },
+      {
+        "word": "competent",
+        "phonetic": "/ˈkɒmpɪtənt/",
+        "meaning": "胜任的"
+      },
+      {
+        "word": "complication",
+        "phonetic": "/ˌkɒmplɪˈkeɪʃn/",
+        "meaning": "复杂情况；并发症"
+      },
+      {
+        "word": "condemn",
+        "phonetic": "/kənˈdem/",
+        "meaning": "谴责"
+      },
+      {
+        "word": "confer",
+        "phonetic": "/kənˈfɜː(r)/",
+        "meaning": "商议；授予"
+      },
+      {
+        "word": "congress",
+        "phonetic": "/ˈkɒŋɡres/",
+        "meaning": "国会；代表大会"
+      },
+      {
+        "word": "contradict",
+        "phonetic": "/ˌkɒntrəˈdɪkt/",
+        "meaning": "反驳；矛盾"
+      },
+      {
+        "word": "coordinate",
+        "phonetic": "/kəʊˈɔːdɪneɪt/",
+        "meaning": "协调"
+      },
+      {
+        "word": "corrupt",
+        "phonetic": "/kəˈrʌpt/",
+        "meaning": "腐败的"
+      },
+      {
+        "word": "criterion",
+        "phonetic": "/kraɪˈtɪəriən/",
+        "meaning": "标准；准则"
+      },
+      {
+        "word": "cultivate",
+        "phonetic": "/ˈkʌltɪveɪt/",
+        "meaning": "培养；耕作"
+      },
+      {
+        "word": "declare",
+        "phonetic": "/dɪˈkleə(r)/",
+        "meaning": "宣布"
+      },
+      {
+        "word": "deduction",
+        "phonetic": "/dɪˈdʌkʃn/",
+        "meaning": "扣除；演绎"
+      },
+      {
+        "word": "deficiency",
+        "phonetic": "/dɪˈfɪʃnsi/",
+        "meaning": "缺乏"
+      },
+      {
+        "word": "delegate",
+        "phonetic": "/ˈdelɪɡət/",
+        "meaning": "代表；委派"
+      },
+      {
+        "word": "deliberate",
+        "phonetic": "/dɪˈlɪbərət/",
+        "meaning": "故意的"
+      },
+      {
+        "word": "depict",
+        "phonetic": "/dɪˈpɪkt/",
+        "meaning": "描绘"
+      },
+      {
+        "word": "derive",
+        "phonetic": "/dɪˈraɪv/",
+        "meaning": "源于"
+      },
+      {
+        "word": "destiny",
+        "phonetic": "/ˈdestəni/",
+        "meaning": "命运"
+      },
+      {
+        "word": "deteriorate",
+        "phonetic": "/dɪˈtɪəriəreɪt/",
+        "meaning": "恶化"
+      },
+      {
+        "word": "dialect",
+        "phonetic": "/ˈdaɪəlekt/",
+        "meaning": "方言"
+      },
+      {
+        "word": "diminish",
+        "phonetic": "/dɪˈmɪnɪʃ/",
+        "meaning": "减少；降低"
+      },
+      {
+        "word": "diplomatic",
+        "phonetic": "/ˌdɪpləˈmætɪk/",
+        "meaning": "外交的"
+      },
+      {
+        "word": "discipline",
+        "phonetic": "/ˈdɪsəplɪn/",
+        "meaning": "纪律；学科"
+      },
+      {
+        "word": "disguise",
+        "phonetic": "/dɪsˈɡaɪz/",
+        "meaning": "伪装"
+      },
+      {
+        "word": "disrupt",
+        "phonetic": "/dɪsˈrʌpt/",
+        "meaning": "扰乱"
+      },
+      {
+        "word": "dissolve",
+        "phonetic": "/dɪˈzɒlv/",
+        "meaning": "溶解；解散"
+      },
+      {
+        "word": "distinct",
+        "phonetic": "/dɪˈstɪŋkt/",
+        "meaning": "不同的；清楚的"
+      },
+      {
+        "word": "divine",
+        "phonetic": "/dɪˈvaɪn/",
+        "meaning": "神圣的"
+      },
+      {
+        "word": "doctrine",
+        "phonetic": "/ˈdɒktrɪn/",
+        "meaning": "教义；学说"
+      },
+      {
+        "word": "drought",
+        "phonetic": "/draʊt/",
+        "meaning": "干旱"
+      },
+      {
+        "word": "dubious",
+        "phonetic": "/ˈdjuːbiəs/",
+        "meaning": "怀疑的"
+      },
+      {
+        "word": "dwell",
+        "phonetic": "/dwel/",
+        "meaning": "居住"
+      },
+      {
+        "word": "eloquent",
+        "phonetic": "/ˈeləkwənt/",
+        "meaning": "雄辩的"
+      },
+      {
+        "word": "embed",
+        "phonetic": "/ɪmˈbed/",
+        "meaning": "嵌入"
+      },
+      {
+        "word": "empirical",
+        "phonetic": "/ɪmˈpɪrɪkl/",
+        "meaning": "经验主义的"
+      },
+      {
+        "word": "entity",
+        "phonetic": "/ˈentəti/",
+        "meaning": "实体"
+      },
+      {
+        "word": "equilibrium",
+        "phonetic": "/ˌiːkwɪˈlɪbriəm/",
+        "meaning": "平衡"
+      },
+      {
+        "word": "explicit",
+        "phonetic": "/ɪkˈsplɪsɪt/",
+        "meaning": "明确的"
+      },
+      {
+        "word": "facilitate",
+        "phonetic": "/fəˈsɪlɪteɪt/",
+        "meaning": "促进；使便利"
+      },
+      {
+        "word": "feasible",
+        "phonetic": "/ˈfiːzəbl/",
+        "meaning": "可行的"
+      },
+      {
+        "word": "fluctuate",
+        "phonetic": "/ˈflʌktʃueɪt/",
+        "meaning": "波动"
+      },
+      {
+        "word": "formidable",
+        "phonetic": "/ˈfɔːmɪdəbl/",
+        "meaning": "可怕的；艰巨的"
+      },
+      {
+        "word": "fragment",
+        "phonetic": "/ˈfræɡmənt/",
+        "meaning": "碎片"
+      },
+      {
+        "word": "friction",
+        "phonetic": "/ˈfrɪkʃn/",
+        "meaning": "摩擦"
+      },
+      {
+        "word": "futile",
+        "phonetic": "/ˈfjuːtaɪl/",
+        "meaning": "徒劳的"
+      },
+      {
+        "word": "genetic",
+        "phonetic": "/dʒəˈnetɪk/",
+        "meaning": "基因的"
+      },
+      {
+        "word": "hypothesis",
+        "phonetic": "/haɪˈpɒθəsɪs/",
+        "meaning": "假设"
+      },
+      {
+        "word": "implicit",
+        "phonetic": "/ɪmˈplɪsɪt/",
+        "meaning": "含蓄的"
+      },
+      {
+        "word": "indispensable",
+        "phonetic": "/ˌɪndɪˈspensəbl/",
+        "meaning": "不可或缺的"
+      },
+      {
+        "word": "inevitable",
+        "phonetic": "/ɪnˈevɪtəbl/",
+        "meaning": "不可避免的"
+      },
+      {
+        "word": "ingenuity",
+        "phonetic": "/ˌɪndʒəˈnjuːəti/",
+        "meaning": "独创性"
+      },
+      {
+        "word": "intricate",
+        "phonetic": "/ˈɪntrɪkət/",
+        "meaning": "错综复杂的"
+      },
+      {
+        "word": "intuition",
+        "phonetic": "/ˌɪntjuˈɪʃn/",
+        "meaning": "直觉"
+      },
+      {
+        "word": "legitimate",
+        "phonetic": "/lɪˈdʒɪtɪmət/",
+        "meaning": "合法的；合理的"
+      },
+      {
+        "word": "literacy",
+        "phonetic": "/ˈlɪtərəsi/",
+        "meaning": "读写能力"
+      },
+      {
+        "word": "magnitude",
+        "phonetic": "/ˈmæɡnɪtjuːd/",
+        "meaning": "巨大；量级"
+      },
+      {
+        "word": "mandatory",
+        "phonetic": "/ˈmændətəri/",
+        "meaning": "强制的"
+      },
+      {
+        "word": "metaphor",
+        "phonetic": "/ˈmetəfə(r)/",
+        "meaning": "隐喻"
+      },
+      {
+        "word": "minimize",
+        "phonetic": "/ˈmɪnɪmaɪz/",
+        "meaning": "使最小化"
+      },
+      {
+        "word": "obsolete",
+        "phonetic": "/ˈɒbsəliːt/",
+        "meaning": "过时的"
+      },
+      {
+        "word": "paradigm",
+        "phonetic": "/ˈpærədaɪm/",
+        "meaning": "范式"
+      },
+      {
+        "word": "paradox",
+        "phonetic": "/ˈpærədɒks/",
+        "meaning": "悖论"
+      },
+      {
+        "word": "penalty",
+        "phonetic": "/ˈpenəlti/",
+        "meaning": "惩罚"
+      },
+      {
+        "word": "plausible",
+        "phonetic": "/ˈplɔːzəbl/",
+        "meaning": "貌似合理的"
+      },
+      {
+        "word": "preliminary",
+        "phonetic": "/prɪˈlɪmɪnəri/",
+        "meaning": "初步的"
+      },
+      {
+        "word": "prestige",
+        "phonetic": "/preˈstiːʒ/",
+        "meaning": "声望"
+      },
+      {
+        "word": "proclaim",
+        "phonetic": "/prəˈkleɪm/",
+        "meaning": "宣告"
+      },
+      {
+        "word": "proficient",
+        "phonetic": "/prəˈfɪʃnt/",
+        "meaning": "精通的"
+      },
+      {
+        "word": "reconcile",
+        "phonetic": "/ˈrekənsaɪl/",
+        "meaning": "调和"
+      },
+      {
+        "word": "redundant",
+        "phonetic": "/rɪˈdʌndənt/",
+        "meaning": "多余的；冗余的"
+      },
+      {
+        "word": "refute",
+        "phonetic": "/rɪˈfjuːt/",
+        "meaning": "驳斥"
+      },
+      {
+        "word": "render",
+        "phonetic": "/ˈrendə(r)/",
+        "meaning": "使成为；提供"
+      },
+      {
+        "word": "repeal",
+        "phonetic": "/rɪˈpiːl/",
+        "meaning": "废除"
+      },
+      {
+        "word": "retrieve",
+        "phonetic": "/rɪˈtriːv/",
+        "meaning": "取回；检索"
+      },
+      {
+        "word": "rigorous",
+        "phonetic": "/ˈrɪɡərəs/",
+        "meaning": "严格的"
+      },
+      {
+        "word": "scrutiny",
+        "phonetic": "/ˈskruːtəni/",
+        "meaning": "仔细审查"
+      },
+      {
+        "word": "simultaneous",
+        "phonetic": "/ˌsɪmlˈteɪniəs/",
+        "meaning": "同时的"
+      },
+      {
+        "word": "skeptical",
+        "phonetic": "/ˈskeptɪkl/",
+        "meaning": "怀疑的"
+      },
+      {
+        "word": "strenuous",
+        "phonetic": "/ˈstrenjuəs/",
+        "meaning": "费力的"
+      },
+      {
+        "word": "suppress",
+        "phonetic": "/səˈpres/",
+        "meaning": "抑制；镇压"
+      },
+      {
+        "word": "tentative",
+        "phonetic": "/ˈtentətɪv/",
+        "meaning": "试探性的"
+      },
+      {
+        "word": "terminate",
+        "phonetic": "/ˈtɜːmɪneɪt/",
+        "meaning": "终止"
+      },
+      {
+        "word": "transition",
+        "phonetic": "/trænˈzɪʃn/",
+        "meaning": "过渡"
+      },
+      {
+        "word": "unanimous",
+        "phonetic": "/juˈnænɪməs/",
+        "meaning": "一致同意的"
+      },
+      {
+        "word": "undergo",
+        "phonetic": "/ˌʌndəˈɡəʊ/",
+        "meaning": "经历"
+      },
+      {
+        "word": "versatile",
+        "phonetic": "/ˈvɜːsətaɪl/",
+        "meaning": "多才多艺的"
+      },
+      {
+        "word": "vivid",
+        "phonetic": "/ˈvɪvɪd/",
+        "meaning": "生动的"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "Never abandon your dreams, no matter how hard it is.",
+        "zh": "无论多么艰难，永远不要放弃你的梦想。"
+      },
+      {
+        "en": "The academic report was praised by all the professors.",
+        "zh": "这份学术报告得到了所有教授的称赞。"
+      },
+      {
+        "en": "Under no circumstance should you give up hope.",
+        "zh": "在任何情况下你都不应该放弃希望。"
+      },
+      {
+        "en": "She is an ambitious young woman with a bright future.",
+        "zh": "她是一个有着光明未来的有抱负的年轻女性。"
+      },
+      {
+        "en": "The country has abundant natural resources.",
+        "zh": "这个国家有丰富的自然资源。"
+      },
+      {
+        "en": "We must take action to reduce the pollution in the river.",
+        "zh": "我们必须采取行动减少河流污染。"
+      },
+      {
+        "en": "Technology has accelerated the pace of modern life.",
+        "zh": "技术加速了现代生活的节奏。"
+      },
+      {
+        "en": "Students can access the library online.",
+        "zh": "学生可以在线访问图书馆。"
+      },
+      {
+        "en": "He accomplished the difficult task successfully.",
+        "zh": "他成功完成了这项艰巨的任务。"
+      },
+      {
+        "en": "Accumulating knowledge requires long-term effort.",
+        "zh": "积累知识需要长期努力。"
+      },
+      {
+        "en": "The report is accurate and based on real data.",
+        "zh": "这份报告是准确的，基于真实数据。"
+      },
+      {
+        "en": "We should adapt to the changing environment.",
+        "zh": "我们应该适应不断变化的环境。"
+      },
+      {
+        "en": "I really admire her courage and kindness.",
+        "zh": "我非常钦佩她的勇气和善良。"
+      },
+      {
+        "en": "Reading widely can broaden your vision.",
+        "zh": "广泛阅读可以开阔你的眼界。"
+      },
+      {
+        "en": "The success came through years of hard work.",
+        "zh": "成功来自于多年的努力。"
+      },
+      {
+        "en": "He has a strong sense of responsibility.",
+        "zh": "他有强烈的责任感。"
+      },
+      {
+        "en": "The environment is fundamental to our life.",
+        "zh": "环境对我们的生命至关重要。"
+      },
+      {
+        "en": "We should protect endangered species.",
+        "zh": "我们应该保护濒危物种。"
+      },
+      {
+        "en": "She devoted herself entirely to education.",
+        "zh": "她全身心投入教育。"
+      },
+      {
+        "en": "The invention changed our way of life forever.",
+        "zh": "这项发明永远改变了我们的生活方式。"
+      },
+      {
+        "en": "Many ancient traditions are still preserved today.",
+        "zh": "许多古代传统至今仍被保留。"
+      },
+      {
+        "en": "Economic growth has brought great benefits to the city.",
+        "zh": "经济增长给这座城市带来了巨大利益。"
+      },
+      {
+        "en": "We must find an effective solution to the problem.",
+        "zh": "我们必须找到解决这个问题的有效方法。"
+      },
+      {
+        "en": "The scientist discovered a new species of plant.",
+        "zh": "科学家发现了一种新的植物物种。"
+      },
+      {
+        "en": "Global warming is a serious challenge for all of us.",
+        "zh": "全球变暖对我们所有人都是一个严峻的挑战。"
+      },
+      {
+        "en": "He has a great influence on the young generation.",
+        "zh": "他对年轻一代有很大的影响。"
+      },
+      {
+        "en": "The research proved that exercise improves memory.",
+        "zh": "研究证明锻炼能改善记忆力。"
+      },
+      {
+        "en": "We should take responsibility for our own actions.",
+        "zh": "我们应该为自己的行为负责。"
+      },
+      {
+        "en": "The government announced a new policy on education.",
+        "zh": "政府宣布了一项新的教育政策。"
+      },
+      {
+        "en": "Her performance was extraordinary and moved everyone.",
+        "zh": "她的表演非常出色，感动了所有人。"
+      },
+      {
+        "en": "He concentrated on his studies and made great progress.",
+        "zh": "他专心学习，取得了很大进步。"
+      },
+      {
+        "en": "The experiment confirmed our hypothesis.",
+        "zh": "实验证实了我们的假设。"
+      },
+      {
+        "en": "Cooperation between countries is essential for peace.",
+        "zh": "国家间的合作对和平至关重要。"
+      },
+      {
+        "en": "We should respect cultural diversity.",
+        "zh": "我们应该尊重文化多样性。"
+      },
+      {
+        "en": "The library provides a convenient place for study.",
+        "zh": "图书馆为学习提供了便利的场所。"
+      },
+      {
+        "en": "He was determined to overcome all the difficulties.",
+        "zh": "他决心克服一切困难。"
+      },
+      {
+        "en": "Education plays a vital role in a nation's development.",
+        "zh": "教育在一个国家的发展中起着至关重要的作用。"
+      },
+      {
+        "en": "The rapid development of technology has changed our lives.",
+        "zh": "技术的快速发展改变了我们的生活。"
+      },
+      {
+        "en": "She expressed her gratitude to all the supporters.",
+        "zh": "她向所有支持者表达了感激之情。"
+      },
+      {
+        "en": "We should balance work and rest for better health.",
+        "zh": "为了更好的健康，我们应该平衡工作和休息。"
+      },
+      {
+        "en": "The company made a huge profit last year.",
+        "zh": "这家公司去年获得了巨大利润。"
+      },
+      {
+        "en": "He has a positive attitude towards life.",
+        "zh": "他对生活持积极态度。"
+      },
+      {
+        "en": "The museum houses many valuable works of art.",
+        "zh": "这家博物馆收藏了许多有价值的艺术品。"
+      },
+      {
+        "en": "Scientists are exploring new ways to save energy.",
+        "zh": "科学家们正在探索节约能源的新方法。"
+      },
+      {
+        "en": "The bridge is a symbol of friendship between the two cities.",
+        "zh": "这座桥是两个城市友谊的象征。"
+      },
+      {
+        "en": "We must preserve our cultural heritage for future generations.",
+        "zh": "我们必须为子孙后代保护我们的文化遗产。"
+      },
+      {
+        "en": "Her dedication to teaching inspired many students.",
+        "zh": "她对教学的奉献激励了许多学生。"
+      },
+      {
+        "en": "The city has a population of several million.",
+        "zh": "这座城市有数百万人口。"
+      },
+      {
+        "en": "He made a remarkable contribution to medical science.",
+        "zh": "他对医学科学做出了卓越的贡献。"
+      },
+      {
+        "en": "The atmosphere in the classroom was full of enthusiasm.",
+        "zh": "教室里的气氛充满了热情。"
+      },
+      {
+        "en": "We should take every opportunity to improve ourselves.",
+        "zh": "我们应该抓住每一个提高自己的机会。"
+      },
+      {
+        "en": "The novel reflects the social reality of that time.",
+        "zh": "这部小说反映了那个时代的社会现实。"
+      },
+      {
+        "en": "He responded to the question in a calm voice.",
+        "zh": "他用平静的声音回答了这个问题。"
+      },
+      {
+        "en": "Perseverance is the key to achieving success.",
+        "zh": "毅力是取得成功的关键。"
+      },
+      {
+        "en": "The teacher encouraged us to think independently.",
+        "zh": "老师鼓励我们独立思考。"
+      },
+      {
+        "en": "Modern science has brought us many wonders.",
+        "zh": "现代科学给我们带来了许多奇迹。"
+      },
+      {
+        "en": "She has a strong desire to become a scientist.",
+        "zh": "她有成为科学家的强烈愿望。"
+      },
+      {
+        "en": "The landscape of the countryside is truly beautiful.",
+        "zh": "乡村的风景真的很美。"
+      },
+      {
+        "en": "We should be aware of the importance of protecting nature.",
+        "zh": "我们应该意识到保护自然的重要性。"
+      },
+      {
+        "en": "His knowledge of history is extensive.",
+        "zh": "他的历史知识很渊博。"
+      },
+      {
+        "en": "The company is famous for its high quality products.",
+        "zh": "这家公司以其高质量的产品而闻名。"
+      },
+      {
+        "en": "Reading is an effective way to broaden your horizons.",
+        "zh": "阅读是开阔视野的有效方式。"
+      },
+      {
+        "en": "She took part in the competition and won first prize.",
+        "zh": "她参加了比赛并获得了一等奖。"
+      },
+      {
+        "en": "We should develop a good habit of learning English.",
+        "zh": "我们应该养成学习英语的好习惯。"
+      },
+      {
+        "en": "The teacher explained the grammar point clearly.",
+        "zh": "老师清楚地讲解了语法点。"
+      },
+      {
+        "en": "His courage in the face of danger impressed everyone.",
+        "zh": "他在危险面前的勇气给每个人留下了深刻印象。"
+      },
+      {
+        "en": "The team worked together to solve the problem.",
+        "zh": "团队一起努力解决了这个问题。"
+      },
+      {
+        "en": "Nature provides us with everything we need.",
+        "zh": "大自然为我们提供所需的一切。"
+      },
+      {
+        "en": "We should try our best to help those in need.",
+        "zh": "我们应该尽力帮助那些需要帮助的人。"
+      },
+      {
+        "en": "The weather forecast says it will be sunny tomorrow.",
+        "zh": "天气预报说明天将是晴天。"
+      },
+      {
+        "en": "She showed great patience in teaching the children.",
+        "zh": "她在教孩子们时表现出极大的耐心。"
+      },
+      {
+        "en": "He is respected by everyone for his honesty.",
+        "zh": "他因诚实而受到每个人的尊敬。"
+      },
+      {
+        "en": "The book contains a lot of useful information.",
+        "zh": "这本书包含许多有用的信息。"
+      }
+    ],
+    "grammar": [
+      {
+        "category": "冠词",
+        "question": "He is ___ honest man.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "/"
+        ],
+        "answer": 1,
+        "explain": "honest 以元音音素开头，用 an。",
+        "question_zh": "他是一个诚实的人。"
+      },
+      {
+        "category": "介词",
+        "question": "The success came ___ hard work.",
+        "options": [
+          "from",
+          "through",
+          "by",
+          "with"
+        ],
+        "answer": 1,
+        "explain": "through 表示通过某种过程达成。",
+        "question_zh": "成功来自于努力工作。"
+      },
+      {
+        "category": "时态-过去完成",
+        "question": "By the time we arrived, the film ___ already.",
+        "options": [
+          "started",
+          "has started",
+          "had started",
+          "was starting"
+        ],
+        "answer": 2,
+        "explain": "到达是过去，电影发生在那之前，用过去完成时。",
+        "question_zh": "当我们到达时，电影已经开始了。"
+      },
+      {
+        "category": "时态-现在进行",
+        "question": "I ___ a letter now, so I can't go out.",
+        "options": [
+          "write",
+          "wrote",
+          "am writing",
+          "have written"
+        ],
+        "answer": 2,
+        "explain": "now 表此刻正在进行，用现在进行时。",
+        "question_zh": "我现在正在写信，所以不能出去。"
+      },
+      {
+        "category": "时态-一般过去",
+        "question": "They ___ in London for five years before they moved.",
+        "options": [
+          "live",
+          "lived",
+          "have lived",
+          "are living"
+        ],
+        "answer": 1,
+        "explain": "moved 之前的一段过去经历用一般过去时。",
+        "question_zh": "他们搬走之前在伦敦住了五年。"
+      },
+      {
+        "category": "时态-现在完成",
+        "question": "He ___ in this company since 2010.",
+        "options": [
+          "works",
+          "worked",
+          "has worked",
+          "is working"
+        ],
+        "answer": 2,
+        "explain": "since + 过去时间点，主句用现在完成时。",
+        "question_zh": "他自2010年以来就在这家公司工作。"
+      },
+      {
+        "category": "时态-将来",
+        "question": "The train ___ at eight tomorrow morning.",
+        "options": [
+          "leaves",
+          "left",
+          "is leaving",
+          "will have left"
+        ],
+        "answer": 0,
+        "explain": "时刻表用一般现在时表将来。",
+        "question_zh": "火车明早八点出发。"
+      },
+      {
+        "category": "时态-过去进行",
+        "question": "When the phone rang, I ___ TV.",
+        "options": [
+          "watched",
+          "was watching",
+          "have watched",
+          "watch"
+        ],
+        "answer": 1,
+        "explain": "过去某时刻正在发生的动作用过去进行时。",
+        "question_zh": "电话响时，我正在看电视。"
+      },
+      {
+        "category": "被动语态",
+        "question": "The problem ___ at the meeting yesterday.",
+        "options": [
+          "discussed",
+          "was discussed",
+          "has discussed",
+          "is discussing"
+        ],
+        "answer": 1,
+        "explain": "过去时被动语态：was + 过去分词。",
+        "question_zh": "这个问题昨天在会议上被讨论。"
+      },
+      {
+        "category": "被动语态",
+        "question": "English ___ in many countries.",
+        "options": [
+          "speaks",
+          "is spoken",
+          "has spoken",
+          "is speaking"
+        ],
+        "answer": 1,
+        "explain": "一般现在时被动：be + 过去分词。",
+        "question_zh": "许多国家都讲英语。"
+      },
+      {
+        "category": "虚拟语气",
+        "question": "If I ___ you, I would take the job.",
+        "options": [
+          "am",
+          "was",
+          "were",
+          "be"
+        ],
+        "answer": 2,
+        "explain": "与现在事实相反的虚拟语气，if 从句用 were。",
+        "question_zh": "如果我是你，我会接受这份工作。"
+      },
+      {
+        "category": "虚拟语气",
+        "question": "I wish I ___ fly like a bird.",
+        "options": [
+          "can",
+          "could",
+          "will",
+          "would"
+        ],
+        "answer": 1,
+        "explain": "wish 后的虚拟语气表示愿望，用 could。",
+        "question_zh": "我希望我能像鸟一样飞。"
+      },
+      {
+        "category": "定语从句",
+        "question": "The man ___ helped me is my neighbor.",
+        "options": [
+          "which",
+          "who",
+          "whom",
+          "whose"
+        ],
+        "answer": 1,
+        "explain": "先行词是人，从句中作主语用 who。",
+        "question_zh": "帮助我的那个人是我的邻居。"
+      },
+      {
+        "category": "定语从句",
+        "question": "This is the book ___ I bought yesterday.",
+        "options": [
+          "who",
+          "which",
+          "where",
+          "when"
+        ],
+        "answer": 1,
+        "explain": "先行词是物，从句中作宾语用 which。",
+        "question_zh": "这是我昨天买的那本书。"
+      },
+      {
+        "category": "定语从句",
+        "question": "I still remember the day ___ we met.",
+        "options": [
+          "which",
+          "that",
+          "when",
+          "where"
+        ],
+        "answer": 2,
+        "explain": "先行词是时间，用关系副词 when。",
+        "question_zh": "我仍然记得我们相遇的那一天。"
+      },
+      {
+        "category": "名词性从句",
+        "question": "___ he will come is still unknown.",
+        "options": [
+          "That",
+          "Whether",
+          "If",
+          "What"
+        ],
+        "answer": 1,
+        "explain": "主语从句表示“是否”用 Whether。",
+        "question_zh": "他是否会来仍不得而知。"
+      },
+      {
+        "category": "名词性从句",
+        "question": "That is ___ I want to tell you.",
+        "options": [
+          "what",
+          "which",
+          "that",
+          "when"
+        ],
+        "answer": 0,
+        "explain": "表语从句，缺宾语用 what。",
+        "question_zh": "那就是我想告诉你的。"
+      },
+      {
+        "category": "状语从句",
+        "question": "___ it was raining, we still went out.",
+        "options": [
+          "Because",
+          "Although",
+          "Since",
+          "As"
+        ],
+        "answer": 1,
+        "explain": "although 表示转折“虽然”。",
+        "question_zh": "虽然下着雨，我们还是出去了。"
+      },
+      {
+        "category": "状语从句",
+        "question": "I'll wait here ___ you come back.",
+        "options": [
+          "until",
+          "because",
+          "although",
+          "so"
+        ],
+        "answer": 0,
+        "explain": "until 表示“直到……”。",
+        "question_zh": "我会在这里等到你回来。"
+      },
+      {
+        "category": "非谓语-不定式",
+        "question": "He decided ___ abroad for further study.",
+        "options": [
+          "go",
+          "to go",
+          "going",
+          "gone"
+        ],
+        "answer": 1,
+        "explain": "decide to do sth. 决定做某事。",
+        "question_zh": "他决定出国深造。"
+      },
+      {
+        "category": "非谓语-动名词",
+        "question": "___ is more important than learning.",
+        "options": [
+          "Think",
+          "Thinking",
+          "To thinking",
+          "Thought"
+        ],
+        "answer": 1,
+        "explain": "动名词作主语表一般行为。",
+        "question_zh": "思考比学习更重要。"
+      },
+      {
+        "category": "非谓语-现在分词",
+        "question": "___ from the hill, the city looks beautiful.",
+        "options": [
+          "See",
+          "Seeing",
+          "Seen",
+          "To see"
+        ],
+        "answer": 2,
+        "explain": "逻辑主语 the city 与 see 是被动关系，用过去分词 Seen。",
+        "question_zh": "从山上望去，这座城市很美。"
+      },
+      {
+        "category": "情态动词",
+        "question": "You ___ have told me earlier.",
+        "options": [
+          "should",
+          "need",
+          "dare",
+          "must"
+        ],
+        "answer": 0,
+        "explain": "should have done 表示本应做而未做。",
+        "question_zh": "你本该早点告诉我。"
+      },
+      {
+        "category": "情态动词",
+        "question": "He ___ be at home because the light is on.",
+        "options": [
+          "must",
+          "can't",
+          "needn't",
+          "shouldn't"
+        ],
+        "answer": 0,
+        "explain": "灯亮着，推测一定在家用 must。",
+        "question_zh": "他一定在家，因为灯亮着。"
+      },
+      {
+        "category": "情态动词",
+        "question": "You ___ finish the work today. Tomorrow is fine.",
+        "options": [
+          "mustn't",
+          "needn't",
+          "can't",
+          "shouldn't"
+        ],
+        "answer": 1,
+        "explain": "needn't 表示不必。",
+        "question_zh": "你不必今天完成工作，明天也行。"
+      },
+      {
+        "category": "倒装",
+        "question": "Never ___ I seen such a beautiful place.",
+        "options": [
+          "have",
+          "had",
+          "will",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "否定词 never 置于句首，主句部分倒装。",
+        "question_zh": "我从未见过如此美丽的地方。"
+      },
+      {
+        "category": "主谓一致",
+        "question": "The number of students ___ increasing.",
+        "options": [
+          "is",
+          "are",
+          "were",
+          "have"
+        ],
+        "answer": 0,
+        "explain": "the number of 作主语，谓语用单数。",
+        "question_zh": "学生人数在增加。"
+      },
+      {
+        "category": "主谓一致",
+        "question": "Each of the boys ___ a book.",
+        "options": [
+          "have",
+          "has",
+          "are having",
+          "were"
+        ],
+        "answer": 1,
+        "explain": "each of + 复数，谓语用单数。",
+        "question_zh": "每个男孩都有一本书。"
+      },
+      {
+        "category": "强调句",
+        "question": "It was in the park ___ I met him.",
+        "options": [
+          "that",
+          "where",
+          "which",
+          "when"
+        ],
+        "answer": 0,
+        "explain": "强调句型 It is/was + 被强调部分 + that。",
+        "question_zh": "正是在公园里我遇到了他。"
+      },
+      {
+        "category": "比较结构",
+        "question": "The more you practice, ___ you will be.",
+        "options": [
+          "the better",
+          "better",
+          "the best",
+          "the good"
+        ],
+        "answer": 0,
+        "explain": "the + 比较级，the + 比较级，表示“越……越……”。",
+        "question_zh": "你练习得越多，就会越好。"
+      },
+      {
+        "category": "独立主格",
+        "question": "The weather ___ fine, we went hiking.",
+        "options": [
+          "was",
+          "being",
+          "been",
+          "to be"
+        ],
+        "answer": 1,
+        "explain": "独立主格结构，逻辑主语与 being 搭配。",
+        "question_zh": "天气很好，我们去远足了。"
+      },
+      {
+        "category": "让步状语",
+        "question": "___ he is young, he knows a lot.",
+        "options": [
+          "Though",
+          "Because",
+          "Since",
+          "So"
+        ],
+        "answer": 0,
+        "explain": "though 引导让步状语从句表“虽然”。",
+        "question_zh": "虽然他很年轻，但他知道很多。"
+      }
+    ]
+  }
 };

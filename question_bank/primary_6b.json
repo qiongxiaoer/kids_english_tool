@@ -1,1 +1,788 @@
-{"words":[{"grade":6,"word":"tell","phonetic":"/tel/","meaning":"告诉"},{"grade":6,"word":"talk","phonetic":"/tɔːk/","meaning":"谈话"},{"grade":6,"word":"say","phonetic":"/seɪ/","meaning":"说"},{"grade":6,"word":"see","phonetic":"/siː/","meaning":"看见"},{"grade":6,"word":"look","phonetic":"/lʊk/","meaning":"看"},{"grade":6,"word":"hear","phonetic":"/hɪə(r)/","meaning":"听见"},{"grade":6,"word":"find","phonetic":"/faɪnd/","meaning":"找到"},{"grade":6,"word":"lose","phonetic":"/luːz/","meaning":"丢失"},{"grade":6,"word":"give","phonetic":"/ɡɪv/","meaning":"给"},{"grade":6,"word":"take","phonetic":"/teɪk/","meaning":"拿；带"},{"grade":6,"word":"bring","phonetic":"/brɪŋ/","meaning":"带来"},{"grade":6,"word":"make","phonetic":"/meɪk/","meaning":"制作"},{"grade":6,"word":"open","phonetic":"/ˈəʊpən/","meaning":"打开"},{"grade":6,"word":"close","phonetic":"/kləʊz/","meaning":"关闭"},{"grade":6,"word":"start","phonetic":"/stɑːt/","meaning":"开始"},{"grade":6,"word":"finish","phonetic":"/ˈfɪnɪʃ/","meaning":"完成"},{"grade":6,"word":"stop","phonetic":"/stɒp/","meaning":"停止"},{"grade":6,"word":"wait","phonetic":"/weɪt/","meaning":"等待"},{"grade":6,"word":"leave","phonetic":"/liːv/","meaning":"离开"},{"grade":6,"word":"arrive","phonetic":"/əˈraɪv/","meaning":"到达"},{"grade":6,"word":"fly","phonetic":"/flaɪ/","meaning":"飞"},{"grade":6,"word":"ride","phonetic":"/raɪd/","meaning":"骑"},{"grade":6,"word":"drive","phonetic":"/draɪv/","meaning":"驾驶"},{"grade":6,"word":"climb","phonetic":"/klaɪm/","meaning":"爬"},{"grade":6,"word":"sit","phonetic":"/sɪt/","meaning":"坐"},{"grade":6,"word":"stand","phonetic":"/stænd/","meaning":"站"},{"grade":6,"word":"sleep","phonetic":"/sliːp/","meaning":"睡觉"},{"grade":6,"word":"wake","phonetic":"/weɪk/","meaning":"醒来"},{"grade":6,"word":"rest","phonetic":"/rest/","meaning":"休息"},{"grade":6,"word":"break","phonetic":"/breɪk/","meaning":"休息；打破"},{"grade":6,"word":"busy","phonetic":"/ˈbɪzi/","meaning":"忙碌的"},{"grade":6,"word":"free","phonetic":"/friː/","meaning":"空闲的；自由的"},{"grade":6,"word":"late","phonetic":"/leɪt/","meaning":"迟的"},{"grade":6,"word":"early","phonetic":"/ˈɜːli/","meaning":"早的"},{"grade":6,"word":"quick","phonetic":"/kwɪk/","meaning":"快的"},{"grade":6,"word":"well","phonetic":"/wel/","meaning":"好地；健康的"},{"grade":6,"word":"bad","phonetic":"/bæd/","meaning":"坏的"},{"grade":6,"word":"favourite","phonetic":"/ˈfeɪvərɪt/","meaning":"最喜欢的"},{"grade":6,"word":"best","phonetic":"/best/","meaning":"最好的"},{"grade":6,"word":"great","phonetic":"/ɡreɪt/","meaning":"很棒的"},{"grade":6,"word":"wonderful","phonetic":"/ˈwʌndəfl/","meaning":"精彩的"},{"grade":6,"word":"amazing","phonetic":"/əˈmeɪzɪŋ/","meaning":"令人惊奇的"},{"grade":6,"word":"messy","phonetic":"/ˈmesi/","meaning":"凌乱的"},{"grade":6,"word":"bright","phonetic":"/braɪt/","meaning":"明亮的"},{"grade":6,"word":"dark","phonetic":"/dɑːk/","meaning":"黑暗的"},{"grade":6,"word":"soft","phonetic":"/sɒft/","meaning":"柔软的"},{"grade":6,"word":"hard","phonetic":"/hɑːd/","meaning":"坚硬的；努力的"},{"grade":6,"word":"smooth","phonetic":"/smuːð/","meaning":"光滑的"},{"grade":6,"word":"rough","phonetic":"/rʌf/","meaning":"粗糙的"},{"grade":6,"word":"wet","phonetic":"/wet/","meaning":"湿的"},{"grade":6,"word":"dry","phonetic":"/draɪ/","meaning":"干的"},{"grade":6,"word":"dirty","phonetic":"/ˈdɜːti/","meaning":"脏的"},{"grade":6,"word":"empty","phonetic":"/ˈempti/","meaning":"空的"},{"grade":6,"word":"high","phonetic":"/haɪ/","meaning":"高的"},{"grade":6,"word":"low","phonetic":"/ləʊ/","meaning":"低的"},{"grade":6,"word":"wide","phonetic":"/waɪd/","meaning":"宽的"},{"grade":6,"word":"narrow","phonetic":"/ˈnærəʊ/","meaning":"窄的"},{"grade":6,"word":"deep","phonetic":"/diːp/","meaning":"深的"},{"grade":6,"word":"weak","phonetic":"/wiːk/","meaning":"虚弱的"},{"grade":6,"word":"rich","phonetic":"/rɪtʃ/","meaning":"富有的"},{"grade":6,"word":"poor","phonetic":"/pɔː(r)/","meaning":"贫穷的"},{"grade":6,"word":"friendly","phonetic":"/ˈfrendli/","meaning":"友好的"},{"grade":6,"word":"honest","phonetic":"/ˈɒnɪst/","meaning":"诚实的"},{"grade":6,"word":"brave","phonetic":"/breɪv/","meaning":"勇敢的"},{"grade":6,"word":"careful","phonetic":"/ˈkeəfl/","meaning":"小心的"},{"grade":6,"word":"lazy","phonetic":"/ˈleɪzi/","meaning":"懒惰的"},{"grade":6,"word":"beautiful","phonetic":"/ˈbjuːtɪfl/","meaning":"美丽的"},{"grade":6,"word":"handsome","phonetic":"/ˈhænsəm/","meaning":"英俊的"},{"grade":6,"word":"cute","phonetic":"/kjuːt/","meaning":"可爱的"},{"grade":6,"word":"lovely","phonetic":"/ˈlʌvli/","meaning":"可爱的；美好的"},{"grade":6,"word":"ugly","phonetic":"/ˈʌɡli/","meaning":"丑陋的"}],"sentences":[{"en":"The cat is fat and happy.","zh":"这只猫又胖又开心。"},{"en":"I can see a green tree and red flowers.","zh":"我能看到一棵绿树和红色的花。"},{"en":"I like spring because it is warm.","zh":"我喜欢春天，因为天气温暖。"},{"en":"Turn right at the traffic lights.","zh":"在红绿灯处右转。"},{"en":"This present is for my best friend.","zh":"这份礼物是给我最好的朋友的。"},{"en":"My favourite subject is English.","zh":"我最喜欢的科目是英语。"}],"grammar":[{"category":"介词","question":"My dog is ___ the tree.","options":["under","in","on","to"],"answer":0,"explain":"在树下用 under。","question_zh":"我的狗在树下。"},{"category":"现在进行","question":"Look! The cat ___ sleeping.","options":["is","are","am","be"],"answer":0,"explain":"现在进行时 be + doing，主语 the cat 单数用 is。","question_zh":"看！猫正在睡觉。"},{"category":"特殊疑问","question":"___ is that man? He is my teacher.","options":["What","Where","Who","How"],"answer":2,"explain":"问人是谁用 Who。","question_zh":"那个男人是谁？他是我的老师。"},{"category":"代词","question":"___ is my brother.","options":["This","These","Those","They"],"answer":0,"explain":"单数近指用 This。","question_zh":"这是我的哥哥。"}]}
+{
+  "words": [
+    {
+      "grade": 6,
+      "word": "younger",
+      "phonetic": "/ˈjʌŋɡə/",
+      "meaning": "更年轻的"
+    },
+    {
+      "grade": 6,
+      "word": "older",
+      "phonetic": "/ˈəʊldə/",
+      "meaning": "更年长的"
+    },
+    {
+      "grade": 6,
+      "word": "taller",
+      "phonetic": "/ˈtɔːlə(r)/",
+      "meaning": "更高的"
+    },
+    {
+      "grade": 6,
+      "word": "shorter",
+      "phonetic": "/ʃɔːtə/",
+      "meaning": "更矮的"
+    },
+    {
+      "grade": 6,
+      "word": "longer",
+      "phonetic": "/lɒŋɡə(r)/",
+      "meaning": "更长的"
+    },
+    {
+      "grade": 6,
+      "word": "thinner",
+      "phonetic": "/ˈθɪnə(r)/",
+      "meaning": "更瘦的"
+    },
+    {
+      "grade": 6,
+      "word": "heavier",
+      "phonetic": "/ˈhevɪə(r)/",
+      "meaning": "更重的"
+    },
+    {
+      "grade": 6,
+      "word": "bigger",
+      "phonetic": "/bɪgə(r)/",
+      "meaning": "更大的"
+    },
+    {
+      "grade": 6,
+      "word": "smaller",
+      "phonetic": "/smɔːlə(r)/",
+      "meaning": "更小的"
+    },
+    {
+      "grade": 6,
+      "word": "stronger",
+      "phonetic": "/strɒŋgə(r)/",
+      "meaning": "更强壮的"
+    },
+    {
+      "grade": 6,
+      "word": "dinosaur",
+      "phonetic": "/ˈdaɪnəsɔː(r)/",
+      "meaning": "恐龙"
+    },
+    {
+      "grade": 6,
+      "word": "hall",
+      "phonetic": "/hɔːl/",
+      "meaning": "大厅"
+    },
+    {
+      "grade": 6,
+      "word": "metre",
+      "phonetic": "/ˈmiːtə(r)/",
+      "meaning": "米"
+    },
+    {
+      "grade": 6,
+      "word": "meter",
+      "phonetic": "/ˈmiːtə(r)/",
+      "meaning": "米"
+    },
+    {
+      "grade": 6,
+      "word": "than",
+      "phonetic": "/ðæn; ðən/",
+      "meaning": "比"
+    },
+    {
+      "grade": 6,
+      "word": "both",
+      "phonetic": "/bəʊθ/",
+      "meaning": "两个都"
+    },
+    {
+      "grade": 6,
+      "word": "kilogram",
+      "phonetic": "/ˈkɪləɡræm/",
+      "meaning": "千克"
+    },
+    {
+      "grade": 6,
+      "word": "countryside",
+      "phonetic": "/ˈkʌntrisaɪd/",
+      "meaning": "乡村"
+    },
+    {
+      "grade": 6,
+      "word": "lower",
+      "phonetic": "/ˈləʊə(r)/",
+      "meaning": "更低地"
+    },
+    {
+      "grade": 6,
+      "word": "shadow",
+      "phonetic": "/ˈʃædəʊ/",
+      "meaning": "影子"
+    },
+    {
+      "grade": 6,
+      "word": "smarter",
+      "phonetic": "/ˈsmɑːtə/",
+      "meaning": "更聪明的"
+    },
+    {
+      "grade": 6,
+      "word": "become",
+      "phonetic": "/bɪˈkʌm/",
+      "meaning": "变成"
+    },
+    {
+      "grade": 6,
+      "word": "cleaned",
+      "phonetic": "/kliːnd/",
+      "meaning": "打扫"
+    },
+    {
+      "grade": 6,
+      "word": "stayed",
+      "phonetic": "/steɪd/",
+      "meaning": "待"
+    },
+    {
+      "grade": 6,
+      "word": "washed",
+      "phonetic": "/wɒʃt/",
+      "meaning": "洗"
+    },
+    {
+      "grade": 6,
+      "word": "watched",
+      "phonetic": "/wɒtʃt/",
+      "meaning": "看"
+    },
+    {
+      "grade": 6,
+      "word": "had",
+      "phonetic": "/hæd; həd/",
+      "meaning": "得病（例如 had a cold 得了感冒）"
+    },
+    {
+      "grade": 6,
+      "word": "had a cold",
+      "phonetic": "/hæd; həd ə; eɪ kəʊld/",
+      "meaning": "感冒"
+    },
+    {
+      "grade": 6,
+      "word": "slept",
+      "phonetic": "/slept/",
+      "meaning": "睡觉"
+    },
+    {
+      "grade": 6,
+      "word": "read",
+      "phonetic": "/riːd/",
+      "meaning": "读"
+    },
+    {
+      "grade": 6,
+      "word": "saw",
+      "phonetic": "/sɔː/",
+      "meaning": "看"
+    },
+    {
+      "grade": 6,
+      "word": "last",
+      "phonetic": "/lɑːst/",
+      "meaning": "最近"
+    },
+    {
+      "grade": 6,
+      "word": "yesterday",
+      "phonetic": "/ˈjestədeɪ/",
+      "meaning": "昨天"
+    },
+    {
+      "grade": 6,
+      "word": "before",
+      "phonetic": "/bɪˈfɔː(r)/",
+      "meaning": "在⋯⋯之前"
+    },
+    {
+      "grade": 6,
+      "word": "drank",
+      "phonetic": "/dræŋk/",
+      "meaning": "喝"
+    },
+    {
+      "grade": 6,
+      "word": "show",
+      "phonetic": "/ʃəʊ/",
+      "meaning": "演出"
+    },
+    {
+      "grade": 6,
+      "word": "magazine",
+      "phonetic": "/ˌmæɡəˈziːn/",
+      "meaning": "杂志"
+    },
+    {
+      "grade": 6,
+      "word": "better",
+      "phonetic": "/ˈbetə(r)/",
+      "meaning": "更好的"
+    },
+    {
+      "grade": 6,
+      "word": "faster",
+      "phonetic": "/fɑːstə(r)/",
+      "meaning": "更快的"
+    },
+    {
+      "grade": 6,
+      "word": "hotel",
+      "phonetic": "/həʊˈtel/",
+      "meaning": "旅馆"
+    },
+    {
+      "grade": 6,
+      "word": "fixed",
+      "phonetic": "/fɪkst/",
+      "meaning": "修理"
+    },
+    {
+      "grade": 6,
+      "word": "broken",
+      "phonetic": "/ˈbrəʊkən/",
+      "meaning": "破损的"
+    },
+    {
+      "grade": 6,
+      "word": "lamp",
+      "phonetic": "/læmp/",
+      "meaning": "台灯"
+    },
+    {
+      "grade": 6,
+      "word": "loud",
+      "phonetic": "/laʊd/",
+      "meaning": "大声的"
+    },
+    {
+      "grade": 6,
+      "word": "enjoy",
+      "phonetic": "/ɪnˈdʒɔɪ/",
+      "meaning": "享受⋯⋯的乐趣"
+    },
+    {
+      "grade": 6,
+      "word": "stay",
+      "phonetic": "/steɪ/",
+      "meaning": "暂住"
+    },
+    {
+      "grade": 6,
+      "word": "went",
+      "phonetic": "/went/",
+      "meaning": "去"
+    },
+    {
+      "grade": 6,
+      "word": "camp",
+      "phonetic": "/kæmp/",
+      "meaning": "野营"
+    },
+    {
+      "grade": 6,
+      "word": "went camping",
+      "phonetic": "/went ˈkæmpɪŋ/",
+      "meaning": "去野营"
+    },
+    {
+      "grade": 6,
+      "word": "fish",
+      "phonetic": "/fɪʃ/",
+      "meaning": "钓鱼"
+    },
+    {
+      "grade": 6,
+      "word": "went fishing",
+      "phonetic": "/ɡəʊ ˈfɪʃɪŋ/",
+      "meaning": "去钓鱼"
+    },
+    {
+      "grade": 6,
+      "word": "rode",
+      "phonetic": "/rəʊd/",
+      "meaning": "骑"
+    },
+    {
+      "grade": 6,
+      "word": "hurt",
+      "phonetic": "/hɜːt/",
+      "meaning": "受伤"
+    },
+    {
+      "grade": 6,
+      "word": "ate",
+      "phonetic": "/et; eɪt/",
+      "meaning": "吃"
+    },
+    {
+      "grade": 6,
+      "word": "took",
+      "phonetic": "/tʊk/",
+      "meaning": "拍照"
+    },
+    {
+      "grade": 6,
+      "word": "took pictures",
+      "phonetic": "/tʊk ˈpɪktʃəz/",
+      "meaning": "照相"
+    },
+    {
+      "grade": 6,
+      "word": "bought",
+      "phonetic": "/bɔːt/",
+      "meaning": "买"
+    },
+    {
+      "grade": 6,
+      "word": "gift",
+      "phonetic": "/ɡɪft/",
+      "meaning": "礼物"
+    },
+    {
+      "grade": 6,
+      "word": "fell",
+      "phonetic": "/fel/",
+      "meaning": "摔倒"
+    },
+    {
+      "grade": 6,
+      "word": "off",
+      "phonetic": "/ɒf/",
+      "meaning": "落下"
+    },
+    {
+      "grade": 6,
+      "word": "Labour Day",
+      "phonetic": "/ˈleɪbə(r) deɪ/",
+      "meaning": "劳动节"
+    },
+    {
+      "grade": 6,
+      "word": "mule",
+      "phonetic": "/mjuːl/",
+      "meaning": "骡子"
+    },
+    {
+      "grade": 6,
+      "word": "Turpan",
+      "phonetic": "",
+      "meaning": "吐鲁番"
+    },
+    {
+      "grade": 6,
+      "word": "could",
+      "phonetic": "/kʊd; kəd/",
+      "meaning": "能"
+    },
+    {
+      "grade": 6,
+      "word": "till",
+      "phonetic": "/tɪl/",
+      "meaning": "直到"
+    },
+    {
+      "grade": 6,
+      "word": "beach",
+      "phonetic": "/biːtʃ/",
+      "meaning": "沙滩"
+    },
+    {
+      "grade": 6,
+      "word": "basket",
+      "phonetic": "/ˈbɑːskɪt/",
+      "meaning": "篮子"
+    },
+    {
+      "grade": 6,
+      "word": "part",
+      "phonetic": "/pɑːt/",
+      "meaning": "角色"
+    },
+    {
+      "grade": 6,
+      "word": "licked",
+      "phonetic": "/lɪkt/",
+      "meaning": "舔"
+    },
+    {
+      "grade": 6,
+      "word": "laughed",
+      "phonetic": "/lɑːft/",
+      "meaning": "笑"
+    },
+    {
+      "grade": 6,
+      "word": "dining hall",
+      "phonetic": "/ˈdaɪnɪŋ hɔːl/",
+      "meaning": "饭厅"
+    },
+    {
+      "grade": 6,
+      "word": "grass",
+      "phonetic": "/ɡrɑːs/",
+      "meaning": "草坪"
+    },
+    {
+      "grade": 6,
+      "word": "gym",
+      "phonetic": "/dʒɪm/",
+      "meaning": "体育馆"
+    },
+    {
+      "grade": 6,
+      "word": "ago",
+      "phonetic": "/əˈɡəʊ/",
+      "meaning": "以前"
+    },
+    {
+      "grade": 6,
+      "word": "cycling",
+      "phonetic": "/ˈsaɪklɪŋ/",
+      "meaning": "骑自行车运动"
+    },
+    {
+      "grade": 6,
+      "word": "go cycling",
+      "phonetic": "/ɡəʊ ˈsaɪklɪŋ/",
+      "meaning": "去骑自行车"
+    },
+    {
+      "grade": 6,
+      "word": "ice-skate",
+      "phonetic": "/ˈaɪs skeɪt/",
+      "meaning": "滑冰"
+    },
+    {
+      "grade": 6,
+      "word": "badminton",
+      "phonetic": "/ˈbædmɪntən/",
+      "meaning": "羽毛球运动"
+    },
+    {
+      "grade": 6,
+      "word": "star",
+      "phonetic": "/stɑː(r)/",
+      "meaning": "星"
+    },
+    {
+      "grade": 6,
+      "word": "easy",
+      "phonetic": "/ˈiːzi/",
+      "meaning": "容易的"
+    },
+    {
+      "grade": 6,
+      "word": "look up",
+      "phonetic": "/lʊk ʌp/",
+      "meaning": "查阅"
+    },
+    {
+      "grade": 6,
+      "word": "Internet",
+      "phonetic": "/ˈɪntənet/",
+      "meaning": "互联网"
+    },
+    {
+      "grade": 6,
+      "word": "different",
+      "phonetic": "/ˈdɪfrənt/",
+      "meaning": "不同的"
+    },
+    {
+      "grade": 6,
+      "word": "active",
+      "phonetic": "/ˈæktɪv/",
+      "meaning": "活跃的"
+    },
+    {
+      "grade": 6,
+      "word": "race",
+      "phonetic": "/reɪs/",
+      "meaning": "赛跑"
+    },
+    {
+      "grade": 6,
+      "word": "nothing",
+      "phonetic": "/ˈnʌθɪŋ/",
+      "meaning": "没有什么"
+    },
+    {
+      "grade": 6,
+      "word": "thought",
+      "phonetic": "/θɔːt/",
+      "meaning": "想"
+    },
+    {
+      "grade": 6,
+      "word": "felt",
+      "phonetic": "/felt/",
+      "meaning": "感觉"
+    },
+    {
+      "grade": 6,
+      "word": "cheetah",
+      "phonetic": "/ˈtʃiːtə/",
+      "meaning": "猎豹"
+    },
+    {
+      "grade": 6,
+      "word": "trip",
+      "phonetic": "/trɪp/",
+      "meaning": "绊倒"
+    },
+    {
+      "grade": 6,
+      "word": "woke",
+      "phonetic": "/wəʊk/",
+      "meaning": "醒"
+    },
+    {
+      "grade": 6,
+      "word": "dream",
+      "phonetic": "/driːm/",
+      "meaning": "梦"
+    },
+    {
+      "grade": 6,
+      "word": "straight",
+      "phonetic": "/streɪt/",
+      "meaning": "笔直的"
+    },
+    {
+      "grade": 6,
+      "word": "right",
+      "phonetic": "/raɪt/",
+      "meaning": "右"
+    },
+    {
+      "grade": 6,
+      "word": "ask",
+      "phonetic": "/ɑːsk/",
+      "meaning": "问"
+    },
+    {
+      "grade": 6,
+      "word": "sir",
+      "phonetic": "/sɜː(r)/",
+      "meaning": "先生"
+    },
+    {
+      "grade": 6,
+      "word": "interesting",
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "meaning": "有趣的"
+    },
+    {
+      "grade": 6,
+      "word": "Italian",
+      "phonetic": "/ɪˈtæliən/",
+      "meaning": "意大利的"
+    },
+    {
+      "grade": 6,
+      "word": "restaurant",
+      "phonetic": "/ˈrestrɒnt/",
+      "meaning": "餐馆"
+    },
+    {
+      "grade": 6,
+      "word": "pizza",
+      "phonetic": "/ˈpiːtsə/",
+      "meaning": "比萨饼"
+    },
+    {
+      "grade": 6,
+      "word": "street",
+      "phonetic": "/striːt/",
+      "meaning": "大街"
+    },
+    {
+      "grade": 6,
+      "word": "get",
+      "phonetic": "/ɡet/",
+      "meaning": "到达"
+    },
+    {
+      "grade": 6,
+      "word": "GPS",
+      "phonetic": "/ˌdʒiː piː ˈes/",
+      "meaning": "全球（卫星）"
+    },
+    {
+      "grade": 6,
+      "word": "gave",
+      "phonetic": "/ɡeɪv/",
+      "meaning": "提供"
+    },
+    {
+      "grade": 6,
+      "word": "feature",
+      "phonetic": "/ˈfiːtʃə(r)/",
+      "meaning": "特点"
+    },
+    {
+      "grade": 6,
+      "word": "follow",
+      "phonetic": "/ˈfɒləʊ/",
+      "meaning": "跟着"
+    },
+    {
+      "grade": 6,
+      "word": "far",
+      "phonetic": "/fɑː(r)/",
+      "meaning": "较远的"
+    },
+    {
+      "grade": 6,
+      "word": "tell",
+      "phonetic": "/tel/",
+      "meaning": "告诉"
+    }
+  ],
+  "sentences": [
+    {
+      "en": "My brother is younger than me.",
+      "zh": "我弟弟比我小。"
+    },
+    {
+      "en": "My sister is older than me.",
+      "zh": "我姐姐比​​我大。"
+    },
+    {
+      "en": "My brother is taller than me.",
+      "zh": "我哥哥比我高。"
+    },
+    {
+      "en": "This pencil is shorter than that one.",
+      "zh": "这支铅笔比那支短。"
+    },
+    {
+      "en": "This river is longer than that one.",
+      "zh": "这条河比那条河长。"
+    },
+    {
+      "en": "My ruler is thinner than yours.",
+      "zh": "我的尺子比你的细。"
+    },
+    {
+      "en": "This bag is heavier than that one.",
+      "zh": "这个包比那个重。"
+    },
+    {
+      "en": "This box is bigger than that one.",
+      "zh": "这个盒子比那个大。"
+    },
+    {
+      "en": "This room is smaller than ours.",
+      "zh": "这个房间比我们的小。"
+    },
+    {
+      "en": "The new bridge is stronger.",
+      "zh": "新桥更加坚固。"
+    },
+    {
+      "en": "I saw a dinosaur at the zoo.",
+      "zh": "我在动物园看到了一只恐龙。"
+    },
+    {
+      "en": "There is a hall in the picture.",
+      "zh": "图中有一个大厅。"
+    },
+    {
+      "en": "The tree is five metres tall.",
+      "zh": "这棵树有五米高。"
+    },
+    {
+      "en": "The tree is five meters tall.",
+      "zh": "这棵树有五米高。"
+    },
+    {
+      "en": "Both answers are correct.",
+      "zh": "两个答案都是正确的。"
+    },
+    {
+      "en": "There is a kilogram in the picture.",
+      "zh": "图中有一公斤。"
+    },
+    {
+      "en": "There is a countryside in the picture.",
+      "zh": "画里有一个乡村。"
+    },
+    {
+      "en": "She answered lower during the discussion.",
+      "zh": "在讨论中她的回答较低。"
+    },
+    {
+      "en": "There is a shadow in the picture.",
+      "zh": "图片中有一个阴影。"
+    },
+    {
+      "en": "The student is smarter.",
+      "zh": "学生比较聪明。"
+    }
+  ],
+  "grammar": [
+    {
+      "category": "介词",
+      "question": "My dog is ___ the tree.",
+      "options": [
+        "under",
+        "in",
+        "on",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "在树下用 under。",
+      "question_zh": "我的狗在树下。"
+    },
+    {
+      "category": "现在进行",
+      "question": "Look! The cat ___ sleeping.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer": 0,
+      "explain": "现在进行时 be + doing，主语 the cat 单数用 is。",
+      "question_zh": "看！猫正在睡觉。"
+    },
+    {
+      "category": "特殊疑问",
+      "question": "___ is that man? He is my teacher.",
+      "options": [
+        "What",
+        "Where",
+        "Who",
+        "How"
+      ],
+      "answer": 2,
+      "explain": "问人是谁用 Who。",
+      "question_zh": "那个男人是谁？他是我的老师。"
+    },
+    {
+      "category": "代词",
+      "question": "___ is my brother.",
+      "options": [
+        "This",
+        "These",
+        "Those",
+        "They"
+      ],
+      "answer": 0,
+      "explain": "单数近指用 This。",
+      "question_zh": "这是我的哥哥。"
+    }
+  ]
+}
