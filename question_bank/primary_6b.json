@@ -4,649 +4,645 @@
       "grade": 6,
       "word": "younger",
       "phonetic": "/ˈjʌŋɡə/",
-      "meaning": "更年轻的"
+      "meaning": "更年轻的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "older",
-      "phonetic": "/ˈəʊldə/",
-      "meaning": "更年长的"
+      "phonetic": "/ˈəʊldər/",
+      "meaning": "更年长的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "taller",
-      "phonetic": "/ˈtɔːlə(r)/",
-      "meaning": "更高的"
+      "phonetic": "/tɔ:lə/",
+      "meaning": "更高的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "shorter",
-      "phonetic": "/ʃɔːtə/",
-      "meaning": "更矮的"
+      "phonetic": "/ˈʃɔ:tə/",
+      "meaning": "更矮的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "longer",
-      "phonetic": "/lɒŋɡə(r)/",
-      "meaning": "更长的"
+      "phonetic": "/ˈlɒŋɡə/",
+      "meaning": "更长的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "thinner",
-      "phonetic": "/ˈθɪnə(r)/",
-      "meaning": "更瘦的"
+      "phonetic": "/ˈθɪnə/",
+      "meaning": "更瘦的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "heavier",
-      "phonetic": "/ˈhevɪə(r)/",
-      "meaning": "更重的"
+      "phonetic": "/ˈhevɪə/",
+      "meaning": "更重的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "bigger",
-      "phonetic": "/bɪgə(r)/",
-      "meaning": "更大的"
+      "phonetic": "/bɪgə/",
+      "meaning": "更大的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "smaller",
-      "phonetic": "/smɔːlə(r)/",
-      "meaning": "更小的"
+      "phonetic": "/sˈmɔ:lər/",
+      "meaning": "更小的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "stronger",
-      "phonetic": "/strɒŋgə(r)/",
-      "meaning": "更强壮的"
+      "phonetic": "/strɒŋɡə/",
+      "meaning": "更强壮的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "dinosaur",
-      "phonetic": "/ˈdaɪnəsɔː(r)/",
-      "meaning": "恐龙"
+      "phonetic": "/ˈdaɪnəsɔ:/",
+      "meaning": "恐龙",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "hall",
-      "phonetic": "/hɔːl/",
-      "meaning": "大厅"
+      "phonetic": "/hɔ:l/",
+      "meaning": "大厅",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "metre",
-      "phonetic": "/ˈmiːtə(r)/",
-      "meaning": "米"
+      "phonetic": "/ˈmi:tə/",
+      "meaning": "米",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "meter",
-      "phonetic": "/ˈmiːtə(r)/",
-      "meaning": "米"
+      "phonetic": "/ˈmi:tə/",
+      "meaning": "米",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "than",
-      "phonetic": "/ðæn; ðən/",
-      "meaning": "比"
+      "phonetic": "/ðæn/",
+      "meaning": "比",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "both",
       "phonetic": "/bəʊθ/",
-      "meaning": "两个都"
+      "meaning": "两个都",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "kilogram",
       "phonetic": "/ˈkɪləɡræm/",
-      "meaning": "千克"
+      "meaning": "千克",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "countryside",
-      "phonetic": "/ˈkʌntrisaɪd/",
-      "meaning": "乡村"
+      "phonetic": "/ˈkʌntrɪsaɪd/",
+      "meaning": "乡村",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "lower",
-      "phonetic": "/ˈləʊə(r)/",
-      "meaning": "更低地"
+      "phonetic": "/ˈləʊə/",
+      "meaning": "更低地",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "shadow",
       "phonetic": "/ˈʃædəʊ/",
-      "meaning": "影子"
+      "meaning": "影子",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "smarter",
-      "phonetic": "/ˈsmɑːtə/",
-      "meaning": "更聪明的"
+      "phonetic": "/sˈmɑ:tə/",
+      "meaning": "更聪明的",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "become",
       "phonetic": "/bɪˈkʌm/",
-      "meaning": "变成"
+      "meaning": "变成",
+      "unit": "Unit 1"
     },
     {
       "grade": 6,
       "word": "cleaned",
-      "phonetic": "/kliːnd/",
-      "meaning": "打扫"
+      "phonetic": "/kli:nd/",
+      "meaning": "打扫",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "stayed",
       "phonetic": "/steɪd/",
-      "meaning": "待"
+      "meaning": "待",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "washed",
       "phonetic": "/wɒʃt/",
-      "meaning": "洗"
+      "meaning": "洗",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "watched",
       "phonetic": "/wɒtʃt/",
-      "meaning": "看"
+      "meaning": "看",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "had",
-      "phonetic": "/hæd; həd/",
-      "meaning": "得病（例如 had a cold 得了感冒）"
+      "phonetic": "/hæd/",
+      "meaning": "得病（例如 had a cold 得了感冒）",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "had a cold",
-      "phonetic": "/hæd; həd ə; eɪ kəʊld/",
-      "meaning": "感冒"
+      "phonetic": "/hæd ə kəʊld/",
+      "meaning": "感冒",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "slept",
       "phonetic": "/slept/",
-      "meaning": "睡觉"
+      "meaning": "睡觉",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "read",
-      "phonetic": "/riːd/",
-      "meaning": "读"
+      "phonetic": "/ri:d/",
+      "meaning": "读",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "saw",
-      "phonetic": "/sɔː/",
-      "meaning": "看"
+      "phonetic": "/sɔ:/",
+      "meaning": "看",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "last",
-      "phonetic": "/lɑːst/",
-      "meaning": "最近"
+      "phonetic": "/lɑ:st/",
+      "meaning": "最近",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "yesterday",
       "phonetic": "/ˈjestədeɪ/",
-      "meaning": "昨天"
+      "meaning": "昨天",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "before",
-      "phonetic": "/bɪˈfɔː(r)/",
-      "meaning": "在⋯⋯之前"
+      "phonetic": "/bɪˈfɔ:/",
+      "meaning": "在⋯⋯之前",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "drank",
       "phonetic": "/dræŋk/",
-      "meaning": "喝"
+      "meaning": "喝",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "show",
       "phonetic": "/ʃəʊ/",
-      "meaning": "演出"
+      "meaning": "演出",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "magazine",
-      "phonetic": "/ˌmæɡəˈziːn/",
-      "meaning": "杂志"
+      "phonetic": "/ˌmæɡəˈzi:n/",
+      "meaning": "杂志",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "better",
-      "phonetic": "/ˈbetə(r)/",
-      "meaning": "更好的"
+      "phonetic": "/ˈbetə/",
+      "meaning": "更好的",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "faster",
-      "phonetic": "/fɑːstə(r)/",
-      "meaning": "更快的"
+      "phonetic": "/ˈfa:stə/",
+      "meaning": "更快的",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "hotel",
       "phonetic": "/həʊˈtel/",
-      "meaning": "旅馆"
+      "meaning": "旅馆",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "fixed",
       "phonetic": "/fɪkst/",
-      "meaning": "修理"
+      "meaning": "修理",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "broken",
       "phonetic": "/ˈbrəʊkən/",
-      "meaning": "破损的"
+      "meaning": "破损的",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "lamp",
       "phonetic": "/læmp/",
-      "meaning": "台灯"
+      "meaning": "台灯",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "loud",
       "phonetic": "/laʊd/",
-      "meaning": "大声的"
+      "meaning": "大声的",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "enjoy",
       "phonetic": "/ɪnˈdʒɔɪ/",
-      "meaning": "享受⋯⋯的乐趣"
+      "meaning": "享受⋯⋯的乐趣",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "stay",
       "phonetic": "/steɪ/",
-      "meaning": "暂住"
+      "meaning": "暂住",
+      "unit": "Unit 2"
     },
     {
       "grade": 6,
       "word": "went",
       "phonetic": "/went/",
-      "meaning": "去"
+      "meaning": "去",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "camp",
       "phonetic": "/kæmp/",
-      "meaning": "野营"
+      "meaning": "野营",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "went camping",
       "phonetic": "/went ˈkæmpɪŋ/",
-      "meaning": "去野营"
+      "meaning": "去野营",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "fish",
       "phonetic": "/fɪʃ/",
-      "meaning": "钓鱼"
+      "meaning": "钓鱼",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "went fishing",
-      "phonetic": "/ɡəʊ ˈfɪʃɪŋ/",
-      "meaning": "去钓鱼"
+      "phonetic": "/went ˈfɪʃɪŋ/",
+      "meaning": "去钓鱼",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "rode",
       "phonetic": "/rəʊd/",
-      "meaning": "骑"
+      "meaning": "骑",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "hurt",
-      "phonetic": "/hɜːt/",
-      "meaning": "受伤"
+      "phonetic": "/hɜ:t/",
+      "meaning": "受伤",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "ate",
-      "phonetic": "/et; eɪt/",
-      "meaning": "吃"
+      "phonetic": "/et/",
+      "meaning": "吃",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "took",
       "phonetic": "/tʊk/",
-      "meaning": "拍照"
+      "meaning": "拍照",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "took pictures",
-      "phonetic": "/tʊk ˈpɪktʃəz/",
-      "meaning": "照相"
+      "phonetic": "/tuk ˈpɪktʃəz/",
+      "meaning": "照相",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "bought",
-      "phonetic": "/bɔːt/",
-      "meaning": "买"
+      "phonetic": "/bɔ:t/",
+      "meaning": "买",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "gift",
       "phonetic": "/ɡɪft/",
-      "meaning": "礼物"
+      "meaning": "礼物",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "fell",
       "phonetic": "/fel/",
-      "meaning": "摔倒"
+      "meaning": "摔倒",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "off",
       "phonetic": "/ɒf/",
-      "meaning": "落下"
+      "meaning": "落下",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "Labour Day",
-      "phonetic": "/ˈleɪbə(r) deɪ/",
-      "meaning": "劳动节"
+      "phonetic": "/ˈleɪbə deɪ/",
+      "meaning": "劳动节",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "mule",
-      "phonetic": "/mjuːl/",
-      "meaning": "骡子"
+      "phonetic": "/mju:l/",
+      "meaning": "骡子",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "Turpan",
-      "phonetic": "",
-      "meaning": "吐鲁番"
+      "phonetic": "/ˈtʊəˈpæn/",
+      "meaning": "吐鲁番",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "could",
-      "phonetic": "/kʊd; kəd/",
-      "meaning": "能"
+      "phonetic": "/kʊd/",
+      "meaning": "能",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "till",
       "phonetic": "/tɪl/",
-      "meaning": "直到"
+      "meaning": "直到",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "beach",
-      "phonetic": "/biːtʃ/",
-      "meaning": "沙滩"
+      "phonetic": "/bi:tʃ/",
+      "meaning": "沙滩",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "basket",
-      "phonetic": "/ˈbɑːskɪt/",
-      "meaning": "篮子"
+      "phonetic": "/bɑ:skɪt/",
+      "meaning": "篮子",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "part",
-      "phonetic": "/pɑːt/",
-      "meaning": "角色"
+      "phonetic": "/pɑ:t/",
+      "meaning": "角色",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "licked",
       "phonetic": "/lɪkt/",
-      "meaning": "舔"
+      "meaning": "舔",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "laughed",
-      "phonetic": "/lɑːft/",
-      "meaning": "笑"
+      "phonetic": "/ˈlɑ:ft/",
+      "meaning": "笑",
+      "unit": "Unit 3"
     },
     {
       "grade": 6,
       "word": "dining hall",
-      "phonetic": "/ˈdaɪnɪŋ hɔːl/",
-      "meaning": "饭厅"
+      "phonetic": "/ˈdaɪnɪŋ hɔ:l/",
+      "meaning": "饭厅",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "grass",
-      "phonetic": "/ɡrɑːs/",
-      "meaning": "草坪"
+      "phonetic": "/ɡrɑ:s/",
+      "meaning": "草坪",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "gym",
       "phonetic": "/dʒɪm/",
-      "meaning": "体育馆"
+      "meaning": "体育馆",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "ago",
       "phonetic": "/əˈɡəʊ/",
-      "meaning": "以前"
+      "meaning": "以前",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "cycling",
       "phonetic": "/ˈsaɪklɪŋ/",
-      "meaning": "骑自行车运动"
+      "meaning": "骑自行车运动",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "go cycling",
-      "phonetic": "/ɡəʊ ˈsaɪklɪŋ/",
-      "meaning": "去骑自行车"
+      "phonetic": "/gəʊ ˈsaɪklɪŋ/",
+      "meaning": "去骑自行车",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "ice-skate",
-      "phonetic": "/ˈaɪs skeɪt/",
-      "meaning": "滑冰"
+      "phonetic": "/aɪs skeɪt/",
+      "meaning": "滑冰",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "badminton",
       "phonetic": "/ˈbædmɪntən/",
-      "meaning": "羽毛球运动"
+      "meaning": "羽毛球运动",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "star",
-      "phonetic": "/stɑː(r)/",
-      "meaning": "星"
+      "phonetic": "/stɑ:/",
+      "meaning": "星",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "easy",
-      "phonetic": "/ˈiːzi/",
-      "meaning": "容易的"
+      "phonetic": "/ˈi:zɪ/",
+      "meaning": "容易的",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "look up",
       "phonetic": "/lʊk ʌp/",
-      "meaning": "查阅"
+      "meaning": "查阅",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "Internet",
       "phonetic": "/ˈɪntənet/",
-      "meaning": "互联网"
+      "meaning": "互联网",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "different",
       "phonetic": "/ˈdɪfrənt/",
-      "meaning": "不同的"
+      "meaning": "不同的",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "active",
       "phonetic": "/ˈæktɪv/",
-      "meaning": "活跃的"
+      "meaning": "活跃的",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "race",
       "phonetic": "/reɪs/",
-      "meaning": "赛跑"
+      "meaning": "赛跑",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "nothing",
       "phonetic": "/ˈnʌθɪŋ/",
-      "meaning": "没有什么"
+      "meaning": "没有什么",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "thought",
-      "phonetic": "/θɔːt/",
-      "meaning": "想"
+      "phonetic": "/θɔ:t/",
+      "meaning": "想",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "felt",
       "phonetic": "/felt/",
-      "meaning": "感觉"
+      "meaning": "感觉",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "cheetah",
-      "phonetic": "/ˈtʃiːtə/",
-      "meaning": "猎豹"
+      "phonetic": "/ˈtʃi:tə/",
+      "meaning": "猎豹",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "trip",
       "phonetic": "/trɪp/",
-      "meaning": "绊倒"
+      "meaning": "绊倒",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "woke",
       "phonetic": "/wəʊk/",
-      "meaning": "醒"
+      "meaning": "醒",
+      "unit": "Unit 4"
     },
     {
       "grade": 6,
       "word": "dream",
-      "phonetic": "/driːm/",
-      "meaning": "梦"
-    },
-    {
-      "grade": 6,
-      "word": "straight",
-      "phonetic": "/streɪt/",
-      "meaning": "笔直的"
-    },
-    {
-      "grade": 6,
-      "word": "right",
-      "phonetic": "/raɪt/",
-      "meaning": "右"
-    },
-    {
-      "grade": 6,
-      "word": "ask",
-      "phonetic": "/ɑːsk/",
-      "meaning": "问"
-    },
-    {
-      "grade": 6,
-      "word": "sir",
-      "phonetic": "/sɜː(r)/",
-      "meaning": "先生"
-    },
-    {
-      "grade": 6,
-      "word": "interesting",
-      "phonetic": "/ˈɪntrəstɪŋ/",
-      "meaning": "有趣的"
-    },
-    {
-      "grade": 6,
-      "word": "Italian",
-      "phonetic": "/ɪˈtæliən/",
-      "meaning": "意大利的"
-    },
-    {
-      "grade": 6,
-      "word": "restaurant",
-      "phonetic": "/ˈrestrɒnt/",
-      "meaning": "餐馆"
-    },
-    {
-      "grade": 6,
-      "word": "pizza",
-      "phonetic": "/ˈpiːtsə/",
-      "meaning": "比萨饼"
-    },
-    {
-      "grade": 6,
-      "word": "street",
-      "phonetic": "/striːt/",
-      "meaning": "大街"
-    },
-    {
-      "grade": 6,
-      "word": "get",
-      "phonetic": "/ɡet/",
-      "meaning": "到达"
-    },
-    {
-      "grade": 6,
-      "word": "GPS",
-      "phonetic": "/ˌdʒiː piː ˈes/",
-      "meaning": "全球（卫星）"
-    },
-    {
-      "grade": 6,
-      "word": "gave",
-      "phonetic": "/ɡeɪv/",
-      "meaning": "提供"
-    },
-    {
-      "grade": 6,
-      "word": "feature",
-      "phonetic": "/ˈfiːtʃə(r)/",
-      "meaning": "特点"
-    },
-    {
-      "grade": 6,
-      "word": "follow",
-      "phonetic": "/ˈfɒləʊ/",
-      "meaning": "跟着"
-    },
-    {
-      "grade": 6,
-      "word": "far",
-      "phonetic": "/fɑː(r)/",
-      "meaning": "较远的"
-    },
-    {
-      "grade": 6,
-      "word": "tell",
-      "phonetic": "/tel/",
-      "meaning": "告诉"
+      "phonetic": "/dri:m/",
+      "meaning": "梦",
+      "unit": "Unit 4"
     }
   ],
   "sentences": [

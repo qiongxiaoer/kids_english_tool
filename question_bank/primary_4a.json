@@ -3,506 +3,590 @@
     {
       "grade": 4,
       "word": "classroom",
-      "phonetic": "/ˈklɑːsruːm/",
-      "meaning": "教室"
+      "phonetic": "/ˈklɑ:sru:m/",
+      "meaning": "教室",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "window",
       "phonetic": "/ˈwɪndəʊ/",
-      "meaning": "窗户"
+      "meaning": "窗户",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "blackboard",
-      "phonetic": "/ˈblækbɔːd/",
-      "meaning": "黑板"
+      "phonetic": "/ˈblækbɔ:d/",
+      "meaning": "黑板",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "light",
       "phonetic": "/laɪt/",
-      "meaning": "电灯"
+      "meaning": "电灯",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "picture",
-      "phonetic": "/ˈpɪktʃə(r)/",
-      "meaning": "图画"
+      "phonetic": "/ˈpɪktʃə/",
+      "meaning": "图画",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "door",
-      "phonetic": "/dɔː(r)/",
-      "meaning": "门"
+      "phonetic": "/dɔ:/",
+      "meaning": "门",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "teacher's desk",
-      "phonetic": "/ˈtiːtʃəz desk/",
-      "meaning": "讲台"
+      "phonetic": "/ˈti:tʃəz desk/",
+      "meaning": "讲台",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "computer",
-      "phonetic": "/kəmˈpjuːtə(r)/",
-      "meaning": "计算机"
+      "phonetic": "/kəmˈpju:tə/",
+      "meaning": "计算机",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "fan",
       "phonetic": "/fæn/",
-      "meaning": "风扇"
+      "meaning": "风扇",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "wall",
-      "phonetic": "/wɔːl/",
-      "meaning": "墙壁"
+      "phonetic": "/wɔ:l/",
+      "meaning": "墙壁",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "floor",
-      "phonetic": "/flɔː(r)/",
-      "meaning": "地板"
+      "phonetic": "/flɔ:/",
+      "meaning": "地板",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "really",
-      "phonetic": "/ˈriːəli/",
-      "meaning": "真的"
+      "phonetic": "/ˈrɪəlɪ/",
+      "meaning": "真的",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "near",
-      "phonetic": "/nɪə(r)/",
-      "meaning": "距离近"
+      "phonetic": "/nɪə/",
+      "meaning": "距离近",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "TV",
-      "phonetic": "/ˌtiː ˈviː/",
-      "meaning": "电视"
+      "phonetic": "/ˌti:ˈvi:/",
+      "meaning": "电视",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "clean",
-      "phonetic": "/kliːn/",
-      "meaning": "打扫"
+      "phonetic": "/kli:n/",
+      "meaning": "打扫",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "help",
       "phonetic": "/help/",
-      "meaning": "帮助"
+      "meaning": "帮助",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "schoolbag",
-      "phonetic": "/ˈskuːlbæɡ/",
-      "meaning": "书包"
+      "phonetic": "/ˈsku:lbæɡ/",
+      "meaning": "书包",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "maths book",
-      "phonetic": "/mæθs bʊk/",
-      "meaning": "数学书"
+      "phonetic": "/mæθs buk/",
+      "meaning": "数学书",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "English book",
-      "phonetic": "/ˈɪŋɡlɪʃ bʊk/",
-      "meaning": "英语书"
+      "phonetic": "/ˈɪŋglɪʃ buk/",
+      "meaning": "英语书",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "Chinese book",
-      "phonetic": "/ˌtʃaɪˈniːz bʊk/",
-      "meaning": "语文书"
+      "phonetic": "/tʃaɪˈni:z buk/",
+      "meaning": "语文书",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "storybook",
-      "phonetic": "/ˈstɔːribʊk/",
-      "meaning": "故事书"
+      "phonetic": "/ˈstɔ:rɪbuk/",
+      "meaning": "故事书",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "candy",
-      "phonetic": "/ˈkændi/",
-      "meaning": "糖果"
+      "phonetic": "/ˈkændɪ/",
+      "meaning": "糖果",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "notebook",
-      "phonetic": "/ˈnəʊtbʊk/",
-      "meaning": "笔记本"
+      "phonetic": "/ˈnəʊtbuk/",
+      "meaning": "笔记本",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "toy",
-      "phonetic": "/tɔɪ/",
-      "meaning": "玩具"
+      "phonetic": "/tɒɪ/",
+      "meaning": "玩具",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "key",
-      "phonetic": "/kiː/",
-      "meaning": "钥匙"
+      "phonetic": "/ki:/",
+      "meaning": "钥匙",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "wow",
       "phonetic": "/waʊ/",
-      "meaning": "呀"
+      "meaning": "呀",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "lost",
       "phonetic": "/lɒst/",
-      "meaning": "丢失"
+      "meaning": "丢失",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "so much",
       "phonetic": "/səʊ mʌtʃ/",
-      "meaning": "非常地"
+      "meaning": "非常地",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "cute",
-      "phonetic": "/kjuːt/",
-      "meaning": "可爱的"
+      "phonetic": "/kju:t/",
+      "meaning": "可爱的",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "strong",
       "phonetic": "/strɒŋ/",
-      "meaning": "强壮的"
+      "meaning": "强壮的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "friendly",
-      "phonetic": "/ˈfrendli/",
-      "meaning": "友好的"
+      "phonetic": "/ˈfrendlɪ/",
+      "meaning": "友好的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "quiet",
       "phonetic": "/ˈkwaɪət/",
-      "meaning": "安静的"
+      "meaning": "安静的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "hair",
-      "phonetic": "/heə(r)/",
-      "meaning": "头发"
+      "phonetic": "/heə/",
+      "meaning": "头发",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "shoe",
-      "phonetic": "/ʃuː/",
-      "meaning": "鞋"
+      "phonetic": "/ʃu:/",
+      "meaning": "鞋",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "glasses",
-      "phonetic": "/ˈɡlɑːsɪz/",
-      "meaning": "眼镜"
+      "phonetic": "/ˈglɑ:sɪz/",
+      "meaning": "眼镜",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "his",
-      "phonetic": "/hɪz; ɪz/",
-      "meaning": "他的"
+      "phonetic": "/hɪz/",
+      "meaning": "他的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "or",
-      "phonetic": "/ɔː(r)/",
-      "meaning": "或者"
+      "phonetic": "/ɔ:/",
+      "meaning": "或者",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "right",
       "phonetic": "/raɪt/",
-      "meaning": "对的"
+      "meaning": "对的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "hat",
       "phonetic": "/hæt/",
-      "meaning": "帽子"
+      "meaning": "帽子",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "her",
-      "phonetic": "/hɜː(r); hə(r)/",
-      "meaning": "她的"
+      "phonetic": "/hɜ:/",
+      "meaning": "她的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "bedroom",
-      "phonetic": "/ˈbedruːm/",
-      "meaning": "卧室"
+      "phonetic": "/ˈbedru:m/",
+      "meaning": "卧室",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "living room",
-      "phonetic": "/ˈlɪvɪŋ ruːm/",
-      "meaning": "客厅"
+      "phonetic": "/ˈlɪvɪŋ ru:m/",
+      "meaning": "客厅",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "study",
-      "phonetic": "/ˈstʌdi/",
-      "meaning": "书房"
+      "phonetic": "/ˈstʌdɪ/",
+      "meaning": "书房",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "kitchen",
       "phonetic": "/ˈkɪtʃɪn/",
-      "meaning": "厨房"
+      "meaning": "厨房",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "bathroom",
-      "phonetic": "/ˈbɑːθruːm; ˈbɑːθrʊm/",
-      "meaning": "浴室"
+      "phonetic": "/ˈbɑ:θru:m/",
+      "meaning": "浴室",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "bed",
       "phonetic": "/bed/",
-      "meaning": "床"
+      "meaning": "床",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "phone",
       "phonetic": "/fəʊn/",
-      "meaning": "电话"
+      "meaning": "电话",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "table",
-      "phonetic": "/ˈteɪb(ə)l/",
-      "meaning": "桌子"
+      "phonetic": "/ˈteɪbl/",
+      "meaning": "桌子",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "sofa",
       "phonetic": "/ˈsəʊfə/",
-      "meaning": "长沙发"
+      "meaning": "长沙发",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "fridge",
       "phonetic": "/frɪdʒ/",
-      "meaning": "冰箱"
+      "meaning": "冰箱",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "find",
       "phonetic": "/faɪnd/",
-      "meaning": "找到"
+      "meaning": "找到",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "them",
-      "phonetic": "/ðem; ðəm/",
-      "meaning": "他们"
+      "phonetic": "/ðəm/",
+      "meaning": "他们",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "beef",
-      "phonetic": "/biːf/",
-      "meaning": "牛肉"
+      "phonetic": "/bi:f/",
+      "meaning": "牛肉",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "chicken",
       "phonetic": "/ˈtʃɪkɪn/",
-      "meaning": "鸡肉"
+      "meaning": "鸡肉",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "noodles",
-      "phonetic": "/ˈnuːd(ə)lz/",
-      "meaning": "面条"
+      "phonetic": "/ˈnu:dlz/",
+      "meaning": "面条",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "soup",
-      "phonetic": "/suːp/",
-      "meaning": "汤"
+      "phonetic": "/su:p/",
+      "meaning": "汤",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "vegetable",
-      "phonetic": "/ˈvedʒtəb(ə)l/",
-      "meaning": "蔬菜"
+      "phonetic": "/ˈvedʒtəbl/",
+      "meaning": "蔬菜",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "chopsticks",
       "phonetic": "/ˈtʃɒpstɪks/",
-      "meaning": "筷子"
+      "meaning": "筷子",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "bowl",
       "phonetic": "/bəʊl/",
-      "meaning": "碗"
+      "meaning": "碗",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "fork",
-      "phonetic": "/fɔːk/",
-      "meaning": "餐叉"
+      "phonetic": "/fɔ:k/",
+      "meaning": "餐叉",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "knife",
       "phonetic": "/naɪf/",
-      "meaning": "刀"
+      "meaning": "刀",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "spoon",
-      "phonetic": "/spuːn/",
-      "meaning": "匙,勺子"
+      "phonetic": "/spu:n/",
+      "meaning": "匙,勺子",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "dinner",
-      "phonetic": "/ˈdɪnə(r)/",
-      "meaning": "正餐"
+      "phonetic": "/ˈdɪnə/",
+      "meaning": "正餐",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "ready",
-      "phonetic": "/ˈredi/",
-      "meaning": "准备好"
+      "phonetic": "/ˈredɪ/",
+      "meaning": "准备好",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "help yourself",
-      "phonetic": "/help jɔːˈself/",
-      "meaning": "为（自己）取用"
+      "phonetic": "/help jɔ:ˈself/",
+      "meaning": "为（自己）取用",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "pass",
-      "phonetic": "/pɑːs/",
-      "meaning": "给"
+      "phonetic": "/pɑ:s/",
+      "meaning": "给",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "try",
       "phonetic": "/traɪ/",
-      "meaning": "试"
+      "meaning": "试",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "parents",
       "phonetic": "/ˈpeərənts/",
-      "meaning": "父母"
+      "meaning": "父母",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "cousin",
       "phonetic": "/ˈkʌzn/",
-      "meaning": "同辈表亲"
+      "meaning": "同辈表亲",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "uncle",
-      "phonetic": "/ˈʌŋk(ə)l/",
-      "meaning": "叔叔"
+      "phonetic": "/ˈʌŋkl/",
+      "meaning": "叔叔",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "aunt",
-      "phonetic": "/ɑːnt/",
-      "meaning": "阿姨"
+      "phonetic": "/ɑ:nt/",
+      "meaning": "阿姨",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "baby brother",
-      "phonetic": "/ˈbeɪbi ˈbrʌðə(r)/",
-      "meaning": "小弟弟"
+      "phonetic": "/ˈbeɪbɪ ˈbrʌðə/",
+      "meaning": "小弟弟",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "doctor",
-      "phonetic": "/ˈdɒktə(r)/",
-      "meaning": "医生"
+      "phonetic": "/ˈdɒktə/",
+      "meaning": "医生",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "cook",
-      "phonetic": "/kʊk/",
-      "meaning": "厨师"
+      "phonetic": "/kuk/",
+      "meaning": "厨师",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "driver",
-      "phonetic": "/ˈdraɪvə(r)/",
-      "meaning": "司机"
+      "phonetic": "/ˈdraɪvə/",
+      "meaning": "司机",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "farmer",
-      "phonetic": "/ˈfɑːmə(r)/",
-      "meaning": "农民"
+      "phonetic": "/ˈfɑ:mə/",
+      "meaning": "农民",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "nurse",
-      "phonetic": "/nɜːs/",
-      "meaning": "护士"
+      "phonetic": "/nɜ:s/",
+      "meaning": "护士",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "people",
-      "phonetic": "/ˈpiːp(ə)l/",
-      "meaning": "人们"
+      "phonetic": "/ˈpi:pl/",
+      "meaning": "人们",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "but",
-      "phonetic": "/bʌt; bət/",
-      "meaning": "但是"
+      "phonetic": "/bʌt/",
+      "meaning": "但是",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "little",
-      "phonetic": "/ˈlɪt(ə)l/",
-      "meaning": "小的"
+      "phonetic": "/ˈlɪtl/",
+      "meaning": "小的",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "puppy",
-      "phonetic": "/ˈpʌpi/",
-      "meaning": "小狗"
+      "phonetic": "/ˈpʌpɪ/",
+      "meaning": "小狗",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "football player",
-      "phonetic": "/ˈfʊtbɔːl ˈpleɪə(r)/",
-      "meaning": "足球运动员"
+      "phonetic": "/ˈfutbɔ:l ˈpleɪə/",
+      "meaning": "足球运动员",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "job",
       "phonetic": "/dʒɒb/",
-      "meaning": "工作"
+      "meaning": "工作",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "basketball",
-      "phonetic": "/ˈbɑːskɪtbɔːl/",
-      "meaning": "篮球"
+      "phonetic": "/ˈbɑ:skɪtbɔ:l/",
+      "meaning": "篮球",
+      "unit": "Unit 6"
     }
   ],
   "sentences": [

@@ -123,10 +123,24 @@ question_bank/
   ├─ primary_3a.json ~ 6b.json 小学各学期题库
   ├─ junior.json / senior.json 初中 / 高中示例题库
   └─ embedded_banks.js        同上的内置副本，供 file:// 直接打开时使用
+NOTICE.md                     第三方数据来源与归属声明
 ```
+
+单词对象字段：`grade` / `word` / `phonetic` / `meaning` / `unit`（`unit` 为教材单元，如 `Unit 1`）。
 
 **本地预览**：在项目目录执行 `python -m http.server 8899`，然后访问 `http://localhost:8899`。
 
 **新增题库**：在 `question_bank/` 下新建 JSON（字段 `words` / `sentences` / `grammar`），把 `index_list.json` 里对应条目的 `available` 改为 `true`，并把同一份数据同步到 `embedded_banks.js`。
 
-**部署**：Gitee Pages（部署分支 `master`）。免费版无自动构建，每次推送后需在仓库的「服务 → Gitee Pages」里手动点一次「更新部署」。
+**部署**：GitHub Pages（仓库 `qiongxiaoer/kids_english_tool`，分支 `master`，目录 `/`）。推送到 master 后会自动重新构建部署，无需手动操作。
+
+---
+
+## 八、数据来源
+
+人教版（PEP）小学英语词表、单元划分与音标参考自开源项目
+[DictionaryData](https://github.com/LinXueyuanStdio/DictionaryData)（Apache License 2.0），
+其词汇表源自人民教育出版社各册「Words in each unit」单元词汇表；
+中文释义参考自 [english-words](https://github.com/jinronga/english-words) 并按教材语境校对。
+
+详见 [NOTICE.md](NOTICE.md)。

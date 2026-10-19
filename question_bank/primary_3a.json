@@ -3,386 +3,450 @@
     {
       "grade": 3,
       "word": "ruler",
-      "phonetic": "/ˈruːlə(r)/",
-      "meaning": "尺子"
+      "phonetic": "/ˈru:lə/",
+      "meaning": "尺子",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "pencil",
-      "phonetic": "/ˈpens(ə)l/",
-      "meaning": "铅笔"
+      "phonetic": "/ˈpensl/",
+      "meaning": "铅笔",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "eraser",
-      "phonetic": "/ɪˈreɪzə(r)/",
-      "meaning": "橡皮"
+      "phonetic": "/ɪˈreɪzə/",
+      "meaning": "橡皮",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "crayon",
-      "phonetic": "/ˈkreɪən; ˈkreɪɒn/",
-      "meaning": "蜡笔"
+      "phonetic": "/ˈkreɪən/",
+      "meaning": "蜡笔",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "bag",
-      "phonetic": "/bæɡ/",
-      "meaning": "包"
+      "phonetic": "/bæg/",
+      "meaning": "包",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "pen",
       "phonetic": "/pen/",
-      "meaning": "钢笔"
+      "meaning": "钢笔",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "pencil box",
-      "phonetic": "",
-      "meaning": "铅笔盒"
+      "phonetic": "/ˈpensl bɒks/",
+      "meaning": "铅笔盒",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "book",
       "phonetic": "/bʊk/",
-      "meaning": "书"
+      "meaning": "书",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "no",
       "phonetic": "/nəʊ/",
-      "meaning": "不"
+      "meaning": "不",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "your",
-      "phonetic": "/jɔː(r); jə(r)/",
-      "meaning": "你（们）的"
+      "phonetic": "/jɔ:(r)/",
+      "meaning": "你（们）的",
+      "unit": "Unit 1"
     },
     {
       "grade": 3,
       "word": "red",
       "phonetic": "/red/",
-      "meaning": "红色"
+      "meaning": "红色",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "green",
-      "phonetic": "/ɡriːn/",
-      "meaning": "绿色"
+      "phonetic": "/ɡri:n/",
+      "meaning": "绿色",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "yellow",
       "phonetic": "/ˈjeləʊ/",
-      "meaning": "黄色"
+      "meaning": "黄色",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "blue",
-      "phonetic": "/bluː/",
-      "meaning": "蓝色"
+      "phonetic": "/blu:/",
+      "meaning": "蓝色",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "black",
       "phonetic": "/blæk/",
-      "meaning": "黑色"
+      "meaning": "黑色",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "brown",
       "phonetic": "/braʊn/",
-      "meaning": "棕色"
+      "meaning": "棕色",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "white",
       "phonetic": "/waɪt/",
-      "meaning": "白色"
+      "meaning": "白色",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "orange",
       "phonetic": "/ˈɒrɪndʒ/",
-      "meaning": "橙色"
+      "meaning": "橙色",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "OK",
       "phonetic": "/əʊˈkeɪ/",
-      "meaning": "好"
+      "meaning": "好",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "mum",
       "phonetic": "/mʌm/",
-      "meaning": "妈妈"
+      "meaning": "妈妈",
+      "unit": "Unit 2"
     },
     {
       "grade": 3,
       "word": "face",
       "phonetic": "/feɪs/",
-      "meaning": "脸"
+      "meaning": "脸",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "ear",
-      "phonetic": "/ɪə(r)/",
-      "meaning": "耳朵"
+      "phonetic": "/ɪə/",
+      "meaning": "耳朵",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "eye",
       "phonetic": "/aɪ/",
-      "meaning": "眼睛"
+      "meaning": "眼睛",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "nose",
       "phonetic": "/nəʊz/",
-      "meaning": "鼻子"
+      "meaning": "鼻子",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "mouth",
       "phonetic": "/maʊθ/",
-      "meaning": "嘴"
+      "meaning": "嘴",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "arm",
-      "phonetic": "/ɑːm/",
-      "meaning": "胳膊"
+      "phonetic": "/ɑ:m/",
+      "meaning": "胳膊",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "hand",
       "phonetic": "/hænd/",
-      "meaning": "手"
+      "meaning": "手",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "head",
       "phonetic": "/hed/",
-      "meaning": "头"
+      "meaning": "头",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "body",
-      "phonetic": "/ˈbɒdi/",
-      "meaning": "身体"
+      "phonetic": "/ˈbɒdɪ/",
+      "meaning": "身体",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "leg",
       "phonetic": "/leɡ/",
-      "meaning": "腿"
+      "meaning": "腿",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "foot",
       "phonetic": "/fʊt/",
-      "meaning": "脚"
+      "meaning": "脚",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "school",
-      "phonetic": "/skuːl/",
-      "meaning": "学校"
+      "phonetic": "/sku:l/",
+      "meaning": "学校",
+      "unit": "Unit 3"
     },
     {
       "grade": 3,
       "word": "duck",
       "phonetic": "/dʌk/",
-      "meaning": "鸭子"
+      "meaning": "鸭子",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "pig",
       "phonetic": "/pɪɡ/",
-      "meaning": "猪"
+      "meaning": "猪",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "cat",
       "phonetic": "/kæt/",
-      "meaning": "猫"
+      "meaning": "猫",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "bear",
-      "phonetic": "/beə(r)/",
-      "meaning": "熊"
+      "phonetic": "/beə/",
+      "meaning": "熊",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "dog",
-      "phonetic": "/dɒɡ/",
-      "meaning": "狗"
+      "phonetic": "/dɒg/",
+      "meaning": "狗",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "elephant",
-      "phonetic": "/ˈelɪfənt; ˈeləfənt/",
-      "meaning": "大象"
+      "phonetic": "/ˈelɪfənt/",
+      "meaning": "大象",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "monkey",
-      "phonetic": "/ˈmʌŋki/",
-      "meaning": "猴子"
+      "phonetic": "/ˈmʌŋkɪ/",
+      "meaning": "猴子",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "bird",
-      "phonetic": "/bɜːd/",
-      "meaning": "鸟"
+      "phonetic": "/bɜ:d/",
+      "meaning": "鸟",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "tiger",
-      "phonetic": "/ˈtaɪɡə(r)/",
-      "meaning": "老虎"
+      "phonetic": "/ˈtaɪɡə/",
+      "meaning": "老虎",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "panda",
       "phonetic": "/ˈpændə/",
-      "meaning": "大熊猫"
+      "meaning": "大熊猫",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "zoo",
-      "phonetic": "/zuː/",
-      "meaning": "动物园"
+      "phonetic": "/zu:/",
+      "meaning": "动物园",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "funny",
-      "phonetic": "/ˈfʌni/",
-      "meaning": "滑稽的"
+      "phonetic": "/ˈfʌnɪ/",
+      "meaning": "滑稽的",
+      "unit": "Unit 4"
     },
     {
       "grade": 3,
       "word": "bread",
       "phonetic": "/bred/",
-      "meaning": "面包"
+      "meaning": "面包",
+      "unit": "Unit 5"
     },
     {
       "grade": 3,
       "word": "juice",
-      "phonetic": "/dʒuːs/",
-      "meaning": "果汁"
+      "phonetic": "/dʒu:s/",
+      "meaning": "果汁",
+      "unit": "Unit 5"
     },
     {
       "grade": 3,
       "word": "egg",
       "phonetic": "/eɡ/",
-      "meaning": "蛋"
+      "meaning": "蛋",
+      "unit": "Unit 5"
     },
     {
       "grade": 3,
       "word": "milk",
       "phonetic": "/mɪlk/",
-      "meaning": "牛奶"
+      "meaning": "牛奶",
+      "unit": "Unit 5"
     },
     {
       "grade": 3,
       "word": "water",
-      "phonetic": "/ˈwɔːtə(r)/",
-      "meaning": "水"
+      "phonetic": "/ˈwɔ:tə/",
+      "meaning": "水",
+      "unit": "Unit 5"
     },
     {
       "grade": 3,
       "word": "cake",
       "phonetic": "/keɪk/",
-      "meaning": "蛋糕"
+      "meaning": "蛋糕",
+      "unit": "Unit 5"
     },
     {
       "grade": 3,
       "word": "fish",
       "phonetic": "/fɪʃ/",
-      "meaning": "鱼"
+      "meaning": "鱼",
+      "unit": "Unit 5"
     },
     {
       "grade": 3,
       "word": "rice",
       "phonetic": "/raɪs/",
-      "meaning": "米饭"
+      "meaning": "米饭",
+      "unit": "Unit 5"
     },
     {
       "grade": 3,
       "word": "one",
       "phonetic": "/wʌn/",
-      "meaning": "一"
+      "meaning": "一",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "two",
-      "phonetic": "/tuː/",
-      "meaning": "二"
+      "phonetic": "/tu:/",
+      "meaning": "二",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "three",
-      "phonetic": "/θriː/",
-      "meaning": "三"
+      "phonetic": "/θri:/",
+      "meaning": "三",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "four",
-      "phonetic": "/fɔː(r)/",
-      "meaning": "四"
+      "phonetic": "/fɔ:/",
+      "meaning": "四",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "five",
       "phonetic": "/faɪv/",
-      "meaning": "五"
+      "meaning": "五",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "six",
       "phonetic": "/sɪks/",
-      "meaning": "六"
+      "meaning": "六",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "seven",
-      "phonetic": "/ˈsev(ə)n/",
-      "meaning": "七"
+      "phonetic": "/ˈsevən/",
+      "meaning": "七",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "eight",
       "phonetic": "/eɪt/",
-      "meaning": "八"
+      "meaning": "八",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "nine",
       "phonetic": "/naɪn/",
-      "meaning": "九"
+      "meaning": "九",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "ten",
       "phonetic": "/ten/",
-      "meaning": "十"
+      "meaning": "十",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "brother",
-      "phonetic": "/ˈbrʌðə(r)/",
-      "meaning": "兄"
+      "phonetic": "/ˈbrʌðə/",
+      "meaning": "兄",
+      "unit": "Unit 6"
     },
     {
       "grade": 3,
       "word": "plate",
       "phonetic": "/pleɪt/",
-      "meaning": "盘子"
+      "meaning": "盘子",
+      "unit": "Unit 6"
     }
   ],
   "sentences": [

@@ -3,626 +3,730 @@
     {
       "grade": 4,
       "word": "first floor",
-      "phonetic": "/fɜːst flɔː(r)/",
-      "meaning": "一楼（美）"
+      "phonetic": "/fɜ:st flɔ:/",
+      "meaning": "一楼（美）",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "second floor",
-      "phonetic": "/ˈsekənd flɔː(r)/",
-      "meaning": "二楼"
+      "phonetic": "/ˈsekənd flɔ:/",
+      "meaning": "二楼",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "teacher's office",
-      "phonetic": "/ˈtiːtʃəz ˈɒfɪs/",
-      "meaning": "教师办公室"
+      "phonetic": "/ˈti:tʃəs ˈɒfɪs/",
+      "meaning": "教师办公室",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "library",
-      "phonetic": "/ˈlaɪbrəri/",
-      "meaning": "图书馆"
+      "phonetic": "/ˈlaɪbrərɪ/",
+      "meaning": "图书馆",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "playground",
-      "phonetic": "/ˈpleɪɡraʊnd/",
-      "meaning": "操场"
+      "phonetic": "/ˈpleɪgraʊnd/",
+      "meaning": "操场",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "computer room",
-      "phonetic": "/kəmˈpjuːtə(r) ruːm/",
-      "meaning": "计算机房"
+      "phonetic": "/kəmˈpju:tə ru:m/",
+      "meaning": "计算机房",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "art room",
-      "phonetic": "/ɑːt ruːm/",
-      "meaning": "美术教室"
+      "phonetic": "/ɑ:t ru:m/",
+      "meaning": "美术教室",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "music room",
-      "phonetic": "/ˈmjuːzɪk ruːm/",
-      "meaning": "音乐教室"
+      "phonetic": "/ˈmju:zɪk ru:m/",
+      "meaning": "音乐教室",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "next to",
-      "phonetic": "/nekst tuː; tə/",
-      "meaning": "紧邻"
+      "phonetic": "/nekst tu:/",
+      "meaning": "紧邻",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "homework",
-      "phonetic": "/ˈhəʊmwɜːk/",
-      "meaning": "作业"
+      "phonetic": "/ˈhəʊmwɜ:k/",
+      "meaning": "作业",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "class",
-      "phonetic": "/klɑːs/",
-      "meaning": "班级"
+      "phonetic": "/klɑ:s/",
+      "meaning": "班级",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "forty",
-      "phonetic": "/ˈfɔːti/",
-      "meaning": "四十"
+      "phonetic": "/ˈfɔ:tɪ/",
+      "meaning": "四十",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "way",
       "phonetic": "/weɪ/",
-      "meaning": "方向"
+      "meaning": "方向",
+      "unit": "Unit 1"
     },
     {
       "grade": 4,
       "word": "breakfast",
       "phonetic": "/ˈbrekfəst/",
-      "meaning": "早餐"
+      "meaning": "早餐",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "English class",
-      "phonetic": "/ˈɪŋɡlɪʃ klɑːs/",
-      "meaning": "英语课"
+      "phonetic": "/ˈɪŋglɪʃ klɑ:s/",
+      "meaning": "英语课",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "lunch",
       "phonetic": "/lʌntʃ/",
-      "meaning": "午饭"
+      "meaning": "午饭",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "music class",
-      "phonetic": "/ˈmjuːzɪk klɑːs/",
-      "meaning": "音乐课"
+      "phonetic": "/ˈmju:zɪk klɑ:s/",
+      "meaning": "音乐课",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "PE class",
-      "phonetic": "/peɪ klɑːs/",
-      "meaning": "体育课"
+      "phonetic": "/pi: i: klɑ:s/",
+      "meaning": "体育课",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "dinner",
-      "phonetic": "/ˈdɪnə(r)/",
-      "meaning": "正餐"
+      "phonetic": "/ˈdɪnə/",
+      "meaning": "正餐",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "get up",
       "phonetic": "/ɡet ʌp/",
-      "meaning": "起床"
+      "meaning": "起床",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "go to school",
-      "phonetic": "/ɡəʊ tuː; tə skuːl/",
-      "meaning": "上学"
+      "phonetic": "/ɡəʊ tu: sku:l/",
+      "meaning": "上学",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "go home",
       "phonetic": "/ɡəʊ həʊm/",
-      "meaning": "回家"
+      "meaning": "回家",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "go to bed",
-      "phonetic": "/ɡəʊ tuː; tə bed/",
-      "meaning": "去睡觉"
+      "phonetic": "/ɡəʊ tu: bed/",
+      "meaning": "去睡觉",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "over",
       "phonetic": "/ˈəʊvə(r)/",
-      "meaning": "结束"
+      "meaning": "结束",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "now",
       "phonetic": "/naʊ/",
-      "meaning": "现在"
+      "meaning": "现在",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "o'clock",
       "phonetic": "/əˈklɒk/",
-      "meaning": "点钟"
+      "meaning": "点钟",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "kid",
       "phonetic": "/kɪd/",
-      "meaning": "小孩"
+      "meaning": "小孩",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "thirty",
-      "phonetic": "/ˈθɜːti/",
-      "meaning": "三十"
+      "phonetic": "/ˈθɜ:tɪ/",
+      "meaning": "三十",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "hurry up",
       "phonetic": "/ˈhʌrɪ ʌp/",
-      "meaning": "快点"
+      "meaning": "快点",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "come on",
-      "phonetic": "/ˈkʌm ɒn/",
-      "meaning": "加油"
+      "phonetic": "/ˈkʌmˌɒn/",
+      "meaning": "加油",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "just a minute",
-      "phonetic": "/dʒʌst ə; eɪ ˈmɪnɪt/",
-      "meaning": "稍等一会儿"
+      "phonetic": "/dʒʌst ə ˈmɪnɪt/",
+      "meaning": "稍等一会儿",
+      "unit": "Unit 2"
     },
     {
       "grade": 4,
       "word": "cold",
       "phonetic": "/kəʊld/",
-      "meaning": "冷的"
+      "meaning": "冷的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "cool",
-      "phonetic": "/kuːl/",
-      "meaning": "凉的"
+      "phonetic": "/ku:l/",
+      "meaning": "凉的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "warm",
-      "phonetic": "/wɔːm/",
-      "meaning": "温暖的"
+      "phonetic": "/wɔ:m/",
+      "meaning": "温暖的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "hot",
       "phonetic": "/hɒt/",
-      "meaning": "热的"
+      "meaning": "热的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "sunny",
-      "phonetic": "/ˈsʌni/",
-      "meaning": "阳光充足的"
+      "phonetic": "/ˈsʌnɪ/",
+      "meaning": "阳光充足的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "windy",
-      "phonetic": "/ˈwɪndi/",
-      "meaning": "多风的"
+      "phonetic": "/ˈwɪndɪ/",
+      "meaning": "多风的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "cloudy",
-      "phonetic": "/ˈklaʊdi/",
-      "meaning": "多云的"
+      "phonetic": "/ˈklaʊdɪ/",
+      "meaning": "多云的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "snowy",
-      "phonetic": "/ˈsnəʊi/",
-      "meaning": "下雪的"
+      "phonetic": "/ˈsnəʊɪ/",
+      "meaning": "下雪的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "rainy",
-      "phonetic": "/ˈreɪni/",
-      "meaning": "阴雨的"
+      "phonetic": "/ˈreɪnɪ/",
+      "meaning": "阴雨的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "outside",
-      "phonetic": "/ˌaʊtˈsaɪd/",
-      "meaning": "在户外"
+      "phonetic": "/ˈaʊtˈsaɪd/",
+      "meaning": "在户外",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "be careful",
-      "phonetic": "/biː; bi ˈkeəf(ə)l/",
-      "meaning": "小心"
+      "phonetic": "/bi: ˈkeəfl/",
+      "meaning": "小心",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "weather",
-      "phonetic": "/ˈweðə(r)/",
-      "meaning": "天气"
+      "phonetic": "/ˈweðə/",
+      "meaning": "天气",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "New York",
-      "phonetic": "/njuː jɔːk/",
-      "meaning": "纽约"
+      "phonetic": "/ˈnju: ˈjɔ:k/",
+      "meaning": "纽约",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
-      "word": "how about...",
+      "word": "how about",
       "phonetic": "/haʊ əˈbaʊt/",
-      "meaning": "怎么样？"
+      "meaning": "……怎么样",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "degree",
-      "phonetic": "/dɪˈɡriː/",
-      "meaning": "度"
+      "phonetic": "/dɪˈɡri:/",
+      "meaning": "度",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "world",
-      "phonetic": "/wɜːld/",
-      "meaning": "世界"
+      "phonetic": "/wɜ:ld/",
+      "meaning": "世界",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "London",
       "phonetic": "/ˈlʌndən/",
-      "meaning": "伦敦"
+      "meaning": "伦敦",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "Moscow",
       "phonetic": "/ˈmɒskəʊ/",
-      "meaning": "莫斯科"
+      "meaning": "莫斯科",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "Singapore",
-      "phonetic": "/ˌsɪŋəˈpɔː(r)/",
-      "meaning": "新加坡城"
+      "phonetic": "/sɪŋɡəˈpɔ:/",
+      "meaning": "新加坡城",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "Sydney",
-      "phonetic": "/ˈsɪdni/",
-      "meaning": "悉尼"
+      "phonetic": "/ˈsɪdnɪ/",
+      "meaning": "悉尼",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "fly",
       "phonetic": "/flaɪ/",
-      "meaning": "放（风筝）"
+      "meaning": "放（风筝）",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "love",
       "phonetic": "/lʌv/",
-      "meaning": "爱你的"
+      "meaning": "爱你的",
+      "unit": "Unit 3"
     },
     {
       "grade": 4,
       "word": "tomato",
-      "phonetic": "/təˈmɑːtəʊ/",
-      "meaning": "西红柿"
+      "phonetic": "/təˈmɑ:təʊ/",
+      "meaning": "西红柿",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "potato",
       "phonetic": "/pəˈteɪtəʊ/",
-      "meaning": "马铃薯"
+      "meaning": "马铃薯",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "green beans",
-      "phonetic": "/ˌɡriːn ˈbiːnz/",
-      "meaning": "豆角"
+      "phonetic": "/ɡri:n bi:nz/",
+      "meaning": "豆角",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "carrot",
       "phonetic": "/ˈkærət/",
-      "meaning": "胡萝卜"
+      "meaning": "胡萝卜",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "horse",
-      "phonetic": "/hɔːs/",
-      "meaning": "马"
+      "phonetic": "/hɔ:s/",
+      "meaning": "马",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "cow",
       "phonetic": "/kaʊ/",
-      "meaning": "牛"
+      "meaning": "牛",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "sheep",
-      "phonetic": "/ʃiːp/",
-      "meaning": "绵羊"
+      "phonetic": "/ʃi:p/",
+      "meaning": "绵羊",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "hen",
       "phonetic": "/hen/",
-      "meaning": "母鸡"
+      "meaning": "母鸡",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "these",
-      "phonetic": "/ðiːz/",
-      "meaning": "这些"
+      "phonetic": "/ði:z/",
+      "meaning": "这些",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "yum",
       "phonetic": "/jʌm/",
-      "meaning": "味道好"
+      "meaning": "味道好",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "animal",
-      "phonetic": "/ˈænɪm(ə)l/",
-      "meaning": "动物"
+      "phonetic": "/ˈænɪməl/",
+      "meaning": "动物",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "those",
       "phonetic": "/ðəʊz/",
-      "meaning": "那些"
+      "meaning": "那些",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "garden",
-      "phonetic": "/ˈɡɑːd(ə)n/",
-      "meaning": "花园"
+      "phonetic": "/ˈɡɑ:dn/",
+      "meaning": "花园",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "farm",
-      "phonetic": "/fɑːm/",
-      "meaning": "农场"
+      "phonetic": "/fɑ:m/",
+      "meaning": "农场",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "goat",
       "phonetic": "/ɡəʊt/",
-      "meaning": "山羊"
+      "meaning": "山羊",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "eat",
-      "phonetic": "/iːt/",
-      "meaning": "吃"
+      "phonetic": "/i:t/",
+      "meaning": "吃",
+      "unit": "Unit 4"
     },
     {
       "grade": 4,
       "word": "clothes",
       "phonetic": "/kləʊðz/",
-      "meaning": "服装"
+      "meaning": "服装",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "pants",
       "phonetic": "/pænts/",
-      "meaning": "裤子"
+      "meaning": "裤子",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "hat",
       "phonetic": "/hæt/",
-      "meaning": "帽子"
+      "meaning": "帽子",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "dress",
       "phonetic": "/dres/",
-      "meaning": "连衣裙"
+      "meaning": "连衣裙",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "skirt",
-      "phonetic": "/skɜːt/",
-      "meaning": "女裙"
+      "phonetic": "/skɜ:t/",
+      "meaning": "女裙",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "coat",
       "phonetic": "/kəʊt/",
-      "meaning": "大衣"
+      "meaning": "大衣",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "sweater",
-      "phonetic": "/ˈswetə(r)/",
-      "meaning": "毛衣"
+      "phonetic": "/ˈswetə/",
+      "meaning": "毛衣",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "sock",
       "phonetic": "/sɒk/",
-      "meaning": "短袜"
+      "meaning": "短袜",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "shorts",
-      "phonetic": "/ʃɔːts/",
-      "meaning": "短裤"
+      "phonetic": "/ʃɔ:ts/",
+      "meaning": "短裤",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "jacket",
       "phonetic": "/ˈdʒækɪt/",
-      "meaning": "夹克衫"
+      "meaning": "夹克衫",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "shirt",
-      "phonetic": "/ʃɜːt/",
-      "meaning": "衬衫"
+      "phonetic": "/ʃɜ:t/",
+      "meaning": "衬衫",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "yours",
-      "phonetic": "/jɔːz/",
-      "meaning": "你的"
+      "phonetic": "/jɔ:z/",
+      "meaning": "你的",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "whose",
-      "phonetic": "/huːz/",
-      "meaning": "谁的"
+      "phonetic": "/hu:z/",
+      "meaning": "谁的",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "mine",
       "phonetic": "/maɪn/",
-      "meaning": "我的"
+      "meaning": "我的",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "pack",
       "phonetic": "/pæk/",
-      "meaning": "收拾"
+      "meaning": "收拾",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "wait",
       "phonetic": "/weɪt/",
-      "meaning": "等待"
+      "meaning": "等待",
+      "unit": "Unit 5"
     },
     {
       "grade": 4,
       "word": "glove",
       "phonetic": "/ɡlʌv/",
-      "meaning": "手套"
+      "meaning": "手套",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "scarf",
-      "phonetic": "/skɑːf/",
-      "meaning": "围巾"
+      "phonetic": "/skɑ:f/",
+      "meaning": "围巾",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "umbrella",
       "phonetic": "/ʌmˈbrelə/",
-      "meaning": "伞"
+      "meaning": "伞",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "sunglasses",
-      "phonetic": "/ˈsʌnɡlɑːsɪz/",
-      "meaning": "太阳镜"
+      "phonetic": "/ˈsʌnɡlɑ:sɪs/",
+      "meaning": "太阳镜",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "pretty",
-      "phonetic": "/ˈprɪti/",
-      "meaning": "美丽的"
+      "phonetic": "/ˈprɪtɪ/",
+      "meaning": "美丽的",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "expensive",
       "phonetic": "/ɪkˈspensɪv/",
-      "meaning": "贵的"
+      "meaning": "贵的",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "cheap",
-      "phonetic": "/tʃiːp/",
-      "meaning": "便宜的"
+      "phonetic": "/tʃi:p/",
+      "meaning": "便宜的",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "nice",
       "phonetic": "/naɪs/",
-      "meaning": "好的"
+      "meaning": "好的",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "try on",
       "phonetic": "/traɪ ɒn/",
-      "meaning": "试穿"
+      "meaning": "试穿",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "size",
       "phonetic": "/saɪz/",
-      "meaning": "尺码"
+      "meaning": "尺码",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "of course",
-      "phonetic": "/ɒv; əv kɔːs/",
-      "meaning": "当然"
+      "phonetic": "/ɒv kɔ:s/",
+      "meaning": "当然",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "too",
-      "phonetic": "/tuː/",
-      "meaning": "太"
+      "phonetic": "/tu:/",
+      "meaning": "太",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "just",
       "phonetic": "/dʒʌst/",
-      "meaning": "正好"
+      "meaning": "正好",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "how much",
       "phonetic": "/haʊ mʌtʃ/",
-      "meaning": "多少钱"
+      "meaning": "多少钱",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "eighty",
-      "phonetic": "/ˈeɪti/",
-      "meaning": "八十"
+      "phonetic": "/ˈeɪtɪ/",
+      "meaning": "八十",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "dollar",
-      "phonetic": "/ˈdɒlə(r)/",
-      "meaning": "元"
+      "phonetic": "/ˈdɒlə/",
+      "meaning": "元",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "sale",
       "phonetic": "/seɪl/",
-      "meaning": "特价销售"
+      "meaning": "特价销售",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "more",
-      "phonetic": "/mɔː(r)/",
-      "meaning": "更多的"
+      "phonetic": "/mɔ:(r)/",
+      "meaning": "更多的",
+      "unit": "Unit 6"
     },
     {
       "grade": 4,
       "word": "us",
-      "phonetic": "/ʌs; əs/",
-      "meaning": "我们"
+      "phonetic": "/əs/",
+      "meaning": "我们",
+      "unit": "Unit 6"
     }
   ],
   "sentences": [

@@ -8,6 +8,9 @@
 convert-words.js
 convert-words.py
 generate-embedded.py
+analyze-dictdata.py
+compare-sources.py
+merge-banks.py
 
 # 二维码图片（本地使用）
 qrcode.png
