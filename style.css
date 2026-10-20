@@ -457,6 +457,109 @@ h1 {
   font-weight: 700;
 }
 
+/* 语法讲解卡：按单元展示句型 / 例句 / 易错点，可点标题栏收起 */
+.lesson {
+  margin: 0 0 20px;
+  padding: 12px 16px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--accent-soft);
+  text-align: left;
+}
+
+.lesson-bar {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--accent);
+}
+
+.lesson-bar::-webkit-details-marker {
+  display: none;
+}
+
+.lesson-bar::after {
+  content: " 收起";
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.lesson:not([open]) .lesson-bar::after {
+  content: " 展开";
+}
+
+.lesson-body {
+  margin-top: 10px;
+}
+
+.lesson-summary {
+  margin: 0 0 12px;
+  color: var(--ink);
+  line-height: 1.7;
+}
+
+.lesson-label {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.lesson-list {
+  display: grid;
+  gap: 6px;
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.lesson-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.lesson-tag {
+  flex: none;
+  padding: 1px 8px;
+  border: 1px solid var(--accent-2);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--accent);
+  font-size: 0.75rem;
+}
+
+.lesson-en {
+  font-weight: 700;
+}
+
+.lesson-zh {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.lesson-mistake {
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--bad-bg);
+  color: var(--ink);
+  line-height: 1.7;
+}
+
+.lesson-mistake .lesson-label {
+  display: inline;
+  margin-right: 6px;
+  color: var(--bad);
+}
+
 .grammar-meta {
   margin: 0 0 10px;
   color: var(--muted);

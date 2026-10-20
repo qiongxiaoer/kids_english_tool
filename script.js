@@ -33,6 +33,9 @@
     letters: document.getElementById("letters"),
     feedback: document.getElementById("feedback"),
     grammarBox: document.getElementById("grammarBox"),
+    lessonBox: document.getElementById("lessonBox"),
+    lessonBar: document.getElementById("lessonBar"),
+    lessonBody: document.getElementById("lessonBody"),
     grammarMeta: document.getElementById("grammarMeta"),
     grammarQuestion: document.getElementById("grammarQuestion"),
     grammarQuestionZh: document.getElementById("grammarQuestionZh"),
@@ -349,6 +352,7 @@
     els.skipBtn.classList.toggle("hidden", inReviewList);
     els.hintBtn.classList.toggle("hidden", state.tab === "grammar" || inReviewList);
     els.grammarBox.classList.add("hidden");
+    els.lessonBox.classList.add("hidden");
     els.reviewList.classList.add("hidden");
     els.emptyState.classList.add("hidden");
     els.phonetic.classList.add("hidden");
@@ -403,9 +407,34 @@
     renderLetters(expectedText(item), state.typed, false);
     focusInput();
   }
+  // 语法讲解卡：按当前题所属单元，从题库 lessons 中取出对应讲解卡渲染
+  function renderLesson(item) {
+    const box = els.lessonBox;
+    const lessons = currentBankData && currentBankData.lessons;
+    const lesson = lessons && item.unit ? lessons.find((l) => l.unit === item.unit) : null;
+    if (!lesson) {
+      box.classList.add("hidden");
+      return;
+    }
+    const esc = (s) => String(s == null ? "" : s).replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+    const rows = (list) => (list || []).map((r) =>
+      `<li>${r.tag ? `<span class="lesson-tag">${esc(r.tag)}</span>` : ""}<span class="lesson-en">${esc(r.en)}</span>${r.zh ? `<span class="lesson-zh">${esc(r.zh)}</span>` : ""}</li>`
+    ).join("");
+    els.lessonBar.textContent = `语法讲解 · ${lesson.unit} ${lesson.title}`;
+    els.lessonBody.innerHTML =
+      (lesson.summary ? `<p class="lesson-summary">${esc(lesson.summary)}</p>` : "")
+      + (lesson.structure && lesson.structure.length
+        ? `<p class="lesson-label">句型</p><ul class="lesson-list">${rows(lesson.structure)}</ul>` : "")
+      + (lesson.example && lesson.example.length
+        ? `<p class="lesson-label">例句</p><ul class="lesson-list">${rows(lesson.example)}</ul>` : "")
+      + (lesson.mistake
+        ? `<p class="lesson-mistake"><span class="lesson-label">易错</span>${esc(lesson.mistake)}</p>` : "");
+    box.classList.remove("hidden");
+  }
   function renderGrammar(item) {
     els.hint.textContent = "单项选择题，选完立即显示答案和解析";
     els.grammarBox.classList.remove("hidden");
+    renderLesson(item);
     els.grammarMeta.textContent = item.category;
     els.grammarQuestion.textContent = item.question;
     // 语法题中文翻译（BUG-011）：避免题目看不懂只能猜选项

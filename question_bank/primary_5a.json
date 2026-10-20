@@ -990,47 +990,37 @@
   ],
   "grammar": [
     {
-      "category": "冠词",
-      "question": "She is ___ teacher.",
+      "unit": "Unit 1",
+      "category": "Unit 1 · 描述人物",
+      "question": "— What's your new friend ___? — He's tall and strong.",
       "options": [
-        "a",
-        "an",
-        "the",
-        "/"
+        "like",
+        "likes",
+        "look",
+        "looks"
       ],
       "answer": 0,
-      "explain": "teacher 以辅音音素开头，表示“一名”用 a。",
-      "question_zh": "她是一位老师。"
+      "explain": "What's sb. like? 用来问一个人的样子或性格，like 在这里是介词，不加 s。",
+      "question_zh": "—你的新朋友什么样？—他又高又壮。"
     },
     {
-      "category": "一般现在",
-      "question": "I ___ to school every day.",
+      "unit": "Unit 1",
+      "category": "Unit 1 · 描述人物",
+      "question": "— ___ your English teacher like? — She's kind and young.",
       "options": [
-        "go",
-        "goes",
-        "going",
-        "went"
+        "What's",
+        "Who's",
+        "Where's",
+        "How's"
       ],
       "answer": 0,
-      "explain": "主语 I，一般现在时用动词原形 go。",
-      "question_zh": "我每天去上学。"
+      "explain": "问某人什么样用 What's ... like?；Who's 问“是谁”，Where's 问“在哪里”，都不能接 like。",
+      "question_zh": "—你的英语老师什么样？—她又和善又年轻。"
     },
     {
-      "category": "疑问句",
-      "question": "___ she have a cat?",
-      "options": [
-        "Do",
-        "Does",
-        "Is",
-        "Are"
-      ],
-      "answer": 1,
-      "explain": "主语 she 三单，一般疑问句用助动词 Does。",
-      "question_zh": "她有一只猫吗？"
-    },
-    {
-      "category": "there be",
-      "question": "There ___ a book on the desk.",
+      "unit": "Unit 1",
+      "category": "Unit 1 · be + 形容词",
+      "question": "He ___ tall and strong.",
       "options": [
         "is",
         "are",
@@ -1038,8 +1028,1154 @@
         "be"
       ],
       "answer": 0,
-      "explain": "there be 句型，a book 单数用 is。",
-      "question_zh": "书桌上有一本书。"
+      "explain": "主语 He 是第三人称单数，be 动词用 is；be + 形容词说明某人/某物的样子。",
+      "question_zh": "他又高又壮。"
+    },
+    {
+      "unit": "Unit 1",
+      "category": "Unit 1 · be + 形容词",
+      "question": "My friends ___ clever and hard-working.",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answer": 2,
+      "explain": "主语 My friends 是复数，be 动词用 are。",
+      "question_zh": "我的朋友们既聪明又勤奋。"
+    },
+    {
+      "unit": "Unit 1",
+      "category": "Unit 1 · be 一般疑问句",
+      "question": "— Is he good at football? — Yes, I think he ___.",
+      "options": [
+        "is",
+        "does",
+        "can",
+        "do"
+      ],
+      "answer": 0,
+      "explain": "Is 开头的问句，肯定简答用 Yes, 主语 + is；be good at 表示“擅长”。",
+      "question_zh": "—他擅长足球吗？—是的，我想他擅长。"
+    },
+    {
+      "unit": "Unit 1",
+      "category": "Unit 1 · be 一般疑问句",
+      "question": "— ___ your friends good at music? — No, they aren't.",
+      "options": [
+        "Is",
+        "Are",
+        "Do",
+        "Does"
+      ],
+      "answer": 1,
+      "explain": "主语 your friends 是复数，be 动词疑问句用 Are 开头；否定简答 No, they aren't.",
+      "question_zh": "—你的朋友们擅长音乐吗？—不，他们不擅长。"
+    },
+    {
+      "unit": "Unit 1",
+      "category": "Unit 1 · be good at",
+      "question": "She's good at ___.",
+      "options": [
+        "draw",
+        "drawing",
+        "draws",
+        "to draw"
+      ],
+      "answer": 1,
+      "explain": "be good at 后面接名词或动名词（-ing 形式），所以用 drawing。",
+      "question_zh": "她擅长画画。"
+    },
+    {
+      "unit": "Unit 1",
+      "category": "Unit 1 · be good at",
+      "question": "He is good at ___.",
+      "options": [
+        "football",
+        "play football",
+        "plays football",
+        "to play football"
+      ],
+      "answer": 0,
+      "explain": "be good at 后接名词（此处为 football）；若接动词则用 -ing 形式，如 good at playing football。",
+      "question_zh": "他擅长足球。"
+    },
+    {
+      "unit": "Unit 1",
+      "category": "Unit 1 · 情态动词 can",
+      "question": "— Can you make robots, Sarah? — No, I ___.",
+      "options": [
+        "can't",
+        "don't",
+        "am not",
+        "won't"
+      ],
+      "answer": 0,
+      "explain": "用 Can 提问，否定简答是 No, 主语 + can't；can't 后面不再跟别的动词。",
+      "question_zh": "—萨拉，你能制作机器人吗？—不，我不能。"
+    },
+    {
+      "unit": "Unit 1",
+      "category": "Unit 1 · 情态动词 can",
+      "question": "I ___ make a robot.",
+      "options": [
+        "can",
+        "am",
+        "do",
+        "is"
+      ],
+      "answer": 0,
+      "explain": "can 表示“能够、会”，后面接动词原形 make。",
+      "question_zh": "我能制作机器人。"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · What's the matter?",
+      "question": "— You look sad. ___ the matter? — It's about our school project.",
+      "options": [
+        "What's",
+        "Who's",
+        "How's",
+        "Where's"
+      ],
+      "answer": 0,
+      "explain": "What's the matter? 意为“怎么了？”，用来询问对方遇到了什么问题。",
+      "question_zh": "—你看起来不开心。怎么了？—是关于我们学校的项目。"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · What's the matter?",
+      "question": "— ___ the matter with you? — I'm worried about the test.",
+      "options": [
+        "What's",
+        "What",
+        "How's",
+        "Who's"
+      ],
+      "answer": 0,
+      "explain": "What's the matter? 是固定说法，matter 前用 What's（What is）。What's the matter with you? 表示“你怎么了？”",
+      "question_zh": "—你怎么了？—我在担心考试。"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · look + 形容词",
+      "question": "You look ___. What's the matter?",
+      "options": [
+        "sad",
+        "sadly",
+        "sadder",
+        "sadness"
+      ],
+      "answer": 0,
+      "explain": "look 后接形容词，说明“看起来……”的样子，不用副词 sadly。",
+      "question_zh": "你看起来不开心。怎么了？"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · look + 形容词",
+      "question": "Mike ___ excited about the trip.",
+      "options": [
+        "look",
+        "looks",
+        "looking",
+        "to look"
+      ],
+      "answer": 1,
+      "explain": "look 表示“看起来”时是系动词，后接形容词；主语 Mike 是第三人称单数，用 looks。",
+      "question_zh": "迈克对这次旅行感到很兴奋。"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · have to / need to",
+      "question": "We ___ finish our project by Monday.",
+      "options": [
+        "have to",
+        "has to",
+        "has",
+        "having to"
+      ],
+      "answer": 0,
+      "explain": "have to 表示“不得不、必须”，主语 We 是复数，用 have to，后面接动词原形。",
+      "question_zh": "我们得在星期一之前完成项目。"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · have to / need to",
+      "question": "I ___ talk to Mike.",
+      "options": [
+        "need to",
+        "needs to",
+        "need",
+        "needing to"
+      ],
+      "answer": 0,
+      "explain": "need to 表示“需要做某事”，主语 I 后用 need to，后面接动词原形。",
+      "question_zh": "我需要和迈克谈谈。"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · 一般现在时否定",
+      "question": "— So you ___ agree with each other? — No, we don't.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": 0,
+      "explain": "一般现在时的否定用 don't / doesn't + 动词原形；主语 you 用 don't。",
+      "question_zh": "—所以你们俩意见不一致？—是的，我们不一致。"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · 一般现在时否定",
+      "question": "Mike ___ agree with his friends.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": 0,
+      "explain": "主语 Mike 是第三人称单数，一般现在时否定用 doesn't + 动词原形 agree。",
+      "question_zh": "迈克和朋友们意见不一致。"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · Why not + 动词原形",
+      "question": "___ not do both?",
+      "options": [
+        "Why",
+        "What",
+        "How",
+        "Where"
+      ],
+      "answer": 0,
+      "explain": "Why not + 动词原形？表示提出建议“为什么不……呢？”，not 后面直接跟动词原形。",
+      "question_zh": "为什么不两个活动都做呢？"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · Why not + 动词原形",
+      "question": "Why not ___ both activities?",
+      "options": [
+        "do",
+        "to do",
+        "doing",
+        "does"
+      ],
+      "answer": 0,
+      "explain": "Why not 后面接动词原形，所以用 do。",
+      "question_zh": "为什么不两个活动都做呢？"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · It's + adj + to do",
+      "question": "It's important ___ to each other.",
+      "options": [
+        "to listen",
+        "listen",
+        "listening",
+        "listens"
+      ],
+      "answer": 0,
+      "explain": "It's + 形容词 + to do 结构，it 作形式主语，真正的主语是后面的动词不定式。",
+      "question_zh": "听取彼此的想法很重要。"
+    },
+    {
+      "unit": "Unit 2",
+      "category": "Unit 2 · It's + adj + to do",
+      "question": "___ important to listen to each other.",
+      "options": [
+        "It's",
+        "It",
+        "Its",
+        "Is"
+      ],
+      "answer": 0,
+      "explain": "用 it 作形式主语构成 It's + 形容词 + to do 句型；Its 是“它的”，不能这样用。",
+      "question_zh": "听取彼此的想法很重要。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · 星期前用 on",
+      "question": "I have Chinese, maths, music and PE ___ Wednesdays.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "表示“在星期几”用介词 on，如 on Wednesdays（每逢星期三）。",
+      "question_zh": "我星期三有语文课、数学课、音乐课和体育课。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · 星期前用 on",
+      "question": "What do you have ___ Fridays?",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "of"
+      ],
+      "answer": 0,
+      "explain": "星期前用介词 on。",
+      "question_zh": "星期五你有什么课？"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · What do you have on...?",
+      "question": "— ___ do you have on Wednesdays? — I have Chinese, maths, music and PE.",
+      "options": [
+        "What",
+        "When",
+        "How",
+        "Where"
+      ],
+      "answer": 0,
+      "explain": "问“某天有什么课”用 What do you have on ...?。",
+      "question_zh": "—星期三你有什么课？—我有语文课、数学课、音乐课和体育课。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · What do you have on...?",
+      "question": "— What does she have ___ Mondays? — She has maths and English.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "for"
+      ],
+      "answer": 0,
+      "explain": "主语 she 是第三人称单数，助动词用 does，后面动词用原形 have；星期前用 on。",
+      "question_zh": "—她星期一有什么课？—她有数学课和英语课。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · 一般现在时三单",
+      "question": "— ___ your mother work on both Saturdays and Sundays? — Yes, she does.",
+      "options": [
+        "Does",
+        "Do",
+        "Is",
+        "Can"
+      ],
+      "answer": 0,
+      "explain": "主语 your mother 是第三人称单数，一般现在时疑问句用 Does 开头，后面动词用原形 work。",
+      "question_zh": "—你妈妈周六周日都工作吗？—是的，她（周末两天）都工作。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · 一般现在时三单",
+      "question": "— Does your mother work on Sundays? — Yes, she ___.",
+      "options": [
+        "does",
+        "do",
+        "is",
+        "works"
+      ],
+      "answer": 0,
+      "explain": "Does 开头的问句，肯定简答用 Yes, she does.，不能用 is 或 works。",
+      "question_zh": "—你妈妈星期日工作吗？—是的，她工作。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · 频率副词",
+      "question": "I ___ play football at the weekend.",
+      "options": [
+        "often",
+        "oftens",
+        "oftening",
+        "to often"
+      ],
+      "answer": 0,
+      "explain": "频率副词 usually / often / sometimes 放在实义动词前，表示做某事的频率，本身不变形。",
+      "question_zh": "我周末经常踢足球。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · 频率副词",
+      "question": "Sometimes I ___ Chinese chess with my father.",
+      "options": [
+        "play",
+        "plays",
+        "playing",
+        "to play"
+      ],
+      "answer": 0,
+      "explain": "频率副词 Sometimes 放在句首时，后面用一般现在时；主语 I 后用动词原形 play。",
+      "question_zh": "有时我和爸爸下中国象棋。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · favourite",
+      "question": "— What's your favourite ___ at school, John? — Monday.",
+      "options": [
+        "day",
+        "days",
+        "day's",
+        "a day"
+      ],
+      "answer": 0,
+      "explain": "What's your favourite + 名词？用来问“你最喜欢的……是什么”，此处 day 用单数。",
+      "question_zh": "—你在学校最喜欢哪一天，约翰？—星期一。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · favourite",
+      "question": "— ___ your favourite day at school? — Friday.",
+      "options": [
+        "What's",
+        "What",
+        "Who's",
+        "How's"
+      ],
+      "answer": 0,
+      "explain": "问“最喜欢的……”用 What's your favourite ...?。",
+      "question_zh": "—你在学校最喜欢哪一天？—星期五。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · at the weekend",
+      "question": "— What do you usually do ___ the weekend, children? — We play football.",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "at the weekend 表示“在周末”，是固定搭配，用 at 不用 on。",
+      "question_zh": "—孩子们，周末你们通常做什么？—我们踢足球。"
+    },
+    {
+      "unit": "Unit 3",
+      "category": "Unit 3 · at the weekend",
+      "question": "I often visit my grandparents ___ the weekend.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "of"
+      ],
+      "answer": 0,
+      "explain": "at the weekend 表示“在周末”。",
+      "question_zh": "我周末经常看望祖父母。"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · should",
+      "question": "We ___ eat healthy food.",
+      "options": [
+        "should",
+        "shouldn't",
+        "are",
+        "do"
+      ],
+      "answer": 0,
+      "explain": "should 表示“应该”，用来提建议，后面接动词原形 eat。",
+      "question_zh": "我们应该吃健康的食物。"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · shouldn't",
+      "question": "You ___ play on a phone so often.",
+      "options": [
+        "shouldn't",
+        "should",
+        "don't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explain": "shouldn't 表示“不应该”，用于否定建议，后面接动词原形 play。",
+      "question_zh": "你不应总是玩手机。"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · can 表许可",
+      "question": "— ___ I play on Mum's phone? — No. You shouldn't play on a phone so often.",
+      "options": [
+        "Can",
+        "Do",
+        "Am",
+        "Should"
+      ],
+      "answer": 0,
+      "explain": "Can I ...? 用来征询许可“我可以……吗”。",
+      "question_zh": "—我可以玩妈妈的手机吗？—不行。你不应总是玩手机。"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · can 表许可",
+      "question": "— Can I watch TV now? — Yes, you ___.",
+      "options": [
+        "can",
+        "do",
+        "are",
+        "should"
+      ],
+      "answer": 0,
+      "explain": "Can 开头的问句，肯定简答用 Yes, you can.",
+      "question_zh": "—我现在可以看电视吗？—是的，你可以。"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · How can we...?",
+      "question": "___ can we all stay healthy?",
+      "options": [
+        "How",
+        "What",
+        "Why",
+        "Where"
+      ],
+      "answer": 0,
+      "explain": "How can we ...? 用来问“我们怎样才能……”，用 How 提问方式。",
+      "question_zh": "我们怎样才能保持健康？"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · How can we...?",
+      "question": "How ___ we stay healthy?",
+      "options": [
+        "can",
+        "do",
+        "are",
+        "should"
+      ],
+      "answer": 0,
+      "explain": "How can we + 动词原形？表示“我们怎样才能……”。",
+      "question_zh": "我们怎样才能保持健康？"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · 情态动词后接原形",
+      "question": "We should ___ more exercise.",
+      "options": [
+        "take",
+        "takes",
+        "taking",
+        "to take"
+      ],
+      "answer": 0,
+      "explain": "情态动词 should 后面接动词原形 take。",
+      "question_zh": "我们应该多做运动。"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · 情态动词后接原形",
+      "question": "You shouldn't ___ too much meat.",
+      "options": [
+        "eat",
+        "eats",
+        "eating",
+        "to eat"
+      ],
+      "answer": 0,
+      "explain": "情态动词 shouldn't 后面接动词原形 eat。",
+      "question_zh": "你不应该吃太多肉。"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · less + 不可数名词",
+      "question": "Eat ___ meat. It's not good for you.",
+      "options": [
+        "less",
+        "fewer",
+        "little",
+        "few"
+      ],
+      "answer": 0,
+      "explain": "less 与不可数名词连用，表示“较少的”；fewer 与可数名词复数连用。meat 是不可数名词。",
+      "question_zh": "少吃点肉。它对你不好。"
+    },
+    {
+      "unit": "Unit 4",
+      "category": "Unit 4 · less + 不可数名词",
+      "question": "Drink ___ cola. It's bad for your teeth.",
+      "options": [
+        "less",
+        "fewer",
+        "a few",
+        "many"
+      ],
+      "answer": 0,
+      "explain": "cola 是不可数名词，前面用 less 表示“较少的”；fewer 只能修饰可数名词复数。",
+      "question_zh": "少喝点可乐。它对牙齿不好。"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · would like",
+      "question": "I'd like ___ and rice.",
+      "options": [
+        "beef",
+        "beeves",
+        "a beef",
+        "beefs"
+      ],
+      "answer": 0,
+      "explain": "would like + 名词，表示“想要……”。beef 是不可数名词，没有复数形式。",
+      "question_zh": "我想吃牛肉和米饭。"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · would like",
+      "question": "— What ___ you like to eat? — I'd like beef and rice.",
+      "options": [
+        "would",
+        "do",
+        "are",
+        "will"
+      ],
+      "answer": 0,
+      "explain": "What would you like to eat? 表示“你想吃些什么？”，would like 表示“想要”。",
+      "question_zh": "—你想吃些什么？—我想吃牛肉和米饭。"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · Would you like...?",
+      "question": "— Would you like some chicken soup too? — ___",
+      "options": [
+        "Yes, please.",
+        "Yes, I would like.",
+        "No, please.",
+        "Yes, I do."
+      ],
+      "answer": 0,
+      "explain": "Would you like ...? 表示礼貌地询问“你想要……吗”，接受时说 Yes, please.",
+      "question_zh": "—你还想喝鸡汤吗？—是的，请（给我鸡汤）。"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · Would you like...?",
+      "question": "— ___ you like some tea? — Yes, please.",
+      "options": [
+        "Would",
+        "Do",
+        "Are",
+        "Will"
+      ],
+      "answer": 0,
+      "explain": "礼貌地询问要不要某物用 Would you like ...?，回答 Yes, please.",
+      "question_zh": "—你想喝点茶吗？—是的，请。"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · some 的用法",
+      "question": "I'd like ___ dumplings.",
+      "options": [
+        "some",
+        "any",
+        "a",
+        "an"
+      ],
+      "answer": 0,
+      "explain": "some 用于肯定句中表示“一些”，后可接可数名词复数（dumplings）或不可数名词。",
+      "question_zh": "我想要一些饺子。"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · some 的用法",
+      "question": "— Would you like ___ tea? — Yes, please.",
+      "options": [
+        "some",
+        "any",
+        "many",
+        "a"
+      ],
+      "answer": 0,
+      "explain": "在表示“请求、询问、建议”的疑问句中，也用 some 而不用 any。",
+      "question_zh": "—你想喝点茶吗？—是的，请。"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · Where does... come from?",
+      "question": "— Where does your coconut ___ from? — Hainan!",
+      "options": [
+        "come",
+        "comes",
+        "coming",
+        "came"
+      ],
+      "answer": 0,
+      "explain": "主语 coconut 是第三人称单数，疑问句用 does，后面动词用原形 come。",
+      "question_zh": "—你的椰子是哪里的？—海南！"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · Where does... come from?",
+      "question": "— Where ___ your coconut come from? — Hainan!",
+      "options": [
+        "does",
+        "do",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explain": "Where does + 第三人称单数主语 + 动词原形 + come from? 用来问“某物来自哪里”。",
+      "question_zh": "—你的椰子是哪里的？—海南！"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · 可数 / 不可数名词",
+      "question": "There are some ___ on the table.",
+      "options": [
+        "dumplings",
+        "dumpling",
+        "a dumpling",
+        "rice"
+      ],
+      "answer": 0,
+      "explain": "dumpling 是可数名词，前面有 some 且 be 动词是 are，要用复数 dumplings。",
+      "question_zh": "桌子上有一些饺子。"
+    },
+    {
+      "unit": "Unit 5",
+      "category": "Unit 5 · 可数 / 不可数名词",
+      "question": "I'd like some ___, please.",
+      "options": [
+        "tea",
+        "teas",
+        "a tea",
+        "teaes"
+      ],
+      "answer": 0,
+      "explain": "tea 是不可数名词，不能加 s 或加 a，直接用 some tea。",
+      "question_zh": "请给我一些茶。"
+    },
+    {
+      "unit": "Unit 6",
+      "category": "Unit 6 · There be 句型",
+      "question": "There ___ also many rivers in the nature park.",
+      "options": [
+        "are",
+        "is",
+        "be",
+        "have"
+      ],
+      "answer": 0,
+      "explain": "There be 句型中，be 动词与后面的名词一致；many rivers 是复数，用 are。",
+      "question_zh": "这个自然公园里还有许多河流。"
+    },
+    {
+      "unit": "Unit 6",
+      "category": "Unit 6 · There be 句型",
+      "question": "— Is there a waterfall in the forest? — Yes, there ___.",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "do"
+      ],
+      "answer": 0,
+      "explain": "There be 的一般疑问句把 be 动词提前；主语 a waterfall 是单数，简答 Yes, there is.",
+      "question_zh": "—森林里有瀑布吗？—是的，这里有。"
+    },
+    {
+      "unit": "Unit 6",
+      "category": "Unit 6 · some / any",
+      "question": "— Are there ___ famous mountains in the nature park? — Yes, there are.",
+      "options": [
+        "any",
+        "some",
+        "a",
+        "many"
+      ],
+      "answer": 0,
+      "explain": "一般疑问句中通常用 any，不用 some。",
+      "question_zh": "—自然公园里有名山吗？—是的，这里有。"
+    },
+    {
+      "unit": "Unit 6",
+      "category": "Unit 6 · some / any",
+      "question": "There are ___ beautiful flowers in the park.",
+      "options": [
+        "some",
+        "any",
+        "a",
+        "an"
+      ],
+      "answer": 0,
+      "explain": "肯定句中用 some 表示“一些”。",
+      "question_zh": "公园里有一些美丽的花。"
+    },
+    {
+      "unit": "Unit 6",
+      "category": "Unit 6 · will",
+      "question": "There ___ be heavy rain in the afternoon too.",
+      "options": [
+        "will",
+        "is",
+        "are",
+        "does"
+      ],
+      "answer": 0,
+      "explain": "There will be ... 表示“将会有……”，will 后面接 be。",
+      "question_zh": "今天下午还将有大雨。"
+    },
+    {
+      "unit": "Unit 6",
+      "category": "Unit 6 · will",
+      "question": "There will ___ heavy rain tomorrow.",
+      "options": [
+        "be",
+        "is",
+        "are",
+        "have"
+      ],
+      "answer": 0,
+      "explain": "will 后面接动词原形，There will be ... 表示“将会有……”。",
+      "question_zh": "明天将有大雨。"
+    },
+    {
+      "unit": "Unit 6",
+      "category": "Unit 6 · 介词 in + 地点",
+      "question": "There are many rivers ___ the nature park.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "in 表示“在……里面”，in the nature park 意为“在自然公园里”。",
+      "question_zh": "自然公园里有许多河流。"
+    },
+    {
+      "unit": "Unit 6",
+      "category": "Unit 6 · 介词 in + 地点",
+      "question": "Is there a waterfall ___ the forest?",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "of"
+      ],
+      "answer": 0,
+      "explain": "in the forest 表示“在森林里”。",
+      "question_zh": "森林里有瀑布吗？"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u1-describe-people",
+      "unit": "Unit 1",
+      "title": "怎样描述一个人",
+      "summary": "问一个人的样子或性格用 What's he / she like?，回答用“He's / She's + 形容词”；问他会不会做什么，用 Can you ...?，回答 Yes, I can. / No, I can't.",
+      "structure": [
+        {
+          "tag": "问样子",
+          "en": "What's he like?",
+          "zh": "他什么样？"
+        },
+        {
+          "tag": "答",
+          "en": "He's tall and strong.",
+          "zh": "他又高又壮。"
+        },
+        {
+          "tag": "问擅长",
+          "en": "Is he good at football?",
+          "zh": "他擅长足球吗？"
+        },
+        {
+          "tag": "答",
+          "en": "Yes, I think he is.",
+          "zh": "是的，我想他擅长。"
+        },
+        {
+          "tag": "问能力",
+          "en": "Can you make robots?",
+          "zh": "你能制作机器人吗？"
+        },
+        {
+          "tag": "答",
+          "en": "No, I can't.",
+          "zh": "不，我不能。"
+        }
+      ],
+      "example": [
+        {
+          "en": "He's clever and hard-working.",
+          "zh": "他聪明又勤奋。"
+        },
+        {
+          "en": "She's good at chess.",
+          "zh": "她擅长国际象棋。"
+        },
+        {
+          "en": "I can make a robot.",
+          "zh": "我能制作机器人。"
+        }
+      ],
+      "mistake": "What's he like? 问的是“他什么样（外貌或性格）”，不是“他喜欢什么”，like 在这里是介词。"
+    },
+    {
+      "id": "u2-feelings",
+      "unit": "Unit 2",
+      "title": "怎样谈论心情",
+      "summary": "询问对方怎么了用 What's the matter?；表示“看起来……”用 look + 形容词；表示必须、需要做某事用 have to / need to；提建议可以用 Why not + 动词原形。",
+      "structure": [
+        {
+          "tag": "问怎么了",
+          "en": "What's the matter?",
+          "zh": "怎么了？"
+        },
+        {
+          "tag": "看起来",
+          "en": "You look sad.",
+          "zh": "你看起来不开心。"
+        },
+        {
+          "tag": "必须做",
+          "en": "We have to finish our project by Monday.",
+          "zh": "我们得在星期一之前完成项目。"
+        },
+        {
+          "tag": "需要做",
+          "en": "I need to talk to Mike.",
+          "zh": "我需要和迈克谈谈。"
+        },
+        {
+          "tag": "提建议",
+          "en": "Why not do both?",
+          "zh": "为什么不两个活动都做呢？"
+        },
+        {
+          "tag": "评价",
+          "en": "It's important to listen to each other.",
+          "zh": "听取彼此的想法很重要。"
+        }
+      ],
+      "example": [
+        {
+          "en": "Mike looks excited.",
+          "zh": "迈克看起来很兴奋。"
+        },
+        {
+          "en": "We have to stay at home today.",
+          "zh": "我们今天必须待在家里。"
+        },
+        {
+          "en": "It's good to help each other.",
+          "zh": "互相帮助是好事。"
+        }
+      ],
+      "mistake": "look 后面接形容词，不接副词，如 You look sad.（不是 sadly）；have to / need to 后面接动词原形。"
+    },
+    {
+      "id": "u3-work-and-play",
+      "unit": "Unit 3",
+      "title": "谈谈课程与周末",
+      "summary": "星期几前面用介词 on；问“某天有什么课”用 What do you have on ...?；主语是第三人称单数时，疑问句用 Does 提问；频率副词 usually / often / sometimes 放在实义动词前；在周末用 at the weekend。",
+      "structure": [
+        {
+          "tag": "星期用 on",
+          "en": "I have music on Wednesdays.",
+          "zh": "我星期三有音乐课。"
+        },
+        {
+          "tag": "问课程",
+          "en": "What do you have on Wednesdays?",
+          "zh": "星期三你有什么课？"
+        },
+        {
+          "tag": "三单提问",
+          "en": "Does your mother work on Sundays?",
+          "zh": "你妈妈星期日工作吗？"
+        },
+        {
+          "tag": "三单简答",
+          "en": "Yes, she does.",
+          "zh": "是的，她工作。"
+        },
+        {
+          "tag": "频率",
+          "en": "I often play football at the weekend.",
+          "zh": "我周末经常踢足球。"
+        },
+        {
+          "tag": "在周末",
+          "en": "What do you usually do at the weekend?",
+          "zh": "周末你通常做什么？"
+        }
+      ],
+      "example": [
+        {
+          "en": "I have Chinese and maths on Mondays.",
+          "zh": "我星期一有语文课和数学课。"
+        },
+        {
+          "en": "She usually visits her grandparents at the weekend.",
+          "zh": "她周末通常看望祖父母。"
+        },
+        {
+          "en": "What's your favourite day at school?",
+          "zh": "你在学校最喜欢哪一天？"
+        }
+      ],
+      "mistake": "星期前面用 on，不用 in 或 at；表示“在周末”用 at the weekend；Does 后面的动词要用原形。"
+    },
+    {
+      "id": "u4-healthy-habits",
+      "unit": "Unit 4",
+      "title": "怎样提健康建议",
+      "summary": "提建议用 should（应该），否定建议用 shouldn't（不应该）；询问许可用 Can I ...?；情态动词后面接动词原形；less 用于不可数名词，表示“较少的”。",
+      "structure": [
+        {
+          "tag": "应该",
+          "en": "We should eat healthy food.",
+          "zh": "我们应该吃健康的食物。"
+        },
+        {
+          "tag": "不应该",
+          "en": "You shouldn't play on a phone so often.",
+          "zh": "你不应总是玩手机。"
+        },
+        {
+          "tag": "问许可",
+          "en": "Can I play on Mum's phone?",
+          "zh": "我可以玩妈妈的手机吗？"
+        },
+        {
+          "tag": "问方式",
+          "en": "How can we all stay healthy?",
+          "zh": "我们怎样才能保持健康？"
+        },
+        {
+          "tag": "情态动词+原形",
+          "en": "We should take more exercise.",
+          "zh": "我们应该多做运动。"
+        },
+        {
+          "tag": "less+不可数",
+          "en": "Eat less meat.",
+          "zh": "少吃点肉。"
+        }
+      ],
+      "example": [
+        {
+          "en": "You should go to bed early.",
+          "zh": "你应该早点睡觉。"
+        },
+        {
+          "en": "We shouldn't watch TV for too long.",
+          "zh": "我们不该看太久的电视。"
+        },
+        {
+          "en": "Drink less cola, please.",
+          "zh": "请少喝点可乐。"
+        }
+      ],
+      "mistake": "should / shouldn't / can 后面接动词原形，不加 s 也不加 to，如 We should eat...（不是 eats）。"
+    },
+    {
+      "id": "u5-food-we-eat",
+      "unit": "Unit 5",
+      "title": "怎样说想吃什么",
+      "summary": "表达“想要……”用 would like；礼貌地询问对方要不要某物用 Would you like some ...?，接受时回答 Yes, please.；肯定句中用 some；询问某物来自哪里用 Where does ... come from?。",
+      "structure": [
+        {
+          "tag": "想要",
+          "en": "I'd like beef and rice.",
+          "zh": "我想吃牛肉和米饭。"
+        },
+        {
+          "tag": "问吃什么",
+          "en": "What would you like to eat?",
+          "zh": "你想吃些什么？"
+        },
+        {
+          "tag": "礼貌询问",
+          "en": "Would you like some chicken soup too?",
+          "zh": "你还想喝鸡汤吗？"
+        },
+        {
+          "tag": "接受",
+          "en": "Yes, please.",
+          "zh": "是的，请。"
+        },
+        {
+          "tag": "问产地",
+          "en": "Where does your coconut come from?",
+          "zh": "你的椰子是哪里的？"
+        },
+        {
+          "tag": "some",
+          "en": "I'd like some dumplings.",
+          "zh": "我想要一些饺子。"
+        }
+      ],
+      "example": [
+        {
+          "en": "I'd like some tea, please.",
+          "zh": "请给我一些茶。"
+        },
+        {
+          "en": "Would you like some beef?",
+          "zh": "你想要些牛肉吗？"
+        },
+        {
+          "en": "Where does the tea come from?",
+          "zh": "这茶是哪里产的？"
+        }
+      ],
+      "mistake": "不可数名词（beef, tea, rice）不能加 s 或加 a；询问产地用 Where does ... come from?，come 不加 s，前面用 does。"
+    },
+    {
+      "id": "u6-nature-and-us",
+      "unit": "Unit 6",
+      "title": "自然公园里有什么",
+      "summary": "表示“某处有……”用 There be 句型，be 动词与后面的名词保持一致；疑问句和否定句中用 any；表示“将会有……”用 There will be ...；地点前用介词 in。",
+      "structure": [
+        {
+          "tag": "陈述",
+          "en": "There are many rivers in the nature park.",
+          "zh": "自然公园里有许多河流。"
+        },
+        {
+          "tag": "问",
+          "en": "Is there a waterfall in the forest?",
+          "zh": "森林里有瀑布吗？"
+        },
+        {
+          "tag": "答",
+          "en": "Yes, there is.",
+          "zh": "是的，这里有。"
+        },
+        {
+          "tag": "复数问",
+          "en": "Are there any famous mountains?",
+          "zh": "有名山吗？"
+        },
+        {
+          "tag": "将来",
+          "en": "There will be heavy rain.",
+          "zh": "将会有大雨。"
+        },
+        {
+          "tag": "地点",
+          "en": "in the forest",
+          "zh": "在森林里"
+        }
+      ],
+      "example": [
+        {
+          "en": "There is a lake near the hotel.",
+          "zh": "旅馆附近有一个湖。"
+        },
+        {
+          "en": "Are there any forests in your city?",
+          "zh": "你的城市里有森林吗？"
+        },
+        {
+          "en": "There will be strong wind tomorrow.",
+          "zh": "明天将有大风。"
+        }
+      ],
+      "mistake": "There be 句型的 be 动词要和后面第一个名词保持一致（单数 is、复数 are）；疑问句中用 any 而不用 some。"
     }
   ]
 }
