@@ -6413,56 +6413,897 @@ window.__EMBEDDED_BANKS = {
     ],
     "grammar": [
       {
-        "category": "介词",
-        "question": "The book is ___ the desk.",
+        "unit": "Unit 1",
+        "category": "Unit 1 · 一般现在时三单",
+        "question": "He ___ up at 6:30 every morning.",
+        "options": [
+          "get",
+          "gets",
+          "getting",
+          "to get"
+        ],
+        "answer": 1,
+        "explain": "一般现在时中，主语 He 是第三人称单数，动词用 gets（get + s）。",
+        "question_zh": "他每天早上6:30起床。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 一般现在时三单",
+        "question": "My mother ___ breakfast at seven.",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "to eat"
+        ],
+        "answer": 1,
+        "explain": "主语 My mother 是第三人称单数，一般现在时动词用 eats。",
+        "question_zh": "我妈妈七点吃早饭。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 一般现在时疑问句",
+        "question": "— When ___ you get up? — I get up at 6:30.",
+        "options": [
+          "do",
+          "does",
+          "are",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "主语 you 是第二人称，一般现在时疑问句用 do 提问，后面动词用原形 get。",
+        "question_zh": "—你什么时候起床？—我6:30起床。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 一般现在时疑问句",
+        "question": "— Does he play sports after school? — Yes, he ___.",
+        "options": [
+          "does",
+          "do",
+          "is",
+          "plays"
+        ],
+        "answer": 0,
+        "explain": "Does 开头的问句，肯定简答用 Yes, he does.，不能用 is 或 plays。",
+        "question_zh": "—他放学后参加体育运动吗？—是的，他参加。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 频率副词",
+        "question": "I ___ get up at 6:30.",
+        "options": [
+          "usually",
+          "usual",
+          "usually's",
+          "to usually"
+        ],
+        "answer": 0,
+        "explain": "频率副词 usually 放在实义动词前，表示“通常”。",
+        "question_zh": "我通常6:30起床。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 频率副词",
+        "question": "She ___ goes shopping on Sunday.",
+        "options": [
+          "often",
+          "oftens",
+          "oftening",
+          "to often"
+        ],
+        "answer": 0,
+        "explain": "频率副词 often 放在实义动词前；频率副词本身不变形。",
+        "question_zh": "她星期天经常去购物。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 时间介词",
+        "question": "We have class ___ eight o'clock.",
+        "options": [
+          "at",
+          "in",
+          "on",
+          "for"
+        ],
+        "answer": 0,
+        "explain": "具体钟点前用介词 at，如 at eight o'clock。",
+        "question_zh": "我们八点上课。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 时间介词",
+        "question": "I do morning exercises ___ the morning.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "of"
+        ],
+        "answer": 0,
+        "explain": "in the morning 表示“在早上”，泛指时间段用 in；只有具体钟点才用 at。",
+        "question_zh": "我在早上做早操。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · Which season...best?",
+        "question": "— Which season ___ you like best? — I like summer best.",
+        "options": [
+          "do",
+          "does",
+          "are",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "Which season do you like best? 用来问“你最喜欢哪个季节”，主语 you 用 do。",
+        "question_zh": "—你最喜欢哪个季节？—我最喜欢夏天。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · Which season...best?",
+        "question": "— Which season do you like ___? — I like autumn best.",
+        "options": [
+          "best",
+          "better",
+          "good",
+          "well"
+        ],
+        "answer": 0,
+        "explain": "like ... best 表示“最喜欢……”，best 是 well 的最高级。",
+        "question_zh": "—你最喜欢哪个季节？—我最喜欢秋天。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · Why / Because",
+        "question": "— ___ do you like summer? — Because I can swim.",
+        "options": [
+          "Why",
+          "What",
+          "When",
+          "How"
+        ],
+        "answer": 0,
+        "explain": "问原因用 Why，回答时用 Because 引导。",
+        "question_zh": "—你为什么喜欢夏天？—因为我可以游泳。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · Why / Because",
+        "question": "— Why do you like winter? — ___ I can make a snowman.",
+        "options": [
+          "Because",
+          "So",
+          "And",
+          "But"
+        ],
+        "answer": 0,
+        "explain": "Because 引导原因，用来回答 Why 的提问。",
+        "question_zh": "—你为什么喜欢冬天？—因为我可以堆雪人。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · like + 名词/动名词",
+        "question": "I like ___ very much.",
+        "options": [
+          "snow",
+          "snows",
+          "a snow",
+          "snowing"
+        ],
+        "answer": 0,
+        "explain": "like 后可接名词；snow 作“雪”是不可数名词，不加 s。",
+        "question_zh": "我非常喜欢雪。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · like + 名词/动名词",
+        "question": "He likes ___.",
+        "options": [
+          "swim",
+          "swimming",
+          "to swimming",
+          "swims"
+        ],
+        "answer": 1,
+        "explain": "like 后面接动词时用动名词（-ing）形式，所以用 swimming。",
+        "question_zh": "他喜欢游泳。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 描述季节与天气",
+        "question": "It's always ___ and cool in autumn.",
+        "options": [
+          "sunny",
+          "sun",
+          "suns",
+          "sunning"
+        ],
+        "answer": 0,
+        "explain": "描述天气用形容词；sun 是名词，sunny 才是形容词“晴朗的”。",
+        "question_zh": "秋天总是晴朗又凉爽。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 描述季节与天气",
+        "question": "There ___ lots of flowers in spring.",
+        "options": [
+          "are",
+          "is",
+          "be",
+          "have"
+        ],
+        "answer": 0,
+        "explain": "There be 句型中，lots of flowers 是复数，be 动词用 are。",
+        "question_zh": "春天有许多花。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · 月份前用 in",
+        "question": "We have a school trip ___ March.",
         "options": [
           "in",
           "on",
           "at",
-          "to"
+          "for"
         ],
-        "answer": 1,
-        "explain": "在物体表面上用 on。",
-        "question_zh": "书在书桌上面。"
+        "answer": 0,
+        "explain": "月份前用介词 in，如 in March。",
+        "question_zh": "我们三月有学校旅行。"
       },
       {
-        "category": "一般现在",
-        "question": "She ___ apples.",
+        "unit": "Unit 3",
+        "category": "Unit 3 · 月份前用 in",
+        "question": "The art show is ___ April.",
         "options": [
-          "like",
-          "likes",
-          "liking",
-          "liked"
+          "in",
+          "on",
+          "at",
+          "of"
         ],
-        "answer": 1,
-        "explain": "主语 she 第三人称单数，动词加 s 为 likes。",
-        "question_zh": "她喜欢苹果。"
+        "answer": 0,
+        "explain": "只说月份时用 in；若说具体日期则用 on。",
+        "question_zh": "艺术展在四月。"
       },
       {
-        "category": "特殊疑问",
-        "question": "___ is your name?",
+        "unit": "Unit 3",
+        "category": "Unit 3 · When is...?",
+        "question": "— ___ is the English test? — It's in June.",
         "options": [
+          "When",
           "What",
           "Where",
-          "Who",
           "How"
         ],
         "answer": 0,
-        "explain": "问名字用 What。",
-        "question_zh": "你叫什么名字？"
+        "explain": "问某事在什么时候用 When is ...?，回答 It's in + 月份。",
+        "question_zh": "—英语测试是什么时候？—在六月。"
       },
       {
-        "category": "there be",
-        "question": "There ___ many flowers in the garden.",
+        "unit": "Unit 3",
+        "category": "Unit 3 · When is...?",
+        "question": "— When is the sports meet? — ___ in May.",
+        "options": [
+          "It's",
+          "Its",
+          "Is",
+          "They're"
+        ],
+        "answer": 0,
+        "explain": "回答 When is ...? 用 It's in + 月份。",
+        "question_zh": "—运动会是什么时候？—在五月。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · 序数词",
+        "question": "January is the ___ month of a year.",
+        "options": [
+          "first",
+          "one",
+          "once",
+          "frist"
+        ],
+        "answer": 0,
+        "explain": "序数词 first 表示“第一”，用来表示顺序。",
+        "question_zh": "一月是一年中的第一个月。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · 序数词",
+        "question": "February is the ___ month of a year.",
+        "options": [
+          "second",
+          "two",
+          "twice",
+          "seconds"
+        ],
+        "answer": 0,
+        "explain": "序数词 second 表示“第二”。",
+        "question_zh": "二月是一年中的第二个月。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 序数词与日期",
+        "question": "March 3rd is read as “March ___”.",
+        "options": [
+          "third",
+          "three",
+          "thirdth",
+          "the three"
+        ],
+        "answer": 0,
+        "explain": "序数词 third 表示“第三”，用于日期。",
+        "question_zh": "3月3日读作“March third”。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 序数词与日期",
+        "question": "My birthday is on May ___ (21st).",
+        "options": [
+          "twenty-first",
+          "twenty-one",
+          "twentieth-first",
+          "twenty-firstth"
+        ],
+        "answer": 0,
+        "explain": "序数词 twenty-first 表示“第二十一”；表示日期用序数词。",
+        "question_zh": "我的生日在5月21日。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 日期前用 on",
+        "question": "The art show is ___ April 1st.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "of"
+        ],
+        "answer": 0,
+        "explain": "具体日期（几月几日）前用介词 on；只说月份才用 in。",
+        "question_zh": "艺术展在4月1日。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 日期前用 on",
+        "question": "My birthday is ___ June 5th.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ],
+        "answer": 0,
+        "explain": "具体日期前用介词 on。",
+        "question_zh": "我的生日在6月5日。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · When is...? It's on...",
+        "question": "— When is the art show? — It's ___ April 1st.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "of"
+        ],
+        "answer": 0,
+        "explain": "回答具体日期时用 It's on + 日期。",
+        "question_zh": "—艺术展是什么时候？—在4月1日。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · When is...? It's on...",
+        "question": "— When is your birthday? — It's ___ October 12th.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "for"
+        ],
+        "answer": 0,
+        "explain": "回答具体日期时用 It's on + 日期。",
+        "question_zh": "—你的生日是什么时候？—在10月12日。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · Whose + 名词",
+        "question": "— ___ book is this? — It's mine.",
+        "options": [
+          "Whose",
+          "Who",
+          "What",
+          "Which"
+        ],
+        "answer": 0,
+        "explain": "Whose 用来问“谁的”，后接名词；Whose book is this? 意为“这是谁的书？”",
+        "question_zh": "—这是谁的书？—是我的。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · Whose + 名词",
+        "question": "— ___ bags are these? — They're John's.",
+        "options": [
+          "Whose",
+          "Who",
+          "What",
+          "Where"
+        ],
+        "answer": 0,
+        "explain": "Whose 后接名词问归属；主语是复数 bags，回答用 They're。",
+        "question_zh": "—这些是谁的包？—是约翰的。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 名词性物主代词",
+        "question": "The book is ___.",
+        "options": [
+          "mine",
+          "my",
+          "me",
+          "I"
+        ],
+        "answer": 0,
+        "explain": "mine 是名词性物主代词，相当于 my book，后面不再接名词。",
+        "question_zh": "这本书是我的。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 名词性物主代词",
+        "question": "This dog is ___.",
+        "options": [
+          "hers",
+          "her",
+          "she",
+          "she's"
+        ],
+        "answer": 0,
+        "explain": "hers 是名词性物主代词，相当于 her dog；her 后面必须接名词。",
+        "question_zh": "这只狗是她的。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 形容词性物主代词",
+        "question": "This is ___ dog.",
+        "options": [
+          "my",
+          "mine",
+          "me",
+          "I"
+        ],
+        "answer": 0,
+        "explain": "形容词性物主代词 my 后面要接名词（my dog）。",
+        "question_zh": "这是我的狗。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 形容词性物主代词",
+        "question": "That is ___ book.",
+        "options": [
+          "his",
+          "he",
+          "him",
+          "he's"
+        ],
+        "answer": 0,
+        "explain": "形容词性物主代词 his 后面接名词（his book）；his 也可作名词性物主代词。",
+        "question_zh": "那是他的书。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 现在进行时",
+        "question": "Look! The dog ___ jumping.",
         "options": [
           "is",
           "are",
           "am",
           "be"
         ],
-        "answer": 1,
-        "explain": "many flowers 复数，用 are。",
-        "question_zh": "花园里有很多花。"
+        "answer": 0,
+        "explain": "现在进行时用 be + 动词-ing；主语 The dog 是单数，用 is。",
+        "question_zh": "看！那只狗正在跳。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 现在进行时",
+        "question": "The rabbits ___ running.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "be"
+        ],
+        "answer": 0,
+        "explain": "现在进行时中，主语 The rabbits 是复数，be 动词用 are。",
+        "question_zh": "那些兔子正在跑。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 现在进行时疑问句",
+        "question": "— What are you ___? — I'm reading a book.",
+        "options": [
+          "doing",
+          "do",
+          "does",
+          "did"
+        ],
+        "answer": 0,
+        "explain": "现在进行时疑问句 What are you doing? 意为“你正在做什么？”，doing 是 do 的 -ing 形式。",
+        "question_zh": "—你正在做什么？—我正在看书。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 现在进行时疑问句",
+        "question": "— What are you doing? — I'm ___ an English book.",
+        "options": [
+          "reading",
+          "read",
+          "reads",
+          "to read"
+        ],
+        "answer": 0,
+        "explain": "现在进行时用 be + 动词-ing，所以用 reading。",
+        "question_zh": "—你在做什么？—我在读英语书。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 现在进行时三单",
+        "question": "— What ___ he doing? — He's playing football.",
+        "options": [
+          "is",
+          "are",
+          "does",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "现在进行时疑问句中，主语 he 是第三人称单数，be 动词用 is。",
+        "question_zh": "—他在做什么？—他在踢足球。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 现在进行时三单",
+        "question": "She is ___ the piano.",
+        "options": [
+          "playing",
+          "play",
+          "plays",
+          "to play"
+        ],
+        "answer": 0,
+        "explain": "现在进行时用 be + 动词-ing，play 的 -ing 形式是 playing。",
+        "question_zh": "她正在弹钢琴。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 祈使句",
+        "question": "___ quietly, please.",
+        "options": [
+          "Work",
+          "Works",
+          "Working",
+          "To work"
+        ],
+        "answer": 0,
+        "explain": "祈使句以动词原形开头，表示命令或要求，如 Work quietly.（请安静地工作。）",
+        "question_zh": "请安静地工作。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 祈使句",
+        "question": "___ talk in the library.",
+        "options": [
+          "Don't",
+          "Doesn't",
+          "Isn't",
+          "Not"
+        ],
+        "answer": 0,
+        "explain": "祈使句的否定形式用 Don't + 动词原形，表示“不要……”。",
+        "question_zh": "不要在图书馆里讲话。"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "u1-my-day",
+        "unit": "Unit 1",
+        "title": "谈谈我的一天",
+        "summary": "描述日常作息用一般现在时；主语是第三人称单数时动词要加 s；问“什么时候做某事”用 When do / does ...?；频率副词 usually / often 放在实义动词前；具体钟点前用 at，早上、下午等时间段用 in，星期用 on。",
+        "structure": [
+          {
+            "tag": "三单",
+            "en": "He gets up at 6:30.",
+            "zh": "他6:30起床。"
+          },
+          {
+            "tag": "问时间",
+            "en": "When do you get up?",
+            "zh": "你什么时候起床？"
+          },
+          {
+            "tag": "频率",
+            "en": "I usually get up at 6:30.",
+            "zh": "我通常6:30起床。"
+          },
+          {
+            "tag": "点钟用 at",
+            "en": "We have class at eight o'clock.",
+            "zh": "我们八点上课。"
+          },
+          {
+            "tag": "时间段用 in",
+            "en": "I do morning exercises in the morning.",
+            "zh": "我在早上做早操。"
+          },
+          {
+            "tag": "星期用 on",
+            "en": "I go shopping on Sunday.",
+            "zh": "我星期天去购物。"
+          }
+        ],
+        "example": [
+          {
+            "en": "I eat breakfast at seven.",
+            "zh": "我七点吃早饭。"
+          },
+          {
+            "en": "She often plays sports after school.",
+            "zh": "她放学后经常参加体育运动。"
+          },
+          {
+            "en": "He cleans his room every Saturday.",
+            "zh": "他每个星期六打扫他的房间。"
+          }
+        ],
+        "mistake": "一般现在时第三人称单数动词要加 s（gets / plays），其他人称用原形；Do / Does 后面的动词用原形。"
+      },
+      {
+        "id": "u2-favourite-season",
+        "unit": "Unit 2",
+        "title": "谈谈最喜欢的季节",
+        "summary": "问最喜欢的季节用 Which season do you like best?；问原因用 Why，回答用 Because；like 后面接名词或动名词（-ing）；描述季节天气用形容词。",
+        "structure": [
+          {
+            "tag": "问季节",
+            "en": "Which season do you like best?",
+            "zh": "你最喜欢哪个季节？"
+          },
+          {
+            "tag": "答",
+            "en": "I like summer best.",
+            "zh": "我最喜欢夏天。"
+          },
+          {
+            "tag": "问原因",
+            "en": "Why do you like summer?",
+            "zh": "你为什么喜欢夏天？"
+          },
+          {
+            "tag": "答原因",
+            "en": "Because I can swim.",
+            "zh": "因为我可以游泳。"
+          },
+          {
+            "tag": "like + 动名词",
+            "en": "I like swimming.",
+            "zh": "我喜欢游泳。"
+          },
+          {
+            "tag": "描述",
+            "en": "It's always sunny and cool in autumn.",
+            "zh": "秋天总是晴朗又凉爽。"
+          }
+        ],
+        "example": [
+          {
+            "en": "Which season do you like best?",
+            "zh": "你最喜欢哪个季节？"
+          },
+          {
+            "en": "I like winter best.",
+            "zh": "我最喜欢冬天。"
+          },
+          {
+            "en": "Because I can make a snowman.",
+            "zh": "因为我可以堆雪人。"
+          }
+        ],
+        "mistake": "like 后面接动词要用 -ing 形式（I like swimming），不能直接跟原形；回答 Why 用 Because 引导。"
+      },
+      {
+        "id": "u3-school-calendar",
+        "unit": "Unit 3",
+        "title": "谈谈学校日程",
+        "summary": "月份前面用介词 in；问“某事在什么时候”用 When is ...?，回答 It's in + 月份；表示顺序、第几要用序数词 first / second / third。",
+        "structure": [
+          {
+            "tag": "月份用 in",
+            "en": "We have a school trip in March.",
+            "zh": "我们三月有学校旅行。"
+          },
+          {
+            "tag": "问时间",
+            "en": "When is the English test?",
+            "zh": "英语测试是什么时候？"
+          },
+          {
+            "tag": "答",
+            "en": "It's in June.",
+            "zh": "在六月。"
+          },
+          {
+            "tag": "序数词",
+            "en": "January is the first month.",
+            "zh": "一月是第一个月。"
+          },
+          {
+            "tag": "序数词",
+            "en": "February is the second month.",
+            "zh": "二月是第二个月。"
+          }
+        ],
+        "example": [
+          {
+            "en": "The art show is in April.",
+            "zh": "艺术展在四月。"
+          },
+          {
+            "en": "When is the sports meet?",
+            "zh": "运动会是什么时候？"
+          },
+          {
+            "en": "It's in May.",
+            "zh": "在五月。"
+          }
+        ],
+        "mistake": "只说月份用 in（in March），说具体日期才用 on（on April 1st）。"
+      },
+      {
+        "id": "u4-art-show",
+        "unit": "Unit 4",
+        "title": "谈谈日期与序数词",
+        "summary": "表示“第几”用序数词（first, second, third, twenty-first …）；具体日期（几月几日）前用介词 on；问“在什么时候”用 When is ...?，回答 It's on + 日期。",
+        "structure": [
+          {
+            "tag": "序数词",
+            "en": "March 3rd = March third",
+            "zh": "3月3日读作 March third"
+          },
+          {
+            "tag": "日期用 on",
+            "en": "The art show is on April 1st.",
+            "zh": "艺术展在4月1日。"
+          },
+          {
+            "tag": "问",
+            "en": "When is the art show?",
+            "zh": "艺术展是什么时候？"
+          },
+          {
+            "tag": "答",
+            "en": "It's on April 1st.",
+            "zh": "在4月1日。"
+          },
+          {
+            "tag": "生日",
+            "en": "My birthday is on June 5th.",
+            "zh": "我的生日在6月5日。"
+          }
+        ],
+        "example": [
+          {
+            "en": "My birthday is on May 21st.",
+            "zh": "我的生日在5月21日。"
+          },
+          {
+            "en": "When is your birthday?",
+            "zh": "你的生日是什么时候？"
+          },
+          {
+            "en": "It's on October 12th.",
+            "zh": "在10月12日。"
+          }
+        ],
+        "mistake": "序数词不是基数词（1st = first，不是 one）；具体日期前用 on，月份前用 in。"
+      },
+      {
+        "id": "u5-whose-dog",
+        "unit": "Unit 5",
+        "title": "谈谈物品的归属",
+        "summary": "问“谁的”用 Whose + 名词?；形容词性物主代词（my / your / his / her …）后面要接名词；名词性物主代词（mine / yours / his / hers / ours / theirs）后面不接名词；描述图片中正在发生的事用现在进行时。",
+        "structure": [
+          {
+            "tag": "问归属",
+            "en": "Whose book is this?",
+            "zh": "这是谁的书？"
+          },
+          {
+            "tag": "名词性物主",
+            "en": "It's mine.",
+            "zh": "是我的。"
+          },
+          {
+            "tag": "形容词性+名词",
+            "en": "This is my dog.",
+            "zh": "这是我的狗。"
+          },
+          {
+            "tag": "名词性物主",
+            "en": "This dog is hers.",
+            "zh": "这只狗是她的。"
+          },
+          {
+            "tag": "现在进行时",
+            "en": "The dog is jumping.",
+            "zh": "那只狗正在跳。"
+          }
+        ],
+        "example": [
+          {
+            "en": "Whose bag is this?",
+            "zh": "这是谁的包？"
+          },
+          {
+            "en": "It's his.",
+            "zh": "是他的。"
+          },
+          {
+            "en": "Look! The rabbits are running.",
+            "zh": "看！兔子们在跑。"
+          }
+        ],
+        "mistake": "mine / hers / theirs 后不能再接名词；my / her / their 后面必须接名词。"
+      },
+      {
+        "id": "u6-work-quietly",
+        "unit": "Unit 6",
+        "title": "谈谈正在发生的事",
+        "summary": "描述正在发生的动作用现在进行时（be + 动词-ing）；问“正在做什么”用 What are you doing? / What is he doing?；祈使句以动词原形开头，表示要求或规则。",
+        "structure": [
+          {
+            "tag": "问",
+            "en": "What are you doing?",
+            "zh": "你正在做什么？"
+          },
+          {
+            "tag": "答",
+            "en": "I'm reading a book.",
+            "zh": "我正在看书。"
+          },
+          {
+            "tag": "问三单",
+            "en": "What is he doing?",
+            "zh": "他在做什么？"
+          },
+          {
+            "tag": "答",
+            "en": "He's playing football.",
+            "zh": "他在踢足球。"
+          },
+          {
+            "tag": "祈使句",
+            "en": "Work quietly.",
+            "zh": "请安静地工作。"
+          },
+          {
+            "tag": "否定祈使",
+            "en": "Don't talk in the library.",
+            "zh": "不要在图书馆里讲话。"
+          }
+        ],
+        "example": [
+          {
+            "en": "She is playing the piano.",
+            "zh": "她正在弹钢琴。"
+          },
+          {
+            "en": "What are you doing?",
+            "zh": "你在做什么？"
+          },
+          {
+            "en": "Don't run in the classroom.",
+            "zh": "不要在教室里跑。"
+          }
+        ],
+        "mistake": "现在进行时必须是 be + 动词-ing（is playing），不能只用一个动词；祈使句以动词原形开头。"
       }
     ]
   },
