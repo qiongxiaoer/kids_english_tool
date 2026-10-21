@@ -223,367 +223,661 @@ window.__EMBEDDED_BANKS = {
     "words": [
       {
         "grade": 3,
-        "word": "ruler",
-        "phonetic": "/ˈru:lə/",
-        "meaning": "尺子",
+        "word": "name",
+        "phonetic": "/neɪm/",
+        "meaning": "名字",
         "unit": "Unit 1"
       },
       {
         "grade": 3,
-        "word": "pencil",
-        "phonetic": "/ˈpensl/",
-        "meaning": "铅笔",
+        "word": "nice",
+        "phonetic": "/naɪs/",
+        "meaning": "令人愉快的；友好的",
         "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "eraser",
-        "phonetic": "/ɪˈreɪzə/",
-        "meaning": "橡皮",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "crayon",
-        "phonetic": "/ˈkreɪən/",
-        "meaning": "蜡笔",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "bag",
-        "phonetic": "/bæg/",
-        "meaning": "包",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "pen",
-        "phonetic": "/pen/",
-        "meaning": "钢笔",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "pencil box",
-        "phonetic": "/ˈpensl bɒks/",
-        "meaning": "铅笔盒",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "book",
-        "phonetic": "/bʊk/",
-        "meaning": "书",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "no",
-        "phonetic": "/nəʊ/",
-        "meaning": "不",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "your",
-        "phonetic": "/jɔ:(r)/",
-        "meaning": "你（们）的",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "red",
-        "phonetic": "/red/",
-        "meaning": "红色",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "green",
-        "phonetic": "/ɡri:n/",
-        "meaning": "绿色",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "yellow",
-        "phonetic": "/ˈjeləʊ/",
-        "meaning": "黄色",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "blue",
-        "phonetic": "/blu:/",
-        "meaning": "蓝色",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "black",
-        "phonetic": "/blæk/",
-        "meaning": "黑色",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "brown",
-        "phonetic": "/braʊn/",
-        "meaning": "棕色",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "white",
-        "phonetic": "/waɪt/",
-        "meaning": "白色",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "orange",
-        "phonetic": "/ˈɒrɪndʒ/",
-        "meaning": "橙色",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "OK",
-        "phonetic": "/əʊˈkeɪ/",
-        "meaning": "好",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "mum",
-        "phonetic": "/mʌm/",
-        "meaning": "妈妈",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "face",
-        "phonetic": "/feɪs/",
-        "meaning": "脸",
-        "unit": "Unit 3"
       },
       {
         "grade": 3,
         "word": "ear",
-        "phonetic": "/ɪə/",
+        "phonetic": "/ɪə(r)/",
         "meaning": "耳朵",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "eye",
-        "phonetic": "/aɪ/",
-        "meaning": "眼睛",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "nose",
-        "phonetic": "/nəʊz/",
-        "meaning": "鼻子",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "mouth",
-        "phonetic": "/maʊθ/",
-        "meaning": "嘴",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "arm",
-        "phonetic": "/ɑ:m/",
-        "meaning": "胳膊",
-        "unit": "Unit 3"
+        "unit": "Unit 1"
       },
       {
         "grade": 3,
         "word": "hand",
         "phonetic": "/hænd/",
         "meaning": "手",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "eye",
+        "phonetic": "/aɪ/",
+        "meaning": "眼睛",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "mouth",
+        "phonetic": "/maʊθ/",
+        "meaning": "嘴",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "arm",
+        "phonetic": "/ɑːm/",
+        "meaning": "胳膊",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "can",
+        "phonetic": "/kæn, kən/",
+        "meaning": "可以",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "share",
+        "phonetic": "/ʃeə(r)/",
+        "meaning": "分享",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "smile",
+        "phonetic": "/smaɪl/",
+        "meaning": "微笑；笑",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "listen",
+        "phonetic": "/ˈlɪsn/",
+        "meaning": "听；倾听",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "help",
+        "phonetic": "/help/",
+        "meaning": "帮助",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "say",
+        "phonetic": "/seɪ/",
+        "meaning": "说；讲",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "friend",
+        "phonetic": "/frend/",
+        "meaning": "朋友",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "good",
+        "phonetic": "/gʊd/",
+        "meaning": "好的",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "mum",
+        "phonetic": "/mʌm/",
+        "meaning": "（口语）妈妈",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "dad",
+        "phonetic": "/dæd/",
+        "meaning": "（口语）爸爸；爹爹",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "grandma",
+        "phonetic": "/ˈgrænmɑː/",
+        "meaning": "奶奶；姥姥",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "grandpa",
+        "phonetic": "/ˈgrænpɑː/",
+        "meaning": "爷爷；姥爷",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "grandfather",
+        "phonetic": "/ˈgrænfɑːðə(r)/",
+        "meaning": "（外）祖父；爷爷；姥爷；外公",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "grandmother",
+        "phonetic": "/ˈgrænmʌðə(r)/",
+        "meaning": "（外）祖母；奶奶；姥姥；外婆",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "mother",
+        "phonetic": "/ˈmʌðə(r)/",
+        "meaning": "母亲；妈妈",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "father",
+        "phonetic": "/ˈfɑːðə(r)/",
+        "meaning": "父亲；爸爸",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "me",
+        "phonetic": "/miː/",
+        "meaning": "我",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "sister",
+        "phonetic": "/ˈsɪstə(r)/",
+        "meaning": "姐；妹",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "family",
+        "phonetic": "/ˈfæməli/",
+        "meaning": "家；家庭",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "have",
+        "phonetic": "/hæv/",
+        "meaning": "有",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "big",
+        "phonetic": "/bɪg/",
+        "meaning": "大的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "cousin",
+        "phonetic": "/ˈkʌzn/",
+        "meaning": "堂（表）兄弟；堂（表）姐妹",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "brother",
+        "phonetic": "/ˈbrʌðə(r)/",
+        "meaning": "哥；弟",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "baby",
+        "phonetic": "/ˈbeɪbi/",
+        "meaning": "婴儿",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "uncle",
+        "phonetic": "/ˈʌŋkl/",
+        "meaning": "伯父；叔父；舅父；姑父；姨父",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "aunt",
+        "phonetic": "/ɑːnt/",
+        "meaning": "伯母；婶母；舅母；姑母；姨母",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "small",
+        "phonetic": "/smɔːl/",
+        "meaning": "小的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "like",
+        "phonetic": "/laɪk/",
+        "meaning": "喜欢",
         "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "head",
-        "phonetic": "/hed/",
-        "meaning": "头",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "body",
-        "phonetic": "/ˈbɒdɪ/",
-        "meaning": "身体",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "leg",
-        "phonetic": "/leɡ/",
-        "meaning": "腿",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "foot",
-        "phonetic": "/fʊt/",
-        "meaning": "脚",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "school",
-        "phonetic": "/sku:l/",
-        "meaning": "学校",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "duck",
-        "phonetic": "/dʌk/",
-        "meaning": "鸭子",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "pig",
-        "phonetic": "/pɪɡ/",
-        "meaning": "猪",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "cat",
-        "phonetic": "/kæt/",
-        "meaning": "猫",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "bear",
-        "phonetic": "/beə/",
-        "meaning": "熊",
-        "unit": "Unit 4"
       },
       {
         "grade": 3,
         "word": "dog",
         "phonetic": "/dɒg/",
         "meaning": "狗",
-        "unit": "Unit 4"
+        "unit": "Unit 3"
       },
       {
         "grade": 3,
-        "word": "elephant",
-        "phonetic": "/ˈelɪfənt/",
-        "meaning": "大象",
-        "unit": "Unit 4"
+        "word": "pet",
+        "phonetic": "/pet/",
+        "meaning": "宠物",
+        "unit": "Unit 3"
       },
       {
         "grade": 3,
-        "word": "monkey",
-        "phonetic": "/ˈmʌŋkɪ/",
-        "meaning": "猴子",
-        "unit": "Unit 4"
+        "word": "cat",
+        "phonetic": "/kæt/",
+        "meaning": "猫",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "fish",
+        "phonetic": "/fɪʃ/",
+        "meaning": "鱼；鱼肉",
+        "unit": "Unit 3"
       },
       {
         "grade": 3,
         "word": "bird",
-        "phonetic": "/bɜ:d/",
+        "phonetic": "/bɜːd/",
         "meaning": "鸟",
-        "unit": "Unit 4"
+        "unit": "Unit 3"
       },
       {
         "grade": 3,
-        "word": "tiger",
-        "phonetic": "/ˈtaɪɡə/",
-        "meaning": "老虎",
-        "unit": "Unit 4"
+        "word": "rabbit",
+        "phonetic": "/ˈræbɪt/",
+        "meaning": "兔",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "go",
+        "phonetic": "/gəʊ/",
+        "meaning": "去；走",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "zoo",
+        "phonetic": "/zuː/",
+        "meaning": "动物园",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "fox",
+        "phonetic": "/fɒks/",
+        "meaning": "狐狸",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "Miss",
+        "phonetic": "/mɪs/",
+        "meaning": "（学生对女教师的称呼）老师；女士",
+        "unit": "Unit 3"
       },
       {
         "grade": 3,
         "word": "panda",
         "phonetic": "/ˈpændə/",
         "meaning": "大熊猫",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "red panda",
+        "phonetic": "/red ˈpændə/",
+        "meaning": "小熊猫",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "cute",
+        "phonetic": "/kjuːt/",
+        "meaning": "可爱的",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "monkey",
+        "phonetic": "/ˈmʌŋki/",
+        "meaning": "猴子",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "tiger",
+        "phonetic": "/ˈtaɪgə(r)/",
+        "meaning": "老虎",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "elephant",
+        "phonetic": "/ˈelɪfənt/",
+        "meaning": "大象",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "lion",
+        "phonetic": "/ˈlaɪən/",
+        "meaning": "狮；狮子",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "animal",
+        "phonetic": "/ˈænɪml/",
+        "meaning": "动物",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "giraffe",
+        "phonetic": "/dʒəˈrɑːf/",
+        "meaning": "长颈鹿",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "tall",
+        "phonetic": "/tɔːl/",
+        "meaning": "高的",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "fast",
+        "phonetic": "/fɑːst/",
+        "meaning": "快的",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "apple",
+        "phonetic": "/ˈæpl/",
+        "meaning": "苹果",
         "unit": "Unit 4"
       },
       {
         "grade": 3,
-        "word": "zoo",
-        "phonetic": "/zu:/",
-        "meaning": "动物园",
+        "word": "banana",
+        "phonetic": "/bəˈnɑːnə/",
+        "meaning": "香蕉",
         "unit": "Unit 4"
       },
       {
         "grade": 3,
-        "word": "funny",
-        "phonetic": "/ˈfʌnɪ/",
-        "meaning": "滑稽的",
+        "word": "farm",
+        "phonetic": "/fɑːm/",
+        "meaning": "农场",
         "unit": "Unit 4"
       },
       {
         "grade": 3,
-        "word": "bread",
-        "phonetic": "/bred/",
-        "meaning": "面包",
-        "unit": "Unit 5"
+        "word": "air",
+        "phonetic": "/eə(r)/",
+        "meaning": "空气",
+        "unit": "Unit 4"
       },
       {
         "grade": 3,
-        "word": "juice",
-        "phonetic": "/dʒu:s/",
-        "meaning": "果汁",
-        "unit": "Unit 5"
+        "word": "orange",
+        "phonetic": "/ˈɒrɪndʒ/",
+        "meaning": "橙子；柑橘",
+        "unit": "Unit 4"
       },
       {
         "grade": 3,
-        "word": "egg",
-        "phonetic": "/eɡ/",
-        "meaning": "蛋",
-        "unit": "Unit 5"
+        "word": "grape",
+        "phonetic": "/greɪp/",
+        "meaning": "葡萄",
+        "unit": "Unit 4"
       },
       {
         "grade": 3,
-        "word": "milk",
-        "phonetic": "/mɪlk/",
-        "meaning": "牛奶",
-        "unit": "Unit 5"
+        "word": "school",
+        "phonetic": "/skuːl/",
+        "meaning": "学校",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "garden",
+        "phonetic": "/ˈgɑːdn/",
+        "meaning": "花园",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "need",
+        "phonetic": "/niːd/",
+        "meaning": "需要",
+        "unit": "Unit 4"
       },
       {
         "grade": 3,
         "word": "water",
-        "phonetic": "/ˈwɔ:tə/",
-        "meaning": "水",
+        "phonetic": "/ˈwɔːtə(r)/",
+        "meaning": "给……浇水；水",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "flower",
+        "phonetic": "/ˈflaʊə(r)/",
+        "meaning": "花；花朵",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "grass",
+        "phonetic": "/grɑːs/",
+        "meaning": "草；草地",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "plant",
+        "phonetic": "/plɑːnt/",
+        "meaning": "种植；植物",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "new",
+        "phonetic": "/njuː/",
+        "meaning": "新的",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "tree",
+        "phonetic": "/triː/",
+        "meaning": "树",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "sun",
+        "phonetic": "/sʌn/",
+        "meaning": "阳光；太阳",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "give",
+        "phonetic": "/gɪv/",
+        "meaning": "给",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "them",
+        "phonetic": "/ðəm, ðem/",
+        "meaning": "它们；他们；她们",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "colour",
+        "phonetic": "/ˈkʌlə(r)/",
+        "meaning": "颜色",
         "unit": "Unit 5"
       },
       {
         "grade": 3,
-        "word": "cake",
-        "phonetic": "/keɪk/",
-        "meaning": "蛋糕",
+        "word": "orange",
+        "phonetic": "/ˈɒrɪndʒ/",
+        "meaning": "橙红色；橙红色的",
         "unit": "Unit 5"
       },
       {
         "grade": 3,
-        "word": "fish",
-        "phonetic": "/fɪʃ/",
-        "meaning": "鱼",
+        "word": "green",
+        "phonetic": "/griːn/",
+        "meaning": "绿色；绿色的",
         "unit": "Unit 5"
       },
       {
         "grade": 3,
-        "word": "rice",
-        "phonetic": "/raɪs/",
-        "meaning": "米饭",
+        "word": "red",
+        "phonetic": "/red/",
+        "meaning": "红色；红色的",
         "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "blue",
+        "phonetic": "/bluː/",
+        "meaning": "蓝色；蓝色的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "make",
+        "phonetic": "/meɪk/",
+        "meaning": "使出现；做",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "purple",
+        "phonetic": "/ˈpɜːpl/",
+        "meaning": "紫色；紫色的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "brown",
+        "phonetic": "/braʊn/",
+        "meaning": "棕色；棕色的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "bear",
+        "phonetic": "/beə(r)/",
+        "meaning": "熊",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "yellow",
+        "phonetic": "/ˈjeləʊ/",
+        "meaning": "黄色；黄色的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "duck",
+        "phonetic": "/dʌk/",
+        "meaning": "鸭",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "sea",
+        "phonetic": "/siː/",
+        "meaning": "海；海洋",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "some",
+        "phonetic": "/sʌm, səm/",
+        "meaning": "一些",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "pink",
+        "phonetic": "/pɪŋk/",
+        "meaning": "粉色；粉色的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "draw",
+        "phonetic": "/drɔː/",
+        "meaning": "画",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "white",
+        "phonetic": "/waɪt/",
+        "meaning": "白色；白色的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "black",
+        "phonetic": "/blæk/",
+        "meaning": "黑色；黑色的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "old",
+        "phonetic": "/əʊld/",
+        "meaning": "（多少）岁；年纪；旧的",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 3,
+        "word": "five",
+        "phonetic": "/faɪv/",
+        "meaning": "五",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 3,
+        "word": "year",
+        "phonetic": "/jɪə(r)/",
+        "meaning": "年纪；年",
+        "unit": "Unit 6"
       },
       {
         "grade": 3,
@@ -595,29 +889,29 @@ window.__EMBEDDED_BANKS = {
       {
         "grade": 3,
         "word": "two",
-        "phonetic": "/tu:/",
+        "phonetic": "/tuː/",
         "meaning": "二",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
         "word": "three",
-        "phonetic": "/θri:/",
+        "phonetic": "/θriː/",
         "meaning": "三",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
         "word": "four",
-        "phonetic": "/fɔ:/",
+        "phonetic": "/fɔː(r)/",
         "meaning": "四",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
-        "word": "five",
-        "phonetic": "/faɪv/",
-        "meaning": "五",
+        "word": "ten",
+        "phonetic": "/ten/",
+        "meaning": "十",
         "unit": "Unit 6"
       },
       {
@@ -630,7 +924,7 @@ window.__EMBEDDED_BANKS = {
       {
         "grade": 3,
         "word": "seven",
-        "phonetic": "/ˈsevən/",
+        "phonetic": "/ˈsevn/",
         "meaning": "七",
         "unit": "Unit 6"
       },
@@ -650,173 +944,1015 @@ window.__EMBEDDED_BANKS = {
       },
       {
         "grade": 3,
-        "word": "ten",
-        "phonetic": "/ten/",
-        "meaning": "十",
+        "word": "o'clock",
+        "phonetic": "/əˈklɒk/",
+        "meaning": "（表示整点）……点钟",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
-        "word": "brother",
-        "phonetic": "/ˈbrʌðə/",
-        "meaning": "兄",
+        "word": "cut",
+        "phonetic": "/kʌt/",
+        "meaning": "切块",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
-        "word": "plate",
-        "phonetic": "/pleɪt/",
-        "meaning": "盘子",
+        "word": "eat",
+        "phonetic": "/iːt/",
+        "meaning": "吃",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 3,
+        "word": "cake",
+        "phonetic": "/keɪk/",
+        "meaning": "蛋糕",
         "unit": "Unit 6"
       }
     ],
     "sentences": [
       {
-        "en": "I put the ruler in my schoolbag.",
-        "zh": "我把尺子放进了书包里。"
+        "en": "Hello! I'm Mike Black.",
+        "zh": "你好！我是迈克·布莱克。"
       },
       {
-        "en": "I put the pencil in my schoolbag.",
-        "zh": "我把铅笔放进书包里。"
+        "en": "Hi! My name is Wu Binbin.",
+        "zh": "嗨！我叫吴彬彬。"
       },
       {
-        "en": "I put the eraser in my schoolbag.",
-        "zh": "我把橡皮放进了书包里。"
+        "en": "Nice to meet you.",
+        "zh": "见到你很高兴。"
       },
       {
-        "en": "There is a crayon in the picture.",
-        "zh": "图中有一支蜡笔。"
+        "en": "Nice to meet you too.",
+        "zh": "见到你（我）也很高兴。"
       },
       {
-        "en": "There is a bag in the picture.",
-        "zh": "图片里有一个袋子。"
+        "en": "Hey, Sarah! We can share.",
+        "zh": "嘿，萨拉！我们可以分享。"
       },
       {
-        "en": "I put the pen in my schoolbag.",
-        "zh": "我把笔放进书包里。"
+        "en": "I am nice to my friends.",
+        "zh": "我对我的朋友们很好。"
       },
       {
-        "en": "My pencil box is in my schoolbag.",
-        "zh": "我的铅笔盒在我的书包里。"
+        "en": "This is my grandma.",
+        "zh": "这是我的奶奶。"
       },
       {
-        "en": "I put the book in my schoolbag.",
-        "zh": "我把书放进书包里了。"
+        "en": "Look! This is my family.",
+        "zh": "看！这是我的家庭。"
       },
       {
-        "en": "No, I do not need help.",
-        "zh": "不，我不需要帮助。"
+        "en": "Is that your brother?",
+        "zh": "那是你弟弟吗？"
       },
       {
-        "en": "Your answer is clear.",
-        "zh": "你的答案很明确。"
+        "en": "Yes, it is.",
+        "zh": "对，是的。"
       },
       {
-        "en": "The apple is red.",
-        "zh": "苹果是红色的。"
+        "en": "They love each other.",
+        "zh": "他们相互关爱。"
       },
       {
-        "en": "The grass is green.",
-        "zh": "草是绿的。"
+        "en": "Do you have a pet?",
+        "zh": "你有宠物吗？"
       },
       {
-        "en": "The banana is yellow.",
-        "zh": "香蕉是黄色的。"
+        "en": "No, I don't.",
+        "zh": "不，我没有。"
       },
       {
-        "en": "The sky is blue.",
-        "zh": "天空是蓝色的。"
+        "en": "Yes, I do. I have a cat.",
+        "zh": "是的，我有。我有一只猫。"
       },
       {
-        "en": "My shoes are black.",
-        "zh": "我的鞋子是黑色的。"
+        "en": "Let's go to the zoo!",
+        "zh": "我们一起去动物园吧！"
       },
       {
-        "en": "The desk is brown.",
-        "zh": "桌子是棕色的。"
+        "en": "What's this?",
+        "zh": "这是什么？"
       },
       {
-        "en": "The wall is white.",
-        "zh": "墙壁是白色的。"
+        "en": "It's a fox.",
+        "zh": "是只狐狸。"
       },
       {
-        "en": "The orange bag is on the chair.",
-        "zh": "橙色的袋子在椅子上。"
+        "en": "Miss White, what's that?",
+        "zh": "怀特老师，那是什么？"
       },
       {
-        "en": "OK, let's start now.",
-        "zh": "好的，我们现在开始吧。"
+        "en": "It's a red panda.",
+        "zh": "是只小熊猫。"
       },
       {
-        "en": "My mum is kind to me.",
-        "zh": "我妈妈对我很好。"
+        "en": "Mike, do you like apples?",
+        "zh": "迈克，你喜欢苹果吗？"
+      },
+      {
+        "en": "Yes, I do. And you?",
+        "zh": "是的，我喜欢。你呢？"
+      },
+      {
+        "en": "Do you like the farm?",
+        "zh": "你们喜欢农场吗？"
+      },
+      {
+        "en": "I like the fresh air.",
+        "zh": "我喜欢新鲜的空气。"
+      },
+      {
+        "en": "We can plant new trees.",
+        "zh": "我们可以新种些树。"
+      },
+      {
+        "en": "Plants can give us many things.",
+        "zh": "植物能提供很多东西。"
+      },
+      {
+        "en": "What colour is it?",
+        "zh": "它是什么颜色？"
+      },
+      {
+        "en": "It's orange.",
+        "zh": "它是橙红色。"
+      },
+      {
+        "en": "Red and blue make purple.",
+        "zh": "红色加蓝色是紫色。"
+      },
+      {
+        "en": "What colours do you like?",
+        "zh": "你喜欢什么颜色？"
+      },
+      {
+        "en": "I like red and pink.",
+        "zh": "我喜欢红色和粉色。"
+      },
+      {
+        "en": "Let's draw some purple and brown birds.",
+        "zh": "我们一起画一些紫色和棕色的鸟吧。"
+      },
+      {
+        "en": "How old are you?",
+        "zh": "你几岁了？"
+      },
+      {
+        "en": "I'm five years old.",
+        "zh": "我五岁了。"
+      },
+      {
+        "en": "How many apples?",
+        "zh": "几个苹果？"
+      },
+      {
+        "en": "Two.",
+        "zh": "两个。"
+      },
+      {
+        "en": "That's ten yuan, please.",
+        "zh": "（共）十元，谢谢。"
+      },
+      {
+        "en": "Here you are.",
+        "zh": "给您。"
+      },
+      {
+        "en": "It's seven o'clock. Hurry!",
+        "zh": "七点了。快点！"
+      },
+      {
+        "en": "Happy birthday!",
+        "zh": "生日快乐！"
       }
     ],
     "grammar": [
       {
-        "category": "be动词",
-        "question": "I ___ a student.",
+        "unit": "Unit 1",
+        "category": "Unit 1 · 自我介绍",
+        "question": "Hello! ___ Mike Black.",
         "options": [
-          "am",
+          "I'm",
+          "My",
+          "I",
+          "Me"
+        ],
+        "answer": 0,
+        "explain": "介绍自己用 I'm（I am）加名字；My 后面要接 name，不能直接接名字。",
+        "question_zh": "你好！我是迈克·布莱克。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 自我介绍",
+        "question": "Hi! My name ___ Wu Binbin.",
+        "options": [
           "is",
+          "am",
           "are",
           "be"
         ],
         "answer": 0,
-        "explain": "主语是 I，be 动词用 am。",
-        "question_zh": "我是一名学生。"
+        "explain": "My name 是第三人称单数，be 动词用 is，构成 My name is ... 的自我介绍句型。",
+        "question_zh": "嗨！我叫吴彬彬。"
       },
       {
-        "category": "代词",
-        "question": "This is ___ book.",
+        "unit": "Unit 1",
+        "category": "Unit 1 · Nice to meet you",
+        "question": "— Nice to meet you. — Nice to meet you ___.",
         "options": [
-          "I",
-          "me",
-          "my",
-          "mine"
+          "too",
+          "to",
+          "two",
+          "also"
         ],
-        "answer": 2,
-        "explain": "名词前用形容词性物主代词 my。",
-        "question_zh": "这是我的书。"
+        "answer": 0,
+        "explain": "回答 Nice to meet you. 时用 Nice to meet you too.，too 表示“也”。",
+        "question_zh": "—见到你很高兴。—见到你（我）也很高兴。"
       },
       {
-        "category": "现在进行",
-        "question": "They ___ playing football now.",
+        "unit": "Unit 1",
+        "category": "Unit 1 · Nice to meet you",
+        "question": "Nice to ___ you.",
         "options": [
+          "meet",
+          "meets",
+          "meeting",
+          "met"
+        ],
+        "answer": 0,
+        "explain": "Nice to meet you. 是固定问候语，to 后面接动词原形 meet。",
+        "question_zh": "见到你很高兴。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · can + 动词原形",
+        "question": "We ___ share.",
+        "options": [
+          "can",
+          "are",
+          "do",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "can 表示“可以、能够”，后面接动词原形 share。",
+        "question_zh": "我们可以分享。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · can + 动词原形",
+        "question": "— Can you share with me? — Yes, I ___.",
+        "options": [
+          "can",
+          "do",
           "am",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "用 Can 提问，肯定简答用 Yes, I can.，不能用 do 或 am。",
+        "question_zh": "—你能和我分享吗？—是的，我可以。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · This is 介绍家人",
+        "question": "___ is my grandma.",
+        "options": [
+          "This",
+          "These",
+          "They",
+          "Them"
+        ],
+        "answer": 0,
+        "explain": "介绍近处的一个人用 This is ...；These 是复数，后面不能接 is。",
+        "question_zh": "这是我的奶奶。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · This is 介绍家人",
+        "question": "Look! ___ is my family.",
+        "options": [
+          "This",
+          "These",
+          "Those",
+          "They"
+        ],
+        "answer": 0,
+        "explain": "把家人介绍给别人时用 This is my family.；family 在这里作为一个整体，be 动词用 is。",
+        "question_zh": "看！这是我的家庭。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · Is that...?",
+        "question": "— Is that your brother? — Yes, it ___.",
+        "options": [
           "is",
           "are",
-          "be"
+          "am",
+          "do"
         ],
-        "answer": 2,
-        "explain": "主语 they 复数，现在进行时用 are。",
-        "question_zh": "他们现在正在踢足球。"
+        "answer": 0,
+        "explain": "Is that ...? 的肯定简答是 Yes, it is.；问句和答句中的 be 动词要一致。",
+        "question_zh": "—那是你弟弟吗？—对，是的。"
       },
       {
-        "category": "特殊疑问",
-        "question": "___ do you go to school? By bus.",
+        "unit": "Unit 2",
+        "category": "Unit 2 · Is that...?",
+        "question": "— Is that your sister? — No, it ___.",
+        "options": [
+          "isn't",
+          "aren't",
+          "don't",
+          "not"
+        ],
+        "answer": 0,
+        "explain": "Is that ...? 的否定简答是 No, it isn't.，isn't 是 is not 的缩写。",
+        "question_zh": "—那是你姐姐吗？—不，不是。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 物主代词 my / your",
+        "question": "This is ___ grandma.（我的）",
+        "options": [
+          "my",
+          "I",
+          "me",
+          "mine"
+        ],
+        "answer": 0,
+        "explain": "表示“我的”用形容词性物主代词 my，后面接名词 grandma。",
+        "question_zh": "这是我的奶奶。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 物主代词 my / your",
+        "question": "Is that ___ brother?（你的）",
+        "options": [
+          "your",
+          "you",
+          "yours",
+          "my"
+        ],
+        "answer": 0,
+        "explain": "表示“你的”用形容词性物主代词 your，后面接名词 brother；you 是主格/宾格。",
+        "question_zh": "那是你弟弟吗？"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · Do you have...?",
+        "question": "— ___ you have a pet? — Yes, I do.",
+        "options": [
+          "Do",
+          "Does",
+          "Are",
+          "Is"
+        ],
+        "answer": 0,
+        "explain": "主语 you 的一般现在时疑问句用 Do 开头，后面动词用原形 have。",
+        "question_zh": "—你有宠物吗？—是的，我有。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · Do you have...?",
+        "question": "— Do you have a cat? — No, I ___.",
+        "options": [
+          "don't",
+          "doesn't",
+          "am not",
+          "not"
+        ],
+        "answer": 0,
+        "explain": "Do you ...? 的否定简答是 No, I don't.，don't 是 do not 的缩写。",
+        "question_zh": "—你有猫吗？—不，我没有。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · What's this / that?",
+        "question": "— What's this? — ___ a fox.",
+        "options": [
+          "It's",
+          "Its",
+          "It",
+          "Is"
+        ],
+        "answer": 0,
+        "explain": "回答 What's this? 用 It's ...（It is）；Its 是“它的”，不能单独作主语和 be 动词。",
+        "question_zh": "—这是什么？—是只狐狸。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · What's this / that?",
+        "question": "— What's that? — It's ___ red panda.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "／"
+        ],
+        "answer": 0,
+        "explain": "单数可数名词前用不定冠词；red 以辅音音素开头，所以用 a。",
+        "question_zh": "—那是什么？—是只小熊猫。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · 不定冠词 a / an",
+        "question": "It's ___ elephant.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "／"
+        ],
+        "answer": 0,
+        "explain": "elephant 以元音音素 /e/ 开头，前面用 an。",
+        "question_zh": "它是大象。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · 不定冠词 a / an",
+        "question": "It's ___ tiger.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "／"
+        ],
+        "answer": 0,
+        "explain": "tiger 以辅音音素 /t/ 开头，前面用 a。",
+        "question_zh": "它是老虎。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · Do you like...?",
+        "question": "— ___ you like apples? — Yes, I do.",
+        "options": [
+          "Do",
+          "Does",
+          "Are",
+          "Can"
+        ],
+        "answer": 0,
+        "explain": "主语 you 的一般现在时疑问句用 Do 开头，like 用原形。",
+        "question_zh": "—你喜欢苹果吗？—是的，我喜欢。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · Do you like...?",
+        "question": "— Do you like the farm? — No, I ___.",
+        "options": [
+          "don't",
+          "doesn't",
+          "aren't",
+          "not"
+        ],
+        "answer": 0,
+        "explain": "Do you like ...? 的否定简答是 No, I don't.。",
+        "question_zh": "—你们喜欢农场吗？—不，我们不喜欢。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · can + 动词原形",
+        "question": "Plants ___ give us many things.",
+        "options": [
+          "can",
+          "are",
+          "do",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "can 表示“能够”，后面接动词原形 give；Plants 是复数，不能用 is。",
+        "question_zh": "植物能提供很多东西。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · can + 动词原形",
+        "question": "We can ___ new trees.",
+        "options": [
+          "plant",
+          "plants",
+          "planting",
+          "to plant"
+        ],
+        "answer": 0,
+        "explain": "can 后面接动词原形，所以用 plant，不加 s 也不加 to。",
+        "question_zh": "我们可以新种些树。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 名词复数",
+        "question": "I like ___.",
+        "options": [
+          "apples",
+          "apple",
+          "an apple",
+          "apple's"
+        ],
+        "answer": 0,
+        "explain": "表示喜欢一类事物时用名词复数 apples；单数 apple 前需要 a/an。",
+        "question_zh": "我喜欢苹果。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 名词复数",
+        "question": "There are many ___ on the farm.",
+        "options": [
+          "trees",
+          "tree",
+          "a tree",
+          "tree's"
+        ],
+        "answer": 0,
+        "explain": "many 后面接可数名词复数，tree 的复数是 trees。",
+        "question_zh": "农场里有许多树。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · What colour is it?",
+        "question": "— ___ colour is it? — It's orange.",
         "options": [
           "What",
-          "Where",
-          "Who",
-          "How"
+          "How",
+          "Which",
+          "Where"
         ],
-        "answer": 3,
-        "explain": "问交通方式用 How。",
-        "question_zh": "你怎么去上学？坐公交车。"
+        "answer": 0,
+        "explain": "问颜色用 What colour is it?，What 修饰 colour。",
+        "question_zh": "—它是什么颜色？—它是橙红色。"
       },
       {
-        "category": "祈使句",
-        "question": "___ open the door, please.",
+        "unit": "Unit 5",
+        "category": "Unit 5 · What colour is it?",
+        "question": "— What colour is it? — ___ orange.",
         "options": [
-          "Please",
-          "Not",
-          "No",
-          "Don't"
+          "It's",
+          "Its",
+          "It",
+          "Is"
         ],
-        "answer": 3,
-        "explain": "祈使句否定用 Don't。",
-        "question_zh": "请不要开门。"
+        "answer": 0,
+        "explain": "回答颜色用 It's + 颜色，It's 是 It is 的缩写。",
+        "question_zh": "—它是什么颜色？—它是橙红色。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · What colours do you like?",
+        "question": "— What colours ___ you like? — I like red and pink.",
+        "options": [
+          "do",
+          "does",
+          "are",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "主语 you 的一般现在时疑问句用助动词 do，后面动词用原形 like。",
+        "question_zh": "—你喜欢什么颜色？—我喜欢红色和粉色。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · What colours do you like?",
+        "question": "I like red ___ pink.",
+        "options": [
+          "and",
+          "or",
+          "but",
+          "with"
+        ],
+        "answer": 0,
+        "explain": "肯定句中并列两个事物用 and，表示“和”。",
+        "question_zh": "我喜欢红色和粉色。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · Let's + 动词原形",
+        "question": "Let's ___ some purple and brown birds.",
+        "options": [
+          "draw",
+          "draws",
+          "drawing",
+          "to draw"
+        ],
+        "answer": 0,
+        "explain": "Let's 是 Let us 的缩写，后面接动词原形，表示“我们一起……吧”。",
+        "question_zh": "我们一起画一些紫色和棕色的鸟吧。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · Let's + 动词原形",
+        "question": "Let's ___ to the zoo!",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "to go"
+        ],
+        "answer": 0,
+        "explain": "Let's 后面接动词原形 go，不加 s 也不加 to。",
+        "question_zh": "我们一起去动物园吧！"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · How old are you?",
+        "question": "— ___ old are you? — I'm five.",
+        "options": [
+          "How",
+          "What",
+          "Who",
+          "Where"
+        ],
+        "answer": 0,
+        "explain": "问年龄用 How old are you?，How old 表示“多大、几岁”。",
+        "question_zh": "—你几岁了？—我五岁了。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · How old are you?",
+        "question": "— How old ___ you? — I'm five.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "主语 you 后面 be 动词用 are，构成 How old are you?。",
+        "question_zh": "—你几岁了？—我五岁了。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 年龄的表达",
+        "question": "I'm five ___ old.",
+        "options": [
+          "years",
+          "year",
+          "a year",
+          "year's"
+        ],
+        "answer": 0,
+        "explain": "表示“五岁”用 five years old，year 要用复数 years。",
+        "question_zh": "我五岁了。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · How many...?",
+        "question": "— ___ apples? — Two.",
+        "options": [
+          "How many",
+          "How much",
+          "How old",
+          "What"
+        ],
+        "answer": 0,
+        "explain": "问可数事物的数量用 How many + 名词复数，How much 问价钱或不可数数量。",
+        "question_zh": "—几个苹果？—两个。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · How many...?",
+        "question": "— How many ___? — Two.",
+        "options": [
+          "apples",
+          "apple",
+          "an apple",
+          "apples'"
+        ],
+        "answer": 0,
+        "explain": "How many 后面接可数名词复数 apples。",
+        "question_zh": "—几个苹果？—两个。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · o'clock",
+        "question": "It's seven ___.",
+        "options": [
+          "o'clock",
+          "clock",
+          "hour",
+          "time"
+        ],
+        "answer": 0,
+        "explain": "表示“七点整”用 seven o'clock；clock 是“钟”，不能这样搭配。",
+        "question_zh": "七点了。"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "u1-making-friends",
+        "unit": "Unit 1",
+        "title": "打招呼和介绍自己",
+        "summary": "用 Hello! / Hi! 打招呼；介绍自己用 I'm ... 或 My name is ...；初次见面说 Nice to meet you.，对方回应 Nice to meet you too.；can 表示“可以、能够”，后面接动词原形。",
+        "structure": [
+          {
+            "tag": "打招呼",
+            "en": "Hello! / Hi!",
+            "zh": "你好！/ 嗨！"
+          },
+          {
+            "tag": "介绍自己",
+            "en": "I'm Mike Black.",
+            "zh": "我是迈克·布莱克。"
+          },
+          {
+            "tag": "介绍名字",
+            "en": "My name is Wu Binbin.",
+            "zh": "我叫吴彬彬。"
+          },
+          {
+            "tag": "初次见面",
+            "en": "Nice to meet you.",
+            "zh": "见到你很高兴。"
+          },
+          {
+            "tag": "回应",
+            "en": "Nice to meet you too.",
+            "zh": "见到你（我）也很高兴。"
+          },
+          {
+            "tag": "can + 原形",
+            "en": "We can share.",
+            "zh": "我们可以分享。"
+          }
+        ],
+        "example": [
+          {
+            "en": "Hi! I'm Sarah.",
+            "zh": "嗨！我是萨拉。"
+          },
+          {
+            "en": "My name is Chen Jie.",
+            "zh": "我叫陈杰。"
+          },
+          {
+            "en": "I can help you.",
+            "zh": "我可以帮助你。"
+          }
+        ],
+        "mistake": "I'm 后面直接接名字，不能再加 am；My name is 后面接名字，不能说 My name is I'm ...；can 后面接动词原形，不加 s。"
+      },
+      {
+        "id": "u2-different-families",
+        "unit": "Unit 2",
+        "title": "介绍我的家人",
+        "summary": "介绍近处的人用 This is ...，介绍远处的人用 That is ...；询问“那是你的……吗？”用 Is that your ...?，肯定回答 Yes, it is.，否定回答 No, it isn't.；“我的/你的”用 my / your。",
+        "structure": [
+          {
+            "tag": "介绍近处",
+            "en": "This is my grandma.",
+            "zh": "这是我的奶奶。"
+          },
+          {
+            "tag": "介绍全家",
+            "en": "This is my family.",
+            "zh": "这是我的家庭。"
+          },
+          {
+            "tag": "问远处",
+            "en": "Is that your brother?",
+            "zh": "那是你弟弟吗？"
+          },
+          {
+            "tag": "肯定回答",
+            "en": "Yes, it is.",
+            "zh": "对，是的。"
+          },
+          {
+            "tag": "否定回答",
+            "en": "No, it isn't.",
+            "zh": "不，不是。"
+          },
+          {
+            "tag": "物主代词",
+            "en": "my / your",
+            "zh": "我的 / 你的"
+          }
+        ],
+        "example": [
+          {
+            "en": "This is my father.",
+            "zh": "这是我爸爸。"
+          },
+          {
+            "en": "Is that your sister?",
+            "zh": "那是你姐姐吗？"
+          },
+          {
+            "en": "No, it isn't. It's my cousin.",
+            "zh": "不，不是。是我表姐。"
+          }
+        ],
+        "mistake": "This is 后面接单个人或一个整体，不能接复数；Is that ...? 的回答用 it 代替 that，不能说 Yes, that is."
+      },
+      {
+        "id": "u3-amazing-animals",
+        "unit": "Unit 3",
+        "title": "问有没有和指认动物",
+        "summary": "询问对方有没有某物用 Do you have ...?，肯定回答 Yes, I do.，否定回答 No, I don't.；指认近处或远处的东西用 What's this / that?，回答用 It's ...；单数可数名词前用 a 或 an（元音音素前用 an）。",
+        "structure": [
+          {
+            "tag": "问有没有",
+            "en": "Do you have a pet?",
+            "zh": "你有宠物吗？"
+          },
+          {
+            "tag": "否定回答",
+            "en": "No, I don't.",
+            "zh": "不，我没有。"
+          },
+          {
+            "tag": "指认近处",
+            "en": "What's this?",
+            "zh": "这是什么？"
+          },
+          {
+            "tag": "指认远处",
+            "en": "What's that?",
+            "zh": "那是什么？"
+          },
+          {
+            "tag": "回答",
+            "en": "It's a fox.",
+            "zh": "是只狐狸。"
+          },
+          {
+            "tag": "a / an",
+            "en": "an elephant / a tiger",
+            "zh": "一头大象 / 一只老虎"
+          }
+        ],
+        "example": [
+          {
+            "en": "Do you have a dog?",
+            "zh": "你有狗吗？"
+          },
+          {
+            "en": "Yes, I do. I have a dog.",
+            "zh": "是的，我有。我有一只狗。"
+          },
+          {
+            "en": "What's that? It's an elephant.",
+            "zh": "那是什么？是一头大象。"
+          }
+        ],
+        "mistake": "Do you ...? 的回答用 do / don't，不能用 is / isn't；What's this? 回答用 It's，不能用 This is；元音音素开头的单词前用 an，如 an elephant、an apple。"
+      },
+      {
+        "id": "u4-plants-around-us",
+        "unit": "Unit 4",
+        "title": "问喜好和植物",
+        "summary": "询问喜好用 Do you like ...?，肯定回答 Yes, I do.，否定回答 No, I don't.；can 表示“能、可以”，后面接动词原形；表示喜欢一类事物时，可数名词用复数。",
+        "structure": [
+          {
+            "tag": "问喜好",
+            "en": "Do you like apples?",
+            "zh": "你喜欢苹果吗？"
+          },
+          {
+            "tag": "肯定回答",
+            "en": "Yes, I do. And you?",
+            "zh": "是的，我喜欢。你呢？"
+          },
+          {
+            "tag": "否定回答",
+            "en": "No, I don't.",
+            "zh": "不，我不喜欢。"
+          },
+          {
+            "tag": "can + 原形",
+            "en": "Plants can give us many things.",
+            "zh": "植物能提供很多东西。"
+          },
+          {
+            "tag": "种树",
+            "en": "We can plant new trees.",
+            "zh": "我们可以新种些树。"
+          },
+          {
+            "tag": "名词复数",
+            "en": "apples / trees / flowers",
+            "zh": "苹果 / 树 / 花"
+          }
+        ],
+        "example": [
+          {
+            "en": "Do you like the farm?",
+            "zh": "你们喜欢农场吗？"
+          },
+          {
+            "en": "I like the fresh air.",
+            "zh": "我喜欢新鲜的空气。"
+          },
+          {
+            "en": "We can water the flowers.",
+            "zh": "我们可以给花浇水。"
+          }
+        ],
+        "mistake": "Do you like ...? 后面接名词复数或不可数名词；can 后面动词用原形，不能加 s；many 后面接可数名词复数。"
+      },
+      {
+        "id": "u5-the-colourful-world",
+        "unit": "Unit 5",
+        "title": "问颜色和提建议",
+        "summary": "问单个事物的颜色用 What colour is it?，回答 It's + 颜色；问对方喜欢哪些颜色用 What colours do you like?，回答 I like ...；提建议用 Let's + 动词原形，表示“我们一起……吧”。",
+        "structure": [
+          {
+            "tag": "问颜色",
+            "en": "What colour is it?",
+            "zh": "它是什么颜色？"
+          },
+          {
+            "tag": "回答",
+            "en": "It's orange.",
+            "zh": "它是橙红色。"
+          },
+          {
+            "tag": "颜色混合",
+            "en": "Red and blue make purple.",
+            "zh": "红色加蓝色是紫色。"
+          },
+          {
+            "tag": "问喜好",
+            "en": "What colours do you like?",
+            "zh": "你喜欢什么颜色？"
+          },
+          {
+            "tag": "回答喜好",
+            "en": "I like red and pink.",
+            "zh": "我喜欢红色和粉色。"
+          },
+          {
+            "tag": "提建议",
+            "en": "Let's draw some birds.",
+            "zh": "我们一起画些鸟吧。"
+          }
+        ],
+        "example": [
+          {
+            "en": "What colour is the sky?",
+            "zh": "天空是什么颜色？"
+          },
+          {
+            "en": "It's blue.",
+            "zh": "它是蓝色的。"
+          },
+          {
+            "en": "Let's draw a yellow duck.",
+            "zh": "我们一起画一只黄色的鸭子吧。"
+          }
+        ],
+        "mistake": "问颜色用 What colour，不能用 What's colour；colours 提问多个颜色时才加 s；Let's 后面接动词原形，不加 to。"
+      },
+      {
+        "id": "u6-useful-numbers",
+        "unit": "Unit 6",
+        "title": "问年龄和数量",
+        "summary": "问年龄用 How old are you?，回答 I'm + 数字 + years old.；问可数事物的数量用 How many + 名词复数？；表示整点用“数字 + o'clock”。",
+        "structure": [
+          {
+            "tag": "问年龄",
+            "en": "How old are you?",
+            "zh": "你几岁了？"
+          },
+          {
+            "tag": "回答年龄",
+            "en": "I'm five years old.",
+            "zh": "我五岁了。"
+          },
+          {
+            "tag": "问数量",
+            "en": "How many apples?",
+            "zh": "几个苹果？"
+          },
+          {
+            "tag": "回答数量",
+            "en": "Two.",
+            "zh": "两个。"
+          },
+          {
+            "tag": "问时间",
+            "en": "It's seven o'clock.",
+            "zh": "七点了。"
+          },
+          {
+            "tag": "催促",
+            "en": "Hurry!",
+            "zh": "快点！"
+          }
+        ],
+        "example": [
+          {
+            "en": "How old is your brother?",
+            "zh": "你弟弟几岁了？"
+          },
+          {
+            "en": "He is six years old.",
+            "zh": "他六岁了。"
+          },
+          {
+            "en": "How many books? Ten.",
+            "zh": "几本书？十本。"
+          }
+        ],
+        "mistake": "How old 后面用 be 动词，不能用 do；years old 中的 year 要用复数；How many 后面接可数名词复数。"
       }
     ]
   },
@@ -824,9 +1960,149 @@ window.__EMBEDDED_BANKS = {
     "words": [
       {
         "grade": 3,
+        "word": "where",
+        "phonetic": "/weə(r)/",
+        "meaning": "在哪里；到哪里",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "from",
+        "phonetic": "/frɒm/",
+        "meaning": "（表示来源）来自，从……来",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "about",
+        "phonetic": "/əˈbaʊt/",
+        "meaning": "大约；左右",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "today",
+        "phonetic": "/təˈdeɪ/",
+        "meaning": "今天",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "teacher",
+        "phonetic": "/ˈtiːtʃə(r)/",
+        "meaning": "教师",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "student",
+        "phonetic": "/ˈstjuːdnt/",
+        "meaning": "学生",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "after",
+        "phonetic": "/ˈɑːftə(r)/",
+        "meaning": "在……后面",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "who",
+        "phonetic": "/huː/",
+        "meaning": "谁；什么人",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "girl",
+        "phonetic": "/gɜːl/",
+        "meaning": "女孩",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "neighbour",
+        "phonetic": "/ˈneɪbə(r)/",
+        "meaning": "邻居",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "boy",
+        "phonetic": "/bɔɪ/",
+        "meaning": "男孩",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "woman",
+        "phonetic": "/ˈwʊmən/",
+        "meaning": "成年女子；妇女",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "man",
+        "phonetic": "/mæn/",
+        "meaning": "成年男子；男人",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "Mr",
+        "phonetic": "/ˈmɪstə(r)/",
+        "meaning": "（用于男子的姓氏或姓名前）先生",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "classmate",
+        "phonetic": "/ˈklɑːsmeɪt/",
+        "meaning": "同班同学",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "he",
+        "phonetic": "/hiː/",
+        "meaning": "他",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "English",
+        "phonetic": "/ˈɪŋglɪʃ/",
+        "meaning": "英语的；英语",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "she",
+        "phonetic": "/ʃiː/",
+        "meaning": "她",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "very",
+        "phonetic": "/ˈveri/",
+        "meaning": "很；非常；十分",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
         "word": "UK",
-        "phonetic": "/ju: ˈkeɪ/",
+        "phonetic": "/ˌjuː ˈkeɪ/",
         "meaning": "英国",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 3,
+        "word": "China",
+        "phonetic": "/ˈtʃaɪnə/",
+        "meaning": "中国",
         "unit": "Unit 1"
       },
       {
@@ -839,176 +2115,57 @@ window.__EMBEDDED_BANKS = {
       {
         "grade": 3,
         "word": "USA",
-        "phonetic": "/ju: es ˈeɪ/",
+        "phonetic": "/ˌjuː es ˈeɪ/",
         "meaning": "美国",
         "unit": "Unit 1"
       },
       {
         "grade": 3,
-        "word": "China",
-        "phonetic": "/ˈtʃaɪnə/",
-        "meaning": "中国",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "she",
-        "phonetic": "/ʃi:/",
-        "meaning": "她",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "student",
-        "phonetic": "/ˈstju:dənt/",
-        "meaning": "学生, 学者",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "pupil",
-        "phonetic": "/ˈpju:pl/",
-        "meaning": "小学生",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "he",
-        "phonetic": "/hi:/",
-        "meaning": "他",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "teacher",
-        "phonetic": "/ˈti:tʃə/",
-        "meaning": "教师, 老师, 导师",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "boy",
-        "phonetic": "/bɒɪ/",
-        "meaning": "男孩, 儿子, 孩子气的人, 男仆",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "and",
-        "phonetic": "/ænd/",
-        "meaning": "和",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "girl",
-        "phonetic": "/ɡɜ:l/",
-        "meaning": "女孩, 少女, 女仆, (商店等的)女工作人员",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "new",
-        "phonetic": "/nju:/",
-        "meaning": "新的，新近的",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "friend",
-        "phonetic": "/frend/",
-        "meaning": "朋友，友人",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "today",
-        "phonetic": "/təˈdeɪ/",
-        "meaning": "今天",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 3,
-        "word": "father",
-        "phonetic": "/ˈfɑ:ðə/",
-        "meaning": "父亲",
+        "word": "has",
+        "phonetic": "/hæz/",
+        "meaning": "（have 的第三人称单数形式）具有（某种外表、特性或特征）",
         "unit": "Unit 2"
       },
       {
         "grade": 3,
-        "word": "dad",
-        "phonetic": "/dæd/",
-        "meaning": "（口语）爸爸",
+        "word": "long",
+        "phonetic": "/lɒŋ/",
+        "meaning": "（长度或距离）长的",
         "unit": "Unit 2"
       },
       {
         "grade": 3,
-        "word": "man",
-        "phonetic": "/mæn/",
-        "meaning": "男人",
+        "word": "body",
+        "phonetic": "/ˈbɒdi/",
+        "meaning": "身体",
         "unit": "Unit 2"
       },
       {
         "grade": 3,
-        "word": "woman",
-        "phonetic": "/ˈwumən/",
-        "meaning": "女人",
+        "word": "short",
+        "phonetic": "/ʃɔːt/",
+        "meaning": "短的；个子矮的",
         "unit": "Unit 2"
       },
       {
         "grade": 3,
-        "word": "mother",
-        "phonetic": "/ˈmʌðə/",
-        "meaning": "母亲",
+        "word": "leg",
+        "phonetic": "/leg/",
+        "meaning": "腿",
         "unit": "Unit 2"
       },
       {
         "grade": 3,
-        "word": "sister",
-        "phonetic": "/ˈsɪstə(r)/",
-        "meaning": "姐",
+        "word": "right",
+        "phonetic": "/raɪt/",
+        "meaning": "（意见或判断）准确，确切，恰当",
         "unit": "Unit 2"
       },
       {
         "grade": 3,
-        "word": "brother",
-        "phonetic": "/ˈbrʌðə/",
-        "meaning": "兄",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "grandmother",
-        "phonetic": "/ˈɡrændˌmʌðə/",
-        "meaning": "（外）祖母",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "grandma",
-        "phonetic": "/ˈɡrænmɑ:/",
-        "meaning": "（口语）（外）祖母",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "grandfather",
-        "phonetic": "/ˈɡrændˌfɑ:ðə/",
-        "meaning": "（外）祖父",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "grandpa",
-        "phonetic": "/ˈɡrænpɑ:/",
-        "meaning": "（口语）（外）祖父",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 3,
-        "word": "family",
-        "phonetic": "/ˈfæməlɪ/",
-        "meaning": "家",
+        "word": "fat",
+        "phonetic": "/fæt/",
+        "meaning": "肥的；肥胖的",
         "unit": "Unit 2"
       },
       {
@@ -1016,230 +2173,503 @@ window.__EMBEDDED_BANKS = {
         "word": "thin",
         "phonetic": "/θɪn/",
         "meaning": "瘦的",
-        "unit": "Unit 3"
+        "unit": "Unit 2"
       },
       {
         "grade": 3,
-        "word": "fat",
-        "phonetic": "/fæt/",
-        "meaning": "胖的",
-        "unit": "Unit 3"
+        "word": "slow",
+        "phonetic": "/sləʊ/",
+        "meaning": "缓慢的；慢的",
+        "unit": "Unit 2"
       },
       {
         "grade": 3,
-        "word": "tall",
-        "phonetic": "/tɔ:l/",
-        "meaning": "高的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "short",
-        "phonetic": "/ʃɔ:t/",
-        "meaning": "矮的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "long",
-        "phonetic": "/lɒŋ/",
-        "meaning": "长的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "small",
-        "phonetic": "/smɔ:l/",
-        "meaning": "小的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "big",
-        "phonetic": "/bɪɡ/",
-        "meaning": "大的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "giraffe",
-        "phonetic": "/dʒəˈrɑ:f/",
-        "meaning": "长颈鹿",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "so",
-        "phonetic": "/səʊ/",
-        "meaning": "这么",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 3,
-        "word": "children",
-        "phonetic": "/ˈtʃɪldrən/",
-        "meaning": "儿童",
-        "unit": "Unit 3"
+        "word": "love",
+        "phonetic": "/lʌv/",
+        "meaning": "喜爱；爱",
+        "unit": "Unit 2"
       },
       {
         "grade": 3,
         "word": "tail",
         "phonetic": "/teɪl/",
-        "meaning": "尾巴",
+        "meaning": "尾；尾巴",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "her",
+        "phonetic": "/hɜː(r)/",
+        "meaning": "她；她的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "gift",
+        "phonetic": "/gɪft/",
+        "meaning": "礼物",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "picture",
+        "phonetic": "/ˈpɪktʃə(r)/",
+        "meaning": "图画；绘画",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "card",
+        "phonetic": "/kɑːd/",
+        "meaning": "贺卡；慰问卡；卡片",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "sing",
+        "phonetic": "/sɪŋ/",
+        "meaning": "唱（歌）；演唱",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "dance",
+        "phonetic": "/dɑːns/",
+        "meaning": "跳舞",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "face",
+        "phonetic": "/feɪs/",
+        "meaning": "脸；面孔",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "all",
+        "phonetic": "/ɔːl/",
+        "meaning": "所有；全部",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "so",
+        "phonetic": "/səʊ/",
+        "meaning": "（表示大小或数量）这么，那么",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "talk",
+        "phonetic": "/tɔːk/",
+        "meaning": "（用某种语言）讲，说；说话",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "song",
+        "phonetic": "/sɒŋ/",
+        "meaning": "歌；歌曲",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "or",
+        "phonetic": "/ɔː(r)/",
+        "meaning": "或；或者；还是",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "much",
+        "phonetic": "/mʌtʃ/",
+        "meaning": "许多；大量",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 3,
+        "word": "eraser",
+        "phonetic": "/ɪˈreɪzə(r)/",
+        "meaning": "橡皮",
         "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "find",
+        "phonetic": "/faɪnd/",
+        "meaning": "找到；找回",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "ruler",
+        "phonetic": "/ˈruːlə(r)/",
+        "meaning": "直尺",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "pen",
+        "phonetic": "/pen/",
+        "meaning": "钢笔",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "pencil",
+        "phonetic": "/ˈpensl/",
+        "meaning": "铅笔",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "book",
+        "phonetic": "/bʊk/",
+        "meaning": "书；书籍",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "bag",
+        "phonetic": "/bæg/",
+        "meaning": "包；袋",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "paper",
+        "phonetic": "/ˈpeɪpə(r)/",
+        "meaning": "纸",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "these",
+        "phonetic": "/ðiːz/",
+        "meaning": "这些",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "see",
+        "phonetic": "/siː/",
+        "meaning": "看见",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "smell",
+        "phonetic": "/smel/",
+        "meaning": "闻（气味）",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "taste",
+        "phonetic": "/teɪst/",
+        "meaning": "尝（味道）",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "hear",
+        "phonetic": "/hɪə(r)/",
+        "meaning": "听见；听到",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "touch",
+        "phonetic": "/tʌtʃ/",
+        "meaning": "触摸；碰",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "learn",
+        "phonetic": "/lɜːn/",
+        "meaning": "学；学习",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "nose",
+        "phonetic": "/nəʊz/",
+        "meaning": "鼻；鼻子",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "tongue",
+        "phonetic": "/tʌŋ/",
+        "meaning": "舌；舌头",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "class",
+        "phonetic": "/klɑːs/",
+        "meaning": "课；班级",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "in class",
+        "phonetic": "/ɪn klɑːs/",
+        "meaning": "在课堂上",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "computer",
+        "phonetic": "/kəmˈpjuːtə(r)/",
+        "meaning": "计算机；电脑",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 3,
+        "word": "breakfast",
+        "phonetic": "/ˈbrekfəst/",
+        "meaning": "早餐；早饭",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "time",
+        "phonetic": "/taɪm/",
+        "meaning": "时间",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "bread",
+        "phonetic": "/bred/",
+        "meaning": "面包",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "egg",
+        "phonetic": "/eg/",
+        "meaning": "（作食物用的）蛋；鸡蛋",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "milk",
+        "phonetic": "/mɪlk/",
+        "meaning": "（牛或羊等的）奶",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "noodle",
+        "phonetic": "/ˈnuːdl/",
+        "meaning": "（常用复数）面条",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "juice",
+        "phonetic": "/dʒuːs/",
+        "meaning": "果汁",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "rice",
+        "phonetic": "/raɪs/",
+        "meaning": "大米",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "meat",
+        "phonetic": "/miːt/",
+        "meaning": "肉",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "vegetable",
+        "phonetic": "/ˈvedʒtəbl/",
+        "meaning": "蔬菜",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "healthy",
+        "phonetic": "/ˈhelθi/",
+        "meaning": "健康的",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "plate",
+        "phonetic": "/pleɪt/",
+        "meaning": "盘子",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "soup",
+        "phonetic": "/suːp/",
+        "meaning": "汤",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "fruit",
+        "phonetic": "/fruːt/",
+        "meaning": "水果",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "colourful",
+        "phonetic": "/ˈkʌləfl/",
+        "meaning": "五彩缤纷的",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "candy",
+        "phonetic": "/ˈkændi/",
+        "meaning": "糖果",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "yummy",
+        "phonetic": "/ˈjʌmi/",
+        "meaning": "很好吃的",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 3,
+        "word": "at",
+        "phonetic": "/æt/",
+        "meaning": "在（某处）",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "boat",
+        "phonetic": "/bəʊt/",
+        "meaning": "小船；舟",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "cool",
+        "phonetic": "/kuːl/",
+        "meaning": "（因时髦、漂亮且与众不同）酷的，绝妙的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "keep",
+        "phonetic": "/kiːp/",
+        "meaning": "保有；留着",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "home",
+        "phonetic": "/həʊm/",
+        "meaning": "家；住所",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "ball",
+        "phonetic": "/bɔːl/",
+        "meaning": "球",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "doll",
+        "phonetic": "/dɒl/",
+        "meaning": "玩偶；玩具娃娃",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "car",
+        "phonetic": "/kɑː(r)/",
+        "meaning": "小汽车；轿车",
+        "unit": "Unit 5"
       },
       {
         "grade": 3,
         "word": "on",
         "phonetic": "/ɒn/",
-        "meaning": "在⋯⋯上",
-        "unit": "Unit 4"
+        "meaning": "（覆盖、附着）在……上",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 3,
+        "word": "shelf",
+        "phonetic": "/ʃelf/",
+        "meaning": "（复数 shelves /ʃelvz/）架子",
+        "unit": "Unit 5"
       },
       {
         "grade": 3,
         "word": "in",
         "phonetic": "/ɪn/",
-        "meaning": "在⋯⋯里",
-        "unit": "Unit 4"
+        "meaning": "在……内；在……中",
+        "unit": "Unit 5"
       },
       {
         "grade": 3,
-        "word": "under",
-        "phonetic": "/ˈʌndə/",
-        "meaning": "在⋯⋯下面",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "chair",
-        "phonetic": "/tʃeə/",
-        "meaning": "椅子",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "desk",
-        "phonetic": "/desk/",
-        "meaning": "书桌",
-        "unit": "Unit 4"
+        "word": "box",
+        "phonetic": "/bɒks/",
+        "meaning": "盒子",
+        "unit": "Unit 5"
       },
       {
         "grade": 3,
         "word": "cap",
         "phonetic": "/kæp/",
         "meaning": "帽子",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "ball",
-        "phonetic": "/bɔ:l/",
-        "meaning": "球",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "car",
-        "phonetic": "/kɑ:(r)/",
-        "meaning": "小汽车",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "boat",
-        "phonetic": "/bəʊt/",
-        "meaning": "小船",
-        "unit": "Unit 4"
+        "unit": "Unit 5"
       },
       {
         "grade": 3,
         "word": "map",
         "phonetic": "/mæp/",
         "meaning": "地图",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "toy",
-        "phonetic": "/tɒɪ/",
-        "meaning": "玩具",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "box",
-        "phonetic": "/bɒks/",
-        "meaning": "盒",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 3,
-        "word": "pear",
-        "phonetic": "/peə/",
-        "meaning": "梨",
         "unit": "Unit 5"
       },
       {
         "grade": 3,
-        "word": "apple",
-        "phonetic": "/ˈæpl/",
-        "meaning": "苹果",
+        "word": "under",
+        "phonetic": "/ˈʌndə(r)/",
+        "meaning": "在（或到、通过）……下面",
         "unit": "Unit 5"
       },
       {
         "grade": 3,
-        "word": "orange",
-        "phonetic": "/ˈɒrɪndʒ/",
-        "meaning": "橙子",
+        "word": "still",
+        "phonetic": "/stɪl/",
+        "meaning": "还是；仍然",
         "unit": "Unit 5"
       },
       {
         "grade": 3,
-        "word": "banana",
-        "phonetic": "/bəˈnɑ:nə/",
-        "meaning": "香蕉",
+        "word": "put",
+        "phonetic": "/pʊt/",
+        "meaning": "放；安置",
         "unit": "Unit 5"
       },
       {
         "grade": 3,
-        "word": "watermelon",
-        "phonetic": "/ˈwɔ:təmelən/",
-        "meaning": "西瓜",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 3,
-        "word": "strawberry",
-        "phonetic": "/ˈstrɔ:bərɪ/",
-        "meaning": "草莓",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 3,
-        "word": "grape",
-        "phonetic": "/ɡreɪp/",
-        "meaning": "葡萄",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 3,
-        "word": "buy",
-        "phonetic": "/baɪ/",
-        "meaning": "买",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 3,
-        "word": "fruit",
-        "phonetic": "/fru:t/",
-        "meaning": "水果",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 3,
-        "word": "eleven",
-        "phonetic": "/ɪˈlevn/",
-        "meaning": "十一",
+        "word": "fifteen",
+        "phonetic": "/ˌfɪfˈtiːn/",
+        "meaning": "十五",
         "unit": "Unit 6"
       },
       {
@@ -1251,209 +2681,1080 @@ window.__EMBEDDED_BANKS = {
       },
       {
         "grade": 3,
-        "word": "thirteen",
-        "phonetic": "/θɜ:ˈti:n/",
-        "meaning": "十三",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 3,
         "word": "fourteen",
-        "phonetic": "/ˈfɔ:ˈti:n/",
+        "phonetic": "/ˌfɔːˈtiːn/",
         "meaning": "十四",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
-        "word": "fifteen",
-        "phonetic": "/fɪfˈti:n/",
-        "meaning": "十五",
+        "word": "thirteen",
+        "phonetic": "/ˌθɜːˈtiːn/",
+        "meaning": "十三",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
-        "word": "sixteen",
-        "phonetic": "/ˈsɪksˈti:n/",
-        "meaning": "十六",
+        "word": "eleven",
+        "phonetic": "/ɪˈlevn/",
+        "meaning": "十一",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 3,
+        "word": "twenty",
+        "phonetic": "/ˈtwenti/",
+        "meaning": "二十",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
         "word": "seventeen",
-        "phonetic": "/ˈsevənˈti:n/",
+        "phonetic": "/ˌsevnˈtiːn/",
         "meaning": "十七",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
+        "word": "sixteen",
+        "phonetic": "/ˌsɪksˈtiːn/",
+        "meaning": "十六",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 3,
         "word": "eighteen",
-        "phonetic": "/ˈeɪˈti:n/",
+        "phonetic": "/ˌeɪˈtiːn/",
         "meaning": "十八",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
         "word": "nineteen",
-        "phonetic": "/ˈnaɪnˈti:n/",
+        "phonetic": "/ˌnaɪnˈtiːn/",
         "meaning": "十九",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
-        "word": "twenty",
-        "phonetic": "/ˈtwentɪ/",
-        "meaning": "二十",
+        "word": "piggy bank",
+        "phonetic": "/ˈpɪgi bæŋk/",
+        "meaning": "猪形储钱罐",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
-        "word": "kite",
-        "phonetic": "/kaɪt/",
-        "meaning": "风筝",
+        "word": "pay",
+        "phonetic": "/peɪ/",
+        "meaning": "付费",
         "unit": "Unit 6"
       },
       {
         "grade": 3,
-        "word": "beautiful",
-        "phonetic": "/ˈbju:tɪfl/",
-        "meaning": "美丽的",
+        "word": "back",
+        "phonetic": "/bæk/",
+        "meaning": "回到原处",
         "unit": "Unit 6"
       }
     ],
     "sentences": [
       {
-        "en": "The UK is in Europe.",
-        "zh": "英国位于欧洲。"
+        "en": "What's your name?",
+        "zh": "你叫什么名字？"
       },
       {
-        "en": "Canada is a large country.",
-        "zh": "加拿大是一个大国。"
+        "en": "My name's Amy Green.",
+        "zh": "我叫埃米·格林。"
       },
       {
-        "en": "The USA is a large country.",
-        "zh": "美国是一个大国。"
+        "en": "Where are you from?",
+        "zh": "你是哪里人？"
       },
       {
-        "en": "China has a long history.",
-        "zh": "中国有着悠久的历史。"
+        "en": "I'm from the UK.",
+        "zh": "我是英国人。"
       },
       {
-        "en": "She reads English every morning.",
-        "zh": "她每天早上读英语。"
+        "en": "Let me help.",
+        "zh": "我来帮忙。"
       },
       {
-        "en": "The student listens carefully in class.",
-        "zh": "学生在课堂上认真听讲。"
+        "en": "After you!",
+        "zh": "您先请！"
       },
       {
-        "en": "The pupil reads the word aloud.",
-        "zh": "学生大声读出这个词。"
+        "en": "You're welcome.",
+        "zh": "别客气。"
       },
       {
-        "en": "He plays basketball after school.",
-        "zh": "他放学后打篮球。"
+        "en": "Who's that girl?",
+        "zh": "那个女孩是谁？"
       },
       {
-        "en": "The teacher writes a sentence on the board.",
-        "zh": "老师在黑板上写了一句话。"
+        "en": "That's our new neighbour, Amy.",
+        "zh": "是我们的新邻居埃米。"
       },
       {
-        "en": "The boy is playing with a ball.",
-        "zh": "这个男孩正在玩球。"
+        "en": "It has a long body and short legs.",
+        "zh": "它有长长的身体和短短的腿。"
       },
       {
-        "en": "Tom and Mary are classmates.",
-        "zh": "汤姆和玛丽是同学。"
+        "en": "Dogs are friendly.",
+        "zh": "狗是友善的。"
       },
       {
-        "en": "The girl is reading a story.",
-        "zh": "这个女孩正在读故事。"
+        "en": "Do you often say that to your mum?",
+        "zh": "你经常对妈妈那么说吗？"
       },
       {
-        "en": "I have a new notebook.",
-        "zh": "我有一个新笔记本。"
+        "en": "Yes, I do.",
+        "zh": "是的。"
       },
       {
-        "en": "My friend helps me with English.",
-        "zh": "我的朋友帮我学英语。"
+        "en": "I often make her gifts.",
+        "zh": "我经常给她做礼物。"
       },
       {
-        "en": "Today is a sunny day.",
-        "zh": "今天是一个阳光明媚的日子。"
+        "en": "We express ourselves in many ways.",
+        "zh": "我们用很多种方式表达自己。"
       },
       {
-        "en": "My father is kind to me.",
-        "zh": "我的父亲对我很好。"
+        "en": "Excuse me.",
+        "zh": "劳驾。"
       },
       {
-        "en": "My dad is kind to me.",
-        "zh": "我爸爸对我很好。"
+        "en": "Can I use your eraser, please?",
+        "zh": "我能用一下你的橡皮吗？"
       },
       {
-        "en": "The man is waiting for the bus.",
-        "zh": "该男子正在等公共汽车。"
+        "en": "Sure. Here you are.",
+        "zh": "当然。给你。"
       },
       {
-        "en": "The woman is talking to her daughter.",
-        "zh": "那个女人正在和她的女儿说话。"
+        "en": "No problem.",
+        "zh": "没问题。"
       },
       {
-        "en": "My mother is kind to me.",
-        "zh": "我妈妈对我很好。"
+        "en": "What are these?",
+        "zh": "这些是什么？"
+      },
+      {
+        "en": "They're grapes.",
+        "zh": "是葡萄。"
+      },
+      {
+        "en": "What about this?",
+        "zh": "这个呢？"
+      },
+      {
+        "en": "I'd like some bread and eggs, please.",
+        "zh": "我想吃点儿面包和鸡蛋。"
+      },
+      {
+        "en": "Have some milk too.",
+        "zh": "也喝点儿牛奶吧。"
+      },
+      {
+        "en": "Would you like some rice and meat?",
+        "zh": "要吃点儿米饭和肉吗？"
+      },
+      {
+        "en": "Yes, please.",
+        "zh": "好的，谢谢。"
+      },
+      {
+        "en": "Eat some every day!",
+        "zh": "每天吃一些吧！"
+      },
+      {
+        "en": "Do you have old things?",
+        "zh": "你有旧东西吗？"
+      },
+      {
+        "en": "Yes, I do. I have some old books.",
+        "zh": "是的。我有些旧书。"
+      },
+      {
+        "en": "This boat is cool.",
+        "zh": "这只船很酷。"
+      },
+      {
+        "en": "You can keep it.",
+        "zh": "你可以留着它。"
+      },
+      {
+        "en": "Mum, where is my animal book?",
+        "zh": "妈妈，我的动物书在哪儿？"
+      },
+      {
+        "en": "Is it on the shelf?",
+        "zh": "在架子上吗？"
+      },
+      {
+        "en": "No, it isn't.",
+        "zh": "不，不在。"
+      },
+      {
+        "en": "It's in the box.",
+        "zh": "它在盒子里。"
+      },
+      {
+        "en": "How many books do we have?",
+        "zh": "我们有多少本书？"
+      },
+      {
+        "en": "We have fifteen books.",
+        "zh": "我们有十五本书。"
+      },
+      {
+        "en": "How many boxes do we need?",
+        "zh": "我们需要多少个箱子？"
+      },
+      {
+        "en": "We need three boxes.",
+        "zh": "我们需要三个箱子。"
+      },
+      {
+        "en": "How much is this bag?",
+        "zh": "这个包多少钱？"
+      },
+      {
+        "en": "It's twenty yuan.",
+        "zh": "二十元。"
+      },
+      {
+        "en": "Six yuan, or three for seventeen yuan.",
+        "zh": "六元，或者十七元三本。"
+      },
+      {
+        "en": "How about three for sixteen yuan?",
+        "zh": "十六元三本行吗？"
       }
     ],
     "grammar": [
       {
-        "category": "be动词",
-        "question": "She ___ my teacher.",
+        "unit": "Unit 1",
+        "category": "Unit 1 · What's your name?",
+        "question": "— What's your name? — ___ Amy Green.",
         "options": [
-          "am",
-          "is",
+          "My name's",
+          "I'm name",
+          "My name",
+          "Me name's"
+        ],
+        "answer": 0,
+        "explain": "回答 What's your name? 用 My name's ...（My name is）；也可以用 I'm ...。",
+        "question_zh": "—你叫什么名字？—我叫埃米·格林。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · What's your name?",
+        "question": "— ___ your name? — My name's Amy.",
+        "options": [
+          "What's",
+          "Who's",
+          "Where's",
+          "How's"
+        ],
+        "answer": 0,
+        "explain": "问名字用 What's your name?，What's 是 What is 的缩写。",
+        "question_zh": "—你叫什么名字？—我叫埃米。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · Where are you from?",
+        "question": "— Where ___ you from? — I'm from the UK.",
+        "options": [
           "are",
-          "be"
-        ],
-        "answer": 1,
-        "explain": "主语 she 是第三人称单数，用 is。",
-        "question_zh": "她是我的老师。"
-      },
-      {
-        "category": "代词",
-        "question": "Look at ___! She is dancing.",
-        "options": [
-          "she",
-          "her",
-          "hers",
-          "she's"
-        ],
-        "answer": 1,
-        "explain": "介词后用人称代词宾格 her。",
-        "question_zh": "看她！她在跳舞。"
-      },
-      {
-        "category": "情态动词",
-        "question": "I ___ swim in the river.",
-        "options": [
-          "can",
           "is",
           "am",
           "do"
         ],
         "answer": 0,
-        "explain": "情态动词 can 后接动词原形，表示能力。",
-        "question_zh": "我会在河里游泳。"
+        "explain": "主语 you 后面 be 动词用 are；Where are you from? 用来问“你是哪里人？”。",
+        "question_zh": "—你是哪里人？—我是英国人。"
       },
       {
-        "category": "时间介词",
-        "question": "We have lunch ___ twelve.",
+        "unit": "Unit 1",
+        "category": "Unit 1 · Where are you from?",
+        "question": "— Where are you from? — I'm ___ China.",
         "options": [
+          "from",
           "in",
           "at",
-          "on",
-          "for"
+          "to"
         ],
-        "answer": 1,
-        "explain": "具体时刻前用 at。",
-        "question_zh": "我们十二点吃午饭。"
+        "answer": 0,
+        "explain": "回答来自哪里用 I'm from + 国家/地方，from 表示“来自”。",
+        "question_zh": "—你是哪里人？—我是中国人。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 祈使句",
+        "question": "___ me help.",
+        "options": [
+          "Let",
+          "Lets",
+          "Let's",
+          "To let"
+        ],
+        "answer": 0,
+        "explain": "Let me help. 是祈使句，let 后面接宾格 me，再接动词原形 help。",
+        "question_zh": "我来帮忙。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 祈使句",
+        "question": "___ you! 请先走！",
+        "options": [
+          "After",
+          "Before",
+          "Behind",
+          "Under"
+        ],
+        "answer": 0,
+        "explain": "After you! 是礼貌用语，表示“您先请！”，after 表示“在……之后”。",
+        "question_zh": "您先请！"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · have / has",
+        "question": "It ___ a long body and short legs.",
+        "options": [
+          "has",
+          "have",
+          "is",
+          "are"
+        ],
+        "answer": 0,
+        "explain": "主语 It 是第三人称单数，表示“有”用 has，后面接名词。",
+        "question_zh": "它有长长的身体和短短的腿。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · have / has",
+        "question": "Dogs ___ friendly.",
+        "options": [
+          "are",
+          "is",
+          "has",
+          "have"
+        ],
+        "answer": 0,
+        "explain": "主语 Dogs 是复数，be 动词用 are；friendly 是形容词，作表语。",
+        "question_zh": "狗是友善的。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 形容词描述外形",
+        "question": "It has a long ___ and short legs.",
+        "options": [
+          "body",
+          "bodies",
+          "a body",
+          "body's"
+        ],
+        "answer": 0,
+        "explain": "a long body 中 body 用单数；long 是形容词，修饰名词 body。",
+        "question_zh": "它有长长的身体和短短的腿。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 形容词描述外形",
+        "question": "The dog is ___. It can't run fast.",
+        "options": [
+          "slow",
+          "slowly",
+          "slowness",
+          "slower than"
+        ],
+        "answer": 0,
+        "explain": "is 后面接形容词 slow 作表语，说明狗“慢”；slowly 是副词，不能放在 is 后。",
+        "question_zh": "这只狗很慢，跑不快。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · Do you often...?",
+        "question": "— ___ you often say that to your mum? — Yes, I do.",
+        "options": [
+          "Do",
+          "Does",
+          "Are",
+          "Is"
+        ],
+        "answer": 0,
+        "explain": "主语 you 的一般现在时疑问句用 Do 开头，often 是频率副词，放在动词前。",
+        "question_zh": "—你经常对妈妈那么说吗？—是的。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · Do you often...?",
+        "question": "— Do you often make gifts? — No, I ___.",
+        "options": [
+          "don't",
+          "doesn't",
+          "am not",
+          "not"
+        ],
+        "answer": 0,
+        "explain": "Do you ...? 的否定简答用 No, I don't.。",
+        "question_zh": "—你经常做礼物吗？—不，我不常做。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · Can I use...?",
+        "question": "— Can I use your eraser, please? — Sure. ___.",
+        "options": [
+          "Here you are",
+          "Here are you",
+          "You are here",
+          "Here you is"
+        ],
+        "answer": 0,
+        "explain": "把东西递给对方时用 Here you are.，表示“给你”。",
+        "question_zh": "—我能用一下你的橡皮吗？—当然。给你。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · Can I use...?",
+        "question": "— ___ I use your pen, please? — No problem.",
+        "options": [
+          "Can",
+          "Do",
+          "Am",
+          "Is"
+        ],
+        "answer": 0,
+        "explain": "请求允许用 Can I ...?，can 后面接动词原形 use。",
+        "question_zh": "—我能用一下你的钢笔吗？—没问题。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · What are these?",
+        "question": "— What are these? — ___ grapes.",
+        "options": [
+          "They're",
+          "It's",
+          "These is",
+          "Their"
+        ],
+        "answer": 0,
+        "explain": "回答 What are these? 用 They're ...（They are），these 的代词是 they。",
+        "question_zh": "—这些是什么？—是葡萄。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · What are these?",
+        "question": "— What ___ these? — They're grapes.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "these 是复数，be 动词用 are，构成 What are these?。",
+        "question_zh": "—这些是什么？—是葡萄。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · 感官动词",
+        "question": "I can ___ the flowers. They smell good.",
+        "options": [
+          "smell",
+          "smells",
+          "smelling",
+          "to smell"
+        ],
+        "answer": 0,
+        "explain": "can 后面接动词原形 smell；smell 表示“闻（气味）”。",
+        "question_zh": "我能闻到花香。它们很好闻。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · 感官动词",
+        "question": "We ___ with our ears.",
+        "options": [
+          "hear",
+          "hears",
+          "hearing",
+          "to hear"
+        ],
+        "answer": 0,
+        "explain": "主语 We 是复数，一般现在时动词用原形 hear；hear 表示“听见”。",
+        "question_zh": "我们用耳朵听。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · I'd like...",
+        "question": "I'd like some bread and ___, please.",
+        "options": [
+          "eggs",
+          "egg",
+          "an egg",
+          "egg's"
+        ],
+        "answer": 0,
+        "explain": "some 后面接可数名词复数或不可数名词；egg 的复数是 eggs。",
+        "question_zh": "我想吃点儿面包和鸡蛋。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · I'd like...",
+        "question": "I'd like some ___ , please.",
+        "options": [
+          "milk",
+          "milks",
+          "a milk",
+          "milks'"
+        ],
+        "answer": 0,
+        "explain": "milk 是不可数名词，不能加 s 或加 a，some 后面直接用 milk。",
+        "question_zh": "我想喝点儿牛奶。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · Would you like...?",
+        "question": "— ___ you like some rice and meat? — Yes, please.",
+        "options": [
+          "Would",
+          "Do",
+          "Are",
+          "Can"
+        ],
+        "answer": 0,
+        "explain": "礼貌地询问对方要不要某物用 Would you like ...?，回答 Yes, please.。",
+        "question_zh": "—要吃点儿米饭和肉吗？—好的，谢谢。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · Would you like...?",
+        "question": "— Would you like some soup? — ___.",
+        "options": [
+          "Yes, please",
+          "Yes, I do",
+          "Yes, I am",
+          "Yes, I like"
+        ],
+        "answer": 0,
+        "explain": "Would you like ...? 的肯定回答用 Yes, please.，不能用 Yes, I do.。",
+        "question_zh": "—你想喝点汤吗？—好的，谢谢。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · some 的用法",
+        "question": "Have ___ milk too.",
+        "options": [
+          "some",
+          "any",
+          "a",
+          "many"
+        ],
+        "answer": 0,
+        "explain": "肯定句中用 some 修饰不可数名词 milk；any 一般用于否定句和疑问句。",
+        "question_zh": "也喝点儿牛奶吧。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · some 的用法",
+        "question": "Eat some ___ every day!",
+        "options": [
+          "vegetables",
+          "vegetable",
+          "a vegetable",
+          "vegetable's"
+        ],
+        "answer": 0,
+        "explain": "some 后面接可数名词复数 vegetables，表示“一些蔬菜”。",
+        "question_zh": "每天吃一些蔬菜吧！"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 方位介词 on / in / under",
+        "question": "— Is it on the shelf? — No, it isn't. It's ___ the box.",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "at"
+        ],
+        "answer": 0,
+        "explain": "在盒子里面用 in the box；on 表示“在……上面”，under 表示“在……下面”。",
+        "question_zh": "—在架子上吗？—不，不在。它在盒子里。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 方位介词 on / in / under",
+        "question": "The ball is ___ the desk. 球在桌子下面。",
+        "options": [
+          "under",
+          "on",
+          "in",
+          "at"
+        ],
+        "answer": 0,
+        "explain": "表示“在……下面”用 under。",
+        "question_zh": "球在桌子下面。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · Where is...?",
+        "question": "— ___ is my animal book? — It's in the box.",
+        "options": [
+          "Where",
+          "What",
+          "Who",
+          "How"
+        ],
+        "answer": 0,
+        "explain": "问东西在哪里用 Where is ...?，回答用 It's + 方位短语。",
+        "question_zh": "—我的动物书在哪儿？—它在盒子里。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · Where is...?",
+        "question": "— Where ___ my books? — They're on the shelf.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "books 是复数，be 动词用 are，回答用 They're。",
+        "question_zh": "—我的书在哪儿？—它们在架子上。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · Do you have...?",
+        "question": "— ___ you have old things? — Yes, I do.",
+        "options": [
+          "Do",
+          "Does",
+          "Are",
+          "Is"
+        ],
+        "answer": 0,
+        "explain": "主语 you 的一般现在时疑问句用 Do 开头，后面动词用原形 have。",
+        "question_zh": "—你有旧东西吗？—是的。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · Do you have...?",
+        "question": "You can ___ it.",
+        "options": [
+          "keep",
+          "keeps",
+          "keeping",
+          "to keep"
+        ],
+        "answer": 0,
+        "explain": "can 后面接动词原形 keep，表示“可以留着它”。",
+        "question_zh": "你可以留着它。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · How many...?",
+        "question": "— How many books ___ we have? — We have fifteen books.",
+        "options": [
+          "do",
+          "does",
+          "are",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "主语 we 的一般现在时疑问句用助动词 do；How many 后面接名词复数。",
+        "question_zh": "—我们有多少本书？—我们有十五本书。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · How many...?",
+        "question": "We need three ___.",
+        "options": [
+          "boxes",
+          "box",
+          "a box",
+          "box's"
+        ],
+        "answer": 0,
+        "explain": "three 后面接可数名词复数，box 的复数是 boxes。",
+        "question_zh": "我们需要三个箱子。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · How much...?",
+        "question": "— ___ is this bag? — It's twenty yuan.",
+        "options": [
+          "How much",
+          "How many",
+          "How old",
+          "What"
+        ],
+        "answer": 0,
+        "explain": "问价钱用 How much is ...?；How many 问可数事物的数量。",
+        "question_zh": "—这个包多少钱？—二十元。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · How much...?",
+        "question": "— How much ___ these books? — They're twenty yuan.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "主语 these books 是复数，be 动词用 are。",
+        "question_zh": "—这些书多少钱？—二十元。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 数词",
+        "question": "eleven + four = ___",
+        "options": [
+          "fifteen",
+          "fourteen",
+          "thirteen",
+          "sixteen"
+        ],
+        "answer": 0,
+        "explain": "eleven（11）+ four（4）= fifteen（15）。",
+        "question_zh": "11 + 4 = 15"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 数词",
+        "question": "twenty - five = ___",
+        "options": [
+          "fifteen",
+          "fourteen",
+          "sixteen",
+          "seventeen"
+        ],
+        "answer": 0,
+        "explain": "twenty（20）- five（5）= fifteen（15）。",
+        "question_zh": "20 - 5 = 15"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "u1-meeting-new-people",
+        "unit": "Unit 1",
+        "title": "认识新朋友",
+        "summary": "问名字用 What's your name?，回答 My name's ... 或 I'm ...；问来自哪里用 Where are you from?，回答 I'm from ...；礼貌用语有 Let me help. / After you! / You're welcome.。",
+        "structure": [
+          {
+            "tag": "问名字",
+            "en": "What's your name?",
+            "zh": "你叫什么名字？"
+          },
+          {
+            "tag": "答名字",
+            "en": "My name's Amy Green.",
+            "zh": "我叫埃米·格林。"
+          },
+          {
+            "tag": "问来自哪里",
+            "en": "Where are you from?",
+            "zh": "你是哪里人？"
+          },
+          {
+            "tag": "答来自哪里",
+            "en": "I'm from the UK.",
+            "zh": "我是英国人。"
+          },
+          {
+            "tag": "主动帮忙",
+            "en": "Let me help.",
+            "zh": "我来帮忙。"
+          },
+          {
+            "tag": "礼貌让行",
+            "en": "After you!",
+            "zh": "您先请！"
+          }
+        ],
+        "example": [
+          {
+            "en": "What's your name? My name's Chen Jie.",
+            "zh": "你叫什么名字？我叫陈杰。"
+          },
+          {
+            "en": "Where are you from? I'm from China.",
+            "zh": "你是哪里人？我是中国人。"
+          },
+          {
+            "en": "You're welcome.",
+            "zh": "别客气。"
+          }
+        ],
+        "mistake": "Where are you from? 中 you 后面用 are，不能用 is；回答用 I'm from ...，不能省掉 from；Let me 后面接动词原形。"
+      },
+      {
+        "id": "u2-expressing-yourself",
+        "unit": "Unit 2",
+        "title": "描述外形和表达自己",
+        "summary": "描述动物或人的外形用 has / have + 形容词 + 名词；主语是第三人称单数用 has；询问是否经常做某事用 Do you often ...?；回答 Yes, I do. / No, I don't.。",
+        "structure": [
+          {
+            "tag": "三单 has",
+            "en": "It has a long body.",
+            "zh": "它有长长的身体。"
+          },
+          {
+            "tag": "复数 are",
+            "en": "Dogs are friendly.",
+            "zh": "狗是友善的。"
+          },
+          {
+            "tag": "形容词",
+            "en": "long / short / fat / thin / slow",
+            "zh": "长的 / 短的 / 胖的 / 瘦的 / 慢的"
+          },
+          {
+            "tag": "问频率",
+            "en": "Do you often say that to your mum?",
+            "zh": "你经常对妈妈那么说吗？"
+          },
+          {
+            "tag": "肯定回答",
+            "en": "Yes, I do.",
+            "zh": "是的。"
+          },
+          {
+            "tag": "表达方式",
+            "en": "We express ourselves in many ways.",
+            "zh": "我们用很多种方式表达自己。"
+          }
+        ],
+        "example": [
+          {
+            "en": "The rabbit has long ears.",
+            "zh": "这只兔子有长耳朵。"
+          },
+          {
+            "en": "Do you often sing songs?",
+            "zh": "你经常唱歌吗？"
+          },
+          {
+            "en": "I often make cards for my friends.",
+            "zh": "我经常给朋友们做卡片。"
+          }
+        ],
+        "mistake": "主语是 it / he / she 时用 has，不能用 have；形容词放在名词前面（a long body），不能说 a body long；often 放在实义动词前。"
+      },
+      {
+        "id": "u3-learning-better",
+        "unit": "Unit 3",
+        "title": "借东西和描述感官",
+        "summary": "请求借用东西用 Can I use your ...?，递东西时说 Here you are.；询问多个事物用 What are these?，回答 They're ...；感官动词 see / smell / taste / hear / touch 后面直接接名词。",
+        "structure": [
+          {
+            "tag": "请求借用",
+            "en": "Can I use your eraser, please?",
+            "zh": "我能用一下你的橡皮吗？"
+          },
+          {
+            "tag": "递东西",
+            "en": "Sure. Here you are.",
+            "zh": "当然。给你。"
+          },
+          {
+            "tag": "复数提问",
+            "en": "What are these?",
+            "zh": "这些是什么？"
+          },
+          {
+            "tag": "复数回答",
+            "en": "They're grapes.",
+            "zh": "是葡萄。"
+          },
+          {
+            "tag": "看见",
+            "en": "I can see a bird.",
+            "zh": "我能看见一只鸟。"
+          },
+          {
+            "tag": "闻 / 尝",
+            "en": "Smell the flowers. Taste the soup.",
+            "zh": "闻闻花。尝尝汤。"
+          }
+        ],
+        "example": [
+          {
+            "en": "Can I use your ruler? Sure. Here you are.",
+            "zh": "我能用一下你的尺子吗？当然。给你。"
+          },
+          {
+            "en": "What are these? They're books.",
+            "zh": "这些是什么？是书。"
+          },
+          {
+            "en": "We hear with our ears.",
+            "zh": "我们用耳朵听。"
+          }
+        ],
+        "mistake": "回答 What are these? 用 They're，不能用 It's；Can I ...? 后面用动词原形；these 是复数，be 动词用 are。"
+      },
+      {
+        "id": "u4-healthy-food",
+        "unit": "Unit 4",
+        "title": "说想吃什么",
+        "summary": "表达“我想要……”用 I'd like ...；礼貌询问对方要不要用 Would you like ...?，接受时回答 Yes, please.；肯定句中用 some 修饰不可数名词或可数名词复数。",
+        "structure": [
+          {
+            "tag": "我想要",
+            "en": "I'd like some bread and eggs.",
+            "zh": "我想吃点儿面包和鸡蛋。"
+          },
+          {
+            "tag": "也喝点",
+            "en": "Have some milk too.",
+            "zh": "也喝点儿牛奶吧。"
+          },
+          {
+            "tag": "礼貌询问",
+            "en": "Would you like some rice and meat?",
+            "zh": "要吃点儿米饭和肉吗？"
+          },
+          {
+            "tag": "接受",
+            "en": "Yes, please.",
+            "zh": "好的，谢谢。"
+          },
+          {
+            "tag": "每天吃",
+            "en": "Eat some every day!",
+            "zh": "每天吃一些吧！"
+          },
+          {
+            "tag": "不可数",
+            "en": "milk / rice / bread / juice",
+            "zh": "牛奶 / 米饭 / 面包 / 果汁"
+          }
+        ],
+        "example": [
+          {
+            "en": "I'd like some noodles.",
+            "zh": "我想吃点儿面条。"
+          },
+          {
+            "en": "Would you like some juice? Yes, please.",
+            "zh": "你想喝点果汁吗？好的，谢谢。"
+          },
+          {
+            "en": "Have some fruit.",
+            "zh": "吃点儿水果吧。"
+          }
+        ],
+        "mistake": "Would you like ...? 的回答用 Yes, please.，不能用 Yes, I do.；不可数名词（milk, rice, bread）不能加 s；some 用于肯定句。"
+      },
+      {
+        "id": "u5-old-toys",
+        "unit": "Unit 5",
+        "title": "旧玩具在哪里",
+        "summary": "问东西在哪里用 Where is / are ...?；回答用 It's / They're + 方位介词短语；方位介词 in 表示“在……里”，on 表示“在……上”，under 表示“在……下”。",
+        "structure": [
+          {
+            "tag": "问单数",
+            "en": "Where is my animal book?",
+            "zh": "我的动物书在哪儿？"
+          },
+          {
+            "tag": "答",
+            "en": "It's in the box.",
+            "zh": "它在盒子里。"
+          },
+          {
+            "tag": "问复数",
+            "en": "Where are my books?",
+            "zh": "我的书在哪儿？"
+          },
+          {
+            "tag": "答复数",
+            "en": "They're on the shelf.",
+            "zh": "它们在架子上。"
+          },
+          {
+            "tag": "在……上",
+            "en": "on the shelf",
+            "zh": "在架子上"
+          },
+          {
+            "tag": "在……下",
+            "en": "under the desk",
+            "zh": "在桌子下面"
+          }
+        ],
+        "example": [
+          {
+            "en": "Where is the ball? It's under the desk.",
+            "zh": "球在哪儿？在桌子下面。"
+          },
+          {
+            "en": "Is it on the shelf? No, it isn't.",
+            "zh": "在架子上吗？不，不在。"
+          },
+          {
+            "en": "Do you have old toys? Yes, I do.",
+            "zh": "你有旧玩具吗？是的。"
+          }
+        ],
+        "mistake": "单数问句用 Where is，复数用 Where are；回答单数用 It's，复数用 They're；in / on / under 后面接名词短语。"
+      },
+      {
+        "id": "u6-numbers-in-life",
+        "unit": "Unit 6",
+        "title": "数量和价钱",
+        "summary": "问可数事物的数量用 How many + 名词复数 + do we have?；问价钱用 How much is / are ...?；11-20 的数词要能认读和拼写。",
+        "structure": [
+          {
+            "tag": "问数量",
+            "en": "How many books do we have?",
+            "zh": "我们有多少本书？"
+          },
+          {
+            "tag": "答数量",
+            "en": "We have fifteen books.",
+            "zh": "我们有十五本书。"
+          },
+          {
+            "tag": "问需要",
+            "en": "How many boxes do we need?",
+            "zh": "我们需要多少个箱子？"
+          },
+          {
+            "tag": "问价钱",
+            "en": "How much is this bag?",
+            "zh": "这个包多少钱？"
+          },
+          {
+            "tag": "答价钱",
+            "en": "It's twenty yuan.",
+            "zh": "二十元。"
+          },
+          {
+            "tag": "数词",
+            "en": "eleven / twelve / fifteen / twenty",
+            "zh": "11 / 12 / 15 / 20"
+          }
+        ],
+        "example": [
+          {
+            "en": "How many pencils do you have? I have twelve.",
+            "zh": "你有多少支铅笔？我有十二支。"
+          },
+          {
+            "en": "How much are these books? They're thirty yuan.",
+            "zh": "这些书多少钱？三十元。"
+          },
+          {
+            "en": "We need sixteen boxes.",
+            "zh": "我们需要十六个箱子。"
+          }
+        ],
+        "mistake": "How many 后面接可数名词复数，How much 问价钱；问复数价钱用 are，回答用 They're；three boxes 中 box 要加 es。"
       }
     ]
   },
@@ -1461,58 +3762,1880 @@ window.__EMBEDDED_BANKS = {
     "words": [
       {
         "grade": 4,
+        "word": "PE",
+        "phonetic": "/ˌpiː ˈiː/",
+        "meaning": "体育（课）",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "job",
+        "phonetic": "/dʒɒb/",
+        "meaning": "工作；职业",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "doctor",
+        "phonetic": "/ˈdɒktə(r)/",
+        "meaning": "医生",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "farmer",
+        "phonetic": "/ˈfɑːmə(r)/",
+        "meaning": "农场主；农民",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "nurse",
+        "phonetic": "/nɜːs/",
+        "meaning": "护士",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "office worker",
+        "phonetic": "/ˈɒfɪs ˈwɜːkə(r)/",
+        "meaning": "公司职员",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "factory worker",
+        "phonetic": "/ˈfæktri ˈwɜːkə(r)/",
+        "meaning": "工厂工人",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "busy",
+        "phonetic": "/ˈbɪzi/",
+        "meaning": "忙碌的",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "tired",
+        "phonetic": "/ˈtaɪəd/",
+        "meaning": "疲倦的",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "chore",
+        "phonetic": "/tʃɔː(r)/",
+        "meaning": "家庭杂务",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "cook",
+        "phonetic": "/kʊk/",
+        "meaning": "烹饪；煮",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "clean",
+        "phonetic": "/kliːn/",
+        "meaning": "打扫；干净的",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "room",
+        "phonetic": "/ruːm/",
+        "meaning": "房间",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "look after",
+        "phonetic": "/lʊk ˈɑːftə(r)/",
+        "meaning": "照顾",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "sweep",
+        "phonetic": "/swiːp/",
+        "meaning": "扫",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "floor",
+        "phonetic": "/flɔː(r)/",
+        "meaning": "地板；地面",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "together",
+        "phonetic": "/təˈgeðə(r)/",
+        "meaning": "在一起；共同",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "people",
+        "phonetic": "/ˈpiːpl/",
+        "meaning": "人；人们",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "child",
+        "phonetic": "/tʃaɪld/",
+        "meaning": "（复数 children /ˈtʃɪldrən/）儿童；小孩",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "his",
+        "phonetic": "/hɪz/",
+        "meaning": "他的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "strong",
+        "phonetic": "/strɒŋ/",
+        "meaning": "强壮的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "hair",
+        "phonetic": "/heə(r)/",
+        "meaning": "头发",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "also",
+        "phonetic": "/ˈɔːlsəʊ/",
+        "meaning": "也",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "kind",
+        "phonetic": "/kaɪnd/",
+        "meaning": "友好的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "quiet",
+        "phonetic": "/ˈkwaɪət/",
+        "meaning": "文静的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "best",
+        "phonetic": "/best/",
+        "meaning": "最好的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "read",
+        "phonetic": "/riːd/",
+        "meaning": "阅读",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "Chinese",
+        "phonetic": "/ˌtʃaɪˈniːz/",
+        "meaning": "中文；中国人；中国的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "play",
+        "phonetic": "/pleɪ/",
+        "meaning": "玩耍",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "game",
+        "phonetic": "/geɪm/",
+        "meaning": "游戏",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "football",
+        "phonetic": "/ˈfʊtbɔːl/",
+        "meaning": "足球运动",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "basketball",
+        "phonetic": "/ˈbɑːskɪtbɔːl/",
+        "meaning": "篮球运动",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "always",
+        "phonetic": "/ˈɔːlweɪz/",
+        "meaning": "总是",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "afternoon",
+        "phonetic": "/ˌɑːftəˈnuːn/",
+        "meaning": "下午",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "there",
+        "phonetic": "/ðeə(r)/",
+        "meaning": "（表示存在或发生）；在那里",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "playground",
+        "phonetic": "/ˈpleɪgraʊnd/",
+        "meaning": "游乐场；操场",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "park",
+        "phonetic": "/pɑːk/",
+        "meaning": "公园",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "over",
+        "phonetic": "/ˈəʊvə(r)/",
+        "meaning": "在……的远端（或对面）",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "hospital",
+        "phonetic": "/ˈhɒspɪtl/",
+        "meaning": "医院",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "shop",
+        "phonetic": "/ʃɒp/",
+        "meaning": "商店",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "toilet",
+        "phonetic": "/ˈtɔɪlət/",
+        "meaning": "厕所；卫生间",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "bus stop",
+        "phonetic": "/bʌs stɒp/",
+        "meaning": "公共汽车站",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "library",
+        "phonetic": "/ˈlaɪbrəri/",
+        "meaning": "图书馆",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "sport",
+        "phonetic": "/spɔːt/",
+        "meaning": "体育运动",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "walk",
+        "phonetic": "/wɔːk/",
+        "meaning": "散步；行走",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "community",
+        "phonetic": "/kəˈmjuːnəti/",
+        "meaning": "社区",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "favourite",
+        "phonetic": "/ˈfeɪvərɪt/",
+        "meaning": "最喜欢的",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "place",
+        "phonetic": "/pleɪs/",
+        "meaning": "地方；场所",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "photo",
+        "phonetic": "/ˈfəʊtəʊ/",
+        "meaning": "照片",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "story",
+        "phonetic": "/ˈstɔːri/",
+        "meaning": "故事",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "buy",
+        "phonetic": "/baɪ/",
+        "meaning": "购买",
+        "unit": "Unit 3"
+      },
+      {
+        "grade": 4,
+        "word": "firefighter",
+        "phonetic": "/ˈfaɪəfaɪtə(r)/",
+        "meaning": "消防队员",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "why",
+        "phonetic": "/waɪ/",
+        "meaning": "为什么",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "driver",
+        "phonetic": "/ˈdraɪvə(r)/",
+        "meaning": "司机",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "cleaner",
+        "phonetic": "/ˈkliːnə(r)/",
+        "meaning": "清洁工",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "cook",
+        "phonetic": "/kʊk/",
+        "meaning": "厨师",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "delivery worker",
+        "phonetic": "/dɪˈlɪvəri ˈwɜːkə(r)/",
+        "meaning": "快递员",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "police officer",
+        "phonetic": "/pəˈliːs ˈɒfɪsə(r)/",
+        "meaning": "警察；警员",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "a lot of",
+        "phonetic": "/ə lɒt əv/",
+        "meaning": "大量；许多",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "now",
+        "phonetic": "/naʊ/",
+        "meaning": "现在",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "make the bed",
+        "phonetic": "/meɪk ðə bed/",
+        "meaning": "铺床",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "old",
+        "phonetic": "/əʊld/",
+        "meaning": "过去的；年纪大的；老的",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "tell",
+        "phonetic": "/tel/",
+        "meaning": "讲述；告诉",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "everyone",
+        "phonetic": "/ˈevriwʌn/",
+        "meaning": "每人",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "Ms",
+        "phonetic": "/mɪz/",
+        "meaning": "（用于女子的姓氏或姓名前，不指明婚否）女士",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "speak",
+        "phonetic": "/spiːk/",
+        "meaning": "说话；发言",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "weather",
+        "phonetic": "/ˈweðə(r)/",
+        "meaning": "天气",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "sunny",
+        "phonetic": "/ˈsʌni/",
+        "meaning": "阳光充足的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "hot",
+        "phonetic": "/hɒt/",
+        "meaning": "热的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "bad",
+        "phonetic": "/bæd/",
+        "meaning": "令人不快的；坏的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "cold",
+        "phonetic": "/kəʊld/",
+        "meaning": "冷的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "windy",
+        "phonetic": "/ˈwɪndi/",
+        "meaning": "多风的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "cloudy",
+        "phonetic": "/ˈklaʊdi/",
+        "meaning": "多云的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "rainy",
+        "phonetic": "/ˈreɪni/",
+        "meaning": "阴雨的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "snowy",
+        "phonetic": "/ˈsnəʊi/",
+        "meaning": "多雪的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "cool",
+        "phonetic": "/kuːl/",
+        "meaning": "凉爽的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "warm",
+        "phonetic": "/wɔːm/",
+        "meaning": "温暖的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "tomorrow",
+        "phonetic": "/təˈmɒrəʊ/",
+        "meaning": "在明天",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "rain",
+        "phonetic": "/reɪn/",
+        "meaning": "下雨；雨",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "closed",
+        "phonetic": "/kləʊzd/",
+        "meaning": "关闭的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "film",
+        "phonetic": "/fɪlm/",
+        "meaning": "电影",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "idea",
+        "phonetic": "/aɪˈdɪə/",
+        "meaning": "想法；主意",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "fly",
+        "phonetic": "/flaɪ/",
+        "meaning": "操纵（飞行器等）；飞",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "kite",
+        "phonetic": "/kaɪt/",
+        "meaning": "风筝",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "snowman",
+        "phonetic": "/ˈsnəʊmæn/",
+        "meaning": "雪人",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "fun",
+        "phonetic": "/fʌn/",
+        "meaning": "享乐；乐趣",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "their",
+        "phonetic": "/ðeə(r)/",
+        "meaning": "他们的；她们的；它们的",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "swim",
+        "phonetic": "/swɪm/",
+        "meaning": "游泳",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "Sydney",
+        "phonetic": "/ˈsɪdni/",
+        "meaning": "悉尼",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "whose",
+        "phonetic": "/huːz/",
+        "meaning": "谁的",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "sweater",
+        "phonetic": "/ˈswetə(r)/",
+        "meaning": "毛衣",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "sock",
+        "phonetic": "/sɒk/",
+        "meaning": "短袜",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "mine",
+        "phonetic": "/maɪn/",
+        "meaning": "我的",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "wear",
+        "phonetic": "/weə(r)/",
+        "meaning": "穿；戴",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "shirt",
+        "phonetic": "/ʃɜːt/",
+        "meaning": "衬衫",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "coat",
+        "phonetic": "/kəʊt/",
+        "meaning": "大衣；外套",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "dress",
+        "phonetic": "/dres/",
+        "meaning": "连衣裙",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "which",
+        "phonetic": "/wɪtʃ/",
+        "meaning": "哪一个；哪些",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "season",
+        "phonetic": "/ˈsiːzn/",
+        "meaning": "季节",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "winter",
+        "phonetic": "/ˈwɪntə(r)/",
+        "meaning": "冬天",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "snow",
+        "phonetic": "/snəʊ/",
+        "meaning": "下雪；雪",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "get together",
+        "phonetic": "/get təˈgeðə(r)/",
+        "meaning": "聚会",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "spring",
+        "phonetic": "/sprɪŋ/",
+        "meaning": "春天",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "summer",
+        "phonetic": "/ˈsʌmə(r)/",
+        "meaning": "夏天",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "autumn",
+        "phonetic": "/ˈɔːtəm/",
+        "meaning": "秋天",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "T-shirt",
+        "phonetic": "/ˈtiːʃɜːt/",
+        "meaning": "T恤衫",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "fall",
+        "phonetic": "/fɔːl/",
+        "meaning": "落下",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "leaf",
+        "phonetic": "/liːf/",
+        "meaning": "（复数 leaves /liːvz/）叶",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "glove",
+        "phonetic": "/glʌv/",
+        "meaning": "手套",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "then",
+        "phonetic": "/ðen/",
+        "meaning": "然后；那时",
+        "unit": "Unit 6"
+      }
+    ],
+    "sentences": [
+      {
+        "en": "What's your mother's job?",
+        "zh": "你妈妈做什么工作？"
+      },
+      {
+        "en": "She's a doctor.",
+        "zh": "她是医生。"
+      },
+      {
+        "en": "Mum and Dad are busy and tired.",
+        "zh": "爸爸妈妈又忙又累。"
+      },
+      {
+        "en": "What can we do for them?",
+        "zh": "我们能为他们做些什么？"
+      },
+      {
+        "en": "We can do some chores.",
+        "zh": "我们可以做一些家务活。"
+      },
+      {
+        "en": "What's your friend's name?",
+        "zh": "你的朋友叫什么名字？"
+      },
+      {
+        "en": "His name is Zhang Peng.",
+        "zh": "他叫张鹏。"
+      },
+      {
+        "en": "He's tall and strong.",
+        "zh": "他又高又壮。"
+      },
+      {
+        "en": "He's also kind. He often helps me.",
+        "zh": "他也很友善。他经常帮助我。"
+      },
+      {
+        "en": "Who's your best friend?",
+        "zh": "谁是你最好的朋友？"
+      },
+      {
+        "en": "Chen Jie. She's funny. She often makes me smile.",
+        "zh": "陈杰。她很有趣。她经常让我开心。"
+      },
+      {
+        "en": "There is a playground. We often play there.",
+        "zh": "那里有个游乐场。我们经常在那里玩儿。"
+      },
+      {
+        "en": "There is a taijiquan club.",
+        "zh": "这里有一个太极拳俱乐部。"
+      },
+      {
+        "en": "There are many people.",
+        "zh": "这里有好多人。"
+      },
+      {
+        "en": "There is a gym too.",
+        "zh": "这里还有一个体育馆。"
+      },
+      {
+        "en": "Great! Let's do some sports.",
+        "zh": "太棒了！我们一起做运动吧。"
+      },
+      {
+        "en": "My favourite place is the museum.",
+        "zh": "我最喜欢的地方是博物馆。"
+      },
+      {
+        "en": "Our neighbour is a firefighter. He often helps people.",
+        "zh": "我们的邻居是消防员。他经常帮助别人。"
+      },
+      {
+        "en": "He's a school bus driver. He takes us to school every day.",
+        "zh": "他是校车司机。他每天送我们去学校。"
+      },
+      {
+        "en": "That's an important job too!",
+        "zh": "那个工作也很重要！"
+      },
+      {
+        "en": "Chen Jie is making the bed.",
+        "zh": "陈杰正在铺床。"
+      },
+      {
+        "en": "In the kindergarten, John and Class One are singing songs together.",
+        "zh": "在幼儿园，约翰和一班的小朋友们在一起唱歌。"
+      },
+      {
+        "en": "Hello! Mark speaking.",
+        "zh": "你好！我是马克。"
+      },
+      {
+        "en": "Hi, Mark! This is John. What's the weather like in Sydney?",
+        "zh": "嗨，马克！我是约翰。悉尼的天气怎么样？"
+      },
+      {
+        "en": "Well, it's sunny today.",
+        "zh": "噢，今天是晴天。"
+      },
+      {
+        "en": "It's only two degrees in Beijing.",
+        "zh": "北京只有两度。"
+      },
+      {
+        "en": "It's raining now.",
+        "zh": "现在下雨了。"
+      },
+      {
+        "en": "We can't play basketball in the park.",
+        "zh": "我们不能在公园打篮球了。"
+      },
+      {
+        "en": "It's OK. We can go to the library.",
+        "zh": "没关系。我们可以去图书馆。"
+      },
+      {
+        "en": "It's hot and sunny here.",
+        "zh": "这里很热，是个大晴天。"
+      },
+      {
+        "en": "Their children swim in the pool.",
+        "zh": "他们的孩子在泳池里游泳。"
+      },
+      {
+        "en": "Whose sweater is this, Mum?",
+        "zh": "这是谁的毛衣，妈妈？"
+      },
+      {
+        "en": "It's your dad's.",
+        "zh": "是你爸爸的。"
+      },
+      {
+        "en": "Can I wear this new shirt today?",
+        "zh": "我今天可以穿这件新衬衫吗？"
+      },
+      {
+        "en": "Yes, but wear a coat too. It's cold and windy outside.",
+        "zh": "可以，但是再穿一件外套吧。外面有风，很冷。"
+      },
+      {
+        "en": "Which season do you like?",
+        "zh": "你喜欢哪个季节？"
+      },
+      {
+        "en": "Winter. It snows a lot.",
+        "zh": "冬天。冬天经常下雪。"
+      },
+      {
+        "en": "I like winter too. There are many festivals.",
+        "zh": "我也喜欢冬天。（在冬天）有很多节日。"
+      },
+      {
+        "en": "It's full of life.",
+        "zh": "（春天）充满生机。"
+      },
+      {
+        "en": "And enjoy mooncakes.",
+        "zh": "还品尝月饼。"
+      },
+      {
+        "en": "Then spring comes again.",
+        "zh": "接着春天又来了。"
+      }
+    ],
+    "grammar": [
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 问职业",
+        "question": "— What's your mother's ___? — She's a doctor.",
+        "options": [
+          "job",
+          "work",
+          "name",
+          "home"
+        ],
+        "answer": 0,
+        "explain": "问某人的职业用 What's one's job?；job 表示“工作、职业”。",
+        "question_zh": "—你妈妈做什么工作？—她是医生。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 问职业",
+        "question": "— ___ your father's job? — He's a driver.",
+        "options": [
+          "What's",
+          "Who's",
+          "Where's",
+          "How's"
+        ],
+        "answer": 0,
+        "explain": "问职业用 What's ... job?，What's 是 What is 的缩写。",
+        "question_zh": "—你爸爸做什么工作？—他是司机。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 名词所有格 's",
+        "question": "What's your ___ job?（妈妈的）",
+        "options": [
+          "mother's",
+          "mother",
+          "mothers",
+          "mother of"
+        ],
+        "answer": 0,
+        "explain": "表示“妈妈的”用名词所有格 mother's，在名词后加 's。",
+        "question_zh": "你妈妈做什么工作？"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 名词所有格 's",
+        "question": "This is ___ room.（爸爸的）",
+        "options": [
+          "father's",
+          "father",
+          "fathers",
+          "of father"
+        ],
+        "answer": 0,
+        "explain": "表示“爸爸的”用 father's；'s 所有格放在名词后。",
+        "question_zh": "这是爸爸的房间。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · can + 动词原形",
+        "question": "What can we ___ for them?",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "to do"
+        ],
+        "answer": 0,
+        "explain": "can 后面接动词原形 do；What can we do ...? 表示“我们能做些什么？”。",
+        "question_zh": "我们能为他们做些什么？"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · can + 动词原形",
+        "question": "We can ___ some chores.",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "to do"
+        ],
+        "answer": 0,
+        "explain": "can 后面接动词原形 do；do chores 表示“做家务”。",
+        "question_zh": "我们可以做一些家务活。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 形容词性物主代词 his",
+        "question": "___ name is Zhang Peng.",
+        "options": [
+          "His",
+          "He",
+          "Him",
+          "She"
+        ],
+        "answer": 0,
+        "explain": "表示“他的”用形容词性物主代词 his，后面接名词 name。",
+        "question_zh": "他叫张鹏。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 形容词性物主代词 his",
+        "question": "This is my friend. ___ hair is long.",
+        "options": [
+          "His",
+          "He",
+          "Him",
+          "He's"
+        ],
+        "answer": 0,
+        "explain": "修饰名词 hair 要用形容词性物主代词 his；He 和 Him 是代词主格/宾格。",
+        "question_zh": "这是我的朋友。他的头发很长。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · be + 形容词",
+        "question": "He ___ tall and strong.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "has"
+        ],
+        "answer": 0,
+        "explain": "主语 He 是第三人称单数，be 动词用 is，后面接形容词描述外形。",
+        "question_zh": "他又高又壮。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · be + 形容词",
+        "question": "She ___ kind and quiet.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "have"
+        ],
+        "answer": 0,
+        "explain": "主语 She 是第三人称单数，be 动词用 is；kind 和 quiet 是形容词。",
+        "question_zh": "她又友善又文静。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · Who's...?",
+        "question": "— ___ your best friend? — Chen Jie.",
+        "options": [
+          "Who's",
+          "What's",
+          "Where's",
+          "How's"
+        ],
+        "answer": 0,
+        "explain": "问“谁是你的好朋友”用 Who's ...?，Who's 是 Who is 的缩写。",
+        "question_zh": "—谁是你最好的朋友？—陈杰。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · Who's...?",
+        "question": "— Who's your best friend? — ___ Chen Jie.",
+        "options": [
+          "She's",
+          "He's",
+          "It's",
+          "She"
+        ],
+        "answer": 0,
+        "explain": "回答 Who's ...? 时用 She's / He's + 名字；She's 是 She is 的缩写。",
+        "question_zh": "—谁是你最好的朋友？—她是陈杰。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · There is / There are",
+        "question": "There ___ a playground near my home.",
+        "options": [
+          "is",
+          "are",
+          "have",
+          "has"
+        ],
+        "answer": 0,
+        "explain": "There be 句型中，后面是单数名词 a playground，be 动词用 is。",
+        "question_zh": "我家附近有一个游乐场。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · There is / There are",
+        "question": "There ___ many people in the park.",
+        "options": [
+          "are",
+          "is",
+          "have",
+          "has"
+        ],
+        "answer": 0,
+        "explain": "后面是复数名词 many people，There be 句型用 are。",
+        "question_zh": "公园里有很多人。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · There is / There are",
+        "question": "There is a gym ___.",
+        "options": [
+          "too",
+          "to",
+          "two",
+          "also"
+        ],
+        "answer": 0,
+        "explain": "too 放在句末表示“也”；also 一般放在句中，不能放句末。",
+        "question_zh": "这里还有一个体育馆。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · There is / There are",
+        "question": "— Is there a library near here? — Yes, there ___.",
+        "options": [
+          "is",
+          "are",
+          "has",
+          "have"
+        ],
+        "answer": 0,
+        "explain": "Is there ...? 的肯定回答是 Yes, there is.。",
+        "question_zh": "—这附近有图书馆吗？—是的，有。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · Let's + 动词原形",
+        "question": "Let's ___ some sports.",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "to do"
+        ],
+        "answer": 0,
+        "explain": "Let's 后面接动词原形，do some sports 表示“做运动”。",
+        "question_zh": "我们一起做运动吧。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · Let's + 动词原形",
+        "question": "Let's ___ there!",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "to go"
+        ],
+        "answer": 0,
+        "explain": "Let's 后面接动词原形 go。",
+        "question_zh": "我们去那里吧！"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 一般现在时三单",
+        "question": "Our neighbour is a firefighter. He often ___ people.",
+        "options": [
+          "helps",
+          "help",
+          "helping",
+          "to help"
+        ],
+        "answer": 0,
+        "explain": "主语 He 是第三人称单数，一般现在时动词用 helps；often 是频率副词。",
+        "question_zh": "我们的邻居是消防员。他经常帮助别人。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 一般现在时三单",
+        "question": "He ___ us to school every day.",
+        "options": [
+          "takes",
+          "take",
+          "taking",
+          "to take"
+        ],
+        "answer": 0,
+        "explain": "主语 He 是第三人称单数，动词 take 要加 s，变成 takes。",
+        "question_zh": "他每天送我们去学校。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 职业名称",
+        "question": "Our neighbour is ___ firefighter.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "／"
+        ],
+        "answer": 0,
+        "explain": "firefighter 是单数可数名词，以辅音音素开头，前面用 a。",
+        "question_zh": "我们的邻居是一名消防员。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 职业名称",
+        "question": "He is ___ school bus driver.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "／"
+        ],
+        "answer": 0,
+        "explain": "school bus driver 是单数可数名词，前面用 a。",
+        "question_zh": "他是校车司机。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 现在进行时",
+        "question": "Chen Jie ___ making the bed.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "现在进行时结构是 be + 动词-ing；主语 Chen Jie 是第三人称单数，be 动词用 is。",
+        "question_zh": "陈杰正在铺床。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · 现在进行时",
+        "question": "John and Class One ___ singing songs together.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "主语 John and Class One 是复数，现在进行时用 are + singing。",
+        "question_zh": "约翰和一班的小朋友们在一起唱歌。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · What's the weather like?",
+        "question": "— What's the weather ___ in Sydney? — It's sunny.",
+        "options": [
+          "like",
+          "likes",
+          "look",
+          "looks"
+        ],
+        "answer": 0,
+        "explain": "问天气用 What's the weather like ...?，like 是介词。",
+        "question_zh": "—悉尼的天气怎么样？—是晴天。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · What's the weather like?",
+        "question": "— ___ the weather like in Beijing? — It's cold.",
+        "options": [
+          "What's",
+          "How's",
+          "Where's",
+          "Who's"
+        ],
+        "answer": 0,
+        "explain": "问天气用 What's the weather like ...?，不能用 How's。",
+        "question_zh": "—北京的天气怎么样？—很冷。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 天气形容词",
+        "question": "It's ___ today. The sun is shining.",
+        "options": [
+          "sunny",
+          "rainy",
+          "snowy",
+          "windy"
+        ],
+        "answer": 0,
+        "explain": "太阳照耀、阳光充足用 sunny；rainy 下雨，snowy 下雪，windy 多风。",
+        "question_zh": "今天是晴天，太阳照耀着。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 天气形容词",
+        "question": "It's ___ now. Take an umbrella.",
+        "options": [
+          "rainy",
+          "sunny",
+          "hot",
+          "warm"
+        ],
+        "answer": 0,
+        "explain": "要带伞说明在下雨，用 rainy。",
+        "question_zh": "现在下雨了。带把伞。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 现在进行时",
+        "question": "It's ___ now.",
+        "options": [
+          "raining",
+          "rains",
+          "rain",
+          "to rain"
+        ],
+        "answer": 0,
+        "explain": "现在进行时结构 be + 动词-ing，表示“现在正在下雨”用 It's raining now.。",
+        "question_zh": "现在下雨了。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 现在进行时",
+        "question": "Their children ___ in the pool.",
+        "options": [
+          "are swimming",
+          "is swimming",
+          "swim",
+          "swims"
+        ],
+        "answer": 0,
+        "explain": "主语 Their children 是复数，现在进行时用 are + swimming。",
+        "question_zh": "他们的孩子在泳池里游泳。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Whose...?",
+        "question": "— ___ sweater is this? — It's your dad's.",
+        "options": [
+          "Whose",
+          "Who's",
+          "Which",
+          "What"
+        ],
+        "answer": 0,
+        "explain": "问“这是谁的”用 Whose + 名词 + is this?；Who's 是 Who is。",
+        "question_zh": "—这是谁的毛衣？—是你爸爸的。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Whose...?",
+        "question": "— Whose socks are these? — They're ___.",
+        "options": [
+          "mine",
+          "my",
+          "I",
+          "me"
+        ],
+        "answer": 0,
+        "explain": "mine 是名词性物主代词，可以单独使用；my 后面必须接名词。",
+        "question_zh": "—这些是谁的袜子？—是我的。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Which season...?",
+        "question": "— ___ season do you like? — Winter.",
+        "options": [
+          "Which",
+          "What's",
+          "Whose",
+          "Where"
+        ],
+        "answer": 0,
+        "explain": "在有限范围内问“哪一个季节”用 Which season do you like?。",
+        "question_zh": "—你喜欢哪个季节？—冬天。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Which season...?",
+        "question": "I like winter. It ___ a lot.",
+        "options": [
+          "snows",
+          "snow",
+          "snowing",
+          "to snow"
+        ],
+        "answer": 0,
+        "explain": "主语 It 是第三人称单数，一般现在时动词用 snows；snow 作动词表示“下雪”。",
+        "question_zh": "我喜欢冬天。冬天经常下雪。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 穿着的表达",
+        "question": "Can I ___ this new shirt today?",
+        "options": [
+          "wear",
+          "wears",
+          "wearing",
+          "to wear"
+        ],
+        "answer": 0,
+        "explain": "can 后面接动词原形 wear，表示“穿、戴”。",
+        "question_zh": "我今天可以穿这件新衬衫吗？"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · 穿着的表达",
+        "question": "It's cold outside. ___ a coat, please.",
+        "options": [
+          "Wear",
+          "Wears",
+          "Wearing",
+          "To wear"
+        ],
+        "answer": 0,
+        "explain": "祈使句用动词原形开头，Wear a coat. 表示“穿件外套”。",
+        "question_zh": "外面很冷。请穿件外套。"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "u1-helping-at-home",
+        "unit": "Unit 1",
+        "title": "问职业和做家务",
+        "summary": "问某人的职业用 What's one's job?，回答 He's / She's a + 职业；表示“某人的”用名词所有格 's；can 表示“能、可以”，后面接动词原形。",
+        "structure": [
+          {
+            "tag": "问职业",
+            "en": "What's your mother's job?",
+            "zh": "你妈妈做什么工作？"
+          },
+          {
+            "tag": "答职业",
+            "en": "She's a doctor.",
+            "zh": "她是医生。"
+          },
+          {
+            "tag": "名词所有格",
+            "en": "your mother's job",
+            "zh": "你妈妈的工作"
+          },
+          {
+            "tag": "又忙又累",
+            "en": "Mum and Dad are busy and tired.",
+            "zh": "爸爸妈妈又忙又累。"
+          },
+          {
+            "tag": "能做什么",
+            "en": "What can we do for them?",
+            "zh": "我们能为他们做些什么？"
+          },
+          {
+            "tag": "做家务",
+            "en": "We can do some chores.",
+            "zh": "我们可以做一些家务活。"
+          }
+        ],
+        "example": [
+          {
+            "en": "What's your father's job? He's a driver.",
+            "zh": "你爸爸做什么工作？他是司机。"
+          },
+          {
+            "en": "This is my sister's room.",
+            "zh": "这是我姐姐的房间。"
+          },
+          {
+            "en": "I can clean the room.",
+            "zh": "我能打扫房间。"
+          }
+        ],
+        "mistake": "名词所有格在名词后加 's（mother's），不能写成 mothers；can 后面用动词原形，不加 s；回答职业用 He's / She's a ...。"
+      },
+      {
+        "id": "u2-my-friends",
+        "unit": "Unit 2",
+        "title": "描述我的朋友",
+        "summary": "描述朋友的外形和性格用 be + 形容词；表示“他的”用 his，后面接名词；问“谁是你的好朋友”用 Who's your best friend?，回答 She's / He's + 名字。",
+        "structure": [
+          {
+            "tag": "问名字",
+            "en": "What's your friend's name?",
+            "zh": "你的朋友叫什么名字？"
+          },
+          {
+            "tag": "回答",
+            "en": "His name is Zhang Peng.",
+            "zh": "他叫张鹏。"
+          },
+          {
+            "tag": "描述外形",
+            "en": "He's tall and strong.",
+            "zh": "他又高又壮。"
+          },
+          {
+            "tag": "描述性格",
+            "en": "He's also kind.",
+            "zh": "他也很友善。"
+          },
+          {
+            "tag": "问最好的朋友",
+            "en": "Who's your best friend?",
+            "zh": "谁是你最好的朋友？"
+          },
+          {
+            "tag": "回答",
+            "en": "Chen Jie. She's funny.",
+            "zh": "陈杰。她很有趣。"
+          }
+        ],
+        "example": [
+          {
+            "en": "My friend is quiet. His hair is short.",
+            "zh": "我的朋友很文静。他的头发很短。"
+          },
+          {
+            "en": "She's kind and she often helps me.",
+            "zh": "她很友善，经常帮助我。"
+          },
+          {
+            "en": "Who's your best friend? Mike.",
+            "zh": "谁是你最好的朋友？迈克。"
+          }
+        ],
+        "mistake": "his 后面必须接名词（his hair），不能单独使用；He's 是 He is 的缩写，不要和 His 混淆；描述性格用 be + 形容词。"
+      },
+      {
+        "id": "u3-places-we-live-in",
+        "unit": "Unit 3",
+        "title": "我们住的地方",
+        "summary": "表示“某处有某物”用 There is / There are；单数名词用 is，复数名词用 are；提建议用 Let's + 动词原形，表示“我们一起……吧”。",
+        "structure": [
+          {
+            "tag": "单数",
+            "en": "There is a playground.",
+            "zh": "那里有个游乐场。"
+          },
+          {
+            "tag": "复数",
+            "en": "There are many people.",
+            "zh": "这里有好多人。"
+          },
+          {
+            "tag": "也",
+            "en": "There is a gym too.",
+            "zh": "这里还有一个体育馆。"
+          },
+          {
+            "tag": "问",
+            "en": "Is there a library near here?",
+            "zh": "这附近有图书馆吗？"
+          },
+          {
+            "tag": "答",
+            "en": "Yes, there is.",
+            "zh": "是的，有。"
+          },
+          {
+            "tag": "建议",
+            "en": "Let's do some sports.",
+            "zh": "我们一起做运动吧。"
+          }
+        ],
+        "example": [
+          {
+            "en": "There is a shop near my home.",
+            "zh": "我家附近有一家商店。"
+          },
+          {
+            "en": "There are two parks in my community.",
+            "zh": "我们社区有两个公园。"
+          },
+          {
+            "en": "Let's go to the library.",
+            "zh": "我们去图书馆吧。"
+          }
+        ],
+        "mistake": "There be 句型不能写成 There have；be 动词要和后面的名词一致（单数 is、复数 are）；Let's 后面接动词原形。"
+      },
+      {
+        "id": "u4-helping-in-the-community",
+        "unit": "Unit 4",
+        "title": "社区里的职业",
+        "summary": "介绍职业用 He's / She's a + 职业；一般现在时中主语是第三人称单数时，动词要加 s；现在进行时表示正在做某事，结构是 be + 动词-ing。",
+        "structure": [
+          {
+            "tag": "职业",
+            "en": "Our neighbour is a firefighter.",
+            "zh": "我们的邻居是消防员。"
+          },
+          {
+            "tag": "三单动词",
+            "en": "He often helps people.",
+            "zh": "他经常帮助别人。"
+          },
+          {
+            "tag": "三单动词",
+            "en": "He takes us to school every day.",
+            "zh": "他每天送我们去学校。"
+          },
+          {
+            "tag": "评价",
+            "en": "That's an important job too!",
+            "zh": "那个工作也很重要！"
+          },
+          {
+            "tag": "正在铺床",
+            "en": "Chen Jie is making the bed.",
+            "zh": "陈杰正在铺床。"
+          },
+          {
+            "tag": "正在唱歌",
+            "en": "They are singing songs together.",
+            "zh": "他们在一起唱歌。"
+          }
+        ],
+        "example": [
+          {
+            "en": "My aunt is a nurse. She helps doctors.",
+            "zh": "我姑姑是护士。她帮助医生。"
+          },
+          {
+            "en": "The cleaner cleans the street every day.",
+            "zh": "清洁工每天打扫街道。"
+          },
+          {
+            "en": "Dad is cooking dinner now.",
+            "zh": "爸爸正在做晚饭。"
+          }
+        ],
+        "mistake": "第三人称单数动词要加 s（helps, takes）；现在进行时不能漏掉 be 动词，如 is making（不是 making）；职业前用 a / an。"
+      },
+      {
+        "id": "u5-the-weather-and-us",
+        "unit": "Unit 5",
+        "title": "天气怎么样",
+        "summary": "问天气用 What's the weather like in ...?，回答 It's + 天气形容词；常见天气词有 sunny / rainy / windy / cloudy / snowy / hot / cold / warm / cool；表示正在下雨用 It's raining now.。",
+        "structure": [
+          {
+            "tag": "问天气",
+            "en": "What's the weather like in Sydney?",
+            "zh": "悉尼的天气怎么样？"
+          },
+          {
+            "tag": "答天气",
+            "en": "It's sunny today.",
+            "zh": "今天是晴天。"
+          },
+          {
+            "tag": "温度",
+            "en": "It's only two degrees in Beijing.",
+            "zh": "北京只有两度。"
+          },
+          {
+            "tag": "正在下雨",
+            "en": "It's raining now.",
+            "zh": "现在下雨了。"
+          },
+          {
+            "tag": "建议",
+            "en": "We can go to the library.",
+            "zh": "我们可以去图书馆。"
+          },
+          {
+            "tag": "天气词",
+            "en": "sunny / rainy / windy / snowy",
+            "zh": "晴朗的 / 下雨的 / 多风的 / 下雪的"
+          }
+        ],
+        "example": [
+          {
+            "en": "What's the weather like in Beijing? It's cold.",
+            "zh": "北京的天气怎么样？很冷。"
+          },
+          {
+            "en": "It's windy today.",
+            "zh": "今天多风。"
+          },
+          {
+            "en": "It's snowing outside.",
+            "zh": "外面正在下雪。"
+          }
+        ],
+        "mistake": "问天气用 What's the weather like，不能省略 like；天气形容词前用 It's；现在进行时 It's raining 不能写成 It rains now。"
+      },
+      {
+        "id": "u6-changing-for-the-seasons",
+        "unit": "Unit 6",
+        "title": "季节和衣物",
+        "summary": "问“这是谁的……”用 Whose + 名词 + is this?；问喜欢哪个季节用 Which season do you like?；表示穿、戴用 wear；一年四季是 spring / summer / autumn / winter。",
+        "structure": [
+          {
+            "tag": "问谁的",
+            "en": "Whose sweater is this?",
+            "zh": "这是谁的毛衣？"
+          },
+          {
+            "tag": "回答",
+            "en": "It's your dad's.",
+            "zh": "是你爸爸的。"
+          },
+          {
+            "tag": "问季节",
+            "en": "Which season do you like?",
+            "zh": "你喜欢哪个季节？"
+          },
+          {
+            "tag": "答季节",
+            "en": "Winter. It snows a lot.",
+            "zh": "冬天。冬天经常下雪。"
+          },
+          {
+            "tag": "穿衣服",
+            "en": "Can I wear this new shirt today?",
+            "zh": "我今天可以穿这件新衬衫吗？"
+          },
+          {
+            "tag": "四季",
+            "en": "spring / summer / autumn / winter",
+            "zh": "春天 / 夏天 / 秋天 / 冬天"
+          }
+        ],
+        "example": [
+          {
+            "en": "Whose socks are these? They're mine.",
+            "zh": "这些是谁的袜子？是我的。"
+          },
+          {
+            "en": "Which season do you like? I like spring.",
+            "zh": "你喜欢哪个季节？我喜欢春天。"
+          },
+          {
+            "en": "Wear a coat. It's cold outside.",
+            "zh": "穿件外套。外面很冷。"
+          }
+        ],
+        "mistake": "Whose 问“谁的”，Who's 是 Who is，不能混用；mine 可以单独使用，my 后面要接名词；It snows 中 snow 作动词，三单加 s。"
+      }
+    ]
+  },
+  "primary_4b.json": {
+    "words": [
+      {
+        "grade": 4,
+        "word": "sorry",
+        "phonetic": "/ˈsɒri/",
+        "meaning": "对不起",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "hurry up",
+        "phonetic": "/ˈhʌri ʌp/",
+        "meaning": "快点；赶快",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "late",
+        "phonetic": "/leɪt/",
+        "meaning": "迟到；迟发生",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "class",
+        "phonetic": "/klɑːs/",
+        "meaning": "课；课程；班；班级",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "ready",
+        "phonetic": "/ˈredi/",
+        "meaning": "准备好",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "rule",
+        "phonetic": "/ruːl/",
+        "meaning": "规则；规章",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
         "word": "classroom",
-        "phonetic": "/ˈklɑ:sru:m/",
+        "phonetic": "/ˈklɑːsruːm/",
         "meaning": "教室",
         "unit": "Unit 1"
       },
       {
         "grade": 4,
-        "word": "window",
-        "phonetic": "/ˈwɪndəʊ/",
-        "meaning": "窗户",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "blackboard",
-        "phonetic": "/ˈblækbɔ:d/",
-        "meaning": "黑板",
+        "word": "turn off",
+        "phonetic": "/tɜːn ɒf/",
+        "meaning": "关掉",
         "unit": "Unit 1"
       },
       {
         "grade": 4,
         "word": "light",
         "phonetic": "/laɪt/",
-        "meaning": "电灯",
+        "meaning": "灯；光",
         "unit": "Unit 1"
       },
       {
         "grade": 4,
-        "word": "picture",
-        "phonetic": "/ˈpɪktʃə/",
-        "meaning": "图画",
+        "word": "blackboard",
+        "phonetic": "/ˈblækbɔːd/",
+        "meaning": "黑板",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "desk",
+        "phonetic": "/desk/",
+        "meaning": "书桌；办公桌",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "chair",
+        "phonetic": "/tʃeə(r)/",
+        "meaning": "椅子",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "tidy",
+        "phonetic": "/ˈtaɪdi/",
+        "meaning": "整洁的；整齐的；使整洁；整理",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "music",
+        "phonetic": "/ˈmjuːzɪk/",
+        "meaning": "音乐",
         "unit": "Unit 1"
       },
       {
         "grade": 4,
         "word": "door",
-        "phonetic": "/dɔ:/",
+        "phonetic": "/dɔː(r)/",
         "meaning": "门",
         "unit": "Unit 1"
       },
       {
         "grade": 4,
-        "word": "teacher's desk",
-        "phonetic": "/ˈti:tʃəz desk/",
-        "meaning": "讲台",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "computer",
-        "phonetic": "/kəmˈpju:tə/",
-        "meaning": "计算机",
+        "word": "window",
+        "phonetic": "/ˈwɪndəʊ/",
+        "meaning": "窗",
         "unit": "Unit 1"
       },
       {
@@ -1524,1532 +5647,1613 @@ window.__EMBEDDED_BANKS = {
       },
       {
         "grade": 4,
+        "word": "when",
+        "phonetic": "/wen/",
+        "meaning": "当……时；什么时候",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "understand",
+        "phonetic": "/ˌʌndəˈstænd/",
+        "meaning": "懂；理解",
+        "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
         "word": "wall",
-        "phonetic": "/wɔ:l/",
-        "meaning": "墙壁",
+        "phonetic": "/wɔːl/",
+        "meaning": "墙；壁",
         "unit": "Unit 1"
       },
       {
         "grade": 4,
-        "word": "floor",
-        "phonetic": "/flɔ:/",
-        "meaning": "地板",
+        "word": "newspaper",
+        "phonetic": "/ˈnjuːzpeɪpə(r)/",
+        "meaning": "报纸",
         "unit": "Unit 1"
       },
       {
         "grade": 4,
-        "word": "really",
-        "phonetic": "/ˈrɪəlɪ/",
-        "meaning": "真的",
+        "word": "hand out",
+        "phonetic": "/hænd aʊt/",
+        "meaning": "分发",
         "unit": "Unit 1"
       },
       {
         "grade": 4,
-        "word": "near",
-        "phonetic": "/nɪə/",
-        "meaning": "距离近",
+        "word": "workbook",
+        "phonetic": "/ˈwɜːkbʊk/",
+        "meaning": "练习册；作业本",
         "unit": "Unit 1"
+      },
+      {
+        "grade": 4,
+        "word": "watch",
+        "phonetic": "/wɒtʃ/",
+        "meaning": "看",
+        "unit": "Unit 2"
       },
       {
         "grade": 4,
         "word": "TV",
-        "phonetic": "/ˌti:ˈvi:/",
+        "phonetic": "/ˌtiː ˈviː/",
         "meaning": "电视",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "clean",
-        "phonetic": "/kli:n/",
-        "meaning": "打扫",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "help",
-        "phonetic": "/help/",
-        "meaning": "帮助",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "schoolbag",
-        "phonetic": "/ˈsku:lbæɡ/",
-        "meaning": "书包",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "maths book",
-        "phonetic": "/mæθs buk/",
-        "meaning": "数学书",
+        "word": "homework",
+        "phonetic": "/ˈhəʊmwɜːk/",
+        "meaning": "家庭作业",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "English book",
-        "phonetic": "/ˈɪŋglɪʃ buk/",
-        "meaning": "英语书",
+        "word": "first",
+        "phonetic": "/fɜːst/",
+        "meaning": "首先；首次；第一",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "Chinese book",
-        "phonetic": "/tʃaɪˈni:z buk/",
-        "meaning": "语文书",
+        "word": "wet",
+        "phonetic": "/wet/",
+        "meaning": "湿的；未干的",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "storybook",
-        "phonetic": "/ˈstɔ:rɪbuk/",
-        "meaning": "故事书",
+        "word": "run",
+        "phonetic": "/rʌn/",
+        "meaning": "跑；奔跑",
         "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "candy",
-        "phonetic": "/ˈkændɪ/",
-        "meaning": "糖果",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "notebook",
-        "phonetic": "/ˈnəʊtbuk/",
-        "meaning": "笔记本",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "toy",
-        "phonetic": "/tɒɪ/",
-        "meaning": "玩具",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "key",
-        "phonetic": "/ki:/",
-        "meaning": "钥匙",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "wow",
-        "phonetic": "/waʊ/",
-        "meaning": "呀",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "lost",
-        "phonetic": "/lɒst/",
-        "meaning": "丢失",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "so much",
-        "phonetic": "/səʊ mʌtʃ/",
-        "meaning": "非常地",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "cute",
-        "phonetic": "/kju:t/",
-        "meaning": "可爱的",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "strong",
-        "phonetic": "/strɒŋ/",
-        "meaning": "强壮的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "friendly",
-        "phonetic": "/ˈfrendlɪ/",
-        "meaning": "友好的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "quiet",
-        "phonetic": "/ˈkwaɪət/",
-        "meaning": "安静的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "hair",
-        "phonetic": "/heə/",
-        "meaning": "头发",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "shoe",
-        "phonetic": "/ʃu:/",
-        "meaning": "鞋",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "glasses",
-        "phonetic": "/ˈglɑ:sɪz/",
-        "meaning": "眼镜",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "his",
-        "phonetic": "/hɪz/",
-        "meaning": "他的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "or",
-        "phonetic": "/ɔ:/",
-        "meaning": "或者",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "right",
-        "phonetic": "/raɪt/",
-        "meaning": "对的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "hat",
-        "phonetic": "/hæt/",
-        "meaning": "帽子",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "her",
-        "phonetic": "/hɜ:/",
-        "meaning": "她的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "bedroom",
-        "phonetic": "/ˈbedru:m/",
-        "meaning": "卧室",
-        "unit": "Unit 4"
       },
       {
         "grade": 4,
         "word": "living room",
-        "phonetic": "/ˈlɪvɪŋ ru:m/",
-        "meaning": "客厅",
-        "unit": "Unit 4"
+        "phonetic": "/ˈlɪvɪŋ ruːm/",
+        "meaning": "客厅；起居室",
+        "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "study",
-        "phonetic": "/ˈstʌdɪ/",
-        "meaning": "书房",
-        "unit": "Unit 4"
+        "word": "safe",
+        "phonetic": "/seɪf/",
+        "meaning": "安全的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "word",
+        "phonetic": "/wɜːd/",
+        "meaning": "言语；单词；字",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "wash",
+        "phonetic": "/wɒʃ/",
+        "meaning": "洗",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "helpful",
+        "phonetic": "/ˈhelpfl/",
+        "meaning": "有帮助的；有用的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "loud",
+        "phonetic": "/laʊd/",
+        "meaning": "说话太大声的；吵闹的",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "sleep",
+        "phonetic": "/sliːp/",
+        "meaning": "睡觉",
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "bedroom",
+        "phonetic": "/ˈbedruːm/",
+        "meaning": "卧室",
+        "unit": "Unit 2"
       },
       {
         "grade": 4,
         "word": "kitchen",
         "phonetic": "/ˈkɪtʃɪn/",
         "meaning": "厨房",
-        "unit": "Unit 4"
+        "unit": "Unit 2"
+      },
+      {
+        "grade": 4,
+        "word": "study",
+        "phonetic": "/ˈstʌdi/",
+        "meaning": "书房",
+        "unit": "Unit 2"
       },
       {
         "grade": 4,
         "word": "bathroom",
-        "phonetic": "/ˈbɑ:θru:m/",
-        "meaning": "浴室",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "bed",
-        "phonetic": "/bed/",
-        "meaning": "床",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "phone",
-        "phonetic": "/fəʊn/",
-        "meaning": "电话",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "table",
-        "phonetic": "/ˈteɪbl/",
-        "meaning": "桌子",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "sofa",
-        "phonetic": "/ˈsəʊfə/",
-        "meaning": "长沙发",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "fridge",
-        "phonetic": "/frɪdʒ/",
-        "meaning": "冰箱",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "find",
-        "phonetic": "/faɪnd/",
-        "meaning": "找到",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "them",
-        "phonetic": "/ðəm/",
-        "meaning": "他们",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "beef",
-        "phonetic": "/bi:f/",
-        "meaning": "牛肉",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "chicken",
-        "phonetic": "/ˈtʃɪkɪn/",
-        "meaning": "鸡肉",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "noodles",
-        "phonetic": "/ˈnu:dlz/",
-        "meaning": "面条",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "soup",
-        "phonetic": "/su:p/",
-        "meaning": "汤",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "vegetable",
-        "phonetic": "/ˈvedʒtəbl/",
-        "meaning": "蔬菜",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "chopsticks",
-        "phonetic": "/ˈtʃɒpstɪks/",
-        "meaning": "筷子",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "bowl",
-        "phonetic": "/bəʊl/",
-        "meaning": "碗",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "fork",
-        "phonetic": "/fɔ:k/",
-        "meaning": "餐叉",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "knife",
-        "phonetic": "/naɪf/",
-        "meaning": "刀",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "spoon",
-        "phonetic": "/spu:n/",
-        "meaning": "匙,勺子",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "dinner",
-        "phonetic": "/ˈdɪnə/",
-        "meaning": "正餐",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "ready",
-        "phonetic": "/ˈredɪ/",
-        "meaning": "准备好",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "help yourself",
-        "phonetic": "/help jɔ:ˈself/",
-        "meaning": "为（自己）取用",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "pass",
-        "phonetic": "/pɑ:s/",
-        "meaning": "给",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "try",
-        "phonetic": "/traɪ/",
-        "meaning": "试",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "parents",
-        "phonetic": "/ˈpeərənts/",
-        "meaning": "父母",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "cousin",
-        "phonetic": "/ˈkʌzn/",
-        "meaning": "同辈表亲",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "uncle",
-        "phonetic": "/ˈʌŋkl/",
-        "meaning": "叔叔",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "aunt",
-        "phonetic": "/ɑ:nt/",
-        "meaning": "阿姨",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "baby brother",
-        "phonetic": "/ˈbeɪbɪ ˈbrʌðə/",
-        "meaning": "小弟弟",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "doctor",
-        "phonetic": "/ˈdɒktə/",
-        "meaning": "医生",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "cook",
-        "phonetic": "/kuk/",
-        "meaning": "厨师",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "driver",
-        "phonetic": "/ˈdraɪvə/",
-        "meaning": "司机",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "farmer",
-        "phonetic": "/ˈfɑ:mə/",
-        "meaning": "农民",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "nurse",
-        "phonetic": "/nɜ:s/",
-        "meaning": "护士",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "people",
-        "phonetic": "/ˈpi:pl/",
-        "meaning": "人们",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "but",
-        "phonetic": "/bʌt/",
-        "meaning": "但是",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "little",
-        "phonetic": "/ˈlɪtl/",
-        "meaning": "小的",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "puppy",
-        "phonetic": "/ˈpʌpɪ/",
-        "meaning": "小狗",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "football player",
-        "phonetic": "/ˈfutbɔ:l ˈpleɪə/",
-        "meaning": "足球运动员",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "job",
-        "phonetic": "/dʒɒb/",
-        "meaning": "工作",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "basketball",
-        "phonetic": "/ˈbɑ:skɪtbɔ:l/",
-        "meaning": "篮球",
-        "unit": "Unit 6"
-      }
-    ],
-    "sentences": [
-      {
-        "en": "Our classroom is on the second floor.",
-        "zh": "我们的教室在二楼。"
-      },
-      {
-        "en": "There is a window in the picture.",
-        "zh": "图片中有一个窗户。"
-      },
-      {
-        "en": "There is a blackboard in the picture.",
-        "zh": "图片中有一块黑板。"
-      },
-      {
-        "en": "There is a light in the picture.",
-        "zh": "图中有一盏灯。"
-      },
-      {
-        "en": "The word \"picture\" shows an action in this sentence.",
-        "zh": "“图片”一词表示这句话中的一个动作。"
-      },
-      {
-        "en": "There is a door in the picture.",
-        "zh": "图中有一扇门。"
-      },
-      {
-        "en": "I can use teacher's desk in a simple sentence.",
-        "zh": "我可以用简单的一句话来使用老师的桌子。"
-      },
-      {
-        "en": "There is a computer in the picture.",
-        "zh": "图中有一台电脑。"
-      },
-      {
-        "en": "There is a fan in the picture.",
-        "zh": "图中有一把扇子。"
-      },
-      {
-        "en": "There is a wall in the picture.",
-        "zh": "图中有一堵墙。"
-      },
-      {
-        "en": "She answered floor during the discussion.",
-        "zh": "她在讨论期间发言。"
-      },
-      {
-        "en": "The example is really.",
-        "zh": "例子确实如此。"
-      },
-      {
-        "en": "There is a near in the picture.",
-        "zh": "图中有一个近处。"
-      },
-      {
-        "en": "I watch TV after dinner.",
-        "zh": "晚饭后我看电视。"
-      },
-      {
-        "en": "We clean the classroom every Friday.",
-        "zh": "我们每周五打扫教室。"
-      },
-      {
-        "en": "Please help me carry the books.",
-        "zh": "请帮我搬书。"
-      },
-      {
-        "en": "I put the schoolbag in my schoolbag.",
-        "zh": "我把书包放进了书包里。"
-      },
-      {
-        "en": "I can use maths book in a simple sentence.",
-        "zh": "我可以用简单的句子来使用数学书。"
-      },
-      {
-        "en": "I can use English book in a simple sentence.",
-        "zh": "我可以用英语书来写一个简单的句子。"
-      },
-      {
-        "en": "I can use Chinese book in a simple sentence.",
-        "zh": "我可以用中文书上的简单句子来表达。"
-      }
-    ],
-    "grammar": [
-      {
-        "category": "be动词",
-        "question": "They ___ my friends.",
-        "options": [
-          "am",
-          "is",
-          "are",
-          "be"
-        ],
-        "answer": 2,
-        "explain": "主语 they 是复数，用 are。",
-        "question_zh": "他们是我的朋友。"
-      },
-      {
-        "category": "复数",
-        "question": "I have two ___.",
-        "options": [
-          "apple",
-          "apples",
-          "appless",
-          "an apple"
-        ],
-        "answer": 1,
-        "explain": "two 后面用名词复数 apples。",
-        "question_zh": "我有两个苹果。"
-      },
-      {
-        "category": "情态动词",
-        "question": "You ___ cross the road now. It's red.",
-        "options": [
-          "can",
-          "can't",
-          "mustn't",
-          "don't"
-        ],
-        "answer": 1,
-        "explain": "红灯时不能过马路，用 can't 表示禁止。",
-        "question_zh": "你现在不能过马路。是红灯。"
-      },
-      {
-        "category": "时间介词",
-        "question": "I go to school ___ Monday.",
-        "options": [
-          "in",
-          "at",
-          "on",
-          "to"
-        ],
-        "answer": 2,
-        "explain": "具体星期几前用 on。",
-        "question_zh": "我星期一去上学。"
-      }
-    ]
-  },
-  "primary_4b.json": {
-    "words": [
-      {
-        "grade": 4,
-        "word": "first floor",
-        "phonetic": "/fɜ:st flɔ:/",
-        "meaning": "一楼（美）",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "second floor",
-        "phonetic": "/ˈsekənd flɔ:/",
-        "meaning": "二楼",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "teacher's office",
-        "phonetic": "/ˈti:tʃəs ˈɒfɪs/",
-        "meaning": "教师办公室",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "library",
-        "phonetic": "/ˈlaɪbrərɪ/",
-        "meaning": "图书馆",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "playground",
-        "phonetic": "/ˈpleɪgraʊnd/",
-        "meaning": "操场",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "computer room",
-        "phonetic": "/kəmˈpju:tə ru:m/",
-        "meaning": "计算机房",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "art room",
-        "phonetic": "/ɑ:t ru:m/",
-        "meaning": "美术教室",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "music room",
-        "phonetic": "/ˈmju:zɪk ru:m/",
-        "meaning": "音乐教室",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "next to",
-        "phonetic": "/nekst tu:/",
-        "meaning": "紧邻",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "homework",
-        "phonetic": "/ˈhəʊmwɜ:k/",
-        "meaning": "作业",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "class",
-        "phonetic": "/klɑ:s/",
-        "meaning": "班级",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "forty",
-        "phonetic": "/ˈfɔ:tɪ/",
-        "meaning": "四十",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "way",
-        "phonetic": "/weɪ/",
-        "meaning": "方向",
-        "unit": "Unit 1"
-      },
-      {
-        "grade": 4,
-        "word": "breakfast",
-        "phonetic": "/ˈbrekfəst/",
-        "meaning": "早餐",
+        "phonetic": "/ˈbɑːθruːm/",
+        "meaning": "浴室；洗手间",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "English class",
-        "phonetic": "/ˈɪŋglɪʃ klɑ:s/",
-        "meaning": "英语课",
+        "word": "think",
+        "phonetic": "/θɪŋk/",
+        "meaning": "想；思考",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "lunch",
-        "phonetic": "/lʌntʃ/",
-        "meaning": "午饭",
+        "word": "work",
+        "phonetic": "/wɜːk/",
+        "meaning": "（花费时间和精力）做（某事）；工作",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "music class",
-        "phonetic": "/ˈmju:zɪk klɑ:s/",
-        "meaning": "音乐课",
+        "word": "hard",
+        "phonetic": "/hɑːd/",
+        "meaning": "努力地；费力地",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "PE class",
-        "phonetic": "/pi: i: klɑ:s/",
-        "meaning": "体育课",
+        "word": "follow",
+        "phonetic": "/ˈfɒləʊ/",
+        "meaning": "遵循，听从（忠告、指示等）",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
-        "word": "dinner",
-        "phonetic": "/ˈdɪnə/",
-        "meaning": "正餐",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "get up",
-        "phonetic": "/ɡet ʌp/",
-        "meaning": "起床",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "go to school",
-        "phonetic": "/ɡəʊ tu: sku:l/",
-        "meaning": "上学",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "go home",
-        "phonetic": "/ɡəʊ həʊm/",
-        "meaning": "回家",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "go to bed",
-        "phonetic": "/ɡəʊ tu: bed/",
-        "meaning": "去睡觉",
+        "word": "feel",
+        "phonetic": "/fiːl/",
+        "meaning": "觉得；感到",
         "unit": "Unit 2"
       },
       {
         "grade": 4,
         "word": "over",
         "phonetic": "/ˈəʊvə(r)/",
-        "meaning": "结束",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "now",
-        "phonetic": "/naʊ/",
-        "meaning": "现在",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "o'clock",
-        "phonetic": "/əˈklɒk/",
-        "meaning": "点钟",
-        "unit": "Unit 2"
+        "meaning": "结束（的）",
+        "unit": "Unit 3"
       },
       {
         "grade": 4,
         "word": "kid",
         "phonetic": "/kɪd/",
         "meaning": "小孩",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "thirty",
-        "phonetic": "/ˈθɜ:tɪ/",
-        "meaning": "三十",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "hurry up",
-        "phonetic": "/ˈhʌrɪ ʌp/",
-        "meaning": "快点",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "come on",
-        "phonetic": "/ˈkʌmˌɒn/",
-        "meaning": "加油",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "just a minute",
-        "phonetic": "/dʒʌst ə ˈmɪnɪt/",
-        "meaning": "稍等一会儿",
-        "unit": "Unit 2"
-      },
-      {
-        "grade": 4,
-        "word": "cold",
-        "phonetic": "/kəʊld/",
-        "meaning": "冷的",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "cool",
-        "phonetic": "/ku:l/",
-        "meaning": "凉的",
+        "word": "dinner",
+        "phonetic": "/ˈdɪnə(r)/",
+        "meaning": "（中午或晚上吃的）正餐",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "warm",
-        "phonetic": "/wɔ:m/",
-        "meaning": "温暖的",
+        "word": "art",
+        "phonetic": "/ɑːt/",
+        "meaning": "美术；艺术",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "hot",
-        "phonetic": "/hɒt/",
-        "meaning": "热的",
+        "word": "lunch",
+        "phonetic": "/lʌntʃ/",
+        "meaning": "午餐",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "sunny",
-        "phonetic": "/ˈsʌnɪ/",
-        "meaning": "阳光充足的",
+        "word": "maths",
+        "phonetic": "/mæθs/",
+        "meaning": "数学",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "windy",
-        "phonetic": "/ˈwɪndɪ/",
-        "meaning": "多风的",
+        "word": "get up",
+        "phonetic": "/get ʌp/",
+        "meaning": "起床",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "cloudy",
-        "phonetic": "/ˈklaʊdɪ/",
-        "meaning": "多云的",
+        "word": "go to school",
+        "phonetic": "/gəʊ tə skuːl/",
+        "meaning": "上学",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "snowy",
-        "phonetic": "/ˈsnəʊɪ/",
-        "meaning": "下雪的",
+        "word": "go home",
+        "phonetic": "/gəʊ həʊm/",
+        "meaning": "回家",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "rainy",
-        "phonetic": "/ˈreɪnɪ/",
-        "meaning": "阴雨的",
+        "word": "go to bed",
+        "phonetic": "/gəʊ tə bed/",
+        "meaning": "上床睡觉",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "outside",
-        "phonetic": "/ˈaʊtˈsaɪd/",
-        "meaning": "在户外",
+        "word": "want",
+        "phonetic": "/wɒnt/",
+        "meaning": "想要",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "be careful",
-        "phonetic": "/bi: ˈkeəfl/",
-        "meaning": "小心",
+        "word": "clock",
+        "phonetic": "/klɒk/",
+        "meaning": "时钟",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "weather",
-        "phonetic": "/ˈweðə/",
-        "meaning": "天气",
+        "word": "just",
+        "phonetic": "/dʒʌst/",
+        "meaning": "只是；仅仅；正要",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "New York",
-        "phonetic": "/ˈnju: ˈjɔ:k/",
-        "meaning": "纽约",
+        "word": "minute",
+        "phonetic": "/ˈmɪnɪt/",
+        "meaning": "分钟",
         "unit": "Unit 3"
       },
       {
         "grade": 4,
-        "word": "how about",
-        "phonetic": "/haʊ əˈbaʊt/",
-        "meaning": "……怎么样",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "degree",
-        "phonetic": "/dɪˈɡri:/",
-        "meaning": "度",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "world",
-        "phonetic": "/wɜ:ld/",
-        "meaning": "世界",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "London",
-        "phonetic": "/ˈlʌndən/",
-        "meaning": "伦敦",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "Moscow",
-        "phonetic": "/ˈmɒskəʊ/",
-        "meaning": "莫斯科",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "Singapore",
-        "phonetic": "/sɪŋɡəˈpɔ:/",
-        "meaning": "新加坡城",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "Sydney",
-        "phonetic": "/ˈsɪdnɪ/",
-        "meaning": "悉尼",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "fly",
-        "phonetic": "/flaɪ/",
-        "meaning": "放（风筝）",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "love",
-        "phonetic": "/lʌv/",
-        "meaning": "爱你的",
-        "unit": "Unit 3"
-      },
-      {
-        "grade": 4,
-        "word": "tomato",
-        "phonetic": "/təˈmɑ:təʊ/",
-        "meaning": "西红柿",
+        "word": "trousers",
+        "phonetic": "/ˈtraʊzəz/",
+        "meaning": "裤子",
         "unit": "Unit 4"
       },
       {
         "grade": 4,
-        "word": "potato",
-        "phonetic": "/pəˈteɪtəʊ/",
-        "meaning": "马铃薯",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "green beans",
-        "phonetic": "/ɡri:n bi:nz/",
-        "meaning": "豆角",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "carrot",
-        "phonetic": "/ˈkærət/",
-        "meaning": "胡萝卜",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "horse",
-        "phonetic": "/hɔ:s/",
-        "meaning": "马",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "cow",
-        "phonetic": "/kaʊ/",
-        "meaning": "牛",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "sheep",
-        "phonetic": "/ʃi:p/",
-        "meaning": "绵羊",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "hen",
-        "phonetic": "/hen/",
-        "meaning": "母鸡",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "these",
-        "phonetic": "/ði:z/",
-        "meaning": "这些",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "yum",
-        "phonetic": "/jʌm/",
-        "meaning": "味道好",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "animal",
-        "phonetic": "/ˈænɪməl/",
-        "meaning": "动物",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "those",
-        "phonetic": "/ðəʊz/",
-        "meaning": "那些",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "garden",
-        "phonetic": "/ˈɡɑ:dn/",
-        "meaning": "花园",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "farm",
-        "phonetic": "/fɑ:m/",
-        "meaning": "农场",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "goat",
-        "phonetic": "/ɡəʊt/",
-        "meaning": "山羊",
-        "unit": "Unit 4"
-      },
-      {
-        "grade": 4,
-        "word": "eat",
-        "phonetic": "/i:t/",
-        "meaning": "吃",
+        "word": "pair",
+        "phonetic": "/peə(r)/",
+        "meaning": "（由连在一起的相似两部分构成的）一条，一副",
         "unit": "Unit 4"
       },
       {
         "grade": 4,
         "word": "clothes",
         "phonetic": "/kləʊðz/",
-        "meaning": "服装",
-        "unit": "Unit 5"
+        "meaning": "衣服；服装",
+        "unit": "Unit 4"
       },
       {
         "grade": 4,
-        "word": "pants",
-        "phonetic": "/pænts/",
-        "meaning": "裤子",
-        "unit": "Unit 5"
+        "word": "those",
+        "phonetic": "/ðəʊz/",
+        "meaning": "（指较远的人或事物）那些",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "shorts",
+        "phonetic": "/ʃɔːts/",
+        "meaning": "短裤",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "jacket",
+        "phonetic": "/ˈdʒækɪt/",
+        "meaning": "夹克衫；短上衣",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "skirt",
+        "phonetic": "/skɜːt/",
+        "meaning": "裙子",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "dear",
+        "phonetic": "/dɪə(r)/",
+        "meaning": "亲爱的",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "expensive",
+        "phonetic": "/ɪkˈspensɪv/",
+        "meaning": "昂贵的；价格高的",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "take",
+        "phonetic": "/teɪk/",
+        "meaning": "买下",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "cheap",
+        "phonetic": "/tʃiːp/",
+        "meaning": "便宜的",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "shoe",
+        "phonetic": "/ʃuː/",
+        "meaning": "鞋",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "beautiful",
+        "phonetic": "/ˈbjuːtɪfl/",
+        "meaning": "美丽的",
+        "unit": "Unit 4"
       },
       {
         "grade": 4,
         "word": "hat",
         "phonetic": "/hæt/",
         "meaning": "帽子",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "dress",
-        "phonetic": "/dres/",
-        "meaning": "连衣裙",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "skirt",
-        "phonetic": "/skɜ:t/",
-        "meaning": "女裙",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "coat",
-        "phonetic": "/kəʊt/",
-        "meaning": "大衣",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "sweater",
-        "phonetic": "/ˈswetə/",
-        "meaning": "毛衣",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "sock",
-        "phonetic": "/sɒk/",
-        "meaning": "短袜",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "shorts",
-        "phonetic": "/ʃɔ:ts/",
-        "meaning": "短裤",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "jacket",
-        "phonetic": "/ˈdʒækɪt/",
-        "meaning": "夹克衫",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "shirt",
-        "phonetic": "/ʃɜ:t/",
-        "meaning": "衬衫",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "yours",
-        "phonetic": "/jɔ:z/",
-        "meaning": "你的",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "whose",
-        "phonetic": "/hu:z/",
-        "meaning": "谁的",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "mine",
-        "phonetic": "/maɪn/",
-        "meaning": "我的",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "pack",
-        "phonetic": "/pæk/",
-        "meaning": "收拾",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "wait",
-        "phonetic": "/weɪt/",
-        "meaning": "等待",
-        "unit": "Unit 5"
-      },
-      {
-        "grade": 4,
-        "word": "glove",
-        "phonetic": "/ɡlʌv/",
-        "meaning": "手套",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "scarf",
-        "phonetic": "/skɑ:f/",
-        "meaning": "围巾",
-        "unit": "Unit 6"
-      },
-      {
-        "grade": 4,
-        "word": "umbrella",
-        "phonetic": "/ʌmˈbrelə/",
-        "meaning": "伞",
-        "unit": "Unit 6"
+        "unit": "Unit 4"
       },
       {
         "grade": 4,
         "word": "sunglasses",
-        "phonetic": "/ˈsʌnɡlɑ:sɪs/",
-        "meaning": "太阳镜",
-        "unit": "Unit 6"
+        "phonetic": "/ˈsʌŋglɑːsɪz/",
+        "meaning": "太阳镜；墨镜",
+        "unit": "Unit 4"
       },
       {
         "grade": 4,
-        "word": "pretty",
-        "phonetic": "/ˈprɪtɪ/",
-        "meaning": "美丽的",
-        "unit": "Unit 6"
+        "word": "free",
+        "phonetic": "/friː/",
+        "meaning": "免费的",
+        "unit": "Unit 4"
       },
       {
         "grade": 4,
-        "word": "expensive",
-        "phonetic": "/ɪkˈspensɪv/",
-        "meaning": "贵的",
-        "unit": "Unit 6"
+        "word": "large",
+        "phonetic": "/lɑːdʒ/",
+        "meaning": "（服装、食物、日用品等）大型号的",
+        "unit": "Unit 4"
       },
       {
         "grade": 4,
-        "word": "cheap",
-        "phonetic": "/tʃi:p/",
-        "meaning": "便宜的",
-        "unit": "Unit 6"
+        "word": "size",
+        "phonetic": "/saɪz/",
+        "meaning": "尺码；号",
+        "unit": "Unit 4"
       },
       {
         "grade": 4,
-        "word": "nice",
-        "phonetic": "/naɪs/",
-        "meaning": "好的",
-        "unit": "Unit 6"
+        "word": "list",
+        "phonetic": "/lɪst/",
+        "meaning": "清单；目录",
+        "unit": "Unit 4"
       },
       {
         "grade": 4,
         "word": "try on",
         "phonetic": "/traɪ ɒn/",
         "meaning": "试穿",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "any",
+        "phonetic": "/ˈeni/",
+        "meaning": "任何的；任一",
+        "unit": "Unit 4"
+      },
+      {
+        "grade": 4,
+        "word": "cow",
+        "phonetic": "/kaʊ/",
+        "meaning": "奶牛",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "horse",
+        "phonetic": "/hɔːs/",
+        "meaning": "马",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "sheep",
+        "phonetic": "/ʃiːp/",
+        "meaning": "羊；绵羊",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "pig",
+        "phonetic": "/pɪg/",
+        "meaning": "猪",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "chicken",
+        "phonetic": "/ˈtʃɪkɪn/",
+        "meaning": "鸡；鸡肉",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "tomato",
+        "phonetic": "/təˈmɑːtəʊ/",
+        "meaning": "西红柿",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "bee",
+        "phonetic": "/biː/",
+        "meaning": "蜜蜂",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "mouse",
+        "phonetic": "/maʊs/",
+        "meaning": "（复数 mice /maɪs/）老鼠",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "carrot",
+        "phonetic": "/ˈkærət/",
+        "meaning": "胡萝卜",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "potato",
+        "phonetic": "/pəˈteɪtəʊ/",
+        "meaning": "土豆",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "green bean",
+        "phonetic": "/ɡriːn biːn/",
+        "meaning": "青刀豆；四季豆",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "can",
+        "phonetic": "/kæn/",
+        "meaning": "（盛食品或饮料的）金属罐",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "a box of",
+        "phonetic": "/ə bɒks əv/",
+        "meaning": "一盒，一箱（东西）",
+        "unit": "Unit 5"
+      },
+      {
+        "grade": 4,
+        "word": "feed",
+        "phonetic": "/fiːd/",
+        "meaning": "给（人或动物）食物；饲养",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "size",
-        "phonetic": "/saɪz/",
-        "meaning": "尺码",
+        "word": "pass",
+        "phonetic": "/pɑːs/",
+        "meaning": "给；递",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "of course",
-        "phonetic": "/ɒv kɔ:s/",
-        "meaning": "当然",
+        "word": "pick",
+        "phonetic": "/pɪk/",
+        "meaning": "采；摘",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "too",
-        "phonetic": "/tu:/",
-        "meaning": "太",
+        "word": "milk",
+        "phonetic": "/mɪlk/",
+        "meaning": "挤奶",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "just",
-        "phonetic": "/dʒʌst/",
-        "meaning": "正好",
+        "word": "knife",
+        "phonetic": "/naɪf/",
+        "meaning": "刀",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "how much",
-        "phonetic": "/haʊ mʌtʃ/",
-        "meaning": "多少钱",
+        "word": "fork",
+        "phonetic": "/fɔːk/",
+        "meaning": "餐叉",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "eighty",
-        "phonetic": "/ˈeɪtɪ/",
-        "meaning": "八十",
+        "word": "chopstick",
+        "phonetic": "/ˈtʃɒpstɪk/",
+        "meaning": "（常用复数）筷子",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "dollar",
-        "phonetic": "/ˈdɒlə/",
-        "meaning": "元",
+        "word": "waste",
+        "phonetic": "/weɪst/",
+        "meaning": "浪费；废品",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "sale",
-        "phonetic": "/seɪl/",
-        "meaning": "特价销售",
+        "word": "food",
+        "phonetic": "/fuːd/",
+        "meaning": "菜肴；食物",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "more",
-        "phonetic": "/mɔ:(r)/",
-        "meaning": "更多的",
+        "word": "delicious",
+        "phonetic": "/dɪˈlɪʃəs/",
+        "meaning": "美味的；可口的",
         "unit": "Unit 6"
       },
       {
         "grade": 4,
-        "word": "us",
-        "phonetic": "/əs/",
-        "meaning": "我们",
+        "word": "clear the table",
+        "phonetic": "/klɪə ðə ˈteɪbl/",
+        "meaning": "收拾餐桌",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "set the table",
+        "phonetic": "/set ðə ˈteɪbl/",
+        "meaning": "摆放餐具",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "bowl",
+        "phonetic": "/bəʊl/",
+        "meaning": "碗",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "spoon",
+        "phonetic": "/spuːn/",
+        "meaning": "勺；匙；调羹",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "supermarket",
+        "phonetic": "/ˈsuːpəmɑːkɪt/",
+        "meaning": "超市",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "herself",
+        "phonetic": "/hɜːˈself/",
+        "meaning": "（用作女性的反身代词）她自己，自己",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "week",
+        "phonetic": "/wiːk/",
+        "meaning": "周；星期",
+        "unit": "Unit 6"
+      },
+      {
+        "grade": 4,
+        "word": "salad",
+        "phonetic": "/ˈsæləd/",
+        "meaning": "蔬菜沙拉",
         "unit": "Unit 6"
       }
     ],
     "sentences": [
       {
-        "en": "Our classroom is on the first floor.",
-        "zh": "我们的教室在一楼。"
+        "en": "Hurry up! Don't be late for class!",
+        "zh": "快点！上课别迟到！"
       },
       {
-        "en": "The music room is on the second floor.",
-        "zh": "音乐室位于二楼。"
+        "en": "I'm ready. Let's go!",
+        "zh": "我准备好了。我们走吧！"
       },
       {
-        "en": "The teacher's office is next to our classroom.",
-        "zh": "老师的办公室在我们教室旁边。"
+        "en": "Who's on duty today?",
+        "zh": "今天谁值日？"
       },
       {
-        "en": "We read books in the library.",
-        "zh": "我们在图书馆看书。"
+        "en": "I can put back the desks and chairs.",
+        "zh": "我可以把桌椅放回原位。"
       },
       {
-        "en": "There is a playground in the picture.",
-        "zh": "图中有一个游乐场。"
+        "en": "Excuse me?",
+        "zh": "对不起，请再说一次可以吗？"
       },
       {
-        "en": "We learn typing in the computer room.",
-        "zh": "我们在机房里学习打字。"
+        "en": "Mum, can I watch TV?",
+        "zh": "妈妈，我能看电视吗？"
       },
       {
-        "en": "The art room is bright and clean.",
-        "zh": "美术室明亮、干净。"
+        "en": "No. You have to do your homework first.",
+        "zh": "不行。你得先做作业。"
       },
       {
-        "en": "We sing songs in the music room.",
-        "zh": "我们在音乐室唱歌。"
+        "en": "Shh. Don't be so loud!",
+        "zh": "嘘。别这么大声！"
       },
       {
-        "en": "My desk is next to the window.",
-        "zh": "我的桌子在窗户旁边。"
+        "en": "Be careful, Jack. Don't touch hot things.",
+        "zh": "杰克，要小心。别碰烫的东西。"
       },
       {
-        "en": "Homework is useful at school.",
-        "zh": "家庭作业在学校很有用。"
+        "en": "What time is it?",
+        "zh": "几点了？"
       },
       {
-        "en": "There is a class in the picture.",
-        "zh": "图中有一个班级。"
+        "en": "It's 5 o'clock.",
+        "zh": "现在五点了。"
       },
       {
-        "en": "My father is forty years old.",
-        "zh": "我父亲四十岁了。"
+        "en": "Time to go home, kids.",
+        "zh": "孩子们，该回家了。"
       },
       {
-        "en": "There is a way in the picture.",
-        "zh": "图中有一个方法。"
+        "en": "It's time for dinner.",
+        "zh": "该吃晚饭了。"
       },
       {
-        "en": "There is a breakfast in the picture.",
-        "zh": "图片里有早餐。"
+        "en": "It's time to get up.",
+        "zh": "该起床了。"
       },
       {
-        "en": "We read a story in English class.",
-        "zh": "我们在英语课上读了一个故事。"
+        "en": "Have a nice day!",
+        "zh": "祝你一天愉快！"
       },
       {
-        "en": "I ate a lunch for lunch.",
-        "zh": "午饭我吃了一顿午饭。"
+        "en": "Can I buy a new pair?",
+        "zh": "我能买条新的（裤子）吗？"
       },
       {
-        "en": "We learn a new song in music class.",
-        "zh": "我们在音乐课上学一首新歌。"
+        "en": "Sure. Let's go to the clothes shop.",
+        "zh": "当然。我们去服装店吧。"
       },
       {
-        "en": "We run and jump in PE class.",
-        "zh": "我们在体育课上跑、跳。"
+        "en": "You already have too many shorts. Let's buy trousers.",
+        "zh": "你已经有太多短裤了。我们买长裤吧。"
       },
       {
-        "en": "There is a dinner in the picture.",
-        "zh": "图中有晚餐。"
+        "en": "Can I help you?",
+        "zh": "要帮忙吗？"
       },
       {
-        "en": "I get up at seven o'clock.",
-        "zh": "我七点钟起床。"
+        "en": "Yes. I like this pink dress.",
+        "zh": "嗯。我喜欢这件粉色的长裙。"
+      },
+      {
+        "en": "Let's take it.",
+        "zh": "我们买下它吧。"
+      },
+      {
+        "en": "What animals do you have on the farm?",
+        "zh": "您的农场上都养了哪些动物？"
+      },
+      {
+        "en": "I have a lot of animals.",
+        "zh": "我养了很多动物。"
+      },
+      {
+        "en": "What are these?",
+        "zh": "这些是什么？"
+      },
+      {
+        "en": "They're tomatoes.",
+        "zh": "这些是西红柿。"
+      },
+      {
+        "en": "How fresh!",
+        "zh": "真新鲜啊！"
+      },
+      {
+        "en": "Let's feed the chickens.",
+        "zh": "我们喂鸡吧。"
+      },
+      {
+        "en": "Can you please pass me the vegetables?",
+        "zh": "能否请你把蔬菜递给我？"
+      },
+      {
+        "en": "Mike, Amy, would you like a knife and fork?",
+        "zh": "迈克、埃米，你们需要餐刀和餐叉吗？"
+      },
+      {
+        "en": "No, thank you, Mr Wang. I can use chopsticks.",
+        "zh": "不用，谢谢您，王先生。我会用筷子。"
+      },
+      {
+        "en": "Don't waste food, please.",
+        "zh": "请不要浪费食物。"
       }
     ],
     "grammar": [
       {
-        "category": "冠词",
-        "question": "I have ___ apple on the table.",
+        "unit": "Unit 1",
+        "category": "Unit 1 · 祈使句（肯定）",
+        "question": "___ up! Don't be late for class!",
         "options": [
-          "a",
-          "an",
-          "the",
-          "/"
+          "Hurry",
+          "Hurries",
+          "Hurrying",
+          "To hurry"
         ],
-        "answer": 1,
-        "explain": "apple 以元音音素 /æ/ 开头，用 an。",
-        "question_zh": "桌子上有一个苹果。"
+        "answer": 0,
+        "explain": "祈使句用动词原形开头，Hurry up! 表示“快点！”。",
+        "question_zh": "快点！上课别迟到！"
       },
       {
-        "category": "复数",
-        "question": "There are many ___ in the tree.",
+        "unit": "Unit 1",
+        "category": "Unit 1 · 祈使句（肯定）",
+        "question": "___ ready. Let's go!",
         "options": [
-          "monkey",
-          "monkeys",
-          "monkies",
-          "a monkey"
-        ],
-        "answer": 1,
-        "explain": "many 后接名词复数 monkeys，辅音+y 变 y 为 i 加 es 只适用于以 y 结尾且 y 前是辅音的词。",
-        "question_zh": "树上有许多猴子。"
-      },
-      {
-        "category": "疑问句",
-        "question": "___ you like music?",
-        "options": [
-          "Do",
-          "Does",
+          "Be",
+          "Are",
           "Is",
+          "Am"
+        ],
+        "answer": 0,
+        "explain": "祈使句“准备好”用 Be ready.，be 动词用原形。",
+        "question_zh": "我准备好了。我们走吧！"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 祈使句（否定）",
+        "question": "___ be late for class!",
+        "options": [
+          "Don't",
+          "Not",
+          "No",
+          "Doesn't"
+        ],
+        "answer": 0,
+        "explain": "否定祈使句用 Don't + 动词原形，表示“不要……”。",
+        "question_zh": "上课别迟到！"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · 祈使句（否定）",
+        "question": "___ put the books on the floor.",
+        "options": [
+          "Don't",
+          "Not",
+          "No",
+          "Isn't"
+        ],
+        "answer": 0,
+        "explain": "否定祈使句用 Don't + 动词原形；Not 不能单独开头。",
+        "question_zh": "不要把书放在地板上。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · can + 动词原形",
+        "question": "I can ___ back the desks and chairs.",
+        "options": [
+          "put",
+          "puts",
+          "putting",
+          "to put"
+        ],
+        "answer": 0,
+        "explain": "can 后面接动词原形 put；put back 表示“放回原处”。",
+        "question_zh": "我可以把桌椅放回原位。"
+      },
+      {
+        "unit": "Unit 1",
+        "category": "Unit 1 · can + 动词原形",
+        "question": "Can you ___ the fan? It's cold.",
+        "options": [
+          "turn off",
+          "turns off",
+          "turning off",
+          "to turn off"
+        ],
+        "answer": 0,
+        "explain": "Can you ...? 后面接动词原形，turn off 表示“关掉”。",
+        "question_zh": "你能把风扇关掉吗？天很冷。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · can 请求许可",
+        "question": "Mum, ___ I watch TV?",
+        "options": [
+          "can",
+          "do",
+          "am",
+          "are"
+        ],
+        "answer": 0,
+        "explain": "向别人请求许可用 Can I ...?，can 后面接动词原形。",
+        "question_zh": "妈妈，我能看电视吗？"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · can 请求许可",
+        "question": "— Can I watch TV? — No. You have to do your homework ___.",
+        "options": [
+          "first",
+          "one",
+          "two",
+          "at first"
+        ],
+        "answer": 0,
+        "explain": "first 表示“首先”，说明先做作业；at first 是“起初”，不合句意。",
+        "question_zh": "—我能看电视吗？—不行。你得先做作业。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · have to",
+        "question": "You ___ to do your homework first.",
+        "options": [
+          "have",
+          "has",
+          "are",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "have to 表示“不得不、必须”；主语 you 用 have to。",
+        "question_zh": "你得先做作业。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · have to",
+        "question": "She ___ to go to bed now.",
+        "options": [
+          "has",
+          "have",
+          "is",
+          "are"
+        ],
+        "answer": 0,
+        "explain": "主语 she 是第三人称单数，have to 要变成 has to。",
+        "question_zh": "她现在必须上床睡觉了。"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 祈使句 Don't be",
+        "question": "___ be so loud!",
+        "options": [
+          "Don't",
+          "Not",
+          "No",
+          "Doesn't"
+        ],
+        "answer": 0,
+        "explain": "否定祈使句用 Don't + 动词原形，Don't be so loud! 表示“别这么大声！”。",
+        "question_zh": "别这么大声！"
+      },
+      {
+        "unit": "Unit 2",
+        "category": "Unit 2 · 祈使句 Don't be",
+        "question": "Be careful. ___ touch hot things.",
+        "options": [
+          "Don't",
+          "Not",
+          "No",
+          "Aren't"
+        ],
+        "answer": 0,
+        "explain": "提醒别人不要做某事用 Don't + 动词原形。",
+        "question_zh": "小心。别碰烫的东西。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · What time is it?",
+        "question": "— What time ___ it? — It's five o'clock.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "问时间用 What time is it?，主语 it 后面 be 动词用 is。",
+        "question_zh": "—几点了？—五点。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · What time is it?",
+        "question": "— ___ time is it? — It's 5 o'clock.",
+        "options": [
+          "What",
+          "How",
+          "Which",
+          "Where"
+        ],
+        "answer": 0,
+        "explain": "问“几点了”用 What time is it?。",
+        "question_zh": "—几点了？—五点。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · It's time to / for",
+        "question": "It's time ___ dinner.",
+        "options": [
+          "for",
+          "to",
+          "of",
+          "at"
+        ],
+        "answer": 0,
+        "explain": "It's time for + 名词（dinner）；It's time to + 动词原形。",
+        "question_zh": "该吃晚饭了。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · It's time to / for",
+        "question": "It's time ___ get up.",
+        "options": [
+          "to",
+          "for",
+          "of",
+          "at"
+        ],
+        "answer": 0,
+        "explain": "后面是动词原形 get up，用 It's time to ...。",
+        "question_zh": "该起床了。"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · 固定搭配 go to school / go home",
+        "question": "___ home, kids!",
+        "options": [
+          "Go",
+          "Go to",
+          "Goes",
+          "Going"
+        ],
+        "answer": 0,
+        "explain": "home 是副词，go home 中间不加 to；go to school 才加 to。",
+        "question_zh": "孩子们，回家吧！"
+      },
+      {
+        "unit": "Unit 3",
+        "category": "Unit 3 · 固定搭配 go to school / go home",
+        "question": "I go ___ school at seven.",
+        "options": [
+          "to",
+          "at",
+          "in",
+          "／"
+        ],
+        "answer": 0,
+        "explain": "go to school 表示“去上学”，school 前要加 to；go home 不加 to。",
+        "question_zh": "我七点去上学。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · Can I buy...?",
+        "question": "— Can I buy a new ___? — Sure.",
+        "options": [
+          "pair",
+          "pairs",
+          "a pair",
+          "pair's"
+        ],
+        "answer": 0,
+        "explain": "a new pair 表示“一条新的（裤子）”，pair 用单数。",
+        "question_zh": "—我能买条新的吗？—当然。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · Can I buy...?",
+        "question": "— ___ I buy a new pair? — Sure.",
+        "options": [
+          "Can",
+          "Do",
+          "Am",
           "Are"
         ],
         "answer": 0,
-        "explain": "一般现在时一般疑问句，主语 you 用助动词 Do。",
-        "question_zh": "你喜欢音乐吗？"
+        "explain": "请求许可买东西用 Can I ...?。",
+        "question_zh": "—我能买条新的吗？—当然。"
       },
       {
-        "category": "时间介词",
-        "question": "We play outside ___ the afternoon.",
+        "unit": "Unit 4",
+        "category": "Unit 4 · How much is / are",
+        "question": "— How much ___ this dress? — It's 80 yuan.",
         "options": [
-          "in",
-          "at",
-          "on",
-          "to"
+          "is",
+          "are",
+          "am",
+          "do"
         ],
         "answer": 0,
-        "explain": "一天中的上午、下午、晚上用 in。",
-        "question_zh": "我们下午在外面玩。"
+        "explain": "this dress 是单数，问价钱用 How much is ...?。",
+        "question_zh": "—这条裙子多少钱？—八十元。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · How much is / are",
+        "question": "— How much ___ these shoes? — They're 100 yuan.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "does"
+        ],
+        "answer": 0,
+        "explain": "these shoes 是复数，问价钱用 How much are ...?。",
+        "question_zh": "—这双鞋多少钱？—一百元。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · this / these / that / those",
+        "question": "___ are my shorts. 那些是我的短裤。",
+        "options": [
+          "Those",
+          "These",
+          "This",
+          "That"
+        ],
+        "answer": 0,
+        "explain": "指较远的复数事物用 Those，后面 be 动词用 are。",
+        "question_zh": "那些是我的短裤。"
+      },
+      {
+        "unit": "Unit 4",
+        "category": "Unit 4 · this / these / that / those",
+        "question": "___ is my new jacket. 这是我的新夹克。",
+        "options": [
+          "This",
+          "These",
+          "Those",
+          "They"
+        ],
+        "answer": 0,
+        "explain": "指较近的单数事物用 This，后面用 is。",
+        "question_zh": "这是我的新夹克。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · What animals do you have?",
+        "question": "— What animals ___ you have on the farm? — I have cows.",
+        "options": [
+          "do",
+          "does",
+          "are",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "主语 you 的一般现在时疑问句用助动词 do，后面动词用原形 have。",
+        "question_zh": "—您的农场上养了哪些动物？—我养了奶牛。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · What animals do you have?",
+        "question": "— What animals do you have? — I ___ a lot of animals.",
+        "options": [
+          "have",
+          "has",
+          "am",
+          "are"
+        ],
+        "answer": 0,
+        "explain": "主语 I 后面用 have，不能用 has。",
+        "question_zh": "—您养了哪些动物？—我养了很多动物。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 名词复数",
+        "question": "— What are these? — They're ___.",
+        "options": [
+          "tomatoes",
+          "tomato",
+          "a tomato",
+          "tomatos"
+        ],
+        "answer": 0,
+        "explain": "tomato 的复数在词尾加 es，即 tomatoes。",
+        "question_zh": "—这些是什么？—这些是西红柿。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · 名词复数",
+        "question": "I have two ___ on the farm.",
+        "options": [
+          "sheep",
+          "sheeps",
+          "a sheep",
+          "sheepes"
+        ],
+        "answer": 0,
+        "explain": "sheep 的复数形式还是 sheep，不加 s。",
+        "question_zh": "我农场上有两只羊。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · What are these?",
+        "question": "— ___ are these? — They're carrots.",
+        "options": [
+          "What",
+          "Who",
+          "Where",
+          "How"
+        ],
+        "answer": 0,
+        "explain": "问“这些是什么”用 What are these?。",
+        "question_zh": "—这些是什么？—是胡萝卜。"
+      },
+      {
+        "unit": "Unit 5",
+        "category": "Unit 5 · What are these?",
+        "question": "— What are these? — ___ tomatoes.",
+        "options": [
+          "They're",
+          "It's",
+          "These is",
+          "That's"
+        ],
+        "answer": 0,
+        "explain": "回答 What are these? 用 They're ...。",
+        "question_zh": "—这些是什么？—是西红柿。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Let's + 动词原形",
+        "question": "Let's ___ the chickens.",
+        "options": [
+          "feed",
+          "feeds",
+          "feeding",
+          "to feed"
+        ],
+        "answer": 0,
+        "explain": "Let's 后面接动词原形 feed，表示“我们一起喂鸡吧”。",
+        "question_zh": "我们喂鸡吧。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Let's + 动词原形",
+        "question": "Let's ___ the table together.",
+        "options": [
+          "set",
+          "sets",
+          "setting",
+          "to set"
+        ],
+        "answer": 0,
+        "explain": "Let's 后面接动词原形 set；set the table 表示“摆放餐具”。",
+        "question_zh": "我们一起摆放餐具吧。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Can you please...?",
+        "question": "Can you please ___ me the vegetables?",
+        "options": [
+          "pass",
+          "passes",
+          "passing",
+          "to pass"
+        ],
+        "answer": 0,
+        "explain": "Can you please ...? 后面接动词原形 pass。",
+        "question_zh": "能否请你把蔬菜递给我？"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Can you please...?",
+        "question": "— Can you please pass me the bowl? — ___.",
+        "options": [
+          "Sure",
+          "Yes, I do",
+          "Yes, I am",
+          "No, I can't please"
+        ],
+        "answer": 0,
+        "explain": "别人请求帮忙时，同意可以用 Sure. 表示“当然”。",
+        "question_zh": "—请把碗递给我好吗？—当然。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Would you like...?",
+        "question": "— ___ you like a knife and fork? — No, thank you.",
+        "options": [
+          "Would",
+          "Do",
+          "Are",
+          "Can"
+        ],
+        "answer": 0,
+        "explain": "询问对方需要什么用 Would you like ...?，回答 No, thank you.。",
+        "question_zh": "—你们需要餐刀和餐叉吗？—不用，谢谢您。"
+      },
+      {
+        "unit": "Unit 6",
+        "category": "Unit 6 · Would you like...?",
+        "question": "— Would you like some salad? — ___.",
+        "options": [
+          "Yes, please",
+          "Yes, I do",
+          "Yes, I am",
+          "Yes, I would like"
+        ],
+        "answer": 0,
+        "explain": "Would you like ...? 的肯定回答是 Yes, please.。",
+        "question_zh": "—你想来点蔬菜沙拉吗？—好的，谢谢。"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "u1-class-rules",
+        "unit": "Unit 1",
+        "title": "班级规则",
+        "summary": "祈使句用动词原形开头，表示命令或提醒；否定祈使句用 Don't + 动词原形；can 表示“能、可以”，后面接动词原形。",
+        "structure": [
+          {
+            "tag": "催促",
+            "en": "Hurry up!",
+            "zh": "快点！"
+          },
+          {
+            "tag": "提醒",
+            "en": "Be ready.",
+            "zh": "准备好。"
+          },
+          {
+            "tag": "否定祈使",
+            "en": "Don't be late for class!",
+            "zh": "上课别迟到！"
+          },
+          {
+            "tag": "否定祈使",
+            "en": "Don't put books on the floor.",
+            "zh": "不要把书放在地板上。"
+          },
+          {
+            "tag": "值日",
+            "en": "Who's on duty today?",
+            "zh": "今天谁值日？"
+          },
+          {
+            "tag": "can + 原形",
+            "en": "I can put back the desks and chairs.",
+            "zh": "我可以把桌椅放回原位。"
+          }
+        ],
+        "example": [
+          {
+            "en": "Turn off the light, please.",
+            "zh": "请关灯。"
+          },
+          {
+            "en": "Don't run in the classroom.",
+            "zh": "不要在教室里跑。"
+          },
+          {
+            "en": "Can you tidy the desks?",
+            "zh": "你能整理书桌吗？"
+          }
+        ],
+        "mistake": "祈使句开头用动词原形，不能加 s 或 to；否定祈使句用 Don't，不能用 Not；can 后面接动词原形。"
+      },
+      {
+        "id": "u2-family-rules",
+        "unit": "Unit 2",
+        "title": "家规",
+        "summary": "请求许可用 Can I ...?；表示“必须、不得不”用 have to（第三人称单数用 has to）；提醒别人不要做某事用 Don't + 动词原形。",
+        "structure": [
+          {
+            "tag": "请求许可",
+            "en": "Mum, can I watch TV?",
+            "zh": "妈妈，我能看电视吗？"
+          },
+          {
+            "tag": "必须",
+            "en": "You have to do your homework first.",
+            "zh": "你得先做作业。"
+          },
+          {
+            "tag": "别大声",
+            "en": "Don't be so loud!",
+            "zh": "别这么大声！"
+          },
+          {
+            "tag": "小心",
+            "en": "Be careful.",
+            "zh": "小心。"
+          },
+          {
+            "tag": "别碰",
+            "en": "Don't touch hot things.",
+            "zh": "别碰烫的东西。"
+          },
+          {
+            "tag": "三单",
+            "en": "She has to go to bed now.",
+            "zh": "她现在必须上床睡觉了。"
+          }
+        ],
+        "example": [
+          {
+            "en": "Can I play games now? No, you have to read first.",
+            "zh": "我现在能玩游戏吗？不行，你得先读书。"
+          },
+          {
+            "en": "Don't run in the living room.",
+            "zh": "不要在客厅里跑。"
+          },
+          {
+            "en": "Be quiet. The baby is sleeping.",
+            "zh": "安静。宝宝在睡觉。"
+          }
+        ],
+        "mistake": "have to 在第三人称单数主语后用 has to；Don't 后面接动词原形，不能接 to；Can I ...? 的回答不能直接用 Yes, I do.。"
+      },
+      {
+        "id": "u3-time-for-school",
+        "unit": "Unit 3",
+        "title": "上学时间",
+        "summary": "问时间用 What time is it?，回答 It's + 数字 + o'clock；表示“该做某事了”用 It's time for + 名词 或 It's time to + 动词原形；go home 中间不加 to，go to school 要加 to。",
+        "structure": [
+          {
+            "tag": "问时间",
+            "en": "What time is it?",
+            "zh": "几点了？"
+          },
+          {
+            "tag": "答时间",
+            "en": "It's 5 o'clock.",
+            "zh": "现在五点了。"
+          },
+          {
+            "tag": "该回家了",
+            "en": "Time to go home, kids.",
+            "zh": "孩子们，该回家了。"
+          },
+          {
+            "tag": "for + 名词",
+            "en": "It's time for dinner.",
+            "zh": "该吃晚饭了。"
+          },
+          {
+            "tag": "to + 原形",
+            "en": "It's time to get up.",
+            "zh": "该起床了。"
+          },
+          {
+            "tag": "固定搭配",
+            "en": "go to school / go home / go to bed",
+            "zh": "上学 / 回家 / 上床睡觉"
+          }
+        ],
+        "example": [
+          {
+            "en": "What time is it? It's seven o'clock.",
+            "zh": "几点了？七点。"
+          },
+          {
+            "en": "It's time for lunch.",
+            "zh": "该吃午饭了。"
+          },
+          {
+            "en": "It's time to go to bed.",
+            "zh": "该上床睡觉了。"
+          }
+        ],
+        "mistake": "It's time for 后面接名词，It's time to 后面接动词原形，不能混用；go home 不能说 go to home；问时间用 What time，不用 How time。"
+      },
+      {
+        "id": "u4-going-shopping",
+        "unit": "Unit 4",
+        "title": "去买东西",
+        "summary": "请求买东西用 Can I buy ...?；问价钱用 How much is / are ...?，单数用 is，复数用 are；指近处用 this / these，指远处用 that / those。",
+        "structure": [
+          {
+            "tag": "请求",
+            "en": "Can I buy a new pair?",
+            "zh": "我能买条新的吗？"
+          },
+          {
+            "tag": "店员询问",
+            "en": "Can I help you?",
+            "zh": "要帮忙吗？"
+          },
+          {
+            "tag": "表达喜欢",
+            "en": "I like this pink dress.",
+            "zh": "我喜欢这件粉色的长裙。"
+          },
+          {
+            "tag": "决定买",
+            "en": "Let's take it.",
+            "zh": "我们买下它吧。"
+          },
+          {
+            "tag": "问价钱",
+            "en": "How much is this dress?",
+            "zh": "这条裙子多少钱？"
+          },
+          {
+            "tag": "复数",
+            "en": "How much are these shoes?",
+            "zh": "这双鞋多少钱？"
+          }
+        ],
+        "example": [
+          {
+            "en": "Can I buy this T-shirt? Sure.",
+            "zh": "我能买这件T恤吗？当然。"
+          },
+          {
+            "en": "How much are those trousers? They're 90 yuan.",
+            "zh": "那条裤子多少钱？九十元。"
+          },
+          {
+            "en": "These shoes are too small. Those are big.",
+            "zh": "这双鞋太小了，那些大。"
+          }
+        ],
+        "mistake": "How much 后面单数用 is、复数用 are；this / that 接单数，these / those 接复数；trousers / shorts / shoes 是复数，要用 are。"
+      },
+      {
+        "id": "u5-farms-and-us",
+        "unit": "Unit 5",
+        "title": "农场里的动物",
+        "summary": "问农场里有什么动物用 What animals do you have?；询问这些/那些是什么用 What are these / those?，回答 They're ...；名词复数有规则变化和不规则变化（sheep 不变，mouse → mice，tomato → tomatoes）。",
+        "structure": [
+          {
+            "tag": "问动物",
+            "en": "What animals do you have on the farm?",
+            "zh": "您的农场上养了哪些动物？"
+          },
+          {
+            "tag": "回答",
+            "en": "I have a lot of animals.",
+            "zh": "我养了很多动物。"
+          },
+          {
+            "tag": "问这些",
+            "en": "What are these?",
+            "zh": "这些是什么？"
+          },
+          {
+            "tag": "回答",
+            "en": "They're tomatoes.",
+            "zh": "这些是西红柿。"
+          },
+          {
+            "tag": "感叹",
+            "en": "How fresh!",
+            "zh": "真新鲜啊！"
+          },
+          {
+            "tag": "复数",
+            "en": "cows / horses / sheep / mice",
+            "zh": "奶牛 / 马 / 羊 / 老鼠"
+          }
+        ],
+        "example": [
+          {
+            "en": "What animals do you have? I have ten cows.",
+            "zh": "你养了哪些动物？我养了十头奶牛。"
+          },
+          {
+            "en": "What are those? They're potatoes.",
+            "zh": "那些是什么？是土豆。"
+          },
+          {
+            "en": "There are three sheep on the farm.",
+            "zh": "农场上有三只羊。"
+          }
+        ],
+        "mistake": "do you have 中用 have 原形，不能加 s；sheep 的复数不加 s；tomato 和 potato 的复数加 es。"
+      },
+      {
+        "id": "u6-from-farm-to-table",
+        "unit": "Unit 6",
+        "title": "从农场到餐桌",
+        "summary": "提建议用 Let's + 动词原形；请求别人帮忙用 Can you please ...?；礼貌询问对方需要什么用 Would you like ...?，接受时回答 Yes, please.，拒绝时说 No, thank you.。",
+        "structure": [
+          {
+            "tag": "建议",
+            "en": "Let's feed the chickens.",
+            "zh": "我们喂鸡吧。"
+          },
+          {
+            "tag": "请求",
+            "en": "Can you please pass me the vegetables?",
+            "zh": "能否请你把蔬菜递给我？"
+          },
+          {
+            "tag": "询问需要",
+            "en": "Would you like a knife and fork?",
+            "zh": "你们需要餐刀和餐叉吗？"
+          },
+          {
+            "tag": "拒绝",
+            "en": "No, thank you. I can use chopsticks.",
+            "zh": "不用，谢谢您。我会用筷子。"
+          },
+          {
+            "tag": "提醒",
+            "en": "Don't waste food, please.",
+            "zh": "请不要浪费食物。"
+          },
+          {
+            "tag": "餐具",
+            "en": "bowl / spoon / fork / knife / chopsticks",
+            "zh": "碗 / 勺 / 叉 / 刀 / 筷子"
+          }
+        ],
+        "example": [
+          {
+            "en": "Let's set the table.",
+            "zh": "我们摆放餐具吧。"
+          },
+          {
+            "en": "Can you please pass me the spoon? Sure.",
+            "zh": "请把勺子递给我好吗？当然。"
+          },
+          {
+            "en": "Would you like some salad? Yes, please.",
+            "zh": "你想来点沙拉吗？好的，谢谢。"
+          }
+        ],
+        "mistake": "Let's 后面接动词原形；Would you like ...? 的回答用 Yes, please. / No, thank you.；chopsticks 常用复数。"
       }
     ]
   },
@@ -3534,7 +7738,7 @@ window.__EMBEDDED_BANKS = {
       {
         "grade": 5,
         "word": "take care of",
-        "phonetic": "",
+        "phonetic": "/teɪk keə(r) əv/",
         "meaning": "爱护；照顾",
         "unit": "Unit 4"
       },
